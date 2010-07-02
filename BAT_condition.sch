@@ -1,11 +1,39 @@
-EESchema Schematic File Version 1
-LIBS:power,./freeEMS_lib,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./freeEMS_1.cache
+EESchema Schematic File Version 2  date Fri 02 Jul 2010 02:24:35 PM ART
+LIBS:power
+LIBS:freeEMS_lib
+LIBS:device
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:valves
+LIBS:freeEMS_1-cache
 EELAYER 23  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 37 41
 Title "freeEMS 1.0"
-Date "15 nov 2008"
+Date "2 jul 2010"
 Rev "A.20"
 Comp "diyefi.org"
 Comment1 "BAT_condition"
@@ -19,23 +47,23 @@ Wire Wire Line
 	2250 1800 2500 1800
 Wire Wire Line
 	2250 2300 2500 2300
-Text GLabel 2250 1800 0    60   Output
+Text HLabel 2250 1800 0    60   Output ~ 0
 12v_power
 $Comp
 L R R176
 U 1 1 4890FC9B
 P 2500 2550
-F 0 "R176" V 2580 2550 50  0000 C C
-F 1 "10k" V 2500 2550 50  0000 C C
-F 2 "R4-SM0805" V 2680 2650 60  0001 C C
-F 4 "newark,38k0328" V 1130 2600 60  0001 C C
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C C
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C C
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C C
-F 8 "250,mW" V 1130 2600 60  0001 C C
-F 9 "5,%" V 1130 2600 60  0001 C C
-F 10 "carbon film" V 1130 2600 60  0001 C C
-F 11 "other,more,stuff" V 1130 2600 60  0001 C C
+F 0 "R176" V 2580 2550 50  0000 C CNN
+F 1 "10k" V 2500 2550 50  0000 C CNN
+F 2 "R4-SM0805" V 2680 2650 60  0001 C CNN
+F 4 "newark,38k0328" V 1130 2600 60  0001 C CNN "Field1"
+F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
+F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
+F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
+F 8 "250,mW" V 1130 2600 60  0001 C CNN "Field5"
+F 9 "5,%" V 1130 2600 60  0001 C CNN "Field6"
+F 10 "carbon film" V 1130 2600 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	1    2500 2550
 	1    0    0    -1  
 $EndComp
@@ -43,22 +71,22 @@ $Comp
 L R R175
 U 1 1 4890FC93
 P 2500 2050
-F 0 "R175" V 2580 2050 50  0000 C C
-F 1 "39k" V 2500 2050 50  0000 C C
-F 2 "R4-SM0805" V 2680 2150 60  0001 C C
-F 4 "newark,38K0371" V 1130 2600 60  0001 C C
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C C
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C C
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C C
-F 8 "250,mW" V 1130 2600 60  0001 C C
-F 9 "5,%" V 1130 2600 60  0001 C C
-F 10 "carbon film" V 1130 2600 60  0001 C C
-F 11 "other,more,stuff" V 1130 2600 60  0001 C C
+F 0 "R175" V 2580 2050 50  0000 C CNN
+F 1 "39k" V 2500 2050 50  0000 C CNN
+F 2 "R4-SM0805" V 2680 2150 60  0001 C CNN
+F 4 "newark,38K0371" V 1130 2600 60  0001 C CNN "Field1"
+F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
+F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
+F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
+F 8 "250,mW" V 1130 2600 60  0001 C CNN "Field5"
+F 9 "5,%" V 1130 2600 60  0001 C CNN "Field6"
+F 10 "carbon film" V 1130 2600 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	1    2500 2050
 	1    0    0    -1  
 $EndComp
-Text GLabel 2250 2800 0    60   BiDi
+Text HLabel 2250 2800 0    60   BiDi ~ 0
 analog_sensor_gnd
-Text GLabel 2250 2300 0    60   Output
+Text HLabel 2250 2300 0    60   Output ~ 0
 analog_sensor_BAT
 $EndSCHEMATC
