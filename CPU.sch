@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 03 Jul 2010 10:49:02 AM ART
+EESchema Schematic File Version 2  date Sat 03 Jul 2010 12:32:24 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -42,10 +42,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 9S12XDP512 P?
+L 9S12XDP512 P43
 U 1 1 4893CC4C
 P 3300 3800
-F 0 "P?" H 3300 5100 60  0000 C CNN
+F 0 "P43" H 3300 5100 60  0000 C CNN
 F 1 "9S12XDP512" V 3300 3800 50  0000 C CNN
 F 2 "9S12XDP512" V 4080 5550 60  0001 C CNN
 F 4 "vendor1, thru w hem" V 1130 2600 60  0001 C CNN "Field1"

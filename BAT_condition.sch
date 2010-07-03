@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 03 Jul 2010 10:49:02 AM ART
+EESchema Schematic File Version 2  date Sat 03 Jul 2010 12:32:24 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -50,10 +50,10 @@ Wire Wire Line
 Text HLabel 2250 1800 0    60   Output ~ 0
 12v_power
 $Comp
-L R R?
+L R R106
 U 1 1 4890FC9B
 P 2500 2550
-F 0 "R?" V 2580 2550 50  0000 C CNN
+F 0 "R106" V 2580 2550 50  0000 C CNN
 F 1 "10k" V 2500 2550 50  0000 C CNN
 F 2 "R4-SM0805" V 2680 2650 60  0001 C CNN
 F 4 "newark,38k0328" V 1130 2600 60  0001 C CNN "Field1"
@@ -68,10 +68,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R105
 U 1 1 4890FC93
 P 2500 2050
-F 0 "R?" V 2580 2050 50  0000 C CNN
+F 0 "R105" V 2580 2050 50  0000 C CNN
 F 1 "39k" V 2500 2050 50  0000 C CNN
 F 2 "R4-SM0805" V 2680 2150 60  0001 C CNN
 F 4 "newark,38K0371" V 1130 2600 60  0001 C CNN "Field1"

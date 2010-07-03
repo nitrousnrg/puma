@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 03 Jul 2010 10:49:02 AM ART
+EESchema Schematic File Version 2  date Sat 03 Jul 2010 12:32:24 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -41,6 +41,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 6550 3050
+NoConn ~ 6550 3150
 NoConn ~ 5200 2650
 NoConn ~ 5200 2750
 NoConn ~ 5200 2850
@@ -399,8 +401,6 @@ Wire Wire Line
 Wire Wire Line
 	7500 2750 6550 2750
 Wire Wire Line
-	7500 3150 6550 3150
-Wire Wire Line
 	16250 5450 15400 5450
 Connection ~ 16250 5450
 Wire Wire Line
@@ -501,8 +501,6 @@ Wire Wire Line
 	2450 9150 1750 9150
 Wire Wire Line
 	4150 9150 4400 9150
-Wire Wire Line
-	6550 3050 7500 3050
 Wire Wire Line
 	10850 4200 9700 4200
 Wire Wire Line
@@ -1011,10 +1009,6 @@ Text Label 2900 1900 1    60   ~ 0
 12V sw
 NoConn ~ 5200 2550
 NoConn ~ 5200 2450
-Entry Wire Line
-	7500 3150 7600 3050
-Entry Wire Line
-	7500 3050 7600 2950
 Text Label 11800 4900 0    60   ~ 0
 TEMP_IN_2
 Text Label 11800 4450 0    60   ~ 0
@@ -1167,8 +1161,6 @@ Text Label 9850 4100 0    60   ~ 0
 BAT_IN_1
 Text Label 1050 4100 0    60   ~ 0
 O2_IN_1
-Text Label 6700 3050 0    60   ~ 0
-I_IN_6
 Text Label 800  5600 0    60   ~ 0
 ind_dr_1
 Text Label 800  5700 0    60   ~ 0
@@ -1347,8 +1339,8 @@ Entry Wire Line
 $Sheet
 S 12400 5700 3000 200 
 U 4C2E1E6F
-F0 "MAP_input_2" 60
-F1 "MAP_input2.sch" 60
+F0 "MAP_input_baro" 60
+F1 "MAP_input_2.sch" 60
 F2 "analog_sensor_gnd" B R 15400 5750 60 
 F3 "analog_sensor_MAP" O L 12400 5750 60 
 F4 "5v reg" I R 15400 5850 60 
@@ -1356,8 +1348,8 @@ $EndSheet
 $Sheet
 S 12400 5300 3000 200 
 U 4C2E1E71
-F0 "MAP_input_1" 60
-F1 "MAP_input1.sch" 60
+F0 "MAP_input" 60
+F1 "MAP_input_1.sch" 60
 F2 "analog_sensor_gnd" B R 15400 5350 60 
 F3 "analog_sensor_MAP" O L 12400 5350 60 
 F4 "5v reg" I R 15400 5450 60 
@@ -1507,8 +1499,6 @@ Entry Wire Line
 	7500 1650 7600 1750
 Entry Wire Line
 	7500 1550 7600 1650
-Text Label 6700 3150 0    60   ~ 0
-I_IN_5
 Text Label 6700 1750 0    60   ~ 0
 ind_gpd_3
 Entry Wire Line
@@ -1650,7 +1640,7 @@ $Sheet
 S 12400 8100 3000 300 
 U 4C2E1E95
 F0 "RPM_input_2" 60
-F1 "RPM_input2.sch" 60
+F1 "RPM_input.sch" 60
 F2 "digi_sensor_gnd" B R 15400 8150 60 
 F3 "digi_sensor_RPM" O L 12400 8150 60 
 F4 "12v_power" I R 15400 8250 60 
@@ -1660,7 +1650,7 @@ $Sheet
 S 12400 7600 3000 300 
 U 4C2E1E97
 F0 "RPM_input_1" 60
-F1 "RPM_input1.sch" 60
+F1 "RPM_input.sch" 60
 F2 "digi_sensor_gnd" B R 15400 7650 60 
 F3 "digi_sensor_RPM" O L 12400 7650 60 
 F4 "12v_power" I R 15400 7750 60 
@@ -1688,7 +1678,7 @@ $Sheet
 S 12400 4850 3000 200 
 U 4C2E1E9D
 F0 "thermistor_input_2" 60
-F1 "thermistor_resistor_input2.sch" 60
+F1 "thermistor_resistor_input.sch" 60
 F2 "analog_sensor_gnd" B R 15400 4900 60 
 F3 "analog_sensor_TEMP" O L 12400 4900 60 
 F4 "Measure_temp" I L 12400 5000 60 
@@ -1698,7 +1688,7 @@ $Sheet
 S 12400 4400 3000 200 
 U 4C2E1E9F
 F0 "thermistor_input_1" 60
-F1 "thermistor_resistor_input1.sch" 60
+F1 "thermistor_resistor_input.sch" 60
 F2 "analog_sensor_gnd" B R 15400 4450 60 
 F3 "analog_sensor_TEMP" O L 12400 4450 60 
 F4 "5v_reg" I R 15400 4550 60 
