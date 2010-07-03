@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 02 Jul 2010 05:44:26 PM ART
+EESchema Schematic File Version 2  date Sat 03 Jul 2010 10:49:02 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,10 +31,10 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 41 41
+Sheet 43 41
 Title "freeEMS 1.0"
-Date "2 jul 2010"
-Rev "A.20"
+Date "3 jul 2010"
+Rev "A.08"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
@@ -42,10 +42,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 9S12XDP512 P55
+L 9S12XDP512 P?
 U 1 1 4893CC4C
 P 3300 3800
-F 0 "P55" H 3300 5100 60  0000 C CNN
+F 0 "P?" H 3300 5100 60  0000 C CNN
 F 1 "9S12XDP512" V 3300 3800 50  0000 C CNN
 F 2 "9S12XDP512" V 4080 5550 60  0001 C CNN
 F 4 "vendor1, thru w hem" V 1130 2600 60  0001 C CNN "Field1"

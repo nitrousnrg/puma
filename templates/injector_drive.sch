@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 03 Jul 2010 03:41:11 AM ART
+EESchema Schematic File Version 2  date Sat 03 Jul 2010 10:29:54 AM ART
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -28,7 +28,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:freeEMS_lib
 LIBS:injector_drive-cache
-EELAYER 23  0
+EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
@@ -204,7 +204,7 @@ L R R?
 U 1 1 4C2ED077
 P 5200 3450
 F 0 "R?" V 5280 3450 50  0000 C CNN
-F 1 "0.1" V 5200 3450 50  0000 C CNN
+F 1 "0.1 2W" V 5200 3450 50  0000 C CNN
 	1    5200 3450
 	0    1    1    0   
 $EndComp

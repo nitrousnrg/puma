@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 02 Jul 2010 05:44:26 PM ART
+EESchema Schematic File Version 2  date Sat 03 Jul 2010 10:49:02 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,10 +31,10 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 27 41
+Sheet 1 41
 Title "freeEMS 1.0"
-Date "2 jul 2010"
-Rev "A.20"
+Date "3 jul 2010"
+Rev "A.08"
 Comp "diyefi.org"
 Comment1 "digi_protect.sch"
 Comment2 ""
@@ -56,10 +56,10 @@ Wire Wire Line
 	3250 2150 1950 2150
 Connection ~ 2800 2150
 $Comp
-L R R96
+L R R?
 U 1 1 489B944C
 P 4100 1750
-F 0 "R96" V 4180 1750 50  0000 C CNN
+F 0 "R?" V 4180 1750 50  0000 C CNN
 F 1 "10k" V 4100 1750 50  0000 C CNN
 F 2 "R4-SM0805" V 4280 1850 60  0001 C CNN
 F 4 "newark,38K0328" V 1130 2600 60  0001 C CNN "Field1"
@@ -74,10 +74,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L DIODE D73
+L DIODE D?
 U 1 1 489B937D
 P 2800 1550
-F 0 "D73" H 2800 1650 40  0000 C CNN
+F 0 "D?" H 2800 1650 40  0000 C CNN
 F 1 "DIODE" H 2800 1450 40  0000 C CNN
 F 2 "D4-SMB" V 1130 2600 60  0001 C CNN
 F 4 "newark,98K1092" V 1130 2600 60  0001 C CNN "Field1"
@@ -94,10 +94,10 @@ $EndComp
 Text HLabel 1950 1350 0    60   Input ~ 0
 digi_vcc
 $Comp
-L ZENER D74
+L ZENER D?
 U 1 1 486F8DB9
 P 2800 1950
-F 0 "D74" H 2800 2050 50  0000 C CNN
+F 0 "D?" H 2800 2050 50  0000 C CNN
 F 1 "5V1" H 2800 1850 40  0000 C CNN
 F 2 "D4-SMB" V 1130 2600 60  0001 C CNN
 F 4 "newark,18M3285" V 1130 2600 60  0001 C CNN "Field1"
@@ -112,10 +112,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R95
+L R R?
 U 1 1 486F8D89
 P 2400 1750
-F 0 "R95" V 2480 1750 50  0000 C CNN
+F 0 "R?" V 2480 1750 50  0000 C CNN
 F 1 "10k" V 2400 1750 50  0000 C CNN
 F 2 "R4-SM0805" V 2580 1850 60  0001 C CNN
 F 4 "newark,38K0328" V 1130 2600 60  0001 C CNN "Field1"
@@ -130,10 +130,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C47
+L C C?
 U 1 1 486F8D85
 P 3250 1950
-F 0 "C47" H 3300 2050 50  0000 L CNN
+F 0 "C?" H 3300 2050 50  0000 L CNN
 F 1 "100nF" H 3300 1850 50  0000 L CNN
 F 2 "C1V7" V 1130 2600 60  0001 C CNN
 F 4 "newark,39K8137" V 1130 2600 60  0001 C CNN "Field1"
@@ -148,10 +148,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR044
+L GND #PWR?
 U 1 1 486F8D7E
 P 2800 2250
-F 0 "#PWR044" H 2800 2250 30  0001 C CNN
+F 0 "#PWR?" H 2800 2250 30  0001 C CNN
 F 1 "GND" H 2800 2180 30  0001 C CNN
 	1    2800 2250
 	1    0    0    -1  

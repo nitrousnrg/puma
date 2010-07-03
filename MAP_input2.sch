@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 02 Jul 2010 05:44:26 PM ART
+EESchema Schematic File Version 2  date Sat 03 Jul 2010 10:49:02 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,10 +31,10 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 16 41
+Sheet 1 41
 Title "freeEMS 1.0"
-Date "2 jul 2010"
-Rev "A.20"
+Date "3 jul 2010"
+Rev "A.07"
 Comp "diyefi.org"
 Comment1 "MAP_input.sch"
 Comment2 ""
@@ -42,10 +42,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MPX4100A U5
+L MPX4100A U?
 U 1 1 48B144B7
 P 5100 1500
-F 0 "U5" H 4850 2050 70  0000 C CNN
+F 0 "U?" H 4850 2050 70  0000 C CNN
 F 1 "MPX4100A" H 5050 950 70  0000 C CNN
 F 2 "SOP_case_482" V 1130 2600 60  0001 C CNN
 F 4 "newark,75C3857" V 1130 2600 60  0001 C CNN "Field1"
@@ -86,10 +86,10 @@ Wire Wire Line
 Text HLabel 2400 1600 0    60   BiDi ~ 0
 analog_sensor_gnd
 $Comp
-L C C20
+L C C?
 U 1 1 488D2158
 P 3800 1400
-F 0 "C20" H 3850 1500 50  0000 L CNN
+F 0 "C?" H 3850 1500 50  0000 L CNN
 F 1 ".01uF" H 3850 1300 50  0000 L CNN
 F 2 "C1V7" V 1130 2600 60  0001 C CNN
 F 4 "newark,75M7682" V 1130 2600 60  0001 C CNN "Field1"
@@ -104,10 +104,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C21
+L C C?
 U 1 1 488D2153
 P 3800 1800
-F 0 "C21" H 3850 1900 50  0000 L CNN
+F 0 "C?" H 3850 1900 50  0000 L CNN
 F 1 "470pF" H 3850 1700 50  0000 L CNN
 F 2 "C1V7" V 1130 2600 60  0001 C CNN
 F 4 "newark,19C6191" V 1130 2600 60  0001 C CNN "Field1"
@@ -122,10 +122,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C19
+L C C?
 U 1 1 488D2133
 P 3300 1400
-F 0 "C19" H 3350 1500 50  0000 L CNN
+F 0 "C?" H 3350 1500 50  0000 L CNN
 F 1 ".1uF" H 3350 1300 50  0000 L CNN
 F 2 "C1V7" V 1130 2600 60  0001 C CNN
 F 4 "newark,97M4164" V 1130 2600 60  0001 C CNN "Field1"

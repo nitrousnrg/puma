@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 02 Jul 2010 05:44:26 PM ART
+EESchema Schematic File Version 2  date Sat 03 Jul 2010 10:49:02 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,36 +31,21 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 39 41
+Sheet 1 41
 Title "freeEMS 1.0"
-Date "2 jul 2010"
-Rev "A.20"
+Date "3 jul 2010"
+Rev "A.07"
 Comp "diyefi.org"
 Comment1 "thermistor_resistor_input.sch"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 3300 2350
-Wire Wire Line
-	2650 2350 3350 2350
-Wire Wire Line
-	3350 2350 3350 1950
-Wire Wire Line
-	3350 1950 3300 1950
-Wire Wire Line
-	2700 1450 3300 1450
-Wire Wire Line
-	2700 950  3300 950 
-Wire Wire Line
-	2650 2150 3000 2150
-Wire Wire Line
-	3300 1450 3300 1750
 $Comp
-L PIP-3104 Q22
+L PIP-3104 Q?
 U 1 1 48B16ED5
 P 3200 2150
-F 0 "Q22" H 3210 2320 60  0000 R CNN
+F 0 "Q?" H 3210 2320 60  0000 R CNN
 F 1 "MOS_N" H 3210 2000 60  0000 R CNN
 F 2 "TO92" V 3130 2900 60  0001 C CNN
 F 4 "digi,PIP3104-ND" V 1330 3900 60  0001 C CNN "Field1"
@@ -75,39 +60,49 @@ F 11 "other,more,stuff" V 1330 3900 60  0001 C CNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P52
+L CONN_1 P?
 U 1 1 48AA1AB3
 P 3450 1950
-F 0 "P52" H 3530 1950 40  0000 L CNN
+F 0 "P?" H 3530 1950 40  0000 L CNN
 F 1 "CONN_1" H 3450 2005 30  0001 C CNN
 F 2 "1PIN" V 1130 2600 60  0001 C CNN
 	1    3450 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P51
+L CONN_1 P?
 U 1 1 48AA1AB0
 P 3450 1750
-F 0 "P51" H 3530 1750 40  0000 L CNN
+F 0 "P?" H 3530 1750 40  0000 L CNN
 F 1 "CONN_1" H 3450 1805 30  0001 C CNN
 F 2 "1PIN" V 1130 2600 60  0001 C CNN
 	1    3450 1750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3300 1750 3300 1450
+Wire Wire Line
+	2650 2150 3000 2150
+Wire Wire Line
+	2700 950  3300 950 
+Wire Wire Line
+	3300 1450 2700 1450
+Wire Wire Line
+	2650 2350 3300 2350
 Text HLabel 2700 950  0    60   Output ~ 0
 5v_reg
 $Comp
-L R R177
+L R R?
 U 1 1 488E4A25
 P 3300 1200
-F 0 "R177" V 3380 1200 50  0000 C CNN
+F 0 "R?" V 3380 1200 50  0000 C CNN
 F 1 "2.7k" V 3300 1200 50  0000 C CNN
 F 2 "R4-SM0805" V 3480 1300 60  0001 C CNN
 F 4 "newark,41K8850" V 1130 2600 60  0001 C CNN "Field1"
 F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 ".125,W" V 1130 2600 60  0001 C CNN "Field5"
+F 8 ".5,W" V 1130 2600 60  0001 C CNN "Field5"
 F 9 "1,%" V 1130 2600 60  0001 C CNN "Field6"
 F 10 "metal film" V 1130 2600 60  0001 C CNN "Field7"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
