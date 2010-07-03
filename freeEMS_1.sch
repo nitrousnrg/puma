@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 03 Jul 2010 12:32:24 PM ART
+EESchema Schematic File Version 2  date Sat 03 Jul 2010 05:37:07 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -41,12 +41,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 6550 3050
-NoConn ~ 6550 3150
-NoConn ~ 5200 2650
-NoConn ~ 5200 2750
-NoConn ~ 5200 2850
-NoConn ~ 5200 2950
+Wire Wire Line
+	6550 2350 7500 2350
 Connection ~ 12250 2700
 Wire Wire Line
 	12450 2700 12250 2700
@@ -395,8 +391,6 @@ Wire Wire Line
 Connection ~ 8250 8050
 Connection ~ 8250 8850
 Wire Wire Line
-	7500 2350 6550 2350
-Wire Wire Line
 	7500 2550 6550 2550
 Wire Wire Line
 	7500 2750 6550 2750
@@ -677,6 +671,12 @@ Wire Wire Line
 Connection ~ 12250 2250
 Wire Bus Line
 	900  5050 900  4000
+NoConn ~ 6550 3050
+NoConn ~ 6550 3150
+NoConn ~ 5200 2650
+NoConn ~ 5200 2750
+NoConn ~ 5200 2850
+NoConn ~ 5200 2950
 $Sheet
 S 12450 3550 2950 250 
 U 4C2F3E4C

@@ -1,5 +1,5 @@
-update=Fri 02 Jul 2010 11:38:38 PM ART
-last_client=pcbnew
+update=Sat 03 Jul 2010 05:41:28 PM ART
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=
@@ -89,12 +89,20 @@ TxtLar=120
 MSegLar=50
 WpenSer=10
 [pcbnew/libraries]
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=PCB-modules/free_EMS
 LibDir=
-LibName1=connect
-LibName2=discret
-LibName3=pin_array
-LibName4=divers
-LibName5=libcms
-LibName6=display
-LibName7=valves
-LibName8=PCB-modules/free_EMS
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
