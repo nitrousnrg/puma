@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 02 Jul 2010 02:24:35 PM ART
+EESchema Schematic File Version 2  date Fri 02 Jul 2010 05:44:26 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -28,7 +28,7 @@ LIBS:siliconi
 LIBS:contrib
 LIBS:valves
 LIBS:freeEMS_1-cache
-EELAYER 23  0
+EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 35 41
@@ -41,8 +41,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L GND #PWR?
+U 1 1 4C2E4FA4
+P 2600 2600
+F 0 "#PWR?" H 2600 2600 30  0001 C CNN
+F 1 "GND" H 2600 2530 30  0001 C CNN
+	1    2600 2600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4350 2200
 Wire Notes Line
-	1000 2600 2450 2600
+	2450 2600 1000 2600
 Wire Notes Line
 	1000 2600 1000 4050
 Connection ~ 8650 1350
@@ -208,7 +218,6 @@ Wire Wire Line
 	8650 2100 8650 2400
 Wire Wire Line
 	8650 2400 8350 2400
-NoConn ~ 2600 2600
 Text Notes 8200 4950 0    60   ~ 0
 HALL SENSOR CIRCUIT
 Text Notes 1200 4950 0    60   ~ 0
@@ -558,28 +567,28 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR059
+L GND #PWR058
 U 1 1 4892E1C7
 P 2000 2250
-F 0 "#PWR059" H 2000 2250 30  0001 C CNN
+F 0 "#PWR058" H 2000 2250 30  0001 C CNN
 F 1 "GND" H 2000 2180 30  0001 C CNN
 	1    2000 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR061
+L GND #PWR059
 U 1 1 4892E1BF
 P 4450 3000
-F 0 "#PWR061" H 4450 3000 30  0001 C CNN
+F 0 "#PWR059" H 4450 3000 30  0001 C CNN
 F 1 "GND" H 4450 2930 30  0001 C CNN
 	1    4450 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR062
+L GND #PWR060
 U 1 1 4892E1BA
 P 5150 1400
-F 0 "#PWR062" H 5150 1400 30  0001 C CNN
+F 0 "#PWR060" H 5150 1400 30  0001 C CNN
 F 1 "GND" H 5150 1330 30  0001 C CNN
 	1    5150 1400
 	1    0    0    -1  

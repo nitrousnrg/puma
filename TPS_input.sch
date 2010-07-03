@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 02 Jul 2010 02:24:35 PM ART
+EESchema Schematic File Version 2  date Fri 02 Jul 2010 05:44:26 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -28,7 +28,7 @@ LIBS:siliconi
 LIBS:contrib
 LIBS:valves
 LIBS:freeEMS_1-cache
-EELAYER 23  0
+EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 38 41
