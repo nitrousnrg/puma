@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 03 Jul 2010 05:37:07 PM ART
+EESchema Schematic File Version 2  date Thu 22 Jul 2010 10:06:33 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 39 41
+Sheet 38 41
 Title "freeEMS 1.0"
-Date "3 jul 2010"
+Date "22 jul 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 "TPS_input.sch"

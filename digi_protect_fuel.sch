@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 03 Jul 2010 05:37:07 PM ART
+EESchema Schematic File Version 2  date Thu 22 Jul 2010 10:06:33 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 1 41
+Sheet 26 41
 Title "freeEMS 1.0"
-Date "3 jul 2010"
+Date "22 jul 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 "digi_protect.sch"
@@ -41,20 +41,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 2800 1750
+Connection ~ 2800 2150
 Wire Wire Line
-	4350 1750 4550 1750
+	3250 2150 1950 2150
 Wire Wire Line
-	2800 1350 1950 1350
+	2150 1750 1950 1750
+Connection ~ 3250 1750
+Wire Wire Line
+	3850 1750 2650 1750
 Wire Wire Line
 	2800 2250 2800 2150
 Wire Wire Line
-	3850 1750 2650 1750
-Connection ~ 3250 1750
-Wire Wire Line
-	2150 1750 1950 1750
-Wire Wire Line
-	3250 2150 1950 2150
-Connection ~ 2800 2150
+	4350 1750 4550 1750
 $Comp
 L R R44
 U 1 1 489B944C
@@ -73,26 +72,6 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	1    4100 1750
 	0    1    1    0   
 $EndComp
-$Comp
-L DIODE D27
-U 1 1 4C2F52FE
-P 2800 1550
-F 0 "D27" H 2800 1650 40  0000 C CNN
-F 1 "DIODE" H 2800 1450 40  0000 C CNN
-F 2 "D4-SMB" V 1130 2600 60  0001 C CNN
-F 4 "newark,98K1092" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "reverse,V" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "current,A" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "x" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
-	1    2800 1550
-	0    -1   -1   0   
-$EndComp
-Text HLabel 1950 1350 0    60   Input ~ 0
-digi_vcc
 $Comp
 L ZENER D28
 U 1 1 4C2F52CA
