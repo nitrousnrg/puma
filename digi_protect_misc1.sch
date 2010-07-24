@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 22 Jul 2010 10:06:33 AM ART
+EESchema Schematic File Version 2  date Sat 24 Jul 2010 11:01:40 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 27 41
 Title "freeEMS 1.0"
-Date "22 jul 2010"
+Date "24 jul 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 "digi_protect.sch"

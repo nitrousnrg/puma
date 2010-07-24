@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 22 Jul 2010 10:06:33 AM ART
+EESchema Schematic File Version 2  date Sat 24 Jul 2010 11:01:40 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr B 17000 11000
 Sheet 1 41
 Title "freeEMS 1.0"
-Date "22 jul 2010"
+Date "24 jul 2010"
 Rev "A.20"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,6 +41,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 6550 1550
+NoConn ~ 6550 1650
 Wire Bus Line
 	900  4000 900  5050
 Connection ~ 12250 2250
@@ -167,8 +169,6 @@ Wire Bus Line
 	11650 5100 10950 5100
 Wire Bus Line
 	10950 5100 10950 2950
-Wire Wire Line
-	11750 4550 12400 4550
 Wire Bus Line
 	550  5050 550  7050
 Wire Bus Line
@@ -445,10 +445,6 @@ Wire Wire Line
 Wire Wire Line
 	8250 8850 7950 8850
 Wire Wire Line
-	6550 1550 7500 1550
-Wire Wire Line
-	6550 1650 7500 1650
-Wire Wire Line
 	16400 8750 15350 8750
 Wire Wire Line
 	2100 4300 1000 4300
@@ -494,8 +490,6 @@ Wire Wire Line
 	9700 4000 9800 4000
 Wire Wire Line
 	9800 4000 9800 3350
-Wire Wire Line
-	11750 5000 12400 5000
 Wire Bus Line
 	11650 1250 11650 7050
 Wire Bus Line
@@ -1446,14 +1440,6 @@ Text Label 16400 1150 1    60   ~ 0
 12V bat
 Text Label 16250 1150 1    60   ~ 0
 5V_reg
-Text Label 6700 1550 0    60   ~ 0
-th_o_2
-Text Label 6700 1650 0    60   ~ 0
-th_o_1
-Entry Wire Line
-	7500 1650 7600 1750
-Entry Wire Line
-	7500 1550 7600 1650
 Text Label 6700 1750 0    60   ~ 0
 ind_gpd_3
 Entry Wire Line
@@ -1496,10 +1482,6 @@ Text Label 11750 6150 0    60   ~ 0
 TPS_IN_1
 Text Label 11750 5350 0    60   ~ 0
 MAP_IN_1
-Text Label 11800 5000 0    60   ~ 0
-th_o_1
-Text Label 11800 4550 0    60   ~ 0
-th_o_2
 Text Label 9650 8650 0    60   ~ 0
 ind_gpd_3
 Text Label 11800 3600 0    60   ~ 0
@@ -1514,10 +1496,6 @@ Text Label 11800 1650 0    60   ~ 0
 ind_pd_5
 Text Label 11800 1150 0    60   ~ 0
 ind_pd_6
-Entry Wire Line
-	11650 4450 11750 4550
-Entry Wire Line
-	11650 4900 11750 5000
 Entry Wire Line
 	11650 5250 11750 5350
 Entry Wire Line
@@ -1635,8 +1613,7 @@ F0 "thermistor_input_2" 60
 F1 "thermistor_resistor_input.sch" 60
 F2 "analog_sensor_gnd" B R 15400 4900 60 
 F3 "analog_sensor_TEMP" O L 12400 4900 60 
-F4 "Measure_temp" I L 12400 5000 60 
-F5 "5v_reg" I R 15400 5000 60 
+F4 "5v_reg" I R 15400 5000 60 
 $EndSheet
 $Sheet
 S 12400 4400 3000 200 
@@ -1646,7 +1623,6 @@ F1 "thermistor_resistor_input.sch" 60
 F2 "analog_sensor_gnd" B R 15400 4450 60 
 F3 "analog_sensor_TEMP" O L 12400 4450 60 
 F4 "5v_reg" I R 15400 4550 60 
-F5 "Measure_temp" I L 12400 4550 60 
 $EndSheet
 $Sheet
 S 5200 1300 1350 5250

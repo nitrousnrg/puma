@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 22 Jul 2010 10:06:33 AM ART
+EESchema Schematic File Version 2  date Sat 24 Jul 2010 11:01:40 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 28 41
 Title "freeEMS 1.0"
-Date "22 jul 2010"
+Date "24 jul 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "an_protect.sch"
@@ -41,6 +41,36 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L DIODESCH D36
+U 1 1 4C4972F9
+P 2750 1600
+F 0 "D36" H 2750 1700 40  0000 C CNN
+F 1 "SCHOTTKY" H 2750 1500 40  0000 C CNN
+F 2 "SOD-123" H 2750 1600 60  0001 C CNN
+	1    2750 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODESCH D34
+U 1 1 4C4972F8
+P 2700 2950
+F 0 "D34" H 2700 3050 40  0000 C CNN
+F 1 "SCHOTTKY" H 2700 2850 40  0000 C CNN
+F 2 "SOD-123" H 2700 2950 60  0001 C CNN
+	1    2700 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODESCH D32
+U 1 1 4C4972F7
+P 2650 4250
+F 0 "D32" H 2650 4350 40  0000 C CNN
+F 1 "SCHOTTKY" H 2650 4150 40  0000 C CNN
+F 2 "SOD-123" H 2650 4250 60  0001 C CNN
+	1    2650 4250
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	6500 800  6500 3450
 Connection ~ 2750 800 
@@ -116,24 +146,6 @@ F 0 "#PWR056" H 2000 4500 30  0001 C CNN
 F 1 "GND" H 2000 4430 30  0001 C CNN
 	1    2000 4500
 	1    0    0    -1  
-$EndComp
-$Comp
-L DIODE D32
-U 1 1 489597BD
-P 2650 4250
-F 0 "D32" H 2650 4350 40  0000 C CNN
-F 1 "1N4148" H 2650 4150 40  0000 C CNN
-F 2 "D4-SMB" V 1130 2600 60  0001 C CNN
-F 4 "newark,10M2940" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "1000,V" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "1,A" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "x" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
-	1    2650 4250
-	0    -1   -1   0   
 $EndComp
 $Comp
 L C C29
@@ -221,24 +233,6 @@ F 1 "GND" H 2050 3130 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D34
-U 1 1 489597B7
-P 2700 2950
-F 0 "D34" H 2700 3050 40  0000 C CNN
-F 1 "1N4148" H 2700 2850 40  0000 C CNN
-F 2 "D4-SMB" V 1130 2600 60  0001 C CNN
-F 4 "newark,10M2940" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "1000,V" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "1,A" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "x" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
-	1    2700 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
 L C C30
 U 1 1 489597B6
 P 3250 2950
@@ -322,24 +316,6 @@ F 0 "#PWR058" H 2100 1850 30  0001 C CNN
 F 1 "GND" H 2100 1780 30  0001 C CNN
 	1    2100 1850
 	1    0    0    -1  
-$EndComp
-$Comp
-L DIODE D36
-U 1 1 4C2F52A7
-P 2750 1600
-F 0 "D36" H 2750 1700 40  0000 C CNN
-F 1 "1N4148" H 2750 1500 40  0000 C CNN
-F 2 "D4-SMB" V 1130 2600 60  0001 C CNN
-F 4 "newark,10M2940" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "1000,V" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "1,A" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "x" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
-	1    2750 1600
-	0    -1   -1   0   
 $EndComp
 $Comp
 L C C31
