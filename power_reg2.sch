@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 24 Jul 2010 11:01:40 AM ART
+EESchema Schematic File Version 2  date Sun 25 Jul 2010 03:39:31 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 8 41
+Sheet 8 46
 Title "freeEMS 1.0"
-Date "24 jul 2010"
+Date "25 jul 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -42,10 +42,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PWR_FLAG #FLG039
+L PWR_FLAG #FLG1
 U 1 1 4C2F55FB
 P 4850 3300
-F 0 "#FLG039" H 4850 3570 30  0001 C CNN
+F 0 "#FLG1" H 4850 3570 30  0001 C CNN
 F 1 "PWR_FLAG" H 4850 3530 30  0000 C CNN
 	1    4850 3300
 	1    0    0    -1  
@@ -232,10 +232,10 @@ F 11 "other,more,stuff" H 2630 2600 60  0001 C CNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VSS #PWR040
+L VSS #PWR22
 U 1 1 4C2F52A0
 P 7850 3750
-F 0 "#PWR040" H 7850 3750 30  0001 C CNN
+F 0 "#PWR22" H 7850 3750 30  0001 C CNN
 F 1 "VSS" H 7850 3680 30  0000 C CNN
 	1    7850 3750
 	-1   0    0    -1  
@@ -313,10 +313,10 @@ F 11 "other,more,stuff" V 1530 2600 60  0001 C CNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L GND #PWR21
 U 1 1 486CA86E
 P 2600 3750
-F 0 "#PWR041" H 2600 3750 30  0001 C CNN
+F 0 "#PWR21" H 2600 3750 30  0001 C CNN
 F 1 "GND" H 2600 3680 30  0001 C CNN
 	1    2600 3750
 	-1   0    0    -1  
