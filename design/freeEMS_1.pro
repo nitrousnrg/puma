@@ -1,4 +1,4 @@
-update=Sat 03 Jul 2010 05:41:28 PM ART
+update=Mon 26 Jul 2010 08:52:00 AM ART
 last_client=cvpcb
 [eeschema]
 version=1
@@ -99,7 +99,7 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=PCB-modules/free_EMS
+LibName11=/home/marcos/electronica/FreeEMS_1.0_hardware/PCB-modules/free_EMS
 LibDir=
 [cvpcb]
 version=1
