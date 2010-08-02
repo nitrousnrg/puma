@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 25 Jul 2010 03:41:59 PM ART
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 26 Jul 2010 09:25:01 AM ART
 
 BeginCmp
 TimeStamp = /4C2E1E53/4895133C;
@@ -2447,112 +2447,112 @@ BeginCmp
 TimeStamp = /4C2E1E7D/489597C1;
 Reference = R159;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C2E1E7D/4C2F52F3;
 Reference = R160;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C2E1E7D/4C2F52ED;
 Reference = R161;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C2E1E7D/4C4C7B4C;
 Reference = R162;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C2E1E7D/4C4C7B57;
 Reference = R163;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C2E1E7D/4C4C7B52;
 Reference = R164;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C2E1E7D/489597B9;
 Reference = R165;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C2E1E7D/4C2F52DC;
 Reference = R166;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C4C6618/489597C1;
 Reference = R167;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C4C6618/4C2F52F3;
 Reference = R168;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C4C6618/4C2F52ED;
 Reference = R169;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C4C6618/4C4C7B4C;
 Reference = R170;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C4C6618/4C4C7B57;
 Reference = R171;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C4C6618/4C4C7B52;
 Reference = R172;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C4C6618/489597B9;
 Reference = R173;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C4C6618/4C2F52DC;
 Reference = R174;
 ValeurCmp = 1k;
-IdModule  = R4-SM0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp

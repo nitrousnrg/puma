@@ -10,7 +10,7 @@ Main goals are:
 * 6 hi/low Z injector outputs
 * 6 ignition outputs
 * Fuel pump output
-* 2 aux power outputs
+* 3 aux power outputs
 * 4 temperature inputs
 * MAP, baro, battery voltage
 * 3 aux analog inputs

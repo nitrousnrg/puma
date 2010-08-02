@@ -1,0 +1,329 @@
+EESchema Schematic File Version 2  date Mon 02 Aug 2010 11:48:27 AM ART
+LIBS:power
+LIBS:freeEMS_lib
+LIBS:device
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:valves
+LIBS:freeEMS_1-cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 5 47
+Title ""
+Date "2 aug 2010"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 4BC5BF20
+P 5950 1000
+F 0 "#FLG01" H 5950 1270 30  0001 C CNN
+F 1 "PWR_FLAG" H 5950 1230 30  0000 C CNN
+	1    5950 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4550 4200 4600
+Wire Wire Line
+	4200 4600 4550 4600
+Wire Wire Line
+	4550 4600 4550 4350
+Wire Wire Line
+	4550 4350 4750 4350
+Wire Wire Line
+	4750 3750 4650 3750
+Wire Wire Line
+	6950 4750 7050 4750
+Wire Wire Line
+	6950 2950 7050 2950
+Wire Wire Line
+	5750 1000 5750 2350
+Wire Wire Line
+	3200 3350 3200 3050
+Wire Wire Line
+	3200 3050 2900 3050
+Wire Wire Line
+	3000 3850 3000 3350
+Wire Wire Line
+	5300 2100 5300 2150
+Wire Wire Line
+	5300 1650 5550 1650
+Wire Wire Line
+	5550 1650 5550 2350
+Wire Wire Line
+	4450 2500 4450 2450
+Wire Wire Line
+	4450 2450 4650 2450
+Wire Wire Line
+	4650 2450 4650 2950
+Wire Wire Line
+	4650 2950 4750 2950
+Wire Wire Line
+	2900 3250 3300 3250
+Wire Wire Line
+	3300 3250 3300 3350
+Wire Wire Line
+	3300 3350 3450 3350
+Wire Wire Line
+	7200 4300 7200 4250
+Wire Wire Line
+	7200 4250 6950 4250
+Wire Wire Line
+	3950 3350 4750 3350
+Wire Wire Line
+	4750 3550 4500 3550
+Connection ~ 5850 5700
+Wire Wire Line
+	5650 5550 5650 5700
+Wire Wire Line
+	5650 5700 6050 5700
+Wire Wire Line
+	6050 5700 6050 5550
+Wire Wire Line
+	5850 5800 5850 5550
+Wire Wire Line
+	3950 3150 4750 3150
+Wire Wire Line
+	4000 3550 4000 3350
+Connection ~ 4000 3350
+Wire Wire Line
+	2900 3150 3450 3150
+Wire Wire Line
+	3000 3350 2900 3350
+Wire Wire Line
+	4450 2900 4450 2950
+Wire Wire Line
+	5300 1600 5300 1700
+Connection ~ 5300 1650
+Wire Wire Line
+	3200 3750 3000 3750
+Connection ~ 3000 3750
+Wire Wire Line
+	6150 2350 6150 2100
+Wire Wire Line
+	6150 2100 6200 2100
+Wire Wire Line
+	5950 1000 5300 1000
+Wire Wire Line
+	5950 1000 5950 2350
+Connection ~ 5750 1000
+Wire Wire Line
+	5300 1000 5300 1100
+Wire Wire Line
+	6950 3050 7050 3050
+Wire Wire Line
+	4750 4950 4650 4950
+Wire Wire Line
+	4650 4950 4650 5050
+Wire Wire Line
+	4200 3950 4200 3900
+Wire Wire Line
+	4200 3900 4550 3900
+Wire Wire Line
+	4550 3900 4550 4150
+Wire Wire Line
+	4550 4150 4750 4150
+$Comp
+L CRYSTAL X2
+U 1 1 4BC53A83
+P 4200 4250
+F 0 "X2" H 4200 4400 60  0000 C CNN
+F 1 "6MHz" H 4200 4100 60  0000 C CNN
+	1    4200 4250
+	0    1    1    0   
+$EndComp
+NoConn ~ 4750 4750
+NoConn ~ 4750 4650
+NoConn ~ 4750 4550
+Text HLabel 4650 3750 0    60   Input ~ 0
+VCC-USB
+$Comp
+L GND #PWR02
+U 1 1 4BC539AF
+P 4650 5050
+F 0 "#PWR02" H 4650 5050 30  0001 C CNN
+F 1 "GND" H 4650 4980 30  0001 C CNN
+	1    4650 5050
+	1    0    0    -1  
+$EndComp
+Text HLabel 7050 4750 2    60   Input ~ 0
+SLEEP
+NoConn ~ 6950 4650
+NoConn ~ 6950 4350
+NoConn ~ 6950 4050
+NoConn ~ 6950 3950
+NoConn ~ 6950 3650
+NoConn ~ 6950 3550
+NoConn ~ 6950 3450
+NoConn ~ 6950 3350
+NoConn ~ 6950 3250
+NoConn ~ 6950 3150
+Text HLabel 7050 3050 2    60   Input ~ 0
+TX
+Text HLabel 7050 2950 2    60   Input ~ 0
+RX
+Text HLabel 6200 2100 2    60   Input ~ 0
+VCC-IO
+Text HLabel 5300 1000 0    60   Input ~ 0
+VCC-USB
+Text HLabel 3200 3050 2    60   Input ~ 0
+VCC-USB
+$Comp
+L C C25
+U 1 1 4BC537BF
+P 3200 3550
+F 0 "C25" H 3250 3650 50  0000 L CNN
+F 1 "10nF" H 3250 3450 50  0000 L CNN
+	1    3200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R23
+U 1 1 4BC53763
+P 5300 1350
+F 0 "R23" V 5380 1350 50  0000 C CNN
+F 1 "470" V 5300 1350 50  0000 C CNN
+	1    5300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 4BC53752
+P 5300 2150
+F 0 "#PWR03" H 5300 2150 30  0001 C CNN
+F 1 "GND" H 5300 2080 30  0001 C CNN
+	1    5300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C27
+U 1 1 4BC53747
+P 5300 1900
+F 0 "C27" H 5350 2000 50  0000 L CNN
+F 1 "0.1uF" H 5350 1800 50  0000 L CNN
+	1    5300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 4BC53726
+P 4450 2950
+F 0 "#PWR04" H 4450 2950 30  0001 C CNN
+F 1 "GND" H 4450 2880 30  0001 C CNN
+	1    4450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C26
+U 1 1 4BC5371D
+P 4450 2700
+F 0 "C26" H 4500 2800 50  0000 L CNN
+F 1 "33nF" H 4500 2600 50  0000 L CNN
+	1    4450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 4BC536D5
+P 3000 3850
+F 0 "#PWR05" H 3000 3850 30  0001 C CNN
+F 1 "GND" H 3000 3780 30  0001 C CNN
+	1    3000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 4BC5368A
+P 7200 4300
+F 0 "#PWR06" H 7200 4300 30  0001 C CNN
+F 1 "GND" H 7200 4230 30  0001 C CNN
+	1    7200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R20
+U 1 1 4BC53651
+P 3700 3150
+F 0 "R20" V 3780 3150 50  0000 C CNN
+F 1 "27R" V 3700 3150 50  0000 C CNN
+	1    3700 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R21
+U 1 1 4BC53644
+P 3700 3350
+F 0 "R21" V 3780 3350 50  0000 C CNN
+F 1 "27R" V 3700 3350 50  0000 C CNN
+	1    3700 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R22
+U 1 1 4BC5363C
+P 4250 3550
+F 0 "R22" V 4330 3550 50  0000 C CNN
+F 1 "1.5k" V 4250 3550 50  0000 C CNN
+	1    4250 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L USB_2 J3
+U 1 1 4BC535D5
+P 2700 3200
+F 0 "J3" H 2625 3450 60  0000 C CNN
+F 1 "USB_2" H 2750 2900 60  0001 C CNN
+F 4 "VCC" H 3025 3350 50  0001 C CNN "VCC"
+F 6 "D+" H 3000 3250 50  0001 C CNN "Data+"
+F 8 "D-" H 3000 3150 50  0001 C CNN "Data-"
+F 10 "GND" H 3025 3050 50  0001 C CNN "Ground"
+	1    2700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 4BC5356A
+P 5850 5800
+F 0 "#PWR07" H 5850 5800 30  0001 C CNN
+F 1 "GND" H 5850 5730 30  0001 C CNN
+	1    5850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FT232BM I1
+U 1 1 4BC53523
+P 5850 3950
+F 0 "I1" H 6350 5350 60  0000 C CNN
+F 1 "FT232BM" H 6450 2550 60  0000 C CNN
+	1    5850 3950
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,5 +1,5 @@
-update=Mon 26 Jul 2010 08:52:00 AM ART
-last_client=cvpcb
+update=Sat 31 Jul 2010 11:20:27 AM ART
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -62,10 +62,6 @@ LibName25=cypress
 LibName26=siliconi
 LibName27=contrib
 LibName28=valves
-[general]
-version=1
-RootSch=
-BoardNm=
 [pcbnew]
 version=1
 PadDrlX=0
@@ -106,3 +102,5 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
