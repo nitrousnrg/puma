@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 02 Aug 2010 11:48:27 AM ART
+EESchema Schematic File Version 2  date Wed 04 Aug 2010 07:20:22 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 8 47
+Sheet 15 47
 Title "freeEMS 1.0"
-Date "2 aug 2010"
+Date "4 aug 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -41,107 +41,59 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	5400 3100 5400 3300
+Wire Wire Line
+	5400 3100 5500 3100
+Connection ~ 7000 3300
+Wire Wire Line
+	7850 3300 6750 3300
+Wire Wire Line
+	6750 3300 6750 3100
+Wire Wire Line
+	6750 3100 6600 3100
+Connection ~ 5900 3700
+Connection ~ 6100 3700
+Wire Wire Line
+	2500 3300 2650 3300
+Connection ~ 4850 3700
+Connection ~ 4850 3300
+Wire Wire Line
+	3050 3300 3100 3300
+Wire Wire Line
+	2600 3750 2600 3700
+Connection ~ 7000 3700
+Wire Wire Line
+	7850 3750 7850 3700
+Connection ~ 7450 3300
+Connection ~ 7450 3700
+Connection ~ 5250 3700
+Connection ~ 5250 3300
+Wire Wire Line
+	7850 3700 2600 3700
+Wire Wire Line
+	5400 3300 3600 3300
+Connection ~ 6000 3700
+Connection ~ 6200 3700
 $Comp
-L PWR_FLAG #FLG1
+L LM2936 U16
+U 1 1 4C59CC23
+P 6050 3100
+F 0 "U16" H 6350 2850 60  0000 C CNN
+F 1 "LM2936" H 6050 3250 60  0000 C CNN
+	1    6050 3100
+	-1   0    0    -1  
+$EndComp
+Text Notes 5250 2450 0    60   ~ 0
+ANALOG VOLTAGE SUPPLY
+$Comp
+L PWR_FLAG #FLG059
 U 1 1 4C2F55FB
 P 4850 3300
-F 0 "#FLG1" H 4850 3570 30  0001 C CNN
+F 0 "#FLG059" H 4850 3570 30  0001 C CNN
 F 1 "PWR_FLAG" H 4850 3530 30  0000 C CNN
 	1    4850 3300
 	1    0    0    -1  
-$EndComp
-$Comp
-L 7805-DIYEFI U3
-U 1 1 4C2F532F
-P 5800 3350
-F 0 "U3" H 5950 3154 60  0000 C CNN
-F 1 "7805-DIYEFI" H 5800 3550 60  0000 C CNN
-F 2 "TO220_sm" V 2630 2600 60  0001 C CNN
-F 4 "newark,45J1442" V 2630 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 2630 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 2630 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 2630 2600 60  0001 C CNN "Field4"
-F 8 "x,x" V 2630 2600 60  0001 C CNN "Field5"
-F 9 "x,x" V 2630 2600 60  0001 C CNN "Field6"
-F 10 "linear" V 2630 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 2630 2600 60  0001 C CNN "Field8"
-	1    5800 3350
-	1    0    0    -1  
-$EndComp
-Connection ~ 5350 3300
-Wire Wire Line
-	5350 3300 5350 2900
-Wire Wire Line
-	5350 2900 5600 2900
-Connection ~ 6550 3700
-Connection ~ 6550 3300
-Wire Wire Line
-	5400 3300 3600 3300
-Wire Wire Line
-	7850 3700 2600 3700
-Connection ~ 5250 3300
-Connection ~ 4400 3700
-Connection ~ 5250 3700
-Connection ~ 4400 3300
-Connection ~ 7450 3700
-Wire Wire Line
-	7850 3300 6200 3300
-Connection ~ 7450 3300
-Connection ~ 7000 3300
-Wire Wire Line
-	7850 3700 7850 3750
-Wire Wire Line
-	5800 3700 5800 3600
-Connection ~ 7000 3700
-Wire Wire Line
-	2600 3700 2600 3750
-Wire Wire Line
-	3050 3300 3100 3300
-Connection ~ 4850 3300
-Connection ~ 4850 3700
-Connection ~ 5800 3700
-Wire Wire Line
-	2500 3300 2650 3300
-Wire Wire Line
-	6000 2900 6250 2900
-Wire Wire Line
-	6250 2900 6250 3300
-Connection ~ 6250 3300
-$Comp
-L C C1
-U 1 1 4895133C
-P 4400 3500
-F 0 "C1" H 4450 3600 50  0000 L CNN
-F 1 "2200uF" H 4450 3400 50  0000 L CNN
-F 2 "C1V7" V -170 2600 60  0001 C CNN
-F 4 "newark,69K8230" V -170 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V -170 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V -170 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V -170 2600 60  0001 C CNN "Field4"
-F 8 "50,V" V -170 2600 60  0001 C CNN "Field5"
-F 9 "X,%" V -170 2600 60  0001 C CNN "Field6"
-F 10 "Aluminum Electrolytic" V -170 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V -170 2600 60  0001 C CNN "Field8"
-	1    4400 3500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L C C4
-U 1 1 489512E0
-P 6550 3500
-F 0 "C4" H 6600 3600 50  0000 L CNN
-F 1 "2200uF" H 6600 3400 50  0000 L CNN
-F 2 "C1V7" V 4130 2600 60  0001 C CNN
-F 4 "newark,69K8230" V 4130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 4130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 4130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 4130 2600 60  0001 C CNN "Field4"
-F 8 "50,V" V 4130 2600 60  0001 C CNN "Field5"
-F 9 "x,x" V 4130 2600 60  0001 C CNN "Field6"
-F 10 "Aluminum Electrolytic" V 4130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 4130 2600 60  0001 C CNN "Field8"
-	1    6550 3500
-	-1   0    0    -1  
 $EndComp
 Text Notes 550  5950 0    60   ~ 0
 Starting from left and moving to the right we have in order :
@@ -214,28 +166,10 @@ F 11 "other,more,stuff" H -3270 2600 60  0001 C CNN "Field8"
 	1    0    0    1   
 $EndComp
 $Comp
-L DIODE D2
-U 1 1 486ECB44
-P 5800 2900
-F 0 "D2" H 5800 3000 40  0000 C CNN
-F 1 "1N4007" H 5800 2800 40  0000 C CNN
-F 2 "D4-SMB" H 8850 3500 60  0001 C CNN
-F 4 "DIGI,1N4007RLOSCT-ND" H 8850 3500 60  0001 C CNN "Field1"
-F 5 "DIGI,S1MBDIDKR-ND" H 8850 3500 60  0001 C CNN "Field2"
-F 6 "newark,18C8923" H 2630 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" H 2630 2600 60  0001 C CNN "Field4"
-F 8 "max,V" H 2630 2600 60  0001 C CNN "Field5"
-F 9 "x,x" H 2630 2600 60  0001 C CNN "Field6"
-F 10 "construct" H 2630 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" H 2630 2600 60  0001 C CNN "Field8"
-	1    5800 2900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L VSS #PWR22
+L VSS #PWR060
 U 1 1 4C2F52A0
 P 7850 3750
-F 0 "#PWR22" H 7850 3750 30  0001 C CNN
+F 0 "#PWR060" H 7850 3750 30  0001 C CNN
 F 1 "VSS" H 7850 3680 30  0000 C CNN
 	1    7850 3750
 	-1   0    0    -1  
@@ -313,10 +247,10 @@ F 11 "other,more,stuff" V 1530 2600 60  0001 C CNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR21
+L GND #PWR061
 U 1 1 486CA86E
 P 2600 3750
-F 0 "#PWR21" H 2600 3750 30  0001 C CNN
+F 0 "#PWR061" H 2600 3750 30  0001 C CNN
 F 1 "GND" H 2600 3680 30  0001 C CNN
 	1    2600 3750
 	-1   0    0    -1  

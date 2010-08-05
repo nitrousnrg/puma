@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 02 Aug 2010 11:48:27 AM ART
+EESchema Schematic File Version 2  date Wed 04 Aug 2010 07:20:22 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 36 47
 Title "freeEMS 1.0"
-Date "2 aug 2010"
+Date "4 aug 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "RPM_input.sch"
@@ -217,12 +217,12 @@ Wire Notes Line
 Wire Wire Line
 	2300 2400 2600 2400
 $Comp
-L GND #PWR47
+L GND #PWR087
 U 1 1 4C2F538C
 P 2600 2700
-AR Path="/4C2E1E95/4C2F538C" Ref="#PWR47"  Part="1" 
-AR Path="/4C2E1E97/4C2F538C" Ref="#PWR51"  Part="1" 
-F 0 "#PWR51" H 2600 2700 30  0001 C CNN
+AR Path="/4C2E1E95/4C2F538C" Ref="#PWR087"  Part="1" 
+AR Path="/4C2E1E97/4C2F538C" Ref="#PWR091"  Part="1" 
+F 0 "#PWR091" H 2600 2700 30  0001 C CNN
 F 1 "GND" H 2600 2630 30  0001 C CNN
 	1    2600 2700
 	1    0    0    -1  
@@ -619,34 +619,34 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR46
+L GND #PWR088
 U 1 1 4892E1C7
 P 2000 2250
-AR Path="/4C2E1E95/4892E1C7" Ref="#PWR46"  Part="1" 
-AR Path="/4C2E1E97/4892E1C7" Ref="#PWR50"  Part="1" 
-F 0 "#PWR50" H 2000 2250 30  0001 C CNN
+AR Path="/4C2E1E95/4892E1C7" Ref="#PWR088"  Part="1" 
+AR Path="/4C2E1E97/4892E1C7" Ref="#PWR092"  Part="1" 
+F 0 "#PWR092" H 2000 2250 30  0001 C CNN
 F 1 "GND" H 2000 2180 30  0001 C CNN
 	1    2000 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR48
+L GND #PWR089
 U 1 1 4892E1BF
 P 4450 3000
-AR Path="/4C2E1E95/4892E1BF" Ref="#PWR48"  Part="1" 
-AR Path="/4C2E1E97/4892E1BF" Ref="#PWR52"  Part="1" 
-F 0 "#PWR52" H 4450 3000 30  0001 C CNN
+AR Path="/4C2E1E95/4892E1BF" Ref="#PWR089"  Part="1" 
+AR Path="/4C2E1E97/4892E1BF" Ref="#PWR093"  Part="1" 
+F 0 "#PWR093" H 4450 3000 30  0001 C CNN
 F 1 "GND" H 4450 2930 30  0001 C CNN
 	1    4450 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR49
+L GND #PWR090
 U 1 1 4892E1BA
 P 5150 1400
-AR Path="/4C2E1E95/4892E1BA" Ref="#PWR49"  Part="1" 
-AR Path="/4C2E1E97/4892E1BA" Ref="#PWR53"  Part="1" 
-F 0 "#PWR53" H 5150 1400 30  0001 C CNN
+AR Path="/4C2E1E95/4892E1BA" Ref="#PWR090"  Part="1" 
+AR Path="/4C2E1E97/4892E1BA" Ref="#PWR094"  Part="1" 
+F 0 "#PWR094" H 5150 1400 30  0001 C CNN
 F 1 "GND" H 5150 1330 30  0001 C CNN
 	1    5150 1400
 	1    0    0    -1  

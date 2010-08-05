@@ -1,0 +1,10 @@
+	Considerations on the analog voltage regulator:
+
+This is the maximum current that all analog circuitry shall drain:
+
+MPX4100			10mA
+MPX4250			10mA  (overriden by bosch sensor, with 12.5mA)
+temp input		1.93mA (x4)
+
+lm317 with lm4040
+

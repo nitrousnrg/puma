@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 02 Aug 2010 11:48:27 AM ART
+EESchema Schematic File Version 2  date Wed 04 Aug 2010 07:20:22 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 34 47
 Title "freeEMS 1.0"
-Date "2 aug 2010"
+Date "4 aug 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "general_drive_fuel.sch"
@@ -178,10 +178,10 @@ F 11 "other,more,stuff" V 1130 3000 60  0001 C CNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR45
+L GND #PWR086
 U 1 1 488C8987
 P 2500 2500
-F 0 "#PWR45" H 2500 2500 30  0001 C CNN
+F 0 "#PWR086" H 2500 2500 30  0001 C CNN
 F 1 "GND" H 2500 2430 30  0001 C CNN
 	1    2500 2500
 	1    0    0    -1  

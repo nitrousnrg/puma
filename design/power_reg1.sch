@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 02 Aug 2010 11:48:27 AM ART
+EESchema Schematic File Version 2  date Wed 04 Aug 2010 07:20:22 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 9 47
+Sheet 16 47
 Title "freeEMS 1.0"
-Date "2 aug 2010"
+Date "4 aug 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -82,19 +82,19 @@ Wire Wire Line
 	5350 2900 5350 3300
 Connection ~ 5350 3300
 $Comp
-L PWR_FLAG #FLG2
+L PWR_FLAG #FLG062
 U 1 1 4C2F56F1
 P 3500 3700
-F 0 "#FLG2" H 3500 3970 30  0001 C CNN
+F 0 "#FLG062" H 3500 3970 30  0001 C CNN
 F 1 "PWR_FLAG" H 3500 3930 30  0000 C CNN
 	1    3500 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG3
+L PWR_FLAG #FLG063
 U 1 1 4C2F5631
 P 4850 3300
-F 0 "#FLG3" H 4850 3570 30  0001 C CNN
+F 0 "#FLG063" H 4850 3570 30  0001 C CNN
 F 1 "PWR_FLAG" H 4850 3530 30  0000 C CNN
 	1    4850 3300
 	1    0    0    -1  
@@ -104,7 +104,7 @@ L 7805-DIYEFI U4
 U 1 1 48B14C8F
 P 5800 3350
 F 0 "U4" H 5950 3154 60  0000 C CNN
-F 1 "7805-DIYEFI" H 5800 3550 60  0000 C CNN
+F 1 "LM2931" H 5800 3550 60  0000 C CNN
 F 2 "TO220_sm" V 2630 2600 60  0001 C CNN
 F 4 "newark,45J1442" V 2630 2600 60  0001 C CNN "Field1"
 F 5 "vendor1, smd w hem" V 2630 2600 60  0001 C CNN "Field2"
@@ -242,10 +242,10 @@ F 11 "other,more,stuff" H 2630 2600 60  0001 C CNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VSS #PWR24
+L VSS #PWR064
 U 1 1 486CA95E
 P 7850 3750
-F 0 "#PWR24" H 7850 3750 30  0001 C CNN
+F 0 "#PWR064" H 7850 3750 30  0001 C CNN
 F 1 "VSS" H 7850 3680 30  0000 C CNN
 	1    7850 3750
 	-1   0    0    -1  
@@ -323,10 +323,10 @@ F 11 "other,more,stuff" V 1530 2600 60  0001 C CNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR23
+L GND #PWR065
 U 1 1 4C2F529B
 P 2600 3750
-F 0 "#PWR23" H 2600 3750 30  0001 C CNN
+F 0 "#PWR065" H 2600 3750 30  0001 C CNN
 F 1 "GND" H 2600 3680 30  0001 C CNN
 	1    2600 3750
 	-1   0    0    -1  
