@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 04 Aug 2010 07:20:22 PM ART
+EESchema Schematic File Version 2  date Fri 06 Aug 2010 01:49:56 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 2 47
+Sheet 36 48
 Title "freeEMS 1.0"
-Date "4 aug 2010"
+Date "6 aug 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "an_protect.sch"
@@ -41,6 +41,168 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 6500 3450
+Connection ~ 6500 2150
+Wire Wire Line
+	2700 2150 6500 2150
+Connection ~ 3300 1400
+Wire Wire Line
+	2600 1400 3800 1400
+Connection ~ 2750 1400
+Wire Wire Line
+	2750 1200 2750 1400
+Wire Wire Line
+	3300 1800 2100 1800
+Wire Wire Line
+	2100 1800 2100 1850
+Connection ~ 2750 1800
+Wire Wire Line
+	4300 1400 4650 1400
+Connection ~ 3250 2750
+Wire Wire Line
+	2550 2750 3750 2750
+Connection ~ 2700 2750
+Wire Wire Line
+	2700 2550 2700 2750
+Wire Wire Line
+	3250 3150 2050 3150
+Wire Wire Line
+	2050 3150 2050 3200
+Connection ~ 2700 3150
+Wire Wire Line
+	4250 2750 4600 2750
+Connection ~ 3200 4050
+Wire Wire Line
+	2500 4050 3700 4050
+Connection ~ 2650 4050
+Wire Wire Line
+	2650 3850 2650 4050
+Wire Wire Line
+	3200 4450 2000 4450
+Wire Wire Line
+	2000 4450 2000 4500
+Connection ~ 2650 4450
+Wire Wire Line
+	4200 4050 4550 4050
+Wire Wire Line
+	2650 3450 6500 3450
+Wire Wire Line
+	2650 800  6500 800 
+Connection ~ 2750 800 
+Wire Wire Line
+	6500 800  6500 3450
+Wire Wire Line
+	6500 2200 6500 4850
+Wire Wire Line
+	6500 4850 2650 4850
+Wire Wire Line
+	4200 5450 4550 5450
+Connection ~ 2650 5850
+Wire Wire Line
+	2000 5900 2000 5850
+Wire Wire Line
+	2000 5850 3200 5850
+Wire Wire Line
+	2650 5250 2650 5450
+Connection ~ 2650 5450
+Wire Wire Line
+	2500 5450 3700 5450
+Connection ~ 3200 5450
+Text HLabel 4550 5450 2    60   Output ~ 0
+analog_sensor_out_4
+Text HLabel 2000 5450 0    60   Input ~ 0
+analog_sensor_in_4
+$Comp
+L DIODE D74
+U 1 1 4C5989C5
+P 2650 5050
+F 0 "D74" H 2650 5150 40  0000 C CNN
+F 1 "1N4148" H 2650 4950 40  0000 C CNN
+F 2 "D4-SMB" V 1130 4000 60  0001 C CNN
+F 4 "newark,10M2940" V 1130 4000 60  0001 C CNN "Field1"
+F 5 "vendor1, smd w hem" V 1130 4000 60  0001 C CNN "Field2"
+F 6 "vendor2, thru w hem" V 1130 4000 60  0001 C CNN "Field3"
+F 7 "vendor2, smd w hem" V 1130 4000 60  0001 C CNN "Field4"
+F 8 "1000,V" V 1130 4000 60  0001 C CNN "Field5"
+F 9 "1,A" V 1130 4000 60  0001 C CNN "Field6"
+F 10 "x" V 1130 4000 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 1130 4000 60  0001 C CNN "Field8"
+	1    2650 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R186
+U 1 1 4C5989C4
+P 2250 5450
+F 0 "R186" V 2330 5450 50  0000 C CNN
+F 1 "1k" V 2250 5450 50  0000 C CNN
+F 2 "R4-SM0805" V 2430 5550 60  0001 C CNN
+F 4 "newark,38K0327" V 1130 4000 60  0001 C CNN "Field1"
+F 5 "vendor1, smd w hem" V 1130 4000 60  0001 C CNN "Field2"
+F 6 "vendor2, thru w hem" V 1130 4000 60  0001 C CNN "Field3"
+F 7 "vendor2, smd w hem" V 1130 4000 60  0001 C CNN "Field4"
+F 8 "1/4,W" V 1130 4000 60  0001 C CNN "Field5"
+F 9 "5,%" V 1130 4000 60  0001 C CNN "Field6"
+F 10 "Carbon film" V 1130 4000 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 1130 4000 60  0001 C CNN "Field8"
+	1    2250 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L C C106
+U 1 1 4C5989C3
+P 3200 5650
+F 0 "C106" H 3250 5750 50  0000 L CNN
+F 1 "100nf" H 3250 5550 50  0000 L CNN
+F 2 "C1V7" V 1130 4000 60  0001 C CNN
+F 4 "newark,39K8137" V 1130 4000 60  0001 C CNN "Field1"
+F 5 "vendor1, smd w hem" V 1130 4000 60  0001 C CNN "Field2"
+F 6 "vendor2, thru w hem" V 1130 4000 60  0001 C CNN "Field3"
+F 7 "vendor2, smd w hem" V 1130 4000 60  0001 C CNN "Field4"
+F 8 "50,V" V 1130 4000 60  0001 C CNN "Field5"
+F 9 "10,%" V 1130 4000 60  0001 C CNN "Field6"
+F 10 "Multilayer Ceramic" V 1130 4000 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 1130 4000 60  0001 C CNN "Field8"
+	1    3200 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR064
+U 1 1 4C5989C2
+P 2000 5900
+F 0 "#PWR064" H 2000 5900 30  0001 C CNN
+F 1 "GND" H 2000 5830 30  0001 C CNN
+	1    2000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R187
+U 1 1 4C5989C1
+P 3950 5450
+F 0 "R187" V 4030 5450 50  0000 C CNN
+F 1 "1k" V 3950 5450 50  0000 C CNN
+F 2 "R4-SM0805" V 4130 5550 60  0001 C CNN
+F 4 "newark,38K0327" V 1130 4000 60  0001 C CNN "Field1"
+F 5 "vendor1, smd w hem" V 1130 4000 60  0001 C CNN "Field2"
+F 6 "vendor2, thru w hem" V 1130 4000 60  0001 C CNN "Field3"
+F 7 "vendor2, smd w hem" V 1130 4000 60  0001 C CNN "Field4"
+F 8 "1/4,W" V 1130 4000 60  0001 C CNN "Field5"
+F 9 "5,%" V 1130 4000 60  0001 C CNN "Field6"
+F 10 "Carbon film" V 1130 4000 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 1130 4000 60  0001 C CNN "Field8"
+	1    3950 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODESCH D75
+U 1 1 4C5989C0
+P 2650 5650
+F 0 "D75" H 2650 5750 40  0000 C CNN
+F 1 "SCHOTTKY" H 2650 5550 40  0000 C CNN
+F 2 "SOD-123" H 2650 5650 60  0001 C CNN
+	1    2650 5650
+	0    -1   -1   0   
+$EndComp
 $Comp
 L DIODESCH D36
 U 1 1 4C4972F9
@@ -77,55 +239,6 @@ F 2 "SOD-123" H 2650 4250 60  0001 C CNN
 	1    2650 4250
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6500 800  6500 3450
-Connection ~ 2750 800 
-Wire Wire Line
-	6500 800  2650 800 
-Wire Wire Line
-	6500 3450 2650 3450
-Wire Wire Line
-	4200 4050 4550 4050
-Connection ~ 2650 4450
-Wire Wire Line
-	2000 4500 2000 4450
-Wire Wire Line
-	2000 4450 3200 4450
-Wire Wire Line
-	2650 3850 2650 4050
-Connection ~ 2650 4050
-Wire Wire Line
-	2500 4050 3700 4050
-Connection ~ 3200 4050
-Wire Wire Line
-	4250 2750 4600 2750
-Connection ~ 2700 3150
-Wire Wire Line
-	2050 3200 2050 3150
-Wire Wire Line
-	2050 3150 3250 3150
-Wire Wire Line
-	2700 2550 2700 2750
-Connection ~ 2700 2750
-Wire Wire Line
-	2550 2750 3750 2750
-Connection ~ 3250 2750
-Wire Wire Line
-	4300 1400 4650 1400
-Connection ~ 2750 1800
-Wire Wire Line
-	2100 1850 2100 1800
-Wire Wire Line
-	2100 1800 3300 1800
-Wire Wire Line
-	2750 1200 2750 1400
-Connection ~ 2750 1400
-Wire Wire Line
-	2600 1400 3800 1400
-Connection ~ 3300 1400
-Wire Wire Line
-	2700 2150 6500 2150
-Connection ~ 6500 2150
 $Comp
 L R R50
 U 1 1 4C2F52F7
@@ -151,8 +264,8 @@ L GND #PWR056
 U 1 1 4C2F52F6
 P 2000 4500
 AR Path="/4C4C6618/4C2F52F6" Ref="#PWR056"  Part="1" 
-AR Path="/4C2E1E7B/4C2F52F6" Ref="#PWR076"  Part="1" 
-F 0 "#PWR076" H 2000 4500 30  0001 C CNN
+AR Path="/4C2E1E7B/4C2F52F6" Ref="#PWR065"  Part="1" 
+F 0 "#PWR065" H 2000 4500 30  0001 C CNN
 F 1 "GND" H 2000 4430 30  0001 C CNN
 	1    2000 4500
 	1    0    0    -1  
@@ -246,8 +359,8 @@ L GND #PWR057
 U 1 1 489597B8
 P 2050 3200
 AR Path="/4C4C6618/489597B8" Ref="#PWR057"  Part="1" 
-AR Path="/4C2E1E7B/489597B8" Ref="#PWR077"  Part="1" 
-F 0 "#PWR077" H 2050 3200 30  0001 C CNN
+AR Path="/4C2E1E7B/489597B8" Ref="#PWR066"  Part="1" 
+F 0 "#PWR066" H 2050 3200 30  0001 C CNN
 F 1 "GND" H 2050 3130 30  0001 C CNN
 	1    2050 3200
 	1    0    0    -1  
@@ -341,8 +454,8 @@ L GND #PWR058
 U 1 1 4C2F52A8
 P 2100 1850
 AR Path="/4C4C6618/4C2F52A8" Ref="#PWR058"  Part="1" 
-AR Path="/4C2E1E7B/4C2F52A8" Ref="#PWR078"  Part="1" 
-F 0 "#PWR078" H 2100 1850 30  0001 C CNN
+AR Path="/4C2E1E7B/4C2F52A8" Ref="#PWR067"  Part="1" 
+F 0 "#PWR067" H 2100 1850 30  0001 C CNN
 F 1 "GND" H 2100 1780 30  0001 C CNN
 	1    2100 1850
 	1    0    0    -1  

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 04 Aug 2010 07:20:22 PM ART
+EESchema Schematic File Version 2  date Fri 06 Aug 2010 01:49:56 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 7 47
+Sheet 15 48
 Title "freeEMS 1.0"
-Date "4 aug 2010"
+Date "6 aug 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "injector_drive.sch"
@@ -146,46 +146,46 @@ Text HLabel 2600 3800 0    60   Input ~ 0
 Text Notes 5200 4150 0    60   ~ 0
 Rsense MUST BE KELVIN CONNECTED TO THE DEVICE PINS
 $Comp
-L GND #PWR041
+L GND #PWR030
 U 1 1 4C2ED38A
 P 6600 2750
-AR Path="/4C2F3E4C/4C2ED38A" Ref="#PWR041"  Part="1" 
-AR Path="/4C2F3E39/4C2ED38A" Ref="#PWR044"  Part="1" 
-AR Path="/4C2F3E27/4C2ED38A" Ref="#PWR047"  Part="1" 
-AR Path="/4C2F3E07/4C2ED38A" Ref="#PWR050"  Part="1" 
-AR Path="/4C2F3DD9/4C2ED38A" Ref="#PWR053"  Part="1" 
-AR Path="/4C2F3BE4/4C2ED38A" Ref="#PWR056"  Part="1" 
-F 0 "#PWR056" H 6600 2750 30  0001 C CNN
+AR Path="/4C2F3E4C/4C2ED38A" Ref="#PWR030"  Part="1" 
+AR Path="/4C2F3E39/4C2ED38A" Ref="#PWR033"  Part="1" 
+AR Path="/4C2F3E27/4C2ED38A" Ref="#PWR036"  Part="1" 
+AR Path="/4C2F3E07/4C2ED38A" Ref="#PWR039"  Part="1" 
+AR Path="/4C2F3DD9/4C2ED38A" Ref="#PWR042"  Part="1" 
+AR Path="/4C2F3BE4/4C2ED38A" Ref="#PWR045"  Part="1" 
+F 0 "#PWR045" H 6600 2750 30  0001 C CNN
 F 1 "GND" H 6600 2680 30  0001 C CNN
 	1    6600 2750
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR042
+L GND #PWR031
 U 1 1 4C2ED35A
 P 5950 3650
-AR Path="/4C2F3E4C/4C2ED35A" Ref="#PWR042"  Part="1" 
-AR Path="/4C2F3E39/4C2ED35A" Ref="#PWR045"  Part="1" 
-AR Path="/4C2F3E27/4C2ED35A" Ref="#PWR048"  Part="1" 
-AR Path="/4C2F3E07/4C2ED35A" Ref="#PWR051"  Part="1" 
-AR Path="/4C2F3DD9/4C2ED35A" Ref="#PWR054"  Part="1" 
-AR Path="/4C2F3BE4/4C2ED35A" Ref="#PWR057"  Part="1" 
-F 0 "#PWR057" H 5950 3650 30  0001 C CNN
+AR Path="/4C2F3E4C/4C2ED35A" Ref="#PWR031"  Part="1" 
+AR Path="/4C2F3E39/4C2ED35A" Ref="#PWR034"  Part="1" 
+AR Path="/4C2F3E27/4C2ED35A" Ref="#PWR037"  Part="1" 
+AR Path="/4C2F3E07/4C2ED35A" Ref="#PWR040"  Part="1" 
+AR Path="/4C2F3DD9/4C2ED35A" Ref="#PWR043"  Part="1" 
+AR Path="/4C2F3BE4/4C2ED35A" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 5950 3650 30  0001 C CNN
 F 1 "GND" H 5950 3580 30  0001 C CNN
 	1    5950 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR043
+L GND #PWR032
 U 1 1 4C2ED354
 P 6100 3000
-AR Path="/4C2F3E4C/4C2ED354" Ref="#PWR043"  Part="1" 
-AR Path="/4C2F3E39/4C2ED354" Ref="#PWR046"  Part="1" 
-AR Path="/4C2F3E27/4C2ED354" Ref="#PWR049"  Part="1" 
-AR Path="/4C2F3E07/4C2ED354" Ref="#PWR052"  Part="1" 
-AR Path="/4C2F3DD9/4C2ED354" Ref="#PWR055"  Part="1" 
-AR Path="/4C2F3BE4/4C2ED354" Ref="#PWR058"  Part="1" 
-F 0 "#PWR058" H 6100 3000 30  0001 C CNN
+AR Path="/4C2F3E4C/4C2ED354" Ref="#PWR032"  Part="1" 
+AR Path="/4C2F3E39/4C2ED354" Ref="#PWR035"  Part="1" 
+AR Path="/4C2F3E27/4C2ED354" Ref="#PWR038"  Part="1" 
+AR Path="/4C2F3E07/4C2ED354" Ref="#PWR041"  Part="1" 
+AR Path="/4C2F3DD9/4C2ED354" Ref="#PWR044"  Part="1" 
+AR Path="/4C2F3BE4/4C2ED354" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 6100 3000 30  0001 C CNN
 F 1 "GND" H 6100 2930 30  0001 C CNN
 	1    6100 3000
 	1    0    0    -1  

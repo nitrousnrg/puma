@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 04 Aug 2010 06:10:01 PM ART
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 06 Aug 2010 12:23:10 AM ART
 
 BeginCmp
 TimeStamp = /4C2E1E53/4C2F529E;
@@ -11,7 +11,7 @@ BeginCmp
 TimeStamp = /4C2E1E53/4C2F529C;
 Reference = C3;
 ValeurCmp = .1uF;
-IdModule  = SM1206;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -25,7 +25,7 @@ BeginCmp
 TimeStamp = /4C2E1E53/486ED024;
 Reference = C6;
 ValeurCmp = .1uF;
-IdModule  = SM1206;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -46,7 +46,7 @@ BeginCmp
 TimeStamp = /4C2E1E55/486CA8CD;
 Reference = C9;
 ValeurCmp = .1uF;
-IdModule  = SM1206;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -617,6 +617,20 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /4C2E1E7B/4C5989C3;
+Reference = C106;
+ValeurCmp = 100nf;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C598474/4C5993F7;
+Reference = C107;
+ValeurCmp = .1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /4C2E1E53/486ECB4E;
 Reference = D1;
 ValeurCmp = 1N4007;
@@ -988,6 +1002,20 @@ IdModule  = SOD-123;
 EndCmp
 
 BeginCmp
+TimeStamp = /4C2E1E7B/4C5989C5;
+Reference = D74;
+ValeurCmp = 1N4148;
+IdModule  = SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C2E1E7B/4C5989C0;
+Reference = D75;
+ValeurCmp = SCHOTTKY;
+IdModule  = SOD-123;
+EndCmp
+
+BeginCmp
 TimeStamp = /48A00EF5;
 Reference = F1;
 ValeurCmp = 2A;
@@ -1289,13 +1317,6 @@ IdModule  = PINTST;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C2E1EA1/4893CC4C;
-Reference = P43;
-ValeurCmp = 9S12XDP512;
-IdModule  = 9S12XDP512;
-EndCmp
-
-BeginCmp
 TimeStamp = /4C2F3BE4/48AA1A73;
 Reference = P44;
 ValeurCmp = CONN_1;
@@ -1489,6 +1510,20 @@ TimeStamp = /4C2E1EA1/4C58B47E;
 Reference = P71;
 ValeurCmp = CONN_4;
 IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C598474/4C59876E;
+Reference = P72;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C598474/4C598762;
+Reference = P73;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
 EndCmp
 
 BeginCmp
@@ -2724,10 +2759,24 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4910FECB;
-Reference = RP1;
-ValeurCmp = R_PACK8;
-IdModule  = 16dip300;
+TimeStamp = /4C2E1E7B/4C5989C4;
+Reference = R186;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C2E1E7B/4C5989C1;
+Reference = R187;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C2E1EA1/4C54D9C1/4C599E27;
+Reference = R188;
+ValeurCmp = 1k;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -2770,20 +2819,6 @@ TimeStamp = /4C2E1E6D/48AE0832;
 Reference = SW6;
 ValeurCmp = SWITCH_INV;
 IdModule  = SIL-3;
-EndCmp
-
-BeginCmp
-TimeStamp = /48B1356B;
-Reference = U1;
-ValeurCmp = 74HC86;
-IdModule  = 14dip300;
-EndCmp
-
-BeginCmp
-TimeStamp = /48ACAD26;
-Reference = U2;
-ValeurCmp = 74HC86;
-IdModule  = 14dip300;
 EndCmp
 
 BeginCmp
@@ -2882,6 +2917,13 @@ TimeStamp = /4C2E1EA1/4C56D82D;
 Reference = U17;
 ValeurCmp = MC9S12XDP512;
 IdModule  = PQFP112;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C598474/4C5985F6;
+Reference = U18;
+ValeurCmp = AD597;
+IdModule  = SO8E;
 EndCmp
 
 BeginCmp

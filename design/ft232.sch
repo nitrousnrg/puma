@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 04 Aug 2010 07:20:22 PM ART
+EESchema Schematic File Version 2  date Fri 06 Aug 2010 01:49:56 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 5 47
+Sheet 3 48
 Title ""
-Date "4 aug 2010"
+Date "6 aug 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -41,15 +41,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L PWR_FLAG #FLG030
-U 1 1 4BC5BF20
-P 5950 1000
-F 0 "#FLG030" H 5950 1270 30  0001 C CNN
-F 1 "PWR_FLAG" H 5950 1230 30  0000 C CNN
-	1    5950 1000
-	1    0    0    -1  
-$EndComp
+Connection ~ 4100 2250
+Connection ~ 3200 2250
+Wire Wire Line
+	3200 2250 7350 2250
+Connection ~ 3200 3050
+Connection ~ 5300 1000
+Wire Wire Line
+	3200 1000 5950 1000
+Wire Wire Line
+	3200 1000 3200 3350
+Connection ~ 6150 2250
+Wire Wire Line
+	7350 4250 6950 4250
 Wire Wire Line
 	4200 4550 4200 4600
 Wire Wire Line
@@ -59,15 +63,9 @@ Wire Wire Line
 Wire Wire Line
 	4550 4350 4750 4350
 Wire Wire Line
-	4750 3750 4650 3750
-Wire Wire Line
-	6950 4750 7050 4750
-Wire Wire Line
 	6950 2950 7050 2950
 Wire Wire Line
 	5750 1000 5750 2350
-Wire Wire Line
-	3200 3350 3200 3050
 Wire Wire Line
 	3200 3050 2900 3050
 Wire Wire Line
@@ -92,10 +90,6 @@ Wire Wire Line
 	3300 3250 3300 3350
 Wire Wire Line
 	3300 3350 3450 3350
-Wire Wire Line
-	7200 4300 7200 4250
-Wire Wire Line
-	7200 4250 6950 4250
 Wire Wire Line
 	3950 3350 4750 3350
 Wire Wire Line
@@ -131,8 +125,6 @@ Wire Wire Line
 Wire Wire Line
 	6150 2100 6200 2100
 Wire Wire Line
-	5950 1000 5300 1000
-Wire Wire Line
 	5950 1000 5950 2350
 Connection ~ 5750 1000
 Wire Wire Line
@@ -151,6 +143,24 @@ Wire Wire Line
 	4550 3900 4550 4150
 Wire Wire Line
 	4550 4150 4750 4150
+Wire Wire Line
+	7350 2250 7350 3750
+Wire Wire Line
+	4750 3750 4100 3750
+Wire Wire Line
+	4100 3750 4100 2250
+$Comp
+L R R188
+U 1 1 4C599E27
+P 7350 4000
+F 0 "R188" V 7430 4000 50  0000 C CNN
+F 1 "1k" V 7350 4000 50  0000 C CNN
+	1    7350 4000
+	1    0    0    -1  
+$EndComp
+Text Notes 7450 4250 0    60   ~ 0
+PWRCTL = 1   for self powered designs
+NoConn ~ 6950 4750
 $Comp
 L CRYSTAL X4
 U 1 1 4BC53A83
@@ -163,19 +173,15 @@ $EndComp
 NoConn ~ 4750 4750
 NoConn ~ 4750 4650
 NoConn ~ 4750 4550
-Text HLabel 4650 3750 0    60   Input ~ 0
-VCC-USB
 $Comp
-L GND #PWR031
+L GND #PWR019
 U 1 1 4BC539AF
 P 4650 5050
-F 0 "#PWR031" H 4650 5050 30  0001 C CNN
+F 0 "#PWR019" H 4650 5050 30  0001 C CNN
 F 1 "GND" H 4650 4980 30  0001 C CNN
 	1    4650 5050
 	1    0    0    -1  
 $EndComp
-Text HLabel 7050 4750 2    60   Input ~ 0
-SLEEP
 NoConn ~ 6950 4650
 NoConn ~ 6950 4350
 NoConn ~ 6950 4050
@@ -192,8 +198,6 @@ Text HLabel 7050 2950 2    60   Input ~ 0
 RX
 Text HLabel 6200 2100 2    60   Input ~ 0
 VCC-IO
-Text HLabel 5300 1000 0    60   Input ~ 0
-VCC-USB
 Text HLabel 3200 3050 2    60   Input ~ 0
 VCC-USB
 $Comp
@@ -215,10 +219,10 @@ F 1 "470" V 5300 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR032
+L GND #PWR020
 U 1 1 4BC53752
 P 5300 2150
-F 0 "#PWR032" H 5300 2150 30  0001 C CNN
+F 0 "#PWR020" H 5300 2150 30  0001 C CNN
 F 1 "GND" H 5300 2080 30  0001 C CNN
 	1    5300 2150
 	1    0    0    -1  
@@ -233,10 +237,10 @@ F 1 "0.1uF" H 5350 1800 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR033
+L GND #PWR021
 U 1 1 4BC53726
 P 4450 2950
-F 0 "#PWR033" H 4450 2950 30  0001 C CNN
+F 0 "#PWR021" H 4450 2950 30  0001 C CNN
 F 1 "GND" H 4450 2880 30  0001 C CNN
 	1    4450 2950
 	1    0    0    -1  
@@ -251,21 +255,12 @@ F 1 "33nF" H 4500 2600 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR034
+L GND #PWR022
 U 1 1 4BC536D5
 P 3000 3850
-F 0 "#PWR034" H 3000 3850 30  0001 C CNN
+F 0 "#PWR022" H 3000 3850 30  0001 C CNN
 F 1 "GND" H 3000 3780 30  0001 C CNN
 	1    3000 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR035
-U 1 1 4BC5368A
-P 7200 4300
-F 0 "#PWR035" H 7200 4300 30  0001 C CNN
-F 1 "GND" H 7200 4230 30  0001 C CNN
-	1    7200 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -309,10 +304,10 @@ F 10 "GND" H 3025 3050 50  0001 C CNN "Ground"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L GND #PWR023
 U 1 1 4BC5356A
 P 5850 5800
-F 0 "#PWR036" H 5850 5800 30  0001 C CNN
+F 0 "#PWR023" H 5850 5800 30  0001 C CNN
 F 1 "GND" H 5850 5730 30  0001 C CNN
 	1    5850 5800
 	1    0    0    -1  
