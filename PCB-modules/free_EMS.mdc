@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  Wed 21 Jul 2010 09:59:48 AM ART
+PCBNEW-LibDoc----V1  Fri 06 Aug 2010 04:02:00 PM ART
 #
 $MODULE SOP_case_482
 Li SOP_case_482
@@ -15,12 +15,6 @@ $MODULE FUSE5-20-LINKED
 Li FUSE5-20-LINKED
 Cd Support fusible 5 x 20
 Kw DEV
-$EndMODULE
-#
-$MODULE TO220_sm
-Li TO220_sm
-Cd Transistor TO 220
-Kw TR TO220 DEV
 $EndMODULE
 #
 $MODULE FUSE5-20-default-2A
@@ -51,6 +45,12 @@ $MODULE D4-SMB
 Li D4-SMB
 Cd Diode 4 pas
 Kw DIODE DEV
+$EndMODULE
+#
+$MODULE TO220_sm
+Li TO220_sm
+Cd Transistor TO 220
+Kw TR TO220 DEV
 $EndMODULE
 #
 $EndLIBDOC

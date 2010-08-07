@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 06 Aug 2010 12:23:10 AM ART
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 06 Aug 2010 04:06:31 PM ART
 
 BeginCmp
 TimeStamp = /4C2E1E53/4C2F529E;
@@ -634,7 +634,7 @@ BeginCmp
 TimeStamp = /4C2E1E53/486ECB4E;
 Reference = D1;
 ValeurCmp = 1N4007;
-IdModule  = D3;
+IdModule  = SOD-123;
 EndCmp
 
 BeginCmp
@@ -1048,13 +1048,6 @@ TimeStamp = /4C2E1EA1/4C54D9C1/4BC535D5;
 Reference = J1;
 ValeurCmp = USB_2;
 IdModule  = USB_A;
-EndCmp
-
-BeginCmp
-TimeStamp = /48AF5B2F;
-Reference = P1;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 06 Aug 2010 01:49:56 PM ART
+EESchema Schematic File Version 2  date Fri 06 Aug 2010 10:16:31 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 16 48
 Title "freeEMS 1.0"
-Date "6 aug 2010"
+Date "7 aug 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -42,39 +42,37 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	5400 3100 5400 3300
-Wire Wire Line
-	5400 3100 5500 3100
-Connection ~ 7000 3300
-Wire Wire Line
-	7850 3300 6750 3300
-Wire Wire Line
-	6750 3300 6750 3100
-Wire Wire Line
-	6750 3100 6600 3100
-Connection ~ 5900 3700
-Connection ~ 6100 3700
-Wire Wire Line
-	2500 3300 2650 3300
-Connection ~ 4850 3700
-Connection ~ 4850 3300
-Wire Wire Line
-	3050 3300 3100 3300
-Wire Wire Line
-	2600 3750 2600 3700
-Connection ~ 7000 3700
-Wire Wire Line
-	7850 3750 7850 3700
-Connection ~ 7450 3300
-Connection ~ 7450 3700
-Connection ~ 5250 3700
-Connection ~ 5250 3300
+	3050 3300 5400 3300
+Connection ~ 6200 3700
+Connection ~ 6000 3700
 Wire Wire Line
 	7850 3700 2600 3700
+Connection ~ 5250 3300
+Connection ~ 5250 3700
+Connection ~ 7450 3700
+Connection ~ 7450 3300
 Wire Wire Line
-	5400 3300 3600 3300
-Connection ~ 6000 3700
-Connection ~ 6200 3700
+	7850 3700 7850 3750
+Connection ~ 7000 3700
+Wire Wire Line
+	2600 3700 2600 3750
+Connection ~ 4850 3300
+Connection ~ 4850 3700
+Wire Wire Line
+	2500 3300 2650 3300
+Connection ~ 6100 3700
+Connection ~ 5900 3700
+Wire Wire Line
+	6600 3100 6750 3100
+Wire Wire Line
+	6750 3100 6750 3300
+Wire Wire Line
+	6750 3300 7850 3300
+Connection ~ 7000 3300
+Wire Wire Line
+	5500 3100 5400 3100
+Wire Wire Line
+	5400 3100 5400 3300
 $Comp
 L LM2936 U16
 U 1 1 4C59CC23
@@ -173,24 +171,6 @@ F 0 "#PWR049" H 7850 3750 30  0001 C CNN
 F 1 "VSS" H 7850 3680 30  0000 C CNN
 	1    7850 3750
 	-1   0    0    -1  
-$EndComp
-$Comp
-L R R1
-U 1 1 4C2F529F
-P 3350 3300
-F 0 "R1" V 3430 3300 50  0000 C CNN
-F 1 "1R" V 3350 3300 50  0000 C CNN
-F 2 "R7" V 3530 3400 60  0001 C CNN
-F 4 "newark, 65K3871" V -2270 2600 60  0001 C CNN "Field1"
-F 5 "farnell,1155286" V -2270 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V -2270 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V -2270 2600 60  0001 C CNN "Field4"
-F 8 "power,W" V -2270 2600 60  0001 C CNN "Field5"
-F 9 "tol,%" V -2270 2600 60  0001 C CNN "Field6"
-F 10 "construct" V -2270 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V -2270 2600 60  0001 C CNN "Field8"
-	1    3350 3300
-	0    -1   1    0   
 $EndComp
 $Comp
 L CAPAPOL C2

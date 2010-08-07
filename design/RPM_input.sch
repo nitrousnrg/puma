@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 06 Aug 2010 01:49:56 PM ART
+EESchema Schematic File Version 2  date Fri 06 Aug 2010 10:16:31 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 43 48
 Title "freeEMS 1.0"
-Date "6 aug 2010"
+Date "7 aug 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "RPM_input.sch"
@@ -91,9 +91,6 @@ Wire Wire Line
 Connection ~ 4600 2400
 Wire Wire Line
 	4600 2500 4600 2400
-Connection ~ 2400 1050
-Wire Wire Line
-	2400 1050 2400 850 
 Wire Wire Line
 	3400 1200 3550 1200
 Connection ~ 2100 2200
@@ -153,13 +150,6 @@ Connection ~ 3000 1050
 Wire Wire Line
 	4050 1350 4050 1200
 Connection ~ 4050 1350
-Wire Wire Line
-	1900 850  1900 750 
-Connection ~ 1900 750 
-Wire Notes Line
-	2600 650  2150 650 
-Wire Notes Line
-	2150 650  2150 800 
 Connection ~ 4350 2000
 Connection ~ 4600 2900
 Connection ~ 5350 2900
@@ -175,12 +165,6 @@ Connection ~ 7350 2300
 Wire Wire Line
 	8950 2900 8950 3250
 Connection ~ 8950 1650
-Wire Wire Line
-	1650 750  7950 750 
-Wire Wire Line
-	7950 750  7950 1250
-Wire Wire Line
-	7950 1250 9700 1250
 Wire Notes Line
 	1750 3450 1750 1450
 Wire Notes Line
@@ -413,28 +397,6 @@ F 11 "other,more,stuff" V 2130 3500 60  0001 C CNN "Field8"
 	1    5350 2650
 	1    0    0    -1  
 $EndComp
-Text Notes 2650 650  0    60   ~ 0
-PULL UP RESISTOR NOT TYPICALLY INSTALLED, ONLY USED FOR CERTAIN HALL SETUPS AND NOT INSTALLED WITH LM1815 OR PULL DOWN RESISTOR
-$Comp
-L R R76
-U 1 1 48AE8AA2
-P 2150 850
-AR Path="/4C2E1E95/48AE8AA2" Ref="R76"  Part="1" 
-AR Path="/4C2E1E97/48AE8AA2" Ref="R91"  Part="1" 
-F 0 "R76" V 2230 850 50  0000 C CNN
-F 1 "10k" V 2150 850 50  0000 C CNN
-F 2 "R4-SM0805" V 2330 950 60  0001 C CNN
-F 4 "newark,38k0328" V 1130 2300 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2300 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2300 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2300 60  0001 C CNN "Field4"
-F 8 "250,mW" V 1130 2300 60  0001 C CNN "Field5"
-F 9 "5,%" V 1130 2300 60  0001 C CNN "Field6"
-F 10 "carbon film" V 1130 2300 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2300 60  0001 C CNN "Field8"
-	1    2150 850 
-	0    1    1    0   
-$EndComp
 $Comp
 L R R79
 U 1 1 48AE0C0B
@@ -494,18 +456,6 @@ F 10 "carbon film" V 1130 2650 60  0001 C CNN "Field7"
 F 11 "other,more,stuff" V 1130 2650 60  0001 C CNN "Field8"
 	1    3800 1200
 	0    1    1    0   
-$EndComp
-$Comp
-L CONN_1 P28
-U 1 1 48AA1AF9
-P 9850 1250
-AR Path="/4C2E1E95/48AA1AF9" Ref="P28"  Part="1" 
-AR Path="/4C2E1E97/48AA1AF9" Ref="P33"  Part="1" 
-F 0 "P28" H 9930 1250 40  0000 L CNN
-F 1 "CONN_1" H 9850 1305 30  0001 C CNN
-F 2 "1PIN" V 7530 2700 60  0001 C CNN
-	1    9850 1250
-	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 P30
@@ -778,8 +728,6 @@ F 11 "x,x,x" H 3100 2850 60  0001 C CNN "Field8"
 	1    3450 2300
 	-1   0    0    1   
 $EndComp
-Text HLabel 1650 750  0    60   Input ~ 0
-12v_power
 Text HLabel 1650 1350 0    60   BiDi ~ 0
 digi_sensor_gnd
 Text HLabel 1650 1050 0    60   Output ~ 0
