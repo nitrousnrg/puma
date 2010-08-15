@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 06 Aug 2010 10:16:31 PM ART
+EESchema Schematic File Version 2  date Sun 15 Aug 2010 12:57:33 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 1 48
+Sheet 27 48
 Title "freeEMS 1.0"
-Date "7 aug 2010"
+Date "15 aug 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "ignition.sch"
@@ -41,41 +41,45 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	4300 2250 4100 2250
+Connection ~ 4100 1750
+Wire Wire Line
+	4200 1750 4100 1750
 Connection ~ 3400 2650
 Wire Wire Line
 	3400 2550 3400 2650
 Wire Wire Line
-	1750 1350 1950 1350
+	3050 1450 3050 1650
 Wire Wire Line
-	3050 1650 3050 1450
-Connection ~ 4100 1450
+	4100 1650 4100 1850
 Wire Wire Line
-	3550 1450 5100 1450
-Wire Wire Line
-	5100 1450 5100 2200
-Wire Wire Line
-	5100 2200 5300 2200
-Wire Wire Line
-	4100 1450 4100 1850
-Wire Wire Line
-	3050 1450 2950 1450
-Wire Wire Line
-	4100 2650 4100 2250
+	4100 2250 4100 2650
 Wire Wire Line
 	2800 2050 2850 2050
 Wire Wire Line
-	3800 2050 3350 2050
+	3350 2050 3800 2050
 Wire Wire Line
-	2750 2650 5300 2650
-Connection ~ 4100 2650
+	4100 2650 2750 2650
 Wire Wire Line
-	4050 1650 4100 1650
-Connection ~ 4100 1650
+	4100 1650 4050 1650
 Wire Wire Line
 	3550 1650 3650 1650
-Wire Wire Line
-	1750 1550 1950 1550
 Connection ~ 3400 2050
+Wire Wire Line
+	4200 1450 2950 1450
+Connection ~ 3050 1450
+Wire Wire Line
+	4100 1850 4300 1850
+$Comp
+L DIODE D?
+U 1 1 4C66EF1F
+P 4300 2050
+F 0 "D?" H 4300 2150 40  0000 C CNN
+F 1 "DIODE" H 4300 1950 40  0000 C CNN
+	1    4300 2050
+	0    -1   -1   0   
+$EndComp
 $Comp
 L PIP-3104 Q4
 U 1 1 4C2F5333
@@ -111,16 +115,6 @@ F 10 "carbon film" V 1230 2850 60  0001 C CNN "Field7"
 F 11 "other,more,stuff" V 1230 2850 60  0001 C CNN "Field8"
 	1    3400 2300
 	-1   0    0    1   
-$EndComp
-$Comp
-L SWITCH_INV SW4
-U 1 1 4C2F5326
-P 2450 1450
-F 0 "SW4" H 2250 1600 50  0000 C CNN
-F 1 "SWITCH_INV" H 2300 1300 50  0000 C CNN
-F 2 "SIL-3" H 2350 1700 60  0001 C CNN
-	1    2450 1450
-	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D20
@@ -161,25 +155,23 @@ $EndComp
 $Comp
 L CONN_1 P13
 U 1 1 4C2F5316
-P 5450 2650
-F 0 "P13" H 5530 2650 40  0000 L CNN
-F 1 "CONN_1" H 5450 2705 30  0001 C CNN
-F 2 "1PIN" V 1880 2850 60  0001 C CNN
-	1    5450 2650
+P 4350 1750
+F 0 "P13" H 4430 1750 40  0000 L CNN
+F 1 "CONN_1" H 4350 1805 30  0001 C CNN
+F 2 "1PIN" V 780 1950 60  0001 C CNN
+	1    4350 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 P12
 U 1 1 48AA1A4A
-P 5450 2200
-F 0 "P12" H 5530 2200 40  0000 L CNN
-F 1 "CONN_1" H 5450 2255 30  0001 C CNN
-F 2 "1PIN" V 1880 2600 60  0001 C CNN
-	1    5450 2200
+P 4350 1450
+F 0 "P12" H 4430 1450 40  0000 L CNN
+F 1 "CONN_1" H 4350 1505 30  0001 C CNN
+F 2 "1PIN" V 780 1850 60  0001 C CNN
+	1    4350 1450
 	1    0    0    -1  
 $EndComp
-Text HLabel 1750 1550 0    60   Input ~ 0
-5V_reg
 $Comp
 L R R27
 U 1 1 4C2F52E6
@@ -198,25 +190,7 @@ F 11 "other,more,stuff" V 930 2600 60  0001 C CNN "Field8"
 	1    3100 2050
 	0    1    1    0   
 $EndComp
-$Comp
-L R R28
-U 1 1 489395D4
-P 3300 1450
-F 0 "R28" V 3380 1450 50  0000 C CNN
-F 1 "1k" V 3300 1450 50  0000 C CNN
-F 2 "R4-SM0805" V 3480 1550 60  0001 C CNN
-F 4 "newark,38k0327" V 1130 2350 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2350 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2350 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2350 60  0001 C CNN "Field4"
-F 8 "250,mW" V 1130 2350 60  0001 C CNN "Field5"
-F 9 "5,%" V 1130 2350 60  0001 C CNN "Field6"
-F 10 "carbon film" V 1130 2350 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2350 60  0001 C CNN "Field8"
-	1    3300 1450
-	0    1    1    0   
-$EndComp
-Text HLabel 1750 1350 0    60   Input ~ 0
+Text HLabel 2950 1450 0    60   Input ~ 0
 12V_bat
 Text HLabel 2750 2650 0    60   BiDi ~ 0
 low_power_inductive_gnd

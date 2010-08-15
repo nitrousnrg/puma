@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 06 Aug 2010 10:16:31 PM ART
+EESchema Schematic File Version 2  date Sun 15 Aug 2010 12:57:33 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 17 48
 Title "freeEMS 1.0"
-Date "7 aug 2010"
+Date "15 aug 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -41,50 +41,60 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 6250 3300
+Connection ~ 3350 3700
+Connection ~ 5350 3300
 Wire Wire Line
-	6250 3300 6250 2900
+	5350 3300 5350 2900
 Wire Wire Line
-	6250 2900 6000 2900
-Wire Wire Line
-	2500 3300 2650 3300
-Connection ~ 5800 3700
-Connection ~ 4850 3700
-Connection ~ 4850 3300
-Wire Wire Line
-	3050 3300 3100 3300
-Wire Wire Line
-	2600 3750 2600 3700
-Connection ~ 7000 3700
-Wire Wire Line
-	5800 3700 5800 3600
-Wire Wire Line
-	7850 3750 7850 3700
-Connection ~ 7000 3300
-Connection ~ 7450 3300
-Wire Wire Line
-	7850 3300 6200 3300
-Connection ~ 7450 3700
-Connection ~ 4400 3300
-Connection ~ 5250 3700
-Connection ~ 4400 3700
-Connection ~ 5250 3300
-Wire Wire Line
-	7850 3700 2600 3700
+	5350 2900 5600 2900
+Connection ~ 6550 3700
+Connection ~ 6550 3300
 Wire Wire Line
 	5400 3300 3600 3300
-Connection ~ 6550 3300
-Connection ~ 6550 3700
 Wire Wire Line
-	5600 2900 5350 2900
+	7850 3700 2600 3700
+Connection ~ 5250 3300
+Connection ~ 4400 3700
+Connection ~ 5250 3700
+Connection ~ 4400 3300
+Connection ~ 7450 3700
 Wire Wire Line
-	5350 2900 5350 3300
-Connection ~ 5350 3300
+	7850 3300 6200 3300
+Connection ~ 7450 3300
+Connection ~ 7000 3300
+Wire Wire Line
+	7850 3700 7850 3750
+Wire Wire Line
+	5800 3700 5800 3600
+Connection ~ 7000 3700
+Wire Wire Line
+	2600 3700 2600 3750
+Wire Wire Line
+	3050 3300 3100 3300
+Connection ~ 4850 3300
+Connection ~ 4850 3700
+Connection ~ 5800 3700
+Wire Wire Line
+	2500 3300 2650 3300
+Wire Wire Line
+	6000 2900 6250 2900
+Wire Wire Line
+	6250 2900 6250 3300
+Connection ~ 6250 3300
 $Comp
-L PWR_FLAG #FLG051
+L PWR_FLAG #FLG053
+U 1 1 4C66D6BC
+P 3350 3700
+F 0 "#FLG053" H 3350 3970 30  0001 C CNN
+F 1 "PWR_FLAG" H 3350 3930 30  0000 C CNN
+	1    3350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG054
 U 1 1 4C2F5631
 P 4850 3300
-F 0 "#FLG051" H 4850 3570 30  0001 C CNN
+F 0 "#FLG054" H 4850 3570 30  0001 C CNN
 F 1 "PWR_FLAG" H 4850 3530 30  0000 C CNN
 	1    4850 3300
 	1    0    0    -1  
@@ -94,7 +104,7 @@ L 7805-DIYEFI U4
 U 1 1 48B14C8F
 P 5800 3350
 F 0 "U4" H 5950 3154 60  0000 C CNN
-F 1 "LM2931" H 5800 3550 60  0000 C CNN
+F 1 "LM2940" H 5800 3550 60  0000 C CNN
 F 2 "TO220_sm" V 2630 2600 60  0001 C CNN
 F 4 "newark,45J1442" V 2630 2600 60  0001 C CNN "Field1"
 F 5 "vendor1, smd w hem" V 2630 2600 60  0001 C CNN "Field2"
@@ -232,10 +242,10 @@ F 11 "other,more,stuff" H 2630 2600 60  0001 C CNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VSS #PWR052
+L VSS #PWR055
 U 1 1 486CA95E
 P 7850 3750
-F 0 "#PWR052" H 7850 3750 30  0001 C CNN
+F 0 "#PWR055" H 7850 3750 30  0001 C CNN
 F 1 "VSS" H 7850 3680 30  0000 C CNN
 	1    7850 3750
 	-1   0    0    -1  
@@ -313,10 +323,10 @@ F 11 "other,more,stuff" V 1530 2600 60  0001 C CNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR053
+L GND #PWR056
 U 1 1 4C2F529B
 P 2600 3750
-F 0 "#PWR053" H 2600 3750 30  0001 C CNN
+F 0 "#PWR056" H 2600 3750 30  0001 C CNN
 F 1 "GND" H 2600 3680 30  0001 C CNN
 	1    2600 3750
 	-1   0    0    -1  

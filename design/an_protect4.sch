@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 06 Aug 2010 10:16:31 PM ART
+EESchema Schematic File Version 2  date Sun 15 Aug 2010 12:57:33 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 7 48
 Title "freeEMS 1.0"
-Date "7 aug 2010"
+Date "15 aug 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "an_protect.sch"
@@ -41,6 +41,71 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	2050 3200 2050 3150
+Connection ~ 6500 2150
+Wire Wire Line
+	2700 2150 6500 2150
+Wire Wire Line
+	2600 4850 6500 4850
+Wire Wire Line
+	6500 4850 6500 800 
+Connection ~ 3300 1400
+Wire Wire Line
+	2600 1400 3800 1400
+Connection ~ 2750 1400
+Wire Wire Line
+	2750 1200 2750 1400
+Wire Wire Line
+	3300 1800 2100 1800
+Wire Wire Line
+	2100 1800 2100 1850
+Connection ~ 2750 1800
+Wire Wire Line
+	4300 1400 4650 1400
+Connection ~ 3250 2750
+Wire Wire Line
+	2550 2750 3750 2750
+Connection ~ 2700 2750
+Wire Wire Line
+	2700 2550 2700 2750
+Wire Wire Line
+	2050 3150 3250 3150
+Connection ~ 2700 3150
+Wire Wire Line
+	4250 2750 4600 2750
+Connection ~ 3200 4050
+Wire Wire Line
+	2500 4050 3700 4050
+Connection ~ 2650 4050
+Wire Wire Line
+	2650 3850 2650 4050
+Wire Wire Line
+	3200 4450 2000 4450
+Wire Wire Line
+	2000 4450 2000 4500
+Connection ~ 2650 4450
+Wire Wire Line
+	4200 4050 4550 4050
+Connection ~ 3150 5450
+Wire Wire Line
+	2450 5450 3650 5450
+Connection ~ 2600 5450
+Wire Wire Line
+	2600 5250 2600 5450
+Wire Wire Line
+	3150 5850 1950 5850
+Wire Wire Line
+	1950 5850 1950 5900
+Connection ~ 2600 5850
+Wire Wire Line
+	4150 5450 4500 5450
+Wire Wire Line
+	2650 3450 6500 3450
+Connection ~ 6500 3450
+Wire Wire Line
+	6500 800  2650 800 
+Connection ~ 2750 800 
 $Comp
 L DIODESCH D67
 U 1 1 4C4973C4
@@ -89,71 +154,6 @@ F 2 "SOD-123" H 2750 1600 60  0001 C CNN
 	1    2750 1600
 	0    -1   -1   0   
 $EndComp
-Connection ~ 2750 800 
-Wire Wire Line
-	2650 800  6500 800 
-Connection ~ 6500 3450
-Wire Wire Line
-	2650 3450 6500 3450
-Wire Wire Line
-	4150 5450 4500 5450
-Connection ~ 2600 5850
-Wire Wire Line
-	1950 5900 1950 5850
-Wire Wire Line
-	1950 5850 3150 5850
-Wire Wire Line
-	2600 5250 2600 5450
-Connection ~ 2600 5450
-Wire Wire Line
-	2450 5450 3650 5450
-Connection ~ 3150 5450
-Wire Wire Line
-	4200 4050 4550 4050
-Connection ~ 2650 4450
-Wire Wire Line
-	2000 4500 2000 4450
-Wire Wire Line
-	2000 4450 3200 4450
-Wire Wire Line
-	2650 3850 2650 4050
-Connection ~ 2650 4050
-Wire Wire Line
-	2500 4050 3700 4050
-Connection ~ 3200 4050
-Wire Wire Line
-	4250 2750 4600 2750
-Connection ~ 2700 3150
-Wire Wire Line
-	2050 3200 2050 3150
-Wire Wire Line
-	2050 3150 3250 3150
-Wire Wire Line
-	2700 2550 2700 2750
-Connection ~ 2700 2750
-Wire Wire Line
-	2550 2750 3750 2750
-Connection ~ 3250 2750
-Wire Wire Line
-	4300 1400 4650 1400
-Connection ~ 2750 1800
-Wire Wire Line
-	2100 1850 2100 1800
-Wire Wire Line
-	2100 1800 3300 1800
-Wire Wire Line
-	2750 1200 2750 1400
-Connection ~ 2750 1400
-Wire Wire Line
-	2600 1400 3800 1400
-Connection ~ 3300 1400
-Wire Wire Line
-	6500 800  6500 4850
-Wire Wire Line
-	6500 4850 2600 4850
-Wire Wire Line
-	2700 2150 6500 2150
-Connection ~ 6500 2150
 $Comp
 L R R171
 U 1 1 4C4C7B57
@@ -175,12 +175,12 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR026
+L GND #PWR028
 U 1 1 489597C4
 P 1950 5900
-AR Path="/4C4C6618/489597C4" Ref="#PWR026"  Part="1" 
-AR Path="/4C2E1E7D/489597C4" Ref="#PWR068"  Part="1" 
-F 0 "#PWR026" H 1950 5900 30  0001 C CNN
+AR Path="/4C4C6618/489597C4" Ref="#PWR028"  Part="1" 
+AR Path="/4C2E1E7D/489597C4" Ref="#PWR071"  Part="1" 
+F 0 "#PWR071" H 1950 5900 30  0001 C CNN
 F 1 "GND" H 1950 5830 30  0001 C CNN
 	1    1950 5900
 	1    0    0    -1  
@@ -270,12 +270,12 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR027
+L GND #PWR029
 U 1 1 4C4C7B51
 P 2000 4500
-AR Path="/4C4C6618/4C4C7B51" Ref="#PWR027"  Part="1" 
-AR Path="/4C2E1E7D/4C4C7B51" Ref="#PWR069"  Part="1" 
-F 0 "#PWR027" H 2000 4500 30  0001 C CNN
+AR Path="/4C4C6618/4C4C7B51" Ref="#PWR029"  Part="1" 
+AR Path="/4C2E1E7D/4C4C7B51" Ref="#PWR072"  Part="1" 
+F 0 "#PWR072" H 2000 4500 30  0001 C CNN
 F 1 "GND" H 2000 4430 30  0001 C CNN
 	1    2000 4500
 	1    0    0    -1  
@@ -365,12 +365,12 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR028
+L GND #PWR030
 U 1 1 4C2F52F0
 P 2050 3200
-AR Path="/4C4C6618/4C2F52F0" Ref="#PWR028"  Part="1" 
-AR Path="/4C2E1E7D/4C2F52F0" Ref="#PWR070"  Part="1" 
-F 0 "#PWR028" H 2050 3200 30  0001 C CNN
+AR Path="/4C4C6618/4C2F52F0" Ref="#PWR030"  Part="1" 
+AR Path="/4C2E1E7D/4C2F52F0" Ref="#PWR073"  Part="1" 
+F 0 "#PWR073" H 2050 3200 30  0001 C CNN
 F 1 "GND" H 2050 3130 30  0001 C CNN
 	1    2050 3200
 	1    0    0    -1  
@@ -460,12 +460,12 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR029
+L GND #PWR031
 U 1 1 4C4C7B4E
 P 2100 1850
-AR Path="/4C4C6618/4C4C7B4E" Ref="#PWR029"  Part="1" 
-AR Path="/4C2E1E7D/4C4C7B4E" Ref="#PWR071"  Part="1" 
-F 0 "#PWR029" H 2100 1850 30  0001 C CNN
+AR Path="/4C4C6618/4C4C7B4E" Ref="#PWR031"  Part="1" 
+AR Path="/4C2E1E7D/4C4C7B4E" Ref="#PWR074"  Part="1" 
+F 0 "#PWR074" H 2100 1850 30  0001 C CNN
 F 1 "GND" H 2100 1780 30  0001 C CNN
 	1    2100 1850
 	1    0    0    -1  
