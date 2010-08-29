@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 15 Aug 2010 12:57:33 PM ART
+EESchema Schematic File Version 2  date Sun 29 Aug 2010 06:27:37 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A3 16535 11700
-Sheet 2 48
+Sheet 4 50
 Title "freeEMS 1.0"
-Date "15 aug 2010"
+Date "29 aug 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,7 +41,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 11800 5800
+NoConn ~ 3150 5500
+NoConn ~ 3150 5400
+Text Label 4050 5500 0    60   ~ 0
+VCC
+Wire Wire Line
+	3950 5500 4050 5500
+Wire Wire Line
+	3150 5300 2850 5300
 Wire Wire Line
 	9150 5850 10500 5850
 Connection ~ 9850 3350
@@ -217,6 +224,43 @@ Wire Wire Line
 Connection ~ 9950 3250
 Wire Wire Line
 	10500 5950 9150 5950
+Wire Wire Line
+	2850 5300 2850 5200
+Wire Wire Line
+	4300 5200 4300 5400
+Wire Wire Line
+	4300 5400 3950 5400
+Wire Wire Line
+	3950 5300 4050 5300
+Wire Wire Line
+	4050 5300 4050 5350
+$Comp
+L GND #PWR?
+U 1 1 4C7A278D
+P 4050 5350
+F 0 "#PWR?" H 4050 5350 30  0001 C CNN
+F 1 "GND" H 4050 5280 30  0001 C CNN
+	1    4050 5350
+	1    0    0    -1  
+$EndComp
+Text Label 7100 3150 2    60   ~ 0
+RESET
+Text Label 4300 5300 0    60   ~ 0
+RESET
+Text Label 2850 5300 2    60   ~ 0
+BKGD
+Text Label 7100 3050 2    60   ~ 0
+BKGD
+$Comp
+L CONN_3X2 P74
+U 1 1 4C725694
+P 3550 5450
+F 0 "P74" H 3550 5700 50  0000 C CNN
+F 1 "CONN_3X2" V 3550 5500 40  0000 C CNN
+	1    3550 5450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 11800 5800
 Text Label 10450 2850 0    60   ~ 0
 VCC
 Text Label 10150 2250 0    60   ~ 0
@@ -301,16 +345,16 @@ F 1 ".1uF" H 10800 3450 50  0000 L CNN
 	1    10750 3550
 	-1   0    0    1   
 $EndComp
-Text Label 6600 3050 2    60   ~ 0
+Text Label 2850 4700 2    60   ~ 0
 VCC
 $Comp
 L R R180
 U 1 1 4C58B0FD
-P 6850 3050
-F 0 "R180" V 6930 3050 50  0000 C CNN
-F 1 "4.7K" V 6850 3050 50  0000 C CNN
-	1    6850 3050
-	0    1    1    0   
+P 2850 4950
+F 0 "R180" V 2930 4950 50  0000 C CNN
+F 1 "4.7K" V 2850 4950 50  0000 C CNN
+	1    2850 4950
+	-1   0    0    1   
 $EndComp
 Text Label 6450 4550 2    60   ~ 0
 VCC
@@ -397,16 +441,16 @@ F 1 "10k" V 6750 4250 50  0000 C CNN
 	1    6750 4250
 	0    1    1    0   
 $EndComp
-Text Label 6600 3150 2    60   ~ 0
+Text Label 4300 4700 2    60   ~ 0
 VCC
 $Comp
 L R R181
 U 1 1 4C56FDC6
-P 6850 3150
-F 0 "R181" V 6930 3150 50  0000 C CNN
-F 1 "10k" V 6850 3150 50  0000 C CNN
-	1    6850 3150
-	0    1    1    0   
+P 4300 4950
+F 0 "R181" V 4380 4950 50  0000 C CNN
+F 1 "10k" V 4300 4950 50  0000 C CNN
+	1    4300 4950
+	-1   0    0    1   
 $EndComp
 Text Notes 1350 2950 0    60   ~ 0
 PLL + CLK

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 15 Aug 2010 12:57:33 PM ART
+EESchema Schematic File Version 2  date Sun 29 Aug 2010 06:27:37 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 28 48
+Sheet 28 50
 Title "freeEMS 1.0"
-Date "15 aug 2010"
+Date "29 aug 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "ignition.sch"
@@ -72,10 +72,10 @@ Connection ~ 3050 1450
 Wire Wire Line
 	4100 1850 4300 1850
 $Comp
-L DIODE D?
+L DIODE D80
 U 1 1 4C66EF37
 P 4300 2050
-F 0 "D?" H 4300 2150 40  0000 C CNN
+F 0 "D80" H 4300 2150 40  0000 C CNN
 F 1 "DIODE" H 4300 1950 40  0000 C CNN
 	1    4300 2050
 	0    -1   -1   0   

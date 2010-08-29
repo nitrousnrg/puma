@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 15 Aug 2010 12:57:33 PM ART
+EESchema Schematic File Version 2  date Sun 29 Aug 2010 06:27:37 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A2 23400 16535
-Sheet 1 48
+Sheet 1 50
 Title "freeEMS 1.0 ARG"
-Date "15 aug 2010"
+Date "29 aug 2010"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,1578 +41,1594 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	18200 13750 18200 12400
+Wire Wire Line
+	18200 13750 14850 13750
+Wire Wire Line
+	14850 13750 14850 12500
+Connection ~ 18200 11900
+Wire Wire Line
+	18200 11950 18200 11400
+Wire Wire Line
+	18150 5300 18150 1650
+Wire Wire Line
+	3700 1400 3850 1400
+Wire Wire Line
+	9150 3750 10100 3750
+Wire Wire Line
+	14850 1750 15050 1750
+Wire Wire Line
+	15050 1650 14350 1650
+Connection ~ 19000 1750
+Wire Wire Line
+	19000 1200 19000 14200
+Wire Wire Line
+	19000 1200 6250 1200
+Connection ~ 14850 1750
+Wire Wire Line
+	18150 1650 18000 1650
+Connection ~ 18150 2650
+Connection ~ 19000 2250
+Wire Wire Line
+	19000 2250 18000 2250
+Wire Wire Line
+	14850 2250 15050 2250
+Connection ~ 7400 3050
+Connection ~ 8650 2550
+Wire Wire Line
+	8650 2550 7400 2550
+Wire Wire Line
+	7400 2550 7400 3050
+Wire Wire Line
+	7250 6950 7250 6900
+Wire Wire Line
+	7250 6900 7200 6900
+Connection ~ 18350 11600
+Wire Wire Line
+	18350 12100 18350 11600
+Wire Wire Line
+	18350 12100 18000 12100
+Wire Wire Line
+	7800 6800 7600 6800
+Wire Wire Line
+	7600 6800 7600 6650
+Wire Wire Line
+	7600 6650 5600 6650
+Wire Wire Line
+	5600 6650 5600 6800
+Wire Wire Line
+	5600 6800 4350 6800
+Wire Wire Line
+	6000 7000 4350 7000
+Wire Wire Line
+	6000 7200 4350 7200
+Wire Wire Line
+	6000 7300 4350 7300
+Wire Wire Line
+	6000 7500 4350 7500
+Wire Wire Line
+	7200 7100 7800 7100
+Wire Wire Line
+	7200 7300 7800 7300
+Wire Wire Line
+	7200 7500 7800 7500
+Wire Bus Line
+	4250 8550 14250 8550
+Wire Wire Line
+	9150 5900 9600 5900
+Connection ~ 18200 10850
+Wire Wire Line
+	18200 10850 18000 10850
+Wire Wire Line
+	14350 9850 15000 9850
+Connection ~ 18200 5950
+Connection ~ 18850 8250
+Connection ~ 19000 9100
+Connection ~ 18850 9800
+Wire Wire Line
+	18850 9800 18000 9800
+Connection ~ 18200 9900
+Wire Wire Line
+	18200 9900 18000 9900
+Wire Wire Line
+	12300 5250 13450 5250
+Wire Wire Line
+	12300 5050 13450 5050
+Connection ~ 12400 4850
+Wire Wire Line
+	12300 4850 12650 4850
+Wire Wire Line
+	9150 4950 9600 4950
+Wire Wire Line
+	9150 5150 9600 5150
+Wire Wire Line
+	14350 7300 15000 7300
+Wire Wire Line
+	15000 6850 14350 6850
+Connection ~ 18200 7300
+Wire Wire Line
+	18200 7300 18000 7300
+Wire Wire Line
+	18850 6950 18000 6950
+Wire Bus Line
+	12100 8550 12100 13200
+Connection ~ 19000 12950
+Wire Wire Line
+	10850 14200 10850 9150
+Wire Wire Line
+	10850 14200 19000 14200
+Connection ~ 6850 10750
+Wire Wire Line
+	9150 3850 10100 3850
+Connection ~ 14850 4200
+Wire Wire Line
+	14850 4200 15050 4200
+Connection ~ 14850 3250
+Wire Wire Line
+	15050 5200 14850 5200
+Wire Wire Line
+	14850 2750 15050 2750
+Wire Wire Line
+	5800 3500 5800 3050
+Wire Wire Line
+	3700 1200 5750 1200
+Wire Wire Line
+	5300 3400 5450 3400
+Wire Wire Line
+	3700 1500 5350 1500
+Wire Wire Line
+	5400 1300 5450 1300
+Connection ~ 5350 3600
+Connection ~ 10850 11150
+Wire Wire Line
+	10850 11150 10550 11150
+Wire Bus Line
+	10200 3150 10200 4550
+Wire Notes Line
+	13700 2000 13700 8350
+Wire Wire Line
+	9550 5400 7500 5400
+Wire Wire Line
+	7500 5400 7500 5500
+Wire Wire Line
+	7500 5500 7400 5500
+Wire Bus Line
+	10200 4450 13550 4450
+Wire Wire Line
+	12400 4850 12400 5500
+Wire Wire Line
+	12400 5500 12300 5500
+Wire Wire Line
+	9600 5500 9550 5500
+Wire Wire Line
+	14350 6400 15000 6400
+Wire Wire Line
+	14550 11500 14850 11500
+Wire Wire Line
+	14850 11500 14850 12000
+Wire Wire Line
+	14550 11900 15000 11900
+Connection ~ 14850 12950
+Wire Wire Line
+	14850 12500 14550 12500
+Wire Wire Line
+	14550 12400 15000 12400
+Wire Wire Line
+	14550 12850 15000 12850
+Wire Wire Line
+	14550 13400 14850 13400
+Wire Wire Line
+	7400 5900 7800 5900
+Wire Wire Line
+	7400 5700 7800 5700
+Wire Wire Line
+	9150 5700 9600 5700
+Wire Wire Line
+	4700 5900 3600 5900
+Wire Wire Line
+	4700 5700 3600 5700
+Wire Wire Line
+	4700 5600 3600 5600
+Wire Wire Line
+	4700 5800 3600 5800
+Wire Wire Line
+	19000 12500 17950 12500
+Wire Wire Line
+	10850 10350 10550 10350
+Wire Wire Line
+	9150 3250 10100 3250
+Wire Wire Line
+	10100 4350 9150 4350
+Wire Wire Line
+	10100 4150 9150 4150
+Wire Wire Line
+	10100 3950 9150 3950
+Connection ~ 10850 10750
+Wire Wire Line
+	10850 10750 10550 10750
+Connection ~ 10850 9950
+Wire Wire Line
+	10850 9950 10550 9950
+Wire Wire Line
+	10850 9150 10550 9150
+Wire Wire Line
+	14350 2650 15050 2650
+Wire Wire Line
+	14350 3650 15050 3650
+Wire Wire Line
+	14350 4100 15050 4100
+Wire Wire Line
+	14350 4600 15050 4600
+Wire Wire Line
+	14350 5100 15050 5100
+Wire Wire Line
+	18200 7750 18000 7750
+Connection ~ 18850 6050
+Connection ~ 19000 4700
+Wire Wire Line
+	19000 4700 18000 4700
+Connection ~ 19000 3750
+Wire Wire Line
+	19000 3750 18000 3750
+Wire Wire Line
+	5300 2750 5450 2750
+Connection ~ 18200 7750
+Wire Wire Line
+	15000 8550 14350 8550
+Wire Wire Line
+	14350 7750 15000 7750
+Wire Wire Line
+	15000 9000 14350 9000
+Wire Wire Line
+	18200 11400 18000 11400
+Connection ~ 18200 8550
+Wire Wire Line
+	18200 8550 18000 8550
+Connection ~ 18150 4100
+Wire Wire Line
+	18150 4100 18000 4100
+Connection ~ 18150 3650
+Wire Wire Line
+	18150 2650 18000 2650
+Connection ~ 10700 9850
+Wire Wire Line
+	10700 9850 10550 9850
+Connection ~ 10700 10650
+Wire Wire Line
+	10700 10650 10550 10650
+Wire Wire Line
+	10550 9050 10700 9050
+Wire Wire Line
+	18000 5950 18200 5950
+Connection ~ 5350 2950
+Wire Wire Line
+	18150 3650 18000 3650
+Wire Wire Line
+	18000 6400 18200 6400
+Connection ~ 18200 6400
+Wire Wire Line
+	10700 11050 10550 11050
+Wire Wire Line
+	10700 10250 10550 10250
+Connection ~ 10700 10250
+Wire Wire Line
+	10550 9450 10700 9450
+Connection ~ 10700 9450
+Wire Wire Line
+	18150 3150 18000 3150
+Connection ~ 18150 3150
+Wire Wire Line
+	18150 4600 18000 4600
+Connection ~ 18150 4600
+Wire Wire Line
+	18000 5100 18150 5100
+Connection ~ 18150 5100
+Wire Wire Line
+	18200 9000 18000 9000
+Connection ~ 18200 9000
+Wire Wire Line
+	18200 11900 18000 11900
+Wire Wire Line
+	19000 9100 18000 9100
+Wire Wire Line
+	19000 3250 18000 3250
+Connection ~ 19000 3250
+Wire Wire Line
+	19000 4200 18000 4200
+Connection ~ 19000 4200
+Wire Wire Line
+	19000 5200 18000 5200
+Connection ~ 19000 5200
+Wire Wire Line
+	18850 6500 18000 6500
+Connection ~ 18850 6500
+Wire Wire Line
+	18850 6050 18000 6050
+Wire Wire Line
+	14350 3150 15050 3150
+Wire Wire Line
+	18350 11600 18000 11600
+Wire Wire Line
+	10550 9550 10850 9550
+Connection ~ 10850 9550
+Connection ~ 10850 10350
+Wire Wire Line
+	10100 4050 9150 4050
+Wire Wire Line
+	10100 4250 9150 4250
+Wire Wire Line
+	18850 7850 18000 7850
+Connection ~ 18850 6950
+Wire Wire Line
+	18200 12400 17950 12400
+Wire Wire Line
+	19000 12950 17950 12950
+Wire Wire Line
+	17950 12850 18200 12850
+Wire Wire Line
+	17950 13400 19000 13400
+Wire Wire Line
+	18200 13300 17950 13300
+Wire Wire Line
+	18200 9400 18000 9400
+Wire Wire Line
+	9150 5600 9600 5600
+Wire Wire Line
+	9150 5800 9600 5800
+Wire Wire Line
+	7400 5600 7800 5600
+Wire Wire Line
+	7400 5800 7800 5800
+Wire Wire Line
+	14550 13300 15000 13300
+Wire Wire Line
+	14850 12950 14550 12950
+Connection ~ 14850 13400
+Wire Wire Line
+	14550 11400 15000 11400
+Wire Wire Line
+	14850 12000 14550 12000
+Wire Wire Line
+	12900 13300 12200 13300
+Wire Wire Line
+	12900 12850 12200 12850
+Wire Wire Line
+	12900 12400 12200 12400
+Wire Wire Line
+	12900 11900 12200 11900
+Wire Wire Line
+	12900 11400 12200 11400
+Connection ~ 18200 12850
+Connection ~ 18200 13300
+Wire Wire Line
+	18200 8150 18000 8150
+Connection ~ 18200 8150
+Wire Wire Line
+	14350 8150 15000 8150
+Wire Wire Line
+	18850 8250 18000 8250
+Connection ~ 6850 9550
+Wire Wire Line
+	6750 9150 6850 9150
+Connection ~ 6850 10350
+Wire Wire Line
+	6850 9950 6750 9950
+Wire Wire Line
+	6850 11150 6750 11150
+Wire Wire Line
+	6850 10350 6750 10350
+Connection ~ 6850 11150
+Wire Wire Line
+	6750 9550 6850 9550
+Connection ~ 6850 9950
+Wire Wire Line
+	5050 11050 4350 11050
+Wire Wire Line
+	5050 10250 4350 10250
+Wire Wire Line
+	5050 9850 4350 9850
+Wire Wire Line
+	5050 9450 4350 9450
+Wire Wire Line
+	5050 9050 4350 9050
+Wire Wire Line
+	6750 9450 7000 9450
+Wire Wire Line
+	6750 9850 7000 9850
+Wire Wire Line
+	6750 10250 7000 10250
+Wire Wire Line
+	6750 11050 7000 11050
+Wire Wire Line
+	6750 9050 7000 9050
+Wire Wire Line
+	6850 10750 6750 10750
+Wire Wire Line
+	5050 10650 4350 10650
+Wire Wire Line
+	6750 10650 7000 10650
+Wire Wire Line
+	13450 5700 12300 5700
+Wire Wire Line
+	13450 5600 12300 5600
+Wire Wire Line
+	13450 5800 12300 5800
+Wire Wire Line
+	14350 5950 15000 5950
+Wire Wire Line
+	9150 3450 10100 3450
+Wire Wire Line
+	9150 3350 10100 3350
+Wire Wire Line
+	15000 9400 14350 9400
+Wire Wire Line
+	4700 5500 4550 5500
+Wire Wire Line
+	4450 4750 4550 4750
+Wire Wire Line
+	4450 4750 4450 4800
+Wire Wire Line
+	12650 4850 12650 4900
+Wire Bus Line
+	13550 4450 13550 6600
+Wire Bus Line
+	13550 6600 14250 6600
+Connection ~ 8650 5400
+Wire Notes Line
+	13700 8350 3100 8350
+Wire Notes Line
+	10950 12000 10950 8350
+Wire Notes Line
+	19100 5600 13700 5600
+Wire Wire Line
+	4550 4750 4550 5500
+Wire Wire Line
+	5800 3500 5300 3500
+Wire Wire Line
+	3700 1300 4900 1300
+Wire Wire Line
+	18850 8650 18000 8650
+Connection ~ 18200 9400
+Wire Wire Line
+	7800 2850 5300 2850
+Wire Wire Line
+	5350 3600 5300 3600
+Wire Wire Line
+	19000 2750 18000 2750
+Connection ~ 19000 2750
+Wire Wire Line
+	14850 3250 15050 3250
+Wire Wire Line
+	15050 4700 14850 4700
+Connection ~ 14850 4700
+Wire Wire Line
+	14850 3750 15050 3750
+Connection ~ 14850 3750
+Wire Bus Line
+	3500 5500 3500 6550
+Connection ~ 19000 12500
+Connection ~ 19000 13400
+Wire Wire Line
+	18200 6850 18000 6850
+Connection ~ 18200 6850
+Wire Wire Line
+	18850 7400 18000 7400
+Connection ~ 18850 7400
+Wire Wire Line
+	9600 5250 9150 5250
+Wire Wire Line
+	9600 5050 9150 5050
+Wire Wire Line
+	9550 5500 9550 4850
+Wire Wire Line
+	9550 4850 9600 4850
+Connection ~ 9550 5400
+Wire Wire Line
+	12300 4950 13450 4950
+Wire Wire Line
+	12300 5150 13450 5150
+Wire Wire Line
+	18200 10350 18000 10350
+Connection ~ 18200 10350
+Wire Wire Line
+	18000 10250 18850 10250
+Connection ~ 18850 10250
+Connection ~ 18850 8650
+Connection ~ 18850 7850
+Wire Wire Line
+	14350 10300 15000 10300
+Wire Wire Line
+	18200 5950 18200 11000
+Wire Wire Line
+	18000 10750 18850 10750
+Wire Wire Line
+	15000 10800 14350 10800
+Wire Wire Line
+	12300 5900 13450 5900
+Wire Wire Line
+	5800 3050 7800 3050
+Wire Wire Line
+	5300 2950 5350 2950
+Wire Wire Line
+	7800 7400 7200 7400
+Wire Wire Line
+	7800 7200 7200 7200
+Wire Wire Line
+	7800 7000 7200 7000
+Wire Wire Line
+	6000 7400 4350 7400
+Wire Wire Line
+	6000 7100 4350 7100
+Wire Wire Line
+	4350 6900 5700 6900
+Wire Wire Line
+	5700 6900 5700 6750
+Wire Wire Line
+	5700 6750 7500 6750
+Wire Wire Line
+	7500 6750 7500 6900
+Wire Wire Line
+	7500 6900 7800 6900
+Wire Bus Line
+	4250 10950 4250 6550
+Wire Bus Line
+	4250 6550 3500 6550
+Wire Wire Line
+	6000 6900 5950 6900
+Wire Wire Line
+	5950 6900 5950 6950
+Connection ~ 5450 2750
+Connection ~ 7200 2850
+Connection ~ 14850 2750
+Connection ~ 14850 2250
+Wire Wire Line
+	19000 1750 18000 1750
+Wire Wire Line
+	18850 10750 18850 1300
+Wire Wire Line
+	18850 1300 8650 1300
+Wire Wire Line
+	8650 1300 8650 5400
+Wire Wire Line
+	5450 1300 5450 3400
+Wire Wire Line
+	5350 1500 5350 3750
+Wire Wire Line
+	15050 2150 14350 2150
+Wire Bus Line
+	14250 10700 14250 1750
+Wire Wire Line
+	14850 5200 14850 1400
+Wire Wire Line
+	14850 1400 7200 1400
+Wire Wire Line
+	7200 1400 7200 2850
+Wire Wire Line
+	9150 3650 10100 3650
+Wire Wire Line
+	10700 9050 10700 11400
+Wire Wire Line
+	10700 11400 6850 11400
+Wire Wire Line
+	6850 11400 6850 9150
+Connection ~ 10700 11050
+Text Label 16050 13750 0    60   ~ 0
+power_gnd
+Text Label 8250 11400 0    60   ~ 0
+power_gnd
+Text Label 18150 5300 0    60   ~ 0
+power_gnd
+Text Label 3850 1400 0    60   ~ 0
+power_gnd
+Text Label 9250 3650 0    60   ~ 0
+ind_pd_8
+Text Label 9250 3750 0    60   ~ 0
+ind_pd_7
+Entry Wire Line
+	10100 3750 10200 3850
+Entry Wire Line
+	10100 3650 10200 3750
+Entry Wire Line
+	14250 1750 14350 1650
+Entry Wire Line
+	14250 2250 14350 2150
+Text Label 14400 1650 0    60   ~ 0
+ind_pd_8
+Text Label 14400 2150 0    60   ~ 0
+ind_pd_7
+$Sheet
+S 15050 1600 2950 250 
+U 4C77BCB7
+F0 "injector_drive_8" 60
+F1 "injector_drive.sch" 60
+F2 "5v_reg" I L 15050 1750 60 
+F3 "12v_power" I R 18000 1750 60 
+F4 "inductive_power_gnd" B R 18000 1650 60 
+F5 "inductive_power_drive" I L 15050 1650 60 
+$EndSheet
+$Sheet
+S 15050 2100 2950 250 
+U 4C77BC96
+F0 "injector_drive_7" 60
+F1 "injector_drive.sch" 60
+F2 "5v_reg" I L 15050 2250 60 
+F3 "12v_power" I R 18000 2250 60 
+F4 "inductive_power_gnd" B R 18000 2150 60 
+F5 "inductive_power_drive" I L 15050 2150 60 
+$EndSheet
 $Comp
 L GND #PWR01
 U 1 1 4C66D869
-P 4650 5450
-F 0 "#PWR01" H 4650 5450 30  0001 C CNN
-F 1 "GND" H 4650 5380 30  0001 C CNN
-	1    4650 5450
+P 7250 6950
+F 0 "#PWR01" H 7250 6950 30  0001 C CNN
+F 1 "GND" H 7250 6880 30  0001 C CNN
+	1    7250 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR02
 U 1 1 4C66D865
-P 3350 5450
-F 0 "#PWR02" H 3350 5450 30  0001 C CNN
-F 1 "GND" H 3350 5380 30  0001 C CNN
-	1    3350 5450
+P 5950 6950
+F 0 "#PWR02" H 5950 6950 30  0001 C CNN
+F 1 "GND" H 5950 6880 30  0001 C CNN
+	1    5950 6950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4650 5450 4650 5400
-Wire Wire Line
-	4650 5400 4600 5400
-Connection ~ 15750 10100
-Wire Wire Line
-	15750 10600 15750 10100
-Wire Wire Line
-	15750 10600 15400 10600
-Wire Wire Line
-	5200 5300 5000 5300
-Wire Wire Line
-	5000 5300 5000 5150
-Wire Wire Line
-	5000 5150 3000 5150
-Wire Wire Line
-	3000 5150 3000 5300
-Wire Wire Line
-	3000 5300 1750 5300
-Wire Wire Line
-	3400 5500 1750 5500
-Wire Wire Line
-	3400 5700 1750 5700
-Wire Wire Line
-	3400 5800 1750 5800
-Wire Wire Line
-	3400 6000 1750 6000
-Wire Wire Line
-	4600 5600 5200 5600
-Wire Wire Line
-	4600 5800 5200 5800
-Wire Wire Line
-	4600 6000 5200 6000
-Wire Bus Line
-	1650 7050 11650 7050
-Wire Wire Line
-	6550 4400 7000 4400
-Wire Bus Line
-	11650 450  11650 9200
-Connection ~ 15600 9350
-Wire Wire Line
-	15600 9350 15400 9350
-Wire Wire Line
-	11750 8350 12400 8350
-Connection ~ 15600 4450
-Connection ~ 16250 6750
-Connection ~ 16400 7600
-Connection ~ 16250 8300
-Wire Wire Line
-	16250 8300 15400 8300
-Connection ~ 15600 8400
-Wire Wire Line
-	15600 8400 15400 8400
-Wire Wire Line
-	9700 3750 10850 3750
-Wire Wire Line
-	9700 3550 10850 3550
-Connection ~ 9800 3350
-Wire Wire Line
-	9700 3350 10050 3350
-Wire Wire Line
-	6550 3450 7000 3450
-Wire Wire Line
-	6550 3650 7000 3650
-Wire Wire Line
-	11750 5800 12400 5800
-Wire Wire Line
-	12400 5350 11750 5350
-Connection ~ 15600 5800
-Wire Wire Line
-	15600 5800 15400 5800
-Wire Wire Line
-	16250 5450 15400 5450
-Wire Bus Line
-	9500 11700 9500 7050
-Connection ~ 16400 11450
-Wire Wire Line
-	16250 700  16250 9250
-Wire Wire Line
-	8250 12700 8250 7650
-Wire Wire Line
-	8250 12700 16400 12700
-Connection ~ 4250 9250
-Wire Wire Line
-	6550 2350 7500 2350
-Connection ~ 12250 2700
-Wire Wire Line
-	12250 2700 12450 2700
-Connection ~ 12250 1750
-Wire Wire Line
-	12450 3700 12250 3700
-Wire Wire Line
-	12250 3700 12250 700 
-Connection ~ 12250 700 
-Wire Wire Line
-	12450 1250 12250 1250
-Wire Wire Line
-	3200 1100 3200 2000
-Wire Wire Line
-	1100 650  3150 650 
-Wire Wire Line
-	3650 650  16400 650 
-Connection ~ 3000 650 
-Wire Wire Line
-	2700 1900 3000 1900
-Wire Wire Line
-	3000 1900 3000 1250
-Wire Wire Line
-	3000 750  3000 650 
-Wire Wire Line
-	2750 2250 2750 950 
-Wire Wire Line
-	2750 950  1100 950 
-Wire Wire Line
-	2800 750  2850 750 
-Connection ~ 2750 2100
-Connection ~ 8250 9650
-Wire Wire Line
-	7950 9650 8250 9650
-Wire Bus Line
-	7600 3050 7600 1650
-Wire Notes Line
-	11100 500  11100 6850
-Wire Wire Line
-	6950 3900 4900 3900
-Wire Wire Line
-	4900 3900 4900 4000
-Wire Wire Line
-	4900 4000 4800 4000
-Wire Bus Line
-	7600 2950 10950 2950
-Wire Wire Line
-	9800 3350 9800 4000
-Wire Wire Line
-	9800 4000 9700 4000
-Wire Wire Line
-	7000 4000 6950 4000
-Wire Wire Line
-	11750 4900 12400 4900
-Connection ~ 12250 10500
-Wire Wire Line
-	11950 10000 12250 10000
-Wire Wire Line
-	12250 10000 12250 11950
-Wire Wire Line
-	11950 10400 12400 10400
-Connection ~ 12250 11450
-Wire Wire Line
-	12250 11000 11950 11000
-Wire Wire Line
-	11950 10900 12400 10900
-Wire Wire Line
-	11950 11350 12400 11350
-Wire Wire Line
-	11950 11900 12250 11900
-Wire Wire Line
-	4800 4400 5200 4400
-Wire Wire Line
-	4800 4200 5200 4200
-Wire Wire Line
-	6550 4200 7000 4200
-Wire Wire Line
-	2100 4400 1000 4400
-Wire Wire Line
-	2100 4200 1000 4200
-Wire Wire Line
-	2100 4100 1000 4100
-Wire Wire Line
-	2100 4300 1000 4300
-Wire Wire Line
-	16400 11000 15350 11000
-Wire Wire Line
-	8250 8850 7950 8850
-Wire Wire Line
-	6550 1750 7500 1750
-Wire Wire Line
-	7500 2850 6550 2850
-Wire Wire Line
-	7500 2650 6550 2650
-Wire Wire Line
-	7500 2450 6550 2450
-Connection ~ 8250 9250
-Wire Wire Line
-	8250 9250 7950 9250
-Connection ~ 8250 8450
-Wire Wire Line
-	8250 8450 7950 8450
-Wire Wire Line
-	8250 7650 7950 7650
-Wire Wire Line
-	11750 1150 12450 1150
-Wire Wire Line
-	11750 2150 12450 2150
-Wire Wire Line
-	11750 2600 12450 2600
-Wire Wire Line
-	11750 3100 12450 3100
-Wire Wire Line
-	11750 3600 12450 3600
-Wire Wire Line
-	15600 6250 15400 6250
-Connection ~ 16250 4550
-Connection ~ 16400 3200
-Wire Wire Line
-	16400 3200 15400 3200
-Connection ~ 16400 2250
-Wire Wire Line
-	16400 2250 15400 2250
-Wire Wire Line
-	2700 1250 2850 1250
-Connection ~ 15600 6250
-Wire Wire Line
-	12400 7050 11750 7050
-Wire Wire Line
-	11750 6250 12400 6250
-Wire Wire Line
-	12400 7500 11750 7500
-Wire Wire Line
-	15400 9900 15600 9900
-Connection ~ 15600 7050
-Wire Wire Line
-	15600 7050 15400 7050
-Wire Wire Line
-	15600 9900 15600 11950
-Wire Wire Line
-	15550 3800 15550 1150
-Connection ~ 15550 2600
-Wire Wire Line
-	15550 2600 15400 2600
-Connection ~ 15550 2150
-Wire Wire Line
-	15550 1150 15400 1150
-Connection ~ 8100 8350
-Wire Wire Line
-	8100 8350 7950 8350
-Connection ~ 8100 9150
-Wire Wire Line
-	8100 9150 7950 9150
-Wire Wire Line
-	8100 9950 8100 7550
-Wire Wire Line
-	8100 7550 7950 7550
-Wire Wire Line
-	15400 4450 15600 4450
-Connection ~ 2750 1450
-Wire Wire Line
-	15550 2150 15400 2150
-Wire Wire Line
-	15400 4900 15600 4900
-Connection ~ 15600 4900
-Wire Wire Line
-	8100 9550 7950 9550
-Connection ~ 8100 9550
-Wire Wire Line
-	8100 8750 7950 8750
-Connection ~ 8100 8750
-Wire Wire Line
-	7950 7950 8100 7950
-Connection ~ 8100 7950
-Wire Wire Line
-	15400 1650 15550 1650
-Connection ~ 15550 1650
-Wire Wire Line
-	15550 3100 15400 3100
-Connection ~ 15550 3100
-Wire Wire Line
-	15550 3600 15400 3600
-Connection ~ 15550 3600
-Wire Wire Line
-	15600 7500 15400 7500
-Connection ~ 15600 7500
-Wire Wire Line
-	15600 10400 15400 10400
-Connection ~ 15600 10400
-Wire Wire Line
-	16250 700  6050 700 
-Wire Wire Line
-	16400 7600 15400 7600
-Wire Wire Line
-	16400 1750 15400 1750
-Connection ~ 16400 1750
-Wire Wire Line
-	16400 2700 15400 2700
-Connection ~ 16400 2700
-Wire Wire Line
-	16400 3700 15400 3700
-Connection ~ 16400 3700
-Wire Wire Line
-	16250 5000 15400 5000
-Connection ~ 16250 5000
-Wire Wire Line
-	15400 4550 16250 4550
-Wire Wire Line
-	11750 1650 12450 1650
-Wire Wire Line
-	15750 10100 15400 10100
-Wire Wire Line
-	8250 8050 7950 8050
-Connection ~ 8250 8050
-Connection ~ 8250 8850
-Wire Wire Line
-	7500 2550 6550 2550
-Wire Wire Line
-	7500 2750 6550 2750
-Wire Wire Line
-	16250 6350 15400 6350
-Connection ~ 16250 5450
-Wire Wire Line
-	15600 10900 15350 10900
-Wire Wire Line
-	16400 11450 15350 11450
-Wire Wire Line
-	15600 11350 15350 11350
-Wire Wire Line
-	16400 11900 15350 11900
-Wire Wire Line
-	15350 11800 15600 11800
-Wire Wire Line
-	15600 7900 15400 7900
-Wire Wire Line
-	6550 4100 7000 4100
-Wire Wire Line
-	6550 4300 7000 4300
-Wire Wire Line
-	4800 4100 5200 4100
-Wire Wire Line
-	4800 4300 5200 4300
-Wire Wire Line
-	11950 11800 12400 11800
-Wire Wire Line
-	12250 11450 11950 11450
-Connection ~ 12250 11900
-Wire Wire Line
-	11950 9900 12400 9900
-Wire Wire Line
-	12250 10500 11950 10500
-Connection ~ 12250 11000
-Wire Wire Line
-	10300 11800 9600 11800
-Wire Wire Line
-	10300 11350 9600 11350
-Wire Wire Line
-	10300 10900 9600 10900
-Wire Wire Line
-	10300 10400 9600 10400
-Wire Wire Line
-	10300 9900 9600 9900
-Connection ~ 15600 10900
-Connection ~ 15600 11350
-Connection ~ 15600 11800
-Wire Wire Line
-	15600 6650 15400 6650
-Connection ~ 15600 6650
-Wire Wire Line
-	11750 6650 12400 6650
-Wire Wire Line
-	16250 6750 15400 6750
-Connection ~ 4250 8050
-Wire Wire Line
-	4150 7650 4250 7650
-Connection ~ 4250 8850
-Wire Wire Line
-	4250 8450 4150 8450
-Wire Wire Line
-	4250 9650 4150 9650
-Wire Wire Line
-	4250 8850 4150 8850
-Connection ~ 4250 9650
-Wire Wire Line
-	4150 8050 4250 8050
-Connection ~ 4250 8450
-Wire Wire Line
-	2450 9550 1750 9550
-Wire Wire Line
-	2450 8750 1750 8750
-Wire Wire Line
-	2450 8350 1750 8350
-Wire Wire Line
-	2450 7950 1750 7950
-Wire Wire Line
-	2450 7550 1750 7550
-Wire Wire Line
-	4150 7950 4400 7950
-Wire Wire Line
-	4150 8350 4400 8350
-Wire Wire Line
-	4150 8750 4400 8750
-Wire Wire Line
-	4150 9550 4400 9550
-Wire Wire Line
-	4150 7550 4400 7550
-Wire Wire Line
-	4250 9250 4150 9250
-Wire Wire Line
-	2450 9150 1750 9150
-Wire Wire Line
-	4150 9150 4400 9150
-Wire Wire Line
-	10850 4200 9700 4200
-Wire Wire Line
-	10850 4100 9700 4100
-Wire Wire Line
-	10850 4300 9700 4300
-Wire Wire Line
-	11750 4450 12400 4450
-Wire Wire Line
-	6550 1950 7500 1950
-Wire Wire Line
-	6550 1850 7500 1850
-Wire Wire Line
-	12400 7900 11750 7900
-Wire Wire Line
-	2100 4000 1950 4000
-Wire Wire Line
-	1850 3250 1950 3250
-Wire Wire Line
-	1850 3250 1850 3300
-Wire Wire Line
-	10050 3350 10050 3400
-Wire Bus Line
-	10950 2950 10950 5100
-Wire Bus Line
-	10950 5100 11650 5100
-Wire Wire Line
-	3200 1100 6050 1100
-Connection ~ 6050 3900
-Wire Notes Line
-	11100 6850 500  6850
-Wire Notes Line
-	8350 10500 8350 6850
-Wire Notes Line
-	16500 4100 11100 4100
-Wire Wire Line
-	1950 3250 1950 4000
-Wire Wire Line
-	3200 2000 2700 2000
-Wire Wire Line
-	1100 750  2300 750 
-Wire Wire Line
-	1100 950  1100 850 
-Wire Wire Line
-	2850 1250 2850 750 
-Wire Wire Line
-	6050 700  6050 3900
-Connection ~ 6050 1100
-Wire Wire Line
-	16250 7150 15400 7150
-Connection ~ 15600 7900
-Wire Wire Line
-	2700 1350 5200 1350
-Wire Wire Line
-	2750 2100 2700 2100
-Wire Wire Line
-	15400 1250 16400 1250
-Connection ~ 16400 1250
-Wire Wire Line
-	12250 1750 12450 1750
-Connection ~ 12250 1250
-Wire Wire Line
-	12250 3200 12450 3200
-Connection ~ 12250 3200
-Wire Wire Line
-	12250 2250 12450 2250
-Connection ~ 12250 2250
-Wire Bus Line
-	900  4000 900  5050
-Wire Wire Line
-	4250 7650 4250 9700
-Connection ~ 16400 11000
-Connection ~ 16400 11900
-Wire Wire Line
-	16400 650  16400 12700
-Wire Wire Line
-	15600 5350 15400 5350
-Connection ~ 15600 5350
-Wire Wire Line
-	16250 5900 15400 5900
-Connection ~ 16250 5900
-Wire Wire Line
-	7000 3750 6550 3750
-Wire Wire Line
-	7000 3550 6550 3550
-Wire Wire Line
-	6950 4000 6950 3350
-Wire Wire Line
-	6950 3350 7000 3350
-Connection ~ 6950 3900
-Wire Wire Line
-	9700 3450 10850 3450
-Wire Wire Line
-	9700 3650 10850 3650
-Wire Wire Line
-	15600 8850 15400 8850
-Connection ~ 15600 8850
-Wire Wire Line
-	16250 8750 15400 8750
-Connection ~ 16250 8750
-Connection ~ 16250 7150
-Connection ~ 16250 6350
-Wire Wire Line
-	11750 8800 12400 8800
-Wire Wire Line
-	15600 4450 15600 9500
-Wire Wire Line
-	16250 9250 15400 9250
-Wire Wire Line
-	12400 9300 11750 9300
-Wire Wire Line
-	9700 4400 10850 4400
-Wire Wire Line
-	5200 1550 3200 1550
-Connection ~ 3200 1550
-Wire Wire Line
-	2700 1450 2750 1450
-Wire Wire Line
-	5200 5900 4600 5900
-Wire Wire Line
-	5200 5700 4600 5700
-Wire Wire Line
-	5200 5500 4600 5500
-Wire Wire Line
-	3400 5900 1750 5900
-Wire Wire Line
-	3400 5600 1750 5600
-Wire Wire Line
-	1750 5400 3100 5400
-Wire Wire Line
-	3100 5400 3100 5250
-Wire Wire Line
-	3100 5250 4900 5250
-Wire Wire Line
-	4900 5250 4900 5400
-Wire Wire Line
-	4900 5400 5200 5400
-Wire Bus Line
-	1650 9450 1650 5050
-Wire Bus Line
-	1650 5050 900  5050
-Wire Wire Line
-	3400 5400 3350 5400
-Wire Wire Line
-	3350 5400 3350 5450
-Text Label 15750 10100 0    60   ~ 0
+Text Label 18350 11600 0    60   ~ 0
 5v_digital
-Text Label 3400 6100 2    60   ~ 0
+Text Label 6000 7600 2    60   ~ 0
 5v_digital
-Text Label 4600 6100 0    60   ~ 0
+Text Label 7200 7600 0    60   ~ 0
 5v_digital
 $Comp
 L SI846X U19
 U 1 1 4C66BAA4
-P 4000 5750
-F 0 "U19" H 4000 5300 60  0000 C CNN
-F 1 "SI846X" H 3950 6200 60  0000 C CNN
-	1    4000 5750
+P 6600 7250
+F 0 "U19" H 6600 6800 60  0000 C CNN
+F 1 "SI846X" H 6550 7700 60  0000 C CNN
+	1    6600 7250
 	-1   0    0    1   
 $EndComp
 Entry Wire Line
-	1650 5400 1750 5300
+	4250 6900 4350 6800
 Entry Wire Line
-	1650 5500 1750 5400
+	4250 7000 4350 6900
 Entry Wire Line
-	1650 5600 1750 5500
+	4250 7100 4350 7000
 Entry Wire Line
-	1650 5700 1750 5600
+	4250 7200 4350 7100
 Entry Wire Line
-	1650 5800 1750 5700
+	4250 7300 4350 7200
 Entry Wire Line
-	1650 5900 1750 5800
+	4250 7400 4350 7300
 Entry Wire Line
-	1650 6000 1750 5900
+	4250 7500 4350 7400
 $Sheet
-S 5200 1300 1350 5250
+S 7800 2800 1350 5250
 U 4C2E1EA1
 F0 "CPU" 60
 F1 "CPU.sch" 60
-F2 "AN15" B L 5200 3750 60 
-F3 "AN14" B L 5200 3650 60 
-F4 "AN13" B L 5200 3550 60 
-F5 "AN12" B L 5200 3450 60 
-F6 "PM0" B L 5200 3350 60 
-F7 "PM1" B L 5200 3250 60 
-F8 "PM2" B L 5200 3150 60 
-F9 "PM3" B L 5200 3050 60 
-F10 "PM4" B L 5200 2950 60 
-F11 "PM5" B L 5200 2850 60 
-F12 "PM6" B L 5200 2750 60 
-F13 "PM7" B L 5200 2650 60 
-F14 "PJ6" B L 5200 2550 60 
-F15 "PJ7" B L 5200 2450 60 
-F16 "PJ0" B L 5200 2350 60 
-F17 "PK0" B L 5200 2250 60 
-F18 "PK1" B L 5200 2150 60 
-F19 "PK2" B L 5200 2050 60 
-F20 "PK3" B L 5200 1950 60 
-F21 "PK4" B L 5200 1850 60 
-F22 "PK5" B L 5200 1750 60 
-F23 "PK7" B L 5200 1650 60 
-F24 "AN11" B L 5200 4300 60 
-F25 "AN10" B R 6550 3550 60 
-F26 "AN09" B R 6550 3650 60 
-F27 "AN08" B L 5200 4100 60 
-F28 "PJ1" B R 6550 3350 60 
-F29 "PE3" B R 6550 3150 60 
-F30 "PE4" B R 6550 3050 60 
-F31 "PE2" B R 6550 2950 60 
-F32 "PB0" B R 6550 2850 60 
-F33 "PB1" B R 6550 2750 60 
-F34 "PB2" B R 6550 2650 60 
-F35 "PB3" B R 6550 2550 60 
-F36 "PB4" B R 6550 2450 60 
-F37 "PB5" B R 6550 2350 60 
-F38 "PB6" B R 6550 2250 60 
-F39 "PB7" B R 6550 2150 60 
-F40 "PA0" B R 6550 2050 60 
-F41 "PA1" B R 6550 1950 60 
-F42 "PA2" B R 6550 1850 60 
-F43 "PA3" B R 6550 1750 60 
-F44 "PA4" B R 6550 1650 60 
-F45 "PA5" B R 6550 1550 60 
-F46 "PA6" B R 6550 1450 60 
-F47 "PA7" B R 6550 1350 60 
-F48 "PE1" B R 6550 3250 60 
-F49 "PE0" B R 6550 6000 60 
-F50 "PH0" B R 6550 5700 60 
-F51 "PH1" B R 6550 5600 60 
-F52 "PH2" B R 6550 5500 60 
-F53 "PH3" B R 6550 5400 60 
-F54 "PH4" B R 6550 5300 60 
-F55 "PH5" B R 6550 5200 60 
-F56 "PH6" B R 6550 5100 60 
-F57 "PH7" B R 6550 5000 60 
-F58 "PS2" B R 6550 4900 60 
-F59 "PS3" B R 6550 5800 60 
-F60 "AN04" B L 5200 4400 60 
-F61 "AN05" B R 6550 4400 60 
-F62 "AN06" B R 6550 4200 60 
-F63 "AN07" B R 6550 4300 60 
-F64 "PT7" B L 5200 6000 60 
-F65 "PT6" B L 5200 5900 60 
-F66 "PT5" B L 5200 5800 60 
-F67 "PT4" B L 5200 5700 60 
-F68 "PT3" B L 5200 5600 60 
-F69 "PT2" B L 5200 5500 60 
-F70 "PT1" B L 5200 5400 60 
-F71 "PT0" B L 5200 5300 60 
-F72 "PP7" B L 5200 5200 60 
-F73 "PP6" B L 5200 5100 60 
-F74 "PP5" B L 5200 5000 60 
-F75 "PP4" B L 5200 4900 60 
-F76 "PP3" B L 5200 4800 60 
-F77 "PP2" B L 5200 4700 60 
-F78 "PP1" B L 5200 4600 60 
-F79 "PP0" B L 5200 4500 60 
-F80 "AN00" B R 6550 4100 60 
-F81 "AN01" B R 6550 3750 60 
-F82 "AN02" B L 5200 4200 60 
-F83 "AN03" B R 6550 3450 60 
-F84 "5v_analog" I L 5200 1550 60 
-F85 "5v_digital" I L 5200 1350 60 
+F2 "AN15" B L 7800 5250 60 
+F3 "AN14" B L 7800 5150 60 
+F4 "AN13" B L 7800 5050 60 
+F5 "AN12" B L 7800 4950 60 
+F6 "PM0" B L 7800 4850 60 
+F7 "PM1" B L 7800 4750 60 
+F8 "PM2" B L 7800 4650 60 
+F9 "PM3" B L 7800 4550 60 
+F10 "PM4" B L 7800 4450 60 
+F11 "PM5" B L 7800 4350 60 
+F12 "PM6" B L 7800 4250 60 
+F13 "PM7" B L 7800 4150 60 
+F14 "PJ6" B L 7800 4050 60 
+F15 "PJ7" B L 7800 3950 60 
+F16 "PJ0" B L 7800 3850 60 
+F17 "PK0" B L 7800 3750 60 
+F18 "PK1" B L 7800 3650 60 
+F19 "PK2" B L 7800 3550 60 
+F20 "PK3" B L 7800 3450 60 
+F21 "PK4" B L 7800 3350 60 
+F22 "PK5" B L 7800 3250 60 
+F23 "PK7" B L 7800 3150 60 
+F24 "AN11" B L 7800 5800 60 
+F25 "AN10" B R 9150 5050 60 
+F26 "AN09" B R 9150 5150 60 
+F27 "AN08" B L 7800 5600 60 
+F28 "PJ1" B R 9150 4850 60 
+F29 "PE3" B R 9150 4650 60 
+F30 "PE4" B R 9150 4550 60 
+F31 "PE2" B R 9150 4450 60 
+F32 "PB0" B R 9150 4350 60 
+F33 "PB1" B R 9150 4250 60 
+F34 "PB2" B R 9150 4150 60 
+F35 "PB3" B R 9150 4050 60 
+F36 "PB4" B R 9150 3950 60 
+F37 "PB5" B R 9150 3850 60 
+F38 "PB6" B R 9150 3750 60 
+F39 "PB7" B R 9150 3650 60 
+F40 "PA0" B R 9150 3550 60 
+F41 "PA1" B R 9150 3450 60 
+F42 "PA2" B R 9150 3350 60 
+F43 "PA3" B R 9150 3250 60 
+F44 "PA4" B R 9150 3150 60 
+F45 "PA5" B R 9150 3050 60 
+F46 "PA6" B R 9150 2950 60 
+F47 "PA7" B R 9150 2850 60 
+F48 "PE1" B R 9150 4750 60 
+F49 "PE0" B R 9150 7500 60 
+F50 "PH0" B R 9150 7200 60 
+F51 "PH1" B R 9150 7100 60 
+F52 "PH2" B R 9150 7000 60 
+F53 "PH3" B R 9150 6900 60 
+F54 "PH4" B R 9150 6800 60 
+F55 "PH5" B R 9150 6700 60 
+F56 "PH6" B R 9150 6600 60 
+F57 "PH7" B R 9150 6500 60 
+F58 "PS2" B R 9150 6400 60 
+F59 "PS3" B R 9150 7300 60 
+F60 "AN04" B L 7800 5900 60 
+F61 "AN05" B R 9150 5900 60 
+F62 "AN06" B R 9150 5700 60 
+F63 "AN07" B R 9150 5800 60 
+F64 "PT7" B L 7800 7500 60 
+F65 "PT6" B L 7800 7400 60 
+F66 "PT5" B L 7800 7300 60 
+F67 "PT4" B L 7800 7200 60 
+F68 "PT3" B L 7800 7100 60 
+F69 "PT2" B L 7800 7000 60 
+F70 "PT1" B L 7800 6900 60 
+F71 "PT0" B L 7800 6800 60 
+F72 "PP7" B L 7800 6700 60 
+F73 "PP6" B L 7800 6600 60 
+F74 "PP5" B L 7800 6500 60 
+F75 "PP4" B L 7800 6400 60 
+F76 "PP3" B L 7800 6300 60 
+F77 "PP2" B L 7800 6200 60 
+F78 "PP1" B L 7800 6100 60 
+F79 "PP0" B L 7800 6000 60 
+F80 "AN00" B R 9150 5600 60 
+F81 "AN01" B R 9150 5250 60 
+F82 "AN02" B L 7800 5700 60 
+F83 "AN03" B R 9150 4950 60 
+F84 "5v_analog" I L 7800 3050 60 
+F85 "5v_digital" I L 7800 2850 60 
 $EndSheet
-Text Label 3400 1350 0    60   ~ 0
+Text Label 6000 2850 0    60   ~ 0
 5v_digital
-Text Label 3200 2000 0    60   ~ 0
+Text Label 5800 3050 0    60   ~ 0
 5v_analog
-NoConn ~ 6550 5800
-Text Label 9850 4400 0    60   ~ 0
+NoConn ~ 9150 7300
+Text Label 12450 5900 0    60   ~ 0
 THERMOCOUPLE
 Entry Wire Line
-	10850 4400 10950 4500
-Text Label 11750 9300 0    60   ~ 0
+	13450 5900 13550 6000
+Text Label 14350 10800 0    60   ~ 0
 THERMOCOUPLE
 Entry Wire Line
-	11650 9200 11750 9300
+	14250 10700 14350 10800
 $Sheet
-S 12400 9200 3000 200 
+S 15000 10700 3000 200 
 U 4C598474
 F0 "thermocouple_amplifier" 60
 F1 "thermocuple_amplifier.sch" 60
-F2 "temp_output" I L 12400 9300 60 
-F3 "5V_reg" I R 15400 9250 60 
-F4 "analog_gnd" I R 15400 9350 60 
+F2 "temp_output" I L 15000 10800 60 
+F3 "5V_reg" I R 18000 10750 60 
+F4 "analog_gnd" I R 18000 10850 60 
 $EndSheet
-Text Label 11750 8800 0    60   ~ 0
+Text Label 14350 10300 0    60   ~ 0
 AUX_ANALOG_2
-Text Label 11750 8350 0    60   ~ 0
+Text Label 14350 9850 0    60   ~ 0
 AUX_ANALOG_1
 Entry Wire Line
-	11650 8700 11750 8800
+	14250 10200 14350 10300
 Entry Wire Line
-	11650 8250 11750 8350
+	14250 9750 14350 9850
 $Sheet
-S 12400 8700 3000 200 
+S 15000 10200 3000 200 
 U 4C4C6A85
 F0 "analog_input_2" 60
 F1 "analog_aux_input.sch" 60
-F2 "analog_aux" I L 12400 8800 60 
-F3 "analog_gnd" I R 15400 8850 60 
-F4 "5v_reg" I R 15400 8750 60 
+F2 "analog_aux" I L 15000 10300 60 
+F3 "analog_gnd" I R 18000 10350 60 
+F4 "5v_reg" I R 18000 10250 60 
 $EndSheet
 $Sheet
-S 12400 8250 3000 200 
+S 15000 9750 3000 200 
 U 4C4C69E2
 F0 "analog_input_1" 60
 F1 "analog_aux_input.sch" 60
-F2 "analog_aux" I L 12400 8350 60 
-F3 "analog_gnd" I R 15400 8400 60 
-F4 "5v_reg" I R 15400 8300 60 
+F2 "analog_aux" I L 15000 9850 60 
+F3 "analog_gnd" I R 18000 9900 60 
+F4 "5v_reg" I R 18000 9800 60 
 $EndSheet
-Text Label 10150 3750 0    60   ~ 0
+Text Label 12750 5250 0    60   ~ 0
 AUX_ANALOG_2
-Text Label 10150 3650 0    60   ~ 0
+Text Label 12750 5150 0    60   ~ 0
 AUX_ANALOG_1
-Text Label 10150 3550 0    60   ~ 0
+Text Label 12750 5050 0    60   ~ 0
 TEMP_IN_4
-Text Label 10150 3450 0    60   ~ 0
+Text Label 12750 4950 0    60   ~ 0
 TEMP_IN_3
 Entry Wire Line
-	10850 3750 10950 3850
+	13450 5250 13550 5350
 Entry Wire Line
-	10850 3650 10950 3750
+	13450 5150 13550 5250
 Entry Wire Line
-	10850 3550 10950 3650
+	13450 5050 13550 5150
 Entry Wire Line
-	10850 3450 10950 3550
+	13450 4950 13550 5050
 $Sheet
-S 7000 3300 2700 500 
+S 9600 4800 2700 500 
 U 4C4C6618
 F0 "analog_protect_5" 60
 F1 "an_protect4.sch" 60
-F2 "analog_sensor_in_4" I R 9700 3750 60 
-F3 "analog_sensor_out_4" O L 7000 3750 60 
-F4 "analog_sensor_in_3" I R 9700 3650 60 
-F5 "analog_sensor_out_3" O L 7000 3650 60 
-F6 "analog_sensor_in_2" I R 9700 3550 60 
-F7 "analog_sensor_out_2" O L 7000 3550 60 
-F8 "analog_sensor_gnd" B R 9700 3350 60 
-F9 "analog_sensor_vcc" I L 7000 3350 60 
-F10 "analog_sensor_in_1" I R 9700 3450 60 
-F11 "analog_sensor_out_1" O L 7000 3450 60 
+F2 "analog_sensor_in_4" I R 12300 5250 60 
+F3 "analog_sensor_out_4" O L 9600 5250 60 
+F4 "analog_sensor_in_3" I R 12300 5150 60 
+F5 "analog_sensor_out_3" O L 9600 5150 60 
+F6 "analog_sensor_in_2" I R 12300 5050 60 
+F7 "analog_sensor_out_2" O L 9600 5050 60 
+F8 "analog_sensor_gnd" B R 12300 4850 60 
+F9 "analog_sensor_vcc" I L 9600 4850 60 
+F10 "analog_sensor_in_1" I R 12300 4950 60 
+F11 "analog_sensor_out_1" O L 9600 4950 60 
 $EndSheet
 Entry Wire Line
-	11650 5700 11750 5800
+	14250 7200 14350 7300
 Entry Wire Line
-	11650 5250 11750 5350
-Text Label 11800 5800 0    60   ~ 0
+	14250 6750 14350 6850
+Text Label 14400 7300 0    60   ~ 0
 TEMP_IN_4
-Text Label 11800 5350 0    60   ~ 0
+Text Label 14400 6850 0    60   ~ 0
 TEMP_IN_3
 $Sheet
-S 12400 5750 3000 200 
+S 15000 7250 3000 200 
 U 4C4C62BF
 F0 "thermistor_input_4" 60
 F1 "thermistor_resistor_input.sch" 60
-F2 "5v_reg" O R 15400 5900 60 
-F3 "analog_sensor_gnd" B R 15400 5800 60 
-F4 "analog_sensor_TEMP" O L 12400 5800 60 
+F2 "5v_reg" O R 18000 7400 60 
+F3 "analog_sensor_gnd" B R 18000 7300 60 
+F4 "analog_sensor_TEMP" O L 15000 7300 60 
 $EndSheet
 $Sheet
-S 12400 5300 3000 200 
+S 15000 6800 3000 200 
 U 4C4C628B
 F0 "thermistor_input_3" 60
 F1 "thermistor_resistor_input.sch" 60
-F2 "5v_reg" O R 15400 5450 60 
-F3 "analog_sensor_gnd" B R 15400 5350 60 
-F4 "analog_sensor_TEMP" O L 12400 5350 60 
+F2 "5v_reg" O R 18000 6950 60 
+F3 "analog_sensor_gnd" B R 18000 6850 60 
+F4 "analog_sensor_TEMP" O L 15000 6850 60 
 $EndSheet
-NoConn ~ 6550 1550
-NoConn ~ 6550 1650
-NoConn ~ 6550 3050
-NoConn ~ 6550 3150
-NoConn ~ 5200 2650
-NoConn ~ 5200 2750
-NoConn ~ 5200 2850
-NoConn ~ 5200 2950
+NoConn ~ 9150 3050
+NoConn ~ 9150 3150
+NoConn ~ 9150 4550
+NoConn ~ 9150 4650
+NoConn ~ 7800 4150
+NoConn ~ 7800 4250
+NoConn ~ 7800 4350
+NoConn ~ 7800 4450
 $Sheet
-S 12450 3550 2950 250 
+S 15050 5050 2950 250 
 U 4C2F3E4C
 F0 "injector_drive_1" 60
 F1 "injector_drive.sch" 60
-F2 "5v_reg" I L 12450 3700 60 
-F3 "12v_power" I R 15400 3700 60 
-F4 "inductive_power_gnd" B R 15400 3600 60 
-F5 "inductive_power_drive" I L 12450 3600 60 
+F2 "5v_reg" I L 15050 5200 60 
+F3 "12v_power" I R 18000 5200 60 
+F4 "inductive_power_gnd" B R 18000 5100 60 
+F5 "inductive_power_drive" I L 15050 5100 60 
 $EndSheet
 $Sheet
-S 12450 3050 2950 250 
+S 15050 4550 2950 250 
 U 4C2F3E39
 F0 "injector_drive_2" 60
 F1 "injector_drive.sch" 60
-F2 "5v_reg" I L 12450 3200 60 
-F3 "12v_power" I R 15400 3200 60 
-F4 "inductive_power_gnd" B R 15400 3100 60 
-F5 "inductive_power_drive" I L 12450 3100 60 
+F2 "5v_reg" I L 15050 4700 60 
+F3 "12v_power" I R 18000 4700 60 
+F4 "inductive_power_gnd" B R 18000 4600 60 
+F5 "inductive_power_drive" I L 15050 4600 60 
 $EndSheet
 $Sheet
-S 12450 2550 2950 250 
+S 15050 4050 2950 250 
 U 4C2F3E27
 F0 "injector_drive_3" 60
 F1 "injector_drive.sch" 60
-F2 "5v_reg" I L 12450 2700 60 
-F3 "12v_power" I R 15400 2700 60 
-F4 "inductive_power_gnd" B R 15400 2600 60 
-F5 "inductive_power_drive" I L 12450 2600 60 
+F2 "5v_reg" I L 15050 4200 60 
+F3 "12v_power" I R 18000 4200 60 
+F4 "inductive_power_gnd" B R 18000 4100 60 
+F5 "inductive_power_drive" I L 15050 4100 60 
 $EndSheet
 $Sheet
-S 12450 2100 2950 250 
+S 15050 3600 2950 250 
 U 4C2F3E07
 F0 "injector_drive_4" 60
 F1 "injector_drive.sch" 60
-F2 "5v_reg" I L 12450 2250 60 
-F3 "12v_power" I R 15400 2250 60 
-F4 "inductive_power_gnd" B R 15400 2150 60 
-F5 "inductive_power_drive" I L 12450 2150 60 
+F2 "5v_reg" I L 15050 3750 60 
+F3 "12v_power" I R 18000 3750 60 
+F4 "inductive_power_gnd" B R 18000 3650 60 
+F5 "inductive_power_drive" I L 15050 3650 60 
 $EndSheet
 $Sheet
-S 12450 1600 2950 250 
+S 15050 3100 2950 250 
 U 4C2F3DD9
 F0 "injector_drive_5" 60
 F1 "injector_drive.sch" 60
-F2 "5v_reg" I L 12450 1750 60 
-F3 "12v_power" I R 15400 1750 60 
-F4 "inductive_power_gnd" B R 15400 1650 60 
-F5 "inductive_power_drive" I L 12450 1650 60 
+F2 "5v_reg" I L 15050 3250 60 
+F3 "12v_power" I R 18000 3250 60 
+F4 "inductive_power_gnd" B R 18000 3150 60 
+F5 "inductive_power_drive" I L 15050 3150 60 
 $EndSheet
 $Sheet
-S 12450 1100 2950 250 
+S 15050 2600 2950 250 
 U 4C2F3BE4
 F0 "injector_drive_6" 60
 F1 "injector_drive.sch" 60
-F2 "5v_reg" I L 12450 1250 60 
-F3 "12v_power" I R 15400 1250 60 
-F4 "inductive_power_gnd" B R 15400 1150 60 
-F5 "inductive_power_drive" I L 12450 1150 60 
+F2 "5v_reg" I L 15050 2750 60 
+F3 "12v_power" I R 18000 2750 60 
+F4 "inductive_power_gnd" B R 18000 2650 60 
+F5 "inductive_power_drive" I L 15050 2650 60 
 $EndSheet
-NoConn ~ 5200 3450
-NoConn ~ 5200 3550
-NoConn ~ 5200 3650
-NoConn ~ 5200 3750
-NoConn ~ 5200 1650
-NoConn ~ 5200 1750
-NoConn ~ 5200 1850
-NoConn ~ 5200 1950
-NoConn ~ 5200 2050
-NoConn ~ 5200 2150
-NoConn ~ 5200 2250
+NoConn ~ 7800 4950
+NoConn ~ 7800 5050
+NoConn ~ 7800 5150
+NoConn ~ 7800 5250
+NoConn ~ 7800 3150
+NoConn ~ 7800 3250
+NoConn ~ 7800 3350
+NoConn ~ 7800 3450
+NoConn ~ 7800 3550
+NoConn ~ 7800 3650
+NoConn ~ 7800 3750
 $Comp
 L CONN_1 P5
 U 1 1 48AA1F7C
-P 950 950
-F 0 "P5" H 1030 950 40  0000 L CNN
-F 1 "CONN_1" H 950 1005 30  0001 C CNN
-F 2 "1PIN" V 1130 2600 60  0001 C CNN
-	1    950  950 
+P 3550 1500
+F 0 "P5" H 3630 1500 40  0000 L CNN
+F 1 "CONN_1" H 3550 1555 30  0001 C CNN
+F 2 "1PIN" V 3730 3150 60  0001 C CNN
+	1    3550 1500
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 P4
 U 1 1 48AA1F7B
-P 950 850
-F 0 "P4" H 1030 850 40  0000 L CNN
-F 1 "CONN_1" H 950 905 30  0001 C CNN
-F 2 "1PIN" V 1130 2600 60  0001 C CNN
-	1    950  850 
+P 3550 1400
+F 0 "P4" H 3630 1400 40  0000 L CNN
+F 1 "CONN_1" H 3550 1455 30  0001 C CNN
+F 2 "1PIN" V 3730 3150 60  0001 C CNN
+	1    3550 1400
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 P3
 U 1 1 48AA1F7A
-P 950 750
-F 0 "P3" H 1030 750 40  0000 L CNN
-F 1 "CONN_1" H 950 805 30  0001 C CNN
-F 2 "1PIN" V 1130 2600 60  0001 C CNN
-	1    950  750 
+P 3550 1300
+F 0 "P3" H 3630 1300 40  0000 L CNN
+F 1 "CONN_1" H 3550 1355 30  0001 C CNN
+F 2 "1PIN" V 3730 3150 60  0001 C CNN
+	1    3550 1300
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 P2
 U 1 1 48AA1F79
-P 950 650
-F 0 "P2" H 1030 650 40  0000 L CNN
-F 1 "CONN_1" H 950 705 30  0001 C CNN
-F 2 "1PIN" V 1130 2600 60  0001 C CNN
-	1    950  650 
+P 3550 1200
+F 0 "P2" H 3630 1200 40  0000 L CNN
+F 1 "CONN_1" H 3550 1255 30  0001 C CNN
+F 2 "1PIN" V 3730 3150 60  0001 C CNN
+	1    3550 1200
 	-1   0    0    1   
 $EndComp
 $Comp
 L FUSE F3
 U 1 1 48A559CE
-P 3400 650
-F 0 "F3" H 3500 700 40  0000 C CNN
-F 1 "10A" H 3300 600 40  0000 C CNN
-F 2 "FUSE5-20-DEFAULT-10A" V 2380 5550 60  0001 C CNN
-F 4 "newark,63K6823" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "x,x" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "10,A" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "construct" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
-	1    3400 650 
+P 6000 1200
+F 0 "F3" H 6100 1250 40  0000 C CNN
+F 1 "10A" H 5900 1150 40  0000 C CNN
+F 2 "FUSE5-20-DEFAULT-10A" V 4980 6100 60  0001 C CNN
+F 4 "newark,63K6823" V 3730 3150 60  0001 C CNN "Field1"
+F 5 "vendor1, smd w hem" V 3730 3150 60  0001 C CNN "Field2"
+F 6 "vendor2, thru w hem" V 3730 3150 60  0001 C CNN "Field3"
+F 7 "vendor2, smd w hem" V 3730 3150 60  0001 C CNN "Field4"
+F 8 "x,x" V 3730 3150 60  0001 C CNN "Field5"
+F 9 "10,A" V 3730 3150 60  0001 C CNN "Field6"
+F 10 "construct" V 3730 3150 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 3730 3150 60  0001 C CNN "Field8"
+	1    6000 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L FUSE F1
 U 1 1 48A00EF5
-P 2550 750
-F 0 "F1" H 2650 800 40  0000 C CNN
-F 1 "2A" H 2450 700 40  0000 C CNN
-F 2 "FUSE5-20-DEFAULT-2A" V 2380 5550 60  0001 C CNN
-F 4 "newark,63K6823" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "x,x" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "10,A" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "construct" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
-	1    2550 750 
+P 5150 1300
+F 0 "F1" H 5250 1350 40  0000 C CNN
+F 1 "2A" H 5050 1250 40  0000 C CNN
+F 2 "FUSE5-20-DEFAULT-2A" V 4980 6100 60  0001 C CNN
+F 4 "newark,63K6823" V 3730 3150 60  0001 C CNN "Field1"
+F 5 "vendor1, smd w hem" V 3730 3150 60  0001 C CNN "Field2"
+F 6 "vendor2, thru w hem" V 3730 3150 60  0001 C CNN "Field3"
+F 7 "vendor2, smd w hem" V 3730 3150 60  0001 C CNN "Field4"
+F 8 "x,x" V 3730 3150 60  0001 C CNN "Field5"
+F 9 "10,A" V 3730 3150 60  0001 C CNN "Field6"
+F 10 "construct" V 3730 3150 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 3730 3150 60  0001 C CNN "Field8"
+	1    5150 1300
 	1    0    0    -1  
 $EndComp
-$Comp
-L FUSE F2
-U 1 1 48A00EF1
-P 3000 1000
-F 0 "F2" H 3100 1050 40  0000 C CNN
-F 1 "2A" H 2900 950 40  0000 C CNN
-F 2 "FUSE5-20-DEFAULT-2A" V 2380 5550 60  0001 C CNN
-F 4 "newark,63K6823" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "x,x" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "10,A" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "construct" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
-	1    3000 1000
-	0    1    1    0   
-$EndComp
-Text Label 2900 1900 1    60   ~ 0
-12V sw
-NoConn ~ 5200 2550
-NoConn ~ 5200 2450
-Text Label 11800 4900 0    60   ~ 0
+NoConn ~ 7800 4050
+NoConn ~ 7800 3950
+Text Label 14400 6400 0    60   ~ 0
 TEMP_IN_2
-Text Label 11800 4450 0    60   ~ 0
+Text Label 14400 5950 0    60   ~ 0
 TEMP_IN_1
-Text Notes 10050 600  0    60   ~ 0
+Text Notes 12650 2100 0    60   ~ 0
 CPU SCHEMATIC
 Entry Wire Line
-	10850 4300 10950 4400
+	13450 5800 13550 5900
 Entry Wire Line
-	10850 4200 10950 4300
+	13450 5700 13550 5800
 Entry Wire Line
-	10850 4100 10950 4200
+	13450 5600 13550 5700
 Entry Wire Line
-	1650 9450 1750 9550
+	4250 10950 4350 11050
 Entry Wire Line
-	1650 9050 1750 9150
+	4250 10550 4350 10650
 Entry Wire Line
-	1650 8650 1750 8750
+	4250 10150 4350 10250
 Entry Wire Line
-	1650 8250 1750 8350
+	4250 9750 4350 9850
 Entry Wire Line
-	1650 7850 1750 7950
+	4250 9350 4350 9450
 Entry Wire Line
-	1650 7450 1750 7550
+	4250 8950 4350 9050
 $Comp
 L GND #PWR03
 U 1 1 489663FC
-P 10050 3400
-F 0 "#PWR03" H 10050 3400 30  0001 C CNN
-F 1 "GND" H 10050 3330 30  0001 C CNN
-	1    10050 3400
+P 12650 4900
+F 0 "#PWR03" H 12650 4900 30  0001 C CNN
+F 1 "GND" H 12650 4830 30  0001 C CNN
+	1    12650 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR04
 U 1 1 489663D4
-P 1850 3300
-F 0 "#PWR04" H 1850 3300 30  0001 C CNN
-F 1 "GND" H 1850 3230 30  0001 C CNN
-	1    1850 3300
+P 4450 4800
+F 0 "#PWR04" H 4450 4800 30  0001 C CNN
+F 1 "GND" H 4450 4730 30  0001 C CNN
+	1    4450 4800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5200 4500
-NoConn ~ 5200 4600
-NoConn ~ 5200 4700
-NoConn ~ 5200 4800
-NoConn ~ 5200 4900
-NoConn ~ 5200 5000
-NoConn ~ 5200 5100
-NoConn ~ 5200 5200
-NoConn ~ 6550 6000
-NoConn ~ 6550 5700
-NoConn ~ 6550 5600
-NoConn ~ 6550 5500
-NoConn ~ 6550 5400
-NoConn ~ 6550 5300
-NoConn ~ 6550 5200
-NoConn ~ 6550 5100
-NoConn ~ 6550 5000
-NoConn ~ 6550 4900
-NoConn ~ 6550 1350
-NoConn ~ 6550 1450
-NoConn ~ 6550 2050
-NoConn ~ 6550 2150
-NoConn ~ 6550 2250
-NoConn ~ 6550 3350
-NoConn ~ 6550 3250
-NoConn ~ 6550 2950
-NoConn ~ 5200 3350
-NoConn ~ 5200 3250
-NoConn ~ 5200 3150
-NoConn ~ 5200 3050
-NoConn ~ 5200 2350
+NoConn ~ 7800 6000
+NoConn ~ 7800 6100
+NoConn ~ 7800 6200
+NoConn ~ 7800 6300
+NoConn ~ 7800 6400
+NoConn ~ 7800 6500
+NoConn ~ 7800 6600
+NoConn ~ 7800 6700
+NoConn ~ 9150 7500
+NoConn ~ 9150 7200
+NoConn ~ 9150 7100
+NoConn ~ 9150 7000
+NoConn ~ 9150 6900
+NoConn ~ 9150 6800
+NoConn ~ 9150 6700
+NoConn ~ 9150 6600
+NoConn ~ 9150 6500
+NoConn ~ 9150 6400
+NoConn ~ 9150 2850
+NoConn ~ 9150 2950
+NoConn ~ 9150 3550
+NoConn ~ 9150 4850
+NoConn ~ 9150 4750
+NoConn ~ 9150 4450
+NoConn ~ 7800 4850
+NoConn ~ 7800 4750
+NoConn ~ 7800 4650
+NoConn ~ 7800 4550
+NoConn ~ 7800 3850
 $Comp
 L GND #PWR05
 U 1 1 489662CC
-P 15600 9500
-F 0 "#PWR05" H 15600 9500 30  0001 C CNN
-F 1 "GND" H 15600 9430 30  0001 C CNN
-	1    15600 9500
+P 18200 11000
+F 0 "#PWR05" H 18200 11000 30  0001 C CNN
+F 1 "GND" H 18200 10930 30  0001 C CNN
+	1    18200 11000
 	1    0    0    -1  
 $EndComp
-Text Label 11750 7900 0    60   ~ 0
+Text Label 14350 9400 0    60   ~ 0
 O2_IN_1
 Entry Wire Line
-	11650 7800 11750 7900
-Text Label 6700 1850 0    60   ~ 0
+	14250 9300 14350 9400
+Text Label 9300 3350 0    60   ~ 0
 ind_gpd_2
 Entry Wire Line
-	7500 1850 7600 1950
-Text Label 6700 1950 0    60   ~ 0
+	10100 3350 10200 3450
+Text Label 9300 3450 0    60   ~ 0
 ind_gpd_1
 Entry Wire Line
-	7500 1950 7600 2050
+	10100 3450 10200 3550
 Entry Wire Line
-	11650 4800 11750 4900
+	14250 6300 14350 6400
 Entry Wire Line
-	11650 4350 11750 4450
+	14250 5850 14350 5950
 Entry Wire Line
-	9500 9800 9600 9900
+	12100 11300 12200 11400
 Entry Wire Line
-	9500 10300 9600 10400
+	12100 11800 12200 11900
 Entry Wire Line
-	9500 10800 9600 10900
+	12100 12300 12200 12400
 Entry Wire Line
-	9500 11250 9600 11350
+	12100 12750 12200 12850
 Entry Wire Line
-	9500 11700 9600 11800
+	12100 13200 12200 13300
 Entry Wire Line
-	7500 2850 7600 2950
+	10100 4350 10200 4450
 Entry Wire Line
-	7500 2750 7600 2850
+	10100 4250 10200 4350
 Entry Wire Line
-	7500 2650 7600 2750
+	10100 4150 10200 4250
 Entry Wire Line
-	7500 2550 7600 2650
+	10100 4050 10200 4150
 Entry Wire Line
-	7500 2450 7600 2550
+	10100 3950 10200 4050
 Entry Wire Line
-	7500 2350 7600 2450
-Text Label 1050 4200 0    60   ~ 0
+	10100 3850 10200 3950
+Text Label 3650 5700 0    60   ~ 0
 TPS_IN_1
-Text Label 9850 4100 0    60   ~ 0
+Text Label 12450 5600 0    60   ~ 0
 BAT_IN_1
-Text Label 1050 4100 0    60   ~ 0
+Text Label 3650 5600 0    60   ~ 0
 O2_IN_1
-Text Label 1750 5500 0    60   ~ 0
+Text Label 4350 7000 0    60   ~ 0
 ind_dr_1
-Text Label 1750 5600 0    60   ~ 0
+Text Label 4350 7100 0    60   ~ 0
 ind_dr_2
-Text Label 1750 5700 0    60   ~ 0
+Text Label 4350 7200 0    60   ~ 0
 ind_dr_3
-Text Label 1750 5800 0    60   ~ 0
+Text Label 4350 7300 0    60   ~ 0
 ind_dr_4
-Text Label 1750 5900 0    60   ~ 0
+Text Label 4350 7400 0    60   ~ 0
 ind_dr_5
-Text Label 1750 6000 0    60   ~ 0
+Text Label 4350 7500 0    60   ~ 0
 ind_dr_6
 Entry Wire Line
-	1650 6100 1750 6000
+	4250 7600 4350 7500
 $Sheet
-S 650  1800 2050 400 
+S 3250 3300 2050 400 
 U 4C2E1E53
-F0 "power regulator analog" 60
+F0 "voltage regulator (analog)" 60
 F1 "power_reg2.sch" 60
-F2 "5v reg" O R 2700 2000 60 
-F3 "12v batt" I R 2700 1900 60 
-F4 "gnd" B R 2700 2100 60 
+F2 "5v reg" O R 5300 3500 60 
+F3 "12v batt" I R 5300 3400 60 
+F4 "gnd" B R 5300 3600 60 
 $EndSheet
 $Sheet
-S 650  1150 2050 400 
+S 3250 2650 2050 400 
 U 4C2E1E55
-F0 "power regulator digital" 60
+F0 "voltage regulator (digital)" 60
 F1 "power_reg1.sch" 60
-F2 "5v reg" O R 2700 1350 60 
-F3 "12v batt" I R 2700 1250 60 
-F4 "gnd" B R 2700 1450 60 
+F2 "5v reg" O R 5300 2850 60 
+F3 "12v batt" I R 5300 2750 60 
+F4 "gnd" B R 5300 2950 60 
 $EndSheet
 $Sheet
-S 2450 7500 1700 200 
+S 5050 9000 1700 200 
 U 4C2E1E57
 F0 "digi_protect__I1" 60
 F1 "digi_protect_I1.sch" 60
-F2 "digi_CPU" B L 2450 7550 60 
-F3 "digi_device" B R 4150 7550 60 
-F4 "digi_gnd" B R 4150 7650 60 
+F2 "digi_CPU" B L 5050 9050 60 
+F3 "digi_device" B R 6750 9050 60 
+F4 "digi_gnd" B R 6750 9150 60 
 $EndSheet
 $Sheet
-S 2450 7900 1700 200 
+S 5050 9400 1700 200 
 U 4C2E1E59
 F0 "digi_protect__I2" 60
 F1 "digi_protect_I2.sch" 60
-F2 "digi_CPU" B L 2450 7950 60 
-F3 "digi_device" B R 4150 7950 60 
-F4 "digi_gnd" B R 4150 8050 60 
+F2 "digi_CPU" B L 5050 9450 60 
+F3 "digi_device" B R 6750 9450 60 
+F4 "digi_gnd" B R 6750 9550 60 
 $EndSheet
 $Sheet
-S 2450 8300 1700 200 
+S 5050 9800 1700 200 
 U 4C2E1E5B
 F0 "digi_protect__I3" 60
 F1 "digi_protect_I3.sch" 60
-F2 "digi_CPU" B L 2450 8350 60 
-F3 "digi_device" B R 4150 8350 60 
-F4 "digi_gnd" B R 4150 8450 60 
+F2 "digi_CPU" B L 5050 9850 60 
+F3 "digi_device" B R 6750 9850 60 
+F4 "digi_gnd" B R 6750 9950 60 
 $EndSheet
 $Sheet
-S 2450 8700 1700 200 
+S 5050 10200 1700 200 
 U 4C2E1E5D
 F0 "digi_protect__I4" 60
 F1 "digi_protect_I4.sch" 60
-F2 "digi_CPU" B L 2450 8750 60 
-F3 "digi_device" B R 4150 8750 60 
-F4 "digi_gnd" B R 4150 8850 60 
+F2 "digi_CPU" B L 5050 10250 60 
+F3 "digi_device" B R 6750 10250 60 
+F4 "digi_gnd" B R 6750 10350 60 
 $EndSheet
 $Sheet
-S 2450 9100 1700 200 
+S 5050 10600 1700 200 
 U 4C2E1E5F
 F0 "digi_protect__I5" 60
 F1 "digi_protect_I5.sch" 60
-F2 "digi_CPU" B L 2450 9150 60 
-F3 "digi_device" B R 4150 9150 60 
-F4 "digi_gnd" B R 4150 9250 60 
+F2 "digi_CPU" B L 5050 10650 60 
+F3 "digi_device" B R 6750 10650 60 
+F4 "digi_gnd" B R 6750 10750 60 
 $EndSheet
 $Sheet
-S 2450 9500 1700 200 
+S 5050 11000 1700 200 
 U 4C2E1E61
 F0 "digi_protect__I6" 60
 F1 "digi_protect_I6.sch" 60
-F2 "digi_CPU" B L 2450 9550 60 
-F3 "digi_device" B R 4150 9550 60 
-F4 "digi_gnd" B R 4150 9650 60 
+F2 "digi_CPU" B L 5050 11050 60 
+F3 "digi_device" B R 6750 11050 60 
+F4 "digi_gnd" B R 6750 11150 60 
 $EndSheet
 $Sheet
-S 4400 9500 3550 200 
+S 7000 11000 3550 200 
 U 4C2E1E63
 F0 "igniter_6" 60
 F1 "ignition6.sch" 60
-F2 "low_power_inductive_gnd" B R 7950 9550 60 
-F3 "low_power_inductive_drive" I L 4400 9550 60 
-F4 "12V_bat" I R 7950 9650 60 
+F2 "low_power_inductive_gnd" B R 10550 11050 60 
+F3 "low_power_inductive_drive" I L 7000 11050 60 
+F4 "12V_bat" I R 10550 11150 60 
 $EndSheet
 $Sheet
-S 4400 9100 3550 200 
+S 7000 10600 3550 200 
 U 4C2E1E65
 F0 "igniter_5" 60
 F1 "ignition5.sch" 60
-F2 "low_power_inductive_gnd" B R 7950 9150 60 
-F3 "low_power_inductive_drive" I L 4400 9150 60 
-F4 "12V_bat" I R 7950 9250 60 
+F2 "low_power_inductive_gnd" B R 10550 10650 60 
+F3 "low_power_inductive_drive" I L 7000 10650 60 
+F4 "12V_bat" I R 10550 10750 60 
 $EndSheet
 $Sheet
-S 4400 8700 3550 200 
+S 7000 10200 3550 200 
 U 4C2E1E67
 F0 "igniter_4" 60
 F1 "ignition4.sch" 60
-F2 "low_power_inductive_gnd" B R 7950 8750 60 
-F3 "low_power_inductive_drive" I L 4400 8750 60 
-F4 "12V_bat" I R 7950 8850 60 
+F2 "low_power_inductive_gnd" B R 10550 10250 60 
+F3 "low_power_inductive_drive" I L 7000 10250 60 
+F4 "12V_bat" I R 10550 10350 60 
 $EndSheet
 $Sheet
-S 4400 8300 3550 200 
+S 7000 9800 3550 200 
 U 4C2E1E69
 F0 "igniter_3" 60
 F1 "ignition3.sch" 60
-F2 "low_power_inductive_gnd" B R 7950 8350 60 
-F3 "low_power_inductive_drive" I L 4400 8350 60 
-F4 "12V_bat" I R 7950 8450 60 
+F2 "low_power_inductive_gnd" B R 10550 9850 60 
+F3 "low_power_inductive_drive" I L 7000 9850 60 
+F4 "12V_bat" I R 10550 9950 60 
 $EndSheet
 $Sheet
-S 4400 7900 3550 200 
+S 7000 9400 3550 200 
 U 4C2E1E6B
 F0 "igniter_2" 60
 F1 "ignition2.sch" 60
-F2 "low_power_inductive_gnd" B R 7950 7950 60 
-F3 "low_power_inductive_drive" I L 4400 7950 60 
-F4 "12V_bat" I R 7950 8050 60 
+F2 "low_power_inductive_gnd" B R 10550 9450 60 
+F3 "low_power_inductive_drive" I L 7000 9450 60 
+F4 "12V_bat" I R 10550 9550 60 
 $EndSheet
 $Sheet
-S 4400 7500 3550 200 
+S 7000 9000 3550 200 
 U 4C2E1E6D
 F0 "igniter_1" 60
 F1 "ignition1.sch" 60
-F2 "low_power_inductive_gnd" B R 7950 7550 60 
-F3 "low_power_inductive_drive" I L 4400 7550 60 
-F4 "12V_bat" I R 7950 7650 60 
+F2 "low_power_inductive_gnd" B R 10550 9050 60 
+F3 "low_power_inductive_drive" I L 7000 9050 60 
+F4 "12V_bat" I R 10550 9150 60 
 $EndSheet
-$Comp
-L GND #PWR06
-U 1 1 48959FA9
-P 4250 9700
-F 0 "#PWR06" H 4250 9700 30  0001 C CNN
-F 1 "GND" H 4250 9630 30  0001 C CNN
-	1    4250 9700
-	1    0    0    -1  
-$EndComp
-Text Label 11750 6650 0    60   ~ 0
+Text Label 14350 8150 0    60   ~ 0
 MAP_IN_2
 Entry Wire Line
-	11650 6550 11750 6650
+	14250 8050 14350 8150
 $Sheet
-S 12400 6600 3000 200 
+S 15000 8100 3000 200 
 U 4C2E1E6F
 F0 "MAP_input_baro" 60
 F1 "MAP_input_2.sch" 60
-F2 "analog_sensor_gnd" B R 15400 6650 60 
-F3 "analog_sensor_MAP" O L 12400 6650 60 
-F4 "5v reg" I R 15400 6750 60 
+F2 "analog_sensor_gnd" B R 18000 8150 60 
+F3 "analog_sensor_MAP" O L 15000 8150 60 
+F4 "5v reg" I R 18000 8250 60 
 $EndSheet
 $Sheet
-S 12400 6200 3000 200 
+S 15000 7700 3000 200 
 U 4C2E1E71
 F0 "MAP_input" 60
 F1 "MAP_input_1.sch" 60
-F2 "analog_sensor_gnd" B R 15400 6250 60 
-F3 "analog_sensor_MAP" O L 12400 6250 60 
-F4 "5v reg" I R 15400 6350 60 
+F2 "analog_sensor_gnd" B R 18000 7750 60 
+F3 "analog_sensor_MAP" O L 15000 7750 60 
+F4 "5v reg" I R 18000 7850 60 
 $EndSheet
 $Sheet
-S 10300 9850 1650 200 
+S 12900 11350 1650 200 
 U 4C2E1E73
 F0 "digi_protect_rpm1" 60
 F1 "digi_protect_rpm1.sch" 60
-F2 "digi_CPU" B L 10300 9900 60 
-F3 "digi_device" B R 11950 9900 60 
-F4 "digi_gnd" B R 11950 10000 60 
+F2 "digi_CPU" B L 12900 11400 60 
+F3 "digi_device" B R 14550 11400 60 
+F4 "digi_gnd" B R 14550 11500 60 
 $EndSheet
 $Sheet
-S 10300 10350 1650 200 
+S 12900 11850 1650 200 
 U 4C2E1E75
 F0 "digi_protect_rpm2" 60
 F1 "digi_protect_rpm2.sch" 60
-F2 "digi_CPU" B L 10300 10400 60 
-F3 "digi_device" B R 11950 10400 60 
-F4 "digi_gnd" B R 11950 10500 60 
+F2 "digi_CPU" B L 12900 11900 60 
+F3 "digi_device" B R 14550 11900 60 
+F4 "digi_gnd" B R 14550 12000 60 
 $EndSheet
 $Sheet
-S 10300 10850 1650 200 
+S 12900 12350 1650 200 
 U 4C2E1E77
 F0 "digi_protect_fuel" 60
 F1 "digi_protect_fuel.sch" 60
-F2 "digi_CPU" B L 10300 10900 60 
-F3 "digi_device" B R 11950 10900 60 
-F4 "digi_gnd" B R 11950 11000 60 
+F2 "digi_CPU" B L 12900 12400 60 
+F3 "digi_device" B R 14550 12400 60 
+F4 "digi_gnd" B R 14550 12500 60 
 $EndSheet
 $Sheet
-S 10300 11300 1650 200 
+S 12900 12800 1650 200 
 U 4C2E1E79
 F0 "digi_protect_misc1" 60
 F1 "digi_protect_misc1.sch" 60
-F2 "digi_CPU" B L 10300 11350 60 
-F3 "digi_device" B R 11950 11350 60 
-F4 "digi_gnd" B R 11950 11450 60 
+F2 "digi_CPU" B L 12900 12850 60 
+F3 "digi_device" B R 14550 12850 60 
+F4 "digi_gnd" B R 14550 12950 60 
 $EndSheet
-$Comp
-L GND #PWR07
-U 1 1 48959C01
-P 12250 11950
-F 0 "#PWR07" H 12250 11950 30  0001 C CNN
-F 1 "GND" H 12250 11880 30  0001 C CNN
-	1    12250 11950
-	1    0    0    -1  
-$EndComp
-Text Label 9850 4200 0    60   ~ 0
+Text Label 12450 5700 0    60   ~ 0
 MAP_IN_2
-Text Label 9850 4300 0    60   ~ 0
+Text Label 12450 5800 0    60   ~ 0
 MAP_IN_1
-Text Label 1050 4300 0    60   ~ 0
+Text Label 3650 5800 0    60   ~ 0
 TEMP_IN_2
-Text Label 1050 4400 0    60   ~ 0
+Text Label 3650 5900 0    60   ~ 0
 TEMP_IN_1
 Entry Wire Line
-	900  4300 1000 4400
+	3500 5800 3600 5900
 Entry Wire Line
-	900  4200 1000 4300
+	3500 5700 3600 5800
 Entry Wire Line
-	900  4100 1000 4200
+	3500 5600 3600 5700
 Entry Wire Line
-	900  4000 1000 4100
+	3500 5500 3600 5600
 $Sheet
-S 7000 3950 2700 500 
+S 9600 5450 2700 500 
 U 4C2E1E7B
 F0 "analog_protect_2" 60
 F1 "an_protect2.sch" 60
-F2 "analog_sensor_gnd" B R 9700 4000 60 
-F3 "analog_sensor_vcc" I L 7000 4000 60 
-F4 "analog_sensor_in_1" I R 9700 4100 60 
-F5 "analog_sensor_out_1" O L 7000 4100 60 
-F6 "analog_sensor_in_3" I R 9700 4300 60 
-F7 "analog_sensor_out_3" O L 7000 4300 60 
-F8 "analog_sensor_in_2" I R 9700 4200 60 
-F9 "analog_sensor_out_2" O L 7000 4200 60 
-F10 "analog_sensor_out_4" O L 7000 4400 60 
-F11 "analog_sensor_in_4" I R 9700 4400 60 
+F2 "analog_sensor_gnd" B R 12300 5500 60 
+F3 "analog_sensor_vcc" I L 9600 5500 60 
+F4 "analog_sensor_in_1" I R 12300 5600 60 
+F5 "analog_sensor_out_1" O L 9600 5600 60 
+F6 "analog_sensor_in_3" I R 12300 5800 60 
+F7 "analog_sensor_out_3" O L 9600 5800 60 
+F8 "analog_sensor_in_2" I R 12300 5700 60 
+F9 "analog_sensor_out_2" O L 9600 5700 60 
+F10 "analog_sensor_out_4" O L 9600 5900 60 
+F11 "analog_sensor_in_4" I R 12300 5900 60 
 $EndSheet
 $Sheet
-S 2100 3950 2700 500 
+S 4700 5450 2700 500 
 U 4C2E1E7D
 F0 "analog_protect_4" 60
 F1 "an_protect4.sch" 60
-F2 "analog_sensor_gnd" B L 2100 4000 60 
-F3 "analog_sensor_vcc" I R 4800 4000 60 
-F4 "analog_sensor_in_1" I L 2100 4100 60 
-F5 "analog_sensor_out_1" O R 4800 4100 60 
-F6 "analog_sensor_in_4" I L 2100 4400 60 
-F7 "analog_sensor_out_4" O R 4800 4400 60 
-F8 "analog_sensor_in_3" I L 2100 4300 60 
-F9 "analog_sensor_out_3" O R 4800 4300 60 
-F10 "analog_sensor_in_2" I L 2100 4200 60 
-F11 "analog_sensor_out_2" O R 4800 4200 60 
+F2 "analog_sensor_gnd" B L 4700 5500 60 
+F3 "analog_sensor_vcc" I R 7400 5500 60 
+F4 "analog_sensor_in_1" I L 4700 5600 60 
+F5 "analog_sensor_out_1" O R 7400 5600 60 
+F6 "analog_sensor_in_4" I L 4700 5900 60 
+F7 "analog_sensor_out_4" O R 7400 5900 60 
+F8 "analog_sensor_in_3" I L 4700 5800 60 
+F9 "analog_sensor_out_3" O R 7400 5800 60 
+F10 "analog_sensor_in_2" I L 4700 5700 60 
+F11 "analog_sensor_out_2" O R 7400 5700 60 
 $EndSheet
 $Sheet
-S 12400 7850 3000 150 
+S 15000 9350 3000 150 
 U 4C2E1E7F
 F0 "O2 INPUT" 60
 F1 "O2_input.sch" 60
-F2 "analog_sensor_gnd" B R 15400 7900 60 
-F3 "analog_O2" O L 12400 7900 60 
+F2 "analog_sensor_gnd" B R 18000 9400 60 
+F3 "analog_O2" O L 15000 9400 60 
 $EndSheet
-Text Label 9650 11800 0    60   ~ 0
+Text Label 12250 13300 0    60   ~ 0
 ind_gpd_1
 $Sheet
-S 12400 11750 2950 250 
+S 15000 13250 2950 250 
 U 4C2E1E81
 F0 "misc ouput 2" 60
 F1 "general_drive2.sch" 60
-F2 "fet_power_gnd" B R 15350 11800 60 
-F3 "fet_power_drive" I L 12400 11800 60 
-F4 "12v_power" I R 15350 11900 60 
+F2 "fet_power_gnd" B R 17950 13300 60 
+F3 "fet_power_drive" I L 15000 13300 60 
+F4 "12v_power" I R 17950 13400 60 
 $EndSheet
-Text Label 9650 11350 0    60   ~ 0
+Text Label 12250 12850 0    60   ~ 0
 ind_gpd_2
 $Sheet
-S 12400 11300 2950 250 
+S 15000 12800 2950 250 
 U 4C2E1E83
 F0 "misc ouput 1" 60
 F1 "general_drive1.sch" 60
-F2 "fet_power_gnd" B R 15350 11350 60 
-F3 "fet_power_drive" I L 12400 11350 60 
-F4 "12v_power" I R 15350 11450 60 
+F2 "fet_power_gnd" B R 17950 12850 60 
+F3 "fet_power_drive" I L 15000 12850 60 
+F4 "12v_power" I R 17950 12950 60 
 $EndSheet
-Text Notes 11300 600  0    60   ~ 0
+Text Notes 15450 1100 0    60   ~ 0
 INJECTOR / INDUCTIVE DRIVE CIRCUITS
-Text Notes 7100 10400 0    60   ~ 0
+Text Notes 9700 11900 0    60   ~ 0
 IGNITION CIRCUITS
-Text Notes 8500 10400 0    60   ~ 0
+Text Notes 11100 11900 0    60   ~ 0
 GENERAL CIRCUITS
-Text Label 16400 1150 1    60   ~ 0
+Text Label 19000 2650 1    60   ~ 0
 12V bat
-Text Label 16250 1150 1    60   ~ 0
+Text Label 18850 2650 1    60   ~ 0
 5V_reg
-Text Label 6700 1750 0    60   ~ 0
+Text Label 9300 3250 0    60   ~ 0
 ind_gpd_3
 Entry Wire Line
-	7500 1750 7600 1850
-Text Label 1750 5300 0    60   ~ 0
+	10100 3250 10200 3350
+Text Label 4350 6800 0    60   ~ 0
 RPM_IN_1
-Text Label 1750 5400 0    60   ~ 0
+Text Label 4350 6900 0    60   ~ 0
 RPM_IN_2
-Text Label 6650 2450 0    60   ~ 0
+Text Label 9250 3950 0    60   ~ 0
 ind_pd_5
-Text Label 6650 2550 0    60   ~ 0
+Text Label 9250 4050 0    60   ~ 0
 ind_pd_4
-Text Label 6650 2650 0    60   ~ 0
+Text Label 9250 4150 0    60   ~ 0
 ind_pd_3
-Text Label 6650 2750 0    60   ~ 0
+Text Label 9250 4250 0    60   ~ 0
 ind_pd_2
-Text Label 6650 2850 0    60   ~ 0
+Text Label 9250 4350 0    60   ~ 0
 ind_pd_1
-Text Label 6650 2350 0    60   ~ 0
+Text Label 9250 3850 0    60   ~ 0
 ind_pd_6
-Text Label 1850 9550 0    60   ~ 0
+Text Label 4450 11050 0    60   ~ 0
 ind_dr_1
-Text Label 1850 9150 0    60   ~ 0
+Text Label 4450 10650 0    60   ~ 0
 ind_dr_2
-Text Label 1800 8750 0    60   ~ 0
+Text Label 4400 10250 0    60   ~ 0
 ind_dr_3
-Text Label 1850 8350 0    60   ~ 0
+Text Label 4450 9850 0    60   ~ 0
 ind_dr_4
-Text Label 1850 7950 0    60   ~ 0
+Text Label 4450 9450 0    60   ~ 0
 ind_dr_5
-Text Label 1850 7550 0    60   ~ 0
+Text Label 4450 9050 0    60   ~ 0
 ind_dr_6
-Text Label 9700 10400 0    60   ~ 0
+Text Label 12300 11900 0    60   ~ 0
 RPM_IN_2
-Text Label 9700 9900 0    60   ~ 0
+Text Label 12300 11400 0    60   ~ 0
 RPM_IN_1
-Text Label 11750 7500 0    60   ~ 0
+Text Label 14350 9000 0    60   ~ 0
 BAT_IN_1
-Text Label 11750 7050 0    60   ~ 0
+Text Label 14350 8550 0    60   ~ 0
 TPS_IN_1
-Text Label 11750 6250 0    60   ~ 0
+Text Label 14350 7750 0    60   ~ 0
 MAP_IN_1
-Text Label 9650 10900 0    60   ~ 0
+Text Label 12250 12400 0    60   ~ 0
 ind_gpd_3
-Text Label 11800 3600 0    60   ~ 0
+Text Label 14400 5100 0    60   ~ 0
 ind_pd_1
-Text Label 11800 3100 0    60   ~ 0
+Text Label 14400 4600 0    60   ~ 0
 ind_pd_2
-Text Label 11800 2600 0    60   ~ 0
+Text Label 14400 4100 0    60   ~ 0
 ind_pd_3
-Text Label 11800 2150 0    60   ~ 0
+Text Label 14400 3650 0    60   ~ 0
 ind_pd_4
-Text Label 11800 1650 0    60   ~ 0
+Text Label 14400 3150 0    60   ~ 0
 ind_pd_5
-Text Label 11800 1150 0    60   ~ 0
+Text Label 14400 2650 0    60   ~ 0
 ind_pd_6
 Entry Wire Line
-	11650 6150 11750 6250
+	14250 7650 14350 7750
 Entry Wire Line
-	11650 6950 11750 7050
+	14250 8450 14350 8550
 Entry Wire Line
-	11650 7400 11750 7500
+	14250 8900 14350 9000
 Entry Wire Line
-	11650 3700 11750 3600
+	14250 5200 14350 5100
 Entry Wire Line
-	11650 3200 11750 3100
+	14250 4700 14350 4600
 Entry Wire Line
-	11650 2700 11750 2600
+	14250 4200 14350 4100
 Entry Wire Line
-	11650 2250 11750 2150
+	14250 3750 14350 3650
 Entry Wire Line
-	11650 1750 11750 1650
+	14250 3250 14350 3150
 Entry Wire Line
-	11650 1250 11750 1150
+	14250 2750 14350 2650
 $Sheet
-S 10300 11750 1650 200 
+S 12900 13250 1650 200 
 U 4C2E1E85
 F0 "digi_protect_misc2" 60
 F1 "digi_protect_misc2.sch" 60
-F2 "digi_CPU" B L 10300 11800 60 
-F3 "digi_device" B R 11950 11800 60 
-F4 "digi_gnd" B R 11950 11900 60 
+F2 "digi_CPU" B L 12900 13300 60 
+F3 "digi_device" B R 14550 13300 60 
+F4 "digi_gnd" B R 14550 13400 60 
 $EndSheet
 $Comp
-L GND #PWR08
+L GND #PWR06
 U 1 1 486F7889
-P 15600 11950
-F 0 "#PWR08" H 15600 11950 30  0001 C CNN
-F 1 "GND" H 15600 11880 30  0001 C CNN
-	1    15600 11950
+P 18200 11950
+F 0 "#PWR06" H 18200 11950 30  0001 C CNN
+F 1 "GND" H 18200 11880 30  0001 C CNN
+	1    18200 11950
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
-U 1 1 486F7882
-P 8100 9950
-F 0 "#PWR09" H 8100 9950 30  0001 C CNN
-F 1 "GND" H 8100 9880 30  0001 C CNN
-	1    8100 9950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR010
-U 1 1 486F787A
-P 15550 3800
-F 0 "#PWR010" H 15550 3800 30  0001 C CNN
-F 1 "GND" H 15550 3730 30  0001 C CNN
-	1    15550 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR011
+L GND #PWR07
 U 1 1 486F7315
-P 2750 2250
-F 0 "#PWR011" H 2750 2250 30  0001 C CNN
-F 1 "GND" H 2750 2180 30  0001 C CNN
-	1    2750 2250
+P 5350 3750
+F 0 "#PWR07" H 5350 3750 30  0001 C CNN
+F 1 "GND" H 5350 3680 30  0001 C CNN
+	1    5350 3750
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 12400 10850 2950 250 
+S 15000 12350 2950 250 
 U 4C2E1E87
 F0 "Fuel_pump" 60
 F1 "general_drive_fuel.sch" 60
-F2 "fet_power_gnd" B R 15350 10900 60 
-F3 "fet_power_drive" I L 12400 10900 60 
-F4 "12v_power" I R 15350 11000 60 
+F2 "fet_power_gnd" B R 17950 12400 60 
+F3 "fet_power_drive" I L 15000 12400 60 
+F4 "12v_power" I R 17950 12500 60 
 $EndSheet
 $Sheet
-S 12400 10350 3000 300 
+S 15000 11850 3000 300 
 U 4C2E1E95
 F0 "RPM_input_2" 60
 F1 "RPM_input.sch" 60
-F2 "digi_sensor_gnd" B R 15400 10400 60 
-F3 "digi_sensor_RPM" O L 12400 10400 60 
-F4 "5v_reg" I R 15400 10600 60 
+F2 "digi_sensor_gnd" B R 18000 11900 60 
+F3 "digi_sensor_RPM" O L 15000 11900 60 
+F4 "5v_reg" I R 18000 12100 60 
 $EndSheet
 $Sheet
-S 12400 9850 3000 300 
+S 15000 11350 3000 300 
 U 4C2E1E97
 F0 "RPM_input_1" 60
 F1 "RPM_input.sch" 60
-F2 "digi_sensor_gnd" B R 15400 9900 60 
-F3 "digi_sensor_RPM" O L 12400 9900 60 
-F4 "5v_reg" I R 15400 10100 60 
+F2 "digi_sensor_gnd" B R 18000 11400 60 
+F3 "digi_sensor_RPM" O L 15000 11400 60 
+F4 "5v_reg" I R 18000 11600 60 
 $EndSheet
 $Sheet
-S 12400 7450 3000 200 
+S 15000 8950 3000 200 
 U 4C2E1E99
 F0 "BAT_input" 60
 F1 "BAT_condition.sch" 60
-F2 "analog_sensor_gnd" B R 15400 7500 60 
-F3 "analog_sensor_BAT" O L 12400 7500 60 
-F4 "12v_power" I R 15400 7600 60 
+F2 "analog_sensor_gnd" B R 18000 9000 60 
+F3 "analog_sensor_BAT" O L 15000 9000 60 
+F4 "12v_power" I R 18000 9100 60 
 $EndSheet
 $Sheet
-S 12400 7000 3000 200 
+S 15000 8500 3000 200 
 U 4C2E1E9B
 F0 "TPS_input" 60
 F1 "TPS_input.sch" 60
-F2 "analog_sensor_gnd" B R 15400 7050 60 
-F3 "analog_sensor_TPS" O L 12400 7050 60 
-F4 "5v_reg" I R 15400 7150 60 
+F2 "analog_sensor_gnd" B R 18000 8550 60 
+F3 "analog_sensor_TPS" O L 15000 8550 60 
+F4 "5v_reg" I R 18000 8650 60 
 $EndSheet
 $Sheet
-S 12400 4850 3000 200 
+S 15000 6350 3000 200 
 U 4C2E1E9D
 F0 "thermistor_input_2" 60
 F1 "thermistor_resistor_input.sch" 60
-F2 "analog_sensor_gnd" B R 15400 4900 60 
-F3 "analog_sensor_TEMP" O L 12400 4900 60 
-F4 "5v_reg" I R 15400 5000 60 
+F2 "analog_sensor_gnd" B R 18000 6400 60 
+F3 "analog_sensor_TEMP" O L 15000 6400 60 
+F4 "5v_reg" I R 18000 6500 60 
 $EndSheet
 $Sheet
-S 12400 4400 3000 200 
+S 15000 5900 3000 200 
 U 4C2E1E9F
 F0 "thermistor_input_1" 60
 F1 "thermistor_resistor_input.sch" 60
-F2 "analog_sensor_gnd" B R 15400 4450 60 
-F3 "analog_sensor_TEMP" O L 12400 4450 60 
-F4 "5v_reg" I R 15400 4550 60 
+F2 "analog_sensor_gnd" B R 18000 5950 60 
+F3 "analog_sensor_TEMP" O L 15000 5950 60 
+F4 "5v_reg" I R 18000 6050 60 
 $EndSheet
 $EndSCHEMATC

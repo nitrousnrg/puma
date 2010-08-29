@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 15 Aug 2010 12:57:33 PM ART
+EESchema Schematic File Version 2  date Sun 29 Aug 2010 06:27:37 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 13 48
+Sheet 13 50
 Title "freeEMS 1.0"
-Date "15 aug 2010"
+Date "29 aug 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 "digi_protect.sch"
@@ -127,10 +127,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR060
+L GND #PWR055
 U 1 1 4C2F52AB
 P 2800 2250
-F 0 "#PWR060" H 2800 2250 30  0001 C CNN
+F 0 "#PWR055" H 2800 2250 30  0001 C CNN
 F 1 "GND" H 2800 2180 30  0001 C CNN
 	1    2800 2250
 	1    0    0    -1  

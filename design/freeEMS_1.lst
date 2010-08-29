@@ -1,388 +1,407 @@
-ref	value	sheet number	sheet name	footprint	Field1	Field2	Field3	Field4	Field5	Field6	Field7	Field8
-C1	2200uF	C1V7	newark,69K8230	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	X,%	Aluminum Electrolytic	other,more,stuff
-C10	2200uF	C1V7	newark,69K8230	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	x,x	Aluminum Electrolytic	other,more,stuff
-C11	10uF	C1V7	newark,97M4217	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	35,V	10,%	Tantalum	other,more,stuff
-C12	.1uF	C1V7	newark,97M4164	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	20,%	multilayer ceramic	other,more,stuff
-C13	100nF	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C14	100nF	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C15	100nF	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C16	100nF	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C17	100nF	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C18	100nF	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C19	.1uF	C1V7	newark,97M4164	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	multilayer ceramic	other,more,stuff
-C2	10uF	C1V7	newark,97M4217	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	35,V	10,%	Tantalum	other,more,stuff
-C20	.01uF	C1V7	newark,75M7682	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	multilayer ceramic	other,more,stuff
-C21	470pF	C1V7	newark,19C6191	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	100,V	5,%	multilayer ceramic	other,more,stuff
-C22	.1uF	C1V7	newark,97M4164	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	multilayer ceramic	other,more,stuff
-C23	.01uF	C1V7	newark,75M7682	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	multilayer ceramic	other,more,stuff
-C24	470pF	C1V7	newark,19C6191	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	100,V	5,%	multilayer ceramic	other,more,stuff
-C25	100nF	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C26	100nF	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C27	100nF	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C28	100nF	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C3	.1uF	C1V7	newark,97M4164	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	20,%	multilayer ceramic	other,more,stuff
-C34	100nf	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C35	100nf	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C36	100nf	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C4	2200uF	C1V7	newark,69K8230	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	x,x	Aluminum Electrolytic	other,more,stuff
-C41	100nf	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C42	100nf	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C43	100nf	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C44	100nf	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C45	10pF	C1V7	newark,97k4148	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	200,V	10,%	multilayer ceramic	other,more,stuff
-C46	10pF	C1V7	newark,97k4148	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	200,V	10,%	multilayer ceramic	other,more,stuff
-C47	100nF	C1V7	newark,39K8137	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	10,%	Multilayer Ceramic	other,more,stuff
-C48	10pF	C1V7	newark,97k4148	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	200,V	10,%	multilayer ceramic	other,more,stuff
-C49	10pF	C1V7	newark,97M4148	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	200,V	10,%	Multilayer Ceramic	other,more,stuff
-C5	10uF	C1V7	newark,97M4217	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	35,V	10,%	Tantalum	other,more,stuff
-C50	10pF	C1V7	newark,97M4148	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	200,V	10,%	Multilayer Ceramic	other,more,stuff
-C51	10pF	C1V7	newark,97M4148	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	200,V	10,%	Multilayer Ceramic	other,more,stuff
-C52	10pF	C1V7	newark,97M4148	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	200,V	10,%	Multilayer Ceramic	other,more,stuff
-C53	10pF	C1V7	newark,97M4148	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	200,V	10,%	Multilayer Ceramic	other,more,stuff
-C54	10pF	C1V7	newark,97M4148	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	200,V	10,%	Multilayer Ceramic	other,more,stuff
-C55	.1uF	C1V7	newark,97M4164	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	20,%	multilayer ceramic	other,more,stuff
-C56	.001uF	C1V7	newark,93K3279	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	100,V	10,%	multilayer ceramic	other,more,stuff
-C57	330pF	C1V7	newark,36K5919	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	100,V	5,%	multilayered ceramic	other,more,stuff
-C58	.33uF	C1V7	newark,89F3212	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	20,%	multilayer ceramic	other,more,stuff
-C59	10nF	C1V7	newark,97M4158	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	10,V	10,%	multilayer ceramic	other,more,stuff
-C6	.1uF	C1V7	newark,97M4164	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	20,%	multilayer ceramic	other,more,stuff
-C60	.1uF	C1V7	newark,97M4164	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	20,%	multilayer ceramic	other,more,stuff
-C61	.001uF	C1V7	newark,93K3279	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	100,V	10,%	multilayer ceramic	other,more,stuff
-C62	330pF	C1V7	newark,36K5919	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	100,V	5,%	multilayered ceramic	other,more,stuff
-C63	.33uF	C1V7	newark,89F3212	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	20,%	multilayer ceramic	other,more,stuff
-C64	10nF	C1V7	newark,97M4158	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	10,V	10,%	multilayer ceramic	other,more,stuff
-C7	2200uF	C1V7	newark,69K8230	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	X,%	Aluminum Electrolytic	other,more,stuff
-C8	10uF	C1V7	newark,97M4217	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	35,V	10,%	Tantalum	other,more,stuff
-C9	.1uF	C1V7	newark,97M4164	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	50,V	20,%	multilayer ceramic	other,more,stuff
-D10	1N4007	D4-SMB	newark,18C8923	DIGI,S1MBDIDKR-ND	DIGI,1N4007RLOSCT-ND	vendor2, smd w hem	max,V	x,x	construct	other,more,stuff
-D100	LED	LEDV	newark,58k2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	green	other,more,stuff
-D101	LED	LEDV	newark,58k2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	green	other,more,stuff
-D11	1N4007	D4-SMB	newark,18C8923	DIGI,S1MBDIDKR-ND	DIGI,1N4007RLOSCT-ND	vendor2, smd w hem	max,V	x,x	construct	other,more,stuff
-D12	1N4007	D4-SMB	newark,18C8923	DIGI,S1MBDIDKR-ND	DIGI,1N4007RLOSCT-ND	vendor2, smd w hem	max,V	x,x	construct	other,more,stuff
-D13	DIODE	D4-SMB	newark,98K1092	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D14	5V1	D4-SMB	newark,18M3285	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D15	DIODE	D4-SMB	newark,98K1092	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D16	5V1	D4-SMB	newark,18M3285	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D17	DIODE	D4-SMB	newark,98K1092	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D18	5V1	D4-SMB	newark,18M3285	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D19	DIODE	D4-SMB	newark,98K1092	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D20	5V1	D4-SMB	newark,18M3285	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D21	DIODE	D4-SMB	newark,98K1092	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D22	5V1	D4-SMB	newark,18M3285	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D23	DIODE	D4-SMB	newark,98K1092	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D24	5V1	D4-SMB	newark,18M3285	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D25	LED	LEDV	newark,58k2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	green	other,more,stuff
-D26	LED	LEDV	newark,58k2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	green	other,more,stuff
-D27	LED	LEDV	newark,58k2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	green	other,more,stuff
-D28	LED	LEDV	newark,58k2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	green	other,more,stuff
-D29	LED	LEDV	newark,58k2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	green	other,more,stuff
-D30	LED	LEDV	newark,58k2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	green	other,more,stuff
-D31	DIODE	D4-SMB	newark,98K1092	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D32	5V1	D4-SMB	newark,18M3285	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D33	DIODE	D4-SMB	newark,98K1092	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D34	5V1	D4-SMB	newark,18M3285	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D35	DIODE	D4-SMB	newark,98K1092	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D36	5V1	D4-SMB	newark,18M3285	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D37	DIODE	D4-SMB	newark,98K1092	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D38	5V1	D4-SMB	newark,18M3285	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D49	1N4148	D4-SMB	newark,10M2940	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1000,V	1,A	x	other,more,stuff
-D50	1N4148	D4-SMB	newark,10M2940	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1000,V	1,A	x	other,more,stuff
-D51	1N4148	D4-SMB	newark,10M2940	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1000,V	1,A	x	other,more,stuff
-D52	1N4148	D4-SMB	newark,10M2940	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1000,V	1,A	x	other,more,stuff
-D53	1N4148	D4-SMB	newark,10M2940	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1000,V	1,A	x	other,more,stuff
-D54	1N4148	D4-SMB	newark,10M2940	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1000,V	1,A	x	other,more,stuff
-D63	1N4148	D4-SMB	newark,10M2940	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1000,V	1,A	x	other,more,stuff
-D64	1N4148	D4-SMB	newark,10M2940	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1000,V	1,A	x	other,more,stuff
-D65	1N4148	D4-SMB	newark,10M2940	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1000,V	1,A	x	other,more,stuff
-D66	1N4148	D4-SMB	newark,10M2940	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1000,V	1,A	x	other,more,stuff
-D67	1N4148	D4-SMB	newark,10M2940	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1000,V	1,A	x	other,more,stuff
-D68	1N4148	D4-SMB	newark,10M2940	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1000,V	1,A	x	other,more,stuff
-D69	1N4148	D4-SMB	newark,10M2940	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1000,V	1,A	x	other,more,stuff
-D70	1N4148	D4-SMB	newark,10M2940	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1000,V	1,A	x	other,more,stuff
-D71	LED	LEDV	newark,58k2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	green	other,more,stuff
-D72	LED	LEDV	newark,58k2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	green	other,more,stuff
-D73	DIODE	D4-SMB	newark,98K1092	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D74	5V1	D4-SMB	newark,18M3285	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D75	LED	LEDV	newark,58k2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	green	other,more,stuff
-D76	dsnub2	D4-SMB	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D77	ZENER 4V7	D4-SMB	newark,18M3533	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D78	LED	LEDV	newark,58K2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	construct	other,more,stuff
-D79	dsnub	D4-SMB	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D80	dsnub2	D4-SMB	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D81	ZENER 4V7	D4-SMB	newark,18M3533	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D82	LED	LEDV	newark,58K2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	construct	other,more,stuff
-D83	dsnub	D4-SMB	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D84	dsnub2	D4-SMB	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D85	ZENER 4V7	D4-SMB	newark,18M3533	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D86	LED	LEDV	newark,58K2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	construct	other,more,stuff
-D87	dsnub	D4-SMB	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D88	dsnub2	D4-SMB	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D89	ZENER 4V7	D4-SMB	newark,18M3533	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D9	1N4007	D4-SMB	newark,18C8923	DIGI,S1MBDIDKR-ND	DIGI,1N4007RLOSCT-ND	vendor2, smd w hem	max,V	x,x	construct	other,more,stuff
-D90	LED	LEDV	newark,58K2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	construct	other,more,stuff
-D91	dsnub	D4-SMB	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D92	dsnub2	D4-SMB	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D93	ZENER 4V7	D4-SMB	newark,18M3533	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D94	LED	LEDV	newark,58K2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	construct	other,more,stuff
-D95	dsnub	D4-SMB	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D96	dsnub2	D4-SMB	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-D97	ZENER 4V7	D4-SMB	newark,18M3533	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	20,mA	X	other,more,stuff
-D98	LED	LEDV	newark,58K2469	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	construct	other,more,stuff
-D99	dsnub	D4-SMB	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	reverse,V	current,A	x	other,more,stuff
-F1	2A	FUSE5-20-DEFAULT-2A	newark,63K6823	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	10,A	construct	other,more,stuff
-F2	2A	FUSE5-20-DEFAULT-2A	newark,63K6823	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	10,A	construct	other,more,stuff
-F3	10A	FUSE5-20-DEFAULT-10A	newark,63K6823	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	10,A	construct	other,more,stuff
-L1	INDUCTOR	SIL-2	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	x	other,more,stuff
-L2	INDUCTOR	SIL-2	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	x	other,more,stuff
-L3	INDUCTOR	SIL-2	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	x	other,more,stuff
-L4	INDUCTOR	SIL-2	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	x	other,more,stuff
-L5	INDUCTOR	SIL-2	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	x	other,more,stuff
-L6	INDUCTOR	SIL-2	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	x	other,more,stuff
-P1	CONN_1	1PIN								
-P10	CONN_1	1PIN								
-P11	CONN_1	1PIN								
-P12	CONN_1	1PIN								
-P13	CONN_1	1PIN								
-P14	CONN_1	1PIN								
-P15	CONN_1	1PIN								
-P16	CONN_1	1PIN								
-P17	CONN_1	1PIN								
-P18	CONN_1	1PIN								
-P19	CONN_1	1PIN								
-P2	CONN_1	1PIN								
-P20	CONN_1	1PIN								
-P21	CONN_1	1PIN								
-P22	CONN_1	1PIN								
-P23	CONN_1	1PIN								
-P24	CONN_1	1PIN								
-P25	CONN_1	1PIN								
-P26	CONN_1	1PIN								
-P27	CONN_1	1PIN								
-P28	CONN_1	1PIN								
-P29	CONN_1	1PIN								
-P3	CONN_1	1PIN								
-P30	CONN_1	1PIN								
-P31	CONN_1	1PIN								
-P32	CONN_1	1PIN								
-P33	CONN_1	1PIN								
-P34	CONN_1	1PIN								
-P35	CONN_1	1PIN								
-P36	CONN_1	1PIN								
-P37	CONN_1	1PIN								
-P38	CONN_1	1PIN								
-P39	CONN_1	1PIN								
-P4	CONN_1	1PIN								
-P40	CONN_1	1PIN								
-P41	CONN_1	1PIN								
-P42	CONN_1	1PIN								
-P43	CONN_1	1PIN								
-P44	CONN_1	1PIN								
-P45	CONN_1	1PIN								
-P46	CONN_1	1PIN								
-P47	CONN_1	1PIN								
-P48	CONN_1	1PIN								
-P49	CONN_1	1PIN								
-P5	CONN_1	1PIN								
-P50	CONN_1	1PIN								
-P51	CONN_1	1PIN								
-P52	CONN_1	1PIN								
-P53	CONN_1	1PIN								
-P54	CONN_1	1PIN								
-P55	9S12XDP512	9S12XDP512	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	x	other,more,stuff
-P6	CONN_1	1PIN								
-P7	CONN_1	1PIN								
-P8	CONN_1	1PIN								
-P9	CONN_1	1PIN								
-Q1	MOSFET_N	TO220_sm	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q10	PIP-3104	TO220_sm	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q11	HALL	SIL-3	digi,480-2002-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	x	other,more,stuff
-Q12	PIP-3104	TO220_sm	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q13	HALL	SIL-3	digi,480-2002-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	x	other,more,stuff
-Q14	PIP-3104	TO220_sm	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q15	HALL	SIL-3	digi,480-2002-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	x	other,more,stuff
-Q16	PIP-3104	TO220_sm	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q17	HALL	SIL-3	digi,480-2002-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	x	other,more,stuff
-Q18	PIP-3104	TO220_sm	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q19	HALL	SIL-3	digi,480-2002-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	x	other,more,stuff
-Q2	MOSFET_N	TO220_sm	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q20	PIP-3104	TO220_sm	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q21	HALL	SIL-3	digi,480-2002-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	x	other,more,stuff
-Q22	MOS_N	TO92	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q23	MOS_N	TO92	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q3	MOSFET_N	TO220_sm	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q4	MOSFET_N	TO220_sm	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q5	MOSFET_N	TO220_sm	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q6	MOSFET_N	TO220_sm	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q7	PIP-3104	TO220_sm	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q8	PIP-3104	TO220_sm	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-Q9	PIP-3104	TO220_sm	digi,PIP3104-ND	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	8,A	x,x	TOPFET	other,more,stuff
-R10	1R	R7	newark, 65K3871	farnell,1155286	vendor2, thru w hem	vendor2, smd w hem	power,W	tol,%	construct	other,more,stuff
-R100	2.2k	R4-SM0805	newark,38k0352	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	10,%	carbon film	other,more,stuff
-R101	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R102	100k	R4-SM0805	newark,38K0329	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R103	2.2k	R4-SM0805	newark,38k0352	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R104	0R	R4-SM0805	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	power,W	tol,%	construct	other,more,stuff
-R105	2.2k	R4-SM0805	newark,38K0352	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R106	680R	R4-SM0805	newark,59K8561	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1,W	5,%	construct	other,more,stuff
-R107	3k	R4-SM0805	newark,38K0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R108	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R109	100k	R4-SM0805	newark,38K0329	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R11	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R110	2.2k	R4-SM0805	newark,38k0352	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R111	0R	R4-SM0805	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	power,W	tol,%	construct	other,more,stuff
-R112	2.2k	R4-SM0805	newark,38K0352	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R113	680R	R4-SM0805	newark,59K8561	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1,W	5,%	construct	other,more,stuff
-R114	3k	R4-SM0805	newark,38K0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R115	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R116	100k	R4-SM0805	newark,38K0329	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R117	2.2k	R4-SM0805	newark,38k0352	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R118	0R	R4-SM0805	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	power,W	tol,%	construct	other,more,stuff
-R119	2.2k	R4-SM0805	newark,38K0352	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R12	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R120	680R	R4-SM0805	newark,59K8561	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1,W	5,%	construct	other,more,stuff
-R121	3k	R4-SM0805	newark,38K0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R122	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R123	100k	R4-SM0805	newark,38K0329	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R124	2.2k	R4-SM0805	newark,38k0352	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R125	0R	R4-SM0805	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	power,W	tol,%	construct	other,more,stuff
-R126	2.2k	R4-SM0805	newark,38K0352	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R127	680R	R4-SM0805	newark,59K8561	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1,W	5,%	construct	other,more,stuff
-R128	3k	R4-SM0805	newark,38K0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R129	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R13	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R130	100k	R4-SM0805	newark,38K0329	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R131	2.2k	R4-SM0805	newark,38k0352	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R132	0R	R4-SM0805	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	power,W	tol,%	construct	other,more,stuff
-R133	2.2k	R4-SM0805	newark,38K0352	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R134	680R	R4-SM0805	newark,59K8561	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1,W	5,%	construct	other,more,stuff
-R135	3k	R4-SM0805	newark,38K0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R136	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R137	100k	R4-SM0805	newark,38K0329	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R138	2.2k	R4-SM0805	newark,38k0352	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R139	0R	R4-SM0805	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	power,W	tol,%	construct	other,more,stuff
-R14	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R140	2.2k	R4-SM0805	newark,38K0352	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R141	680R	R4-SM0805	newark,59K8561	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1,W	5,%	construct	other,more,stuff
-R142	3k	R4-SM0805	newark,38K0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R143	10k	R4-SM0805	newark,38k0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R144	10k	R4-SM0805	newark,38k0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R145	5k6	R4-SM0805	newark,38K0382	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R146	150k	R4-SM0805	newark,58K4949	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	5,%	carbon film	other,more,stuff
-R147	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R148	0R	R4-SM0805	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	power,W	tol,%	construct	other,more,stuff
-R149	3k	R4-SM0805	newark,38k0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R15	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R150	1M6	R4-SM0805	newark,73K0277	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon composition	other,more,stuff
-R151	18k	R4-SM0805	newark,58K5022	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R152	5k	R4-SM0805	newark,38K0382	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R153	4k7	R4-SM0805	newark,58K3858	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	1,%	metal film	other,more,stuff
-R154	13k	R4-SM0805	newark,94C4880	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	400,mW	1,%	metal film	other,more,stuff
-R155	22k	R4-SM0805	newark,71M1054	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	1,%	metal film	other,more,stuff
-R156	18k	R4-SM0805	newark,58K3819	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	1,%	metal film	other,more,stuff
-R157	3k3	R4-SM0805	newark,58K3844	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	1,%	metal film	other,more,stuff
-R158	10k	R4-SM0805	newark,58K3797	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	1,%	metal film	other,more,stuff
-R159	10k	R4-SM0805	newark,38k0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R16	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R160	10k	R4-SM0805	newark,38k0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R161	5k6	R4-SM0805	newark,38K0382	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R162	150k	R4-SM0805	newark,58K4949	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	5,%	carbon film	other,more,stuff
-R163	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R164	0R	R4-SM0805	vendor1, thru w hem	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	power,W	tol,%	construct	other,more,stuff
-R165	3k	R4-SM0805	newark,38k0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R166	1M6	R4-SM0805	newark,73K0277	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon composition	other,more,stuff
-R167	18k	R4-SM0805	newark,58K5022	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R168	5k	R4-SM0805	newark,38K0382	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R169	4k7	R4-SM0805	newark,58K3858	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	1,%	metal film	other,more,stuff
-R17	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R170	13k	R4-SM0805	newark,94C4880	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	400,mW	1,%	metal film	other,more,stuff
-R171	22k	R4-SM0805	newark,71M1054	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	500,mW	1,%	metal film	other,more,stuff
-R172	18k	R4-SM0805	newark,58K3819	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	1,%	metal film	other,more,stuff
-R173	3k3	R4-SM0805	newark,58K3844	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	1,%	metal film	other,more,stuff
-R174	10k	R4-SM0805	newark,58K3797	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	1,%	metal film	other,more,stuff
-R175	39k	R4-SM0805	newark,38K0371	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R176	10k	R4-SM0805	newark,38k0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R177	2.7k	R4-SM0805	newark,41K8850	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	.125,W	1,%	metal film	other,more,stuff
-R178	2.7k	R4-SM0805	newark,41K8850	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	.125,W	1,%	metal film	other,more,stuff
-R18	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R19	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R20	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R21	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R22	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R23	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R24	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R25	3k	R4-SM0805	newark,38k0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R26	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R27	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R28	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R29	3k	R4-SM0805	newark,38k0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R30	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R31	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R32	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R33	3k	R4-SM0805	newark,38k0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R34	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R35	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R36	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R37	3k	R4-SM0805	newark,38k0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R38	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R39	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R40	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R41	3k	R4-SM0805	newark,38k0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R42	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R43	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R44	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R45	3k	R4-SM0805	newark,38k0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R46	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R47	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R48	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R49	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R50	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R51	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R52	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R53	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R54	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R64	1k	R4-SM0805	newark,38K0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	Carbon film	other,more,stuff
-R65	1k	R4-SM0805	newark,38K0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	Carbon film	other,more,stuff
-R66	1k	R4-SM0805	newark,38K0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	Carbon film	other,more,stuff
-R68	1k	R4-SM0805	newark,38K0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	Carbon film	other,more,stuff
-R69	1k	R4-SM0805	newark,38K0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R70	1k	R4-SM0805	newark,38K0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	Carbon film	other,more,stuff
-R79	1k	R4-SM0805	newark38K0327,	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	Carbon film	other,more,stuff
-R80	1k	R4-SM0805	newark,38K0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	Carbon film	other,more,stuff
-R81	1k	R4-SM0805	newark,38K0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	Carbon film	other,more,stuff
-R82	1k	R4-SM0805	newark,38K0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	Carbon film	other,more,stuff
-R83	1k	R4-SM0805	newark,38K0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	Carbon film	other,more,stuff
-R84	1k	R4-SM0805	newark,38K0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	Carbon film	other,more,stuff
-R85	1k	R4-SM0805	newark,38K0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R86	1k	R4-SM0805	newark,38K0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	Carbon film	other,more,stuff
-R87	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R88	100k	R4-SM0805	newark,38k0329	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R89	3k	R4-SM0805	newark,38k0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R9	1R	R7	newark, 65K3871	farnell,1155286	vendor2, thru w hem	vendor2, smd w hem	power,W	tol,%	construct	other,more,stuff
-R90	2.2k	R4-SM0805	newark,38k0352	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R91	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R92	100k	R4-SM0805	newark,38k0329	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R93	3k	R4-SM0805	newark,38k0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-R94	2.2k	R4-SM0805	newark,38k0352	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R95	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R96	10k	R4-SM0805	newark,38K0328	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	Carbon Film	other,more,stuff
-R97	1k	R4-SM0805	newark,38k0327	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	10,%	carbon film	other,more,stuff
-R98	100k	R4-SM0805	newark,38k0329	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	250,mW	5,%	carbon film	other,more,stuff
-R99	3k	R4-SM0805	newark,38k0340	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	1/4,W	5,%	carbon film	other,more,stuff
-RP1	R_PACK8	16dip300	newark,32K8448							
-SW1	SWITCH_INV	SIL-3								
-SW2	SWITCH_INV	SIL-3								
-SW3	SWITCH_INV	SIL-3								
-SW4	SWITCH_INV	SIL-3								
-SW5	SWITCH_INV	SIL-3								
-SW6	SWITCH_INV	SIL-3								
-SW7	SWITCH_INV	SIL-3	vendor1, thru w hem	vendor1, thru smd w hem	vendor2, thru w hem	vendor2, thru smd w hem	x,x	x,x	x,x	x,x,x
-SW8	SWITCH_INV	SIL-3	vendor1, thru w hem	vendor1, thru smd w hem	vendor2, thru w hem	vendor2, thru smd w hem	x,x	x,x	x,x	x,x,x
-U1	74HC86	14DIP300	newark, 06F3172	vendor1, smd w hem	vendor2, thru e hem	vendor2, smd e hem	x,x	x,x	x	x,x,x
-U2	74HC86	14DIP300	newark, 06F3172	vendor1, smd w hem	vendor2, thru e hem	vendor2, smd e hem	x,x	x,x	x	x,x,x
-U3	7805-DIYEFI	TO220_sm	newark,45J1442	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	linear	other,more,stuff
-U4	7805-DIYEFI	TO220_sm	newark,45J1442	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	linear	other,more,stuff
-U5	MPX4100A	SOP_case_482	newark,75C3857	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	x	other,more,stuff
-U6	MPX4100A	SOP_case_482	newark,75C3857	vendor1, smd w hem	vendor2, thru w hem	vendor2, smd w hem	x,x	x,x	x	other,more,stuff
-U7	LM1815	SO14E	newark,41K3517	vendor2, thru e hem	vendor2, thru w hem	newark,41k3517	x,x	x,x	VR RPM chip	x,x,x
-U8	TL082CN	8DIP300	newark,89K1104	vendor1, smd w hem	digi,497-2213-5-ND	vendor2, smd w hem	x,x	x,x	opamp	other,more,stuff
-U9	LM1815	SO14E	newark,41K3517	vendor2, thru e hem	vendor2, thru w hem	newark,41k3517	x,x	x,x	VR RPM chip	x,x,x
+eeschema (2010-03-14)-final  >> Creation date: Fri 27 Aug 2010 08:11:07 AM ART
+
+#Cmp ( order = Reference )
+| C2         10uF        
+| C3         .1uF        
+| C5         10uF        
+| C6         .1uF        
+| C7         2200uF      
+| C8         10uF        
+| C9         .1uF        
+| C10        2200uF      
+| C11        10uF        
+| C12        .1uF        
+| C13        100nF       
+| C14        100nF       
+| C15        100nF       
+| C16        100nF       
+| C17        100nF       
+| C18        100nF       
+| C19        .1uF        
+| C20        .01uF       
+| C21        470pF       
+| C23        .1uF        
+| C24        1.5nF       
+| C25        100nF       
+| C26        100nF       
+| C27        100nF       
+| C28        100nF       
+| C29        100nf       
+| C30        100nf       
+| C31        100nf       
+| C36        10pF        
+| C37        10pF        
+| C38        100nF       
+| C39        10pF        
+| C40        .1uF        
+| C41        330pF       
+| C42        .33uF       
+| C43        10nF        
+| C44        .1uF        
+| C45        330pF       
+| C46        .33uF       
+| C47        10nF        
+| C48        .01uF       
+| C49        1uF         
+| C50        .01uF       
+| C51        1uF         
+| C52        .01uF       
+| C53        1uF         
+| C54        .01uF       
+| C55        1uF         
+| C56        .01uF       
+| C57        1uF         
+| C58        .01uF       
+| C59        1uF         
+| C66        33nF        
+| C67        22nF        
+| C68        22nF        
+| C73        1.5nF       
+| C74        1.5nF       
+| C75        33nF        
+| C76        1.5nF       
+| C77        1.5nF       
+| C78        33nF        
+| C79        1.5nF       
+| C80        1.5nF       
+| C81        33nF        
+| C82        1.5nF       
+| C83        1.5nF       
+| C84        33nF        
+| C85        100nf       
+| C86        100nf       
+| C87        100nf       
+| C88        100nf       
+| C89        100nf       
+| C90        100nf       
+| C91        100nf       
+| C92        100nf       
+| C93        3.3nF       
+| C94        330pF       
+| C95        100nF       
+| C96        22pF        
+| C97        22pF        
+| C98        .1uF        
+| C99        .1uF        
+| C100       .1uF        
+| C101       .1uF        
+| C102       .1uF        
+| C104       33nF        
+| C105       0.1uF       
+| C106       100nf       
+| C107       .1uF        
+| D1         1N4007      
+| D3         1N4007      
+| D4         1N4007      
+| D6         5V1         
+| D8         5V1         
+| D10        5V1         
+| D12        5V1         
+| D14        5V1         
+| D16        5V1         
+| D17        LED         
+| D18        LED         
+| D19        LED         
+| D20        LED         
+| D21        LED         
+| D22        LED         
+| D24        5V1         
+| D26        5V1         
+| D28        5V1         
+| D30        5V1         
+| D31        1N4148      
+| D32        SCHOTTKY    
+| D33        1N4148      
+| D34        SCHOTTKY    
+| D35        1N4148      
+| D36        SCHOTTKY    
+| D45        LED         
+| D46        LED         
+| D48        5V1         
+| D49        LED         
+| D50        LED         
+| D51        LED         
+| D52        33v 5w      
+| D53        33v 5w      
+| D54        33v 5w      
+| D55        33v 5w      
+| D56        33v 5w      
+| D57        33v 5w      
+| D58        1N4148      
+| D59        SCHOTTKY    
+| D60        1N4148      
+| D61        SCHOTTKY    
+| D62        1N4148      
+| D63        SCHOTTKY    
+| D64        1N4148      
+| D65        SCHOTTKY    
+| D66        1N4148      
+| D67        SCHOTTKY    
+| D68        1N4148      
+| D69        SCHOTTKY    
+| D70        1N4148      
+| D71        SCHOTTKY    
+| D72        1N4148      
+| D73        SCHOTTKY    
+| D74        1N4148      
+| D75        SCHOTTKY    
+| D?         DIODE       
+| F1         2A          
+| F3         10A         
+| J1         USB_2       
+| P2         CONN_1      
+| P3         CONN_1      
+| P4         CONN_1      
+| P5         CONN_1      
+| P6         CONN_1      
+| P7         CONN_1      
+| P8         CONN_1      
+| P9         CONN_1      
+| P10        CONN_1      
+| P11        CONN_1      
+| P12        CONN_1      
+| P13        CONN_1      
+| P14        CONN_1      
+| P15        CONN_1      
+| P16        CONN_1      
+| P17        CONN_1      
+| P18        CONN_1      
+| P19        CONN_1      
+| P20        CONN_1      
+| P21        CONN_1      
+| P22        CONN_1      
+| P23        CONN_1      
+| P24        CONN_1      
+| P25        CONN_1      
+| P26        CONN_1      
+| P27        CONN_1      
+| P29        CONN_1      
+| P30        CONN_1      
+| P31        CONN_1      
+| P32        CONN_1      
+| P34        CONN_1      
+| P35        CONN_1      
+| P36        CONN_1      
+| P37        CONN_1      
+| P38        CONN_1      
+| P44        CONN_1      
+| P45        CONN_1      
+| P46        CONN_1      
+| P47        CONN_1      
+| P48        CONN_1      
+| P49        CONN_1      
+| P50        CONN_1      
+| P51        CONN_1      
+| P52        CONN_1      
+| P53        CONN_1      
+| P54        CONN_1      
+| P55        CONN_1      
+| P56        CONN_1      
+| P57        CONN_1      
+| P58        CONN_1      
+| P59        CONN_1      
+| P60        CONN_1      
+| P61        CONN_1      
+| P62        CONN_1      
+| P63        CONN_1      
+| P64        CONN_1      
+| P65        CONN_1      
+| P66        CONN_1      
+| P67        CONN_1      
+| P68        CONN_1      
+| P69        CONN_1      
+| P70        CONN_1      
+| P71        CONN_4      
+| P72        CONN_1      
+| P73        CONN_1      
+| P?         CONN_3X2    
+| Q1         MOSFET_N    
+| Q2         MOSFET_N    
+| Q3         MOSFET_N    
+| Q4         MOSFET_N    
+| Q5         MOSFET_N    
+| Q6         MOSFET_N    
+| Q7         PIP-3104    
+| Q8         PIP-3104    
+| Q9         PIP-3104    
+| Q12        2N6044      
+| Q13        2N6044      
+| Q14        2N6044      
+| Q15        2N6044      
+| Q16        2N6044      
+| Q17        2N6044      
+| R2         1R          
+| R3         10k         
+| R4         10k         
+| R5         10k         
+| R6         10k         
+| R7         10k         
+| R8         10k         
+| R9         10k         
+| R10        10k         
+| R11        10k         
+| R12        10k         
+| R13        10k         
+| R14        10k         
+| R15        1k          
+| R17        3k          
+| R18        10k         
+| R19        1k          
+| R21        3k          
+| R22        10k         
+| R23        1k          
+| R25        3k          
+| R26        10k         
+| R27        1k          
+| R29        3k          
+| R30        10k         
+| R31        1k          
+| R33        3k          
+| R34        10k         
+| R35        1k          
+| R37        3k          
+| R38        10k         
+| R39        10k         
+| R40        10k         
+| R41        10k         
+| R42        10k         
+| R43        10k         
+| R44        10k         
+| R45        10k         
+| R46        10k         
+| R47        1k          
+| R48        1k          
+| R49        1k          
+| R50        1k          
+| R51        1k          
+| R52        1k          
+| R61        1k          
+| R62        100k        
+| R63        3k          
+| R64        2.2k        
+| R65        1k          
+| R66        100k        
+| R67        3k          
+| R68        2.2k        
+| R69        10k         
+| R70        10k         
+| R71        1k          
+| R72        100k        
+| R73        3k          
+| R74        2.2k        
+| R75        5k6         
+| R77        10k         
+| R78        1k          
+| R79        0R          
+| R80        3k          
+| R81        1M6         
+| R82        18k         
+| R83        5k          
+| R84        4k7         
+| R85        13k         
+| R86        18k         
+| R87        22k         
+| R88        3k3         
+| R89        10k         
+| R90        5k6         
+| R92        10k         
+| R93        1k          
+| R94        0R          
+| R95        3k          
+| R96        1M6         
+| R97        18k         
+| R98        5k          
+| R99        4k7         
+| R100       13k         
+| R101       18k         
+| R102       22k         
+| R103       3k3         
+| R104       10k         
+| R105       39k         
+| R106       10k         
+| R109       1k          
+| R110       0.1 2W      
+| R111       3.9k        
+| R112       1k          
+| R113       0.1 2W      
+| R114       3.9k        
+| R115       1k          
+| R116       0.1 2W      
+| R117       3.9k        
+| R118       1k          
+| R119       0.1 2W      
+| R120       3.9k        
+| R121       1k          
+| R122       0.1 2W      
+| R123       3.9k        
+| R124       1k          
+| R125       0.1 2W      
+| R126       3.9k        
+| R133       680k        
+| R134       68k         
+| R135       680k        
+| R136       10k         
+| R137       680k        
+| R138       10k         
+| R147       2.61k       
+| R148       38.3k       
+| R149       10k         
+| R150       2.61k       
+| R151       38.3k       
+| R152       10k         
+| R153       2.61k       
+| R154       38.3k       
+| R155       10k         
+| R156       2.61k       
+| R157       38.3k       
+| R158       10k         
+| R159       1k          
+| R160       1k          
+| R161       1k          
+| R162       1k          
+| R163       1k          
+| R164       1k          
+| R165       1k          
+| R166       1k          
+| R167       1k          
+| R168       1k          
+| R169       1k          
+| R170       1k          
+| R171       1k          
+| R172       1k          
+| R173       1k          
+| R174       1k          
+| R175       3.9K        
+| R176       10M         
+| R177       10k         
+| R178       10k         
+| R179       10k         
+| R180       4.7K        
+| R181       10k         
+| R182       270R        
+| R183       270R        
+| R184       4.7k        
+| R185       10k         
+| R186       1k          
+| R187       1k          
+| U4         LM2940      
+| U5         MPX4100A    
+| U6         MPX4250A    
+| U7         LM1815      
+| U8         TL082CN     
+| U9         LM1815      
+| U10        LM1949      
+| U11        LM1949      
+| U12        LM1949      
+| U13        LM1949      
+| U14        LM1949      
+| U15        LM1949      
+| U16        LM2936      
+| U17        MC9S12XDP512
+| U18        AD597       
+| U19        SI846X      
+| U?         FT232RL     
+| X3         16MHz       
+#End Cmp
+
+#End List
