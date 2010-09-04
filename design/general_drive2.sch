@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 29 Aug 2010 06:27:37 AM ART
+EESchema Schematic File Version 2  date Tue 31 Aug 2010 09:45:02 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 39 50
+Sheet 41 46
 Title "freeEMS 1.0"
-Date "29 aug 2010"
+Date "1 sep 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "general_drive.sch"
@@ -65,9 +65,6 @@ Wire Wire Line
 Connection ~ 3700 2850
 Wire Wire Line
 	3700 2850 3700 2500
-Connection ~ 2500 2850
-Wire Wire Line
-	2500 2850 2500 2900
 Wire Wire Line
 	2250 2300 2350 2300
 Wire Wire Line
@@ -175,15 +172,6 @@ F 9 "5,%" V 980 3400 60  0001 C CNN "Field6"
 F 10 "carbon film" V 980 3400 60  0001 C CNN "Field7"
 F 11 "other,more,stuff" V 980 3400 60  0001 C CNN "Field8"
 	1    2900 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR070
-U 1 1 4C2F52D8
-P 2500 2900
-F 0 "#PWR070" H 2500 2900 30  0001 C CNN
-F 1 "GND" H 2500 2830 30  0001 C CNN
-	1    2500 2900
 	1    0    0    -1  
 $EndComp
 $Comp

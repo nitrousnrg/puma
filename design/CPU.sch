@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 29 Aug 2010 06:27:37 AM ART
+EESchema Schematic File Version 2  date Tue 31 Aug 2010 09:45:01 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A3 16535 11700
-Sheet 4 50
+Sheet 4 46
 Title "freeEMS 1.0"
-Date "29 aug 2010"
+Date "1 sep 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 ""
@@ -235,10 +235,10 @@ Wire Wire Line
 Wire Wire Line
 	4050 5300 4050 5350
 $Comp
-L GND #PWR?
+L GND #PWR011
 U 1 1 4C7A278D
 P 4050 5350
-F 0 "#PWR?" H 4050 5350 30  0001 C CNN
+F 0 "#PWR011" H 4050 5350 30  0001 C CNN
 F 1 "GND" H 4050 5280 30  0001 C CNN
 	1    4050 5350
 	1    0    0    -1  

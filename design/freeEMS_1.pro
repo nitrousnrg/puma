@@ -1,5 +1,5 @@
-update=Sat 31 Jul 2010 11:20:27 AM ART
-last_client=kicad
+update=Thu 02 Sep 2010 01:35:13 AM ART
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=
@@ -62,11 +62,18 @@ LibName25=cypress
 LibName26=siliconi
 LibName27=contrib
 LibName28=valves
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[general]
+version=1
 [pcbnew]
 version=1
 PadDrlX=0
-PadDimH=900
-PadDimV=60
+PadDimH=2165
+PadDimV=787
 BoardThickness=630
 RouteTo=15
 RouteBo=0
@@ -85,6 +92,7 @@ TxtLar=120
 MSegLar=50
 WpenSer=10
 [pcbnew/libraries]
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -96,11 +104,3 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=/home/marcos/electronica/FreeEMS_1.0_hardware/PCB-modules/free_EMS
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[general]
-version=1

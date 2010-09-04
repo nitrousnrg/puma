@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Fri 27 Aug 2010 11:17:00 AM ART
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 30 Aug 2010 08:45:15 AM ART
 
 BeginCmp
 TimeStamp = /4C2E1E53/4C2F529E;
@@ -1110,14 +1110,14 @@ BeginCmp
 TimeStamp = /48A00EF5;
 Reference = F1;
 ValeurCmp = 2A;
-IdModule  = FUSE5-20-default-2A;
+IdModule  = FUSE5-20;
 EndCmp
 
 BeginCmp
 TimeStamp = /48A559CE;
 Reference = F3;
 ValeurCmp = 10A;
-IdModule  = FUSE5-20-default-10A;
+IdModule  = FUSE5-20;
 EndCmp
 
 BeginCmp

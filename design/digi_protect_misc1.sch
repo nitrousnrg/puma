@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 29 Aug 2010 06:27:37 AM ART
+EESchema Schematic File Version 2  date Tue 31 Aug 2010 09:45:01 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 35 50
+Sheet 37 46
 Title "freeEMS 1.0"
-Date "29 aug 2010"
+Date "1 sep 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 "digi_protect.sch"
@@ -50,8 +50,6 @@ Wire Wire Line
 Connection ~ 3250 1750
 Wire Wire Line
 	3850 1750 2650 1750
-Wire Wire Line
-	2800 2250 2800 2150
 Wire Wire Line
 	4350 1750 4550 1750
 $Comp
@@ -124,15 +122,6 @@ F 9 "10,%" V 1130 2600 60  0001 C CNN "Field6"
 F 10 "Multilayer Ceramic" V 1130 2600 60  0001 C CNN "Field7"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	1    3250 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR061
-U 1 1 4C2F52B1
-P 2800 2250
-F 0 "#PWR061" H 2800 2250 30  0001 C CNN
-F 1 "GND" H 2800 2180 30  0001 C CNN
-	1    2800 2250
 	1    0    0    -1  
 $EndComp
 Text HLabel 1950 2150 0    60   BiDi ~ 0
