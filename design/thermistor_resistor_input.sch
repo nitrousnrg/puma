@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 31 Aug 2010 09:45:01 PM ART
+EESchema Schematic File Version 2  date Sat 04 Sep 2010 04:23:02 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 47 46
+Sheet 10 46
 Title "freeEMS 1.0"
-Date "1 sep 2010"
+Date "4 sep 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "thermistor_resistor_input.sch"
@@ -46,19 +46,29 @@ Wire Wire Line
 	4850 1900 5150 1900
 Connection ~ 5150 1000
 Wire Wire Line
-	4850 1000 5700 1000
-Connection ~ 5450 2400
+	4850 1000 5150 1000
 Wire Wire Line
-	5150 2400 5150 1500
+	5150 1000 5700 1000
+Connection ~ 5350 2400
 Wire Wire Line
-	4850 1700 5900 1700
+	5150 2400 5150 1900
+Wire Wire Line
+	5150 1900 5150 1500
+Wire Wire Line
+	4850 1700 5350 1700
+Wire Wire Line
+	5350 1700 5700 1700
+Wire Wire Line
+	5700 1700 5900 1700
 Wire Wire Line
 	5700 1000 5700 1050
 Wire Wire Line
 	5150 1000 5150 1100
 Connection ~ 5700 1700
 Wire Wire Line
-	5700 1850 5700 1550
+	5700 1850 5700 1700
+Wire Wire Line
+	5700 1700 5700 1550
 Wire Wire Line
 	6650 1900 6650 1700
 Wire Wire Line
@@ -66,15 +76,21 @@ Wire Wire Line
 Wire Wire Line
 	5700 2400 5700 2350
 Wire Wire Line
-	5450 2400 5450 2300
+	5350 2400 5350 2300
 Wire Wire Line
-	5450 1900 5450 1700
-Connection ~ 5450 1700
+	5350 1900 5350 1700
+Connection ~ 5350 1700
 Wire Wire Line
 	6650 2300 6650 2400
 Connection ~ 5700 2400
 Wire Wire Line
-	6650 2400 4850 2400
+	6650 2400 5700 2400
+Wire Wire Line
+	5700 2400 5350 2400
+Wire Wire Line
+	5350 2400 5150 2400
+Wire Wire Line
+	5150 2400 4850 2400
 Connection ~ 5150 2400
 $Comp
 L C C84
@@ -92,14 +108,14 @@ $EndComp
 $Comp
 L C C83
 U 1 1 4C4AE9A4
-P 5450 2100
+P 5350 2100
 AR Path="/4C4C62BF/4C4AE9A4" Ref="C83"  Part="1" 
 AR Path="/4C4C628B/4C4AE9A4" Ref="C80"  Part="1" 
 AR Path="/4C2E1E9D/4C4AE9A4" Ref="C74"  Part="1" 
 AR Path="/4C2E1E9F/4C4AE9A4" Ref="C77"  Part="1" 
-F 0 "C83" H 5500 2200 50  0000 L CNN
-F 1 "1.5nF" H 5500 2000 50  0000 L CNN
-	1    5450 2100
+F 0 "C83" H 5400 2200 50  0000 L CNN
+F 1 "1.5nF" H 5400 2000 50  0000 L CNN
+	1    5350 2100
 	1    0    0    -1  
 $EndComp
 $Comp

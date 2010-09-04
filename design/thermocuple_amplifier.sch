@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 31 Aug 2010 09:45:01 PM ART
+EESchema Schematic File Version 2  date Sat 04 Sep 2010 04:23:02 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 46
 Title ""
-Date "1 sep 2010"
+Date "4 sep 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -42,10 +42,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR027
+L GND #PWR029
 U 1 1 4C599401
 P 6400 4250
-F 0 "#PWR027" H 6400 4250 30  0001 C CNN
+F 0 "#PWR029" H 6400 4250 30  0001 C CNN
 F 1 "GND" H 6400 4180 30  0001 C CNN
 	1    6400 4250
 	1    0    0    -1  
@@ -87,10 +87,10 @@ temp_output
 Text HLabel 6500 3650 2    60   Input ~ 0
 5V_reg
 $Comp
-L GND #PWR028
+L GND #PWR030
 U 1 1 4C59878A
 P 5000 3950
-F 0 "#PWR028" H 5000 3950 30  0001 C CNN
+F 0 "#PWR030" H 5000 3950 30  0001 C CNN
 F 1 "GND" H 5000 3880 30  0001 C CNN
 	1    5000 3950
 	1    0    0    -1  

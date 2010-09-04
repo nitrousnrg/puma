@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 31 Aug 2010 09:45:01 PM ART
+EESchema Schematic File Version 2  date Sat 04 Sep 2010 04:23:02 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 16 46
 Title "freeEMS 1.0"
-Date "1 sep 2010"
+Date "4 sep 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -85,10 +85,10 @@ $EndComp
 Text Notes 5250 2450 0    60   ~ 0
 ANALOG VOLTAGE SUPPLY
 $Comp
-L PWR_FLAG #FLG045
+L PWR_FLAG #FLG047
 U 1 1 4C2F55FB
 P 4850 3300
-F 0 "#FLG045" H 4850 3570 30  0001 C CNN
+F 0 "#FLG047" H 4850 3570 30  0001 C CNN
 F 1 "PWR_FLAG" H 4850 3530 30  0000 C CNN
 	1    4850 3300
 	1    0    0    -1  
@@ -164,10 +164,10 @@ F 11 "other,more,stuff" H -3270 2600 60  0001 C CNN "Field8"
 	1    0    0    1   
 $EndComp
 $Comp
-L VSS #PWR046
+L VSS #PWR048
 U 1 1 4C2F52A0
 P 7850 3750
-F 0 "#PWR046" H 7850 3750 30  0001 C CNN
+F 0 "#PWR048" H 7850 3750 30  0001 C CNN
 F 1 "VSS" H 7850 3680 30  0000 C CNN
 	1    7850 3750
 	-1   0    0    -1  
@@ -227,10 +227,10 @@ F 11 "other,more,stuff" V 1530 2600 60  0001 C CNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR047
+L GND #PWR049
 U 1 1 486CA86E
 P 2600 3750
-F 0 "#PWR047" H 2600 3750 30  0001 C CNN
+F 0 "#PWR049" H 2600 3750 30  0001 C CNN
 F 1 "GND" H 2600 3680 30  0001 C CNN
 	1    2600 3750
 	-1   0    0    -1  
