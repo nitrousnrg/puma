@@ -1,10 +1,60 @@
-	Considerations on the analog voltage regulator:
+/*********** Considerations on the analog voltage regulator   **************/
 
-This is the maximum current that all analog circuitry shall drain:
+This is the maximum current that all analog circuitry drain:
 
 MPX4100			10mA
 MPX4250			10mA  (overriden by bosch sensor, with 12.5mA)
 temp input		1.93mA (x4)
+thermocouple		??
+
+TOTAL			30.22mA
 
 lm317 with lm4040
+
+
+/**************** Thermal considerations *******************/
+
+* CPU:
+max junction temperature = 140°C
+ambient temperature = 125°C
+
+so, based in the datasheet, the device should produce no more than 15°C, where
+
+15°C = (total chip power dissipation) x (package thermal resistance)
+     = (total chip power dissipation) x 43 °C/watt // page 1245 of the datasheet
+
+then, our maximum power is 348mW.
+if it have a 5v supply, then it'd drain 76mA. <- this has to be checked!
+
+* To be thought later: how much power/temperature is produced inside the case. 125°C outside the case isn't the same as 125°C inside.
+The key is to have a good path for temperature to go out, or it will stay and accumulate inside.
+
+* FT232:
+It is the only part that doesn't support 125°C. It can survive to that temperature though, as long as it is not being powered. To make the board fully 125°C capable, the FT232 will be left unpowered. It will get power from the USB cable, avoiding extra load on freeems regulator, and hoping no one will plug the cable in if the case is at more than 85°C. Another more robust soltion would use the internal temperature sensor of the thermocoule driver to ensure the operational temperature is met to this device.
+
+* capacitors
+use tantalum? (for big capacitance). They have an almost plain temperature response. (check $$)
+490-1666-1-ND: .1uF, ceramic, 125° capable, cheap
+The electrolytics are still to be discussed, at high temps they can become useless for decoupling.
+
+/************* outputs ***********/
+* All capable of drive a fuel pump. So, power required to drive a solenoid, stepper, etc can't be a problem.
+
+* ignition
+Check if ignition drivers are pin-compatible with FETs, to choose between driving a coil directly and using an external module.
+
+* IAC
+Must control by default soleniod valves and stepper valves. Solenoids are the easy ones, but steppers uses 4 pins.
+If i had to choose between using a dedicated IC to control a stepper, or use 4 pins, I prefer to use 4 pins.
+
+
+
+/************* case *************/
+
+* Preferently extruded aluminum.
+* External HDD cases are quite similar in size
+* Easy access to the board.
+* Space to stack the main board (2.5cm tall), connector board, and connector.
+* what should I do with the USB connector?
+
 
