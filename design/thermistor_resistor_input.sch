@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 04 Sep 2010 04:23:02 PM ART
+EESchema Schematic File Version 2  date Tue 05 Oct 2010 05:44:15 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 10 46
 Title "freeEMS 1.0"
-Date "4 sep 2010"
+Date "5 oct 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "thermistor_resistor_input.sch"
@@ -46,35 +46,25 @@ Wire Wire Line
 	4850 1900 5150 1900
 Connection ~ 5150 1000
 Wire Wire Line
-	4850 1000 5150 1000
-Wire Wire Line
-	5150 1000 5700 1000
+	4850 1000 5700 1000
 Connection ~ 5350 2400
 Wire Wire Line
-	5150 2400 5150 1900
+	5150 2400 5150 1500
 Wire Wire Line
-	5150 1900 5150 1500
-Wire Wire Line
-	4850 1700 5350 1700
-Wire Wire Line
-	5350 1700 5700 1700
-Wire Wire Line
-	5700 1700 5900 1700
+	4850 1700 5900 1700
 Wire Wire Line
 	5700 1000 5700 1050
 Wire Wire Line
 	5150 1000 5150 1100
 Connection ~ 5700 1700
 Wire Wire Line
-	5700 1850 5700 1700
-Wire Wire Line
-	5700 1700 5700 1550
+	5700 1850 5700 1550
 Wire Wire Line
 	6650 1900 6650 1700
 Wire Wire Line
 	6650 1700 6400 1700
 Wire Wire Line
-	5700 2400 5700 2350
+	5700 2350 5700 2400
 Wire Wire Line
 	5350 2400 5350 2300
 Wire Wire Line
@@ -84,13 +74,7 @@ Wire Wire Line
 	6650 2300 6650 2400
 Connection ~ 5700 2400
 Wire Wire Line
-	6650 2400 5700 2400
-Wire Wire Line
-	5700 2400 5350 2400
-Wire Wire Line
-	5350 2400 5150 2400
-Wire Wire Line
-	5150 2400 4850 2400
+	6650 2400 4850 2400
 Connection ~ 5150 2400
 $Comp
 L C C84

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 04 Sep 2010 04:23:02 PM ART
+EESchema Schematic File Version 2  date Tue 05 Oct 2010 05:44:15 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A3 16535 11700
-Sheet 4 46
+Sheet 6 46
 Title "freeEMS 1.0"
-Date "4 sep 2010"
+Date "5 oct 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,6 +41,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 10550 1950 0    60   ~ 0
+Van and Vdd must meet each other at the 5v regulator, so digital currents dont mess with the ADC stability.\nAlso, keep an analog ground plane beneath this Van track.
 Text Label 5900 2700 0    60   ~ 0
 VCC
 Text Label 6250 2300 0    60   ~ 0
@@ -52,9 +54,9 @@ Wire Wire Line
 Wire Wire Line
 	6100 2950 6350 2950
 Wire Wire Line
-	6350 2850 6350 2950
+	6350 2950 6350 2850
 Wire Wire Line
-	7100 2850 6350 2850
+	6350 2850 7100 2850
 Wire Wire Line
 	5900 3150 5900 3100
 Connection ~ 6250 2750
@@ -336,6 +338,7 @@ U 1 1 4C56D82D
 P 8150 5400
 F 0 "U17" H 8150 2500 60  0000 C CNN
 F 1 "MC9S12XDP512" H 8150 5400 60  0000 C CNN
+F 4 "MC9S12XDP512MAL-ND" H 8150 5400 60  0001 C CNN "Field1"
 	1    8150 5400
 	1    0    0    -1  
 $EndComp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 04 Sep 2010 04:23:02 PM ART
+EESchema Schematic File Version 2  date Tue 05 Oct 2010 05:12:49 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 44 46
+Sheet 42 47
 Title "freeEMS 1.0"
-Date "4 sep 2010"
+Date "5 oct 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "RPM_input.sch"
@@ -384,7 +384,7 @@ P 5350 2650
 AR Path="/4C2E1E95/48AE9305" Ref="R83"  Part="1" 
 AR Path="/4C2E1E97/48AE9305" Ref="R98"  Part="1" 
 F 0 "R98" V 5430 2650 50  0000 C CNN
-F 1 "5k" V 5350 2650 50  0000 C CNN
+F 1 "4.7k" V 5350 2650 50  0000 C CNN
 F 2 "R4-SM0805" V 5530 2750 60  0001 C CNN
 F 4 "newark,38K0382" V 2130 3500 60  0001 C CNN "Field1"
 F 5 "vendor1, smd w hem" V 2130 3500 60  0001 C CNN "Field2"

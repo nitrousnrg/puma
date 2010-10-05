@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 04 Sep 2010 04:23:02 PM ART
+EESchema Schematic File Version 2  date Tue 05 Oct 2010 05:44:15 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 17 46
+Sheet 20 46
 Title "freeEMS 1.0"
-Date "4 sep 2010"
+Date "5 oct 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -104,7 +104,7 @@ L 7805-DIYEFI U4
 U 1 1 48B14C8F
 P 5800 3350
 F 0 "U4" H 5950 3154 60  0000 C CNN
-F 1 "LM2940" H 5800 3550 60  0000 C CNN
+F 1 "LM2937" H 5800 3550 60  0000 C CNN
 F 2 "TO220_sm" V 2630 2600 60  0001 C CNN
 F 4 "newark,45J1442" V 2630 2600 60  0001 C CNN "Field1"
 F 5 "vendor1, smd w hem" V 2630 2600 60  0001 C CNN "Field2"

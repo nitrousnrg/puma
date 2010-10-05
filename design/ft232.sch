@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 04 Sep 2010 04:23:02 PM ART
+EESchema Schematic File Version 2  date Tue 05 Oct 2010 05:44:15 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 5 46
+Sheet 7 46
 Title ""
-Date "4 sep 2010"
+Date "5 oct 2010"
 Rev ""
 Comp ""
 Comment1 ""

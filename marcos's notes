@@ -1,16 +1,17 @@
-/*********** Considerations on the analog voltage regulator   **************/
+/*********** Considerations about the analog voltage regulator   **************/
 
 This is the maximum current that all analog circuitry drain:
 
 MPX4100			10mA
 MPX4250			10mA  (overriden by bosch sensor, with 12.5mA)
 temp input		1.93mA (x4)
-thermocouple		??
+thermocouple driver	0.25mA
+WB			externally powered
 
-TOTAL			30.22mA
+TOTAL			30.47A
 
-lm317 with lm4040
-
+beware, too much current will saturate the regulator. It the voltage drops below the CPU VCC-0.3, bad, bad things happen.
+The same applies for the digital regulator, but it is really oversized.
 
 /**************** Thermal considerations *******************/
 
@@ -24,30 +25,37 @@ so, based in the datasheet, the device should produce no more than 15°C, where
      = (total chip power dissipation) x 43 °C/watt // page 1245 of the datasheet
 
 then, our maximum power is 348mW.
-if it have a 5v supply, then it'd drain 76mA. <- this has to be checked!
+if it has a 5v supply, then it'd drain 76mA. <- this has to be checked!
 
 * To be thought later: how much power/temperature is produced inside the case. 125°C outside the case isn't the same as 125°C inside.
 The key is to have a good path for temperature to go out, or it will stay and accumulate inside.
 
 * FT232:
-It is the only part that doesn't support 125°C. It can survive to that temperature though, as long as it is not being powered. To make the board fully 125°C capable, the FT232 will be left unpowered. It will get power from the USB cable, avoiding extra load on freeems regulator, and hoping no one will plug the cable in if the case is at more than 85°C. Another more robust soltion would use the internal temperature sensor of the thermocoule driver to ensure the operational temperature is met to this device.
+It is the only part that doesn't support 125°C. It can survive to that temperature though, as long as it is not being powered. To make the board fully 125°C capable, the FT232 will be left unpowered. It will get power from the USB cable, avoiding extra load on freeems regulator, and hoping no one will plug the cable in if the case is at more than 85°C. Another more robust soltion would use the internal temperature sensor of the thermocouple driver to ensure the operational temperature is met for this device.
 
 * capacitors
 use tantalum? (for big capacitance). They have an almost plain temperature response. (check $$)
 490-1666-1-ND: .1uF, ceramic, 125° capable, cheap
 The electrolytics are still to be discussed, at high temps they can become useless for decoupling.
+LM2940 recommends to use one aluminum cap to provide big farads, and one tantalum cap to provide the minimum, reliable uFarads.
+
+* resistors
+RMCF0805: 0805 stands 155°C max (with power dissipation = 0). At 125°C they dissipate up to 80mWatts. At 70°c they dissipate 125mW.
 
 /************* outputs ***********/
-* All capable of drive a fuel pump. So, power required to drive a solenoid, stepper, etc can't be a problem.
+* All capable of driving a fuel pump. So, the power required to drive a solenoid, stepper, etc can't be a problem.
 
 * ignition
+Ignition polarity: ...
+
 Check if ignition drivers are pin-compatible with FETs, to choose between driving a coil directly and using an external module.
 
 * IAC
-Must control by default soleniod valves and stepper valves. Solenoids are the easy ones, but steppers uses 4 pins.
-If i had to choose between using a dedicated IC to control a stepper, or use 4 pins, I prefer to use 4 pins.
-
-
+Solenoids are controlled with a PWM pin.
+Steppers use a dual H-bridge IC. Check availability, temperature rating, and $
+NJM3517: available at digikey & mouser; -20 to 125°C (check wattage, up to 350mA per coil, and 0.85v or 2v drop); $6.7; control logic.
+L9339
+L9925 -40 to 125°C, bigger SO28.
 
 /************* case *************/
 

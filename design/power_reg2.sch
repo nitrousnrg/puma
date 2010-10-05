@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 04 Sep 2010 04:23:02 PM ART
+EESchema Schematic File Version 2  date Tue 05 Oct 2010 05:44:15 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 16 46
+Sheet 20 46
 Title "freeEMS 1.0"
-Date "4 sep 2010"
+Date "5 oct 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -41,10 +41,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 5500 3300
 Wire Wire Line
-	3050 3300 5400 3300
-Connection ~ 6200 3700
-Connection ~ 6000 3700
+	5500 3300 5500 2850
+Wire Wire Line
+	5500 2850 5850 2850
+Wire Wire Line
+	6450 3300 7850 3300
 Wire Wire Line
 	7850 3700 2600 3700
 Connection ~ 5250 3300
@@ -60,30 +63,37 @@ Connection ~ 4850 3300
 Connection ~ 4850 3700
 Wire Wire Line
 	2500 3300 2650 3300
-Connection ~ 6100 3700
-Connection ~ 5900 3700
-Wire Wire Line
-	6600 3100 6750 3100
-Wire Wire Line
-	6750 3100 6750 3300
-Wire Wire Line
-	6750 3300 7850 3300
 Connection ~ 7000 3300
 Wire Wire Line
-	5500 3100 5400 3100
+	5650 3300 3050 3300
 Wire Wire Line
-	5400 3100 5400 3300
+	6050 3600 6050 3700
+Connection ~ 6050 3700
+Wire Wire Line
+	6250 2850 6600 2850
+Wire Wire Line
+	6600 2850 6600 3300
+Connection ~ 6600 3300
 $Comp
-L LM2936 U16
-U 1 1 4C59CC23
-P 6050 3100
-F 0 "U16" H 6350 2850 60  0000 C CNN
-F 1 "LM2936" H 6050 3250 60  0000 C CNN
-	1    6050 3100
+L DIODE D?
+U 1 1 4CAB8DFA
+P 6050 2850
+F 0 "D?" H 6050 2950 40  0000 C CNN
+F 1 "1N4148" H 6050 2750 40  0000 C CNN
+	1    6050 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L 7805 U2
+U 1 1 4CAB8A0F
+P 6050 3350
+F 0 "U2" H 6200 3154 60  0000 C CNN
+F 1 "MIC2954" H 6050 3550 60  0000 C CNN
+	1    6050 3350
 	1    0    0    -1  
 $EndComp
 Text Notes 5250 2450 0    60   ~ 0
-ANALOG VOLTAGE SUPPLY
+CPU VOLTAGE REGULATOR
 $Comp
 L PWR_FLAG #FLG047
 U 1 1 4C2F55FB
