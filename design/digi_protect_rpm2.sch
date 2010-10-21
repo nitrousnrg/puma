@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 05 Oct 2010 05:44:15 PM ART
+EESchema Schematic File Version 2  date Fri 15 Oct 2010 07:57:43 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 33 46
+Sheet 34 44
 Title "freeEMS 1.0"
-Date "5 oct 2010"
+Date "15 oct 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 "digi_protect.sch"
@@ -44,14 +44,11 @@ $EndDescr
 Connection ~ 2800 1750
 Connection ~ 2800 2150
 Wire Wire Line
-	3250 2150 1950 2150
+	1950 2150 2800 2150
 Wire Wire Line
 	2150 1750 1950 1750
-Connection ~ 3250 1750
 Wire Wire Line
 	3850 1750 2650 1750
-Wire Wire Line
-	2800 2250 2800 2150
 Wire Wire Line
 	4350 1750 4550 1750
 $Comp
@@ -59,7 +56,7 @@ L R R42
 U 1 1 4C2F530B
 P 4100 1750
 F 0 "R42" V 4180 1750 50  0000 C CNN
-F 1 "10k" V 4100 1750 50  0000 C CNN
+F 1 "1k" V 4100 1750 50  0000 C CNN
 F 2 "R4-SM0805" V 4280 1850 60  0001 C CNN
 F 4 "newark,38K0328" V 1130 2600 60  0001 C CNN "Field1"
 F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
@@ -95,7 +92,7 @@ L R R41
 U 1 1 4C2F52C3
 P 2400 1750
 F 0 "R41" V 2480 1750 50  0000 C CNN
-F 1 "10k" V 2400 1750 50  0000 C CNN
+F 1 "1k" V 2400 1750 50  0000 C CNN
 F 2 "R4-SM0805" V 2580 1850 60  0001 C CNN
 F 4 "newark,38K0328" V 1130 2600 60  0001 C CNN "Field1"
 F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
@@ -107,33 +104,6 @@ F 10 "Carbon Film" V 1130 2600 60  0001 C CNN "Field7"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	1    2400 1750
 	0    1    1    0   
-$EndComp
-$Comp
-L C C26
-U 1 1 4C2F52B5
-P 3250 1950
-F 0 "C26" H 3300 2050 50  0000 L CNN
-F 1 "100nF" H 3300 1850 50  0000 L CNN
-F 2 "C1V7" V 1130 2600 60  0001 C CNN
-F 4 "newark,39K8137" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "50,V" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "10,%" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "Multilayer Ceramic" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
-	1    3250 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR055
-U 1 1 4C2F52B2
-P 2800 2250
-F 0 "#PWR055" H 2800 2250 30  0001 C CNN
-F 1 "GND" H 2800 2180 30  0001 C CNN
-	1    2800 2250
-	1    0    0    -1  
 $EndComp
 Text HLabel 1950 2150 0    60   BiDi ~ 0
 digi_gnd

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 15 Oct 2010 07:57:43 PM ART
+EESchema Schematic File Version 2  date Mon 11 Oct 2010 11:06:53 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 28 44
+Sheet 5 51
 Title "freeEMS 1.0"
-Date "15 oct 2010"
+Date "11 oct 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 "digi_protect.sch"
@@ -51,10 +51,10 @@ Wire Wire Line
 Wire Wire Line
 	4350 1750 4550 1750
 $Comp
-L R R10
-U 1 1 4C2F5304
+L R R229
+U 1 1 4C2F5303
 P 4100 1750
-F 0 "R10" V 4180 1750 50  0000 C CNN
+F 0 "R229" V 4180 1750 50  0000 C CNN
 F 1 "10k" V 4100 1750 50  0000 C CNN
 F 2 "R4-SM0805" V 4280 1850 60  0001 C CNN
 F 4 "newark,38K0328" V 1130 2600 60  0001 C CNN "Field1"
@@ -69,10 +69,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L ZENER D12
-U 1 1 4C2F52CE
+L ZENER D96
+U 1 1 4C2F52D0
 P 2800 1950
-F 0 "D12" H 2800 2050 50  0000 C CNN
+F 0 "D96" H 2800 2050 50  0000 C CNN
 F 1 "5V1" H 2800 1850 40  0000 C CNN
 F 2 "D4-SMB" V 1130 2600 60  0001 C CNN
 F 4 "newark,18M3285" V 1130 2600 60  0001 C CNN "Field1"
@@ -87,10 +87,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R9
-U 1 1 4C2F52C1
+L R R228
+U 1 1 4CB382B5
 P 2400 1750
-F 0 "R9" V 2480 1750 50  0000 C CNN
+F 0 "R228" V 2480 1750 50  0000 C CNN
 F 1 "10k" V 2400 1750 50  0000 C CNN
 F 2 "R4-SM0805" V 2580 1850 60  0001 C CNN
 F 4 "newark,38K0328" V 1130 2600 60  0001 C CNN "Field1"

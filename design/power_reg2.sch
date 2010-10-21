@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 05 Oct 2010 05:44:15 PM ART
+EESchema Schematic File Version 2  date Fri 15 Oct 2010 07:57:43 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 20 46
+Sheet 25 44
 Title "freeEMS 1.0"
-Date "5 oct 2010"
+Date "15 oct 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -41,6 +41,26 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L VSS #PWR053
+U 1 1 4C2F52A0
+P 7850 3750
+F 0 "#PWR053" H 7850 3750 30  0001 C CNN
+F 1 "VSS" H 7850 3680 30  0000 C CNN
+	1    7850 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3750 7850 3700
+$Comp
+L C C5
+U 1 1 4CB21BF3
+P 7000 3500
+F 0 "C5" H 7050 3600 50  0000 L CNN
+F 1 "22uF" H 7050 3400 50  0000 L CNN
+	1    7000 3500
+	1    0    0    -1  
+$EndComp
 Connection ~ 5500 3300
 Wire Wire Line
 	5500 3300 5500 2850
@@ -54,8 +74,6 @@ Connection ~ 5250 3300
 Connection ~ 5250 3700
 Connection ~ 7450 3700
 Connection ~ 7450 3300
-Wire Wire Line
-	7850 3700 7850 3750
 Connection ~ 7000 3700
 Wire Wire Line
 	2600 3700 2600 3750
@@ -75,10 +93,10 @@ Wire Wire Line
 	6600 2850 6600 3300
 Connection ~ 6600 3300
 $Comp
-L DIODE D?
+L DIODE D92
 U 1 1 4CAB8DFA
 P 6050 2850
-F 0 "D?" H 6050 2950 40  0000 C CNN
+F 0 "D92" H 6050 2950 40  0000 C CNN
 F 1 "1N4148" H 6050 2750 40  0000 C CNN
 	1    6050 2850
 	-1   0    0    1   
@@ -95,10 +113,10 @@ $EndComp
 Text Notes 5250 2450 0    60   ~ 0
 CPU VOLTAGE REGULATOR
 $Comp
-L PWR_FLAG #FLG047
+L PWR_FLAG #FLG054
 U 1 1 4C2F55FB
 P 4850 3300
-F 0 "#FLG047" H 4850 3570 30  0001 C CNN
+F 0 "#FLG054" H 4850 3570 30  0001 C CNN
 F 1 "PWR_FLAG" H 4850 3530 30  0000 C CNN
 	1    4850 3300
 	1    0    0    -1  
@@ -174,15 +192,6 @@ F 11 "other,more,stuff" H -3270 2600 60  0001 C CNN "Field8"
 	1    0    0    1   
 $EndComp
 $Comp
-L VSS #PWR048
-U 1 1 4C2F52A0
-P 7850 3750
-F 0 "#PWR048" H 7850 3750 30  0001 C CNN
-F 1 "VSS" H 7850 3680 30  0000 C CNN
-	1    7850 3750
-	-1   0    0    -1  
-$EndComp
-$Comp
 L CAPAPOL C2
 U 1 1 4C2F529E
 P 4850 3500
@@ -198,24 +207,6 @@ F 9 "10,%" V 730 2600 60  0001 C CNN "Field6"
 F 10 "Tantalum" V 730 2600 60  0001 C CNN "Field7"
 F 11 "other,more,stuff" V 730 2600 60  0001 C CNN "Field8"
 	1    4850 3500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CAPAPOL C5
-U 1 1 4C2F529D
-P 7000 3500
-F 0 "C5" H 7050 3600 50  0000 L CNN
-F 1 "10uF" H 7050 3400 50  0000 L CNN
-F 2 "C1V7" V 5030 2600 60  0001 C CNN
-F 4 "newark,97M4217" V 5030 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 5030 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 5030 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 5030 2600 60  0001 C CNN "Field4"
-F 8 "35,V" V 5030 2600 60  0001 C CNN "Field5"
-F 9 "10,%" V 5030 2600 60  0001 C CNN "Field6"
-F 10 "Tantalum" V 5030 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 5030 2600 60  0001 C CNN "Field8"
-	1    7000 3500
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -237,10 +228,10 @@ F 11 "other,more,stuff" V 1530 2600 60  0001 C CNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR049
+L GND #PWR055
 U 1 1 486CA86E
 P 2600 3750
-F 0 "#PWR049" H 2600 3750 30  0001 C CNN
+F 0 "#PWR055" H 2600 3750 30  0001 C CNN
 F 1 "GND" H 2600 3680 30  0001 C CNN
 	1    2600 3750
 	-1   0    0    -1  
