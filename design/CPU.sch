@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 15 Oct 2010 07:57:43 PM ART
+EESchema Schematic File Version 2  date Sun 24 Oct 2010 05:17:02 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A3 16535 11700
 Sheet 2 44
 Title "freeEMS 1.0"
-Date "15 oct 2010"
+Date "24 oct 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,7 +41,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 11750 5800
+Wire Wire Line
+	9550 8150 9550 6650
+Wire Wire Line
+	9550 6650 9850 6650
+Wire Wire Line
+	9550 8150 9150 8150
+Wire Wire Line
+	9850 7150 9650 7150
+Wire Wire Line
+	9650 7150 9650 6550
+Wire Wire Line
+	9650 6550 9150 6550
+Wire Wire Line
+	9850 6950 9750 6950
+Wire Wire Line
+	9750 6950 9750 6350
+Wire Wire Line
+	9750 6350 9150 6350
 Wire Wire Line
 	11650 5800 11750 5800
 Wire Wire Line
@@ -69,7 +86,9 @@ Wire Notes Line
 Wire Wire Line
 	6150 4150 6050 4150
 Wire Wire Line
-	6050 4150 6050 4400
+	6050 4150 6050 4350
+Wire Wire Line
+	6050 4350 6050 4400
 Wire Wire Line
 	6650 4350 7100 4350
 Wire Wire Line
@@ -94,11 +113,15 @@ Connection ~ 9950 3250
 Wire Wire Line
 	9150 3250 9950 3250
 Wire Wire Line
-	7000 2550 7000 1800
+	7000 2550 7000 2250
+Wire Wire Line
+	7000 2250 7000 1800
 Wire Wire Line
 	9150 3150 9850 3150
 Wire Wire Line
-	9850 3150 9850 3750
+	9850 3150 9850 3350
+Wire Wire Line
+	9850 3350 9850 3750
 Wire Wire Line
 	9850 3750 10750 3750
 Wire Wire Line
@@ -111,10 +134,6 @@ Wire Wire Line
 	9150 2750 10150 2750
 Wire Wire Line
 	10150 2750 10150 2650
-Wire Wire Line
-	9150 6550 9250 6550
-Wire Wire Line
-	9150 6350 9250 6350
 Wire Wire Line
 	7000 2550 7100 2550
 Wire Wire Line
@@ -131,7 +150,9 @@ Wire Wire Line
 Wire Wire Line
 	2800 3800 2800 3250
 Wire Wire Line
-	2800 3250 1700 3250
+	2800 3250 1750 3250
+Wire Wire Line
+	1750 3250 1700 3250
 Connection ~ 2450 3650
 Wire Wire Line
 	4600 3650 4600 3900
@@ -140,12 +161,18 @@ Wire Wire Line
 Wire Wire Line
 	2700 3900 2700 3650
 Wire Wire Line
-	2700 3650 2300 3650
+	2700 3650 2450 3650
+Wire Wire Line
+	2450 3650 2300 3650
 Connection ~ 3900 2850
 Wire Wire Line
 	4450 3250 4450 2850
 Wire Wire Line
-	4450 2850 3150 2850
+	4450 2850 3900 2850
+Wire Wire Line
+	3900 2850 3500 2850
+Wire Wire Line
+	3500 2850 3150 2850
 Wire Wire Line
 	2450 3650 2450 3700
 Wire Wire Line
@@ -157,7 +184,9 @@ Connection ~ 3500 2850
 Wire Wire Line
 	3500 3050 3500 2850
 Wire Wire Line
-	3150 3350 3150 3250
+	3150 3350 3150 3300
+Wire Wire Line
+	3150 3300 3150 3250
 Wire Wire Line
 	3900 2850 3900 3000
 Wire Wire Line
@@ -168,12 +197,20 @@ Connection ~ 3150 3300
 Wire Wire Line
 	2900 3300 2900 3400
 Wire Wire Line
-	1150 3650 1900 3650
+	1150 3650 1750 3650
+Wire Wire Line
+	1750 3650 1850 3650
+Wire Wire Line
+	1850 3650 1900 3650
 Connection ~ 1750 3650
 Wire Wire Line
 	4450 3750 4450 3350
 Wire Wire Line
-	4450 3750 3150 3750
+	4450 3750 3900 3750
+Wire Wire Line
+	3900 3750 3500 3750
+Wire Wire Line
+	3500 3750 3150 3750
 Connection ~ 3900 3750
 Wire Wire Line
 	1850 3650 1850 3500
@@ -199,10 +236,6 @@ Wire Wire Line
 Wire Wire Line
 	4550 3550 7100 3550
 Wire Wire Line
-	9250 6250 9150 6250
-Wire Wire Line
-	9250 6450 9150 6450
-Wire Wire Line
 	10500 5750 10400 5750
 Wire Wire Line
 	9150 2650 9600 2650
@@ -213,13 +246,17 @@ Wire Wire Line
 Wire Wire Line
 	9150 3050 9950 3050
 Wire Wire Line
-	9950 3050 9950 3350
+	9950 3050 9950 3250
+Wire Wire Line
+	9950 3250 9950 3350
 Wire Wire Line
 	9950 3350 10750 3350
 Wire Wire Line
 	7000 1800 6850 1800
 Wire Wire Line
-	7000 2250 10150 2250
+	7000 2250 9600 2250
+Wire Wire Line
+	9600 2250 10150 2250
 Connection ~ 7000 2250
 Connection ~ 9600 2250
 Wire Wire Line
@@ -243,7 +280,9 @@ Wire Wire Line
 	6150 4350 6050 4350
 Connection ~ 6050 4350
 Wire Wire Line
-	6250 2800 6250 2700
+	6250 2800 6250 2750
+Wire Wire Line
+	6250 2750 6250 2700
 Connection ~ 6250 2750
 Wire Wire Line
 	5900 3100 5900 3150
@@ -257,6 +296,40 @@ Wire Wire Line
 	6100 2950 6100 2700
 Wire Wire Line
 	6100 2700 5900 2700
+Wire Wire Line
+	9150 6250 9800 6250
+Wire Wire Line
+	9800 6250 9800 6850
+Wire Wire Line
+	9800 6850 9850 6850
+Wire Wire Line
+	9150 6450 9700 6450
+Wire Wire Line
+	9700 6450 9700 7050
+Wire Wire Line
+	9700 7050 9850 7050
+Wire Wire Line
+	9150 8050 9600 8050
+Wire Wire Line
+	9850 6750 9600 6750
+Wire Wire Line
+	9600 6750 9600 8050
+Text HLabel 10400 5750 0    60   Input ~ 0
+5v_switched
+Text Label 9250 8050 0    60   ~ 0
+RXCAN3
+Text Label 9250 8150 0    60   ~ 0
+TXCAN3
+$Comp
+L CONN_6 P71
+U 1 1 4CC10761
+P 10200 6900
+F 0 "P71" V 10150 6900 60  0000 C CNN
+F 1 "COMMS" V 10250 6900 60  0000 C CNN
+	1    10200 6900
+	1    0    0    1   
+$EndComp
+NoConn ~ 11750 5800
 Text Notes 10550 1950 0    60   ~ 0
 Van and Vdd must meet each other at the 5v regulator, so digital currents dont mess with the ADC stability.\nAlso, keep an analog ground plane beneath this Van track.
 Text Label 5900 2700 0    60   ~ 0
@@ -340,17 +413,6 @@ F 0 "U17" H 8150 2500 60  0000 C CNN
 F 1 "MC9S12XDP512" H 8150 5400 60  0000 C CNN
 F 4 "MC9S12XDP512MAL-ND" H 8150 5400 60  0001 C CNN "Field1"
 	1    8150 5400
-	1    0    0    -1  
-$EndComp
-Text Label 10400 5750 2    60   ~ 0
-VCC
-$Comp
-L CONN_4 P71
-U 1 1 4C58B47E
-P 9600 6400
-F 0 "P71" V 9550 6400 50  0000 C CNN
-F 1 "CONN_4" V 9650 6400 50  0000 C CNN
-	1    9600 6400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -677,10 +739,6 @@ Text HLabel 9150 7850 2    60   BiDi ~ 0
 PM4
 Text HLabel 9150 7950 2    60   BiDi ~ 0
 PM5
-Text HLabel 9150 8050 2    60   BiDi ~ 0
-PM6
-Text HLabel 9150 8150 2    60   BiDi ~ 0
-PM7
 Text HLabel 7100 4750 0    60   BiDi ~ 0
 PJ6
 Text HLabel 7100 4850 0    60   BiDi ~ 0

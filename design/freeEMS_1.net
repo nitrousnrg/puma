@@ -1,32 +1,32 @@
-# EESchema Netlist Version 1.1 created  Fri 15 Oct 2010 07:58:04 PM ART
+# EESchema Netlist Version 1.1 created  Sun 24 Oct 2010 05:17:09 PM ART
 (
  ( /4C82656A $noname  C124 0.1uF {Lib=C}
-  (    1 GND )
-  (    2 /5v_switched )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C66BAA4 $noname  U19 SI846X {Lib=SI846X}
-  (    1 /5v_switched )
+  (    1 /analog_protect_4/analog_sensor_vcc )
   (    2 /CPU/PP1 )
   (    3 /CPU/PP0 )
   (    4 /CPU/PT5 )
   (    5 /CPU/PT4 )
   (    6 /CPU/PT3 )
   (    7 /CPU/PT2 )
-  (    8 GND )
-  (    9 /power_gnd )
+  (    8 /thermistor_input_4/analog_sensor_gnd )
+  (    9 /injector_drive_6/inductive_power_gnd )
   (   10 /digi_protect__I6/digi_CPU )
-  (   11 /digi_protect__I5/digi_CPU )
-  (   12 /ind_dr_3 )
+  (   11 /ind_dr_2 )
+  (   12 /digi_protect__I4/digi_CPU )
   (   13 /ind_dr_4 )
   (   14 /ind_gpd_1 )
   (   15 /ind_fuel_pump )
-  (   16 /5v_switched )
+  (   16 /analog_protect_4/analog_sensor_vcc )
  )
  ( /48AA1F7C 1PIN  P5 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /48AA1F7B 1PIN  P4 CONN_1 {Lib=CONN_1}
-  (    1 /power_gnd )
+  (    1 /injector_drive_6/inductive_power_gnd )
  )
  ( /48AA1F7A 1PIN  P3 CONN_1 {Lib=CONN_1}
   (    1 N-000091 )
@@ -36,15 +36,23 @@
  )
  ( /48A559CE FUSE5-20-DEFAULT-10A  F3 10A {Lib=FUSE}
   (    1 N-000090 )
-  (    2 /igniter_6/12V_bat )
+  (    2 /igniter_3/12V_bat )
  )
  ( /48A00EF5 FUSE5-20-DEFAULT-2A  F1 2A {Lib=FUSE}
   (    1 N-000091 )
-  (    2 /voltage_regulator_(switched)/12v_batt )
+  (    2 /voltage_regulator_(cpu)/12v_batt )
+ )
+ ( /4C2E1EA1/4CC10761 $noname  P71 COMMS {Lib=CONN_6}
+  (    1 N-000173 )
+  (    2 N-000171 )
+  (    3 N-000174 )
+  (    4 N-000170 )
+  (    5 /CPU/RXCAN3 )
+  (    6 /CPU/TXCAN3 )
  )
  ( /4C2E1EA1/4C725694 $noname  P74 BDM {Lib=CONN_3X2}
   (    1 /CPU/BKGD )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
   (    3 ? )
   (    4 /CPU/RESET )
   (    5 ? )
@@ -59,12 +67,12 @@
   (    6 ? )
   (    7 ? )
   (    8 ? )
-  (    9 /CPU/PT0 )
+  (    9 /digi_protect_rpm1/digi_CPU )
   (   10 /RPM_IN_2 )
   (   11 /CPU/PT2 )
   (   12 /CPU/PT3 )
   (   13 /CPU/VCC )
-  (   14 GND )
+  (   14 /thermistor_input_4/analog_sensor_gnd )
   (   15 /CPU/PT4 )
   (   16 /CPU/PT5 )
   (   17 ? )
@@ -74,31 +82,31 @@
   (   21 ? )
   (   22 ? )
   (   23 /CPU/BKGD )
-  (   24 /CPU/PB0 )
-  (   25 /CPU/PB1 )
+  (   24 /ind_pd_1 )
+  (   25 /ind_pd_2 )
   (   26 /ind_pd_3 )
-  (   27 /ind_pd_4 )
-  (   28 /ind_pd_5 )
-  (   29 /CPU/PB5 )
-  (   30 /ind_pd_7 )
+  (   27 /injector_drive_4/inductive_power_drive )
+  (   28 /injector_drive_5/inductive_power_drive )
+  (   29 /ind_pd_6 )
+  (   30 /CPU/PB6 )
   (   31 /injector_drive_8/inductive_power_drive )
   (   32 ? )
   (   33 ? )
   (   34 ? )
   (   35 ? )
-  (   36 N-000170 )
-  (   37 N-000183 )
-  (   38 N-000173 )
+  (   36 N-000178 )
+  (   37 N-000177 )
+  (   38 N-000179 )
   (   39 ? )
-  (   40 GND )
+  (   40 /thermistor_input_4/analog_sensor_gnd )
   (   41 /CPU/VCC )
   (   42 /CPU/RESET )
-  (   43 N-000181 )
-  (   44 N-000169 )
-  (   45 GND )
-  (   46 N-000171 )
-  (   47 N-000174 )
-  (   48 GND )
+  (   43 N-000184 )
+  (   44 N-000183 )
+  (   45 /thermistor_input_4/analog_sensor_gnd )
+  (   46 N-000181 )
+  (   47 N-000182 )
+  (   48 /thermistor_input_4/analog_sensor_gnd )
   (   49 ? )
   (   50 ? )
   (   51 ? )
@@ -107,46 +115,46 @@
   (   54 ? )
   (   55 ? )
   (   56 ? )
-  (   57 /ind_stepper_1 )
-  (   58 /ind_stepper_2 )
-  (   59 /CPU/PA2 )
-  (   60 /stepper_driver/PHASE2 )
-  (   61 /ind_gpd_2 )
+  (   57 /CPU/PA0 )
+  (   58 /stepper_driver/PHASE1 )
+  (   59 /ind_stepper_3 )
+  (   60 /CPU/PA3 )
+  (   61 /CPU/PA4 )
   (   62 ? )
   (   63 ? )
   (   64 ? )
   (   65 /CPU/VCC )
-  (   66 GND )
-  (   67 /CPU/AN00 )
+  (   66 /thermistor_input_4/analog_sensor_gnd )
+  (   67 /analog_protect_4/analog_sensor_out_4 )
   (   68 ? )
-  (   69 /CPU/AN01 )
+  (   69 /analog_protect_4/analog_sensor_out_3 )
   (   70 ? )
   (   71 /analog_protect_4/analog_sensor_out_2 )
-  (   72 /CPU/AN10 )
+  (   72 /analog_protect_5/analog_sensor_out_3 )
   (   73 /CPU/AN03 )
   (   74 /analog_protect_2/analog_sensor_out_4 )
-  (   75 /analog_protect_2/analog_sensor_out_3 )
-  (   76 /CPU/AN12 )
+  (   75 /CPU/AN04 )
+  (   76 /analog_protect_5/analog_sensor_out_2 )
   (   77 /CPU/AN05 )
   (   78 /CPU/AN13 )
-  (   79 /analog_protect_2/analog_sensor_out_1 )
+  (   79 /CPU/AN06 )
   (   80 ? )
   (   81 /analog_protect_5/analog_sensor_out_1 )
   (   82 ? )
   (   83 /CPU/VCC )
   (   84 /CPU/VCC )
-  (   85 GND )
-  (   86 GND )
-  (   87 ? )
-  (   88 ? )
+  (   85 /thermistor_input_4/analog_sensor_gnd )
+  (   86 /thermistor_input_4/analog_sensor_gnd )
+  (   87 /CPU/TXCAN3 )
+  (   88 /CPU/RXCAN3 )
   (   89 /CPU/Sheet4CB8DC30/TX )
   (   90 /CPU/Sheet4CB8DC30/RX )
   (   91 ? )
   (   92 ? )
-  (   93 N-000166 )
-  (   94 N-000178 )
-  (   95 N-000167 )
-  (   96 N-000179 )
+  (   93 N-000170 )
+  (   94 N-000174 )
+  (   95 N-000171 )
+  (   96 N-000173 )
   (   97 /CPU/VCC )
   (   98 ? )
   (   99 ? )
@@ -156,7 +164,7 @@
   (  103 ? )
   (  104 ? )
   (  105 ? )
-  (  106 GND )
+  (  106 /thermistor_input_4/analog_sensor_gnd )
   (  107 /CPU/VCC )
   (  108 ? )
   (  109 ? )
@@ -164,14 +172,8 @@
   (  111 ? )
   (  112 ? )
  )
- ( /4C2E1EA1/4C58B47E $noname  P71 CONN_4 {Lib=CONN_4}
-  (    1 N-000166 )
-  (    2 N-000178 )
-  (    3 N-000167 )
-  (    4 N-000179 )
- )
  ( /4C2E1EA1/4C58B3F0 $noname  C102 .1uF {Lib=C}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 /CPU/VCC )
  )
  ( /4C2E1EA1/4C58B0FD $noname  R180 4.7K {Lib=R}
@@ -179,85 +181,85 @@
   (    2 /CPU/VCC )
  )
  ( /4C2E1EA1/4C57623A $noname  C101 .1uF {Lib=C}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 /CPU/VCC )
  )
  ( /4C2E1EA1/4C576232 $noname  C100 .1uF {Lib=C}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 /CPU/VCC )
  )
  ( /4C2E1EA1/4C576223 $noname  C99 .1uF {Lib=C}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 /CPU/VCC )
  )
  ( /4C2E1EA1/4C576215 $noname  C98 .1uF {Lib=C}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 /CPU/VCC )
  )
  ( /4C2E1EA1/4C570957 $noname  R179 10k {Lib=R}
-  (    1 N-000170 )
+  (    1 N-000178 )
   (    2 /CPU/VCC )
  )
  ( /4C2E1EA1/4C570950 $noname  R178 10k {Lib=R}
-  (    1 N-000183 )
-  (    2 GND )
+  (    1 N-000177 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1EA1/4C570947 $noname  R177 10k {Lib=R}
-  (    1 N-000173 )
-  (    2 GND )
+  (    1 N-000179 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1EA1/4C56FDC6 $noname  R181 10k {Lib=R}
   (    1 /CPU/RESET )
   (    2 /CPU/VCC )
  )
  ( /4C2E1EA1/4C56E29C $noname  R175 3.9K {Lib=R}
-  (    1 N-000169 )
-  (    2 N-000182 )
+  (    1 N-000183 )
+  (    2 N-000180 )
  )
  ( /4C2E1EA1/4C56E298 $noname  R176 10M {Lib=R}
-  (    1 N-000171 )
-  (    2 N-000174 )
+  (    1 N-000181 )
+  (    2 N-000182 )
  )
  ( /4C2E1EA1/4C56E297 $noname  X3 16MHz {Lib=CRYSTAL}
-  (    1 N-000171 )
-  (    2 N-000174 )
+  (    1 N-000181 )
+  (    2 N-000182 )
  )
  ( /4C2E1EA1/4C56E296 $noname  C94 330pF {Lib=C}
-  (    1 N-000169 )
-  (    2 N-000181 )
+  (    1 N-000183 )
+  (    2 N-000184 )
  )
  ( /4C2E1EA1/4C56E295 $noname  C95 100nF {Lib=C}
-  (    1 GND )
-  (    2 N-000181 )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
+  (    2 N-000184 )
  )
  ( /4C2E1EA1/4C56E294 $noname  C93 3.3nF {Lib=C}
-  (    1 N-000182 )
-  (    2 N-000181 )
+  (    1 N-000180 )
+  (    2 N-000184 )
  )
  ( /4C2E1EA1/4C56E293 $noname  C97 22pF {Lib=C}
-  (    1 GND )
-  (    2 N-000174 )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
+  (    2 N-000182 )
  )
  ( /4C2E1EA1/4C56E292 $noname  C96 22pF {Lib=C}
-  (    1 N-000171 )
-  (    2 GND )
+  (    1 N-000181 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1EA1/4C54D9C1/4C680928 $noname  D83 LED {Lib=LED}
-  (    1 N-000280 )
-  (    2 N-000287 )
+  (    1 N-000274 )
+  (    2 N-000272 )
  )
  ( /4C2E1EA1/4C54D9C1/4C68091C $noname  D82 LED {Lib=LED}
-  (    1 N-000279 )
-  (    2 N-000281 )
+  (    1 N-000271 )
+  (    2 N-000275 )
  )
  ( /4C2E1EA1/4C54D9C1/4C6804AC $noname  U20 FT232RL {Lib=FT232RL}
   (    1 /CPU/Sheet4CB8DC30/TX )
   (    2 ? )
   (    3 ? )
-  (    4 /CPU/VCC )
+  (    4 /analog_protect_4/analog_sensor_vcc )
   (    5 /CPU/Sheet4CB8DC30/RX )
   (    6 ? )
-  (    7 GND )
+  (    7 /thermistor_input_4/analog_sensor_gnd )
   (    8 ? )
   (    9 ? )
   (   10 ? )
@@ -265,768 +267,768 @@
   (   12 ? )
   (   13 ? )
   (   14 ? )
-  (   15 N-000283 )
-  (   16 N-000288 )
-  (   17 N-000282 )
-  (   18 GND )
-  (   19 N-000286 )
-  (   20 /CPU/VCC )
-  (   21 GND )
-  (   22 N-000280 )
-  (   23 N-000279 )
+  (   15 N-000282 )
+  (   16 N-000270 )
+  (   17 N-000281 )
+  (   18 /thermistor_input_4/analog_sensor_gnd )
+  (   19 N-000283 )
+  (   20 /analog_protect_4/analog_sensor_vcc )
+  (   21 /thermistor_input_4/analog_sensor_gnd )
+  (   22 N-000274 )
+  (   23 N-000271 )
   (   24 ? )
-  (   25 GND )
-  (   26 GND )
+  (   25 /thermistor_input_4/analog_sensor_gnd )
+  (   26 /thermistor_input_4/analog_sensor_gnd )
   (   27 ? )
   (   28 ? )
  )
  ( /4C2E1EA1/4C54D9C1/4BC53763 $noname  R185 10k {Lib=R}
-  (    1 N-000286 )
-  (    2 GND )
+  (    1 N-000283 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1EA1/4C54D9C1/4BC53747 $noname  C105 0.1uF {Lib=C}
-  (    1 /CPU/VCC )
-  (    2 GND )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1EA1/4C54D9C1/4BC5371D $noname  C104 33nF {Lib=C}
-  (    1 N-000282 )
-  (    2 GND )
+  (    1 N-000281 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1EA1/4C54D9C1/4BC53651 $noname  R182 270R {Lib=R}
-  (    1 GND )
-  (    2 N-000281 )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
+  (    2 N-000275 )
  )
  ( /4C2E1EA1/4C54D9C1/4BC53644 $noname  R183 270R {Lib=R}
-  (    1 GND )
-  (    2 N-000287 )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
+  (    2 N-000272 )
  )
  ( /4C2E1EA1/4C54D9C1/4BC5363C $noname  R184 4.7k {Lib=R}
-  (    1 N-000286 )
+  (    1 N-000283 )
   (    2 /CPU/Sheet4CB8DC30/VCC-USB )
  )
  ( /4C2E1EA1/4C54D9C1/4BC535D5 $noname  J1 USB_2 {Lib=USB_2}
   (    1 /CPU/Sheet4CB8DC30/VCC-USB )
-  (    2 N-000288 )
-  (    3 N-000283 )
-  (    4 GND )
+  (    2 N-000270 )
+  (    3 N-000282 )
+  (    4 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4CB2F8BD/4CB3CC97 $noname  R225 1k {Lib=R}
-  (    1 /ind_stepper_2 )
-  (    2 N-000262 )
+  (    1 /stepper_driver/PHASE1 )
+  (    2 N-000259 )
  )
  ( /4CB2F8BD/4CB3CC8F $noname  R224 1k {Lib=R}
-  (    1 /ind_stepper_1 )
-  (    2 N-000266 )
+  (    1 /CPU/PA0 )
+  (    2 N-000269 )
  )
  ( /4CB2F8BD/4CB3CC7B $noname  R223 1k {Lib=R}
   (    1 N-000267 )
-  (    2 /stepper_driver/PHASE2 )
+  (    2 /CPU/PA3 )
  )
  ( /4CB2F8BD/4CB3CC40 $noname  R222 1k {Lib=R}
-  (    1 N-000263 )
-  (    2 /CPU/PA2 )
+  (    1 N-000265 )
+  (    2 /ind_stepper_3 )
  )
  ( /4CB2F8BD/4CB38743 $noname  U31 2916 {Lib=2916}
-  (    1 N-000265 )
-  (    2 N-000260 )
-  (    3 N-000257 )
-  (    4 N-000257 )
-  (    5 N-000264 )
-  (    6 GND )
-  (    7 GND )
-  (    8 N-000263 )
-  (    9 N-000263 )
+  (    1 N-000262 )
+  (    2 N-000266 )
+  (    3 N-000264 )
+  (    4 N-000264 )
+  (    5 N-000258 )
+  (    6 /thermistor_input_4/analog_sensor_gnd )
+  (    7 /thermistor_input_4/analog_sensor_gnd )
+  (    8 N-000265 )
+  (    9 N-000265 )
   (   10 N-000267 )
-  (   11 /5v_switched )
-  (   12 N-000258 )
-  (   13 /5v_switched )
-  (   14 N-000259 )
-  (   15 /5v_switched )
-  (   16 N-000262 )
-  (   17 N-000266 )
-  (   18 GND )
-  (   19 GND )
-  (   20 N-000266 )
-  (   21 N-000261 )
-  (   22 N-000256 )
-  (   23 N-000256 )
-  (   24 /igniter_6/12V_bat )
+  (   11 /analog_protect_4/analog_sensor_vcc )
+  (   12 N-000260 )
+  (   13 /analog_protect_4/analog_sensor_vcc )
+  (   14 N-000261 )
+  (   15 /analog_protect_4/analog_sensor_vcc )
+  (   16 N-000259 )
+  (   17 N-000269 )
+  (   18 /thermistor_input_4/analog_sensor_gnd )
+  (   19 /thermistor_input_4/analog_sensor_gnd )
+  (   20 N-000269 )
+  (   21 N-000268 )
+  (   22 N-000263 )
+  (   23 N-000263 )
+  (   24 /igniter_3/12V_bat )
  )
  ( /4CB2F8BD/4CB36B86 $noname  C130 0.1uF {Lib=C}
-  (    1 /5v_switched )
-  (    2 GND )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4CB2F8BD/4CB3098C $noname  P95 CONN_1 {Lib=CONN_1}
-  (    1 N-000264 )
+  (    1 N-000258 )
  )
  ( /4CB2F8BD/4CB30982 $noname  P98 CONN_1 {Lib=CONN_1}
-  (    1 N-000261 )
+  (    1 N-000268 )
  )
  ( /4CB2F8BD/4CB30730 $noname  P97 CONN_1 {Lib=CONN_1}
-  (    1 N-000260 )
+  (    1 N-000266 )
  )
  ( /4CB2F8BD/4CB30721 $noname  P96 CONN_1 {Lib=CONN_1}
-  (    1 N-000265 )
+  (    1 N-000262 )
  )
  ( /4CB2F8BD/4CB2FF99 $noname  R221 20k {Lib=R}
-  (    1 N-000259 )
-  (    2 GND )
+  (    1 N-000261 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4CB2F8BD/4CB2FF87 $noname  C131 0.1uF {Lib=C}
-  (    1 N-000259 )
-  (    2 GND )
+  (    1 N-000261 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4CB2F8BD/4CB2FEF0 $noname  R219 20k {Lib=R}
-  (    1 N-000258 )
-  (    2 GND )
+  (    1 N-000260 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4CB2F8BD/4CB2FEE7 $noname  C129 0.1uF {Lib=C}
-  (    1 N-000258 )
-  (    2 GND )
+  (    1 N-000260 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4CB2F8BD/4CB2FD25 $noname  R218 1R_1W {Lib=R}
-  (    1 N-000257 )
-  (    2 /power_gnd )
+  (    1 N-000264 )
+  (    2 /injector_drive_6/inductive_power_gnd )
  )
  ( /4CB2F8BD/4CB2FCE1 $noname  R220 1R_1W {Lib=R}
-  (    1 /power_gnd )
-  (    2 N-000256 )
+  (    1 /injector_drive_6/inductive_power_gnd )
+  (    2 N-000263 )
  )
  ( /4CAB878F/4C94FEDF $noname  R215 10k {Lib=R}
-  (    1 N-000254 )
-  (    2 N-000251 )
+  (    1 N-000256 )
+  (    2 N-000253 )
  )
  ( /4CAB878F/4C94FED6 $noname  R216 10k {Lib=R}
-  (    1 N-000255 )
-  (    2 N-000250 )
+  (    1 N-000257 )
+  (    2 N-000252 )
  )
  ( /4CAB878F/4C94FECC $noname  C127 1nF {Lib=C}
-  (    1 N-000254 )
-  (    2 N-000255 )
+  (    1 N-000256 )
+  (    2 N-000257 )
  )
  ( /4CAB878F/4C94FEB6 $noname  P94 CONN_1 {Lib=CONN_1}
-  (    1 N-000250 )
+  (    1 N-000252 )
  )
  ( /4CAB878F/4C94FEAA $noname  P93 CONN_1 {Lib=CONN_1}
-  (    1 N-000251 )
+  (    1 N-000253 )
  )
  ( /4CAB878F/4C94FE50 $noname  R217 10k {Lib=R}
-  (    1 /5v_switched )
-  (    2 /RPM_input_2/RPM_out )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /digi_protect_rpm2/digi_device )
  )
  ( /4CAB878F/4C94FDDE $noname  C128 0.1uF {Lib=C}
-  (    1 /5v_switched )
-  (    2 GND )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4CAB878F/4C94FDB7 $noname  U30 MAX9924 {Lib=MAX9924}
-  (    1 N-000254 )
-  (    2 N-000255 )
+  (    1 N-000256 )
+  (    2 N-000257 )
   (    3 ? )
-  (    4 GND )
-  (    5 GND )
-  (    6 GND )
-  (    7 /RPM_input_2/RPM_out )
+  (    4 /thermistor_input_4/analog_sensor_gnd )
+  (    5 /thermistor_input_4/analog_sensor_gnd )
+  (    6 /thermistor_input_4/analog_sensor_gnd )
+  (    7 /digi_protect_rpm2/digi_device )
   (    8 ? )
-  (    9 GND )
-  (   10 /5v_switched )
+  (    9 /thermistor_input_4/analog_sensor_gnd )
+  (   10 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C94FDB6/4C94FEDF $noname  R212 10k {Lib=R}
-  (    1 N-000248 )
-  (    2 N-000245 )
+  (    1 N-000250 )
+  (    2 N-000247 )
  )
  ( /4C94FDB6/4C94FED6 $noname  R213 10k {Lib=R}
-  (    1 N-000249 )
-  (    2 N-000244 )
+  (    1 N-000251 )
+  (    2 N-000246 )
  )
  ( /4C94FDB6/4C94FECC $noname  C125 1nF {Lib=C}
-  (    1 N-000248 )
-  (    2 N-000249 )
+  (    1 N-000250 )
+  (    2 N-000251 )
  )
  ( /4C94FDB6/4C94FEB6 $noname  P92 CONN_1 {Lib=CONN_1}
-  (    1 N-000244 )
+  (    1 N-000246 )
  )
  ( /4C94FDB6/4C94FEAA $noname  P91 CONN_1 {Lib=CONN_1}
-  (    1 N-000245 )
+  (    1 N-000247 )
  )
  ( /4C94FDB6/4C94FE50 $noname  R214 10k {Lib=R}
-  (    1 /5v_switched )
+  (    1 /analog_protect_4/analog_sensor_vcc )
   (    2 /RPM_input_1/RPM_out )
  )
  ( /4C94FDB6/4C94FDDE $noname  C126 0.1uF {Lib=C}
-  (    1 /5v_switched )
-  (    2 GND )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C94FDB6/4C94FDB7 $noname  U29 MAX9924 {Lib=MAX9924}
-  (    1 N-000248 )
-  (    2 N-000249 )
+  (    1 N-000250 )
+  (    2 N-000251 )
   (    3 ? )
-  (    4 GND )
-  (    5 GND )
-  (    6 GND )
+  (    4 /thermistor_input_4/analog_sensor_gnd )
+  (    5 /thermistor_input_4/analog_sensor_gnd )
+  (    6 /thermistor_input_4/analog_sensor_gnd )
   (    7 /RPM_input_1/RPM_out )
   (    8 ? )
-  (    9 GND )
-  (   10 /5v_switched )
+  (    9 /thermistor_input_4/analog_sensor_gnd )
+  (   10 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C77BCB7/4C2ED144 $noname  C123 1uF {Lib=C}
-  (    1 N-000242 )
-  (    2 GND )
+  (    1 N-000244 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C77BCB7/4C2ED135 $noname  R211 3.9k {Lib=R}
-  (    1 N-000242 )
-  (    2 /5v_switched )
+  (    1 N-000244 )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C77BCB7/4C2ED0C2 $noname  D91 33v_5w {Lib=ZENER}
-  (    1 N-000239 )
+  (    1 N-000241 )
   (    2 N-000240 )
  )
  ( /4C77BCB7/4C2ED077 $noname  R210 0.1_2W {Lib=R}
-  (    1 /power_gnd )
-  (    2 N-000239 )
+  (    1 /injector_drive_6/inductive_power_gnd )
+  (    2 N-000241 )
  )
  ( /4C77BCB7/4C2ED01B $noname  C122 .01uF {Lib=C}
-  (    1 N-000243 )
-  (    2 N-000238 )
+  (    1 N-000245 )
+  (    2 N-000242 )
  )
  ( /4C77BCB7/4C2ECF62 $noname  Q17 2N6044 {Lib=DARL_N}
-  (    1 N-000239 )
-  (    2 N-000243 )
+  (    1 N-000241 )
+  (    2 N-000245 )
   (    3 N-000240 )
  )
  ( /4C77BCB7/4C2ECEC5 8dip300  U28 LM1949 {Lib=LM1949}
-  (    1 N-000241 )
-  (    2 N-000243 )
-  (    3 N-000238 )
-  (    4 N-000239 )
-  (    5 /power_gnd )
-  (    6 GND )
-  (    7 /5v_switched )
-  (    8 N-000242 )
+  (    1 N-000243 )
+  (    2 N-000245 )
+  (    3 N-000242 )
+  (    4 N-000241 )
+  (    5 /injector_drive_6/inductive_power_gnd )
+  (    6 /thermistor_input_4/analog_sensor_gnd )
+  (    7 /analog_protect_4/analog_sensor_vcc )
+  (    8 N-000244 )
  )
  ( /4C77BCB7/48AA1A76 1PIN  P90 CONN_1 {Lib=CONN_1}
   (    1 N-000240 )
  )
  ( /4C77BCB7/48AA1A73 1PIN  P89 CONN_1 {Lib=CONN_1}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
  )
  ( /4C77BCB7/4C2F52D2 R4-SM0805  R209 1k {Lib=R}
-  (    1 N-000241 )
+  (    1 N-000243 )
   (    2 /injector_drive_8/inductive_power_drive )
  )
  ( /4C77BC96/4C2ED144 $noname  C121 1uF {Lib=C}
-  (    1 N-000237 )
-  (    2 GND )
+  (    1 N-000239 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C77BC96/4C2ED135 $noname  R208 3.9k {Lib=R}
-  (    1 N-000237 )
-  (    2 /5v_switched )
+  (    1 N-000239 )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C77BC96/4C2ED0C2 $noname  D90 33v_5w {Lib=ZENER}
-  (    1 N-000234 )
+  (    1 N-000236 )
   (    2 N-000235 )
  )
  ( /4C77BC96/4C2ED077 $noname  R207 0.1_2W {Lib=R}
-  (    1 /power_gnd )
-  (    2 N-000234 )
+  (    1 /injector_drive_6/inductive_power_gnd )
+  (    2 N-000236 )
  )
  ( /4C77BC96/4C2ED01B $noname  C120 .01uF {Lib=C}
-  (    1 N-000232 )
-  (    2 N-000233 )
+  (    1 N-000238 )
+  (    2 N-000237 )
  )
  ( /4C77BC96/4C2ECF62 $noname  Q16 2N6044 {Lib=DARL_N}
-  (    1 N-000234 )
-  (    2 N-000232 )
+  (    1 N-000236 )
+  (    2 N-000238 )
   (    3 N-000235 )
  )
  ( /4C77BC96/4C2ECEC5 8dip300  U27 LM1949 {Lib=LM1949}
-  (    1 N-000236 )
-  (    2 N-000232 )
-  (    3 N-000233 )
-  (    4 N-000234 )
-  (    5 /power_gnd )
-  (    6 GND )
-  (    7 /5v_switched )
-  (    8 N-000237 )
+  (    1 N-000234 )
+  (    2 N-000238 )
+  (    3 N-000237 )
+  (    4 N-000236 )
+  (    5 /injector_drive_6/inductive_power_gnd )
+  (    6 /thermistor_input_4/analog_sensor_gnd )
+  (    7 /analog_protect_4/analog_sensor_vcc )
+  (    8 N-000239 )
  )
  ( /4C77BC96/48AA1A76 1PIN  P88 CONN_1 {Lib=CONN_1}
   (    1 N-000235 )
  )
  ( /4C77BC96/48AA1A73 1PIN  P87 CONN_1 {Lib=CONN_1}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
  )
  ( /4C77BC96/4C2F52D2 R4-SM0805  R206 1k {Lib=R}
-  (    1 N-000236 )
-  (    2 /ind_pd_7 )
+  (    1 N-000234 )
+  (    2 /CPU/PB6 )
  )
  ( /4C598474/4C5993F7 $noname  C107 .1uF {Lib=C}
-  (    1 /5v_switched )
-  (    2 GND )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C598474/4C59876E $noname  P72 CONN_1 {Lib=CONN_1}
-  (    1 N-000231 )
+  (    1 N-000233 )
  )
  ( /4C598474/4C598762 $noname  P73 CONN_1 {Lib=CONN_1}
-  (    1 N-000230 )
+  (    1 N-000232 )
  )
  ( /4C598474/4C5985F6 $noname  U18 AD597 {Lib=AD597}
-  (    1 N-000231 )
+  (    1 N-000233 )
   (    2 ? )
-  (    3 GND )
-  (    4 GND )
-  (    5 /5v_switched )
+  (    3 /thermistor_input_4/analog_sensor_gnd )
+  (    4 /thermistor_input_4/analog_sensor_gnd )
+  (    5 /analog_protect_4/analog_sensor_vcc )
   (    6 /thermocouple_amplifier/temp_output )
-  (    7 /5v_switched )
-  (    8 N-000230 )
+  (    7 /analog_protect_4/analog_sensor_vcc )
+  (    8 N-000232 )
  )
  ( /4C4C6A85/4C4C7A12 $noname  P62 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C6A85/4C4C7A0B $noname  P61 CONN_1 {Lib=CONN_1}
-  (    1 N-000228 )
+  (    1 N-000230 )
  )
  ( /4C4C6A85/4C4C76C8 $noname  R138 10k {Lib=R}
-  (    1 N-000228 )
+  (    1 N-000230 )
   (    2 /analog_input_1/analog_aux )
  )
  ( /4C4C6A85/4C4C76AD $noname  C68 22nF {Lib=C}
   (    1 /analog_input_1/analog_aux )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C6A85/4C4C6C75 $noname  R137 680k {Lib=R}
-  (    1 /5v_switched )
+  (    1 /analog_protect_4/analog_sensor_vcc )
   (    2 /analog_input_1/analog_aux )
  )
  ( /4C4C69E2/4C4C7A12 $noname  P60 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C69E2/4C4C7A0B $noname  P59 CONN_1 {Lib=CONN_1}
-  (    1 N-000227 )
+  (    1 N-000229 )
  )
  ( /4C4C69E2/4C4C76C8 $noname  R136 10k {Lib=R}
-  (    1 N-000227 )
-  (    2 /analog_protect_5/analog_sensor_in_3 )
+  (    1 N-000229 )
+  (    2 /MAF_input/analog_aux )
  )
  ( /4C4C69E2/4C4C76AD $noname  C67 22nF {Lib=C}
-  (    1 /analog_protect_5/analog_sensor_in_3 )
-  (    2 GND )
+  (    1 /MAF_input/analog_aux )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C69E2/4C4C6C75 $noname  R135 680k {Lib=R}
-  (    1 /5v_switched )
-  (    2 /analog_protect_5/analog_sensor_in_3 )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /MAF_input/analog_aux )
  )
  ( /4C4C6618/4C4973C4 SOD-123  D67 SCHOTTKY {Lib=DIODESCH}
-  (    1 GND )
-  (    2 N-000226 )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
+  (    2 N-000227 )
  )
  ( /4C4C6618/4C4973C0 SOD-123  D69 SCHOTTKY {Lib=DIODESCH}
-  (    1 GND )
-  (    2 N-000223 )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
+  (    2 N-000228 )
  )
  ( /4C4C6618/4C4973B6 SOD-123  D71 SCHOTTKY {Lib=DIODESCH}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 N-000225 )
  )
  ( /4C4C6618/4C4973B0 SOD-123  D73 SCHOTTKY {Lib=DIODESCH}
-  (    1 GND )
-  (    2 N-000224 )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
+  (    2 N-000226 )
  )
  ( /4C4C6618/4C4C7B57 R4-SM0805  R171 1k {Lib=R}
   (    1 /CPU/AN13 )
-  (    2 N-000226 )
+  (    2 N-000227 )
  )
  ( /4C4C6618/489597C2 C1V7  C89 100nf {Lib=C}
-  (    1 N-000226 )
-  (    2 GND )
+  (    1 N-000227 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C6618/489597C1 R4-SM0805  R167 1k {Lib=R}
-  (    1 N-000226 )
+  (    1 N-000227 )
   (    2 /analog_input_1/analog_aux )
  )
  ( /4C4C6618/489597C0 D4-SMB  D66 1N4148 {Lib=DIODE}
-  (    1 N-000226 )
-  (    2 /5v_switched )
+  (    1 N-000227 )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C4C6618/4C4C7B52 R4-SM0805  R172 1k {Lib=R}
-  (    1 /CPU/AN10 )
-  (    2 N-000223 )
+  (    1 /analog_protect_5/analog_sensor_out_3 )
+  (    2 N-000228 )
  )
  ( /4C4C6618/4C2F52F4 C1V7  C90 100nf {Lib=C}
-  (    1 N-000223 )
-  (    2 GND )
+  (    1 N-000228 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C6618/4C2F52F3 R4-SM0805  R168 1k {Lib=R}
-  (    1 N-000223 )
-  (    2 /analog_protect_5/analog_sensor_in_3 )
+  (    1 N-000228 )
+  (    2 /MAF_input/analog_aux )
  )
  ( /4C4C6618/4C4C7B50 D4-SMB  D68 1N4148 {Lib=DIODE}
-  (    1 N-000223 )
-  (    2 /5v_switched )
+  (    1 N-000228 )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C4C6618/489597B9 R4-SM0805  R173 1k {Lib=R}
-  (    1 /CPU/AN12 )
+  (    1 /analog_protect_5/analog_sensor_out_2 )
   (    2 N-000225 )
  )
  ( /4C4C6618/4C4C7B5C C1V7  C91 100nf {Lib=C}
   (    1 N-000225 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C6618/4C2F52ED R4-SM0805  R169 1k {Lib=R}
   (    1 N-000225 )
-  (    2 /thermistor_input_4/analog_sensor_TEMP )
+  (    2 /TEMP_IN_4 )
  )
  ( /4C4C6618/4C2F52EC D4-SMB  D70 1N4148 {Lib=DIODE}
   (    1 N-000225 )
-  (    2 /5v_switched )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C4C6618/4C2F52DC R4-SM0805  R174 1k {Lib=R}
   (    1 /analog_protect_5/analog_sensor_out_1 )
-  (    2 N-000224 )
+  (    2 N-000226 )
  )
  ( /4C4C6618/4C4C7B4D C1V7  C92 100nf {Lib=C}
-  (    1 N-000224 )
-  (    2 GND )
+  (    1 N-000226 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C6618/4C4C7B4C R4-SM0805  R170 1k {Lib=R}
-  (    1 N-000224 )
+  (    1 N-000226 )
   (    2 /thermistor_input_3/analog_sensor_TEMP )
  )
  ( /4C4C6618/4C2F52A4 D4-SMB  D72 1N4148 {Lib=DIODE}
-  (    1 N-000224 )
-  (    2 /5v_switched )
+  (    1 N-000226 )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C4C62BF/4C4AE9AE $noname  C84 33nF {Lib=C}
-  (    1 /thermistor_input_4/analog_sensor_TEMP )
-  (    2 GND )
+  (    1 /TEMP_IN_4 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C62BF/4C4AE9A4 $noname  C83 1.5nF {Lib=C}
-  (    1 N-000222 )
-  (    2 GND )
+  (    1 N-000224 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C62BF/4C4AE98C $noname  C82 1.5nF {Lib=C}
-  (    1 /5v_switched )
-  (    2 GND )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C62BF/4C4AE957 $noname  R158 10k {Lib=R}
-  (    1 /thermistor_input_4/analog_sensor_TEMP )
-  (    2 N-000222 )
+  (    1 /TEMP_IN_4 )
+  (    2 N-000224 )
  )
  ( /4C4C62BF/4C4AE952 $noname  R157 38.3k {Lib=R}
-  (    1 N-000222 )
-  (    2 GND )
+  (    1 N-000224 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C62BF/4C4AE94D $noname  R156 2.61k {Lib=R}
-  (    1 /5v_switched )
-  (    2 N-000222 )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 N-000224 )
  )
  ( /4C4C62BF/48AA1AB3 1PIN  P70 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C62BF/48AA1AB0 1PIN  P69 CONN_1 {Lib=CONN_1}
-  (    1 N-000222 )
+  (    1 N-000224 )
  )
  ( /4C4C628B/4C4AE9AE $noname  C81 33nF {Lib=C}
   (    1 /thermistor_input_3/analog_sensor_TEMP )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C628B/4C4AE9A4 $noname  C80 1.5nF {Lib=C}
-  (    1 N-000221 )
-  (    2 GND )
+  (    1 N-000223 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C628B/4C4AE98C $noname  C79 1.5nF {Lib=C}
-  (    1 /5v_switched )
-  (    2 GND )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C628B/4C4AE957 $noname  R155 10k {Lib=R}
   (    1 /thermistor_input_3/analog_sensor_TEMP )
-  (    2 N-000221 )
+  (    2 N-000223 )
  )
  ( /4C4C628B/4C4AE952 $noname  R154 38.3k {Lib=R}
-  (    1 N-000221 )
-  (    2 GND )
+  (    1 N-000223 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C628B/4C4AE94D $noname  R153 2.61k {Lib=R}
-  (    1 /5v_switched )
-  (    2 N-000221 )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 N-000223 )
  )
  ( /4C4C628B/48AA1AB3 1PIN  P68 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C4C628B/48AA1AB0 1PIN  P67 CONN_1 {Lib=CONN_1}
-  (    1 N-000221 )
+  (    1 N-000223 )
  )
  ( /4C2F3E4C/4C2ED144 $noname  C119 1uF {Lib=C}
-  (    1 N-000220 )
-  (    2 GND )
+  (    1 N-000222 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2F3E4C/4C2ED135 $noname  R205 3.9k {Lib=R}
-  (    1 N-000220 )
-  (    2 /5v_switched )
+  (    1 N-000222 )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2F3E4C/4C2ED0C2 $noname  D89 33v_5w {Lib=ZENER}
-  (    1 N-000219 )
-  (    2 N-000217 )
- )
- ( /4C2F3E4C/4C2ED077 $noname  R204 0.1_2W {Lib=R}
-  (    1 /power_gnd )
+  (    1 N-000218 )
   (    2 N-000219 )
  )
+ ( /4C2F3E4C/4C2ED077 $noname  R204 0.1_2W {Lib=R}
+  (    1 /injector_drive_6/inductive_power_gnd )
+  (    2 N-000218 )
+ )
  ( /4C2F3E4C/4C2ED01B $noname  C118 .01uF {Lib=C}
-  (    1 N-000215 )
-  (    2 N-000216 )
+  (    1 N-000221 )
+  (    2 N-000217 )
  )
  ( /4C2F3E4C/4C2ECF62 $noname  Q15 2N6044 {Lib=DARL_N}
-  (    1 N-000219 )
-  (    2 N-000215 )
-  (    3 N-000217 )
+  (    1 N-000218 )
+  (    2 N-000221 )
+  (    3 N-000219 )
  )
  ( /4C2F3E4C/4C2ECEC5 8dip300  U26 LM1949 {Lib=LM1949}
-  (    1 N-000218 )
-  (    2 N-000215 )
-  (    3 N-000216 )
-  (    4 N-000219 )
-  (    5 /power_gnd )
-  (    6 GND )
-  (    7 /5v_switched )
-  (    8 N-000220 )
+  (    1 N-000220 )
+  (    2 N-000221 )
+  (    3 N-000217 )
+  (    4 N-000218 )
+  (    5 /injector_drive_6/inductive_power_gnd )
+  (    6 /thermistor_input_4/analog_sensor_gnd )
+  (    7 /analog_protect_4/analog_sensor_vcc )
+  (    8 N-000222 )
  )
  ( /4C2F3E4C/48AA1A76 1PIN  P86 CONN_1 {Lib=CONN_1}
-  (    1 N-000217 )
+  (    1 N-000219 )
  )
  ( /4C2F3E4C/48AA1A73 1PIN  P85 CONN_1 {Lib=CONN_1}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
  )
  ( /4C2F3E4C/4C2F52D2 R4-SM0805  R203 1k {Lib=R}
-  (    1 N-000218 )
-  (    2 /CPU/PB0 )
+  (    1 N-000220 )
+  (    2 /ind_pd_1 )
  )
  ( /4C2F3E39/4C2ED144 $noname  C117 1uF {Lib=C}
-  (    1 N-000213 )
-  (    2 GND )
+  (    1 N-000216 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2F3E39/4C2ED135 $noname  R202 3.9k {Lib=R}
-  (    1 N-000213 )
-  (    2 /5v_switched )
+  (    1 N-000216 )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2F3E39/4C2ED0C2 $noname  D88 33v_5w {Lib=ZENER}
-  (    1 N-000209 )
-  (    2 N-000210 )
+  (    1 N-000213 )
+  (    2 N-000211 )
  )
  ( /4C2F3E39/4C2ED077 $noname  R201 0.1_2W {Lib=R}
-  (    1 /power_gnd )
-  (    2 N-000209 )
+  (    1 /injector_drive_6/inductive_power_gnd )
+  (    2 N-000213 )
  )
  ( /4C2F3E39/4C2ED01B $noname  C116 .01uF {Lib=C}
-  (    1 N-000214 )
-  (    2 N-000212 )
+  (    1 N-000215 )
+  (    2 N-000214 )
  )
  ( /4C2F3E39/4C2ECF62 $noname  Q14 2N6044 {Lib=DARL_N}
-  (    1 N-000209 )
-  (    2 N-000214 )
-  (    3 N-000210 )
+  (    1 N-000213 )
+  (    2 N-000215 )
+  (    3 N-000211 )
  )
  ( /4C2F3E39/4C2ECEC5 8dip300  U25 LM1949 {Lib=LM1949}
-  (    1 N-000211 )
-  (    2 N-000214 )
-  (    3 N-000212 )
-  (    4 N-000209 )
-  (    5 /power_gnd )
-  (    6 GND )
-  (    7 /5v_switched )
-  (    8 N-000213 )
+  (    1 N-000212 )
+  (    2 N-000215 )
+  (    3 N-000214 )
+  (    4 N-000213 )
+  (    5 /injector_drive_6/inductive_power_gnd )
+  (    6 /thermistor_input_4/analog_sensor_gnd )
+  (    7 /analog_protect_4/analog_sensor_vcc )
+  (    8 N-000216 )
  )
  ( /4C2F3E39/48AA1A76 1PIN  P84 CONN_1 {Lib=CONN_1}
-  (    1 N-000210 )
+  (    1 N-000211 )
  )
  ( /4C2F3E39/48AA1A73 1PIN  P83 CONN_1 {Lib=CONN_1}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
  )
  ( /4C2F3E39/4C2F52D2 R4-SM0805  R200 1k {Lib=R}
-  (    1 N-000211 )
-  (    2 /CPU/PB1 )
+  (    1 N-000212 )
+  (    2 /ind_pd_2 )
  )
  ( /4C2F3E27/4C2ED144 $noname  C115 1uF {Lib=C}
-  (    1 N-000207 )
-  (    2 GND )
+  (    1 N-000209 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2F3E27/4C2ED135 $noname  R199 3.9k {Lib=R}
-  (    1 N-000207 )
-  (    2 /5v_switched )
+  (    1 N-000209 )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2F3E27/4C2ED0C2 $noname  D87 33v_5w {Lib=ZENER}
-  (    1 N-000203 )
-  (    2 N-000204 )
+  (    1 N-000207 )
+  (    2 N-000205 )
  )
  ( /4C2F3E27/4C2ED077 $noname  R198 0.1_2W {Lib=R}
-  (    1 /power_gnd )
-  (    2 N-000203 )
+  (    1 /injector_drive_6/inductive_power_gnd )
+  (    2 N-000207 )
  )
  ( /4C2F3E27/4C2ED01B $noname  C114 .01uF {Lib=C}
-  (    1 N-000208 )
-  (    2 N-000206 )
+  (    1 N-000210 )
+  (    2 N-000208 )
  )
  ( /4C2F3E27/4C2ECF62 $noname  Q13 2N6044 {Lib=DARL_N}
-  (    1 N-000203 )
-  (    2 N-000208 )
-  (    3 N-000204 )
+  (    1 N-000207 )
+  (    2 N-000210 )
+  (    3 N-000205 )
  )
  ( /4C2F3E27/4C2ECEC5 8dip300  U24 LM1949 {Lib=LM1949}
-  (    1 N-000205 )
-  (    2 N-000208 )
-  (    3 N-000206 )
-  (    4 N-000203 )
-  (    5 /power_gnd )
-  (    6 GND )
-  (    7 /5v_switched )
-  (    8 N-000207 )
+  (    1 N-000206 )
+  (    2 N-000210 )
+  (    3 N-000208 )
+  (    4 N-000207 )
+  (    5 /injector_drive_6/inductive_power_gnd )
+  (    6 /thermistor_input_4/analog_sensor_gnd )
+  (    7 /analog_protect_4/analog_sensor_vcc )
+  (    8 N-000209 )
  )
  ( /4C2F3E27/48AA1A76 1PIN  P82 CONN_1 {Lib=CONN_1}
-  (    1 N-000204 )
+  (    1 N-000205 )
  )
  ( /4C2F3E27/48AA1A73 1PIN  P81 CONN_1 {Lib=CONN_1}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
  )
  ( /4C2F3E27/4C2F52D2 R4-SM0805  R197 1k {Lib=R}
-  (    1 N-000205 )
+  (    1 N-000206 )
   (    2 /ind_pd_3 )
  )
  ( /4C2F3E07/4C2ED144 $noname  C113 1uF {Lib=C}
   (    1 N-000202 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2F3E07/4C2ED135 $noname  R196 3.9k {Lib=R}
   (    1 N-000202 )
-  (    2 /5v_switched )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2F3E07/4C2ED0C2 $noname  D86 33v_5w {Lib=ZENER}
-  (    1 N-000201 )
-  (    2 N-000197 )
+  (    1 N-000200 )
+  (    2 N-000203 )
  )
  ( /4C2F3E07/4C2ED077 $noname  R195 0.1_2W {Lib=R}
-  (    1 /power_gnd )
-  (    2 N-000201 )
+  (    1 /injector_drive_6/inductive_power_gnd )
+  (    2 N-000200 )
  )
  ( /4C2F3E07/4C2ED01B $noname  C112 .01uF {Lib=C}
-  (    1 N-000200 )
-  (    2 N-000198 )
+  (    1 N-000204 )
+  (    2 N-000199 )
  )
  ( /4C2F3E07/4C2ECF62 $noname  Q12 2N6044 {Lib=DARL_N}
-  (    1 N-000201 )
-  (    2 N-000200 )
-  (    3 N-000197 )
+  (    1 N-000200 )
+  (    2 N-000204 )
+  (    3 N-000203 )
  )
  ( /4C2F3E07/4C2ECEC5 8dip300  U23 LM1949 {Lib=LM1949}
-  (    1 N-000199 )
-  (    2 N-000200 )
-  (    3 N-000198 )
-  (    4 N-000201 )
-  (    5 /power_gnd )
-  (    6 GND )
-  (    7 /5v_switched )
+  (    1 N-000201 )
+  (    2 N-000204 )
+  (    3 N-000199 )
+  (    4 N-000200 )
+  (    5 /injector_drive_6/inductive_power_gnd )
+  (    6 /thermistor_input_4/analog_sensor_gnd )
+  (    7 /analog_protect_4/analog_sensor_vcc )
   (    8 N-000202 )
  )
  ( /4C2F3E07/48AA1A76 1PIN  P80 CONN_1 {Lib=CONN_1}
-  (    1 N-000197 )
+  (    1 N-000203 )
  )
  ( /4C2F3E07/48AA1A73 1PIN  P79 CONN_1 {Lib=CONN_1}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
  )
  ( /4C2F3E07/4C2F52D2 R4-SM0805  R194 1k {Lib=R}
-  (    1 N-000199 )
-  (    2 /ind_pd_4 )
+  (    1 N-000201 )
+  (    2 /injector_drive_4/inductive_power_drive )
  )
  ( /4C2F3DD9/4C2ED144 $noname  C111 1uF {Lib=C}
-  (    1 N-000196 )
-  (    2 GND )
+  (    1 N-000198 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2F3DD9/4C2ED135 $noname  R193 3.9k {Lib=R}
-  (    1 N-000196 )
-  (    2 /5v_switched )
+  (    1 N-000198 )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2F3DD9/4C2ED0C2 $noname  D85 33v_5w {Lib=ZENER}
-  (    1 N-000192 )
-  (    2 N-000191 )
+  (    1 N-000194 )
+  (    2 N-000195 )
  )
  ( /4C2F3DD9/4C2ED077 $noname  R192 0.1_2W {Lib=R}
-  (    1 /power_gnd )
-  (    2 N-000192 )
+  (    1 /injector_drive_6/inductive_power_gnd )
+  (    2 N-000194 )
  )
  ( /4C2F3DD9/4C2ED01B $noname  C110 .01uF {Lib=C}
-  (    1 N-000195 )
+  (    1 N-000197 )
   (    2 N-000193 )
  )
  ( /4C2F3DD9/4C2ECF62 $noname  Q11 2N6044 {Lib=DARL_N}
-  (    1 N-000192 )
-  (    2 N-000195 )
-  (    3 N-000191 )
+  (    1 N-000194 )
+  (    2 N-000197 )
+  (    3 N-000195 )
  )
  ( /4C2F3DD9/4C2ECEC5 8dip300  U22 LM1949 {Lib=LM1949}
-  (    1 N-000194 )
-  (    2 N-000195 )
+  (    1 N-000196 )
+  (    2 N-000197 )
   (    3 N-000193 )
-  (    4 N-000192 )
-  (    5 /power_gnd )
-  (    6 GND )
-  (    7 /5v_switched )
-  (    8 N-000196 )
+  (    4 N-000194 )
+  (    5 /injector_drive_6/inductive_power_gnd )
+  (    6 /thermistor_input_4/analog_sensor_gnd )
+  (    7 /analog_protect_4/analog_sensor_vcc )
+  (    8 N-000198 )
  )
  ( /4C2F3DD9/48AA1A76 1PIN  P78 CONN_1 {Lib=CONN_1}
-  (    1 N-000191 )
+  (    1 N-000195 )
  )
  ( /4C2F3DD9/48AA1A73 1PIN  P77 CONN_1 {Lib=CONN_1}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
  )
  ( /4C2F3DD9/4C2F52D2 R4-SM0805  R191 1k {Lib=R}
-  (    1 N-000194 )
-  (    2 /ind_pd_5 )
+  (    1 N-000196 )
+  (    2 /injector_drive_5/inductive_power_drive )
  )
  ( /4C2F3BE4/4C2ED144 $noname  C109 1uF {Lib=C}
-  (    1 N-000189 )
-  (    2 GND )
+  (    1 N-000192 )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2F3BE4/4C2ED135 $noname  R190 3.9k {Lib=R}
-  (    1 N-000189 )
-  (    2 /5v_switched )
+  (    1 N-000192 )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2F3BE4/4C2ED0C2 $noname  D84 33v_5w {Lib=ZENER}
-  (    1 N-000186 )
-  (    2 N-000187 )
+  (    1 N-000188 )
+  (    2 N-000189 )
  )
  ( /4C2F3BE4/4C2ED077 $noname  R189 0.1_2W {Lib=R}
-  (    1 /power_gnd )
-  (    2 N-000186 )
+  (    1 /injector_drive_6/inductive_power_gnd )
+  (    2 N-000188 )
  )
  ( /4C2F3BE4/4C2ED01B $noname  C108 .01uF {Lib=C}
-  (    1 N-000190 )
-  (    2 N-000185 )
+  (    1 N-000191 )
+  (    2 N-000187 )
  )
  ( /4C2F3BE4/4C2ECF62 $noname  Q10 2N6044 {Lib=DARL_N}
-  (    1 N-000186 )
-  (    2 N-000190 )
-  (    3 N-000187 )
+  (    1 N-000188 )
+  (    2 N-000191 )
+  (    3 N-000189 )
  )
  ( /4C2F3BE4/4C2ECEC5 8dip300  U21 LM1949 {Lib=LM1949}
-  (    1 N-000188 )
-  (    2 N-000190 )
-  (    3 N-000185 )
-  (    4 N-000186 )
-  (    5 /power_gnd )
-  (    6 GND )
-  (    7 /5v_switched )
-  (    8 N-000189 )
+  (    1 N-000190 )
+  (    2 N-000191 )
+  (    3 N-000187 )
+  (    4 N-000188 )
+  (    5 /injector_drive_6/inductive_power_gnd )
+  (    6 /thermistor_input_4/analog_sensor_gnd )
+  (    7 /analog_protect_4/analog_sensor_vcc )
+  (    8 N-000192 )
  )
  ( /4C2F3BE4/48AA1A76 1PIN  P76 CONN_1 {Lib=CONN_1}
-  (    1 N-000187 )
+  (    1 N-000189 )
  )
  ( /4C2F3BE4/48AA1A73 1PIN  P75 CONN_1 {Lib=CONN_1}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
  )
  ( /4C2F3BE4/4C2F52D2 R4-SM0805  R188 1k {Lib=R}
-  (    1 N-000188 )
-  (    2 /CPU/PB5 )
+  (    1 N-000190 )
+  (    2 /ind_pd_6 )
  )
  ( /4C2E1E53/4CB21BF3 $noname  C5 22uF {Lib=C}
   (    1 /CPU/VCC )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E53/4CAB8DFA $noname  D92 1N4148 {Lib=DIODE}
   (    1 /CPU/VCC )
@@ -1035,43 +1037,43 @@
  ( /4C2E1E53/4CAB8A0F $noname  U2 MIC2954 {Lib=7805}
   (   VI N-000115 )
   (   VO /CPU/VCC )
-  (  GND GND )
+  (  GND /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E53/486ED024 C1V7  C6 .1uF {Lib=C}
   (    1 /CPU/VCC )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E53/486ECB4E D4-SMB  D1 1N4007 {Lib=DIODE}
-  (    1 /voltage_regulator_(switched)/12v_batt )
+  (    1 /voltage_regulator_(cpu)/12v_batt )
   (    2 N-000115 )
  )
  ( /4C2E1E53/4C2F529E C1V7  C2 10uF {Lib=CAPAPOL}
   (    1 N-000115 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E53/4C2F529C C1V7  C3 .1uF {Lib=C}
   (    1 N-000115 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E55/4C2F52A3 C1V7  C12 .1uF {Lib=C}
-  (    1 /5v_switched )
-  (    2 GND )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E55/48B14C8F TO220_sm  U4 LM2937 {Lib=7805-DIYEFI}
   (    1 N-000117 )
-  (    2 GND )
-  (    3 /5v_switched )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
+  (    3 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2E1E55/4C2F52EA C1V7  C10 22uF {Lib=C}
-  (    1 /5v_switched )
-  (    2 GND )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E55/4C2F52A2 D4-SMB  D3 1N4007 {Lib=DIODE}
-  (    1 /voltage_regulator_(switched)/12v_batt )
+  (    1 /voltage_regulator_(cpu)/12v_batt )
   (    2 N-000116 )
  )
  ( /4C2E1E55/4C2F52A1 D4-SMB  D4 1N4007 {Lib=DIODE}
-  (    1 /5v_switched )
+  (    1 /analog_protect_4/analog_sensor_vcc )
   (    2 N-000117 )
  )
  ( /4C2E1E55/486CA8FD R7  R2 1R {Lib=R}
@@ -1080,22 +1082,22 @@
  )
  ( /4C2E1E55/486CA8EA C1V7  C8 10uF {Lib=CAPAPOL}
   (    1 N-000117 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E55/486CA8E4 C1V7  C11 2200uF {Lib=CAPAPOL}
-  (    1 /5v_switched )
-  (    2 GND )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E55/486CA8CD C1V7  C9 .1uF {Lib=C}
   (    1 N-000117 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E5B/4C2F5306 R4-SM0805  R8 10k {Lib=R}
   (    1 /digi_protect__I3/digi_device )
   (    2 N-000118 )
  )
  ( /4C2E1E5B/4C2F52C8 D4-SMB  D10 5V1 {Lib=ZENER}
-  (    1 /power_gnd )
+  (    1 /injector_drive_6/inductive_power_gnd )
   (    2 N-000118 )
  )
  ( /4C2E1E5B/4C2F52C5 R4-SM0805  R7 10k {Lib=R}
@@ -1107,31 +1109,31 @@
   (    2 N-000119 )
  )
  ( /4C2E1E5D/4C2F52CE D4-SMB  D12 5V1 {Lib=ZENER}
-  (    1 /power_gnd )
+  (    1 /injector_drive_6/inductive_power_gnd )
   (    2 N-000119 )
  )
  ( /4C2E1E5D/4C2F52C1 R4-SM0805  R9 10k {Lib=R}
   (    1 N-000119 )
-  (    2 /ind_dr_3 )
+  (    2 /digi_protect__I4/digi_CPU )
  )
  ( /4C2E1E5F/4C2F5305 R4-SM0805  R12 10k {Lib=R}
-  (    1 /digi_protect__I5/digi_device )
+  (    1 /igniter_5/low_power_inductive_drive )
   (    2 N-000120 )
  )
  ( /4C2E1E5F/4C2F52C9 D4-SMB  D14 5V1 {Lib=ZENER}
-  (    1 /power_gnd )
+  (    1 /injector_drive_6/inductive_power_gnd )
   (    2 N-000120 )
  )
  ( /4C2E1E5F/4C2F52BF R4-SM0805  R11 10k {Lib=R}
   (    1 N-000120 )
-  (    2 /digi_protect__I5/digi_CPU )
+  (    2 /ind_dr_2 )
  )
  ( /4C2E1E61/4C2F5302 R4-SM0805  R14 10k {Lib=R}
-  (    1 /igniter_6/low_power_inductive_drive )
+  (    1 /digi_protect__I6/digi_device )
   (    2 N-000121 )
  )
  ( /4C2E1E61/4C2F52CB D4-SMB  D16 5V1 {Lib=ZENER}
-  (    1 /power_gnd )
+  (    1 /injector_drive_6/inductive_power_gnd )
   (    2 N-000121 )
  )
  ( /4C2E1E61/4C2F52C4 R4-SM0805  R13 10k {Lib=R}
@@ -1139,16 +1141,16 @@
   (    2 /digi_protect__I6/digi_CPU )
  )
  ( /4C2E1E63/4C66EECE $noname  D76 DIODE {Lib=DIODE}
-  (    1 /power_gnd )
+  (    1 /injector_drive_6/inductive_power_gnd )
   (    2 N-000124 )
  )
  ( /4C2E1E63/4C2F5337 TO220_sm  Q1 MOSFET_N {Lib=PIP-3104}
   (    1 N-000122 )
   (    2 N-000124 )
-  (    3 /power_gnd )
+  (    3 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E63/4C2F532C R4-SM0805  R18 10k {Lib=R}
-  (    1 /power_gnd )
+  (    1 /injector_drive_6/inductive_power_gnd )
   (    2 N-000122 )
  )
  ( /4C2E1E63/4C2F5323 LEDV  D17 LED {Lib=LED}
@@ -1157,29 +1159,29 @@
  )
  ( /4C2E1E63/4C2F531D R4-SM0805  R17 3k {Lib=R}
   (    1 N-000123 )
-  (    2 /igniter_6/12V_bat )
+  (    2 /igniter_3/12V_bat )
  )
  ( /4C2E1E63/4C2F5315 1PIN  P7 CONN_1 {Lib=CONN_1}
   (    1 N-000124 )
  )
  ( /4C2E1E63/4C2F5311 1PIN  P6 CONN_1 {Lib=CONN_1}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
  )
  ( /4C2E1E63/4C2F52E7 R4-SM0805  R15 1k {Lib=R}
   (    1 N-000122 )
-  (    2 /igniter_6/low_power_inductive_drive )
+  (    2 /digi_protect__I6/digi_device )
  )
  ( /4C2E1E65/4C66EEF5 $noname  D77 DIODE {Lib=DIODE}
-  (    1 /power_gnd )
+  (    1 /injector_drive_6/inductive_power_gnd )
   (    2 N-000127 )
  )
  ( /4C2E1E65/4C2F5336 TO220_sm  Q2 MOSFET_N {Lib=PIP-3104}
   (    1 N-000125 )
   (    2 N-000127 )
-  (    3 /power_gnd )
+  (    3 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E65/4C2F532A R4-SM0805  R22 10k {Lib=R}
-  (    1 /power_gnd )
+  (    1 /injector_drive_6/inductive_power_gnd )
   (    2 N-000125 )
  )
  ( /4C2E1E65/4C2F531F LEDV  D18 LED {Lib=LED}
@@ -1188,29 +1190,29 @@
  )
  ( /4C2E1E65/4C2F531A R4-SM0805  R21 3k {Lib=R}
   (    1 N-000126 )
-  (    2 /igniter_6/12V_bat )
+  (    2 /igniter_3/12V_bat )
  )
  ( /4C2E1E65/4C2F5313 1PIN  P9 CONN_1 {Lib=CONN_1}
   (    1 N-000127 )
  )
  ( /4C2E1E65/4C2F530F 1PIN  P8 CONN_1 {Lib=CONN_1}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
  )
  ( /4C2E1E65/4C2F52E9 R4-SM0805  R19 1k {Lib=R}
   (    1 N-000125 )
-  (    2 /digi_protect__I5/digi_device )
+  (    2 /igniter_5/low_power_inductive_drive )
  )
  ( /4C2E1E67/4C66EF08 $noname  D78 DIODE {Lib=DIODE}
-  (    1 /power_gnd )
+  (    1 /injector_drive_6/inductive_power_gnd )
   (    2 N-000130 )
  )
  ( /4C2E1E67/4C2F5335 TO220_sm  Q3 MOSFET_N {Lib=PIP-3104}
   (    1 N-000128 )
   (    2 N-000130 )
-  (    3 /power_gnd )
+  (    3 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E67/4C2F5329 R4-SM0805  R26 10k {Lib=R}
-  (    1 /power_gnd )
+  (    1 /injector_drive_6/inductive_power_gnd )
   (    2 N-000128 )
  )
  ( /4C2E1E67/4C2F5321 LEDV  D19 LED {Lib=LED}
@@ -1219,29 +1221,29 @@
  )
  ( /4C2E1E67/4C2F531C R4-SM0805  R25 3k {Lib=R}
   (    1 N-000129 )
-  (    2 /igniter_6/12V_bat )
+  (    2 /igniter_3/12V_bat )
  )
  ( /4C2E1E67/4C2F5314 1PIN  P11 CONN_1 {Lib=CONN_1}
   (    1 N-000130 )
  )
  ( /4C2E1E67/4C2F5310 1PIN  P10 CONN_1 {Lib=CONN_1}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
  )
  ( /4C2E1E67/489395E6 R4-SM0805  R23 1k {Lib=R}
   (    1 N-000128 )
   (    2 /digi_protect__I4/digi_device )
  )
  ( /4C2E1E69/4C66EF1F $noname  D79 DIODE {Lib=DIODE}
-  (    1 /power_gnd )
+  (    1 /injector_drive_6/inductive_power_gnd )
   (    2 N-000133 )
  )
  ( /4C2E1E69/4C2F5333 TO220_sm  Q4 MOSFET_N {Lib=PIP-3104}
   (    1 N-000131 )
   (    2 N-000133 )
-  (    3 /power_gnd )
+  (    3 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E69/4C2F532B R4-SM0805  R30 10k {Lib=R}
-  (    1 /power_gnd )
+  (    1 /injector_drive_6/inductive_power_gnd )
   (    2 N-000131 )
  )
  ( /4C2E1E69/48AA2529 LEDV  D20 LED {Lib=LED}
@@ -1250,13 +1252,13 @@
  )
  ( /4C2E1E69/48AA2523 R4-SM0805  R29 3k {Lib=R}
   (    1 N-000132 )
-  (    2 /igniter_6/12V_bat )
+  (    2 /igniter_3/12V_bat )
  )
  ( /4C2E1E69/4C2F5316 1PIN  P13 CONN_1 {Lib=CONN_1}
   (    1 N-000133 )
  )
  ( /4C2E1E69/48AA1A4A 1PIN  P12 CONN_1 {Lib=CONN_1}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
  )
  ( /4C2E1E69/4C2F52E6 R4-SM0805  R27 1k {Lib=R}
   (    1 N-000131 )
@@ -1264,51 +1266,51 @@
  )
  ( /4C2E1E6F/48B144B7 SOP_case_482  U5 MPX4100A {Lib=MPX4100A}
   (    1 ? )
-  (    2 /5v_switched )
-  (    3 GND )
-  (    4 /AAP_IN )
+  (    2 /analog_protect_4/analog_sensor_vcc )
+  (    3 /thermistor_input_4/analog_sensor_gnd )
+  (    4 /MAP_input_baro/analog_sensor_MAP )
   (    5 ? )
   (    6 ? )
   (    7 ? )
   (    8 ? )
  )
  ( /4C2E1E6F/4C2F52DF C1V7  C20 .01uF {Lib=C}
-  (    1 /5v_switched )
-  (    2 GND )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E6F/488D2153 C1V7  C21 470pF {Lib=C}
-  (    1 GND )
-  (    2 /AAP_IN )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
+  (    2 /MAP_input_baro/analog_sensor_MAP )
  )
  ( /4C2E1E6F/488D2133 C1V7  C19 .1uF {Lib=C}
-  (    1 /5v_switched )
-  (    2 GND )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E71/4C4AF086 $noname  P58 CONN_1 {Lib=CONN_1}
   (    1 N-000144 )
  )
  ( /4C2E1E71/4C4AF080 $noname  P57 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E71/4C4AF071 $noname  P56 CONN_1 {Lib=CONN_1}
-  (    1 /5v_switched )
+  (    1 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2E1E71/4C4AEFB0 $noname  C66 33nF {Lib=C}
-  (    1 GND )
-  (    2 /MAP_input/analog_sensor_MAP )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
+  (    2 /MAP_IN )
  )
  ( /4C2E1E71/4C4AEFA3 $noname  R134 68k {Lib=R}
   (    1 N-000144 )
-  (    2 /MAP_input/analog_sensor_MAP )
+  (    2 /MAP_IN )
  )
  ( /4C2E1E71/4C4AEDC5 $noname  R133 680k {Lib=R}
-  (    1 /5v_switched )
-  (    2 /MAP_input/analog_sensor_MAP )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /MAP_IN )
  )
  ( /4C2E1E71/4C2F532E SOP_case_482  U6 MPX4250A {Lib=MPX4100A}
   (    1 ? )
-  (    2 /5v_switched )
-  (    3 GND )
+  (    2 /analog_protect_4/analog_sensor_vcc )
+  (    3 /thermistor_input_4/analog_sensor_gnd )
   (    4 N-000144 )
   (    5 ? )
   (    6 ? )
@@ -1316,11 +1318,11 @@
   (    8 ? )
  )
  ( /4C2E1E71/488D2158 C1V7  C23 .1uF {Lib=C}
-  (    1 /5v_switched )
-  (    2 GND )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E71/4C2F52DE C1V7  C24 1.5nF {Lib=C}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 N-000144 )
  )
  ( /4C2E1E73/4C2F5307 R4-SM0805  R40 1k {Lib=R}
@@ -1328,19 +1330,19 @@
   (    2 N-000145 )
  )
  ( /4C2E1E73/486F8DB9 D4-SMB  D24 5V1 {Lib=ZENER}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 N-000145 )
  )
  ( /4C2E1E73/4C2F52C6 R4-SM0805  R39 1k {Lib=R}
   (    1 N-000145 )
-  (    2 /CPU/PT0 )
+  (    2 /digi_protect_rpm1/digi_CPU )
  )
  ( /4C2E1E75/4C2F530B R4-SM0805  R42 1k {Lib=R}
-  (    1 /RPM_input_2/RPM_out )
+  (    1 /digi_protect_rpm2/digi_device )
   (    2 N-000146 )
  )
  ( /4C2E1E75/4C2F52CC D4-SMB  D26 5V1 {Lib=ZENER}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 N-000146 )
  )
  ( /4C2E1E75/4C2F52C3 R4-SM0805  R41 1k {Lib=R}
@@ -1349,7 +1351,7 @@
  )
  ( /4C2E1E7B/4C5989C5 D4-SMB  D74 1N4148 {Lib=DIODE}
   (    1 N-000150 )
-  (    2 /5v_switched )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2E1E7B/4C5989C4 R4-SM0805  R186 1k {Lib=R}
   (    1 N-000150 )
@@ -1357,43 +1359,43 @@
  )
  ( /4C2E1E7B/4C5989C3 C1V7  C106 100nf {Lib=C}
   (    1 N-000150 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E7B/4C5989C1 R4-SM0805  R187 1k {Lib=R}
   (    1 /analog_protect_2/analog_sensor_out_4 )
   (    2 N-000150 )
  )
  ( /4C2E1E7B/4C5989C0 SOD-123  D75 SCHOTTKY {Lib=DIODESCH}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 N-000150 )
  )
  ( /4C2E1E7B/4C4972F9 SOD-123  D36 SCHOTTKY {Lib=DIODESCH}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 N-000148 )
  )
  ( /4C2E1E7B/4C4972F8 SOD-123  D34 SCHOTTKY {Lib=DIODESCH}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 N-000149 )
  )
  ( /4C2E1E7B/4C4972F7 SOD-123  D32 SCHOTTKY {Lib=DIODESCH}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 N-000147 )
  )
  ( /4C2E1E7B/4C2F52F7 R4-SM0805  R50 1k {Lib=R}
-  (    1 /analog_protect_2/analog_sensor_out_3 )
+  (    1 /CPU/AN04 )
   (    2 N-000147 )
  )
  ( /4C2E1E7B/489597BC C1V7  C29 100nf {Lib=C}
   (    1 N-000147 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E7B/489597BB R4-SM0805  R47 1k {Lib=R}
   (    1 N-000147 )
-  (    2 /MAP_input/analog_sensor_MAP )
+  (    2 /MAP_IN )
  )
  ( /4C2E1E7B/4C2F52F2 D4-SMB  D31 1N4148 {Lib=DIODE}
   (    1 N-000147 )
-  (    2 /5v_switched )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2E1E7B/4C2F52F1 R4-SM0805  R51 1k {Lib=R}
   (    1 /CPU/AN05 )
@@ -1401,71 +1403,71 @@
  )
  ( /4C2E1E7B/489597B6 C1V7  C30 100nf {Lib=C}
   (    1 N-000149 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E7B/489597B5 R4-SM0805  R48 1k {Lib=R}
   (    1 N-000149 )
-  (    2 /AAP_IN )
+  (    2 /MAP_input_baro/analog_sensor_MAP )
  )
  ( /4C2E1E7B/489597B4 D4-SMB  D33 1N4148 {Lib=DIODE}
   (    1 N-000149 )
-  (    2 /5v_switched )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2E1E7B/488CCA4A R4-SM0805  R52 1k {Lib=R}
-  (    1 /analog_protect_2/analog_sensor_out_1 )
+  (    1 /CPU/AN06 )
   (    2 N-000148 )
  )
  ( /4C2E1E7B/4C2F52A6 C1V7  C31 100nf {Lib=C}
   (    1 N-000148 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E7B/4C2F52A5 R4-SM0805  R49 1k {Lib=R}
   (    1 N-000148 )
-  (    2 /analog_protect_2/analog_sensor_in_1 )
+  (    2 /BAT_input/analog_sensor_BAT )
  )
  ( /4C2E1E7B/486F8B5C D4-SMB  D35 1N4148 {Lib=DIODE}
   (    1 N-000148 )
-  (    2 /5v_switched )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2E1E7D/4C4973C4 SOD-123  D59 SCHOTTKY {Lib=DIODESCH}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 N-000152 )
  )
  ( /4C2E1E7D/4C4973C0 SOD-123  D61 SCHOTTKY {Lib=DIODESCH}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 N-000151 )
  )
  ( /4C2E1E7D/4C4973B6 SOD-123  D63 SCHOTTKY {Lib=DIODESCH}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 N-000154 )
  )
  ( /4C2E1E7D/4C4973B0 SOD-123  D65 SCHOTTKY {Lib=DIODESCH}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
   (    2 N-000153 )
  )
  ( /4C2E1E7D/4C4C7B57 R4-SM0805  R163 1k {Lib=R}
-  (    1 /CPU/AN00 )
+  (    1 /analog_protect_4/analog_sensor_out_4 )
   (    2 N-000152 )
  )
  ( /4C2E1E7D/489597C2 C1V7  C85 100nf {Lib=C}
   (    1 N-000152 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E7D/489597C1 R4-SM0805  R159 1k {Lib=R}
   (    1 N-000152 )
-  (    2 /thermistor_input_1/analog_sensor_TEMP )
+  (    2 /IAT_IN )
  )
  ( /4C2E1E7D/489597C0 D4-SMB  D58 1N4148 {Lib=DIODE}
   (    1 N-000152 )
-  (    2 /5v_switched )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2E1E7D/4C4C7B52 R4-SM0805  R164 1k {Lib=R}
-  (    1 /CPU/AN01 )
+  (    1 /analog_protect_4/analog_sensor_out_3 )
   (    2 N-000151 )
  )
  ( /4C2E1E7D/4C2F52F4 C1V7  C86 100nf {Lib=C}
   (    1 N-000151 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E7D/4C2F52F3 R4-SM0805  R160 1k {Lib=R}
   (    1 N-000151 )
@@ -1473,7 +1475,7 @@
  )
  ( /4C2E1E7D/4C4C7B50 D4-SMB  D60 1N4148 {Lib=DIODE}
   (    1 N-000151 )
-  (    2 /5v_switched )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2E1E7D/489597B9 R4-SM0805  R165 1k {Lib=R}
   (    1 /analog_protect_4/analog_sensor_out_2 )
@@ -1481,7 +1483,7 @@
  )
  ( /4C2E1E7D/4C4C7B5C C1V7  C87 100nf {Lib=C}
   (    1 N-000154 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E7D/4C2F52ED R4-SM0805  R161 1k {Lib=R}
   (    1 N-000154 )
@@ -1489,7 +1491,7 @@
  )
  ( /4C2E1E7D/4C2F52EC D4-SMB  D62 1N4148 {Lib=DIODE}
   (    1 N-000154 )
-  (    2 /5v_switched )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2E1E7D/4C2F52DC R4-SM0805  R166 1k {Lib=R}
   (    1 /CPU/AN03 )
@@ -1497,52 +1499,52 @@
  )
  ( /4C2E1E7D/4C4C7B4D C1V7  C88 100nf {Lib=C}
   (    1 N-000153 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E7D/4C4C7B4C R4-SM0805  R162 1k {Lib=R}
   (    1 N-000153 )
-  (    2 /O2_INPUT/analog_O2 )
+  (    2 /O2_IN_1 )
  )
  ( /4C2E1E7D/4C2F52A4 D4-SMB  D64 1N4148 {Lib=DIODE}
   (    1 N-000153 )
-  (    2 /5v_switched )
+  (    2 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2E1E7F/48AA1A98 1PIN  P19 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E7F/48AA1A96 1PIN  P18 CONN_1 {Lib=CONN_1}
-  (    1 /O2_INPUT/analog_O2 )
+  (    1 /O2_IN_1 )
  )
  ( /4C2E1E81/48B16ED5 TO220_sm  Q7 PIP-3104 {Lib=PIP-3104}
   (    1 N-000156 )
   (    2 N-000157 )
-  (    3 /power_gnd )
+  (    3 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E81/4C2F5319 R4-SM0805  R63 3k {Lib=R}
   (    1 N-000157 )
   (    2 N-000155 )
  )
  ( /4C2E1E81/4C2F5318 LEDV  D45 LED {Lib=LED}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
   (    2 N-000155 )
  )
  ( /4C2E1E81/4C2F530D 1PIN  P21 CONN_1 {Lib=CONN_1}
   (    1 N-000157 )
  )
  ( /4C2E1E81/4C2F530C 1PIN  P20 CONN_1 {Lib=CONN_1}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
  )
  ( /4C2E1E81/4C2F52DB R4-SM0805  R62 100k {Lib=R}
   (    1 N-000156 )
-  (    2 /power_gnd )
+  (    2 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E81/4C2F52D6 C1V7  C36 10pF {Lib=C}
   (    1 N-000157 )
-  (    2 /power_gnd )
+  (    2 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E81/4C2F52D5 R4-SM0805  R64 2.2k {Lib=R}
   (    1 N-000157 )
-  (    2 /power_gnd )
+  (    2 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E81/488A2B3B R4-SM0805  R61 1k {Lib=R}
   (    1 N-000156 )
@@ -1551,45 +1553,45 @@
  ( /4C2E1E83/4C2F5334 TO220_sm  Q8 PIP-3104 {Lib=PIP-3104}
   (    1 N-000159 )
   (    2 N-000160 )
-  (    3 /power_gnd )
+  (    3 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E83/48AA2408 R4-SM0805  R67 3k {Lib=R}
   (    1 N-000160 )
   (    2 N-000158 )
  )
  ( /4C2E1E83/48AA23E4 LEDV  D46 LED {Lib=LED}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
   (    2 N-000158 )
  )
  ( /4C2E1E83/48AA1A18 1PIN  P23 CONN_1 {Lib=CONN_1}
   (    1 N-000160 )
  )
  ( /4C2E1E83/48AA1A13 1PIN  P22 CONN_1 {Lib=CONN_1}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
  )
  ( /4C2E1E83/488C9E4A R4-SM0805  R66 100k {Lib=R}
   (    1 N-000159 )
-  (    2 /power_gnd )
+  (    2 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E83/4C2F52D7 C1V7  C37 10pF {Lib=C}
   (    1 N-000160 )
-  (    2 /power_gnd )
+  (    2 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E83/488A2B90 R4-SM0805  R68 2.2k {Lib=R}
   (    1 N-000160 )
-  (    2 /power_gnd )
+  (    2 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E83/4C2F52D1 R4-SM0805  R65 1k {Lib=R}
   (    1 N-000159 )
-  (    2 /ind_gpd_2 )
+  (    2 /CPU/PA4 )
  )
  ( /4C2E1E87/4C2F5330 TO220_sm  Q9 PIP-3104 {Lib=PIP-3104}
   (    1 N-000162 )
   (    2 N-000163 )
-  (    3 /power_gnd )
+  (    3 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E87/48AA24AE LEDV  D49 LED {Lib=LED}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
   (    2 N-000161 )
  )
  ( /4C2E1E87/48AA24A7 R4-SM0805  R73 3k {Lib=R}
@@ -1600,52 +1602,52 @@
   (    1 N-000163 )
  )
  ( /4C2E1E87/48AA1A33 1PIN  P24 CONN_1 {Lib=CONN_1}
-  (    1 /igniter_6/12V_bat )
+  (    1 /igniter_3/12V_bat )
  )
  ( /4C2E1E87/4C2F52DA R4-SM0805  R72 100k {Lib=R}
   (    1 N-000162 )
-  (    2 /power_gnd )
+  (    2 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E87/488A2BA8 C1V7  C39 10pF {Lib=C}
   (    1 N-000163 )
-  (    2 /power_gnd )
+  (    2 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E87/4C2F52D4 R4-SM0805  R74 2.2k {Lib=R}
   (    1 N-000163 )
-  (    2 /power_gnd )
+  (    2 /injector_drive_6/inductive_power_gnd )
  )
  ( /4C2E1E87/4C2F52D3 R4-SM0805  R71 1k {Lib=R}
   (    1 N-000162 )
   (    2 /ind_fuel_pump )
  )
  ( /4C2E1E99/4890FC9B R4-SM0805  R106 10k {Lib=R}
-  (    1 /analog_protect_2/analog_sensor_in_1 )
-  (    2 GND )
+  (    1 /BAT_input/analog_sensor_BAT )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E99/4890FC93 R4-SM0805  R105 39k {Lib=R}
-  (    1 /igniter_6/12V_bat )
-  (    2 /analog_protect_2/analog_sensor_in_1 )
+  (    1 /igniter_3/12V_bat )
+  (    2 /BAT_input/analog_sensor_BAT )
  )
  ( /4C2E1E9B/48AA1ACF 1PIN  P38 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E9B/48AA1ACC 1PIN  P37 CONN_1 {Lib=CONN_1}
   (    1 /TPS_IN_1 )
  )
  ( /4C2E1E9B/48AA1AC9 1PIN  P36 CONN_1 {Lib=CONN_1}
-  (    1 /5v_switched )
+  (    1 /analog_protect_4/analog_sensor_vcc )
  )
  ( /4C2E1E9D/4C4AE9AE $noname  C75 33nF {Lib=C}
   (    1 /CHT_IN )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E9D/4C4AE9A4 $noname  C74 1.5nF {Lib=C}
   (    1 N-000164 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E9D/4C4AE98C $noname  C73 1.5nF {Lib=C}
-  (    1 /5v_switched )
-  (    2 GND )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E9D/4C4AE957 $noname  R149 10k {Lib=R}
   (    1 /CHT_IN )
@@ -1653,44 +1655,44 @@
  )
  ( /4C2E1E9D/4C4AE952 $noname  R148 38.3k {Lib=R}
   (    1 N-000164 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E9D/4C4AE94D $noname  R147 2.61k {Lib=R}
-  (    1 /5v_switched )
+  (    1 /analog_protect_4/analog_sensor_vcc )
   (    2 N-000164 )
  )
  ( /4C2E1E9D/48AA1AB3 1PIN  P64 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E9D/48AA1AB0 1PIN  P63 CONN_1 {Lib=CONN_1}
   (    1 N-000164 )
  )
  ( /4C2E1E9F/4C4AE9AE $noname  C78 33nF {Lib=C}
-  (    1 /thermistor_input_1/analog_sensor_TEMP )
-  (    2 GND )
+  (    1 /IAT_IN )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E9F/4C4AE9A4 $noname  C77 1.5nF {Lib=C}
   (    1 N-000165 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E9F/4C4AE98C $noname  C76 1.5nF {Lib=C}
-  (    1 /5v_switched )
-  (    2 GND )
+  (    1 /analog_protect_4/analog_sensor_vcc )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E9F/4C4AE957 $noname  R152 10k {Lib=R}
-  (    1 /thermistor_input_1/analog_sensor_TEMP )
+  (    1 /IAT_IN )
   (    2 N-000165 )
  )
  ( /4C2E1E9F/4C4AE952 $noname  R151 38.3k {Lib=R}
   (    1 N-000165 )
-  (    2 GND )
+  (    2 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E9F/4C4AE94D $noname  R150 2.61k {Lib=R}
-  (    1 /5v_switched )
+  (    1 /analog_protect_4/analog_sensor_vcc )
   (    2 N-000165 )
  )
  ( /4C2E1E9F/48AA1AB3 1PIN  P66 CONN_1 {Lib=CONN_1}
-  (    1 GND )
+  (    1 /thermistor_input_4/analog_sensor_gnd )
  )
  ( /4C2E1E9F/48AA1AB0 1PIN  P65 CONN_1 {Lib=CONN_1}
   (    1 N-000165 )
@@ -3166,351 +3168,333 @@ $endfootprintlist
 }
 { Pin List by Nets
 Net 1 "/analog_input_1/analog_aux" "analog_aux"
- R167 2
- R137 2
- C68 1
  R138 2
-Net 2 "/analog_protect_5/analog_sensor_in_3" "analog_sensor_in_3"
- R168 2
- R135 2
- C67 1
+ R137 2
+ R167 2
+ C68 1
+Net 2 "/MAF_input/analog_aux" "analog_aux"
  R136 2
-Net 3 "/CPU/AN10" "AN10"
- U17 72
+ C67 1
+ R135 2
+ R168 2
+Net 3 "/analog_protect_5/analog_sensor_out_3" "analog_sensor_out_3"
  R172 1
-Net 4 "/thermistor_input_4/analog_sensor_TEMP" "analog_sensor_TEMP"
+ U17 72
+Net 4 "/TEMP_IN_4" "TEMP_IN_4"
+ R169 2
  R158 1
  C84 1
- R169 2
-Net 5 "GND" "GND"
- C91 2
+Net 5 "/thermistor_input_4/analog_sensor_gnd" "analog_sensor_gnd"
  C12 2
- D67 1
- D69 1
- D71 1
- D73 1
- C89 2
- C81 2
- C80 2
- C79 2
- P68 1
- R154 2
- C119 2
- U26 6
- U25 6
- C117 2
- C92 2
- C90 2
- P70 1
- R157 2
  C82 2
- C83 2
- C84 2
- C121 2
- U27 6
- U18 4
- U18 3
- C123 2
- U28 6
- C5 2
- P62 1
- U4 2
- C10 2
- C67 2
- P60 1
+ R157 2
  C8 2
  C11 2
  C9 2
+ P70 1
+ C115 2
+ C84 2
+ U4 2
+ C10 2
+ C83 2
+ C81 2
+ C80 2
+ C79 2
+ U26 6
+ R154 2
+ P68 1
+ C119 2
+ U24 6
+ C117 2
+ U25 6
+ U18 3
+ U18 4
+ P62 1
+ C68 2
+ P60 1
+ C67 2
+ C90 2
+ C121 2
+ U27 6
  C107 2
  U2 GND
+ D71 1
+ D69 1
  C6 2
- C68 2
+ D67 1
  C2 2
  C3 2
- U17 48
+ C5 2
+ C89 2
+ D73 1
+ C92 2
+ C91 2
+ C88 2
+ C87 2
+ U17 40
  D65 1
- U17 86
  D63 1
  D61 1
+ C86 2
+ C85 2
+ C78 2
+ C77 2
+ C76 2
+ C75 2
+ C74 2
+ C73 2
+ R148 2
+ P64 1
+ P38 1
+ R106 2
  D59 1
- C102 1
+ P74 2
  P19 1
+ P66 1
+ R151 2
+ U5 3
+ C102 1
  U17 106
+ U17 48
+ C66 1
+ U6 3
  R177 2
  R178 2
- C85 2
+ C23 2
+ C24 1
  C98 1
- C88 2
  C99 1
  C100 1
- C101 1
- C87 2
- C96 2
- C97 1
- C95 1
- C76 2
- C77 2
- C78 2
- R151 2
- P66 1
- U17 66
- U17 40
- U17 85
- U17 45
- U17 14
- R106 2
- P74 2
- P38 1
- P64 1
- R148 2
- C73 2
- C74 2
- C75 2
  U23 6
- P57 1
+ C113 2
  C111 2
- D24 1
  U22 6
- D26 1
  C109 2
- C29 2
- U24 6
  C20 2
  C21 1
  C19 2
- C115 2
- U5 3
- C66 1
- U6 3
- C113 2
- C23 2
- C24 1
- C106 2
- C86 2
- D32 1
  U21 6
- D34 1
- D36 1
  D75 1
+ C96 2
+ C97 1
+ C95 1
  C31 2
  C30 2
+ C106 2
+ C101 1
+ P57 1
+ U17 14
+ D24 1
+ U17 86
+ U17 66
+ U17 85
+ U17 45
+ D26 1
+ C29 2
+ D32 1
+ D34 1
+ D36 1
+ C126 2
+ U29 4
+ U29 5
+ U29 6
+ U29 9
+ C128 2
+ U30 4
+ U30 5
+ U30 6
+ U30 9
+ U28 6
+ C124 1
+ C123 2
+ U31 6
+ U31 7
+ R221 2
  C131 2
+ U31 18
+ U31 19
+ P5 1
+ C130 2
  R219 2
  C129 2
- U29 9
- C130 2
- U29 6
- U19 8
- U29 5
- U29 4
- C126 2
- U31 19
- U31 18
- C104 2
- R182 1
- R183 1
  U20 21
  U20 7
- U31 7
- U31 6
- R221 2
- U30 9
- U30 6
- U30 5
- U30 4
- C128 2
- P5 1
- U20 25
- R185 2
  U20 18
+ C104 2
+ U19 8
+ U20 25
  U20 26
- C105 2
+ R182 1
  J1 4
- C124 1
-Net 8 "/thermistor_input_3/analog_sensor_TEMP" "analog_sensor_TEMP"
+ C105 2
+ R185 2
+ R183 1
+Net 6 "/CPU/PP1" "PP1"
+ U17 3
+ U19 2
+Net 9 "/thermistor_input_3/analog_sensor_TEMP" "analog_sensor_TEMP"
  R155 1
- C81 1
  R170 2
-Net 16 "/CPU/PT3" "PT3"
+ C81 1
+Net 17 "/CPU/PT3" "PT3"
  U17 12
  U19 6
-Net 17 "/CPU/PT2" "PT2"
- U19 7
+Net 18 "/CPU/PT2" "PT2"
  U17 11
-Net 18 "/CPU/PT0" "PT0"
+ U19 7
+Net 19 "/digi_protect_rpm1/digi_CPU" "digi_CPU"
  R39 2
  U17 9
-Net 25 "/CPU/PP0" "PP0"
- U17 4
+Net 26 "/CPU/PP0" "PP0"
  U19 3
-Net 26 "/CPU/VCC" "VCC"
- U17 107
- R179 2
- C102 2
- R180 2
- R181 2
- U17 97
- U20 20
- C100 2
- U20 4
- C105 1
- C101 2
- C99 2
- C98 2
- P74 6
- C5 1
- U17 65
- U17 84
- C6 1
- U17 13
- D92 1
- U2 VO
- U17 41
- U17 83
-Net 27 "/stepper_driver/PHASE2" "PHASE2"
- R223 2
+ U17 4
+Net 27 "/CPU/PA3" "PA3"
  U17 60
-Net 28 "/ind_stepper_2" "ind_stepper_2"
- R225 1
+ R223 2
+Net 28 "/stepper_driver/PHASE1" "PHASE1"
  U17 58
-Net 29 "/ind_stepper_1" "ind_stepper_1"
- U17 57
- R224 1
-Net 43 "/analog_protect_5/analog_sensor_out_1" "analog_sensor_out_1"
+ R225 1
+Net 42 "/analog_protect_5/analog_sensor_out_1" "analog_sensor_out_1"
  R174 1
  U17 81
-Net 46 "/CPU/PT5" "PT5"
- U19 4
+Net 45 "/CPU/PT5" "PT5"
  U17 16
-Net 47 "/CPU/PT4" "PT4"
+ U19 4
+Net 46 "/CPU/PT4" "PT4"
  U17 15
  U19 5
-Net 48 "/power_gnd" "power_gnd"
- R207 1
- R64 2
- C36 2
- R195 1
- R62 2
- R210 1
- U21 5
- R189 1
- Q7 3
- U23 5
- R192 1
- U22 5
- U28 5
- R18 1
- Q1 3
- P4 1
+Net 47 "/injector_drive_6/inductive_power_gnd" "inductive_power_gnd"
+ D79 1
  Q9 3
- D16 1
- D77 1
- U19 9
- R22 1
- Q2 3
- D76 1
+ U22 5
+ Q3 3
+ R26 1
+ U23 5
  R74 2
- R218 2
- R220 1
- D14 1
- D12 1
- R72 2
  C39 2
- D10 1
- R201 1
- U25 5
- R204 1
+ R72 2
+ R192 1
  R30 1
  Q4 3
- U26 5
- R66 2
- U27 5
- R198 1
- U24 5
- Q8 3
- D79 1
- R68 2
- R26 1
- C37 2
- Q3 3
  D78 1
-Net 49 "/ind_fuel_pump" "ind_fuel_pump"
+ U19 9
+ R64 2
+ C36 2
+ R62 2
+ Q7 3
+ R189 1
+ U21 5
+ R68 2
+ C37 2
+ R66 2
+ Q8 3
+ D12 1
+ D10 1
+ R218 2
+ R220 1
+ U26 5
+ R18 1
+ Q1 3
+ D16 1
+ R204 1
+ D14 1
+ R210 1
+ U28 5
+ P4 1
+ U27 5
+ U24 5
+ D76 1
+ R22 1
+ Q2 3
+ R201 1
+ D77 1
+ R207 1
+ R198 1
+ U25 5
+ R195 1
+Net 48 "/ind_fuel_pump" "ind_fuel_pump"
  U19 15
  R71 2
-Net 50 "/injector_drive_8/inductive_power_drive" "inductive_power_drive"
- U17 31
+Net 49 "/injector_drive_8/inductive_power_drive" "inductive_power_drive"
  R209 2
-Net 51 "/ind_pd_7" "ind_pd_7"
- R206 2
+ U17 31
+Net 50 "/CPU/PB6" "PB6"
  U17 30
-Net 52 "/5v_switched" "5v_switched"
- D58 2
+ R206 2
+Net 51 "/CPU/PA0" "PA0"
+ R224 1
+ U17 57
+Net 52 "/analog_protect_4/analog_sensor_vcc" "analog_sensor_vcc"
  D64 2
- C76 1
- U19 16
- C73 1
- R150 1
- U19 1
- R147 1
- P36 1
+ R135 1
+ R137 1
  D62 2
- C82 1
- R156 1
- U31 15
- D68 2
- D66 2
- C107 1
- D72 2
- D70 2
- R208 2
- U24 7
- R202 2
- U25 7
- U26 7
- R205 2
- C130 1
- R153 1
- U27 7
+ P36 1
  U18 7
  U18 5
- C79 1
- R137 1
- R214 1
- C12 1
- R217 1
- C11 1
- C128 1
- U29 10
- D4 1
- U30 10
- C10 1
- U4 3
- R135 1
- U21 7
- C126 1
- R211 2
- D31 2
- R190 2
+ R208 2
  D60 2
- C124 2
- D74 2
- D33 2
- D35 2
- C20 1
+ D68 2
+ U28 7
+ C73 1
+ D58 2
+ R147 1
+ U19 1
+ C107 1
+ C105 1
+ U27 7
+ C76 1
+ U20 20
+ U20 4
+ R150 1
+ U19 16
  C23 1
- R196 2
  U6 2
  P56 1
+ R205 2
  R133 1
- R199 2
- C19 1
- U31 11
- U31 13
- U5 2
+ U31 15
+ C79 1
+ R153 1
  U22 7
- U28 7
+ R202 2
  R193 2
+ U24 7
+ R196 2
+ R199 2
  U23 7
+ U26 7
+ U5 2
+ U21 7
+ C19 1
+ U31 13
+ U31 11
+ C20 1
+ R190 2
+ U25 7
+ D72 2
+ D70 2
+ C124 2
+ U29 10
+ D33 2
+ D66 2
+ R211 2
+ D74 2
+ U30 10
+ D31 2
+ U4 3
+ C10 1
+ C128 1
+ D4 1
+ C82 1
+ R217 1
+ C130 1
+ C11 1
+ R156 1
+ C12 1
+ C126 1
+ D35 2
+ R214 1
 Net 53 "/analog_protect_2/analog_sensor_out_4" "analog_sensor_out_4"
  U17 74
  R187 1
@@ -3520,177 +3504,195 @@ Net 54 "/thermocouple_amplifier/temp_output" "temp_output"
 Net 55 "/CPU/AN03" "AN03"
  U17 73
  R166 1
-Net 56 "/CPU/AN00" "AN00"
- U17 67
+Net 56 "/analog_protect_4/analog_sensor_out_4" "analog_sensor_out_4"
  R163 1
-Net 57 "/CPU/AN01" "AN01"
- U17 69
+ U17 67
+Net 57 "/analog_protect_4/analog_sensor_out_3" "analog_sensor_out_3"
  R164 1
+ U17 69
 Net 58 "/analog_protect_4/analog_sensor_out_2" "analog_sensor_out_2"
  R165 1
  U17 71
 Net 59 "/ind_gpd_1" "ind_gpd_1"
  U19 14
  R61 2
-Net 60 "/ind_gpd_2" "ind_gpd_2"
+Net 60 "/CPU/PA4" "PA4"
  R65 2
  U17 61
 Net 61 "/RPM_input_1/RPM_out" "RPM_out"
- U29 7
  R214 2
+ U29 7
  R40 1
-Net 62 "/RPM_input_2/RPM_out" "RPM_out"
+Net 62 "/digi_protect_rpm2/digi_device" "digi_device"
  U30 7
  R42 1
  R217 2
 Net 63 "/CHT_IN" "CHT_IN"
+ R160 2
  R149 1
  C75 1
- R160 2
-Net 64 "/thermistor_input_1/analog_sensor_TEMP" "analog_sensor_TEMP"
- C78 1
+Net 64 "/IAT_IN" "IAT_IN"
  R152 1
+ C78 1
  R159 2
-Net 65 "/analog_protect_2/analog_sensor_out_1" "analog_sensor_out_1"
- R52 1
+Net 65 "/CPU/AN06" "AN06"
  U17 79
-Net 66 "/MAP_input/analog_sensor_MAP" "analog_sensor_MAP"
- C66 2
- R134 2
+ R52 1
+Net 66 "/MAP_IN" "MAP_IN"
  R133 2
+ R134 2
  R47 2
-Net 67 "/analog_protect_2/analog_sensor_out_3" "analog_sensor_out_3"
+ C66 2
+Net 67 "/CPU/AN04" "AN04"
  U17 75
  R50 1
-Net 68 "/AAP_IN" "AAP_IN"
+Net 68 "/MAP_input_baro/analog_sensor_MAP" "analog_sensor_MAP"
  U5 4
  C21 2
  R48 2
 Net 69 "/CPU/AN05" "AN05"
  U17 77
  R51 1
-Net 70 "/ind_pd_4" "ind_pd_4"
+Net 70 "/injector_drive_4/inductive_power_drive" "inductive_power_drive"
  R194 2
  U17 27
-Net 71 "/ind_pd_5" "ind_pd_5"
+Net 71 "/injector_drive_5/inductive_power_drive" "inductive_power_drive"
  R191 2
  U17 28
-Net 72 "/CPU/PB5" "PB5"
- U17 29
+Net 72 "/ind_pd_6" "ind_pd_6"
  R188 2
-Net 73 "/igniter_6/12V_bat" "12V_bat"
- P20 1
- P8 1
- R21 2
- P79 1
- P77 1
+ U17 29
+Net 73 "/igniter_3/12V_bat" "12V_bat"
+ R29 2
+ P12 1
  P75 1
+ U31 24
+ P87 1
+ P89 1
+ P8 1
+ P81 1
+ P79 1
  R25 2
  P10 1
- P85 1
- R29 2
- D45 1
- P12 1
- P83 1
- P81 1
+ P77 1
  F3 2
- P87 1
- R105 1
- U31 24
- P89 1
- D49 1
- P24 1
- P6 1
+ P85 1
  R17 2
- D46 1
+ P6 1
+ P83 1
+ R21 2
+ R105 1
  P22 1
+ D46 1
+ D45 1
+ P20 1
+ P24 1
+ D49 1
 Net 74 "/ind_pd_3" "ind_pd_3"
- U17 26
  R197 2
-Net 75 "/CPU/PB1" "PB1"
- U17 25
+ U17 26
+Net 75 "/ind_pd_2" "ind_pd_2"
  R200 2
-Net 76 "/CPU/PB0" "PB0"
- R203 2
+ U17 25
+Net 76 "/ind_pd_1" "ind_pd_1"
  U17 24
-Net 77 "/analog_protect_2/analog_sensor_in_1" "analog_sensor_in_1"
- R49 2
+ R203 2
+Net 77 "/BAT_input/analog_sensor_BAT" "analog_sensor_BAT"
  R105 2
  R106 1
+ R49 2
 Net 78 "/TPS_IN_1" "TPS_IN_1"
- P37 1
  R161 2
+ P37 1
 Net 90 "" ""
- P2 1
  F3 1
+ P2 1
 Net 91 "" ""
  F1 1
  P3 1
-Net 94 "/ind_dr_3" "ind_dr_3"
- R9 2
+Net 94 "/digi_protect__I4/digi_CPU" "digi_CPU"
  U19 12
-Net 95 "/digi_protect__I5/digi_CPU" "digi_CPU"
+ R9 2
+Net 95 "/ind_dr_2" "ind_dr_2"
  R11 2
  U19 11
 Net 96 "/digi_protect__I6/digi_CPU" "digi_CPU"
- U19 10
  R13 2
-Net 97 "/igniter_6/low_power_inductive_drive" "low_power_inductive_drive"
- R15 2
+ U19 10
+Net 97 "/digi_protect__I6/digi_device" "digi_device"
  R14 1
-Net 98 "/digi_protect__I5/digi_device" "digi_device"
+ R15 2
+Net 98 "/igniter_5/low_power_inductive_drive" "low_power_inductive_drive"
  R12 1
  R19 2
 Net 99 "/digi_protect__I4/digi_device" "digi_device"
- R23 2
  R10 1
-Net 102 "/O2 INPUT/analog_O2" "analog_O2"
+ R23 2
+Net 102 "/O2_IN_1" "O2_IN_1"
  P18 1
  R162 2
-Net 103 "/voltage regulator (switched)/12v batt" "12v batt"
+Net 103 "/voltage regulator (cpu)/12v batt" "12v batt"
+ D1 1
  D3 1
  F1 2
- D1 1
 Net 104 "/ind_dr_4" "ind_dr_4"
  U19 13
  R7 2
 Net 105 "/digi_protect__I3/digi_device" "digi_device"
  R8 1
  R27 2
-Net 106 "/CPU/PP1" "PP1"
- U17 3
- U19 2
-Net 109 "/RPM_IN_2" "RPM_IN_2"
+Net 106 "/CPU/VCC" "VCC"
+ C6 1
+ P74 6
+ C5 1
+ U2 VO
+ D92 1
+ U17 84
+ R181 2
+ R179 2
+ C98 2
+ U17 65
+ C99 2
+ U17 97
+ C100 2
+ C101 2
+ U17 13
+ U17 83
+ R180 2
+ C102 2
+ U17 41
+ U17 107
+Net 108 "/RPM_IN_2" "RPM_IN_2"
  U17 10
  R41 2
-Net 110 "/CPU/PA2" "PA2"
- U17 59
+Net 109 "/ind_stepper_3" "ind_stepper_3"
  R222 2
+ U17 59
 Net 113 "/CPU/AN13" "AN13"
  U17 78
  R171 1
-Net 114 "/CPU/AN12" "AN12"
- R173 1
+Net 114 "/analog_protect_5/analog_sensor_out_2" "analog_sensor_out_2"
  U17 76
+ R173 1
 Net 115 "" ""
  U2 VI
  D92 2
- C3 1
  D1 2
  C2 1
+ C3 1
 Net 116 "" ""
- R2 1
  D3 2
+ R2 1
 Net 117 "" ""
- D4 2
  U4 1
  C9 1
- R2 2
  C8 1
+ R2 2
+ D4 2
 Net 118 "" ""
- R8 2
  R7 1
  D10 2
+ R8 2
 Net 119 "" ""
  R9 1
  D12 2
@@ -3704,12 +3706,12 @@ Net 121 "" ""
  D16 2
  R13 1
 Net 122 "" ""
- Q1 1
  R18 2
  R15 1
+ Q1 1
 Net 123 "" ""
- D17 1
  R17 1
+ D17 1
 Net 124 "" ""
  P7 1
  D17 2
@@ -3720,535 +3722,541 @@ Net 125 "" ""
  R22 2
  Q2 1
 Net 126 "" ""
- R21 1
  D18 1
+ R21 1
 Net 127 "" ""
- D77 2
  Q2 2
- P9 1
  D18 2
+ P9 1
+ D77 2
 Net 128 "" ""
- Q3 1
  R26 2
+ Q3 1
  R23 1
 Net 129 "" ""
  D19 1
  R25 1
 Net 130 "" ""
- D19 2
- Q3 2
  P11 1
  D78 2
+ D19 2
+ Q3 2
 Net 131 "" ""
  Q4 1
- R27 1
  R30 2
+ R27 1
 Net 132 "" ""
  D20 1
  R29 1
 Net 133 "" ""
- P13 1
- D20 2
- Q4 2
  D79 2
+ Q4 2
+ D20 2
+ P13 1
 Net 144 "" ""
  C24 2
  U6 4
- P58 1
  R134 1
+ P58 1
 Net 145 "" ""
- R39 1
  D24 2
  R40 2
+ R39 1
 Net 146 "" ""
- R41 1
- D26 2
  R42 2
+ D26 2
+ R41 1
 Net 147 "" ""
  D31 1
- R50 2
  R47 1
  C29 1
  D32 2
+ R50 2
 Net 148 "" ""
- D36 2
  R52 2
  C31 1
  R49 1
  D35 1
+ D36 2
 Net 149 "" ""
+ C30 1
  R48 1
  D33 1
- R51 2
  D34 2
- C30 1
+ R51 2
 Net 150 "" ""
- C106 1
  R186 1
  D74 1
  R187 2
  D75 2
+ C106 1
 Net 151 "" ""
  D61 2
+ R164 2
  D60 1
  R160 1
  C86 1
- R164 2
 Net 152 "" ""
- R163 2
- D59 2
  D58 1
+ D59 2
  R159 1
  C85 1
+ R163 2
 Net 153 "" ""
- D65 2
- R166 2
  D64 1
- C88 1
  R162 1
+ C88 1
+ R166 2
+ D65 2
 Net 154 "" ""
- C87 1
  R165 2
  D63 2
- R161 1
  D62 1
+ R161 1
+ C87 1
 Net 155 "" ""
  D45 2
  R63 2
 Net 156 "" ""
- R62 1
  R61 1
+ R62 1
  Q7 1
 Net 157 "" ""
  R64 1
  C36 1
- Q7 2
- R63 1
  P21 1
+ R63 1
+ Q7 2
 Net 158 "" ""
  D46 2
  R67 2
 Net 159 "" ""
- R65 1
  R66 1
  Q8 1
+ R65 1
 Net 160 "" ""
- Q8 2
- R67 1
- C37 1
  P23 1
  R68 1
+ R67 1
+ Q8 2
+ C37 1
 Net 161 "" ""
  D49 2
  R73 2
 Net 162 "" ""
- Q9 1
- R72 1
  R71 1
+ R72 1
+ Q9 1
 Net 163 "" ""
+ R74 1
  C39 1
+ P25 1
  R73 1
  Q9 2
- R74 1
- P25 1
 Net 164 "" ""
+ C74 1
+ R149 2
+ R148 1
  R147 2
  P63 1
- R148 1
- R149 2
- C74 1
 Net 165 "" ""
+ P65 1
+ R150 2
  R151 1
  R152 2
- R150 2
- P65 1
  C77 1
-Net 166 "" ""
+Net 166 "/CPU/Sheet4CB8DC30/VCC-USB" "VCC-USB"
+ J1 1
+ R184 2
+Net 169 "/CPU/BKGD" "BKGD"
+ P74 1
+ R180 1
+ U17 23
+Net 170 "" ""
+ P71 4
  U17 93
- P71 1
-Net 167 "" ""
- P71 3
+Net 171 "" ""
+ P71 2
  U17 95
-Net 168 "/CPU/Sheet4CB8DC30/TX" "TX"
+Net 172 "/CPU/RXCAN3" "RXCAN3"
+ P71 5
+ U17 88
+Net 173 "" ""
+ P71 1
+ U17 96
+Net 174 "" ""
+ U17 94
+ P71 3
+Net 175 "/CPU/Sheet4CB8DC30/RX" "RX"
+ U17 90
+ U20 5
+Net 176 "/CPU/Sheet4CB8DC30/TX" "TX"
  U17 89
  U20 1
-Net 169 "" ""
- U17 44
- C94 1
- R175 1
-Net 170 "" ""
- U17 36
+Net 177 "" ""
+ R178 1
+ U17 37
+Net 178 "" ""
  R179 1
-Net 171 "" ""
- U17 46
- R176 1
- C96 1
- X3 1
-Net 172 "/CPU/RESET" "RESET"
- R181 1
- P74 4
- U17 42
-Net 173 "" ""
+ U17 36
+Net 179 "" ""
  R177 1
  U17 38
-Net 174 "" ""
+Net 180 "" ""
+ C93 1
+ R175 2
+Net 181 "" ""
+ U17 46
+ C96 1
+ R176 1
+ X3 1
+Net 182 "" ""
  U17 47
+ R176 2
  C97 2
  X3 2
- R176 2
-Net 177 "/CPU/Sheet4CB8DC30/RX" "RX"
- U20 5
- U17 90
-Net 178 "" ""
- U17 94
- P71 2
-Net 179 "" ""
- P71 4
- U17 96
-Net 180 "/CPU/BKGD" "BKGD"
- P74 1
- U17 23
- R180 1
-Net 181 "" ""
+Net 183 "" ""
+ C94 1
+ U17 44
+ R175 1
+Net 184 "" ""
+ U17 43
  C93 2
  C95 2
  C94 2
- U17 43
-Net 182 "" ""
- R175 2
- C93 1
-Net 183 "" ""
- R178 1
- U17 37
-Net 184 "/CPU/Sheet4CB8DC30/VCC-USB" "VCC-USB"
- J1 1
- R184 2
-Net 185 "" ""
+Net 185 "/CPU/RESET" "RESET"
+ P74 4
+ U17 42
+ R181 1
+Net 186 "/CPU/TXCAN3" "TXCAN3"
+ P71 6
+ U17 87
+Net 187 "" ""
  U21 3
  C108 2
-Net 186 "" ""
- Q10 1
- D84 1
- U21 4
- R189 2
-Net 187 "" ""
- D84 2
- P76 1
- Q10 3
 Net 188 "" ""
- R188 1
- U21 1
+ U21 4
+ D84 1
+ Q10 1
+ R189 2
 Net 189 "" ""
+ Q10 3
+ P76 1
+ D84 2
+Net 190 "" ""
+ U21 1
+ R188 1
+Net 191 "" ""
+ Q10 2
+ U21 2
+ C108 1
+Net 192 "" ""
  C109 1
  U21 8
  R190 1
-Net 190 "" ""
- C108 1
- Q10 2
- U21 2
-Net 191 "" ""
- D85 2
- P78 1
- Q11 3
-Net 192 "" ""
- R192 2
- U22 4
- Q11 1
- D85 1
 Net 193 "" ""
  C110 2
  U22 3
 Net 194 "" ""
- R191 1
- U22 1
+ D85 1
+ R192 2
+ Q11 1
+ U22 4
 Net 195 "" ""
- U22 2
- Q11 2
- C110 1
+ P78 1
+ D85 2
+ Q11 3
 Net 196 "" ""
- U22 8
+ U22 1
+ R191 1
+Net 197 "" ""
+ Q11 2
+ U22 2
+ C110 1
+Net 198 "" ""
  C111 1
  R193 1
-Net 197 "" ""
- Q12 3
- D86 2
- P80 1
-Net 198 "" ""
+ U22 8
+Net 199 "" ""
  C112 2
  U23 3
-Net 199 "" ""
+Net 200 "" ""
+ Q12 1
+ R195 2
+ D86 1
+ U23 4
+Net 201 "" ""
  R194 1
  U23 1
-Net 200 "" ""
- U23 2
- C112 1
- Q12 2
-Net 201 "" ""
- D86 1
- R195 2
- Q12 1
- U23 4
 Net 202 "" ""
  U23 8
  C113 1
  R196 1
 Net 203 "" ""
- U24 4
- Q13 1
- R198 2
- D87 1
+ Q12 3
+ D86 2
+ P80 1
 Net 204 "" ""
- D87 2
- Q13 3
- P82 1
+ C112 1
+ Q12 2
+ U23 2
 Net 205 "" ""
+ P82 1
+ Q13 3
+ D87 2
+Net 206 "" ""
  R197 1
  U24 1
-Net 206 "" ""
+Net 207 "" ""
+ Q13 1
+ D87 1
+ R198 2
+ U24 4
+Net 208 "" ""
  C114 2
  U24 3
-Net 207 "" ""
- U24 8
+Net 209 "" ""
  R199 1
  C115 1
-Net 208 "" ""
+ U24 8
+Net 210 "" ""
+ U24 2
  Q13 2
  C114 1
- U24 2
-Net 209 "" ""
- U25 4
- Q14 1
- R201 2
- D88 1
-Net 210 "" ""
- D88 2
- Q14 3
- P84 1
 Net 211 "" ""
+ P84 1
+ Q14 3
+ D88 2
+Net 212 "" ""
  U25 1
  R200 1
-Net 212 "" ""
- C116 2
- U25 3
 Net 213 "" ""
- R202 1
- U25 8
- C117 1
+ Q14 1
+ D88 1
+ U25 4
+ R201 2
 Net 214 "" ""
- C116 1
- Q14 2
- U25 2
+ U25 3
+ C116 2
 Net 215 "" ""
- U26 2
- Q15 2
- C118 1
+ C116 1
+ U25 2
+ Q14 2
 Net 216 "" ""
+ R202 1
+ C117 1
+ U25 8
+Net 217 "" ""
  U26 3
  C118 2
-Net 217 "" ""
+Net 218 "" ""
+ Q15 1
+ R204 2
+ U26 4
+ D89 1
+Net 219 "" ""
  Q15 3
  P86 1
  D89 2
-Net 218 "" ""
+Net 220 "" ""
  U26 1
  R203 1
-Net 219 "" ""
- R204 2
- Q15 1
- U26 4
- D89 1
-Net 220 "" ""
+Net 221 "" ""
+ Q15 2
+ U26 2
+ C118 1
+Net 222 "" ""
  C119 1
  R205 1
  U26 8
-Net 221 "" ""
+Net 223 "" ""
  C80 1
  P67 1
+ R155 2
  R153 2
  R154 1
- R155 2
-Net 222 "" ""
- R158 2
- C83 1
+Net 224 "" ""
  R157 1
  R156 2
+ C83 1
  P69 1
-Net 223 "" ""
- D69 2
- R172 2
- D68 1
- R168 1
- C90 1
-Net 224 "" ""
+ R158 2
+Net 225 "" ""
+ R173 2
+ C91 1
+ D71 2
+ R169 1
+ D70 1
+Net 226 "" ""
  R174 2
  C92 1
  R170 1
  D72 1
  D73 2
-Net 225 "" ""
- R169 1
- D70 1
- C91 1
- D71 2
- R173 2
-Net 226 "" ""
- D66 1
+Net 227 "" ""
+ D67 2
  R171 2
  C89 1
  R167 1
- D67 2
-Net 227 "" ""
- P59 1
- R136 1
+ D66 1
 Net 228 "" ""
+ D68 1
+ R168 1
+ C90 1
+ R172 2
+ D69 2
+Net 229 "" ""
+ R136 1
+ P59 1
+Net 230 "" ""
  P61 1
  R138 1
-Net 230 "" ""
+Net 232 "" ""
  P73 1
  U18 8
-Net 231 "" ""
- U18 1
- P72 1
-Net 232 "" ""
- U27 2
- C120 1
- Q16 2
 Net 233 "" ""
- C120 2
- U27 3
+ P72 1
+ U18 1
 Net 234 "" ""
- Q16 1
- R207 2
- D90 1
- U27 4
-Net 235 "" ""
- D90 2
- Q16 3
- P88 1
-Net 236 "" ""
  R206 1
  U27 1
+Net 235 "" ""
+ P88 1
+ D90 2
+ Q16 3
+Net 236 "" ""
+ D90 1
+ R207 2
+ Q16 1
+ U27 4
 Net 237 "" ""
- U27 8
- C121 1
- R208 1
+ C120 2
+ U27 3
 Net 238 "" ""
- C122 2
- U28 3
+ Q16 2
+ C120 1
+ U27 2
 Net 239 "" ""
- Q17 1
- R210 2
- D91 1
- U28 4
+ U27 8
+ R208 1
+ C121 1
 Net 240 "" ""
- D91 2
  Q17 3
+ D91 2
  P90 1
 Net 241 "" ""
- U28 1
- R209 1
+ U28 4
+ Q17 1
+ D91 1
+ R210 2
 Net 242 "" ""
- C123 1
- R211 1
- U28 8
+ U28 3
+ C122 2
 Net 243 "" ""
- U28 2
- C122 1
- Q17 2
+ R209 1
+ U28 1
 Net 244 "" ""
- R213 2
- P92 1
+ R211 1
+ C123 1
+ U28 8
 Net 245 "" ""
+ C122 1
+ U28 2
+ Q17 2
+Net 246 "" ""
+ P92 1
+ R213 2
+Net 247 "" ""
  P91 1
  R212 2
-Net 248 "" ""
- C125 1
- R212 1
+Net 250 "" ""
  U29 1
-Net 249 "" ""
+ R212 1
+ C125 1
+Net 251 "" ""
  C125 2
  R213 1
  U29 2
-Net 250 "" ""
+Net 252 "" ""
  R216 2
  P94 1
-Net 251 "" ""
+Net 253 "" ""
  R215 2
  P93 1
-Net 254 "" ""
+Net 256 "" ""
+ C127 1
  R215 1
  U30 1
- C127 1
-Net 255 "" ""
- U30 2
- R216 1
- C127 2
-Net 256 "" ""
- R220 2
- U31 23
- U31 22
 Net 257 "" ""
- U31 3
- U31 4
- R218 1
+ C127 2
+ R216 1
+ U30 2
 Net 258 "" ""
+ U31 5
+ P95 1
+Net 259 "" ""
+ R225 2
+ U31 16
+Net 260 "" ""
  U31 12
  C129 1
  R219 1
-Net 259 "" ""
- R221 1
+Net 261 "" ""
  U31 14
  C131 1
-Net 260 "" ""
- P97 1
- U31 2
-Net 261 "" ""
- P98 1
- U31 21
+ R221 1
 Net 262 "" ""
- U31 16
- R225 2
-Net 263 "" ""
- R222 1
- U31 8
- U31 9
-Net 264 "" ""
- U31 5
- P95 1
-Net 265 "" ""
  P96 1
  U31 1
+Net 263 "" ""
+ U31 23
+ R220 2
+ U31 22
+Net 264 "" ""
+ U31 3
+ U31 4
+ R218 1
+Net 265 "" ""
+ U31 9
+ U31 8
+ R222 1
 Net 266 "" ""
+ P97 1
+ U31 2
+Net 267 "" ""
+ R223 1
+ U31 10
+Net 268 "" ""
+ P98 1
+ U31 21
+Net 269 "" ""
+ U31 20
  R224 2
  U31 17
- U31 20
-Net 267 "" ""
- U31 10
- R223 1
-Net 279 "" ""
- U20 23
+Net 270 "" ""
+ U20 16
+ J1 2
+Net 271 "" ""
  D82 1
-Net 280 "" ""
- D83 1
+ U20 23
+Net 272 "" ""
+ D83 2
+ R183 2
+Net 274 "" ""
  U20 22
-Net 281 "" ""
- D82 2
+ D83 1
+Net 275 "" ""
  R182 2
-Net 282 "" ""
+ D82 2
+Net 281 "" ""
  U20 17
  C104 1
-Net 283 "" ""
- J1 3
+Net 282 "" ""
  U20 15
-Net 286 "" ""
+ J1 3
+Net 283 "" ""
+ R184 1
  U20 19
  R185 1
- R184 1
-Net 287 "" ""
- R183 2
- D83 2
-Net 288 "" ""
- J1 2
- U20 16
 }
 #End

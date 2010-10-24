@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 15 Oct 2010 07:57:43 PM ART
+EESchema Schematic File Version 2  date Sun 24 Oct 2010 05:17:02 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A2 23400 16535
 Sheet 1 44
 Title "freeEMS 1.0 ARG"
-Date "15 oct 2010"
+Date "24 oct 2010"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,6 +41,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 7200 2850
+Wire Wire Line
+	7800 2850 5300 2850
 Wire Wire Line
 	15000 13300 12200 13300
 Wire Wire Line
@@ -65,10 +68,6 @@ Wire Wire Line
 Connection ~ 14850 1400
 Wire Wire Line
 	18850 1400 7200 1400
-Wire Wire Line
-	7800 2850 7400 2850
-Wire Wire Line
-	7400 2850 7400 3050
 Wire Wire Line
 	7300 8050 7300 8100
 Connection ~ 18150 2150
@@ -453,8 +452,6 @@ Wire Wire Line
 	18850 8650 18000 8650
 Connection ~ 18200 9400
 Wire Wire Line
-	5300 2850 7200 2850
-Wire Wire Line
 	5350 3600 5300 3600
 Wire Wire Line
 	19000 2750 18000 2750
@@ -544,7 +541,7 @@ Wire Bus Line
 Wire Wire Line
 	14850 5200 14850 1400
 Wire Wire Line
-	7200 2850 7200 1400
+	7200 1400 7200 2850
 Wire Wire Line
 	9150 3650 10100 3650
 Wire Wire Line
@@ -594,6 +591,10 @@ Wire Wire Line
 Connection ~ 14850 12000
 Wire Wire Line
 	12200 12850 15000 12850
+Wire Wire Line
+	7400 3050 7400 2950
+Wire Wire Line
+	7400 2950 7800 2950
 $Comp
 L GND #PWR01
 U 1 1 4CB3CDC4
@@ -703,7 +704,8 @@ F81 "AN01" B L 7800 5800 60
 F82 "AN02" B L 7800 5700 60 
 F83 "AN03" B L 7800 5600 60 
 F84 "5v_analog" I L 7800 3050 60 
-F85 "5v_digital" I L 7800 2850 60 
+F85 "5v_digital" I L 7800 2950 60 
+F86 "5v_switched" I L 7800 2850 60 
 $EndSheet
 Text Label 9250 3250 0    60   ~ 0
 ind_stepper_4
