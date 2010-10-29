@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 24 Oct 2010 05:17:02 PM ART
+EESchema Schematic File Version 2  date Fri 29 Oct 2010 12:01:49 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 38 44
+Sheet 42 44
 Title "freeEMS 1.0"
-Date "24 oct 2010"
+Date "29 oct 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 "TPS_input.sch"
@@ -41,46 +41,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_1 P38
-U 1 1 48AA1ACF
-P 4450 2050
-F 0 "P38" H 4530 2050 40  0000 L CNN
-F 1 "CONN_1" H 4450 2105 30  0001 C CNN
-F 2 "1PIN" V 1130 2600 60  0001 C CNN
-	1    4450 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P37
-U 1 1 48AA1ACC
-P 4450 1950
-F 0 "P37" H 4530 1950 40  0000 L CNN
-F 1 "CONN_1" H 4450 2005 30  0001 C CNN
-F 2 "1PIN" V 1130 2600 60  0001 C CNN
-	1    4450 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P36
-U 1 1 48AA1AC9
-P 4450 1850
-F 0 "P36" H 4530 1850 40  0000 L CNN
-F 1 "CONN_1" H 4450 1905 30  0001 C CNN
-F 2 "1PIN" V 1130 2600 60  0001 C CNN
-	1    4450 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 2050 4300 2200
+Text GLabel 4300 2200 2    60   Input ~ 0
+connector_22
+Text GLabel 4300 1700 2    60   Input ~ 0
+connector_20
+Text GLabel 4300 1950 2    60   Input ~ 0
+connector_21
 Wire Wire Line
 	4300 2200 3250 2200
 Wire Wire Line
 	4300 1950 3250 1950
 Wire Wire Line
 	3250 1700 4300 1700
-Wire Wire Line
-	4300 1700 4300 1850
 Text HLabel 3250 1700 0    60   Input ~ 0
 5v_reg
 Text HLabel 3250 2200 0    60   BiDi ~ 0

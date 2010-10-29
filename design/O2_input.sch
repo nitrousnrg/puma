@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 24 Oct 2010 05:17:02 PM ART
+EESchema Schematic File Version 2  date Fri 29 Oct 2010 12:01:49 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 30 44
 Title "freeEMS 1.0"
-Date "24 oct 2010"
+Date "29 oct 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 "O2_input.sch"
@@ -41,26 +41,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_1 P19
-U 1 1 48AA1A98
-P 3200 2500
-F 0 "P19" H 3280 2500 40  0000 L CNN
-F 1 "CONN_1" H 3200 2555 30  0001 C CNN
-F 2 "1PIN" V 1130 2600 60  0001 C CNN
-	1    3200 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P18
-U 1 1 48AA1A96
-P 3200 2300
-F 0 "P18" H 3280 2300 40  0000 L CNN
-F 1 "CONN_1" H 3200 2355 30  0001 C CNN
-F 2 "1PIN" V 1130 2600 60  0001 C CNN
-	1    3200 2300
-	1    0    0    -1  
-$EndComp
+Text GLabel 3050 2500 2    60   Input ~ 0
+connector_10
+Text GLabel 3050 2300 2    60   Input ~ 0
+connector_9
 Wire Wire Line
 	2600 2500 3050 2500
 Wire Wire Line

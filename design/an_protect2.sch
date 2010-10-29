@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 24 Oct 2010 05:17:02 PM ART
+EESchema Schematic File Version 2  date Fri 29 Oct 2010 12:01:49 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 34 44
 Title "freeEMS 1.0"
-Date "24 oct 2010"
+Date "29 oct 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "an_protect.sch"
@@ -167,10 +167,10 @@ F 11 "other,more,stuff" V 1130 4000 60  0001 C CNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR060
+L GND #PWR062
 U 1 1 4C5989C2
 P 2000 5900
-F 0 "#PWR060" H 2000 5900 30  0001 C CNN
+F 0 "#PWR062" H 2000 5900 30  0001 C CNN
 F 1 "GND" H 2000 5830 30  0001 C CNN
 	1    2000 5900
 	1    0    0    -1  
@@ -264,8 +264,8 @@ L GND #PWR056
 U 1 1 4C2F52F6
 P 2000 4500
 AR Path="/4C4C6618/4C2F52F6" Ref="#PWR056"  Part="1" 
-AR Path="/4C2E1E7B/4C2F52F6" Ref="#PWR061"  Part="1" 
-F 0 "#PWR061" H 2000 4500 30  0001 C CNN
+AR Path="/4C2E1E7B/4C2F52F6" Ref="#PWR063"  Part="1" 
+F 0 "#PWR063" H 2000 4500 30  0001 C CNN
 F 1 "GND" H 2000 4430 30  0001 C CNN
 	1    2000 4500
 	1    0    0    -1  
@@ -359,8 +359,8 @@ L GND #PWR057
 U 1 1 489597B8
 P 2050 3200
 AR Path="/4C4C6618/489597B8" Ref="#PWR057"  Part="1" 
-AR Path="/4C2E1E7B/489597B8" Ref="#PWR062"  Part="1" 
-F 0 "#PWR062" H 2050 3200 30  0001 C CNN
+AR Path="/4C2E1E7B/489597B8" Ref="#PWR064"  Part="1" 
+F 0 "#PWR064" H 2050 3200 30  0001 C CNN
 F 1 "GND" H 2050 3130 30  0001 C CNN
 	1    2050 3200
 	1    0    0    -1  
@@ -454,8 +454,8 @@ L GND #PWR058
 U 1 1 4C2F52A8
 P 2100 1850
 AR Path="/4C4C6618/4C2F52A8" Ref="#PWR058"  Part="1" 
-AR Path="/4C2E1E7B/4C2F52A8" Ref="#PWR063"  Part="1" 
-F 0 "#PWR063" H 2100 1850 30  0001 C CNN
+AR Path="/4C2E1E7B/4C2F52A8" Ref="#PWR065"  Part="1" 
+F 0 "#PWR065" H 2100 1850 30  0001 C CNN
 F 1 "GND" H 2100 1780 30  0001 C CNN
 	1    2100 1850
 	1    0    0    -1  

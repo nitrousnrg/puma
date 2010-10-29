@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 24 Oct 2010 05:17:02 PM ART
+EESchema Schematic File Version 2  date Fri 29 Oct 2010 12:01:49 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 4 44
+Sheet 9 44
 Title ""
-Date "24 oct 2010"
+Date "29 oct 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -41,11 +41,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 5050 3550 0    60   Input ~ 0
+connector_17
+Text GLabel 6350 3550 2    60   Input ~ 0
+connector_19
 $Comp
-L GND #PWR035
+L GND #PWR036
 U 1 1 4C599401
 P 6400 4250
-F 0 "#PWR035" H 6400 4250 30  0001 C CNN
+F 0 "#PWR036" H 6400 4250 30  0001 C CNN
 F 1 "GND" H 6400 4180 30  0001 C CNN
 	1    6400 4250
 	1    0    0    -1  
@@ -87,30 +91,12 @@ temp_output
 Text HLabel 6500 3650 2    60   Input ~ 0
 5V_reg
 $Comp
-L GND #PWR036
+L GND #PWR037
 U 1 1 4C59878A
 P 5000 3950
-F 0 "#PWR036" H 5000 3950 30  0001 C CNN
+F 0 "#PWR037" H 5000 3950 30  0001 C CNN
 F 1 "GND" H 5000 3880 30  0001 C CNN
 	1    5000 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P72
-U 1 1 4C59876E
-P 4900 3550
-F 0 "P72" H 4980 3550 40  0000 L CNN
-F 1 "CONN_1" H 4900 3605 30  0001 C CNN
-	1    4900 3550
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_1 P73
-U 1 1 4C598762
-P 6500 3550
-F 0 "P73" H 6580 3550 40  0000 L CNN
-F 1 "CONN_1" H 6500 3605 30  0001 C CNN
-	1    6500 3550
 	1    0    0    -1  
 $EndComp
 $Comp

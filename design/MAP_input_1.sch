@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 24 Oct 2010 05:17:02 PM ART
+EESchema Schematic File Version 2  date Fri 29 Oct 2010 12:01:49 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 31 44
+Sheet 32 44
 Title "freeEMS 1.0"
-Date "24 oct 2010"
+Date "29 oct 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "MAP_input.sch"
@@ -41,6 +41,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 4950 2300 2    60   Input ~ 0
+connector_6
+Text GLabel 4950 2450 2    60   Input ~ 0
+connector_8
+Text GLabel 4950 2600 2    60   Input ~ 0
+connector_7
 Text Notes 1550 2550 0    60   ~ 0
 Bosch's signal evaluation recommendation.
 Connection ~ 4700 1800
@@ -85,33 +91,6 @@ Wire Wire Line
 Wire Wire Line
 	4800 2450 4800 1600
 Connection ~ 4800 1600
-$Comp
-L CONN_1 P58
-U 1 1 4C4AF086
-P 5100 2600
-F 0 "P58" H 5180 2600 40  0000 L CNN
-F 1 "CONN_1" H 5100 2655 30  0001 C CNN
-	1    5100 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P57
-U 1 1 4C4AF080
-P 5100 2450
-F 0 "P57" H 5180 2450 40  0000 L CNN
-F 1 "CONN_1" H 5100 2505 30  0001 C CNN
-	1    5100 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P56
-U 1 1 4C4AF071
-P 5100 2300
-F 0 "P56" H 5180 2300 40  0000 L CNN
-F 1 "CONN_1" H 5100 2355 30  0001 C CNN
-	1    5100 2300
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C66
 U 1 1 4C4AEFB0

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 24 Oct 2010 05:17:02 PM ART
+EESchema Schematic File Version 2  date Fri 29 Oct 2010 12:01:49 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A2 23400 16535
 Sheet 1 44
 Title "freeEMS 1.0 ARG"
-Date "24 oct 2010"
+Date "29 oct 2010"
 Rev "A.1"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,6 +41,103 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 21350 7950 2    60   Input ~ 0
+connector_40
+Text GLabel 21350 7850 2    60   Input ~ 0
+connector_38
+Text GLabel 21350 7750 2    60   Input ~ 0
+connector_36
+Text GLabel 21350 7650 2    60   Input ~ 0
+connector_34
+Text GLabel 21350 7550 2    60   Input ~ 0
+connector_32
+Text GLabel 21350 7450 2    60   Input ~ 0
+connector_30
+Text GLabel 21350 7350 2    60   Input ~ 0
+connector_28
+Text GLabel 21350 7250 2    60   Input ~ 0
+connector_26
+Text GLabel 21350 7150 2    60   Input ~ 0
+connector_24
+Text GLabel 21350 7050 2    60   Input ~ 0
+connector_22
+Text GLabel 21350 6950 2    60   Input ~ 0
+connector_20
+Text GLabel 21350 6850 2    60   Input ~ 0
+connector_18
+Text GLabel 21350 6750 2    60   Input ~ 0
+connector_16
+Text GLabel 21350 6650 2    60   Input ~ 0
+connector_14
+Text GLabel 21350 6550 2    60   Input ~ 0
+connector_12
+Text GLabel 21350 6450 2    60   Input ~ 0
+connector_10
+Text GLabel 21350 6350 2    60   Input ~ 0
+connector_8
+Text GLabel 21350 6250 2    60   Input ~ 0
+connector_6
+Text GLabel 21350 6150 2    60   Input ~ 0
+connector_4
+Text GLabel 21350 6050 2    60   Input ~ 0
+connector_2
+Text GLabel 20550 7950 0    60   Input ~ 0
+connector_39
+Text GLabel 20550 7850 0    60   Input ~ 0
+connector_37
+Text GLabel 20550 7750 0    60   Input ~ 0
+connector_35
+Text GLabel 20550 7650 0    60   Input ~ 0
+connector_33
+Text GLabel 20550 7550 0    60   Input ~ 0
+connector_31
+Text GLabel 20550 7450 0    60   Input ~ 0
+connector_29
+Text GLabel 20550 7350 0    60   Input ~ 0
+connector_27
+Text GLabel 20550 7250 0    60   Input ~ 0
+connector_25
+Text GLabel 20550 7150 0    60   Input ~ 0
+connector_23
+Text GLabel 20550 7050 0    60   Input ~ 0
+connector_21
+Text GLabel 20550 6950 0    60   Input ~ 0
+connector_19
+Text GLabel 20550 6850 0    60   Input ~ 0
+connector_17
+Text GLabel 20550 6750 0    60   Input ~ 0
+connector_15
+Text GLabel 20550 6650 0    60   Input ~ 0
+connector_13
+Text GLabel 20550 6550 0    60   Input ~ 0
+connector_11
+Text GLabel 20550 6450 0    60   Input ~ 0
+connector_9
+Text GLabel 20550 6350 0    60   Input ~ 0
+connector_7
+Text GLabel 20550 6250 0    60   Input ~ 0
+connector_5
+Text GLabel 20550 6150 0    60   Input ~ 0
+connector_3
+Text GLabel 20550 6050 0    60   Input ~ 0
+connector_1
+$Comp
+L CONN_20X2 P99
+U 1 1 4CCAD11A
+P 20950 7000
+F 0 "P99" H 20950 8050 60  0000 C CNN
+F 1 "CONN_20X2" V 20950 7000 50  0000 C CNN
+	1    20950 7000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 1200
+Wire Wire Line
+	6350 1200 6350 2650
+Wire Wire Line
+	6350 2650 5300 2650
+Connection ~ 5350 2950
+Wire Wire Line
+	5300 2950 5350 2950
 Connection ~ 7200 2850
 Wire Wire Line
 	7800 2850 5300 2850
@@ -307,7 +404,6 @@ Wire Wire Line
 	10700 10650 10550 10650
 Wire Wire Line
 	18000 5950 18200 5950
-Connection ~ 5350 2950
 Wire Wire Line
 	18150 3650 18000 3650
 Wire Wire Line
@@ -506,8 +602,6 @@ Wire Wire Line
 Wire Wire Line
 	5800 3050 7800 3050
 Wire Wire Line
-	5300 2950 5350 2950
-Wire Wire Line
 	7800 7200 7200 7200
 Wire Wire Line
 	7800 7000 7200 7000
@@ -595,6 +689,95 @@ Wire Wire Line
 	7400 3050 7400 2950
 Wire Wire Line
 	7400 2950 7800 2950
+$Sheet
+S 7800 2800 1350 5250
+U 4C2E1EA1
+F0 "CPU" 60
+F1 "CPU.sch" 60
+F2 "AN15" B L 7800 5250 60 
+F3 "AN14" B L 7800 5150 60 
+F4 "AN13" B R 9150 5250 60 
+F5 "AN12" B R 9150 5050 60 
+F6 "PM0" B L 7800 4850 60 
+F7 "PM1" B L 7800 4750 60 
+F8 "PM2" B L 7800 4650 60 
+F9 "PM3" B L 7800 4550 60 
+F10 "PM4" B L 7800 4450 60 
+F11 "PM5" B L 7800 4350 60 
+F12 "PJ6" B L 7800 4050 60 
+F13 "PJ7" B L 7800 3950 60 
+F14 "PJ0" B L 7800 3850 60 
+F15 "PK0" B L 7800 3750 60 
+F16 "PK1" B L 7800 3650 60 
+F17 "PK2" B L 7800 3550 60 
+F18 "PK3" B L 7800 3450 60 
+F19 "PK4" B L 7800 3350 60 
+F20 "PK5" B L 7800 3250 60 
+F21 "PK7" B L 7800 3150 60 
+F22 "AN11" B R 9150 5900 60 
+F23 "AN10" B R 9150 5150 60 
+F24 "AN09" B L 7800 5050 60 
+F25 "AN08" B L 7800 4950 60 
+F26 "PJ1" B R 9150 4850 60 
+F27 "PE3" B R 9150 4650 60 
+F28 "PE4" B R 9150 4550 60 
+F29 "PE2" B R 9150 4450 60 
+F30 "PB0" B R 9150 4350 60 
+F31 "PB1" B R 9150 4250 60 
+F32 "PB2" B R 9150 4150 60 
+F33 "PB3" B R 9150 4050 60 
+F34 "PB4" B R 9150 3950 60 
+F35 "PB5" B R 9150 3850 60 
+F36 "PB6" B R 9150 3750 60 
+F37 "PB7" B R 9150 3650 60 
+F38 "PA0" B R 9150 3550 60 
+F39 "PA1" B R 9150 3450 60 
+F40 "PA2" B R 9150 3350 60 
+F41 "PA3" B R 9150 3250 60 
+F42 "PA4" B R 9150 3150 60 
+F43 "PA5" B R 9150 3050 60 
+F44 "PA6" B R 9150 2950 60 
+F45 "PA7" B R 9150 2850 60 
+F46 "PE1" B R 9150 4750 60 
+F47 "PE0" B R 9150 7500 60 
+F48 "PH0" B R 9150 7200 60 
+F49 "PH1" B R 9150 7100 60 
+F50 "PH2" B R 9150 7000 60 
+F51 "PH3" B R 9150 6900 60 
+F52 "PH4" B R 9150 6800 60 
+F53 "PH5" B R 9150 6700 60 
+F54 "PH6" B R 9150 6600 60 
+F55 "PH7" B R 9150 6500 60 
+F56 "PS2" B R 9150 6400 60 
+F57 "PS3" B R 9150 7300 60 
+F58 "AN04" B R 9150 5800 60 
+F59 "AN05" B R 9150 5700 60 
+F60 "AN06" B R 9150 5600 60 
+F61 "AN07" B R 9150 4950 60 
+F62 "PT7" B L 7800 7500 60 
+F63 "PT6" B L 7800 7400 60 
+F64 "PT5" B L 7800 7300 60 
+F65 "PT4" B L 7800 7200 60 
+F66 "PT3" B L 7800 7100 60 
+F67 "PT2" B L 7800 7000 60 
+F68 "PT1" B L 7800 6900 60 
+F69 "PT0" B L 7800 6800 60 
+F70 "PP7" B L 7800 6700 60 
+F71 "PP6" B L 7800 6600 60 
+F72 "PP5" B L 7800 6500 60 
+F73 "PP4" B L 7800 6400 60 
+F74 "PP3" B L 7800 6300 60 
+F75 "PP2" B L 7800 6200 60 
+F76 "PP1" B L 7800 6100 60 
+F77 "PP0" B L 7800 6000 60 
+F78 "AN00" B L 7800 5900 60 
+F79 "AN01" B L 7800 5800 60 
+F80 "AN02" B L 7800 5700 60 
+F81 "AN03" B L 7800 5600 60 
+F82 "5v_analog" I L 7800 3050 60 
+F83 "5v_digital" I L 7800 2950 60 
+F84 "5v_switched" I L 7800 2850 60 
+$EndSheet
 $Comp
 L GND #PWR01
 U 1 1 4CB3CDC4
@@ -616,97 +799,6 @@ Entry Wire Line
 	10100 3250 10200 3350
 Entry Wire Line
 	10100 3150 10200 3250
-$Sheet
-S 7800 2800 1350 5250
-U 4C2E1EA1
-F0 "CPU" 60
-F1 "CPU.sch" 60
-F2 "AN15" B L 7800 5250 60 
-F3 "AN14" B L 7800 5150 60 
-F4 "AN13" B R 9150 5250 60 
-F5 "AN12" B R 9150 5050 60 
-F6 "PM0" B L 7800 4850 60 
-F7 "PM1" B L 7800 4750 60 
-F8 "PM2" B L 7800 4650 60 
-F9 "PM3" B L 7800 4550 60 
-F10 "PM4" B L 7800 4450 60 
-F11 "PM5" B L 7800 4350 60 
-F12 "PM6" B L 7800 4250 60 
-F13 "PM7" B L 7800 4150 60 
-F14 "PJ6" B L 7800 4050 60 
-F15 "PJ7" B L 7800 3950 60 
-F16 "PJ0" B L 7800 3850 60 
-F17 "PK0" B L 7800 3750 60 
-F18 "PK1" B L 7800 3650 60 
-F19 "PK2" B L 7800 3550 60 
-F20 "PK3" B L 7800 3450 60 
-F21 "PK4" B L 7800 3350 60 
-F22 "PK5" B L 7800 3250 60 
-F23 "PK7" B L 7800 3150 60 
-F24 "AN11" B R 9150 5900 60 
-F25 "AN10" B R 9150 5150 60 
-F26 "AN09" B L 7800 5050 60 
-F27 "AN08" B L 7800 4950 60 
-F28 "PJ1" B R 9150 4850 60 
-F29 "PE3" B R 9150 4650 60 
-F30 "PE4" B R 9150 4550 60 
-F31 "PE2" B R 9150 4450 60 
-F32 "PB0" B R 9150 4350 60 
-F33 "PB1" B R 9150 4250 60 
-F34 "PB2" B R 9150 4150 60 
-F35 "PB3" B R 9150 4050 60 
-F36 "PB4" B R 9150 3950 60 
-F37 "PB5" B R 9150 3850 60 
-F38 "PB6" B R 9150 3750 60 
-F39 "PB7" B R 9150 3650 60 
-F40 "PA0" B R 9150 3550 60 
-F41 "PA1" B R 9150 3450 60 
-F42 "PA2" B R 9150 3350 60 
-F43 "PA3" B R 9150 3250 60 
-F44 "PA4" B R 9150 3150 60 
-F45 "PA5" B R 9150 3050 60 
-F46 "PA6" B R 9150 2950 60 
-F47 "PA7" B R 9150 2850 60 
-F48 "PE1" B R 9150 4750 60 
-F49 "PE0" B R 9150 7500 60 
-F50 "PH0" B R 9150 7200 60 
-F51 "PH1" B R 9150 7100 60 
-F52 "PH2" B R 9150 7000 60 
-F53 "PH3" B R 9150 6900 60 
-F54 "PH4" B R 9150 6800 60 
-F55 "PH5" B R 9150 6700 60 
-F56 "PH6" B R 9150 6600 60 
-F57 "PH7" B R 9150 6500 60 
-F58 "PS2" B R 9150 6400 60 
-F59 "PS3" B R 9150 7300 60 
-F60 "AN04" B R 9150 5800 60 
-F61 "AN05" B R 9150 5700 60 
-F62 "AN06" B R 9150 5600 60 
-F63 "AN07" B R 9150 4950 60 
-F64 "PT7" B L 7800 7500 60 
-F65 "PT6" B L 7800 7400 60 
-F66 "PT5" B L 7800 7300 60 
-F67 "PT4" B L 7800 7200 60 
-F68 "PT3" B L 7800 7100 60 
-F69 "PT2" B L 7800 7000 60 
-F70 "PT1" B L 7800 6900 60 
-F71 "PT0" B L 7800 6800 60 
-F72 "PP7" B L 7800 6700 60 
-F73 "PP6" B L 7800 6600 60 
-F74 "PP5" B L 7800 6500 60 
-F75 "PP4" B L 7800 6400 60 
-F76 "PP3" B L 7800 6300 60 
-F77 "PP2" B L 7800 6200 60 
-F78 "PP1" B L 7800 6100 60 
-F79 "PP0" B L 7800 6000 60 
-F80 "AN00" B L 7800 5900 60 
-F81 "AN01" B L 7800 5800 60 
-F82 "AN02" B L 7800 5700 60 
-F83 "AN03" B L 7800 5600 60 
-F84 "5v_analog" I L 7800 3050 60 
-F85 "5v_digital" I L 7800 2950 60 
-F86 "5v_switched" I L 7800 2850 60 
-$EndSheet
 Text Label 9250 3250 0    60   ~ 0
 ind_stepper_4
 Text Label 9250 3350 0    60   ~ 0
@@ -750,7 +842,7 @@ $Sheet
 S 15000 11850 3000 300 
 U 4CAB878F
 F0 "RPM_input_2" 60
-F1 "RPM_input_MAX9924.sch" 60
+F1 "RPM_input_MAX9924_2.sch" 60
 F2 "GND_digi" I R 18000 11900 60 
 F3 "RPM_out" I L 15000 11900 60 
 F4 "5v_digi" I R 18000 12100 60 
@@ -759,7 +851,7 @@ $Sheet
 S 15000 11350 3000 300 
 U 4C94FDB6
 F0 "RPM_input_1" 60
-F1 "RPM_input_MAX9924.sch" 60
+F1 "RPM_input_MAX9924_1.sch" 60
 F2 "GND_digi" I R 18000 11400 60 
 F3 "RPM_out" I L 15000 11400 60 
 F4 "5v_digi" I R 18000 11600 60 
@@ -925,7 +1017,7 @@ $Sheet
 S 15000 9750 3000 200 
 U 4C4C69E2
 F0 "MAF_input" 60
-F1 "analog_aux_input.sch" 60
+F1 "MAF_input.sch" 60
 F2 "analog_aux" I L 15000 9850 60 
 F3 "analog_gnd" I R 18000 9900 60 
 F4 "5v_reg" I R 18000 9800 60 
@@ -974,7 +1066,7 @@ $Sheet
 S 15000 7250 3000 200 
 U 4C4C62BF
 F0 "thermistor_input_4" 60
-F1 "thermistor_resistor_input.sch" 60
+F1 "thermistor_resistor_input_4.sch" 60
 F2 "5v_reg" O R 18000 7400 60 
 F3 "analog_sensor_gnd" B R 18000 7300 60 
 F4 "analog_sensor_TEMP" O L 15000 7300 60 
@@ -983,7 +1075,7 @@ $Sheet
 S 15000 6800 3000 200 
 U 4C4C628B
 F0 "thermistor_input_3" 60
-F1 "thermistor_resistor_input.sch" 60
+F1 "thermistor_resistor_input_3.sch" 60
 F2 "5v_reg" O R 18000 6950 60 
 F3 "analog_sensor_gnd" B R 18000 6850 60 
 F4 "analog_sensor_TEMP" O L 15000 6850 60 
@@ -991,8 +1083,6 @@ $EndSheet
 NoConn ~ 9150 3050
 NoConn ~ 9150 4550
 NoConn ~ 9150 4650
-NoConn ~ 7800 4150
-NoConn ~ 7800 4250
 NoConn ~ 7800 4350
 NoConn ~ 7800 4450
 $Sheet
@@ -1274,13 +1364,14 @@ F3 "12v batt" I R 5300 3400 60
 F4 "gnd" B R 5300 3600 60 
 $EndSheet
 $Sheet
-S 3250 2650 2050 400 
+S 3250 2550 2050 450 
 U 4C2E1E55
 F0 "voltage regulator (switched)" 60
 F1 "power_reg1.sch" 60
 F2 "5v reg" O R 5300 2850 60 
 F3 "12v batt" I R 5300 2750 60 
 F4 "gnd" B R 5300 2950 60 
+F5 "ENABLE" I R 5300 2650 60 
 $EndSheet
 $Sheet
 S 5050 9800 1700 200 
@@ -1597,7 +1688,7 @@ $Sheet
 S 15000 6350 3000 200 
 U 4C2E1E9D
 F0 "thermistor_input_2" 60
-F1 "thermistor_resistor_input.sch" 60
+F1 "thermistor_resistor_input_2.sch" 60
 F2 "analog_sensor_gnd" B R 18000 6400 60 
 F3 "analog_sensor_TEMP" O L 15000 6400 60 
 F4 "5v_reg" I R 18000 6500 60 
@@ -1606,7 +1697,7 @@ $Sheet
 S 15000 5900 3000 200 
 U 4C2E1E9F
 F0 "thermistor_input_1" 60
-F1 "thermistor_resistor_input.sch" 60
+F1 "thermistor_resistor_input_1.sch" 60
 F2 "analog_sensor_gnd" B R 18000 5950 60 
 F3 "analog_sensor_TEMP" O L 15000 5950 60 
 F4 "5v_reg" I R 18000 6050 60 
