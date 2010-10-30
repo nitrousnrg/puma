@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 29 Oct 2010 12:01:49 PM ART
+EESchema Schematic File Version 2  date Sat 30 Oct 2010 04:18:53 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 32 44
 Title "freeEMS 1.0"
-Date "29 oct 2010"
+Date "30 oct 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "MAP_input.sch"
@@ -41,30 +41,26 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 4950 2300 2    60   Input ~ 0
-connector_6
-Text GLabel 4950 2450 2    60   Input ~ 0
-connector_8
-Text GLabel 4950 2600 2    60   Input ~ 0
-connector_7
-Text Notes 1550 2550 0    60   ~ 0
-Bosch's signal evaluation recommendation.
+Wire Wire Line
+	5550 1400 5250 1400
+Wire Wire Line
+	5250 1400 5250 1800
+Connection ~ 4900 1500
+Wire Wire Line
+	5550 1800 5350 1800
 Connection ~ 4700 1800
 Wire Wire Line
 	4700 1800 4700 2600
 Wire Wire Line
 	4700 2600 4950 2600
-Connection ~ 4900 1400
 Wire Wire Line
-	4900 1400 4900 2300
+	4900 1500 4900 2300
 Wire Wire Line
 	4900 2300 4950 2300
 Wire Wire Line
-	2400 2000 3300 2000
+	3300 2000 2400 2000
 Wire Wire Line
 	3800 2000 4200 2000
-Wire Wire Line
-	5250 1600 2400 1600
 Connection ~ 2900 1200
 Wire Wire Line
 	2900 1450 2900 1200
@@ -77,12 +73,8 @@ Wire Wire Line
 Wire Wire Line
 	2400 1200 4150 1200
 Wire Wire Line
-	4150 1200 4150 1400
-Wire Wire Line
 	2900 2000 2900 1950
 Connection ~ 2900 2000
-Wire Wire Line
-	4150 1400 5250 1400
 Wire Wire Line
 	4200 1800 5250 1800
 Connection ~ 3300 2000
@@ -91,6 +83,22 @@ Wire Wire Line
 Wire Wire Line
 	4800 2450 4800 1600
 Connection ~ 4800 1600
+Wire Wire Line
+	2400 1600 5550 1600
+Wire Wire Line
+	5350 1800 5350 1500
+Wire Wire Line
+	4150 1200 4150 1500
+Wire Wire Line
+	4150 1500 5350 1500
+Text GLabel 4950 2300 2    60   Input ~ 0
+connector_6
+Text GLabel 4950 2450 2    60   Input ~ 0
+connector_8
+Text GLabel 4950 2600 2    60   Input ~ 0
+connector_7
+Text Notes 1550 2550 0    60   ~ 0
+Bosch's signal evaluation recommendation.
 $Comp
 L C C66
 U 1 1 4C4AEFB0
@@ -112,8 +120,6 @@ $EndComp
 NoConn ~ 6550 1800
 NoConn ~ 6550 1600
 NoConn ~ 6550 1400
-NoConn ~ 6550 1200
-NoConn ~ 5250 1200
 Text Notes 1550 2800 0    60   ~ 0
 The 680k pull up ressistor is for diagnostics
 $Comp
@@ -128,19 +134,19 @@ $EndComp
 $Comp
 L MPX4100A U6
 U 1 1 4C2F532E
-P 5900 1500
-F 0 "U6" H 5650 2050 70  0000 C CNN
-F 1 "MPX4250A" H 5850 950 70  0000 C CNN
-F 2 "SOP_case_482" V 1930 2600 60  0001 C CNN
-F 4 "newark,75C3857" V 1930 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1930 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1930 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1930 2600 60  0001 C CNN "Field4"
-F 8 "x,x" V 1930 2600 60  0001 C CNN "Field5"
-F 9 "x,x" V 1930 2600 60  0001 C CNN "Field6"
-F 10 "x" V 1930 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1930 2600 60  0001 C CNN "Field8"
-	1    5900 1500
+P 6200 1700
+F 0 "U6" H 5950 2250 70  0000 C CNN
+F 1 "MPX4250A" H 6150 1150 70  0000 C CNN
+F 2 "SOP_case_482" V 2230 2800 60  0001 C CNN
+F 4 "newark,75C3857" V 2230 2800 60  0001 C CNN "Field1"
+F 5 "vendor1, smd w hem" V 2230 2800 60  0001 C CNN "Field2"
+F 6 "vendor2, thru w hem" V 2230 2800 60  0001 C CNN "Field3"
+F 7 "vendor2, smd w hem" V 2230 2800 60  0001 C CNN "Field4"
+F 8 "x,x" V 2230 2800 60  0001 C CNN "Field5"
+F 9 "x,x" V 2230 2800 60  0001 C CNN "Field6"
+F 10 "x" V 2230 2800 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 2230 2800 60  0001 C CNN "Field8"
+	1    6200 1700
 	1    0    0    -1  
 $EndComp
 Text HLabel 2400 1600 0    60   BiDi ~ 0

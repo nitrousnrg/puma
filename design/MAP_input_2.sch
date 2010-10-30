@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 29 Oct 2010 12:01:49 PM ART
+EESchema Schematic File Version 2  date Sat 30 Oct 2010 04:18:53 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 31 44
 Title "freeEMS 1.0"
-Date "29 oct 2010"
+Date "30 oct 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "MAP_input.sch"
@@ -41,48 +41,46 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 5900 1400
+NoConn ~ 5900 1600
+NoConn ~ 5900 1800
+Wire Wire Line
+	4150 1800 4600 1800
+Wire Wire Line
+	4150 1800 4150 1200
+Wire Wire Line
+	4600 1600 2400 1600
+Wire Wire Line
+	2400 2000 4200 2000
+Wire Wire Line
+	4150 1200 2400 1200
+Connection ~ 3800 1200
+Connection ~ 3300 1200
+Connection ~ 3300 1600
+Connection ~ 3800 1600
+Connection ~ 3800 2000
+Wire Wire Line
+	4200 2000 4200 1400
+Wire Wire Line
+	4200 1400 4600 1400
 $Comp
 L MPX4100A U5
 U 1 1 48B144B7
-P 5100 1500
-F 0 "U5" H 4850 2050 70  0000 C CNN
-F 1 "MPX4100A" H 5050 950 70  0000 C CNN
-F 2 "SOP_case_482" V 1130 2600 60  0001 C CNN
-F 4 "newark,75C3857" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "x,x" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "x,x" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "x" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
-	1    5100 1500
+P 5250 1700
+F 0 "U5" H 5250 2150 70  0000 C CNN
+F 1 "MPX4100A" H 5250 1450 70  0000 C CNN
+F 2 "SOP_case_482" V 1280 2800 60  0001 C CNN
+F 4 "newark,75C3857" V 1280 2800 60  0001 C CNN "Field1"
+F 5 "vendor1, smd w hem" V 1280 2800 60  0001 C CNN "Field2"
+F 6 "vendor2, thru w hem" V 1280 2800 60  0001 C CNN "Field3"
+F 7 "vendor2, smd w hem" V 1280 2800 60  0001 C CNN "Field4"
+F 8 "x,x" V 1280 2800 60  0001 C CNN "Field5"
+F 9 "x,x" V 1280 2800 60  0001 C CNN "Field6"
+F 10 "x" V 1280 2800 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 1280 2800 60  0001 C CNN "Field8"
+	1    5250 1700
 	1    0    0    -1  
 $EndComp
-Connection ~ 3800 2000
-Connection ~ 3800 1600
-Connection ~ 3300 1600
-Connection ~ 3300 1200
-Connection ~ 3800 1200
-NoConn ~ 5750 1800
-NoConn ~ 5750 1600
-NoConn ~ 5750 1400
-NoConn ~ 5750 1200
-NoConn ~ 4450 1200
-Wire Wire Line
-	4450 1800 4200 1800
-Wire Wire Line
-	4200 1800 4200 2000
-Wire Wire Line
-	4450 1600 2400 1600
-Wire Wire Line
-	2400 1200 4150 1200
-Wire Wire Line
-	4200 2000 2400 2000
-Wire Wire Line
-	4450 1400 4150 1400
-Wire Wire Line
-	4150 1400 4150 1200
 Text HLabel 2400 1600 0    60   BiDi ~ 0
 analog_sensor_gnd
 $Comp
