@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 30 Oct 2010 04:18:53 PM ART
+EESchema Schematic File Version 2  date Sun 07 Nov 2010 11:30:10 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 21 44
+Sheet 21 50
 Title "freeEMS 1.0"
-Date "30 oct 2010"
+Date "8 nov 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -42,56 +42,65 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L VSS #PWR055
+L 7805 U2
+U 1 1 4CD715D6
+P 6050 3350
+F 0 "U2" H 6200 3154 60  0000 C CNN
+F 1 "MIC2954" H 6050 3550 60  0000 C CNN
+	1    6050 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 3300
+Wire Wire Line
+	6450 3300 7850 3300
+Wire Wire Line
+	6600 3300 6600 2850
+Wire Wire Line
+	6600 2850 6250 2850
+Connection ~ 6050 3700
+Wire Wire Line
+	6050 3600 6050 3700
+Wire Wire Line
+	5650 3300 3050 3300
+Connection ~ 7000 3300
+Wire Wire Line
+	2500 3300 2650 3300
+Connection ~ 4850 3700
+Connection ~ 4850 3300
+Wire Wire Line
+	2600 3750 2600 3700
+Connection ~ 7000 3700
+Connection ~ 7450 3300
+Connection ~ 7450 3700
+Connection ~ 5250 3700
+Connection ~ 5250 3300
+Wire Wire Line
+	2600 3700 7850 3700
+Wire Wire Line
+	5850 2850 5500 2850
+Wire Wire Line
+	5500 2850 5500 3300
+Connection ~ 5500 3300
+Wire Wire Line
+	7850 3700 7850 3750
+$Comp
+L VSS #PWR11
 U 1 1 4C2F52A0
 P 7850 3750
-F 0 "#PWR055" H 7850 3750 30  0001 C CNN
+F 0 "#PWR11" H 7850 3750 30  0001 C CNN
 F 1 "VSS" H 7850 3680 30  0000 C CNN
 	1    7850 3750
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	7850 3750 7850 3700
 $Comp
 L C C5
 U 1 1 4CB21BF3
 P 7000 3500
 F 0 "C5" H 7050 3600 50  0000 L CNN
-F 1 "22uF" H 7050 3400 50  0000 L CNN
+F 1 "22uF" H 6800 3400 50  0000 L CNN
 	1    7000 3500
 	1    0    0    -1  
 $EndComp
-Connection ~ 5500 3300
-Wire Wire Line
-	5500 3300 5500 2850
-Wire Wire Line
-	5500 2850 5850 2850
-Wire Wire Line
-	6450 3300 7850 3300
-Wire Wire Line
-	7850 3700 2600 3700
-Connection ~ 5250 3300
-Connection ~ 5250 3700
-Connection ~ 7450 3700
-Connection ~ 7450 3300
-Connection ~ 7000 3700
-Wire Wire Line
-	2600 3700 2600 3750
-Connection ~ 4850 3300
-Connection ~ 4850 3700
-Wire Wire Line
-	2500 3300 2650 3300
-Connection ~ 7000 3300
-Wire Wire Line
-	5650 3300 3050 3300
-Wire Wire Line
-	6050 3600 6050 3700
-Connection ~ 6050 3700
-Wire Wire Line
-	6250 2850 6600 2850
-Wire Wire Line
-	6600 2850 6600 3300
-Connection ~ 6600 3300
 $Comp
 L DIODE D92
 U 1 1 4CAB8DFA
@@ -100,15 +109,6 @@ F 0 "D92" H 6050 2950 40  0000 C CNN
 F 1 "1N4148" H 6050 2750 40  0000 C CNN
 	1    6050 2850
 	-1   0    0    1   
-$EndComp
-$Comp
-L 7805 U2
-U 1 1 4CAB8A0F
-P 6050 3350
-F 0 "U2" H 6200 3154 60  0000 C CNN
-F 1 "MIC2954" H 6050 3550 60  0000 C CNN
-	1    6050 3350
-	1    0    0    -1  
 $EndComp
 Text Notes 5250 2450 0    60   ~ 0
 CPU VOLTAGE REGULATOR
@@ -219,10 +219,10 @@ F 11 "other,more,stuff" V 1530 2600 60  0001 C CNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR056
+L GND #PWR10
 U 1 1 486CA86E
 P 2600 3750
-F 0 "#PWR056" H 2600 3750 30  0001 C CNN
+F 0 "#PWR10" H 2600 3750 30  0001 C CNN
 F 1 "GND" H 2600 3680 30  0001 C CNN
 	1    2600 3750
 	-1   0    0    -1  

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 30 Oct 2010 04:18:53 PM ART
+EESchema Schematic File Version 2  date Sun 07 Nov 2010 11:30:10 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 7 44
+Sheet 12 50
 Title "freeEMS 1.0"
-Date "30 oct 2010"
+Date "8 nov 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "an_protect.sch"
@@ -175,12 +175,12 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR039
+L GND #PWR47
 U 1 1 489597C4
 P 1950 5900
-AR Path="/4C4C6618/489597C4" Ref="#PWR039"  Part="1" 
-AR Path="/4C2E1E7D/489597C4" Ref="#PWR066"  Part="1" 
-F 0 "#PWR066" H 1950 5900 30  0001 C CNN
+AR Path="/4C4C6618/489597C4" Ref="#PWR47"  Part="1" 
+AR Path="/4C2E1E7D/489597C4" Ref="#PWR19"  Part="1" 
+F 0 "#PWR47" H 1950 5900 30  0001 C CNN
 F 1 "GND" H 1950 5830 30  0001 C CNN
 	1    1950 5900
 	1    0    0    -1  
@@ -270,12 +270,12 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR040
+L GND #PWR48
 U 1 1 4C4C7B51
 P 2000 4500
-AR Path="/4C4C6618/4C4C7B51" Ref="#PWR040"  Part="1" 
-AR Path="/4C2E1E7D/4C4C7B51" Ref="#PWR067"  Part="1" 
-F 0 "#PWR067" H 2000 4500 30  0001 C CNN
+AR Path="/4C4C6618/4C4C7B51" Ref="#PWR48"  Part="1" 
+AR Path="/4C2E1E7D/4C4C7B51" Ref="#PWR20"  Part="1" 
+F 0 "#PWR48" H 2000 4500 30  0001 C CNN
 F 1 "GND" H 2000 4430 30  0001 C CNN
 	1    2000 4500
 	1    0    0    -1  
@@ -365,12 +365,12 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR041
+L GND #PWR49
 U 1 1 4C2F52F0
 P 2050 3200
-AR Path="/4C4C6618/4C2F52F0" Ref="#PWR041"  Part="1" 
-AR Path="/4C2E1E7D/4C2F52F0" Ref="#PWR068"  Part="1" 
-F 0 "#PWR068" H 2050 3200 30  0001 C CNN
+AR Path="/4C4C6618/4C2F52F0" Ref="#PWR49"  Part="1" 
+AR Path="/4C2E1E7D/4C2F52F0" Ref="#PWR21"  Part="1" 
+F 0 "#PWR49" H 2050 3200 30  0001 C CNN
 F 1 "GND" H 2050 3130 30  0001 C CNN
 	1    2050 3200
 	1    0    0    -1  
@@ -460,12 +460,12 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR042
+L GND #PWR50
 U 1 1 4C4C7B4E
 P 2100 1850
-AR Path="/4C4C6618/4C4C7B4E" Ref="#PWR042"  Part="1" 
-AR Path="/4C2E1E7D/4C4C7B4E" Ref="#PWR069"  Part="1" 
-F 0 "#PWR069" H 2100 1850 30  0001 C CNN
+AR Path="/4C4C6618/4C4C7B4E" Ref="#PWR50"  Part="1" 
+AR Path="/4C2E1E7D/4C4C7B4E" Ref="#PWR22"  Part="1" 
+F 0 "#PWR50" H 2100 1850 30  0001 C CNN
 F 1 "GND" H 2100 1780 30  0001 C CNN
 	1    2100 1850
 	1    0    0    -1  

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 30 Oct 2010 04:18:53 PM ART
+EESchema Schematic File Version 2  date Sun 07 Nov 2010 11:30:10 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:freeEMS_1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 4 44
+Sheet 4 50
 Title ""
-Date "30 oct 2010"
+Date "8 nov 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -228,10 +228,10 @@ Text HLabel 4250 4050 0    60   Input ~ 0
 Text Notes 4000 5400 0    60   ~ 0
 * RC = 2msec\n* I = Vreg/(10*Rsense) = 500mA
 $Comp
-L GND #PWR028
+L GND #PWR60
 U 1 1 4CB36B99
 P 6850 5100
-F 0 "#PWR028" H 6850 5100 30  0001 C CNN
+F 0 "#PWR60" H 6850 5100 30  0001 C CNN
 F 1 "GND" H 6850 5030 30  0001 C CNN
 	1    6850 5100
 	1    0    0    -1  
@@ -290,10 +290,10 @@ F 1 "CONN_1" H 4550 2855 30  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR029
+L GND #PWR61
 U 1 1 4CB2FFC6
 P 7550 5150
-F 0 "#PWR029" H 7550 5150 30  0001 C CNN
+F 0 "#PWR61" H 7550 5150 30  0001 C CNN
 F 1 "GND" H 7550 5080 30  0001 C CNN
 	1    7550 5150
 	1    0    0    -1  
@@ -317,10 +317,10 @@ F 1 "0.1uF" H 7400 4600 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L GND #PWR57
 U 1 1 4CB2FF16
 P 4750 5150
-F 0 "#PWR030" H 4750 5150 30  0001 C CNN
+F 0 "#PWR57" H 4750 5150 30  0001 C CNN
 F 1 "GND" H 4750 5080 30  0001 C CNN
 	1    4750 5150
 	1    0    0    -1  
@@ -344,19 +344,19 @@ F 1 "0.1uF" H 4650 4600 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L GND #PWR59
 U 1 1 4CB2FD74
 P 6850 3900
-F 0 "#PWR031" H 6850 3900 30  0001 C CNN
+F 0 "#PWR59" H 6850 3900 30  0001 C CNN
 F 1 "GND" H 6850 3830 30  0001 C CNN
 	1    6850 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR032
+L GND #PWR58
 U 1 1 4CB2FD6F
 P 5050 3900
-F 0 "#PWR032" H 5050 3900 30  0001 C CNN
+F 0 "#PWR58" H 5050 3900 30  0001 C CNN
 F 1 "GND" H 5050 3830 30  0001 C CNN
 	1    5050 3900
 	1    0    0    -1  

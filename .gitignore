@@ -1,4 +1,14 @@
 *.bak
+*.gts
+*.gbs
+*.gtl
+*.ps
+*.pho
+*.drl
+*.gto
+*.gbo
+*.gbr
+*.gbl
 .directory
 *~
 $savepcb*
