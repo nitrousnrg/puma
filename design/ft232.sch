@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 07 Nov 2010 11:30:10 PM ART
+EESchema Schematic File Version 2  date Wed 10 Nov 2010 09:35:55 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -27,15 +27,15 @@ LIBS:cypress
 LIBS:siliconi
 LIBS:contrib
 LIBS:valves
-LIBS:freeEMS_1-cache
+LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 3 50
-Title ""
-Date "8 nov 2010"
+Title "Puma board"
+Date "10 nov 2010"
 Rev ""
-Comp ""
+Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -47,10 +47,10 @@ NoConn ~ 6750 3700
 Text Notes 4150 5200 0    60   ~ 0
 This device only support 85°C. To withstand 125°C it must be powered off.
 $Comp
-L GND #PWR69
+L GND #PWR029
 U 1 1 4C680CFE
 P 4200 4350
-F 0 "#PWR69" H 4200 4350 30  0001 C CNN
+F 0 "#PWR029" H 4200 4350 30  0001 C CNN
 F 1 "GND" H 4200 4280 30  0001 C CNN
 	1    4200 4350
 	1    0    0    -1  
@@ -135,10 +135,10 @@ Text Notes 4150 5050 0    60   ~ 0
 Self powered mode
 NoConn ~ 4900 3500
 $Comp
-L GND #PWR73
+L GND #PWR030
 U 1 1 4C680983
 P 8200 3900
-F 0 "#PWR73" H 8200 3900 30  0001 C CNN
+F 0 "#PWR030" H 8200 3900 30  0001 C CNN
 F 1 "GND" H 8200 3830 30  0001 C CNN
 	1    8200 3900
 	1    0    0    -1  
@@ -180,10 +180,10 @@ F 1 "FT232RL" H 5850 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR71
+L GND #PWR031
 U 1 1 4BC539AF
 P 4700 4450
-F 0 "#PWR71" H 4700 4450 30  0001 C CNN
+F 0 "#PWR031" H 4700 4450 30  0001 C CNN
 F 1 "GND" H 4700 4380 30  0001 C CNN
 	1    4700 4450
 	1    0    0    -1  
@@ -213,10 +213,10 @@ F 1 "0.1uF" H 4500 2600 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR70
+L GND #PWR032
 U 1 1 4BC53726
 P 4450 2950
-F 0 "#PWR70" H 4450 2950 30  0001 C CNN
+F 0 "#PWR032" H 4450 2950 30  0001 C CNN
 F 1 "GND" H 4450 2880 30  0001 C CNN
 	1    4450 2950
 	1    0    0    -1  
@@ -231,10 +231,10 @@ F 1 "33nF" H 4750 4050 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR68
+L GND #PWR033
 U 1 1 4BC536D5
 P 3850 3300
-F 0 "#PWR68" H 3850 3300 30  0001 C CNN
+F 0 "#PWR033" H 3850 3300 30  0001 C CNN
 F 1 "GND" H 3850 3230 30  0001 C CNN
 	1    3850 3300
 	1    0    0    -1  
@@ -280,10 +280,10 @@ F 10 "GND" H 3925 2900 50  0001 C CNN "Ground"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR72
+L GND #PWR034
 U 1 1 4BC5356A
 P 5850 4800
-F 0 "#PWR72" H 5850 4800 30  0001 C CNN
+F 0 "#PWR034" H 5850 4800 30  0001 C CNN
 F 1 "GND" H 5850 4730 30  0001 C CNN
 	1    5850 4800
 	1    0    0    -1  

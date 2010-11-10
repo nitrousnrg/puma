@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 07 Nov 2010 11:30:10 PM ART
+EESchema Schematic File Version 2  date Wed 10 Nov 2010 09:35:55 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -27,13 +27,13 @@ LIBS:cypress
 LIBS:siliconi
 LIBS:contrib
 LIBS:valves
-LIBS:freeEMS_1-cache
+LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 32 50
-Title "freeEMS 1.0"
-Date "8 nov 2010"
+Sheet 38 50
+Title "Puma board"
+Date "10 nov 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "MAP_input.sch"
@@ -41,6 +41,27 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 6850 1400
+NoConn ~ 6850 1600
+NoConn ~ 6850 1800
+$Comp
+L MPX4100A U6
+U 1 1 4C2F532E
+P 6200 1700
+F 0 "U6" H 5950 2250 70  0000 C CNN
+F 1 "MPX4250A" H 6150 1150 70  0000 C CNN
+F 2 "SOP_case_482" V 2230 2800 60  0001 C CNN
+F 4 "newark,75C3857" V 2230 2800 60  0001 C CNN "Field1"
+F 5 "vendor1, smd w hem" V 2230 2800 60  0001 C CNN "Field2"
+F 6 "vendor2, thru w hem" V 2230 2800 60  0001 C CNN "Field3"
+F 7 "vendor2, smd w hem" V 2230 2800 60  0001 C CNN "Field4"
+F 8 "x,x" V 2230 2800 60  0001 C CNN "Field5"
+F 9 "x,x" V 2230 2800 60  0001 C CNN "Field6"
+F 10 "x" V 2230 2800 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 2230 2800 60  0001 C CNN "Field8"
+	1    6200 1700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	5550 1400 5250 1400
 Wire Wire Line
@@ -117,9 +138,6 @@ F 1 "68k" V 3550 2000 50  0000 C CNN
 	1    3550 2000
 	0    1    1    0   
 $EndComp
-NoConn ~ 6550 1800
-NoConn ~ 6550 1600
-NoConn ~ 6550 1400
 Text Notes 1550 2800 0    60   ~ 0
 The 680k pull up ressistor is for diagnostics
 $Comp
@@ -129,24 +147,6 @@ P 2900 1700
 F 0 "R133" V 2980 1700 50  0000 C CNN
 F 1 "680k" V 2900 1700 50  0000 C CNN
 	1    2900 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L MPX4100A U6
-U 1 1 4C2F532E
-P 6200 1700
-F 0 "U6" H 5950 2250 70  0000 C CNN
-F 1 "MPX4250A" H 6150 1150 70  0000 C CNN
-F 2 "SOP_case_482" V 2230 2800 60  0001 C CNN
-F 4 "newark,75C3857" V 2230 2800 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 2230 2800 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 2230 2800 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 2230 2800 60  0001 C CNN "Field4"
-F 8 "x,x" V 2230 2800 60  0001 C CNN "Field5"
-F 9 "x,x" V 2230 2800 60  0001 C CNN "Field6"
-F 10 "x" V 2230 2800 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 2230 2800 60  0001 C CNN "Field8"
-	1    6200 1700
 	1    0    0    -1  
 $EndComp
 Text HLabel 2400 1600 0    60   BiDi ~ 0

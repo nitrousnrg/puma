@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 07 Nov 2010 11:30:10 PM ART
+EESchema Schematic File Version 2  date Wed 10 Nov 2010 09:35:55 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -27,13 +27,13 @@ LIBS:cypress
 LIBS:siliconi
 LIBS:contrib
 LIBS:valves
-LIBS:freeEMS_1-cache
+LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
 Sheet 34 50
-Title "freeEMS 1.0"
-Date "8 nov 2010"
+Title "Puma board"
+Date "10 nov 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "an_protect.sch"
@@ -167,10 +167,10 @@ F 11 "other,more,stuff" V 1130 4000 60  0001 C CNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR16
+L GND #PWR067
 U 1 1 4C5989C2
 P 2000 5900
-F 0 "#PWR16" H 2000 5900 30  0001 C CNN
+F 0 "#PWR067" H 2000 5900 30  0001 C CNN
 F 1 "GND" H 2000 5830 30  0001 C CNN
 	1    2000 5900
 	1    0    0    -1  
@@ -264,8 +264,8 @@ L GND #PWR056
 U 1 1 4C2F52F6
 P 2000 4500
 AR Path="/4C4C6618/4C2F52F6" Ref="#PWR056"  Part="1" 
-AR Path="/4C2E1E7B/4C2F52F6" Ref="#PWR15"  Part="1" 
-F 0 "#PWR15" H 2000 4500 30  0001 C CNN
+AR Path="/4C2E1E7B/4C2F52F6" Ref="#PWR068"  Part="1" 
+F 0 "#PWR068" H 2000 4500 30  0001 C CNN
 F 1 "GND" H 2000 4430 30  0001 C CNN
 	1    2000 4500
 	1    0    0    -1  
@@ -359,8 +359,8 @@ L GND #PWR057
 U 1 1 489597B8
 P 2050 3200
 AR Path="/4C4C6618/489597B8" Ref="#PWR057"  Part="1" 
-AR Path="/4C2E1E7B/489597B8" Ref="#PWR17"  Part="1" 
-F 0 "#PWR17" H 2050 3200 30  0001 C CNN
+AR Path="/4C2E1E7B/489597B8" Ref="#PWR069"  Part="1" 
+F 0 "#PWR069" H 2050 3200 30  0001 C CNN
 F 1 "GND" H 2050 3130 30  0001 C CNN
 	1    2050 3200
 	1    0    0    -1  
@@ -454,8 +454,8 @@ L GND #PWR058
 U 1 1 4C2F52A8
 P 2100 1850
 AR Path="/4C4C6618/4C2F52A8" Ref="#PWR058"  Part="1" 
-AR Path="/4C2E1E7B/4C2F52A8" Ref="#PWR18"  Part="1" 
-F 0 "#PWR18" H 2100 1850 30  0001 C CNN
+AR Path="/4C2E1E7B/4C2F52A8" Ref="#PWR070"  Part="1" 
+F 0 "#PWR070" H 2100 1850 30  0001 C CNN
 F 1 "GND" H 2100 1780 30  0001 C CNN
 	1    2100 1850
 	1    0    0    -1  

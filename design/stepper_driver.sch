@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 07 Nov 2010 11:30:10 PM ART
+EESchema Schematic File Version 2  date Wed 10 Nov 2010 09:35:55 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -27,15 +27,15 @@ LIBS:cypress
 LIBS:siliconi
 LIBS:contrib
 LIBS:valves
-LIBS:freeEMS_1-cache
+LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 4 50
-Title ""
-Date "8 nov 2010"
+Title "Puma board"
+Date "10 nov 2010"
 Rev ""
-Comp ""
+Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -228,10 +228,10 @@ Text HLabel 4250 4050 0    60   Input ~ 0
 Text Notes 4000 5400 0    60   ~ 0
 * RC = 2msec\n* I = Vreg/(10*Rsense) = 500mA
 $Comp
-L GND #PWR60
+L GND #PWR035
 U 1 1 4CB36B99
 P 6850 5100
-F 0 "#PWR60" H 6850 5100 30  0001 C CNN
+F 0 "#PWR035" H 6850 5100 30  0001 C CNN
 F 1 "GND" H 6850 5030 30  0001 C CNN
 	1    6850 5100
 	1    0    0    -1  
@@ -290,10 +290,10 @@ F 1 "CONN_1" H 4550 2855 30  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR61
+L GND #PWR036
 U 1 1 4CB2FFC6
 P 7550 5150
-F 0 "#PWR61" H 7550 5150 30  0001 C CNN
+F 0 "#PWR036" H 7550 5150 30  0001 C CNN
 F 1 "GND" H 7550 5080 30  0001 C CNN
 	1    7550 5150
 	1    0    0    -1  
@@ -317,10 +317,10 @@ F 1 "0.1uF" H 7400 4600 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR57
+L GND #PWR037
 U 1 1 4CB2FF16
 P 4750 5150
-F 0 "#PWR57" H 4750 5150 30  0001 C CNN
+F 0 "#PWR037" H 4750 5150 30  0001 C CNN
 F 1 "GND" H 4750 5080 30  0001 C CNN
 	1    4750 5150
 	1    0    0    -1  
@@ -344,19 +344,19 @@ F 1 "0.1uF" H 4650 4600 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR59
+L GND #PWR038
 U 1 1 4CB2FD74
 P 6850 3900
-F 0 "#PWR59" H 6850 3900 30  0001 C CNN
+F 0 "#PWR038" H 6850 3900 30  0001 C CNN
 F 1 "GND" H 6850 3830 30  0001 C CNN
 	1    6850 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR58
+L GND #PWR039
 U 1 1 4CB2FD6F
 P 5050 3900
-F 0 "#PWR58" H 5050 3900 30  0001 C CNN
+F 0 "#PWR039" H 5050 3900 30  0001 C CNN
 F 1 "GND" H 5050 3830 30  0001 C CNN
 	1    5050 3900
 	1    0    0    -1  

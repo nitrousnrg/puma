@@ -6,16 +6,16 @@ This design is NOT INTENDED to be as configurable as the official hardware, but 
 
 Main goals are:
 * SMD
-* 2 layers
-* 6 hi/low Z injector outputs
-* 6 ignition outputs
-* Fuel pump output
-* 3 aux power outputs
-* 4 temperature inputs
-* MAP, baro, battery voltage
-* 3 aux analog inputs
-* knock sensor
-* WB lambda
+* 2 layers, 10x13cm board
+* connector board for engine interface
+* industrial grade specs
+* 8 hi/low Z injector outputs
+* 4 ignition outputs
+* fuel pump control
+* stepper motor control
+* 2 aux power outputs
+* MAP, AAP, MAF, TPS, lambda, battery voltage, EGT, MAT, IAT, CLT, aux temperature input, aux GP input
+* 6 protected GPIO
 * USB for tuning and datalogging
 
 Planned release: 20/6/2011 (or never)

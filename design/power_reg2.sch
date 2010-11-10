@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 07 Nov 2010 11:30:10 PM ART
+EESchema Schematic File Version 2  date Wed 10 Nov 2010 09:35:55 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -27,13 +27,13 @@ LIBS:cypress
 LIBS:siliconi
 LIBS:contrib
 LIBS:valves
-LIBS:freeEMS_1-cache
+LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
 Sheet 21 50
-Title "freeEMS 1.0"
-Date "8 nov 2010"
+Title "Puma board"
+Date "10 nov 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -84,10 +84,10 @@ Connection ~ 5500 3300
 Wire Wire Line
 	7850 3700 7850 3750
 $Comp
-L VSS #PWR11
+L VSS #PWR062
 U 1 1 4C2F52A0
 P 7850 3750
-F 0 "#PWR11" H 7850 3750 30  0001 C CNN
+F 0 "#PWR062" H 7850 3750 30  0001 C CNN
 F 1 "VSS" H 7850 3680 30  0000 C CNN
 	1    7850 3750
 	-1   0    0    -1  
@@ -219,10 +219,10 @@ F 11 "other,more,stuff" V 1530 2600 60  0001 C CNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR10
+L GND #PWR063
 U 1 1 486CA86E
 P 2600 3750
-F 0 "#PWR10" H 2600 3750 30  0001 C CNN
+F 0 "#PWR063" H 2600 3750 30  0001 C CNN
 F 1 "GND" H 2600 3680 30  0001 C CNN
 	1    2600 3750
 	-1   0    0    -1  

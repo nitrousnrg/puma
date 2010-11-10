@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 07 Nov 2010 11:30:10 PM ART
+EESchema Schematic File Version 2  date Wed 10 Nov 2010 09:35:55 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -27,13 +27,13 @@ LIBS:cypress
 LIBS:siliconi
 LIBS:contrib
 LIBS:valves
-LIBS:freeEMS_1-cache
+LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
 Sheet 22 50
-Title "freeEMS 1.0"
-Date "8 nov 2010"
+Title "Puma board"
+Date "10 nov 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -111,10 +111,10 @@ F 1 "10k" V 4200 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR13
+L GND #PWR064
 U 1 1 4CC4C238
 P 4200 4950
-F 0 "#PWR13" H 4200 4950 30  0001 C CNN
+F 0 "#PWR064" H 4200 4950 30  0001 C CNN
 F 1 "GND" H 4200 4880 30  0001 C CNN
 	1    4200 4950
 	1    0    0    -1  
@@ -264,10 +264,10 @@ F 11 "other,more,stuff" H 2630 2600 60  0001 C CNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VSS #PWR14
+L VSS #PWR065
 U 1 1 486CA95E
 P 7850 3750
-F 0 "#PWR14" H 7850 3750 30  0001 C CNN
+F 0 "#PWR065" H 7850 3750 30  0001 C CNN
 F 1 "VSS" H 7850 3680 30  0000 C CNN
 	1    7850 3750
 	-1   0    0    -1  
@@ -345,10 +345,10 @@ F 11 "other,more,stuff" V 1530 2600 60  0001 C CNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR12
+L GND #PWR066
 U 1 1 4C2F529B
 P 2600 3750
-F 0 "#PWR12" H 2600 3750 30  0001 C CNN
+F 0 "#PWR066" H 2600 3750 30  0001 C CNN
 F 1 "GND" H 2600 3680 30  0001 C CNN
 	1    2600 3750
 	-1   0    0    -1  
