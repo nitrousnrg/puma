@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 10 Nov 2010 09:35:55 AM ART
+EESchema Schematic File Version 2  date Thu 11 Nov 2010 09:17:35 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A3 16535 11700
 Sheet 8 50
 Title "Puma board"
-Date "10 nov 2010"
+Date "11 nov 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 ""
@@ -678,7 +678,7 @@ $EndComp
 $Sheet
 S 10500 5700 1150 400 
 U 4C54D9C1
-F0 "Sheet4CB8DC30" 60
+F0 "ft232" 60
 F1 "ft232.sch" 60
 F2 "TX" I L 10500 5850 60 
 F3 "RX" I L 10500 5950 60 

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 10 Nov 2010 09:35:55 AM ART
+EESchema Schematic File Version 2  date Thu 11 Nov 2010 09:17:35 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 11 50
+Sheet 13 50
 Title "Puma board"
-Date "10 nov 2010"
+Date "11 nov 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "injector_drive.sch"
@@ -41,6 +41,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L LM1949 U27
+U 1 1 4C2ECEC5
+P 5150 2850
+AR Path="/4C77BC96/4C2ECEC5" Ref="U27"  Part="1" 
+AR Path="/4C77BCB7/4C2ECEC5" Ref="U28"  Part="1" 
+AR Path="/4C2F3E4C/4C2ECEC5" Ref="U26"  Part="1" 
+AR Path="/4C2F3E39/4C2ECEC5" Ref="U25"  Part="1" 
+AR Path="/4C2F3E27/4C2ECEC5" Ref="U24"  Part="1" 
+AR Path="/4C2F3E07/4C2ECEC5" Ref="U23"  Part="1" 
+AR Path="/4C2F3DD9/4C2ECEC5" Ref="U22"  Part="1" 
+AR Path="/4C2F3BE4/4C2ECEC5" Ref="U21"  Part="1" 
+F 0 "U28" H 5200 3150 60  0000 C CNN
+F 1 "LM1949" H 5150 2500 60  0000 C CNN
+F 2 "8dip300" H 5260 3210 60  0001 C CNN
+	1    5150 2850
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3350 2000 2900 2000
 Wire Notes Line
@@ -157,7 +175,7 @@ AR Path="/4C2F3E27/4C2ED38A" Ref="#PWR054"  Part="1"
 AR Path="/4C2F3E07/4C2ED38A" Ref="#PWR056"  Part="1" 
 AR Path="/4C2F3DD9/4C2ED38A" Ref="#PWR058"  Part="1" 
 AR Path="/4C2F3BE4/4C2ED38A" Ref="#PWR060"  Part="1" 
-F 0 "#PWR060" H 6600 2750 30  0001 C CNN
+F 0 "#PWR040" H 6600 2750 30  0001 C CNN
 F 1 "GND" H 6600 2680 30  0001 C CNN
 	1    6600 2750
 	1    0    0    -1  
@@ -174,7 +192,7 @@ AR Path="/4C2F3E27/4C2ED354" Ref="#PWR055"  Part="1"
 AR Path="/4C2F3E07/4C2ED354" Ref="#PWR057"  Part="1" 
 AR Path="/4C2F3DD9/4C2ED354" Ref="#PWR059"  Part="1" 
 AR Path="/4C2F3BE4/4C2ED354" Ref="#PWR061"  Part="1" 
-F 0 "#PWR061" H 6100 3000 30  0001 C CNN
+F 0 "#PWR041" H 6100 3000 30  0001 C CNN
 F 1 "GND" H 6100 2930 30  0001 C CNN
 	1    6100 3000
 	1    0    0    -1  
@@ -280,24 +298,6 @@ F 0 "Q17" H 3600 3450 50  0000 C CNN
 F 1 "2N6044" H 3400 3100 50  0000 C CNN
 	1    3600 3200
 	-1   0    0    -1  
-$EndComp
-$Comp
-L LM1949 U27
-U 1 1 4C2ECEC5
-P 5150 2850
-AR Path="/4C77BC96/4C2ECEC5" Ref="U27"  Part="1" 
-AR Path="/4C77BCB7/4C2ECEC5" Ref="U28"  Part="1" 
-AR Path="/4C2F3E4C/4C2ECEC5" Ref="U26"  Part="1" 
-AR Path="/4C2F3E39/4C2ECEC5" Ref="U25"  Part="1" 
-AR Path="/4C2F3E27/4C2ECEC5" Ref="U24"  Part="1" 
-AR Path="/4C2F3E07/4C2ECEC5" Ref="U23"  Part="1" 
-AR Path="/4C2F3DD9/4C2ECEC5" Ref="U22"  Part="1" 
-AR Path="/4C2F3BE4/4C2ECEC5" Ref="U21"  Part="1" 
-F 0 "U28" H 5200 3150 60  0000 C CNN
-F 1 "LM1949" H 5150 2500 60  0000 C CNN
-F 2 "8dip300" H 5260 3210 60  0001 C CNN
-	1    5150 2850
-	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 P88

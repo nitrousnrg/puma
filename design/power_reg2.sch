@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 10 Nov 2010 09:35:55 AM ART
+EESchema Schematic File Version 2  date Thu 11 Nov 2010 09:17:35 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 21 50
+Sheet 27 50
 Title "Puma board"
-Date "10 nov 2010"
+Date "11 nov 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -41,6 +41,39 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	7850 3750 7850 3700
+Connection ~ 5500 3300
+Wire Wire Line
+	5500 3300 5500 2850
+Wire Wire Line
+	5500 2850 5850 2850
+Wire Wire Line
+	7850 3700 2600 3700
+Connection ~ 5250 3300
+Connection ~ 5250 3700
+Connection ~ 7450 3700
+Connection ~ 7450 3300
+Connection ~ 7000 3700
+Wire Wire Line
+	2600 3700 2600 3750
+Connection ~ 4850 3300
+Connection ~ 4850 3700
+Wire Wire Line
+	2500 3300 2650 3300
+Connection ~ 7000 3300
+Wire Wire Line
+	5650 3300 3050 3300
+Wire Wire Line
+	6050 3600 6050 3700
+Connection ~ 6050 3700
+Wire Wire Line
+	6250 2850 6600 2850
+Wire Wire Line
+	6600 2850 6600 3300
+Wire Wire Line
+	6450 3300 7850 3300
+Connection ~ 6600 3300
 $Comp
 L 7805 U2
 U 1 1 4CD715D6
@@ -50,39 +83,6 @@ F 1 "MIC2954" H 6050 3550 60  0000 C CNN
 	1    6050 3350
 	1    0    0    -1  
 $EndComp
-Connection ~ 6600 3300
-Wire Wire Line
-	6450 3300 7850 3300
-Wire Wire Line
-	6600 3300 6600 2850
-Wire Wire Line
-	6600 2850 6250 2850
-Connection ~ 6050 3700
-Wire Wire Line
-	6050 3600 6050 3700
-Wire Wire Line
-	5650 3300 3050 3300
-Connection ~ 7000 3300
-Wire Wire Line
-	2500 3300 2650 3300
-Connection ~ 4850 3700
-Connection ~ 4850 3300
-Wire Wire Line
-	2600 3750 2600 3700
-Connection ~ 7000 3700
-Connection ~ 7450 3300
-Connection ~ 7450 3700
-Connection ~ 5250 3700
-Connection ~ 5250 3300
-Wire Wire Line
-	2600 3700 7850 3700
-Wire Wire Line
-	5850 2850 5500 2850
-Wire Wire Line
-	5500 2850 5500 3300
-Connection ~ 5500 3300
-Wire Wire Line
-	7850 3700 7850 3750
 $Comp
 L VSS #PWR062
 U 1 1 4C2F52A0

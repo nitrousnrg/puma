@@ -1,4 +1,4 @@
-update=Thu 02 Sep 2010 01:35:13 AM ART
+update=Fri 12 Nov 2010 01:04:47 AM ART
 last_client=pcbnew
 [eeschema]
 version=1
@@ -72,8 +72,8 @@ version=1
 [pcbnew]
 version=1
 PadDrlX=0
-PadDimH=2165
-PadDimV=787
+PadDimH=1440
+PadDimV=800
 BoardThickness=630
 RouteTo=15
 RouteBo=0
@@ -85,7 +85,7 @@ TxtPcbH=600
 TxtModV=600
 TxtModH=600
 TxtModW=120
-VEgarde=100
+VEgarde=80
 DrawLar=150
 EdgeLar=150
 TxtLar=120
@@ -103,4 +103,4 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=/home/marcos/electronica/FreeEMS_1.0_hardware/PCB-modules/free_EMS
+LibName11=/home/marcos/electronica/puma/PCB-modules/free_EMS
