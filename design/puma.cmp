@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 07 Nov 2010 11:30:44 PM ART
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sat 18 Dec 2010 05:57:45 PM ART
 
 BeginCmp
 TimeStamp = /4C2E1E53/4C2F529E;
@@ -990,6 +990,48 @@ EndCmp
 BeginCmp
 TimeStamp = /4CD74769/4CD742B5;
 Reference = D98;
+ValeurCmp = 5.1v;
+IdModule  = SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D0D1CCE/4CD742B5;
+Reference = D99;
+ValeurCmp = 5.1v;
+IdModule  = SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D0D1D47/4CD742B5;
+Reference = D100;
+ValeurCmp = 5.1v;
+IdModule  = SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D0D1D54/4CD742B5;
+Reference = D101;
+ValeurCmp = 5.1v;
+IdModule  = SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D0D1DAF/4CD742B5;
+Reference = D102;
+ValeurCmp = 5.1v;
+IdModule  = SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D0D1E3B/4CD742B5;
+Reference = D103;
+ValeurCmp = 5.1v;
+IdModule  = SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D0D1E3E/4CD742B5;
+Reference = D104;
 ValeurCmp = 5.1v;
 IdModule  = SOD-123;
 EndCmp
@@ -2439,6 +2481,48 @@ EndCmp
 BeginCmp
 TimeStamp = /4CD74769/4CD742AE;
 Reference = R244;
+ValeurCmp = 1.6k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D0D1CCE/4CD742AE;
+Reference = R245;
+ValeurCmp = 1.6k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D0D1D47/4CD742AE;
+Reference = R246;
+ValeurCmp = 1.6k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D0D1D54/4CD742AE;
+Reference = R247;
+ValeurCmp = 1.6k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D0D1DAF/4CD742AE;
+Reference = R248;
+ValeurCmp = 1.6k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D0D1E3B/4CD742AE;
+Reference = R249;
+ValeurCmp = 1.6k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D0D1E3E/4CD742AE;
+Reference = R250;
 ValeurCmp = 1.6k;
 IdModule  = SM0805;
 EndCmp
