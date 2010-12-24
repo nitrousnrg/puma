@@ -1,4 +1,4 @@
-update=Fri 12 Nov 2010 01:04:47 AM ART
+update=Thu 23 Dec 2010 02:37:44 AM ART
 last_client=pcbnew
 [eeschema]
 version=1
@@ -90,7 +90,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=50
-WpenSer=10
+WpenSer=20
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -104,3 +104,5 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=/home/marcos/electronica/puma/PCB-modules/free_EMS
+LibName12=/home/marcos/electronica/puma/screenshots/img2mod_v1.01/LOGO2
+LibName13=/home/marcos/electronica/puma/PCB-modules/LOGO
