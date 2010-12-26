@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 18 Dec 2010 05:54:46 PM ART
+EESchema Schematic File Version 2  date 12/26/2010 5:47:30 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 27 56
+Sheet 40 56
 Title "Puma board"
-Date "18 dec 2010"
+Date "26 dec 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "ignition.sch"
@@ -41,6 +41,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 4100 1650 0    60   ~ 0
+ing5
 Wire Wire Line
 	4300 2250 4100 2250
 Connection ~ 4100 1750
