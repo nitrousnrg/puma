@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/26/2010 5:47:30 AM
+EESchema Schematic File Version 2  date Mon 27 Dec 2010 09:57:16 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 27 56
 Title "Puma board"
-Date "26 dec 2010"
+Date "27 dec 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -84,10 +84,10 @@ F 1 "MIC2954" H 6050 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VSS #PWR068
+L VSS #PWR069
 U 1 1 4C2F52A0
 P 7850 3750
-F 0 "#PWR068" H 7850 3750 30  0001 C CNN
+F 0 "#PWR069" H 7850 3750 30  0001 C CNN
 F 1 "VSS" H 7850 3680 30  0000 C CNN
 	1    7850 3750
 	-1   0    0    -1  
@@ -219,10 +219,10 @@ F 11 "other,more,stuff" V 1530 2600 60  0001 C CNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR069
+L GND #PWR070
 U 1 1 486CA86E
 P 2600 3750
-F 0 "#PWR069" H 2600 3750 30  0001 C CNN
+F 0 "#PWR070" H 2600 3750 30  0001 C CNN
 F 1 "GND" H 2600 3680 30  0001 C CNN
 	1    2600 3750
 	-1   0    0    -1  

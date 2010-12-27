@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sat 18 Dec 2010 05:57:45 PM ART
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 27 Dec 2010 09:58:52 AM ART
 
 BeginCmp
 TimeStamp = /4C2E1E53/4C2F529E;
@@ -1352,6 +1352,34 @@ IdModule  = PINTST;
 EndCmp
 
 BeginCmp
+TimeStamp = /4D170A78;
+Reference = P103;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D170AC0;
+Reference = P104;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D170A98;
+Reference = P105;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C2E1EA1/4D188C64;
+Reference = P106;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /4C2E1E63/4C2F5337;
 Reference = Q1;
 ValeurCmp = MOSFET_N;
@@ -2524,6 +2552,13 @@ BeginCmp
 TimeStamp = /4D0D1E3E/4CD742AE;
 Reference = R250;
 ValeurCmp = 1.6k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C2E1EA1/4D188C63;
+Reference = R251;
+ValeurCmp = 1K;
 IdModule  = SM0805;
 EndCmp
 
