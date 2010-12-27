@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 27 Dec 2010 09:57:16 AM ART
+EESchema Schematic File Version 2  date 12/27/2010 11:40:37 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,7 +31,7 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 9 56
+Sheet 21 56
 Title "Puma board"
 Date "27 dec 2010"
 Rev ""
@@ -41,9 +41,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 5050 3550 0    60   Input ~ 0
+Text Label 6350 3550 0    60   ~ 0
+k-
+Text Label 4850 3550 0    60   ~ 0
+k+
+Text GLabel 4800 3550 0    60   Input ~ 0
 connector_17
-Text GLabel 6350 3550 2    60   Input ~ 0
+Text GLabel 6550 3550 2    60   Input ~ 0
 connector_19
 $Comp
 L GND #PWR051
@@ -72,9 +76,9 @@ Wire Wire Line
 	6300 3750 6500 3750
 Connection ~ 5000 3850
 Wire Wire Line
-	6300 3550 6350 3550
+	6300 3550 6550 3550
 Wire Wire Line
-	5050 3550 5100 3550
+	4800 3550 5100 3550
 Wire Wire Line
 	5100 3750 5000 3750
 Wire Wire Line

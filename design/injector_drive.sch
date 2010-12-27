@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 27 Dec 2010 09:57:16 AM ART
+EESchema Schematic File Version 2  date 12/27/2010 11:40:37 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,7 +31,7 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 13 56
+Sheet 19 56
 Title "Puma board"
 Date "27 dec 2010"
 Rev "A.07"
@@ -41,38 +41,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L LM1949 U27
-U 1 1 4C2ECEC5
-P 5150 2850
-AR Path="/4C77BC96/4C2ECEC5" Ref="U27"  Part="1" 
-AR Path="/4C77BCB7/4C2ECEC5" Ref="U28"  Part="1" 
-AR Path="/4C2F3E4C/4C2ECEC5" Ref="U26"  Part="1" 
-AR Path="/4C2F3E39/4C2ECEC5" Ref="U25"  Part="1" 
-AR Path="/4C2F3E27/4C2ECEC5" Ref="U24"  Part="1" 
-AR Path="/4C2F3E07/4C2ECEC5" Ref="U23"  Part="1" 
-AR Path="/4C2F3DD9/4C2ECEC5" Ref="U22"  Part="1" 
-AR Path="/4C2F3BE4/4C2ECEC5" Ref="U21"  Part="1" 
-F 0 "U28" H 5200 3150 60  0000 C CNN
-F 1 "LM1949" H 5150 2500 60  0000 C CNN
-F 2 "8dip300" H 5260 3210 60  0001 C CNN
-	1    5150 2850
-	1    0    0    -1  
-$EndComp
+Connection ~ 3450 2800
+Wire Wire Line
+	3400 2800 3450 2800
+Wire Wire Line
+	2300 2800 2400 2800
 Wire Wire Line
 	3350 2000 2900 2000
 Wire Notes Line
 	5000 3550 5000 4100
 Wire Notes Line
 	5000 4100 5150 4100
-Wire Notes Line
-	3850 2800 3400 2800
-Wire Notes Line
-	3850 2350 3400 2350
-Wire Notes Line
-	3850 2350 3850 2800
-Wire Notes Line
-	3400 2350 3400 2800
 Wire Wire Line
 	2600 3800 6250 3800
 Wire Wire Line
@@ -90,8 +69,6 @@ Wire Wire Line
 	4450 2700 4450 2000
 Wire Wire Line
 	4450 2000 3850 2000
-Wire Wire Line
-	2600 2500 3500 2500
 Wire Wire Line
 	3150 2950 3450 2950
 Connection ~ 4450 3450
@@ -118,10 +95,6 @@ Wire Wire Line
 	4450 3450 4450 3000
 Wire Wire Line
 	3350 3350 3150 3350
-Wire Wire Line
-	3450 2950 3450 2700
-Wire Wire Line
-	3450 2700 3500 2700
 Wire Wire Line
 	5950 2300 5950 2700
 Wire Wire Line
@@ -151,11 +124,71 @@ Wire Notes Line
 	6350 2850 6350 3900
 Wire Notes Line
 	6350 3900 6500 3900
+Wire Wire Line
+	3450 2950 3450 2500
+Wire Wire Line
+	3450 2500 2600 2500
+Wire Wire Line
+	2900 2800 3000 2800
+Text HLabel 2300 2800 0    60   Input ~ 0
+12v_bat
+$Comp
+L R R257
+U 1 1 4D18BF66
+P 2650 2800
+AR Path="/4C2F3E4C/4D18BF66" Ref="R257"  Part="1" 
+AR Path="/4C77BCB7/4D18BF66" Ref="R259"  Part="1" 
+AR Path="/4C77BC96/4D18BF66" Ref="R258"  Part="1" 
+AR Path="/4C2F3E39/4D18BF66" Ref="R256"  Part="1" 
+AR Path="/4C2F3E27/4D18BF66" Ref="R255"  Part="1" 
+AR Path="/4C2F3E07/4D18BF66" Ref="R254"  Part="1" 
+AR Path="/4C2F3DD9/4D18BF66" Ref="R253"  Part="1" 
+AR Path="/4C2F3BE4/4D18BF66" Ref="R252"  Part="1" 
+F 0 "R259" V 2730 2800 50  0000 C CNN
+F 1 "3K" V 2650 2800 50  0000 C CNN
+	1    2650 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D110
+U 1 1 4D18BF5A
+P 3200 2800
+AR Path="/4C2F3E4C/4D18BF5A" Ref="D110"  Part="1" 
+AR Path="/4C77BCB7/4D18BF5A" Ref="D112"  Part="1" 
+AR Path="/4C77BC96/4D18BF5A" Ref="D111"  Part="1" 
+AR Path="/4C2F3E39/4D18BF5A" Ref="D109"  Part="1" 
+AR Path="/4C2F3E27/4D18BF5A" Ref="D108"  Part="1" 
+AR Path="/4C2F3E07/4D18BF5A" Ref="D107"  Part="1" 
+AR Path="/4C2F3DD9/4D18BF5A" Ref="D106"  Part="1" 
+AR Path="/4C2F3BE4/4D18BF5A" Ref="D105"  Part="1" 
+F 0 "D112" H 3200 2900 50  0000 C CNN
+F 1 "LED" H 3200 2700 50  0000 C CNN
+	1    3200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM1949 U27
+U 1 1 4C2ECEC5
+P 5150 2850
+AR Path="/4C77BC96/4C2ECEC5" Ref="U27"  Part="1" 
+AR Path="/4C77BCB7/4C2ECEC5" Ref="U28"  Part="1" 
+AR Path="/4C2F3E4C/4C2ECEC5" Ref="U26"  Part="1" 
+AR Path="/4C2F3E39/4C2ECEC5" Ref="U25"  Part="1" 
+AR Path="/4C2F3E27/4C2ECEC5" Ref="U24"  Part="1" 
+AR Path="/4C2F3E07/4C2ECEC5" Ref="U23"  Part="1" 
+AR Path="/4C2F3DD9/4C2ECEC5" Ref="U22"  Part="1" 
+AR Path="/4C2F3BE4/4C2ECEC5" Ref="U21"  Part="1" 
+F 0 "U28" H 5200 3150 60  0000 C CNN
+F 1 "LM1949" H 5150 2500 60  0000 C CNN
+F 2 "8dip300" H 5260 3210 60  0001 C CNN
+	1    5150 2850
+	1    0    0    -1  
+$EndComp
 Text Notes 3600 1350 0    90   ~ 0
 PEAK & HOLD INJECTOR DRIVER
 Text Notes 6550 3900 0    60   ~ 0
 3.9k x 1uF = 3.9msec
-Text Notes 3250 2300 0    60   ~ 0
+Text Notes 2700 2500 0    60   ~ 0
 INJECTOR OUTPUT
 Text Notes 6550 3750 0    60   ~ 0
 TIMER CIRCUIT. 1 TAU IS THE MAX PEAK TIME.
@@ -277,8 +310,8 @@ AR Path="/4C2F3E27/4C2ED01B" Ref="C114"  Part="1"
 AR Path="/4C2F3E07/4C2ED01B" Ref="C112"  Part="1" 
 AR Path="/4C2F3DD9/4C2ED01B" Ref="C110"  Part="1" 
 AR Path="/4C2F3BE4/4C2ED01B" Ref="C108"  Part="1" 
-F 0 "C122" H 4200 3100 50  0000 L CNN
-F 1 ".01uF" H 4200 2900 50  0000 L CNN
+F 0 "C122" H 4200 3150 50  0000 L CNN
+F 1 ".01uF" V 4050 2850 50  0000 L CNN
 	1    4150 3000
 	1    0    0    -1  
 $EndComp
@@ -299,44 +332,8 @@ F 1 "2N6044" H 3400 3100 50  0000 C CNN
 	1    3600 3200
 	-1   0    0    -1  
 $EndComp
-$Comp
-L CONN_1 P88
-U 1 1 48AA1A76
-P 3650 2700
-AR Path="/4C77BC96/48AA1A76" Ref="P88"  Part="1" 
-AR Path="/4C77BCB7/48AA1A76" Ref="P90"  Part="1" 
-AR Path="/4C2F3E4C/48AA1A76" Ref="P86"  Part="1" 
-AR Path="/4C2F3E39/48AA1A76" Ref="P84"  Part="1" 
-AR Path="/4C2F3E27/48AA1A76" Ref="P82"  Part="1" 
-AR Path="/4C2F3E07/48AA1A76" Ref="P80"  Part="1" 
-AR Path="/4C2F3DD9/48AA1A76" Ref="P78"  Part="1" 
-AR Path="/4C2F3BE4/48AA1A76" Ref="P76"  Part="1" 
-F 0 "P90" H 3730 2700 40  0000 L CNN
-F 1 "CONN_1" H 3650 2755 30  0001 C CNN
-F 2 "1PIN" V -2870 3300 60  0001 C CNN
-	1    3650 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P87
-U 1 1 48AA1A73
-P 3650 2500
-AR Path="/4C77BC96/48AA1A73" Ref="P87"  Part="1" 
-AR Path="/4C77BCB7/48AA1A73" Ref="P89"  Part="1" 
-AR Path="/4C2F3E4C/48AA1A73" Ref="P85"  Part="1" 
-AR Path="/4C2F3E39/48AA1A73" Ref="P83"  Part="1" 
-AR Path="/4C2F3E27/48AA1A73" Ref="P81"  Part="1" 
-AR Path="/4C2F3E07/48AA1A73" Ref="P79"  Part="1" 
-AR Path="/4C2F3DD9/48AA1A73" Ref="P77"  Part="1" 
-AR Path="/4C2F3BE4/48AA1A73" Ref="P75"  Part="1" 
-F 0 "P89" H 3730 2500 40  0000 L CNN
-F 1 "CONN_1" H 3650 2555 30  0001 C CNN
-F 2 "1PIN" V -2870 3300 60  0001 C CNN
-	1    3650 2500
-	1    0    0    -1  
-$EndComp
 Text HLabel 2600 2500 0    60   Input ~ 0
-12v_power
+injector_output
 $Comp
 L R R206
 U 1 1 4C2F52D2

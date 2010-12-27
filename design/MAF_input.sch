@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 27 Dec 2010 09:57:16 AM ART
+EESchema Schematic File Version 2  date 12/27/2010 11:40:38 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -41,20 +41,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 3550 2350 2    60   Input ~ 0
+Text Label 3500 1950 0    60   ~ 0
+maf
+Text GLabel 3800 2350 2    60   Input ~ 0
 connector_4
-Text GLabel 3550 1950 2    60   Input ~ 0
+Text GLabel 3800 1950 2    60   Input ~ 0
 connector_15
 Connection ~ 2700 2350
 Wire Wire Line
-	3550 2350 1900 2350
+	3800 2350 1900 2350
 Connection ~ 2700 1950
 Wire Wire Line
 	2900 1950 1900 1950
 Wire Wire Line
 	2700 1450 1900 1450
 Wire Wire Line
-	3550 1950 3400 1950
+	3800 1950 3400 1950
 Text Notes 1400 2900 0    60   ~ 0
 Filter settling time: 1ms   (4*RC = 0.88ms)\nPull-up resistor for diagnosis
 $Comp

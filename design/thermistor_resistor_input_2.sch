@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 27 Dec 2010 09:57:16 AM ART
+EESchema Schematic File Version 2  date 12/27/2010 11:40:40 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -41,6 +41,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 4900 1700 0    60   ~ 0
+cht
 Text GLabel 4850 1900 0    60   Input ~ 0
 connector_24
 Text GLabel 4850 1700 0    60   Input ~ 0

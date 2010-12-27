@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 27 Dec 2010 09:57:16 AM ART
+EESchema Schematic File Version 2  date 12/27/2010 11:40:39 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,7 +31,7 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 31 56
+Sheet 43 56
 Title "Puma board"
 Date "27 dec 2010"
 Rev "A.07"
@@ -41,6 +41,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 3300 2000 0    60   ~ 0
+aap
 NoConn ~ 5900 1400
 NoConn ~ 5900 1600
 NoConn ~ 5900 1800
