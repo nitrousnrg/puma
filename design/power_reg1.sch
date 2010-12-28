@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/27/2010 11:40:38 AM
+EESchema Schematic File Version 2  date Tue 28 Dec 2010 02:51:21 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 22 56
+Sheet 34 56
 Title "Puma board"
-Date "27 dec 2010"
+Date "28 dec 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -41,55 +41,85 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 6250 3300
+Connection ~ 4600 3300
 Wire Wire Line
-	6200 3300 7850 3300
+	4600 3850 4600 3300
 Wire Wire Line
-	3450 4600 3900 4600
+	2100 3300 2650 3300
 Wire Wire Line
-	4200 4300 4200 4400
-Wire Wire Line
-	4200 4950 4200 4800
-Connection ~ 4850 3300
-Wire Wire Line
-	5400 3300 4400 3300
-Wire Wire Line
-	6250 3300 6250 2900
-Wire Wire Line
-	6250 2900 6000 2900
-Wire Wire Line
-	2500 3300 2650 3300
-Connection ~ 5800 3700
-Connection ~ 4850 3700
-Wire Wire Line
-	3050 3300 3100 3300
-Wire Wire Line
-	2600 3750 2600 3700
-Connection ~ 7000 3700
-Wire Wire Line
-	5800 3700 5800 3600
-Wire Wire Line
-	7850 3750 7850 3700
-Connection ~ 7000 3300
-Connection ~ 5250 3700
-Connection ~ 5250 3300
-Wire Wire Line
-	7850 3700 2600 3700
-Connection ~ 6550 3300
-Connection ~ 6550 3700
-Wire Wire Line
-	5600 2900 5350 2900
-Wire Wire Line
-	5350 2900 5350 3300
-Connection ~ 5350 3300
-Connection ~ 7450 3300
-Connection ~ 7450 3700
-Wire Wire Line
-	4000 3300 3600 3300
+	2950 4600 2500 4600
 Wire Wire Line
 	4200 3800 4200 3600
 Wire Wire Line
-	2950 4600 2500 4600
+	4000 3300 3600 3300
+Connection ~ 7450 3700
+Connection ~ 7450 3300
+Connection ~ 5350 3300
+Wire Wire Line
+	5350 3300 5350 2900
+Wire Wire Line
+	5350 2900 5600 2900
+Connection ~ 6550 3700
+Connection ~ 6550 3300
+Wire Wire Line
+	7850 3700 2600 3700
+Connection ~ 5250 3300
+Connection ~ 5250 3700
+Connection ~ 7000 3300
+Wire Wire Line
+	7850 3700 7850 3750
+Wire Wire Line
+	5800 3700 5800 3600
+Connection ~ 7000 3700
+Wire Wire Line
+	2600 3700 2600 3750
+Wire Wire Line
+	3050 3300 3100 3300
+Connection ~ 4850 3700
+Connection ~ 5800 3700
+Wire Wire Line
+	6000 2900 6250 2900
+Wire Wire Line
+	6250 2900 6250 3300
+Wire Wire Line
+	4400 3300 5400 3300
+Connection ~ 4850 3300
+Wire Wire Line
+	4200 4950 4200 4800
+Wire Wire Line
+	4200 4300 4200 4400
+Wire Wire Line
+	3450 4600 3900 4600
+Wire Wire Line
+	7850 3300 6200 3300
+Connection ~ 6250 3300
+$Comp
+L GND #PWR?
+U 1 1 4D197A9B
+P 4600 4750
+F 0 "#PWR?" H 4600 4750 30  0001 C CNN
+F 1 "GND" H 4600 4680 30  0001 C CNN
+	1    4600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4D197A9A
+P 4600 4500
+F 0 "R?" V 4680 4500 50  0000 C CNN
+F 1 "3k" V 4600 4500 50  0000 C CNN
+	1    4600 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 4D197A99
+P 4600 4050
+F 0 "D?" H 4600 4150 50  0000 C CNN
+F 1 "LED" H 4600 3950 50  0000 C CNN
+	1    4600 4050
+	0    1    1    0   
+$EndComp
 $Comp
 L R R226
 U 1 1 4CC4C2A7
@@ -223,7 +253,7 @@ Text Notes 650  7250 0    60   ~ 0
 -- Power feed and ground for CPU core
 Text HLabel 7850 3300 2    60   Output ~ 0
 5v reg
-Text HLabel 2500 3300 0    60   Input ~ 0
+Text HLabel 2100 3300 0    60   Input ~ 0
 12v batt
 Text HLabel 7850 3700 2    60   BiDi ~ 0
 gnd
