@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 28 Dec 2010 02:51:21 AM ART
+EESchema Schematic File Version 2  date Wed 29 Dec 2010 07:55:57 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 6 56
+Sheet 18 56
 Title "Puma board"
-Date "28 dec 2010"
+Date "29 dec 2010"
 Rev ""
 Comp "diyefi.org"
 Comment1 ""
@@ -113,6 +113,7 @@ AR Path="/4CAB878F/4C94FEDF" Ref="R215"  Part="1"
 AR Path="/4C94FDB6/4C94FEDF" Ref="R212"  Part="1" 
 F 0 "R212" V 3380 2800 50  0000 C CNN
 F 1 "10k" V 3300 2800 50  0000 C CNN
+F 5 "RMCF0805JT10K0CT-ND" H 3300 2800 60  0001 C CNN "Field2"
 	1    3300 2800
 	0    1    1    0   
 $EndComp
@@ -124,6 +125,7 @@ AR Path="/4CAB878F/4CCADF73" Ref="R216"  Part="1"
 AR Path="/4C94FDB6/4CCADF73" Ref="R213"  Part="1" 
 F 0 "R213" V 3380 3200 50  0000 C CNN
 F 1 "10k" V 3300 3200 50  0000 C CNN
+F 5 "RMCF0805JT10K0CT-ND" H 3300 3200 60  0001 C CNN "Field2"
 	1    3300 3200
 	0    1    1    0   
 $EndComp
@@ -146,6 +148,7 @@ AR Path="/4CAB878F/4CCADF71" Ref="R217"  Part="1"
 AR Path="/4C94FDB6/4CCADF71" Ref="R214"  Part="1" 
 F 0 "R214" V 6580 3000 50  0000 C CNN
 F 1 "10k" V 6500 3000 50  0000 C CNN
+F 5 "RMCF0805JT10K0CT-ND" H 6500 3000 60  0001 C CNN "Field2"
 	1    6500 3000
 	1    0    0    -1  
 $EndComp
@@ -159,6 +162,7 @@ AR Path="/4CAB878F/4CCADF70" Ref="C128"  Part="1"
 AR Path="/4C94FDB6/4CCADF70" Ref="C126"  Part="1" 
 F 0 "C126" H 6100 2900 50  0000 L CNN
 F 1 "0.1uF" H 6100 2700 50  0000 L CNN
+F 5 "490-1666-2-ND" H 6050 2800 60  0001 C CNN "Field2"
 	1    6050 2800
 	1    0    0    -1  
 $EndComp
@@ -170,6 +174,7 @@ AR Path="/4CAB878F/4CCADF6F" Ref="U30"  Part="1"
 AR Path="/4C94FDB6/4CCADF6F" Ref="U29"  Part="1" 
 F 0 "U29" H 4900 3350 60  0000 C CNN
 F 1 "MAX9924" H 4900 3950 60  0000 C CNN
+F 5 "MAX9924UAUB+-ND" H 4900 3450 60  0001 C CNN "Field2"
 	1    4900 3450
 	1    0    0    -1  
 $EndComp

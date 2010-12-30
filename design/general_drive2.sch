@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 28 Dec 2010 02:51:21 AM ART
+EESchema Schematic File Version 2  date Wed 29 Dec 2010 07:55:57 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 38 56
+Sheet 50 56
 Title "Puma board"
-Date "28 dec 2010"
+Date "29 dec 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "general_drive.sch"
@@ -109,10 +109,10 @@ L R R63
 U 1 1 4C2F5319
 P 3700 1800
 F 0 "R63" V 3780 1800 50  0000 C CNN
-F 1 "3k" V 3700 1800 50  0000 C CNN
+F 1 "3.3k" V 3700 1800 50  0000 C CNN
 F 2 "R4-SM0805" V 2480 1650 60  0001 C CNN
 F 4 "newark,38k0340" V 380 2400 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 380 2400 60  0001 C CNN "Field2"
+F 5 "RMCF0805JT3K30CT-ND" V 380 2400 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V 380 2400 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V 380 2400 60  0001 C CNN "Field4"
 F 8 "1/4,W" V 380 2400 60  0001 C CNN "Field5"
@@ -168,7 +168,7 @@ F 0 "R62" V 2980 2550 50  0000 C CNN
 F 1 "100k" V 2900 2550 50  0000 C CNN
 F 2 "R4-SM0805" V 3080 2650 60  0001 C CNN
 F 4 "newark,38k0329" V 980 3400 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 980 3400 60  0001 C CNN "Field2"
+F 5 "RMCF0805JT100KCT-ND" V 980 3400 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V 980 3400 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V 980 3400 60  0001 C CNN "Field4"
 F 8 "250,mW" V 980 3400 60  0001 C CNN "Field5"
@@ -186,7 +186,7 @@ F 0 "C36" H 4250 2550 50  0000 L CNN
 F 1 "10pF" H 4250 2350 50  0000 L CNN
 F 2 "C1V7" V 1130 3400 60  0001 C CNN
 F 4 "newark,97k4148" V 1130 3400 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 3400 60  0001 C CNN "Field2"
+F 5 "311-1099-1-ND" V 1130 3400 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V 1130 3400 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V 1130 3400 60  0001 C CNN "Field4"
 F 8 "200,V" V 1130 3400 60  0001 C CNN "Field5"
@@ -204,7 +204,7 @@ F 0 "R64" V 4030 2400 50  0000 C CNN
 F 1 "2.2k" V 3950 2400 50  0000 C CNN
 F 2 "R4-SM0805" V 4130 2500 60  0001 C CNN
 F 4 "newark,38k0352" V 1130 3400 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 3400 60  0001 C CNN "Field2"
+F 5 "RMCF0805JT2K20CT-ND" V 1130 3400 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V 1130 3400 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V 1130 3400 60  0001 C CNN "Field4"
 F 8 "250,mW" V 1130 3400 60  0001 C CNN "Field5"
@@ -222,7 +222,7 @@ F 0 "R61" V 2680 2300 50  0000 C CNN
 F 1 "1k" V 2600 2300 50  0000 C CNN
 F 2 "R4-SM0805" V 2780 2400 60  0001 C CNN
 F 4 "newark,38k0327" V 980 3400 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 980 3400 60  0001 C CNN "Field2"
+F 5 "RMCF0805JT1K00CT-ND" V 980 3400 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V 980 3400 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V 980 3400 60  0001 C CNN "Field4"
 F 8 "250,mW" V 980 3400 60  0001 C CNN "Field5"

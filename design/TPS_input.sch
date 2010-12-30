@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 28 Dec 2010 02:51:21 AM ART
+EESchema Schematic File Version 2  date Wed 29 Dec 2010 07:55:57 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 42 56
+Sheet 54 56
 Title "Puma board"
-Date "28 dec 2010"
+Date "29 dec 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 "TPS_input.sch"

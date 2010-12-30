@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 28 Dec 2010 02:51:21 AM ART
+EESchema Schematic File Version 2  date Wed 29 Dec 2010 07:55:57 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 21 56
 Title "Puma board"
-Date "28 dec 2010"
+Date "29 dec 2010"
 Rev ""
 Comp "diyefi.org"
 Comment1 ""
@@ -50,10 +50,10 @@ connector_17
 Text GLabel 6550 3550 2    60   Input ~ 0
 connector_19
 $Comp
-L GND #PWR051
+L GND #PWR54
 U 1 1 4C599401
 P 6400 4250
-F 0 "#PWR051" H 6400 4250 30  0001 C CNN
+F 0 "#PWR54" H 6400 4250 30  0001 C CNN
 F 1 "GND" H 6400 4180 30  0001 C CNN
 	1    6400 4250
 	1    0    0    -1  
@@ -64,6 +64,7 @@ U 1 1 4C5993F7
 P 6400 4050
 F 0 "C107" H 6450 4150 50  0000 L CNN
 F 1 ".1uF" H 6450 3950 50  0000 L CNN
+F 5 "490-1666-2-ND" H 6400 4050 60  0001 C CNN "Field2"
 	1    6400 4050
 	1    0    0    -1  
 $EndComp
@@ -95,10 +96,10 @@ temp_output
 Text HLabel 6500 3650 2    60   Input ~ 0
 5V_reg
 $Comp
-L GND #PWR052
+L GND #PWR53
 U 1 1 4C59878A
 P 5000 3950
-F 0 "#PWR052" H 5000 3950 30  0001 C CNN
+F 0 "#PWR53" H 5000 3950 30  0001 C CNN
 F 1 "GND" H 5000 3880 30  0001 C CNN
 	1    5000 3950
 	1    0    0    -1  
@@ -109,6 +110,7 @@ U 1 1 4C5985F6
 P 5700 3700
 F 0 "U18" H 5700 3450 60  0000 C CNN
 F 1 "AD597" H 5700 3950 60  0000 C CNN
+F 5 "AD8497ARMZ-ND" H 5700 3700 60  0001 C CNN "Field2"
 	1    5700 3700
 	1    0    0    -1  
 $EndComp

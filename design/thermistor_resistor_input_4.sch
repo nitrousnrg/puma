@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 28 Dec 2010 02:51:21 AM ART
+EESchema Schematic File Version 2  date Wed 29 Dec 2010 07:55:57 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 13 56
+Sheet 25 56
 Title "Puma board"
-Date "28 dec 2010"
+Date "29 dec 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "thermistor_resistor_input.sch"
@@ -131,6 +131,7 @@ AR Path="/4C2E1E9D/4CCADF65" Ref="R149"  Part="1"
 AR Path="/4C2E1E9F/4CCADF65" Ref="R152"  Part="1" 
 F 0 "R158" V 6230 1700 50  0000 C CNN
 F 1 "10k" V 6150 1700 50  0000 C CNN
+F 5 "RMCF0805JT10K0CT-ND" H 6150 1700 60  0001 C CNN "Field2"
 	1    6150 1700
 	0    1    1    0   
 $EndComp
@@ -143,7 +144,8 @@ AR Path="/4C4C628B/4CCADF63" Ref="R154"  Part="1"
 AR Path="/4C2E1E9D/4CCADF63" Ref="R148"  Part="1" 
 AR Path="/4C2E1E9F/4CCADF63" Ref="R151"  Part="1" 
 F 0 "R157" V 5780 2100 50  0000 C CNN
-F 1 "38.3k" V 5700 2100 50  0000 C CNN
+F 1 "39k" V 5700 2100 50  0000 C CNN
+F 5 "RMCF0805JT39K0CT-ND" H 5700 2100 60  0001 C CNN "Field2"
 	1    5700 2100
 	1    0    0    -1  
 $EndComp
@@ -156,7 +158,8 @@ AR Path="/4C4C628B/4C4AE94D" Ref="R153"  Part="1"
 AR Path="/4C2E1E9D/4C4AE94D" Ref="R147"  Part="1" 
 AR Path="/4C2E1E9F/4C4AE94D" Ref="R150"  Part="1" 
 F 0 "R156" V 5780 1300 50  0000 C CNN
-F 1 "2.61k" V 5700 1300 50  0000 C CNN
+F 1 "2.2k" V 5700 1300 50  0000 C CNN
+F 5 "RMCF0805JT2K20CT-ND" H 5700 1300 60  0001 C CNN "Field2"
 	1    5700 1300
 	1    0    0    -1  
 $EndComp

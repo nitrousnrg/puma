@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 28 Dec 2010 02:51:21 AM ART
+EESchema Schematic File Version 2  date Wed 29 Dec 2010 07:55:57 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 44 56
 Title "Puma board"
-Date "28 dec 2010"
+Date "29 dec 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "MAP_input.sch"
@@ -137,6 +137,7 @@ U 1 1 4C4AEFA3
 P 3550 2000
 F 0 "R134" V 3630 2000 50  0000 C CNN
 F 1 "68k" V 3550 2000 50  0000 C CNN
+F 5 "RMCF0805JT68K0CT-ND" H 3550 2000 60  0001 C CNN "Field2"
 	1    3550 2000
 	0    1    1    0   
 $EndComp
@@ -148,6 +149,7 @@ U 1 1 4C4AEDC5
 P 2900 1700
 F 0 "R133" V 2980 1700 50  0000 C CNN
 F 1 "680k" V 2900 1700 50  0000 C CNN
+F 5 "P680KACT-ND" H 2900 1700 60  0001 C CNN "Field2"
 	1    2900 1700
 	1    0    0    -1  
 $EndComp
@@ -161,7 +163,7 @@ F 0 "C23" H 3850 1500 50  0000 L CNN
 F 1 ".1uF" H 3850 1300 50  0000 L CNN
 F 2 "C1V7" V 1130 2600 60  0001 C CNN
 F 4 "newark,75M7682" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
+F 5 "490-1666-2-ND" V 1130 2600 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
 F 8 "50,V" V 1130 2600 60  0001 C CNN "Field5"

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 28 Dec 2010 02:51:21 AM ART
+EESchema Schematic File Version 2  date Wed 29 Dec 2010 07:55:57 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 27 56
+Sheet 33 56
 Title "Puma board"
-Date "28 dec 2010"
+Date "29 dec 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -80,14 +80,15 @@ U 1 1 4CD715D6
 P 6050 3350
 F 0 "U2" H 6200 3154 60  0000 C CNN
 F 1 "MIC2954" H 6050 3550 60  0000 C CNN
+F 5 "576-1154-1-ND" H 6050 3350 60  0001 C CNN "Field2"
 	1    6050 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L VSS #PWR069
+L VSS #PWR11
 U 1 1 4C2F52A0
 P 7850 3750
-F 0 "#PWR069" H 7850 3750 30  0001 C CNN
+F 0 "#PWR11" H 7850 3750 30  0001 C CNN
 F 1 "VSS" H 7850 3680 30  0000 C CNN
 	1    7850 3750
 	-1   0    0    -1  
@@ -98,6 +99,7 @@ U 1 1 4CB21BF3
 P 7000 3500
 F 0 "C5" H 7050 3600 50  0000 L CNN
 F 1 "22uF" H 6800 3400 50  0000 L CNN
+F 5 "478-3901-1-ND" H 7000 3500 60  0001 C CNN "Field2"
 	1    7000 3500
 	1    0    0    -1  
 $EndComp
@@ -107,6 +109,7 @@ U 1 1 4CAB8DFA
 P 6050 2850
 F 0 "D92" H 6050 2950 40  0000 C CNN
 F 1 "1N4148" H 6050 2750 40  0000 C CNN
+F 5 "1N4148WTPMSCT-ND" H 6050 2850 60  0001 C CNN "Field2"
 	1    6050 2850
 	-1   0    0    1   
 $EndComp
@@ -154,7 +157,7 @@ F 0 "C6" H 7500 3600 50  0000 L CNN
 F 1 ".1uF" H 7500 3400 50  0000 L CNN
 F 2 "C1V7" V 5930 2600 60  0001 C CNN
 F 4 "newark,56K3664" V 5930 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 5930 2600 60  0001 C CNN "Field2"
+F 5 "490-1666-2-ND" V 5930 2600 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V 5930 2600 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V 5930 2600 60  0001 C CNN "Field4"
 F 8 "50,V" V 5930 2600 60  0001 C CNN "Field5"
@@ -208,7 +211,7 @@ F 0 "C3" H 5300 3600 50  0000 L CNN
 F 1 ".1uF" H 5300 3400 50  0000 L CNN
 F 2 "C1V7" V 1530 2600 60  0001 C CNN
 F 4 "newark,56K3664" V 1530 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1530 2600 60  0001 C CNN "Field2"
+F 5 "490-1666-2-ND" V 1530 2600 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V 1530 2600 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V 1530 2600 60  0001 C CNN "Field4"
 F 8 "50,V" V 1530 2600 60  0001 C CNN "Field5"
@@ -219,10 +222,10 @@ F 11 "other,more,stuff" V 1530 2600 60  0001 C CNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR070
+L GND #PWR10
 U 1 1 486CA86E
 P 2600 3750
-F 0 "#PWR070" H 2600 3750 30  0001 C CNN
+F 0 "#PWR10" H 2600 3750 30  0001 C CNN
 F 1 "GND" H 2600 3680 30  0001 C CNN
 	1    2600 3750
 	-1   0    0    -1  

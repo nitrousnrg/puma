@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 28 Dec 2010 02:51:21 AM ART
+EESchema Schematic File Version 2  date Wed 29 Dec 2010 07:55:57 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 26 56
+Sheet 38 56
 Title "Puma board"
-Date "28 dec 2010"
+Date "29 dec 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 "digi_protect.sch"
@@ -56,7 +56,7 @@ F 0 "D16" H 2800 2050 50  0000 C CNN
 F 1 "5V1" H 2800 1850 40  0000 C CNN
 F 2 "D4-SMB" V 1130 2600 60  0001 C CNN
 F 4 "newark,18M3285" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
+F 5 "BZT52C5V1-FDICT-ND" V 1130 2600 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
 F 8 "500,mW" V 1130 2600 60  0001 C CNN "Field5"
@@ -74,7 +74,7 @@ F 0 "R13" V 2480 1750 50  0000 C CNN
 F 1 "1k" V 2400 1750 50  0000 C CNN
 F 2 "R4-SM0805" V 2580 1850 60  0001 C CNN
 F 4 "newark,38K0328" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
+F 5 "RMCF0805JT1K00CT-ND" V 1130 2600 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
 F 8 "250,mW" V 1130 2600 60  0001 C CNN "Field5"

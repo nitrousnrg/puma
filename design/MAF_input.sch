@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 28 Dec 2010 02:51:21 AM ART
+EESchema Schematic File Version 2  date Wed 29 Dec 2010 07:55:57 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 11 56
+Sheet 23 56
 Title "Puma board"
-Date "28 dec 2010"
+Date "29 dec 2010"
 Rev ""
 Comp "diyefi.org"
 Comment1 ""
@@ -67,6 +67,7 @@ AR Path="/4C4C69E2/4CCADF6E" Ref="R136"  Part="1"
 AR Path="/4C4C6A85/4CCADF6E" Ref="R138"  Part="1" 
 F 0 "R136" V 3230 1950 50  0000 C CNN
 F 1 "10k" V 3150 1950 50  0000 C CNN
+F 5 "RMCF0805JT10K0CT-ND" H 3150 1950 60  0001 C CNN "Field2"
 	1    3150 1950
 	0    1    1    0   
 $EndComp
@@ -89,6 +90,7 @@ AR Path="/4C4C69E2/4C4C6C75" Ref="R135"  Part="1"
 AR Path="/4C4C6A85/4C4C6C75" Ref="R137"  Part="1" 
 F 0 "R135" V 2780 1700 50  0000 C CNN
 F 1 "680k" V 2700 1700 50  0000 C CNN
+F 5 "P680KACT-ND" H 2700 1700 60  0001 C CNN "Field2"
 	1    2700 1700
 	1    0    0    -1  
 $EndComp

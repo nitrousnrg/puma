@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 28 Dec 2010 02:51:21 AM ART
+EESchema Schematic File Version 2  date Wed 29 Dec 2010 07:55:57 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 13 56
+Sheet 11 56
 Title "Puma board"
-Date "28 dec 2010"
+Date "29 dec 2010"
 Rev ""
 Comp "diyefi.org"
 Comment1 ""
@@ -46,22 +46,22 @@ output
 Text HLabel 3750 2950 0    60   Input ~ 0
 cpu_pin
 $Comp
-L GND #PWR016
+L GND #PWR70
 U 1 1 4CD742CA
 P 4600 3450
-AR Path="/4D0D1CCE/4CD742CA" Ref="#PWR016"  Part="1" 
-AR Path="/4D0D1D47/4CD742CA" Ref="#PWR015"  Part="1" 
-AR Path="/4CD7427F/4CD742CA" Ref="#PWR022"  Part="1" 
-AR Path="/4D0D1E3E/4CD742CA" Ref="#PWR011"  Part="1" 
-AR Path="/4D0D1E3B/4CD742CA" Ref="#PWR012"  Part="1" 
-AR Path="/4D0D1DAF/4CD742CA" Ref="#PWR013"  Part="1" 
-AR Path="/4D0D1D54/4CD742CA" Ref="#PWR014"  Part="1" 
-AR Path="/4CD74769/4CD742CA" Ref="#PWR017"  Part="1" 
-AR Path="/4CD74766/4CD742CA" Ref="#PWR018"  Part="1" 
-AR Path="/4CD743EF/4CD742CA" Ref="#PWR019"  Part="1" 
-AR Path="/4CD743EC/4CD742CA" Ref="#PWR020"  Part="1" 
-AR Path="/4CD743DA/4CD742CA" Ref="#PWR021"  Part="1" 
-F 0 "#PWR022" H 4600 3450 30  0001 C CNN
+AR Path="/4D0D1CCE/4CD742CA" Ref="#PWR70"  Part="1" 
+AR Path="/4D0D1D47/4CD742CA" Ref="#PWR71"  Part="1" 
+AR Path="/4CD7427F/4CD742CA" Ref="#PWR64"  Part="1" 
+AR Path="/4D0D1E3E/4CD742CA" Ref="#PWR75"  Part="1" 
+AR Path="/4D0D1E3B/4CD742CA" Ref="#PWR74"  Part="1" 
+AR Path="/4D0D1DAF/4CD742CA" Ref="#PWR73"  Part="1" 
+AR Path="/4D0D1D54/4CD742CA" Ref="#PWR72"  Part="1" 
+AR Path="/4CD74769/4CD742CA" Ref="#PWR69"  Part="1" 
+AR Path="/4CD74766/4CD742CA" Ref="#PWR68"  Part="1" 
+AR Path="/4CD743EF/4CD742CA" Ref="#PWR67"  Part="1" 
+AR Path="/4CD743EC/4CD742CA" Ref="#PWR66"  Part="1" 
+AR Path="/4CD743DA/4CD742CA" Ref="#PWR65"  Part="1" 
+F 0 "#PWR75" H 4600 3450 30  0001 C CNN
 F 1 "GND" H 4600 3380 30  0001 C CNN
 	1    4600 3450
 	1    0    0    -1  
@@ -91,6 +91,7 @@ AR Path="/4CD743EC/4CD742B5" Ref="D95"  Part="1"
 AR Path="/4CD743DA/4CD742B5" Ref="D94"  Part="1" 
 F 0 "D104" H 4600 3350 50  0000 C CNN
 F 1 "5.1v" H 4600 3150 40  0000 C CNN
+F 5 "BZT52C5V1-FDICT-ND" H 4600 3250 60  0001 C CNN "Field2"
 	1    4600 3250
 	0    -1   -1   0   
 $EndComp
@@ -111,7 +112,8 @@ AR Path="/4CD743EF/4CD742AE" Ref="R242"  Part="1"
 AR Path="/4CD743EC/4CD742AE" Ref="R241"  Part="1" 
 AR Path="/4CD743DA/4CD742AE" Ref="R240"  Part="1" 
 F 0 "R250" V 4230 2950 50  0000 C CNN
-F 1 "1.6k" V 4150 2950 50  0000 C CNN
+F 1 "1k" V 4150 2950 50  0000 C CNN
+F 5 "RMCF0805JT1K00CT-ND" H 4150 2950 60  0001 C CNN "Field2"
 	1    4150 2950
 	0    1    1    0   
 $EndComp

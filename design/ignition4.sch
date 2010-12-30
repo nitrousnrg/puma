@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 28 Dec 2010 02:51:21 AM ART
+EESchema Schematic File Version 2  date Wed 29 Dec 2010 07:55:57 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 41 56
 Title "Puma board"
-Date "28 dec 2010"
+Date "29 dec 2010"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "ignition.sch"
@@ -79,6 +79,7 @@ U 1 1 4C66EF08
 P 4300 2050
 F 0 "D78" H 4300 2150 40  0000 C CNN
 F 1 "DIODE" H 4300 1950 40  0000 C CNN
+F 5 "1N4148WTPMSCT-ND" H 4300 2050 60  0001 C CNN "Field2"
 	1    4300 2050
 	0    -1   -1   0   
 $EndComp
@@ -108,7 +109,7 @@ F 0 "R26" V 3480 2300 50  0000 C CNN
 F 1 "10k" V 3400 2300 50  0000 C CNN
 F 2 "R4-SM0805" V 3580 2400 60  0001 C CNN
 F 4 "newark,38K0328" V 1230 2850 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1230 2850 60  0001 C CNN "Field2"
+F 5 "RMCF0805JT10K0CT-ND" V 1230 2850 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V 1230 2850 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V 1230 2850 60  0001 C CNN "Field4"
 F 8 "250,mW" V 1230 2850 60  0001 C CNN "Field5"
@@ -141,10 +142,10 @@ L R R25
 U 1 1 4C2F531C
 P 3300 1650
 F 0 "R25" V 3380 1650 50  0000 C CNN
-F 1 "3k" V 3300 1650 50  0000 C CNN
+F 1 "3.3k" V 3300 1650 50  0000 C CNN
 F 2 "R4-SM0805" V 1980 1650 60  0001 C CNN
 F 4 "newark,38k0340" V -120 2400 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V -120 2400 60  0001 C CNN "Field2"
+F 5 "RMCF0805JT3K30CT-ND" V -120 2400 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V -120 2400 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V -120 2400 60  0001 C CNN "Field4"
 F 8 "1/4,W" V -120 2400 60  0001 C CNN "Field5"
@@ -182,7 +183,7 @@ F 0 "R23" V 3180 2050 50  0000 C CNN
 F 1 "1k" V 3100 2050 50  0000 C CNN
 F 2 "R4-SM0805" V 3280 2150 60  0001 C CNN
 F 4 "newark,38k0327" V 930 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 930 2600 60  0001 C CNN "Field2"
+F 5 "RMCF0805JT1K00CT-ND" V 930 2600 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V 930 2600 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V 930 2600 60  0001 C CNN "Field4"
 F 8 "250,mW" V 930 2600 60  0001 C CNN "Field5"
