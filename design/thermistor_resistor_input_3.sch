@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 31 Dec 2010 12:57:48 PM ART
+EESchema Schematic File Version 2  date Fri 31 Dec 2010 04:42:07 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -92,6 +92,7 @@ AR Path="/4C2E1E9D/4C4AE9AE" Ref="C75"  Part="1"
 AR Path="/4C2E1E9F/4C4AE9AE" Ref="C78"  Part="1" 
 F 0 "C81" H 6700 2200 50  0000 L CNN
 F 1 "33nF" H 6700 2000 50  0000 L CNN
+F 5 "478-3550-1-ND" H 6650 2100 60  0001 C CNN "Field2"
 	1    6650 2100
 	1    0    0    -1  
 $EndComp
@@ -105,6 +106,7 @@ AR Path="/4C2E1E9D/4C4AE9A4" Ref="C74"  Part="1"
 AR Path="/4C2E1E9F/4C4AE9A4" Ref="C77"  Part="1" 
 F 0 "C80" H 5400 2200 50  0000 L CNN
 F 1 "1.5nF" H 5400 2000 50  0000 L CNN
+F 5 "311-1128-1-ND" H 5350 2100 60  0001 C CNN "Field2"
 	1    5350 2100
 	1    0    0    -1  
 $EndComp
@@ -118,6 +120,7 @@ AR Path="/4C2E1E9D/4CCADF66" Ref="C73"  Part="1"
 AR Path="/4C2E1E9F/4CCADF66" Ref="C76"  Part="1" 
 F 0 "C79" H 5200 1400 50  0000 L CNN
 F 1 "1.5nF" H 5200 1200 50  0000 L CNN
+F 5 "311-1128-1-ND" H 5150 1300 60  0001 C CNN "Field2"
 	1    5150 1300
 	1    0    0    -1  
 $EndComp

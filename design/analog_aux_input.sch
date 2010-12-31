@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 31 Dec 2010 12:57:48 PM ART
+EESchema Schematic File Version 2  date Fri 31 Dec 2010 04:42:07 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -56,7 +56,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 1950 3400 1950
 Text Notes 1400 2900 0    60   ~ 0
-Filter settling time: 1ms   (4*RC = 0.88ms)\nPull-up resistor for diagnosis
+Filter settling time: 1ms   (4*RC = 1.2ms)\nPull-up resistor for diagnosis
 $Comp
 L R R136
 U 1 1 4C4C76C8
@@ -76,7 +76,8 @@ P 2700 2150
 AR Path="/4C4C69E2/4CCADF6D" Ref="C67"  Part="1" 
 AR Path="/4C4C6A85/4CCADF6D" Ref="C68"  Part="1" 
 F 0 "C68" H 2750 2250 50  0000 L CNN
-F 1 "22nF" H 2750 2050 50  0000 L CNN
+F 1 "33nF" H 2750 2050 50  0000 L CNN
+F 5 "478-3550-1-ND" H 2700 2150 60  0001 C CNN "Field2"
 	1    2700 2150
 	1    0    0    -1  
 $EndComp

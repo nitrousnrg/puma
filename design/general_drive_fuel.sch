@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 31 Dec 2010 12:57:48 PM ART
+EESchema Schematic File Version 2  date Fri 31 Dec 2010 04:42:07 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -110,7 +110,7 @@ F 0 "D49" H 3700 1000 50  0000 C CNN
 F 1 "LED" H 3700 800 50  0000 C CNN
 F 2 "LEDV" V 1380 4850 60  0001 C CNN
 F 4 "newark,58k2469" V 130 1900 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 130 1900 60  0001 C CNN "Field2"
+F 5 "475-1415-1-ND" V 130 1900 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V 130 1900 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V 130 1900 60  0001 C CNN "Field4"
 F 8 "x,x" V 130 1900 60  0001 C CNN "Field5"

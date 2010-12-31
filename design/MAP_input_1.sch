@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 31 Dec 2010 12:57:48 PM ART
+EESchema Schematic File Version 2  date Fri 31 Dec 2010 04:42:07 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -128,6 +128,7 @@ U 1 1 4C4AEFB0
 P 3300 1800
 F 0 "C66" H 3350 1900 50  0000 L CNN
 F 1 "33nF" H 3350 1700 50  0000 L CNN
+F 5 "478-3550-1-ND" H 3300 1800 60  0001 C CNN "Field2"
 	1    3300 1800
 	1    0    0    -1  
 $EndComp
@@ -181,7 +182,7 @@ F 0 "C24" H 3850 1900 50  0000 L CNN
 F 1 "1.5nF" H 3850 1700 50  0000 L CNN
 F 2 "C1V7" V 1130 2600 60  0001 C CNN
 F 4 "newark,19C6191" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
+F 5 "311-1128-1-ND" V 1130 2600 60  0001 C CNN "Field2"
 F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
 F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
 F 8 "100,V" V 1130 2600 60  0001 C CNN "Field5"

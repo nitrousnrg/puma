@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 31 Dec 2010 12:57:48 PM ART
+EESchema Schematic File Version 2  date Fri 31 Dec 2010 04:42:07 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -164,6 +164,7 @@ AR Path="/4C2F3DD9/4D18BF5A" Ref="D106"  Part="1"
 AR Path="/4C2F3BE4/4D18BF5A" Ref="D105"  Part="1" 
 F 0 "D112" H 3200 2900 50  0000 C CNN
 F 1 "LED" H 3200 2700 50  0000 C CNN
+F 5 "475-1415-1-ND" H 3200 2800 60  0001 C CNN "Field2"
 	1    3200 2800
 	1    0    0    -1  
 $EndComp
@@ -318,6 +319,7 @@ AR Path="/4C2F3DD9/4C2ED01B" Ref="C110"  Part="1"
 AR Path="/4C2F3BE4/4C2ED01B" Ref="C108"  Part="1" 
 F 0 "C122" H 4200 3150 50  0000 L CNN
 F 1 ".01uF" V 4050 2850 50  0000 L CNN
+F 5 "490-1664-1-ND" H 4150 3000 60  0001 C CNN "Field2"
 	1    4150 3000
 	1    0    0    -1  
 $EndComp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 31 Dec 2010 12:57:48 PM ART
+EESchema Schematic File Version 2  date Fri 31 Dec 2010 04:42:07 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -724,6 +724,7 @@ U 1 1 4C56E293
 P 3150 3550
 F 0 "C97" H 3200 3650 50  0000 L CNN
 F 1 "22pF" H 3200 3450 50  0000 L CNN
+F 5 "709-1172-1-ND" H 3150 3550 60  0001 C CNN "Field2"
 	1    3150 3550
 	1    0    0    -1  
 $EndComp
@@ -733,6 +734,7 @@ U 1 1 4C56E292
 P 3150 3050
 F 0 "C96" H 3200 3150 50  0000 L CNN
 F 1 "22pF" H 3200 2950 50  0000 L CNN
+F 5 "709-1172-1-ND" H 3150 3050 60  0001 C CNN "Field2"
 	1    3150 3050
 	1    0    0    -1  
 $EndComp

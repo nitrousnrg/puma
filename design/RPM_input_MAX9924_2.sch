@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 31 Dec 2010 12:57:48 PM ART
+EESchema Schematic File Version 2  date Fri 31 Dec 2010 04:42:07 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -136,7 +136,8 @@ P 3650 3000
 AR Path="/4CAB878F/4C94FECC" Ref="C127"  Part="1" 
 AR Path="/4C94FDB6/4C94FECC" Ref="C125"  Part="1" 
 F 0 "C127" H 3700 3100 50  0000 L CNN
-F 1 "1nF" H 3700 2900 50  0000 L CNN
+F 1 "1.5nF" H 3700 2900 50  0000 L CNN
+F 5 "311-1128-1-ND" H 3650 3000 60  0001 C CNN "Field2"
 	1    3650 3000
 	1    0    0    -1  
 $EndComp
