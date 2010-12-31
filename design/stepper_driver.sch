@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 29 Dec 2010 07:55:57 PM ART
+EESchema Schematic File Version 2  date Fri 31 Dec 2010 12:57:48 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 16 56
 Title "Puma board"
-Date "29 dec 2010"
+Date "31 dec 2010"
 Rev ""
 Comp "diyefi.org"
 Comment1 ""
@@ -377,6 +377,7 @@ U 1 1 4CB2FD25
 P 4700 3550
 F 0 "R218" V 4780 3550 50  0000 C CNN
 F 1 "1R 1W" V 4700 3550 50  0000 C CNN
+F 5 "541-1.0VCT-ND" H 4700 3550 60  0001 C CNN "Field2"
 	1    4700 3550
 	0    1    1    0   
 $EndComp
@@ -386,6 +387,7 @@ U 1 1 4CB2FCE1
 P 7200 3450
 F 0 "R220" V 7280 3450 50  0000 C CNN
 F 1 "1R 1W" V 7200 3450 50  0000 C CNN
+F 5 "541-1.0VCT-ND" H 7200 3450 60  0001 C CNN "Field2"
 	1    7200 3450
 	0    1    1    0   
 $EndComp

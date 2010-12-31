@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 29 Dec 2010 07:55:57 PM ART
+EESchema Schematic File Version 2  date Fri 31 Dec 2010 12:57:48 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A3 16535 11700
 Sheet 14 56
 Title "Puma board"
-Date "29 dec 2010"
+Date "31 dec 2010"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,6 +41,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 1100 2250 0    60   ~ 0
+Marcos suggestions:\nR175 = 1k\nC93 = 27nF\nC94 = 2.2nF
 Text Label 5950 3550 2    60   ~ 0
 5v_microcontroller
 $Comp
@@ -672,6 +674,7 @@ U 1 1 4C56E29C
 P 1450 3250
 F 0 "R175" V 1530 3250 50  0000 C CNN
 F 1 "3.9K" V 1450 3250 50  0000 C CNN
+F 5 "RMCF0805JT1K00CT-ND" H 1450 3250 60  0001 C CNN "Field2"
 	1    1450 3250
 	0    1    1    0   
 $EndComp
@@ -691,6 +694,7 @@ U 1 1 4C56E296
 P 1750 3450
 F 0 "C94" H 1800 3550 50  0000 L CNN
 F 1 "330pF" H 1900 3450 50  0000 L CNN
+F 5 "311-1123-1-ND" H 1750 3450 60  0001 C CNN "Field2"
 	1    1750 3450
 	1    0    0    -1  
 $EndComp
@@ -710,6 +714,7 @@ U 1 1 4C56E294
 P 1150 3450
 F 0 "C93" H 1000 3550 50  0000 L CNN
 F 1 "3.3nF" H 1200 3350 50  0000 L CNN
+F 5 "399-1151-1-ND" H 1150 3450 60  0001 C CNN "Field2"
 	1    1150 3450
 	1    0    0    -1  
 $EndComp
