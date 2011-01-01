@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 31 Dec 2010 04:42:07 PM ART
+EESchema Schematic File Version 2  date Sat 01 Jan 2011 05:24:00 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 34 56
 Title "Puma board"
-Date "31 dec 2010"
+Date "1 jan 2011"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -158,7 +158,7 @@ L NPN Q18
 U 1 1 4CC4C212
 P 4100 4600
 F 0 "Q18" H 4100 4450 50  0000 R CNN
-F 1 "NPN" H 4100 4750 50  0000 R CNN
+F 1 "BC547" H 4100 4750 50  0000 R CNN
 	1    4100 4600
 	1    0    0    -1  
 $EndComp

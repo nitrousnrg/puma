@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 31 Dec 2010 04:42:07 PM ART
+EESchema Schematic File Version 2  date Sat 01 Jan 2011 05:24:00 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 41 56
 Title "Puma board"
-Date "31 dec 2010"
+Date "1 jan 2011"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "ignition.sch"
@@ -88,16 +88,9 @@ L PIP-3104 Q3
 U 1 1 4C2F5335
 P 4000 2050
 F 0 "Q3" H 4010 2220 60  0000 R CNN
-F 1 "MOSFET_N" H 4010 1900 60  0000 R CNN
+F 1 "RFP30N06" H 4010 1900 60  0000 R CNN
 F 2 "TO220_sm" V 3930 2800 60  0001 C CNN
-F 4 "digi,PIP3104-ND" V 2130 3800 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 2130 3800 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 2130 3800 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 2130 3800 60  0001 C CNN "Field4"
-F 8 "8,A" V 2130 3800 60  0001 C CNN "Field5"
-F 9 "x,x" V 2130 3800 60  0001 C CNN "Field6"
-F 10 "TOPFET" V 2130 3800 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 2130 3800 60  0001 C CNN "Field8"
+F 5 "RFP30N06LE-ND" H 4000 2050 60  0001 C CNN "Field2"
 	1    4000 2050
 	1    0    0    -1  
 $EndComp
