@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 01 Jan 2011 05:24:00 PM ART
+EESchema Schematic File Version 2  date Sun 02 Jan 2011 05:07:08 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A3 16535 11700
 Sheet 14 56
 Title "Puma board"
-Date "1 jan 2011"
+Date "2 jan 2011"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,10 +41,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 10750 3350 0    60   ~ 0
+5v_microcontroller
+Text Label 6250 2250 2    60   ~ 0
+5v_microcontroller
 Text Notes 1100 2250 0    60   ~ 0
 Marcos suggestions:\nR175 = 1k\nC93 = 27nF\nC94 = 2.2nF
-Text Label 5950 3550 2    60   ~ 0
-5v_microcontroller
 $Comp
 L GND #PWR29
 U 1 1 4D188C65
@@ -74,18 +76,24 @@ Wire Wire Line
 	2850 4700 2850 4600
 Connection ~ 6250 2250
 Wire Wire Line
-	5900 2250 10750 2250
+	5900 2250 6250 2250
+Wire Wire Line
+	6250 2250 6450 2250
+Wire Wire Line
+	6450 2250 7000 2250
+Wire Wire Line
+	9600 2250 10150 2250
 Wire Wire Line
 	5900 2250 5900 2700
 Wire Wire Line
 	6250 2250 6250 2300
-Connection ~ 10450 2850
-Connection ~ 10750 2850
 Wire Wire Line
-	10750 2850 9150 2850
+	10450 2850 9150 2850
 Connection ~ 4350 3300
 Wire Wire Line
-	4350 3350 4350 3200
+	4350 3350 4350 3300
+Wire Wire Line
+	4350 3300 4350 3200
 Connection ~ 3500 2750
 Wire Wire Line
 	3500 2750 3500 3050
@@ -117,7 +125,9 @@ Wire Wire Line
 	5900 3150 5900 3100
 Connection ~ 6250 2750
 Wire Wire Line
-	6250 2800 6250 2700
+	6250 2800 6250 2750
+Wire Wire Line
+	6250 2750 6250 2700
 Connection ~ 6050 4350
 Wire Wire Line
 	6150 4350 6050 4350
@@ -134,14 +144,15 @@ Wire Wire Line
 Connection ~ 9850 3350
 Wire Wire Line
 	9150 3350 9850 3350
-Connection ~ 9600 2250
 Connection ~ 7000 2250
 Wire Wire Line
 	6850 1800 7000 1800
 Wire Wire Line
 	9950 3350 10750 3350
 Wire Wire Line
-	9950 3350 9950 3050
+	9950 3350 9950 3250
+Wire Wire Line
+	9950 3250 9950 3050
 Wire Wire Line
 	9950 3050 9150 3050
 Wire Wire Line
@@ -175,19 +186,29 @@ Wire Wire Line
 	1850 3500 1850 3650
 Connection ~ 3900 3750
 Wire Wire Line
-	3150 3750 4450 3750
+	3150 3750 3500 3750
+Wire Wire Line
+	3500 3750 3900 3750
+Wire Wire Line
+	3900 3750 4450 3750
 Wire Wire Line
 	4450 3750 4450 3350
 Connection ~ 1750 3650
 Wire Wire Line
-	1150 3650 1900 3650
+	1150 3650 1750 3650
+Wire Wire Line
+	1750 3650 1850 3650
+Wire Wire Line
+	1850 3650 1900 3650
 Wire Wire Line
 	2900 3400 2900 3300
 Connection ~ 3150 3300
 Wire Wire Line
 	2900 3300 3150 3300
 Wire Wire Line
-	3150 3350 3150 3250
+	3150 3350 3150 3300
+Wire Wire Line
+	3150 3300 3150 3250
 Wire Wire Line
 	3500 3750 3500 3550
 Connection ~ 3500 3750
@@ -196,7 +217,9 @@ Wire Wire Line
 Wire Wire Line
 	2450 3650 2450 3700
 Wire Wire Line
-	2300 3650 2700 3650
+	2300 3650 2450 3650
+Wire Wire Line
+	2450 3650 2700 3650
 Wire Wire Line
 	2700 3650 2700 3900
 Wire Wire Line
@@ -205,7 +228,9 @@ Wire Wire Line
 	4600 3900 4600 3650
 Connection ~ 2450 3650
 Wire Wire Line
-	1700 3250 2800 3250
+	1700 3250 1750 3250
+Wire Wire Line
+	1750 3250 2800 3250
 Wire Wire Line
 	2800 3250 2800 3800
 Wire Wire Line
@@ -234,11 +259,15 @@ Wire Wire Line
 Wire Wire Line
 	10750 3750 9850 3750
 Wire Wire Line
-	9850 3750 9850 3150
+	9850 3750 9850 3350
+Wire Wire Line
+	9850 3350 9850 3150
 Wire Wire Line
 	9850 3150 9150 3150
 Wire Wire Line
-	7000 2550 7000 1800
+	7000 2550 7000 2250
+Wire Wire Line
+	7000 2250 7000 1800
 Wire Wire Line
 	9150 3250 9950 3250
 Connection ~ 9950 3250
@@ -263,7 +292,9 @@ Wire Wire Line
 Wire Wire Line
 	6650 4350 7100 4350
 Wire Wire Line
-	6050 4400 6050 4150
+	6050 4400 6050 4350
+Wire Wire Line
+	6050 4350 6050 4150
 Wire Wire Line
 	6050 4150 6150 4150
 Wire Notes Line
@@ -293,20 +324,23 @@ Wire Wire Line
 Wire Wire Line
 	9550 8150 9550 6650
 Wire Wire Line
-	4450 2750 3150 2750
+	4450 2750 3900 2750
+Wire Wire Line
+	3900 2750 3500 2750
+Wire Wire Line
+	3500 2750 3150 2750
 Wire Wire Line
 	3150 2750 3150 2850
 Connection ~ 3900 2750
-Wire Wire Line
-	10750 3350 10750 2250
-Connection ~ 10150 2250
 Wire Wire Line
 	6450 2650 6450 2250
 Connection ~ 6450 2250
 Wire Wire Line
 	4300 4600 4300 4700
 Wire Wire Line
-	2850 4600 4700 4600
+	2850 4600 4300 4600
+Wire Wire Line
+	4300 4600 4700 4600
 Wire Wire Line
 	4700 4600 4700 5500
 Wire Wire Line
