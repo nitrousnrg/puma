@@ -1,6 +1,5 @@
-* usb connector
-* map circuit (R133, R134) [DONE]
-* bigger hole in signal connector
+* usb connector [netlist ok]
+* map circuit (R133, R134) [schematic ok]
+* bigger hole in signal connector [DONE]
 * reset delay
 * mcu vcc [DONE]
-* 
