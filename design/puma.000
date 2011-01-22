@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Thu 06 Jan 2011 01:56:04 AM ART
+PCBNEW-BOARD Version 1 date Wed 12 Jan 2011 11:26:18 PM ART
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -20,7 +20,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A 11000 8500
 Title "Puma"
-Date "6 jan 2011"
+Date "13 jan 2011"
 Rev "Spin 1"
 Comp "FreeEMS.org"
 Comment1 ""
@@ -50283,8 +50283,9 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SM0805
 $TEXTPCB
-Te "LOAD/RUN"
-Po 47520 38031 200 200 50 0
+Te "LOAD"
+nl "RUN"
+Po 47401 37638 300 300 75 900
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
@@ -57857,7 +57858,7 @@ ZLayer 0
 ZAux 48 E
 ZClearance 150 T
 ZMinThickness 100
-ZOptions 1 16 F 200 200
+ZOptions 1 16 S 200 200
 ZCorner 65500 54800 0
 ZCorner 65500 38700 0
 ZCorner 55950 38700 0
@@ -65240,7 +65241,7 @@ ZLayer 15
 ZAux 13 E
 ZClearance 150 T
 ZMinThickness 100
-ZOptions 1 16 F 200 200
+ZOptions 1 16 S 200 200
 ZCorner 52900 47750 0
 ZCorner 52900 41550 0
 ZCorner 50700 41550 0
@@ -67004,7 +67005,7 @@ ZLayer 15
 ZAux 6 E
 ZClearance 150 T
 ZMinThickness 100
-ZOptions 1 16 F 200 200
+ZOptions 1 16 S 200 200
 ZCorner 25050 34800 0
 ZCorner 26450 33500 0
 ZCorner 26400 27050 0
@@ -67925,7 +67926,7 @@ ZLayer 0
 ZAux 17 E
 ZClearance 150 T
 ZMinThickness 100
-ZOptions 1 16 F 200 200
+ZOptions 1 16 S 200 200
 ZCorner 46700 54800 0
 ZCorner 46700 51050 0
 ZCorner 36300 45800 0
