@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 1/19/2011 5:46:08 PM
+EESchema Schematic File Version 2  date Sat 22 Jan 2011 04:21:58 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 44 56
 Title "Puma board"
-Date "19 jan 2011"
+Date "22 jan 2011"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "MAP_input.sch"
@@ -41,7 +41,52 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 4300 1800 0    60   ~ 0
+Wire Wire Line
+	4150 1500 5350 1500
+Wire Wire Line
+	4150 1500 4150 1200
+Wire Wire Line
+	5350 1500 5350 1800
+Wire Wire Line
+	2400 1600 5550 1600
+Connection ~ 4800 1600
+Wire Wire Line
+	4800 1600 4800 2450
+Wire Wire Line
+	4800 2450 4950 2450
+Connection ~ 3300 2000
+Wire Wire Line
+	5250 1800 4550 1800
+Wire Wire Line
+	4150 1200 2400 1200
+Connection ~ 3800 1200
+Connection ~ 3300 1600
+Connection ~ 3800 1600
+Connection ~ 3800 2000
+Wire Wire Line
+	3300 2000 2400 2000
+Wire Wire Line
+	4950 2300 4900 2300
+Wire Wire Line
+	4900 2300 4900 1500
+Wire Wire Line
+	4950 2600 4700 2600
+Wire Wire Line
+	4700 2600 4700 1800
+Connection ~ 4700 1800
+Wire Wire Line
+	5350 1800 5550 1800
+Connection ~ 4900 1500
+Wire Wire Line
+	5250 1800 5250 1400
+Wire Wire Line
+	5250 1400 5550 1400
+Wire Wire Line
+	3800 2000 4550 2000
+Wire Wire Line
+	4550 2000 4550 1800
+Connection ~ 4150 2000
+Text Label 4550 1800 0    60   ~ 0
 map
 NoConn ~ 6850 1400
 NoConn ~ 6850 1600
@@ -64,56 +109,6 @@ F 11 "other,more,stuff" V 2230 2800 60  0001 C CNN "Field8"
 	1    6200 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5550 1400 5250 1400
-Wire Wire Line
-	5250 1400 5250 1800
-Connection ~ 4900 1500
-Wire Wire Line
-	5550 1800 5350 1800
-Connection ~ 4700 1800
-Wire Wire Line
-	4700 1800 4700 2600
-Wire Wire Line
-	4700 2600 4950 2600
-Wire Wire Line
-	4900 1500 4900 2300
-Wire Wire Line
-	4900 2300 4950 2300
-Wire Wire Line
-	3300 2000 2400 2000
-Wire Wire Line
-	3800 2000 4200 2000
-Connection ~ 2900 1200
-Wire Wire Line
-	2900 1450 2900 1200
-Connection ~ 3800 2000
-Connection ~ 3800 1600
-Connection ~ 3300 1600
-Connection ~ 3800 1200
-Wire Wire Line
-	4200 2000 4200 1800
-Wire Wire Line
-	2400 1200 4150 1200
-Wire Wire Line
-	2900 2000 2900 1950
-Connection ~ 2900 2000
-Wire Wire Line
-	4200 1800 5250 1800
-Connection ~ 3300 2000
-Wire Wire Line
-	4950 2450 4800 2450
-Wire Wire Line
-	4800 2450 4800 1600
-Connection ~ 4800 1600
-Wire Wire Line
-	2400 1600 5550 1600
-Wire Wire Line
-	5350 1800 5350 1500
-Wire Wire Line
-	4150 1200 4150 1500
-Wire Wire Line
-	4150 1500 5350 1500
 Text GLabel 4950 2300 2    60   Input ~ 0
 connector_6
 Text GLabel 4950 2450 2    60   Input ~ 0
@@ -155,18 +150,18 @@ The 680k pull up ressistor is for diagnostics
 $Comp
 L R R133
 U 1 1 4C4AEDC5
-P 2900 1700
-F 0 "R133" V 2980 1700 50  0000 C CNN
-F 1 "680k" V 2900 1700 50  0000 C CNN
-F 4 "Panasonic-ECG" V 1130 2600 60  0001 C CNN "mfg"
-F 5 "ERJ-6GEYJ684V" V 1130 2600 60  0001 C CNN "mfg#"
-F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
-F 7 "P680KACT-ND" V 1130 2600 60  0001 C CNN "vend1#"
-F 8 ".125w" V 1130 2600 60  0001 C CNN "Power"
-F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "metal oxide" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    2900 1700
+P 4150 1750
+F 0 "R133" V 4230 1750 50  0000 C CNN
+F 1 "680k" V 4150 1750 50  0000 C CNN
+F 4 "Panasonic-ECG" V 2380 2650 60  0001 C CNN "mfg"
+F 5 "ERJ-6GEYJ684V" V 2380 2650 60  0001 C CNN "mfg#"
+F 6 "digikey" V 2380 2650 60  0001 C CNN "vend1"
+F 7 "P680KACT-ND" V 2380 2650 60  0001 C CNN "vend1#"
+F 8 ".125w" V 2380 2650 60  0001 C CNN "Power"
+F 9 "5%" V 2380 2650 60  0001 C CNN "tolerance"
+F 10 "metal oxide" V 2380 2650 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 2380 2650 60  0001 C CNN "misc"
+	1    4150 1750
 	1    0    0    -1  
 $EndComp
 Text HLabel 2400 1600 0    60   BiDi ~ 0
