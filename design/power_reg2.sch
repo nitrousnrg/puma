@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 02 Jan 2011 05:07:08 PM ART
+EESchema Schematic File Version 2  date 1/19/2011 5:46:07 PM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 33 56
 Title "Puma board"
-Date "2 jan 2011"
+Date "19 jan 2011"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -85,10 +85,10 @@ F 5 "576-1154-1-ND" H 6050 3350 60  0001 C CNN "Field2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VSS #PWR11
+L VSS #PWR069
 U 1 1 4C2F52A0
 P 7850 3750
-F 0 "#PWR11" H 7850 3750 30  0001 C CNN
+F 0 "#PWR069" H 7850 3750 30  0001 C CNN
 F 1 "VSS" H 7850 3680 30  0000 C CNN
 	1    7850 3750
 	-1   0    0    -1  
@@ -99,7 +99,15 @@ U 1 1 4CB21BF3
 P 7000 3500
 F 0 "C5" H 7050 3600 50  0000 L CNN
 F 1 "22uF" H 6800 3400 50  0000 L CNN
-F 5 "478-3901-1-ND" H 7000 3500 60  0001 C CNN "Field2"
+F 2 "C1V7" V 1130 2600 60  0001 C CNN
+F 4 "AVX" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "TAJC226M016RNJ" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "478-3901-1-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 "16v" V 1130 2600 60  0001 C CNN "Voltate"
+F 9 "20%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "tantalum" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7000 3500
 	1    0    0    -1  
 $EndComp
@@ -109,7 +117,14 @@ U 1 1 4CAB8DFA
 P 6050 2850
 F 0 "D92" H 6050 2950 40  0000 C CNN
 F 1 "1N4148" H 6050 2750 40  0000 C CNN
-F 5 "1N4148WTPMSCT-ND" H 6050 2850 60  0001 C CNN "Field2"
+F 4 "Micro Commercial Co" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "1N4148W-TP" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "1N4148WTPMSCT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".15a" V 1130 2600 60  0001 C CNN "current"
+F 9 "-%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "standard" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6050 2850
 	-1   0    0    1   
 $EndComp
@@ -154,16 +169,16 @@ L C C6
 U 1 1 486ED024
 P 7450 3500
 F 0 "C6" H 7500 3600 50  0000 L CNN
-F 1 ".1uF" H 7500 3400 50  0000 L CNN
-F 2 "C1V7" V 5930 2600 60  0001 C CNN
-F 4 "newark,56K3664" V 5930 2600 60  0001 C CNN "Field1"
-F 5 "490-1666-2-ND" V 5930 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 5930 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 5930 2600 60  0001 C CNN "Field4"
-F 8 "50,V" V 5930 2600 60  0001 C CNN "Field5"
-F 9 "20,%" V 5930 2600 60  0001 C CNN "Field6"
-F 10 "multilayer ceramic" V 5930 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 5930 2600 60  0001 C CNN "Field8"
+F 1 "0.1uF" H 7500 3400 50  0000 L CNN
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "Murata" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "GRM21BR71H104KA01L" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "490-1666-2-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 "50v" V 1130 2600 60  0001 C CNN "Voltage"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7450 3500
 	-1   0    0    -1  
 $EndComp
@@ -191,15 +206,15 @@ U 1 1 4C2F529E
 P 4850 3500
 F 0 "C2" H 4900 3600 50  0000 L CNN
 F 1 "10uF" H 4900 3400 50  0000 L CNN
-F 2 "C1V7" V 730 2600 60  0001 C CNN
-F 4 "newark,97M4217" V 730 2600 60  0001 C CNN "Field1"
-F 5 "493-1279-ND" V 730 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 730 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 730 2600 60  0001 C CNN "Field4"
-F 8 "35,V" V 730 2600 60  0001 C CNN "Field5"
-F 9 "10,%" V 730 2600 60  0001 C CNN "Field6"
-F 10 "Tantalum" V 730 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 730 2600 60  0001 C CNN "Field8"
+F 2 "C8" V 1130 2600 60  0001 C CNN
+F 4 "Nichicon" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "UVZ1C100MDD" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "493-1279-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 "16v" V 1130 2600 60  0001 C CNN "Voltate"
+F 9 "20%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "aluminum" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4850 3500
 	-1   0    0    -1  
 $EndComp
@@ -208,24 +223,24 @@ L C C3
 U 1 1 4C2F529C
 P 5250 3500
 F 0 "C3" H 5300 3600 50  0000 L CNN
-F 1 ".1uF" H 5300 3400 50  0000 L CNN
-F 2 "C1V7" V 1530 2600 60  0001 C CNN
-F 4 "newark,56K3664" V 1530 2600 60  0001 C CNN "Field1"
-F 5 "490-1666-2-ND" V 1530 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1530 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1530 2600 60  0001 C CNN "Field4"
-F 8 "50,V" V 1530 2600 60  0001 C CNN "Field5"
-F 9 "20,%" V 1530 2600 60  0001 C CNN "Field6"
-F 10 "multilayer ceramic" V 1530 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1530 2600 60  0001 C CNN "Field8"
+F 1 "0.1uF" H 5300 3400 50  0000 L CNN
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "Murata" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "GRM21BR71H104KA01L" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "490-1666-2-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 "50v" V 1130 2600 60  0001 C CNN "Voltage"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5250 3500
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR10
+L GND #PWR070
 U 1 1 486CA86E
 P 2600 3750
-F 0 "#PWR10" H 2600 3750 30  0001 C CNN
+F 0 "#PWR070" H 2600 3750 30  0001 C CNN
 F 1 "GND" H 2600 3680 30  0001 C CNN
 	1    2600 3750
 	-1   0    0    -1  

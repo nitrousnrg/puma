@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 02 Jan 2011 05:07:08 PM ART
+EESchema Schematic File Version 2  date 1/19/2011 5:46:06 PM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 22 56
 Title "Puma board"
-Date "2 jan 2011"
+Date "19 jan 2011"
 Rev ""
 Comp "diyefi.org"
 Comment1 ""
@@ -65,7 +65,14 @@ AR Path="/4C4C69E2/4C4C76C8" Ref="R136"  Part="1"
 AR Path="/4C4C6A85/4C4C76C8" Ref="R138"  Part="1" 
 F 0 "R138" V 3230 1950 50  0000 C CNN
 F 1 "10k" V 3150 1950 50  0000 C CNN
-F 5 "RMCF0805JT10K0CT-ND" H 3150 1950 60  0001 C CNN "Field2"
+F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT10K0CT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3150 1950
 	0    1    1    0   
 $EndComp
@@ -77,7 +84,15 @@ AR Path="/4C4C69E2/4CCADF6D" Ref="C67"  Part="1"
 AR Path="/4C4C6A85/4CCADF6D" Ref="C68"  Part="1" 
 F 0 "C68" H 2750 2250 50  0000 L CNN
 F 1 "33nF" H 2750 2050 50  0000 L CNN
-F 5 "478-3550-1-ND" H 2700 2150 60  0001 C CNN "Field2"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "AVX" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "08055C333KAZ2A" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "478-3550-1-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 "50" V 1130 2600 60  0001 C CNN "voltage"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2700 2150
 	1    0    0    -1  
 $EndComp
@@ -89,7 +104,14 @@ AR Path="/4C4C69E2/4CCADF6C" Ref="R135"  Part="1"
 AR Path="/4C4C6A85/4CCADF6C" Ref="R137"  Part="1" 
 F 0 "R137" V 2780 1700 50  0000 C CNN
 F 1 "680k" V 2700 1700 50  0000 C CNN
-F 5 "P680KACT-ND" H 2700 1700 60  0001 C CNN "Field2"
+F 4 "Panasonic-ECG" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "ERJ-6GEYJ684V" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "P680KACT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "Power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "metal oxide" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2700 1700
 	1    0    0    -1  
 $EndComp

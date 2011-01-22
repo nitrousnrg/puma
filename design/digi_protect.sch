@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 02 Jan 2011 05:07:08 PM ART
+EESchema Schematic File Version 2  date 1/19/2011 5:46:05 PM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 11 56
 Title "Puma board"
-Date "2 jan 2011"
+Date "19 jan 2011"
 Rev ""
 Comp "diyefi.org"
 Comment1 ""
@@ -46,22 +46,22 @@ output
 Text HLabel 3750 2950 0    60   Input ~ 0
 cpu_pin
 $Comp
-L GND #PWR70
+L GND #PWR016
 U 1 1 4CD742CA
 P 4600 3450
-AR Path="/4D0D1CCE/4CD742CA" Ref="#PWR70"  Part="1" 
-AR Path="/4D0D1D47/4CD742CA" Ref="#PWR71"  Part="1" 
-AR Path="/4CD7427F/4CD742CA" Ref="#PWR64"  Part="1" 
-AR Path="/4D0D1E3E/4CD742CA" Ref="#PWR75"  Part="1" 
-AR Path="/4D0D1E3B/4CD742CA" Ref="#PWR74"  Part="1" 
-AR Path="/4D0D1DAF/4CD742CA" Ref="#PWR73"  Part="1" 
-AR Path="/4D0D1D54/4CD742CA" Ref="#PWR72"  Part="1" 
-AR Path="/4CD74769/4CD742CA" Ref="#PWR69"  Part="1" 
-AR Path="/4CD74766/4CD742CA" Ref="#PWR68"  Part="1" 
-AR Path="/4CD743EF/4CD742CA" Ref="#PWR67"  Part="1" 
-AR Path="/4CD743EC/4CD742CA" Ref="#PWR66"  Part="1" 
-AR Path="/4CD743DA/4CD742CA" Ref="#PWR65"  Part="1" 
-F 0 "#PWR75" H 4600 3450 30  0001 C CNN
+AR Path="/4D0D1CCE/4CD742CA" Ref="#PWR016"  Part="1" 
+AR Path="/4D0D1D47/4CD742CA" Ref="#PWR015"  Part="1" 
+AR Path="/4CD7427F/4CD742CA" Ref="#PWR022"  Part="1" 
+AR Path="/4D0D1E3E/4CD742CA" Ref="#PWR011"  Part="1" 
+AR Path="/4D0D1E3B/4CD742CA" Ref="#PWR012"  Part="1" 
+AR Path="/4D0D1DAF/4CD742CA" Ref="#PWR013"  Part="1" 
+AR Path="/4D0D1D54/4CD742CA" Ref="#PWR014"  Part="1" 
+AR Path="/4CD74769/4CD742CA" Ref="#PWR017"  Part="1" 
+AR Path="/4CD74766/4CD742CA" Ref="#PWR018"  Part="1" 
+AR Path="/4CD743EF/4CD742CA" Ref="#PWR019"  Part="1" 
+AR Path="/4CD743EC/4CD742CA" Ref="#PWR020"  Part="1" 
+AR Path="/4CD743DA/4CD742CA" Ref="#PWR021"  Part="1" 
+F 0 "#PWR022" H 4600 3450 30  0001 C CNN
 F 1 "GND" H 4600 3380 30  0001 C CNN
 	1    4600 3450
 	1    0    0    -1  
@@ -90,8 +90,15 @@ AR Path="/4CD743EF/4CD742B5" Ref="D96"  Part="1"
 AR Path="/4CD743EC/4CD742B5" Ref="D95"  Part="1" 
 AR Path="/4CD743DA/4CD742B5" Ref="D94"  Part="1" 
 F 0 "D104" H 4600 3350 50  0000 C CNN
-F 1 "5.1v" H 4600 3150 40  0000 C CNN
-F 5 "BZT52C5V1-FDICT-ND" H 4600 3250 60  0001 C CNN "Field2"
+F 1 "5V1" H 4600 3150 40  0000 C CNN
+F 4 "Diodes Inc" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "BZT52C5V1-7-F" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "BZT52C5V1-FDICT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".01" V 1130 2600 60  0001 C CNN "current"
+F 9 "5.1v" V 1130 2600 60  0001 C CNN "voltage"
+F 10 "zener" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4600 3250
 	0    -1   -1   0   
 $EndComp
@@ -113,7 +120,14 @@ AR Path="/4CD743EC/4CD742AE" Ref="R241"  Part="1"
 AR Path="/4CD743DA/4CD742AE" Ref="R240"  Part="1" 
 F 0 "R250" V 4230 2950 50  0000 C CNN
 F 1 "1k" V 4150 2950 50  0000 C CNN
-F 5 "RMCF0805JT1K00CT-ND" H 4150 2950 60  0001 C CNN "Field2"
+F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT1K00" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT1K00TR-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "Power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick Film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4150 2950
 	0    1    1    0   
 $EndComp

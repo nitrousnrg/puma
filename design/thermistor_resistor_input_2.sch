@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 02 Jan 2011 05:07:08 PM ART
+EESchema Schematic File Version 2  date 1/19/2011 5:46:09 PM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 55 56
 Title "Puma board"
-Date "2 jan 2011"
+Date "19 jan 2011"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "thermistor_resistor_input.sch"
@@ -92,7 +92,15 @@ AR Path="/4C2E1E9D/4CCADF6B" Ref="C75"  Part="1"
 AR Path="/4C2E1E9F/4CCADF6B" Ref="C78"  Part="1" 
 F 0 "C75" H 6700 2200 50  0000 L CNN
 F 1 "33nF" H 6700 2000 50  0000 L CNN
-F 5 "478-3550-1-ND" H 6650 2100 60  0001 C CNN "Field2"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "AVX" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "08055C333KAZ2A" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "478-3550-1-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 "50" V 1130 2600 60  0001 C CNN "voltage"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6650 2100
 	1    0    0    -1  
 $EndComp
@@ -106,7 +114,15 @@ AR Path="/4C2E1E9D/4CCAD682" Ref="C74"  Part="1"
 AR Path="/4C2E1E9F/4CCAD682" Ref="C77"  Part="1" 
 F 0 "C74" H 5400 2200 50  0000 L CNN
 F 1 "1.5nF" H 5400 2000 50  0000 L CNN
-F 5 "311-1128-1-ND" H 5350 2100 60  0001 C CNN "Field2"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "Yageo" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "CC0805KRX7R9BB152" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "311-1128-1-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 "50v" V 1130 2600 60  0001 C CNN "Voltage"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5350 2100
 	1    0    0    -1  
 $EndComp
@@ -120,7 +136,15 @@ AR Path="/4C2E1E9D/4CCAD680" Ref="C73"  Part="1"
 AR Path="/4C2E1E9F/4CCAD680" Ref="C76"  Part="1" 
 F 0 "C73" H 5200 1400 50  0000 L CNN
 F 1 "1.5nF" H 5200 1200 50  0000 L CNN
-F 5 "311-1128-1-ND" H 5150 1300 60  0001 C CNN "Field2"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "Yageo" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "CC0805KRX7R9BB152" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "311-1128-1-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 "50v" V 1130 2600 60  0001 C CNN "Voltage"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5150 1300
 	1    0    0    -1  
 $EndComp
@@ -134,7 +158,14 @@ AR Path="/4C2E1E9D/4CCAD67E" Ref="R149"  Part="1"
 AR Path="/4C2E1E9F/4CCAD67E" Ref="R152"  Part="1" 
 F 0 "R149" V 6230 1700 50  0000 C CNN
 F 1 "10k" V 6150 1700 50  0000 C CNN
-F 5 "RMCF0805JT10K0CT-ND" H 6150 1700 60  0001 C CNN "Field2"
+F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT10K0CT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6150 1700
 	0    1    1    0   
 $EndComp
@@ -148,7 +179,14 @@ AR Path="/4C2E1E9D/4CCAD67C" Ref="R148"  Part="1"
 AR Path="/4C2E1E9F/4CCAD67C" Ref="R151"  Part="1" 
 F 0 "R148" V 5780 2100 50  0000 C CNN
 F 1 "39k" V 5700 2100 50  0000 C CNN
-F 5 "RMCF0805JT39K0CT-ND" H 5700 2100 60  0001 C CNN "Field2"
+F 4 "Stackpole Electronics Inc" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT39K0CT" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT39K0CT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".250mW" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "Thick Film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5700 2100
 	1    0    0    -1  
 $EndComp
@@ -162,7 +200,14 @@ AR Path="/4C2E1E9D/4CCAD67A" Ref="R147"  Part="1"
 AR Path="/4C2E1E9F/4CCAD67A" Ref="R150"  Part="1" 
 F 0 "R147" V 5780 1300 50  0000 C CNN
 F 1 "2.2k" V 5700 1300 50  0000 C CNN
-F 5 "RMCF0805JT2K20CT-ND" H 5700 1300 60  0001 C CNN "Field2"
+F 4 "Stackpole Electronics Inc" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT2K20CT" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT2K20CT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".250mW" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "Thick Film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5700 1300
 	1    0    0    -1  
 $EndComp

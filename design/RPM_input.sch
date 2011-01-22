@@ -286,14 +286,14 @@ AR Path="/4C2E1E97/48B4AD2D" Ref="R102"  Part="1"
 F 0 "R102" V 8730 1850 50  0000 C CNN
 F 1 "22k" V 8650 1850 50  0000 C CNN
 F 2 "R4-SM0805" V 8830 1950 60  0001 C CNN
-F 4 "newark,71M1054" V 4780 2050 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 4780 2050 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 4780 2050 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 4780 2050 60  0001 C CNN "Field4"
-F 8 "500,mW" V 4780 2050 60  0001 C CNN "Field5"
-F 9 "1,%" V 4780 2050 60  0001 C CNN "Field6"
-F 10 "metal film" V 4780 2050 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 4780 2050 60  0001 C CNN "Field8"
+F 4 "Stackpole Electronics Inc" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT22K0CT" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT22K0CT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".250mW" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "Thick Film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8650 1850
 	1    0    0    1   
 $EndComp
@@ -306,14 +306,14 @@ AR Path="/4C2E1E97/48B4AD23" Ref="R104"  Part="1"
 F 0 "R104" V 9030 2650 50  0000 C CNN
 F 1 "10k" V 8950 2650 50  0000 C CNN
 F 2 "R4-SM0805" V 9130 2750 60  0001 C CNN
-F 4 "newark,58K3797" V 5080 2850 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 5080 2850 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 5080 2850 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 5080 2850 60  0001 C CNN "Field4"
-F 8 "250,mW" V 5080 2850 60  0001 C CNN "Field5"
-F 9 "1,%" V 5080 2850 60  0001 C CNN "Field6"
-F 10 "metal film" V 5080 2850 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 5080 2850 60  0001 C CNN "Field8"
+F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT10K0CT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    8950 2650
 	-1   0    0    1   
 $EndComp
@@ -386,14 +386,14 @@ AR Path="/4C2E1E97/48AE9305" Ref="R98"  Part="1"
 F 0 "R98" V 5430 2650 50  0000 C CNN
 F 1 "4.7k" V 5350 2650 50  0000 C CNN
 F 2 "R4-SM0805" V 5530 2750 60  0001 C CNN
-F 4 "newark,38K0382" V 2130 3500 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 2130 3500 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 2130 3500 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 2130 3500 60  0001 C CNN "Field4"
-F 8 "250,mW" V 2130 3500 60  0001 C CNN "Field5"
-F 9 "5,%" V 2130 3500 60  0001 C CNN "Field6"
-F 10 "carbon film" V 2130 3500 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 2130 3500 60  0001 C CNN "Field8"
+F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "P680KACT" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "P680KACT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5350 2650
 	1    0    0    -1  
 $EndComp
@@ -426,14 +426,14 @@ AR Path="/4C2E1E97/48AA27F0" Ref="D51"  Part="1"
 F 0 "D51" H 3200 1300 50  0000 C CNN
 F 1 "LED" H 3200 1100 50  0000 C CNN
 F 2 "LEDV" V 2380 5600 60  0001 C CNN
-F 4 "newark,58k2469" V 1130 2650 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2650 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2650 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2650 60  0001 C CNN "Field4"
-F 8 "x,x" V 1130 2650 60  0001 C CNN "Field5"
-F 9 "x,x" V 1130 2650 60  0001 C CNN "Field6"
-F 10 "green" V 1130 2650 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2650 60  0001 C CNN "Field8"
+F 4 "OSRAM" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "LH R974-LP-1-0-20-R18" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "475-1415-1-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".02a" V 1130 2600 60  0001 C CNN "current"
+F 9 "-%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "RED" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3200 1200
 	1    0    0    -1  
 $EndComp
@@ -517,15 +517,15 @@ AR Path="/4C2E1E95/489519B8" Ref="C41"  Part="1"
 AR Path="/4C2E1E97/489519B8" Ref="C45"  Part="1" 
 F 0 "C45" H 4650 2800 50  0000 L CNN
 F 1 "330pF" H 4650 2600 50  0000 L CNN
-F 2 "C1V7" V 1130 2700 60  0001 C CNN
-F 4 "newark,36K5919" V 1130 2700 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2700 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2700 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2700 60  0001 C CNN "Field4"
-F 8 "100,V" V 1130 2700 60  0001 C CNN "Field5"
-F 9 "5,%" V 1130 2700 60  0001 C CNN "Field6"
-F 10 "multilayered ceramic" V 1130 2700 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2700 60  0001 C CNN "Field8"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "Yageo" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "CC0805KRX7R9BB221" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "311-1123-1-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 "50v" V 1130 2600 60  0001 C CNN "Voltate"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4600 2700
 	1    0    0    -1  
 $EndComp
@@ -537,15 +537,15 @@ AR Path="/4C2E1E95/48951901" Ref="C40"  Part="1"
 AR Path="/4C2E1E97/48951901" Ref="C44"  Part="1" 
 F 0 "C44" H 2150 1900 50  0000 L CNN
 F 1 ".1uF" H 2150 1700 50  0000 L CNN
-F 2 "C1V7" V 1130 2600 60  0001 C CNN
-F 4 "newark,97M4164" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "50,V" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "20,%" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "multilayer ceramic" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "Murata" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "GRM21BR71H104KA01L" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "490-1666-2-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 "50" V 1130 2600 60  0001 C CNN "voltage"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2100 1800
 	1    0    0    -1  
 $EndComp
@@ -558,14 +558,14 @@ AR Path="/4C2E1E97/4892E246" Ref="R92"  Part="1"
 F 0 "R92" V 2230 1150 50  0000 C CNN
 F 1 "10k" V 2150 1150 50  0000 C CNN
 F 2 "R4-SM0805" V 2330 1250 60  0001 C CNN
-F 4 "newark,38k0328" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "250,mW" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "5,%" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "carbon film" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
+F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT10K0CT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2150 1150
 	0    1    1    0   
 $EndComp
@@ -675,14 +675,14 @@ AR Path="/4C2E1E97/4892E178" Ref="R93"  Part="1"
 F 0 "R93" V 2430 2200 50  0000 C CNN
 F 1 "1k" V 2350 2200 50  0000 C CNN
 F 2 "R4-SM0805" V 2530 2300 60  0001 C CNN
-F 4 "newark,38k0327" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "vendor1, smd w hem" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "250,mW" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "5,%" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "carbon film" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
+F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT1K00" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT1K00TR-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "Power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick Film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2350 2200
 	0    1    1    0   
 $EndComp

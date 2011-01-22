@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 02 Jan 2011 05:07:08 PM ART
+EESchema Schematic File Version 2  date 1/19/2011 5:46:08 PM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 46 56
 Title "Puma board"
-Date "2 jan 2011"
+Date "19 jan 2011"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 "digi_protect.sch"
@@ -58,14 +58,14 @@ P 4100 1750
 F 0 "R42" V 4180 1750 50  0000 C CNN
 F 1 "1k" V 4100 1750 50  0000 C CNN
 F 2 "R4-SM0805" V 4280 1850 60  0001 C CNN
-F 4 "newark,38K0328" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "RMCF0805JT1K00CT-ND" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "250,mW" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "5,%" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "Carbon Film" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
+F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT1K00" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT1K00TR-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "Power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick Film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    4100 1750
 	0    1    1    0   
 $EndComp
@@ -76,14 +76,14 @@ P 2800 1950
 F 0 "D26" H 2800 2050 50  0000 C CNN
 F 1 "5V1" H 2800 1850 40  0000 C CNN
 F 2 "D4-SMB" V 1130 2600 60  0001 C CNN
-F 4 "newark,18M3285" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "BZT52C5V1-FDICT-ND" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "500,mW" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "20,mA" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "X" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
+F 4 "Diodes Inc" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "BZT52C5V1-7-F" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "BZT52C5V1-FDICT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".01" V 1130 2600 60  0001 C CNN "current"
+F 9 "5.1v" V 1130 2600 60  0001 C CNN "voltage"
+F 10 "zener" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2800 1950
 	0    -1   -1   0   
 $EndComp
@@ -94,14 +94,14 @@ P 2400 1750
 F 0 "R41" V 2480 1750 50  0000 C CNN
 F 1 "1k" V 2400 1750 50  0000 C CNN
 F 2 "R4-SM0805" V 2580 1850 60  0001 C CNN
-F 4 "newark,38K0328" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "RMCF0805JT1K00CT-ND" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "250,mW" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "5,%" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "Carbon Film" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
+F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT1K00" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT1K00TR-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "Power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "Thick Film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2400 1750
 	0    1    1    0   
 $EndComp

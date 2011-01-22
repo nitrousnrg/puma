@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 02 Jan 2011 05:07:08 PM ART
+EESchema Schematic File Version 2  date 1/19/2011 5:46:06 PM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 21 56
 Title "Puma board"
-Date "2 jan 2011"
+Date "19 jan 2011"
 Rev ""
 Comp "diyefi.org"
 Comment1 ""
@@ -50,10 +50,10 @@ connector_17
 Text GLabel 6550 3550 2    60   Input ~ 0
 connector_19
 $Comp
-L GND #PWR54
+L GND #PWR051
 U 1 1 4C599401
 P 6400 4250
-F 0 "#PWR54" H 6400 4250 30  0001 C CNN
+F 0 "#PWR051" H 6400 4250 30  0001 C CNN
 F 1 "GND" H 6400 4180 30  0001 C CNN
 	1    6400 4250
 	1    0    0    -1  
@@ -63,8 +63,16 @@ L C C107
 U 1 1 4C5993F7
 P 6400 4050
 F 0 "C107" H 6450 4150 50  0000 L CNN
-F 1 ".1uF" H 6450 3950 50  0000 L CNN
-F 5 "490-1666-2-ND" H 6400 4050 60  0001 C CNN "Field2"
+F 1 "0.1uF" H 6450 3950 50  0000 L CNN
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "Murata" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "GRM21BR71H104KA01L" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "490-1666-2-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 "50v" V 1130 2600 60  0001 C CNN "Voltage"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6400 4050
 	1    0    0    -1  
 $EndComp
@@ -96,10 +104,10 @@ temp_output
 Text HLabel 6500 3650 2    60   Input ~ 0
 5V_reg
 $Comp
-L GND #PWR53
+L GND #PWR052
 U 1 1 4C59878A
 P 5000 3950
-F 0 "#PWR53" H 5000 3950 30  0001 C CNN
+F 0 "#PWR052" H 5000 3950 30  0001 C CNN
 F 1 "GND" H 5000 3880 30  0001 C CNN
 	1    5000 3950
 	1    0    0    -1  

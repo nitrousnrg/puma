@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 02 Jan 2011 05:07:08 PM ART
+EESchema Schematic File Version 2  date 1/19/2011 5:46:06 PM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 17 56
 Title "Puma board"
-Date "2 jan 2011"
+Date "19 jan 2011"
 Rev ""
 Comp "diyefi.org"
 Comment1 ""
@@ -113,7 +113,14 @@ AR Path="/4CAB878F/4CCADF74" Ref="R215"  Part="1"
 AR Path="/4C94FDB6/4CCADF74" Ref="R212"  Part="1" 
 F 0 "R215" V 3380 2800 50  0000 C CNN
 F 1 "10k" V 3300 2800 50  0000 C CNN
-F 5 "RMCF0805JT10K0CT-ND" H 3300 2800 60  0001 C CNN "Field2"
+F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT10K0CT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3300 2800
 	0    1    1    0   
 $EndComp
@@ -125,7 +132,14 @@ AR Path="/4CAB878F/4C94FED6" Ref="R216"  Part="1"
 AR Path="/4C94FDB6/4C94FED6" Ref="R213"  Part="1" 
 F 0 "R216" V 3380 3200 50  0000 C CNN
 F 1 "10k" V 3300 3200 50  0000 C CNN
-F 5 "RMCF0805JT10K0CT-ND" H 3300 3200 60  0001 C CNN "Field2"
+F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT10K0CT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3300 3200
 	0    1    1    0   
 $EndComp
@@ -137,7 +151,15 @@ AR Path="/4CAB878F/4C94FECC" Ref="C127"  Part="1"
 AR Path="/4C94FDB6/4C94FECC" Ref="C125"  Part="1" 
 F 0 "C127" H 3700 3100 50  0000 L CNN
 F 1 "1.5nF" H 3700 2900 50  0000 L CNN
-F 5 "311-1128-1-ND" H 3650 3000 60  0001 C CNN "Field2"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "Yageo" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "CC0805KRX7R9BB152" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "311-1128-1-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 "50v" V 1130 2600 60  0001 C CNN "Voltage"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    3650 3000
 	1    0    0    -1  
 $EndComp
@@ -149,7 +171,14 @@ AR Path="/4CAB878F/4C94FE50" Ref="R217"  Part="1"
 AR Path="/4C94FDB6/4C94FE50" Ref="R214"  Part="1" 
 F 0 "R217" V 6580 3000 50  0000 C CNN
 F 1 "10k" V 6500 3000 50  0000 C CNN
-F 5 "RMCF0805JT10K0CT-ND" H 6500 3000 60  0001 C CNN "Field2"
+F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT10K0CT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6500 3000
 	1    0    0    -1  
 $EndComp
@@ -163,7 +192,15 @@ AR Path="/4CAB878F/4C94FDDE" Ref="C128"  Part="1"
 AR Path="/4C94FDB6/4C94FDDE" Ref="C126"  Part="1" 
 F 0 "C128" H 6100 2900 50  0000 L CNN
 F 1 "0.1uF" H 6100 2700 50  0000 L CNN
-F 5 "490-1666-2-ND" H 6050 2800 60  0001 C CNN "Field2"
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
+F 4 "Murata" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "GRM21BR71H104KA01L" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "490-1666-2-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 "50v" V 1130 2600 60  0001 C CNN "Voltage"
+F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
+F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6050 2800
 	1    0    0    -1  
 $EndComp

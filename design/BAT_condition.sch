@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 02 Jan 2011 05:07:08 PM ART
+EESchema Schematic File Version 2  date 1/19/2011 5:46:08 PM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 53 56
 Title "Puma board"
-Date "2 jan 2011"
+Date "19 jan 2011"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 "BAT_condition"
@@ -56,14 +56,14 @@ P 2500 2550
 F 0 "R106" V 2580 2550 50  0000 C CNN
 F 1 "10k" V 2500 2550 50  0000 C CNN
 F 2 "R4-SM0805" V 2680 2650 60  0001 C CNN
-F 4 "newark,38k0328" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "RMCF0805JT10K0CT-ND" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "250,mW" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "5,%" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "carbon film" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
+F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT10K0CT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2500 2550
 	1    0    0    -1  
 $EndComp
@@ -74,14 +74,14 @@ P 2500 2050
 F 0 "R105" V 2580 2050 50  0000 C CNN
 F 1 "39k" V 2500 2050 50  0000 C CNN
 F 2 "R4-SM0805" V 2680 2150 60  0001 C CNN
-F 4 "newark,38K0371" V 1130 2600 60  0001 C CNN "Field1"
-F 5 "RMCF0805JT39K0CT-ND" V 1130 2600 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1130 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1130 2600 60  0001 C CNN "Field4"
-F 8 "250,mW" V 1130 2600 60  0001 C CNN "Field5"
-F 9 "5,%" V 1130 2600 60  0001 C CNN "Field6"
-F 10 "carbon film" V 1130 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "Field8"
+F 4 "Stackpole Electronics Inc" V 1130 2600 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT39K0CT" V 1130 2600 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT39K0CT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 8 ".250mW" V 1130 2600 60  0001 C CNN "power"
+F 9 "5%" V 1130 2600 60  0001 C CNN "tol"
+F 10 "Thick Film" V 1130 2600 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    2500 2050
 	1    0    0    -1  
 $EndComp
