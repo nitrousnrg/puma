@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 22 Jan 2011 04:21:58 PM ART
+EESchema Schematic File Version 2  date Sat 22 Jan 2011 04:28:04 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -41,21 +41,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 10750 3350 0    60   ~ 0
-5v_microcontroller
-Text Label 6250 2250 2    60   ~ 0
-5v_microcontroller
-Text Notes 1100 2250 0    60   ~ 0
-Marcos suggestions:\nR175 = 1k\nC93 = 27nF\nC94 = 2.2nF
-$Comp
-L GND #PWR023
-U 1 1 4D188C65
-P 6000 8150
-F 0 "#PWR023" H 6000 8150 30  0001 C CNN
-F 1 "GND" H 6000 8080 30  0001 C CNN
-	1    6000 8150
-	1    0    0    -1  
-$EndComp
+Wire Notes Line
+	2450 6000 2450 4450
+Wire Notes Line
+	4800 6000 2450 6000
+Wire Notes Line
+	4800 6000 4800 4450
 Wire Wire Line
 	6000 8150 6000 8050
 Wire Wire Line
@@ -76,7 +67,7 @@ Wire Wire Line
 	2850 4600 2850 4700
 Connection ~ 6250 2250
 Wire Wire Line
-	5900 2250 7000 2250
+	7000 2250 5900 2250
 Wire Wire Line
 	10150 2250 9600 2250
 Wire Wire Line
@@ -87,12 +78,12 @@ Wire Wire Line
 	10450 2850 9150 2850
 Connection ~ 4350 3300
 Wire Wire Line
-	4350 3350 4350 3200
+	4350 3200 4350 3350
 Connection ~ 3500 2750
 Wire Wire Line
 	3500 2750 3500 3050
 Wire Wire Line
-	4450 2750 4450 3250
+	4450 3250 4450 2750
 Wire Wire Line
 	9600 8050 9600 6750
 Wire Wire Line
@@ -119,7 +110,7 @@ Wire Wire Line
 	5900 3150 5900 3100
 Connection ~ 6250 2750
 Wire Wire Line
-	6250 2800 6250 2700
+	6250 2700 6250 2800
 Connection ~ 6050 4350
 Wire Wire Line
 	6150 4350 6050 4350
@@ -138,9 +129,9 @@ Wire Wire Line
 	9150 3350 9850 3350
 Connection ~ 7000 2250
 Wire Wire Line
-	7000 1800 6850 1800
+	6850 1800 7000 1800
 Wire Wire Line
-	9950 3350 10750 3350
+	10750 3350 9950 3350
 Wire Wire Line
 	9950 3350 9950 3050
 Wire Wire Line
@@ -173,7 +164,7 @@ Wire Wire Line
 	2750 3500 1850 3500
 Connection ~ 1850 3650
 Wire Wire Line
-	1850 3650 1850 3500
+	1850 3500 1850 3650
 Connection ~ 3900 3750
 Wire Wire Line
 	3150 3750 4450 3750
@@ -181,14 +172,14 @@ Wire Wire Line
 	4450 3750 4450 3350
 Connection ~ 1750 3650
 Wire Wire Line
-	1150 3650 1900 3650
+	1900 3650 1150 3650
 Wire Wire Line
 	2900 3400 2900 3300
 Connection ~ 3150 3300
 Wire Wire Line
 	2900 3300 3150 3300
 Wire Wire Line
-	3150 3350 3150 3250
+	3150 3250 3150 3350
 Wire Wire Line
 	3500 3750 3500 3550
 Connection ~ 3500 3750
@@ -221,7 +212,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 3650 7100 3650
 Wire Wire Line
-	7000 2550 7100 2550
+	7100 2550 7000 2550
 Wire Wire Line
 	10150 2650 10150 2750
 Wire Wire Line
@@ -233,13 +224,13 @@ Wire Wire Line
 Wire Wire Line
 	10100 2950 9150 2950
 Wire Wire Line
-	9850 3750 10750 3750
+	10750 3750 9850 3750
 Wire Wire Line
 	9850 3750 9850 3150
 Wire Wire Line
 	9850 3150 9150 3150
 Wire Wire Line
-	7000 1800 7000 2550
+	7000 2550 7000 1800
 Wire Wire Line
 	9150 3250 9950 3250
 Connection ~ 9950 3250
@@ -268,13 +259,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 4150 6150 4150
 Wire Notes Line
-	4800 5700 4800 4450
-Wire Notes Line
-	4800 5700 2450 5700
-Wire Notes Line
-	2450 5700 2450 4450
-Wire Notes Line
-	2450 4450 4800 4450
+	4800 4450 2450 4450
 Wire Wire Line
 	7100 2750 6250 2750
 Wire Wire Line
@@ -304,13 +289,6 @@ Connection ~ 6450 2250
 Wire Wire Line
 	4300 4700 4300 4600
 Wire Wire Line
-	2850 4600 4700 4600
-Wire Wire Line
-	4700 4600 4700 5500
-Wire Wire Line
-	4700 5500 3950 5500
-Connection ~ 4300 4600
-Wire Wire Line
 	9600 6750 10000 6750
 Wire Wire Line
 	9750 6950 10000 6950
@@ -322,6 +300,48 @@ Wire Wire Line
 	10650 6650 10500 6650
 Wire Wire Line
 	6000 7850 5800 7850
+Wire Wire Line
+	3950 5500 3950 5650
+Wire Wire Line
+	3950 5650 2550 5650
+Wire Wire Line
+	2550 5650 2550 4600
+Wire Wire Line
+	2550 4600 4300 4600
+Connection ~ 2850 4600
+$Comp
+L GND #PWR?
+U 1 1 4D3B2F82
+P 4300 5800
+F 0 "#PWR?" H 4300 5800 30  0001 C CNN
+F 1 "GND" H 4300 5730 30  0001 C CNN
+	1    4300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4D3B2F44
+P 4300 5600
+F 0 "C?" H 4350 5700 50  0000 L CNN
+F 1 "0.1uF" H 4350 5500 50  0000 L CNN
+	1    4300 5600
+	1    0    0    -1  
+$EndComp
+Text Label 10750 3350 0    60   ~ 0
+5v_microcontroller
+Text Label 6250 2250 2    60   ~ 0
+5v_microcontroller
+Text Notes 1100 2250 0    60   ~ 0
+Marcos suggestions:\nR175 = 1k\nC93 = 27nF\nC94 = 2.2nF
+$Comp
+L GND #PWR023
+U 1 1 4D188C65
+P 6000 8150
+F 0 "#PWR023" H 6000 8150 30  0001 C CNN
+F 1 "GND" H 6000 8080 30  0001 C CNN
+	1    6000 8150
+	1    0    0    -1  
+$EndComp
 $Comp
 L CONN_2 P106
 U 1 1 4D188C64
@@ -744,7 +764,7 @@ L R R181
 U 1 1 4C56FDC6
 P 4300 4950
 F 0 "R181" V 4380 4950 50  0000 C CNN
-F 1 "10k" V 4300 4950 50  0000 C CNN
+F 1 "100k" V 4300 4950 50  0000 C CNN
 F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"
 F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
