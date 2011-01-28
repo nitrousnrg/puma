@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 22 Jan 2011 04:28:46 PM ART
+EESchema Schematic File Version 2  date Fri 28 Jan 2011 01:02:03 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 33 56
 Title "Puma board"
-Date "22 jan 2011"
+Date "28 jan 2011"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -79,8 +79,8 @@ L 7805 U2
 U 1 1 4CD715D6
 P 6050 3350
 F 0 "U2" H 6200 3154 60  0000 C CNN
-F 1 "MIC2954" H 6050 3550 60  0000 C CNN
-F 5 "576-1154-1-ND" H 6050 3350 60  0001 C CNN "Field2"
+F 1 "LM2937" H 6050 3550 60  0000 C CNN
+F 5 "LM2937IMP-5.0CT-ND" H 6050 3350 60  0001 C CNN "Field2"
 	1    6050 3350
 	1    0    0    -1  
 $EndComp

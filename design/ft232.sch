@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 22 Jan 2011 04:28:46 PM ART
+EESchema Schematic File Version 2  date Fri 28 Jan 2011 01:02:03 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 15 56
 Title "Puma board"
-Date "22 jan 2011"
+Date "28 jan 2011"
 Rev ""
 Comp "diyefi.org"
 Comment1 ""
@@ -41,20 +41,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 6750 3900
-NoConn ~ 6750 3800
-NoConn ~ 6750 3700
-Text Notes 4150 5200 0    60   ~ 0
-This device only support 85°C. To withstand 125°C it must be powered off.
-$Comp
-L GND #PWR036
-U 1 1 4C680CFE
-P 4200 4350
-F 0 "#PWR036" H 4200 4350 30  0001 C CNN
-F 1 "GND" H 4200 4280 30  0001 C CNN
-	1    4200 4350
-	1    0    0    -1  
-$EndComp
+Connection ~ 4450 2450
+Wire Wire Line
+	4000 2450 4800 2450
+Wire Wire Line
+	4000 2450 4000 3150
 Wire Wire Line
 	4200 4250 4200 4350
 Wire Wire Line
@@ -62,8 +53,6 @@ Wire Wire Line
 Wire Wire Line
 	4450 3400 4450 3700
 Connection ~ 4200 3700
-Wire Wire Line
-	4450 3700 4200 3700
 Wire Wire Line
 	4200 3650 4200 3750
 Wire Wire Line
@@ -97,7 +86,7 @@ Connection ~ 6000 4700
 Wire Wire Line
 	6000 4700 6000 4600
 Wire Wire Line
-	4450 2500 4450 2450
+	4450 2450 4450 2500
 Wire Wire Line
 	4450 2900 4450 2950
 Wire Wire Line
@@ -111,8 +100,6 @@ Wire Wire Line
 	4900 2750 4800 2750
 Wire Wire Line
 	4800 2750 4800 2450
-Wire Wire Line
-	4800 2450 4450 2450
 Wire Wire Line
 	7600 3800 7500 3800
 Wire Wire Line
@@ -131,6 +118,33 @@ Wire Wire Line
 	3800 2900 4200 2900
 Wire Wire Line
 	4200 2900 4200 3150
+Wire Wire Line
+	4450 3700 4000 3700
+Wire Wire Line
+	4000 3700 4000 3650
+$Comp
+L R R?
+U 1 1 4D3D12A5
+P 4000 3400
+F 0 "R?" V 4080 3400 50  0000 C CNN
+F 1 "4.7k" V 4000 3400 50  0000 C CNN
+	1    4000 3400
+	-1   0    0    1   
+$EndComp
+NoConn ~ 6750 3900
+NoConn ~ 6750 3800
+NoConn ~ 6750 3700
+Text Notes 4150 5200 0    60   ~ 0
+This device only support 85°C. To withstand 125°C it must be powered off.
+$Comp
+L GND #PWR036
+U 1 1 4C680CFE
+P 4200 4350
+F 0 "#PWR036" H 4200 4350 30  0001 C CNN
+F 1 "GND" H 4200 4280 30  0001 C CNN
+	1    4200 4350
+	1    0    0    -1  
+$EndComp
 Text Notes 4150 5050 0    60   ~ 0
 Self powered mode
 NoConn ~ 4900 3500
