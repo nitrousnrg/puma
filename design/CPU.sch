@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 28 Jan 2011 01:02:03 AM ART
+EESchema Schematic File Version 2  date Sat 29 Jan 2011 03:49:45 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A3 16535 11700
 Sheet 14 56
 Title "Puma board"
-Date "28 jan 2011"
+Date "29 jan 2011"
 Rev "A.08"
 Comp "diyefi.org"
 Comment1 ""
@@ -833,7 +833,7 @@ F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "Yageo" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "CC0805KRX7R9BB221" V 1130 2600 60  0001 C CNN "mfg#"
 F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
-F 7 "311-1123-1-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 7 "311-1192-1-ND" V 1130 2600 60  0001 C CNN "vend1#"
 F 8 "50v" V 1130 2600 60  0001 C CNN "Voltate"
 F 9 "10%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
