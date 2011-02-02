@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Wed 12 Jan 2011 11:26:18 PM ART
+PCBNEW-BOARD Version 1 date Sat 22 Jan 2011 04:24:40 PM ART
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -20,7 +20,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A 11000 8500
 Title "Puma"
-Date "13 jan 2011"
+Date "22 jan 2011"
 Rev "Spin 1"
 Comp "FreeEMS.org"
 Comment1 ""
@@ -15955,7 +15955,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  TO92
 $MODULE PIN_ARRAY_20X2
-Po 59842 35433 2700 15 4D15DAAF 4CCAD737 ~~
+Po 59842 35433 2700 15 4D3B2ED4 4CCAD737 ~~
 Li PIN_ARRAY_20X2
 Cd Double rangee de contacts 2 x 12 pins
 Kw CONN
@@ -15969,8 +15969,8 @@ DS 10000 -1000 -10000 -1000 120 21
 DS 10000 -1000 10000 1000 120 21
 DS -10000 -1000 -10000 1000 120 21
 $PAD
-Sh "1" R 600 600 0 0 2700
-Dr 320 0 0
+Sh "1" C 600 600 0 0 2700
+Dr 400 0 0
 At STD N 00E0FFFF
 Ne 116 "/thermistor_input_3/mat"
 Po -9500 500
@@ -57858,7 +57858,7 @@ ZLayer 0
 ZAux 48 E
 ZClearance 150 T
 ZMinThickness 100
-ZOptions 1 16 S 200 200
+ZOptions 1 16 F 200 200
 ZCorner 65500 54800 0
 ZCorner 65500 38700 0
 ZCorner 55950 38700 0
@@ -65241,7 +65241,7 @@ ZLayer 15
 ZAux 13 E
 ZClearance 150 T
 ZMinThickness 100
-ZOptions 1 16 S 200 200
+ZOptions 1 16 F 200 200
 ZCorner 52900 47750 0
 ZCorner 52900 41550 0
 ZCorner 50700 41550 0
@@ -67005,7 +67005,7 @@ ZLayer 15
 ZAux 6 E
 ZClearance 150 T
 ZMinThickness 100
-ZOptions 1 16 S 200 200
+ZOptions 1 16 F 200 200
 ZCorner 25050 34800 0
 ZCorner 26450 33500 0
 ZCorner 26400 27050 0
@@ -67926,7 +67926,7 @@ ZLayer 0
 ZAux 17 E
 ZClearance 150 T
 ZMinThickness 100
-ZOptions 1 16 S 200 200
+ZOptions 1 16 F 200 200
 ZCorner 46700 54800 0
 ZCorner 46700 51050 0
 ZCorner 36300 45800 0
