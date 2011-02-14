@@ -1,4 +1,4 @@
-update=2/13/2011 11:28:18 AM
+update=2/14/2011 1:58:19 PM
 last_client=eeschema
 [cvpcb]
 version=1
@@ -77,7 +77,7 @@ RptLab=1
 SimCmd=
 UseNetN=0
 LabSize=60
-PrintMonochrome=1
+PrintMonochrome=0
 ShowSheetReferenceAndTitleBlock=1
 [eeschema/libraries]
 LibName1=power
