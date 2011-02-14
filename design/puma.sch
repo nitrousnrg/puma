@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/14/2011 7:45:17 AM
+EESchema Schematic File Version 2  date 1/19/2011 5:46:05 PM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,36 +31,28 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A2 23400 16535
-Sheet 1 55
+Sheet 1 56
 Title "Puma board"
-Date "14 feb 2011"
-Rev "v0.02"
+Date "19 jan 2011"
+Rev "v0.01"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	2350 2850 3150 2850
-Wire Wire Line
-	5350 3100 5350 3050
-Wire Wire Line
-	5350 3050 5200 3050
-Wire Wire Line
-	3150 2750 2900 2750
 Connection ~ 19000 5300
 Wire Wire Line
-	19000 5300 18000 5300
+	18000 5300 19000 5300
 Connection ~ 19000 4300
 Wire Wire Line
-	19000 4300 18000 4300
+	18000 4300 19000 4300
 Connection ~ 19000 3350
 Wire Wire Line
-	19000 3350 18000 3350
+	18000 3350 19000 3350
 Connection ~ 19000 2350
 Wire Wire Line
-	19000 2350 18000 2350
+	18000 2350 19000 2350
 Connection ~ 19000 1750
 Connection ~ 19000 1750
 Connection ~ 19000 1750
@@ -186,9 +178,11 @@ Wire Wire Line
 	5450 4650 5600 4650
 Wire Wire Line
 	5450 4050 5600 4050
+Wire Wire Line
+	7800 2950 7400 2950
 Connection ~ 18850 11600
 Wire Wire Line
-	18850 11600 18000 11600
+	18000 11600 18850 11600
 Wire Wire Line
 	7300 8350 7400 8350
 Wire Wire Line
@@ -213,6 +207,13 @@ Wire Bus Line
 	4250 6050 3500 6050
 Wire Bus Line
 	4250 6050 4250 12500
+Connection ~ 5450 2750
+Wire Wire Line
+	5450 3400 5450 1300
+Wire Wire Line
+	5450 3400 5300 3400
+Wire Wire Line
+	7400 2950 7400 3050
 Wire Wire Line
 	12200 12850 15000 12850
 Connection ~ 14850 12000
@@ -228,6 +229,7 @@ Wire Wire Line
 Wire Wire Line
 	10700 12500 10700 9850
 Connection ~ 8650 1400
+Connection ~ 4100 1400
 Connection ~ 10700 11050
 Wire Wire Line
 	6850 11400 6850 9950
@@ -239,8 +241,12 @@ Wire Bus Line
 	14250 1750 14250 10700
 Wire Wire Line
 	15050 2150 14350 2150
+Wire Wire Line
+	5350 3750 5350 1500
 Connection ~ 14850 2250
 Connection ~ 14850 2750
+Wire Wire Line
+	7400 3050 5800 3050
 Wire Wire Line
 	12300 5900 13450 5900
 Wire Wire Line
@@ -289,11 +295,13 @@ Wire Wire Line
 Wire Wire Line
 	14850 3250 15050 3250
 Connection ~ 19000 2750
+Wire Wire Line
+	5350 3600 5300 3600
 Connection ~ 18200 9400
 Wire Wire Line
 	18850 8650 18000 8650
 Wire Wire Line
-	1250 2850 1850 2850
+	3700 1300 4900 1300
 Connection ~ 8650 5400
 Wire Bus Line
 	14250 6600 13550 6600
@@ -331,9 +339,9 @@ Wire Wire Line
 	5050 11050 4350 11050
 Connection ~ 6850 11150
 Wire Wire Line
-	6750 10350 6850 10350
+	6850 10350 6750 10350
 Wire Wire Line
-	6850 11150 6750 11150
+	6750 11150 6850 11150
 Wire Wire Line
 	6850 9950 6750 9950
 Connection ~ 6850 10350
@@ -381,7 +389,7 @@ Connection ~ 10850 10350
 Wire Wire Line
 	14350 3150 15050 3150
 Wire Wire Line
-	18000 6050 18850 6050
+	18850 6050 18000 6050
 Connection ~ 18850 6500
 Wire Wire Line
 	18850 6500 18000 6500
@@ -439,6 +447,8 @@ Wire Wire Line
 Wire Wire Line
 	15000 8550 14350 8550
 Connection ~ 18200 7750
+Wire Wire Line
+	5300 2750 5450 2750
 Connection ~ 19000 3750
 Connection ~ 19000 4700
 Connection ~ 18850 6050
@@ -496,10 +506,13 @@ Wire Bus Line
 Wire Wire Line
 	10850 11150 10550 11150
 Connection ~ 10850 11150
+Connection ~ 5350 3600
 Wire Wire Line
-	1650 3050 1250 3050
+	5450 1300 5400 1300
 Wire Wire Line
-	1250 2750 2400 2750
+	5350 1500 3700 1500
+Wire Wire Line
+	3700 1200 5750 1200
 Wire Wire Line
 	14850 2750 15050 2750
 Wire Wire Line
@@ -559,7 +572,7 @@ Connection ~ 18150 2650
 Wire Wire Line
 	18000 1650 18150 1650
 Wire Wire Line
-	19000 1200 6750 1200
+	6250 1200 19000 1200
 Wire Wire Line
 	19000 1200 19000 14200
 Connection ~ 19000 1750
@@ -569,6 +582,8 @@ Wire Wire Line
 	14850 1750 15050 1750
 Wire Wire Line
 	9150 3750 10100 3750
+Wire Wire Line
+	3700 1400 4150 1400
 Wire Wire Line
 	18150 1650 18150 5400
 Wire Wire Line
@@ -582,7 +597,7 @@ Connection ~ 18150 2150
 Wire Wire Line
 	7200 1400 18850 1400
 Wire Wire Line
-	10850 12300 10550 12300
+	10550 12300 10850 12300
 Connection ~ 10850 12300
 Wire Wire Line
 	7000 12300 4350 12300
@@ -594,6 +609,16 @@ Wire Wire Line
 	15000 12400 12200 12400
 Wire Wire Line
 	15000 13300 12200 13300
+Wire Wire Line
+	5300 2950 5350 2950
+Connection ~ 5350 2950
+Wire Wire Line
+	5300 2650 6350 2650
+Wire Wire Line
+	6350 2650 6350 1200
+Connection ~ 6350 1200
+Wire Wire Line
+	5300 3500 5800 3500
 Wire Bus Line
 	3500 6050 3500 5400
 Wire Wire Line
@@ -625,6 +650,8 @@ Wire Wire Line
 Wire Wire Line
 	7200 1400 7200 2850
 Wire Wire Line
+	5800 3500 5800 3050
+Wire Wire Line
 	18850 1400 18850 12100
 Wire Wire Line
 	18850 12100 18000 12100
@@ -633,6 +660,8 @@ Wire Wire Line
 	14850 5200 14850 1400
 Connection ~ 14850 1400
 Connection ~ 14850 1750
+Wire Wire Line
+	7800 2850 5300 2850
 Connection ~ 7200 2850
 Wire Wire Line
 	8650 1400 8650 5400
@@ -677,19 +706,19 @@ Wire Wire Line
 Wire Wire Line
 	7400 7200 7800 7200
 Wire Wire Line
-	1250 3150 1400 3150
+	3700 1600 3850 1600
 Wire Wire Line
-	1400 3150 1400 3050
-Connection ~ 1400 3050
+	3850 1600 3850 1500
+Connection ~ 3850 1500
 Wire Wire Line
 	5650 9200 5650 9100
 Wire Wire Line
 	6550 9050 6750 9050
 Wire Wire Line
-	6550 8100 6050 8100
+	6050 8100 6550 8100
 Connection ~ 6550 8100
 Wire Wire Line
-	6050 9000 6550 9000
+	6550 9000 6050 9000
 Connection ~ 6550 9000
 Wire Wire Line
 	9150 2850 9350 2850
@@ -724,39 +753,20 @@ Wire Wire Line
 Wire Bus Line
 	10200 4450 10200 3750
 Wire Wire Line
-	19000 1850 18000 1850
+	18000 1850 19000 1850
 Connection ~ 19000 1850
 Wire Wire Line
-	19000 2850 18000 2850
+	18000 2850 19000 2850
 Connection ~ 19000 2850
 Wire Wire Line
-	19000 3850 18000 3850
+	18000 3850 19000 3850
 Connection ~ 19000 3850
 Wire Wire Line
-	19000 4800 18000 4800
+	18000 4800 19000 4800
 Connection ~ 19000 4800
-Wire Wire Line
-	7800 2850 5200 2850
-Wire Wire Line
-	1250 2950 1850 2950
-Wire Wire Line
-	7800 2950 5200 2950
-Wire Wire Line
-	6750 1200 6750 2750
-Wire Wire Line
-	6750 2750 5200 2750
-$Comp
-L GND #PWR?
-U 1 1 4D586EC8
-P 1650 3050
-F 0 "#PWR?" H 1650 3050 30  0001 C CNN
-F 1 "GND" H 1650 2980 30  0001 C CNN
-	1    1650 3050
-	1    0    0    -1  
-$EndComp
-Text Label 1300 2750 0    60   ~ 0
+Text Label 4250 1200 0    60   ~ 0
 bat_pwr
-Text Label 1300 2850 0    60   ~ 0
+Text Label 4250 1300 0    60   ~ 0
 bat_mcu
 $Comp
 L CONN_1 P90
@@ -1013,10 +1023,10 @@ connector_36
 $Comp
 L CONN_1 P100
 U 1 1 4CD76096
-P 1100 3150
-F 0 "P100" H 1180 3150 40  0000 L CNN
-F 1 "CONN_1" H 1100 3205 30  0001 C CNN
-	1    1100 3150
+P 3550 1600
+F 0 "P100" H 3630 1600 40  0000 L CNN
+F 1 "CONN_1" H 3550 1655 30  0001 C CNN
+	1    3550 1600
 	-1   0    0    1   
 $EndComp
 $Sheet
@@ -1069,9 +1079,9 @@ F3 "cpu_pin" I R 6750 4050 60
 $EndSheet
 Text Label 18250 11600 0    60   ~ 0
 5v_switched
-Text Label 6300 2950 0    60   ~ 0
+Text Label 5800 3050 0    60   ~ 0
 5v_microcontroller
-Text Label 6300 2850 0    60   ~ 0
+Text Label 5850 2850 0    60   ~ 0
 5v_switched
 NoConn ~ 9150 4850
 $Comp
@@ -1519,6 +1529,15 @@ F3 "RPM_out" I L 15000 11400 60
 F4 "5v_digi" I R 18000 11600 60 
 $EndSheet
 $Comp
+L PWR_FLAG #FLG04
+U 1 1 4C8266A6
+P 4100 1400
+F 0 "#FLG04" H 4100 1670 30  0001 C CNN
+F 1 "PWR_FLAG" H 4100 1630 30  0000 C CNN
+	1    4100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
 L GND #PWR05
 U 1 1 4C826576
 P 5850 9550
@@ -1553,7 +1572,7 @@ Text Label 8250 11400 0    60   ~ 0
 power_gnd
 Text Label 18150 5400 0    60   ~ 0
 power_gnd
-Text Label 1300 2950 0    60   ~ 0
+Text Label 4150 1400 0    60   ~ 0
 power_gnd
 Text Label 9250 3650 0    60   ~ 0
 ind_pd_8
@@ -1787,77 +1806,77 @@ NoConn ~ 7800 3650
 $Comp
 L CONN_1 P5
 U 1 1 48AA1F7C
-P 1100 3050
-F 0 "P5" H 1180 3050 40  0000 L CNN
-F 1 "CONN_1" H 1100 3105 30  0001 C CNN
-F 2 "1PIN" V 1280 4700 60  0001 C CNN
-	1    1100 3050
+P 3550 1500
+F 0 "P5" H 3630 1500 40  0000 L CNN
+F 1 "CONN_1" H 3550 1555 30  0001 C CNN
+F 2 "1PIN" V 3730 3150 60  0001 C CNN
+	1    3550 1500
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 P4
 U 1 1 48AA1F7B
-P 1100 2950
-F 0 "P4" H 1180 2950 40  0000 L CNN
-F 1 "CONN_1" H 1100 3005 30  0001 C CNN
-F 2 "1PIN" V 1280 4700 60  0001 C CNN
-	1    1100 2950
+P 3550 1400
+F 0 "P4" H 3630 1400 40  0000 L CNN
+F 1 "CONN_1" H 3550 1455 30  0001 C CNN
+F 2 "1PIN" V 3730 3150 60  0001 C CNN
+	1    3550 1400
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 P3
 U 1 1 48AA1F7A
-P 1100 2850
-F 0 "P3" H 1180 2850 40  0000 L CNN
-F 1 "CONN_1" H 1100 2905 30  0001 C CNN
-F 2 "1PIN" V 1280 4700 60  0001 C CNN
-	1    1100 2850
+P 3550 1300
+F 0 "P3" H 3630 1300 40  0000 L CNN
+F 1 "CONN_1" H 3550 1355 30  0001 C CNN
+F 2 "1PIN" V 3730 3150 60  0001 C CNN
+	1    3550 1300
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 P2
 U 1 1 48AA1F79
-P 1100 2750
-F 0 "P2" H 1180 2750 40  0000 L CNN
-F 1 "CONN_1" H 1100 2805 30  0001 C CNN
-F 2 "1PIN" V 1280 4700 60  0001 C CNN
-	1    1100 2750
+P 3550 1200
+F 0 "P2" H 3630 1200 40  0000 L CNN
+F 1 "CONN_1" H 3550 1255 30  0001 C CNN
+F 2 "1PIN" V 3730 3150 60  0001 C CNN
+	1    3550 1200
 	-1   0    0    1   
 $EndComp
 $Comp
 L FUSE F3
 U 1 1 48A559CE
-P 2650 2750
-F 0 "F3" H 2750 2800 40  0000 C CNN
-F 1 "10A" H 2550 2700 40  0000 C CNN
-F 2 "FUSE5-20-DEFAULT-10A" V 1630 7650 60  0001 C CNN
-F 4 "newark,63K6823" V 380 4700 60  0001 C CNN "Field1"
-F 5 "WK6242-ND" V 380 4700 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 380 4700 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 380 4700 60  0001 C CNN "Field4"
-F 8 "x,x" V 380 4700 60  0001 C CNN "Field5"
-F 9 "10,A" V 380 4700 60  0001 C CNN "Field6"
-F 10 "construct" V 380 4700 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 380 4700 60  0001 C CNN "Field8"
-	1    2650 2750
+P 6000 1200
+F 0 "F3" H 6100 1250 40  0000 C CNN
+F 1 "10A" H 5900 1150 40  0000 C CNN
+F 2 "FUSE5-20-DEFAULT-10A" V 4980 6100 60  0001 C CNN
+F 4 "newark,63K6823" V 3730 3150 60  0001 C CNN "Field1"
+F 5 "WK6242-ND" V 3730 3150 60  0001 C CNN "Field2"
+F 6 "vendor2, thru w hem" V 3730 3150 60  0001 C CNN "Field3"
+F 7 "vendor2, smd w hem" V 3730 3150 60  0001 C CNN "Field4"
+F 8 "x,x" V 3730 3150 60  0001 C CNN "Field5"
+F 9 "10,A" V 3730 3150 60  0001 C CNN "Field6"
+F 10 "construct" V 3730 3150 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 3730 3150 60  0001 C CNN "Field8"
+	1    6000 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L FUSE F1
 U 1 1 48A00EF5
-P 2100 2850
-F 0 "F1" H 2200 2900 40  0000 C CNN
-F 1 "2A" H 2000 2800 40  0000 C CNN
-F 2 "FUSE5-20-DEFAULT-2A" V 1930 7650 60  0001 C CNN
-F 4 "newark,63K6823" V 680 4700 60  0001 C CNN "Field1"
-F 5 "WK6242-ND" V 680 4700 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 680 4700 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 680 4700 60  0001 C CNN "Field4"
-F 8 "x,x" V 680 4700 60  0001 C CNN "Field5"
-F 9 "10,A" V 680 4700 60  0001 C CNN "Field6"
-F 10 "construct" V 680 4700 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 680 4700 60  0001 C CNN "Field8"
-	1    2100 2850
+P 5150 1300
+F 0 "F1" H 5250 1350 40  0000 C CNN
+F 1 "2A" H 5050 1250 40  0000 C CNN
+F 2 "FUSE5-20-DEFAULT-2A" V 4980 6100 60  0001 C CNN
+F 4 "newark,63K6823" V 3730 3150 60  0001 C CNN "Field1"
+F 5 "WK6242-ND" V 3730 3150 60  0001 C CNN "Field2"
+F 6 "vendor2, thru w hem" V 3730 3150 60  0001 C CNN "Field3"
+F 7 "vendor2, smd w hem" V 3730 3150 60  0001 C CNN "Field4"
+F 8 "x,x" V 3730 3150 60  0001 C CNN "Field5"
+F 9 "10,A" V 3730 3150 60  0001 C CNN "Field6"
+F 10 "construct" V 3730 3150 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 3730 3150 60  0001 C CNN "Field8"
+	1    5150 1300
 	1    0    0    -1  
 $EndComp
 Text Label 14400 6400 0    60   ~ 0
@@ -1969,17 +1988,23 @@ ind_gpd_1
 Entry Wire Line
 	4250 8550 4350 8450
 $Sheet
-S 3150 2650 2050 450 
+S 3250 3300 2050 400 
+U 4C2E1E53
+F0 "voltage regulator (cpu)" 60
+F1 "power_reg2.sch" 60
+F2 "5v reg" O R 5300 3500 60 
+F3 "12v batt" I R 5300 3400 60 
+F4 "gnd" B R 5300 3600 60 
+$EndSheet
+$Sheet
+S 3250 2550 2050 450 
 U 4C2E1E55
 F0 "voltage regulator (switched)" 60
-F1 "power_reg_s1.sch" 60
-F2 "gnd" B R 5200 3050 60 
-F3 "12v batt sw" I L 3150 2750 60 
-F4 "5v reg (constant)" O R 5200 2950 60 
-F5 "5v reg (switched)" O R 5200 2850 60 
-F6 "5v reg sensors" O L 3150 2950 60 
-F7 "+12V" O R 5200 2750 60 
-F8 "12v batt" I L 3150 2850 60 
+F1 "power_reg1.sch" 60
+F2 "5v reg" O R 5300 2850 60 
+F3 "12v batt" I R 5300 2750 60 
+F4 "gnd" B R 5300 2950 60 
+F5 "ENABLE" I R 5300 2650 60 
 $EndSheet
 $Sheet
 S 5050 9800 1700 200 
@@ -2257,10 +2282,10 @@ $EndComp
 $Comp
 L GND #PWR010
 U 1 1 486F7315
-P 5350 3100
-F 0 "#PWR010" H 5350 3100 30  0001 C CNN
-F 1 "GND" H 5350 3030 30  0001 C CNN
-	1    5350 3100
+P 5350 3750
+F 0 "#PWR010" H 5350 3750 30  0001 C CNN
+F 1 "GND" H 5350 3680 30  0001 C CNN
+	1    5350 3750
 	1    0    0    -1  
 $EndComp
 $Sheet
