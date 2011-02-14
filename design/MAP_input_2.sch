@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/13/2011 11:33:15 AM
+EESchema Schematic File Version 2  date 2/13/2011 7:03:32 PM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 43 56
+Sheet 43 55
 Title "Puma board"
-Date "13 feb 2011"
+Date "14 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "MAP_input.sch"

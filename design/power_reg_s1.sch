@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/13/2011 11:33:14 AM
+EESchema Schematic File Version 2  date 2/13/2011 7:03:31 PM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 34 56
+Sheet 33 55
 Title "Puma board"
-Date "13 feb 2011"
+Date "14 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "power regulator"
@@ -868,14 +868,14 @@ AR Path="/4C2E1E55/486ECB4E" Ref="D?"  Part="1"
 F 0 "D?" H 1950 1050 40  0000 C CNN
 F 1 "STTH4R02S" H 1950 850 40  0000 C CNN
 F 2 "D4-SMB" H 2050 1150 60  0001 C CNN
-F 4 "st,STTH4R02U" H 2050 1150 60  0001 C CNN "mfg,#"
-F 5 "newark,26M3786" H 2050 1150 60  0001 C CNN "vend,#"
-F 6 "-,-" H -4170 250 60  0001 C CNN "Field3"
-F 7 "-,-" H -4170 250 60  0001 C CNN "Field4"
-F 8 "200,V" H -4170 250 60  0001 C CNN "Field5"
-F 9 "4,a" H -4170 250 60  0001 C CNN "Field6"
-F 10 "construct" H -4170 250 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" H -4170 250 60  0001 C CNN "Field8"
+F 4 "st" H 2050 1150 60  0001 C CNN "mfg"
+F 5 "STTH4R02U" H 2050 1150 60  0001 C CNN "mfg#"
+F 6 "newark" H -4170 250 60  0001 C CNN "vend1"
+F 7 "26M3786" H -4170 250 60  0001 C CNN "vend1#"
+F 8 "-" H -4170 250 60  0001 C CNN "Field5"
+F 9 "-" H -4170 250 60  0001 C CNN "Field6"
+F 10 "-" H -4170 250 60  0001 C CNN "Field7"
+F 11 "-" H -4170 250 60  0001 C CNN "Field8"
 	1    1950 950 
 	1    0    0    1   
 $EndComp
@@ -888,14 +888,14 @@ AR Path="/4C2E1E55/486ECB44" Ref="D?"  Part="1"
 F 0 "D?" H 2200 1250 40  0000 C CNN
 F 1 "TPSMA27A" H 2200 1050 40  0000 C CNN
 F 2 "DO214" H 5250 1750 60  0001 C CNN
-F 4 "vishay,TPSMA27A-E3/61T" H 5250 1750 60  0001 C CNN "mfg,#"
-F 5 "mouser,625-TPSMA27A-E3" H 5250 1750 60  0001 C CNN "vend,#"
-F 6 "-,-" H -970 850 60  0001 C CNN "Field3"
-F 7 "-,-" H -970 850 60  0001 C CNN "Field4"
-F 8 "37.5,V" H -970 850 60  0001 C CNN "Field5"
-F 9 "10.7,a" H -970 850 60  0001 C CNN "Field6"
-F 10 "construct" H -970 850 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" H -970 850 60  0001 C CNN "Field8"
+F 4 "vishay" H 5250 1750 60  0001 C CNN "mfg"
+F 5 "TPSMA27A-E3/61T" H 5250 1750 60  0001 C CNN "mfg#"
+F 6 "mouser" H -970 850 60  0001 C CNN "vend1"
+F 7 "625-TPSMA27A-E3" H -970 850 60  0001 C CNN "vend1#"
+F 8 "37.5" H -970 850 60  0001 C CNN "voltage(V)"
+F 9 "10.7" H -970 850 60  0001 C CNN "current(A)"
+F 10 "-" H -970 850 60  0001 C CNN "Field7"
+F 11 "-" H -970 850 60  0001 C CNN "Field8"
 	1    2200 1150
 	0    1    -1   0   
 $EndComp
