@@ -7,11 +7,11 @@
   <design type="L597x" ver="1">
     <DesignSpecs type="DesignSpecs" ver="7" VinMin="6" VinMax="16" Vout="5" VoutRipplePer="0.001" IoutMax="1" LIR="0.3" SwitchFreq="250000" bandwidth="NaN" phaseMargin="45" synchPinConnected="false" useICMaxLimCurr="true" IoutOvershootMin="0" useDCBiasCapChange="true"/>
     <Capacitor ver="4" refName="Cin" PartNumber="C4532X7R1E226M" Manufacturer="TDK" Value="0.000022" Type="Ceramic" SubType="MLCC" VoltageRating="25" ACCurrentRating="3.8" ESR_min="0.002" ESR_max="0.003" Tolerance="20" Package="" MountType="Surface Mount" maxValueChangeRatio="0.5" Locked="false" ByUser="true" Generic="false" numParCap="1"/>
-    <Capacitor ver="4" refName="Cout" PartNumber="C3225X5R0J107M" Manufacturer="TDK" Value="0.0001" Type="Ceramic" SubType="MLCC" VoltageRating="6.3" ACCurrentRating="3.7" ESR_min="0.001" ESR_max="0.003" Tolerance="20" Package="" MountType="Surface Mount" maxValueChangeRatio="0.5" Locked="false" ByUser="true" Generic="false" numParCap="1"/>
-    <Inductor ver="3" refName="L" PartNumber="CTX100-2-52" Manufacturer="Coiltronics" Value="0.0001" DCR="0.053" Isat="4.4" Irms="4.3" MountType="Through Hole" Locked="false" ByUser="true" Generic="false"/>
+    <Capacitor ver="4" refName="Cout" PartNumber="TPME687M006R0023" Manufacturer="AVX" Value="0.00068" Type="Tantalum" SubType="Tantalum" VoltageRating="6.3" ACCurrentRating="2.68" ESR_min="0.012" ESR_max="0.023" Tolerance="20" Package="" MountType="Surface Mount" maxValueChangeRatio="0.5" Locked="false" ByUser="true" Generic="false" numParCap="1"/>
+    <Inductor ver="3" refName="L" PartNumber="MSS1278-823" Manufacturer="Coilcraft" Value="0.000082" DCR="0.1259" Isat="3.8" Irms="2.3" MountType="Surface Mount" Locked="false" ByUser="true" Generic="false"/>
     <Diode ver="2" refName="D" PartNumber="1N5821" Manufacturer="STMicroelectronics" Type="Schottky" VoltageForward="0.5" CurrentForward="3" LeakageCurrent="0" BreakdownVoltage="30" TimeSwitching="0" RRCharge="0" RJA="0" PowDissMax="1.5" MountType="" Package="" numDiodes="1" Vf0="0.33" Rf0="0.035" Locked="false" ByUser="true" Generic="false"/>
     <OutputDivider ver="1" R1="13000" R2="4300"/>
-    <CompensationNet type="Type1CompensationNet" ver="1" Rc="68000" Cc="4.7e-9" Cp="2.2e-11"/>
+    <CompensationNet type="Type1CompensationNet" ver="1" Rc="11000000000000000" Cc="4.2454168046474936e-20" Cp="2.2e-11"/>
   </design>
   <schematic><![CDATA[assets/schematics/buck/x597x_schema.swf?IC=L5970D&showDivider=true]]></schematic>
 </eDesignStudio>
