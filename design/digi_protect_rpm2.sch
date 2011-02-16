@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/14/2011 7:45:19 AM
+EESchema Schematic File Version 2  date 2/16/2011 5:39:17 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 46 55
+Sheet 46 56
 Title "Puma board"
-Date "14 feb 2011"
+Date "16 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "digi_protect.sch"
@@ -75,7 +75,7 @@ U 1 1 4C2F52CC
 P 2800 1950
 F 0 "D26" H 2800 2050 50  0000 C CNN
 F 1 "5V1" H 2800 1850 40  0000 C CNN
-F 2 "D4-SMB" V 1130 2600 60  0001 C CNN
+F 2 "SOD-123" V 1130 2600 60  0001 C CNN
 F 4 "Diodes Inc" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "BZT52C5V1-7-F" V 1130 2600 60  0001 C CNN "mfg#"
 F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"

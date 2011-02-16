@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/13/2011 11:33:14 AM
+EESchema Schematic File Version 2  date 2/16/2011 5:39:15 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 33 56
 Title "Puma board"
-Date "13 feb 2011"
+Date "16 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -99,7 +99,7 @@ U 1 1 4CB21BF3
 P 7000 3500
 F 0 "C5" H 7050 3600 50  0000 L CNN
 F 1 "22uF" H 6800 3400 50  0000 L CNN
-F 2 "C1V7" V 1130 2600 60  0001 C CNN
+F 2 "SM2512" V 1130 2600 60  0001 C CNN
 F 4 "AVX" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "TAJC226M016RNJ" V 1130 2600 60  0001 C CNN "mfg#"
 F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
@@ -117,6 +117,7 @@ U 1 1 4CAB8DFA
 P 6050 2850
 F 0 "D92" H 6050 2950 40  0000 C CNN
 F 1 "1N4148" H 6050 2750 40  0000 C CNN
+F 2 "SOD-123" H 6050 2850 60  0001 C CNN
 F 4 "Micro Commercial Co" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "1N4148W-TP" V 1130 2600 60  0001 C CNN "mfg#"
 F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
@@ -188,15 +189,15 @@ U 1 1 486ECB4E
 P 2850 3300
 F 0 "D1" H 2850 3400 40  0000 C CNN
 F 1 "1N4448" H 2850 3200 40  0000 C CNN
-F 2 "D4-SMB" H 2950 3500 60  0001 C CNN
-F 4 "newark,18C8923" H 2950 3500 60  0001 C CNN "Field1"
-F 5 "1N4448W-FDICT-ND" H 2950 3500 60  0001 C CNN "Field2"
-F 6 "DIGI,1N4007RLOSCT-ND" H -3270 2600 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" H -3270 2600 60  0001 C CNN "Field4"
-F 8 "max,V" H -3270 2600 60  0001 C CNN "Field5"
-F 9 "x,x" H -3270 2600 60  0001 C CNN "Field6"
-F 10 "construct" H -3270 2600 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" H -3270 2600 60  0001 C CNN "Field8"
+F 2 "SOD-123" H 2950 3500 60  0001 C CNN
+F 4 "Diodes Inc" H 2950 3500 60  0001 C CNN "mfg"
+F 5 "1N4448W-7-F" H 2950 3500 60  0001 C CNN "mfg#"
+F 6 "digikey" H -3270 2600 60  0001 C CNN "vend1"
+F 7 "1N4448W-FDICT-ND" H -3270 2600 60  0001 C CNN "vend1#"
+F 8 "-" H -3270 2600 60  0001 C CNN "vend2"
+F 9 "-" H -3270 2600 60  0001 C CNN "vend2#"
+F 10 "-" H -3270 2600 60  0001 C CNN "Field7"
+F 11 "-" H -3270 2600 60  0001 C CNN "Field8"
 	1    2850 3300
 	1    0    0    1   
 $EndComp

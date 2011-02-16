@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/14/2011 7:45:17 AM
+EESchema Schematic File Version 2  date 2/16/2011 5:39:14 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 16 55
+Sheet 16 56
 Title "Puma board"
-Date "14 feb 2011"
+Date "16 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -301,6 +301,7 @@ U 1 1 4CB3098C
 P 3700 3700
 F 0 "P95" H 3780 3700 40  0000 L CNN
 F 1 "CONN_1" H 3700 3755 30  0001 C CNN
+F 2 "PINTST" H 3700 3700 60  0001 C CNN
 	1    3700 3700
 	-1   0    0    1   
 $EndComp
@@ -310,6 +311,7 @@ U 1 1 4CB30982
 P 8550 3600
 F 0 "P98" H 8630 3600 40  0000 L CNN
 F 1 "CONN_1" H 8550 3655 30  0001 C CNN
+F 2 "PINTST" H 8550 3600 60  0001 C CNN
 	1    8550 3600
 	1    0    0    -1  
 $EndComp
@@ -319,6 +321,7 @@ U 1 1 4CB30730
 P 4550 2950
 F 0 "P97" H 4630 2950 40  0000 L CNN
 F 1 "CONN_1" H 4550 3005 30  0001 C CNN
+F 2 "PINTST" H 4550 2950 60  0001 C CNN
 	1    4550 2950
 	-1   0    0    1   
 $EndComp
@@ -328,6 +331,7 @@ U 1 1 4CB30721
 P 4550 2800
 F 0 "P96" H 4630 2800 40  0000 L CNN
 F 1 "CONN_1" H 4550 2855 30  0001 C CNN
+F 2 "PINTST" H 4550 2800 60  0001 C CNN
 	1    4550 2800
 	-1   0    0    1   
 $EndComp

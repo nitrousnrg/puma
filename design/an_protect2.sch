@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/14/2011 7:45:19 AM
+EESchema Schematic File Version 2  date 2/16/2011 5:39:17 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 47 55
+Sheet 47 56
 Title "Puma board"
-Date "14 feb 2011"
+Date "16 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "an_protect.sch"
@@ -118,7 +118,7 @@ U 1 1 4C5989C5
 P 2650 5050
 F 0 "D74" H 2650 5150 40  0000 C CNN
 F 1 "1N4148" H 2650 4950 40  0000 C CNN
-F 2 "D4-SMB" V 1130 4000 60  0001 C CNN
+F 2 "SOD-123" V 1130 4000 60  0001 C CNN
 F 4 "Micro Commercial Co" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "1N4148W-TP" V 1130 2600 60  0001 C CNN "mfg#"
 F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
@@ -350,7 +350,7 @@ AR Path="/4C4C6618/4C2F52F2" Ref="D31"  Part="1"
 AR Path="/4C2E1E7B/4C2F52F2" Ref="D31"  Part="1" 
 F 0 "D31" H 2650 3750 40  0000 C CNN
 F 1 "1N4148" H 2650 3550 40  0000 C CNN
-F 2 "D4-SMB" V 1130 2600 60  0001 C CNN
+F 2 "SOD-123" V 1130 2600 60  0001 C CNN
 F 4 "Micro Commercial Co" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "1N4148W-TP" V 1130 2600 60  0001 C CNN "mfg#"
 F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
@@ -445,7 +445,7 @@ AR Path="/4C4C6618/489597B4" Ref="D33"  Part="1"
 AR Path="/4C2E1E7B/489597B4" Ref="D33"  Part="1" 
 F 0 "D33" H 2700 2450 40  0000 C CNN
 F 1 "1N4148" H 2700 2250 40  0000 C CNN
-F 2 "D4-SMB" V 1130 2600 60  0001 C CNN
+F 2 "SOD-123" V 1130 2600 60  0001 C CNN
 F 4 "Micro Commercial Co" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "1N4148W-TP" V 1130 2600 60  0001 C CNN "mfg#"
 F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
@@ -540,7 +540,7 @@ AR Path="/4C4C6618/486F8B5C" Ref="D35"  Part="1"
 AR Path="/4C2E1E7B/486F8B5C" Ref="D35"  Part="1" 
 F 0 "D35" H 2750 1100 40  0000 C CNN
 F 1 "1N4148" H 2750 900 40  0000 C CNN
-F 2 "D4-SMB" V 1130 2600 60  0001 C CNN
+F 2 "SOD-123" V 1130 2600 60  0001 C CNN
 F 4 "Micro Commercial Co" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "1N4148W-TP" V 1130 2600 60  0001 C CNN "mfg#"
 F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
