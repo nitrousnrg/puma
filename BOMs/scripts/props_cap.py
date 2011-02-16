@@ -5,7 +5,7 @@
 
 import commands,sys,os
 currentline = []
-fileNames = os.listdir("../.")#get file list
+fileNames = os.listdir("../..design/.")#get file list
 #fileNames = ["../digi_protect_I3.sch","../digi_protect_I4.sch","../freeEMS_lib.lib"]#limit how many fileNames we look at for debug purposes
 #fileNames = ["digi_protect_I3.sch"]#limit how many fileNames we look at for debug purposes
 

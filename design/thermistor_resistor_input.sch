@@ -151,7 +151,7 @@ AR Path="/4C2E1E9D/4CCAD67F" Ref="R149"  Part="1"
 AR Path="/4C2E1E9F/4CCAD67F" Ref="R152"  Part="1" 
 F 0 "R158" V 6230 1700 50  0000 C CNN
 F 1 "10k" V 6150 1700 50  0000 C CNN
-	1    6150 1700
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"
 F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
@@ -182,26 +182,4 @@ AR Path="/4C2E1E9D/4CCAD67D" Ref="R148"  Part="1"
 AR Path="/4C2E1E9F/4CCAD67D" Ref="R151"  Part="1" 
 F 0 "R157" V 5780 2100 50  0000 C CNN
 F 1 "38.3k" V 5700 2100 50  0000 C CNN
-	1    5700 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R156
-U 1 1 4C4AE94D
-P 5700 1300
-AR Path="/4C4C62BF/4C4AE94D" Ref="R156"  Part="1" 
-AR Path="/4C4C628B/4C4AE94D" Ref="R153"  Part="1" 
-AR Path="/4C2E1E9D/4C4AE94D" Ref="R147"  Part="1" 
-AR Path="/4C2E1E9F/4C4AE94D" Ref="R150"  Part="1" 
-F 0 "R156" V 5780 1300 50  0000 C CNN
-F 1 "2.61k" V 5700 1300 50  0000 C CNN
-	1    5700 1300
-	1    0    0    -1  
-$EndComp
-Text HLabel 4850 1000 0    60   Output ~ 0
-5v_reg
-Text HLabel 4850 2400 0    60   BiDi ~ 0
-analog_sensor_gnd
-Text HLabel 6650 1700 2    60   Output ~ 0
-analog_sensor_TEMP
-$EndSCHEMATC
+F 2 "SM0805" V 1130 2600 60  0001 C CNN

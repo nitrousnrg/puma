@@ -1,0 +1,403 @@
+ref,value,footprint,Field1,Field2,Field3,Field4,Field5,Field6,Field7,Field8
+C2,10uF,C1V7,Nichicon,UVZ1C100MDD,digikey,493-1279-ND,16v,20%,aluminum,other,more,stuff
+C3,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C5,22uF,SM2512,AVX,TAJC226M016RNJ,digikey,478-3901-1-ND,16v,20%,tantalum,other,more,stuff
+C6,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C8,10uF,C1V7,Nichicon,UVZ1C100MDD,digikey,493-1279-ND,16v,20%,aluminum,other,more,stuff
+C9,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C10,22uF,SM2512,AVX,TAJC226M016RNJ,digikey,478-3901-1-ND,16v,20%,tantalum,other,more,stuff
+C11,2200uF,C1V8,United Chemi-Con,EKZE6R3ELL222MJ25S,digikey,565-1634-ND,6.3v,20%,aluminum,other,more,stuff
+C12,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C19,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C20,.01uF,SM0805,Murata,GRM216R71H103KA01D,digikey,490-1664-1-ND,50v,10%,???,other,more,stuff
+C21,33nF,SM0805,AVX,08055C333KAZ2A,digikey,478-3550-1-ND,50,10%,ceramic,other,more,stuff
+C23,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C24,1.5nF,SM0805,Yageo,CC0805KRX7R9BB152,digikey,311-1128-1-ND,50v,10%,ceramic,other,more,stuff
+C29,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C30,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C31,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C36,10pF,SM0805,Yageo,CC0805JRNP09BN100,digikey,311-1099-1-ND,50v,5%,ceramic,other,more,stuff
+C37,10pF,SM0805,Yageo,CC0805JRNP09BN100,digikey,311-1099-1-ND,50v,5%,ceramic,other,more,stuff
+C39,10pF,SM0805,Yageo,CC0805JRNP09BN100,digikey,311-1099-1-ND,50v,5%,ceramic,other,more,stuff
+C66,33nF,SM0805,AVX,08055C333KAZ2A,digikey,478-3550-1-ND,50,10%,ceramic,other,more,stuff
+C67,33nF,SM0805,AVX,08055C333KAZ2A,digikey,478-3550-1-ND,50,10%,ceramic,other,more,stuff
+C68,33nF,SM0805,AVX,08055C333KAZ2A,digikey,478-3550-1-ND,50,10%,ceramic,other,more,stuff
+C73,1.5nF,SM0805,Yageo,CC0805KRX7R9BB152,digikey,311-1128-1-ND,50v,10%,ceramic,other,more,stuff
+C74,1.5nF,SM0805,Yageo,CC0805KRX7R9BB152,digikey,311-1128-1-ND,50v,10%,ceramic,other,more,stuff
+C75,33nF,SM0805,AVX,08055C333KAZ2A,digikey,478-3550-1-ND,50,10%,ceramic,other,more,stuff
+C76,1.5nF,SM0805,Yageo,CC0805KRX7R9BB152,digikey,311-1128-1-ND,50v,10%,ceramic,other,more,stuff
+C77,1.5nF,SM0805,Yageo,CC0805KRX7R9BB152,digikey,311-1128-1-ND,50v,10%,ceramic,other,more,stuff
+C78,33nF,SM0805,AVX,08055C333KAZ2A,digikey,478-3550-1-ND,50,10%,ceramic,other,more,stuff
+C79,1.5nF,SM0805,Yageo,CC0805KRX7R9BB152,digikey,311-1128-1-ND,50v,10%,ceramic,other,more,stuff
+C80,1.5nF,SM0805,Yageo,CC0805KRX7R9BB152,digikey,311-1128-1-ND,50v,10%,ceramic,other,more,stuff
+C81,33nF,SM0805,AVX,08055C333KAZ2A,digikey,478-3550-1-ND,50,10%,ceramic,other,more,stuff
+C82,1.5nF,SM0805,Yageo,CC0805KRX7R9BB152,digikey,311-1128-1-ND,50v,10%,ceramic,other,more,stuff
+C83,1.5nF,SM0805,Yageo,CC0805KRX7R9BB152,digikey,311-1128-1-ND,50v,10%,ceramic,other,more,stuff
+C84,33nF,SM0805,AVX,08055C333KAZ2A,digikey,478-3550-1-ND,50,10%,ceramic,other,more,stuff
+C85,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C86,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C87,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C88,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C89,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C90,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C91,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C92,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C93,3.3nF,SM0805,Kemet,C0805C222K5RACTU,digikey,399-1151-1-ND,50v,10%,ceramic,other,more,stuff
+C94,330pF,SM0805,Yageo,CC0805KRX7R9BB221,digikey,311-1192-1-ND,50v,10%,ceramic,other,more,stuff
+C95,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C96,22pF,SM0805,Johanson Dielectrics,709-1172-1-ND,digikey,709-1172-1-ND,50v,5%,ceramic,other,more,stuff
+C97,22pF,SM0805,Johanson Dielectrics,709-1172-1-ND,digikey,709-1172-1-ND,50v,5%,ceramic,other,more,stuff
+C98,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C99,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C100,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C102,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C104,33nF,SM0805,AVX,08055C333KAZ2A,digikey,478-3550-1-ND,50,10%,ceramic,other,more,stuff
+C105,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C106,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C107,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C108,.01uF,SM0805,Murata,GRM216R71H103KA01D,digikey,490-1664-1-ND,50v,10%,???,other,more,stuff
+C109,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C110,.01uF,SM0805,Murata,GRM216R71H103KA01D,digikey,490-1664-1-ND,50v,10%,???,other,more,stuff
+C111,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C112,.01uF,SM0805,Murata,GRM216R71H103KA01D,digikey,490-1664-1-ND,50v,10%,???,other,more,stuff
+C113,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C114,.01uF,SM0805,Murata,GRM216R71H103KA01D,digikey,490-1664-1-ND,50v,10%,???,other,more,stuff
+C115,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C116,.01uF,SM0805,Murata,GRM216R71H103KA01D,digikey,490-1664-1-ND,50v,10%,???,other,more,stuff
+C117,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C118,.01uF,SM0805,Murata,GRM216R71H103KA01D,digikey,490-1664-1-ND,50v,10%,???,other,more,stuff
+C119,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C120,.01uF,SM0805,Murata,GRM216R71H103KA01D,digikey,490-1664-1-ND,50v,10%,???,other,more,stuff
+C121,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C122,.01uF,SM0805,Murata,GRM216R71H103KA01D,digikey,490-1664-1-ND,50v,10%,???,other,more,stuff
+C123,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C124,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C125,1.5nF,SM0805,Yageo,CC0805KRX7R9BB152,digikey,311-1128-1-ND,50v,10%,ceramic,other,more,stuff
+C126,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C127,1.5nF,SM0805,Yageo,CC0805KRX7R9BB152,digikey,311-1128-1-ND,50v,10%,ceramic,other,more,stuff
+C128,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C129,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C130,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C131,0.1uF,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+C132,0.1uF,SM0805,,,,,,,,
+D1,1N4448,SOD-123,Diodes Inc,1N4448W-7-F,digikey,1N4448W-FDICT-ND,-,-,-,-
+D3,1N4007,D3,ON semi,1N4007RL,digikey,1N4007RLOSCT-ND,newark,18C8923,-,-
+D4,1N4148,D3,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D10,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D12,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D14,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D16,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D17,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D18,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D19,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D20,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D24,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D26,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D31,1N4148,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D32,SCHOTTKY,SOD-123,Fairchild Semi,MBR0520L,digikey,MBR0520LCT-ND,.5,20v,schottky,other,more,stuff
+D33,1N4148,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D34,SCHOTTKY,SOD-123,Fairchild Semi,MBR0520L,digikey,MBR0520LCT-ND,.5,20v,schottky,other,more,stuff
+D35,1N4148,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D36,SCHOTTKY,SOD-123,Fairchild Semi,MBR0520L,digikey,MBR0520LCT-ND,.5,20v,schottky,other,more,stuff
+D45,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D46,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D49,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D58,1N4148,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D59,SCHOTTKY,SOD-123,Fairchild Semi,MBR0520L,digikey,MBR0520LCT-ND,.5,20v,schottky,other,more,stuff
+D60,1N4148,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D61,SCHOTTKY,SOD-123,Fairchild Semi,MBR0520L,digikey,MBR0520LCT-ND,.5,20v,schottky,other,more,stuff
+D62,1N4148,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D63,SCHOTTKY,SOD-123,Fairchild Semi,MBR0520L,digikey,MBR0520LCT-ND,.5,20v,schottky,other,more,stuff
+D64,1N4148,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D65,SCHOTTKY,SOD-123,Fairchild Semi,MBR0520L,digikey,MBR0520LCT-ND,.5,20v,schottky,other,more,stuff
+D66,1N4148,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D67,SCHOTTKY,SOD-123,Fairchild Semi,MBR0520L,digikey,MBR0520LCT-ND,.5,20v,schottky,other,more,stuff
+D68,1N4148,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D69,SCHOTTKY,SOD-123,Fairchild Semi,MBR0520L,digikey,MBR0520LCT-ND,.5,20v,schottky,other,more,stuff
+D70,1N4148,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D71,SCHOTTKY,SOD-123,Fairchild Semi,MBR0520L,digikey,MBR0520LCT-ND,.5,20v,schottky,other,more,stuff
+D72,1N4148,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D73,SCHOTTKY,SOD-123,Fairchild Semi,MBR0520L,digikey,MBR0520LCT-ND,.5,20v,schottky,other,more,stuff
+D74,1N4148,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D75,SCHOTTKY,SOD-123,Fairchild Semi,MBR0520L,digikey,MBR0520LCT-ND,.5,20v,schottky,other,more,stuff
+D76,DIODE,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15,100v,standard,other,more,stuff
+D77,DIODE,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15,100v,standard,other,more,stuff
+D78,DIODE,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15,100v,standard,other,more,stuff
+D79,DIODE,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15,100v,standard,other,more,stuff
+D82,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D84,33v 5w,D3,On-Semi,1N5364BRLG,digikey,1N5364BRLGOSCT-ND,5w,-%,zener,other,more,stuff
+D85,33v 5w,D3,On-Semi,1N5364BRLG,digikey,1N5364BRLGOSCT-ND,5w,-%,zener,other,more,stuff
+D86,33v 5w,D3,On-Semi,1N5364BRLG,digikey,1N5364BRLGOSCT-ND,5w,-%,zener,other,more,stuff
+D87,33v 5w,D3,On-Semi,1N5364BRLG,digikey,1N5364BRLGOSCT-ND,5w,-%,zener,other,more,stuff
+D88,33v 5w,D3,On-Semi,1N5364BRLG,digikey,1N5364BRLGOSCT-ND,5w,-%,zener,other,more,stuff
+D89,33v 5w,D3,On-Semi,1N5364BRLG,digikey,1N5364BRLGOSCT-ND,5w,-%,zener,other,more,stuff
+D90,33v 5w,D3,On-Semi,1N5364BRLG,digikey,1N5364BRLGOSCT-ND,5w,-%,zener,other,more,stuff
+D91,33v 5w,D3,On-Semi,1N5364BRLG,digikey,1N5364BRLGOSCT-ND,5w,-%,zener,other,more,stuff
+D92,1N4148,SOD-123,Micro Commercial Co,1N4148W-TP,digikey,1N4148WTPMSCT-ND,.15a,-%,standard,other,more,stuff
+D93,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D94,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D95,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D96,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D97,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D98,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D99,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D100,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D101,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D102,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D103,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D104,5V1,SOD-123,Diodes Inc,BZT52C5V1-7-F,digikey,BZT52C5V1-FDICT-ND,.01,5.1v,zener,other,more,stuff
+D105,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D106,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D107,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D108,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D109,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D110,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D111,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D112,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+D113,LED,LED-0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+F1,2A,FUSE5-20-DEFAULT-2A,little fuse,52000001009,digikey,WK6242-ND,newark,63K6823,2,A,-
+F3,10A,FUSE5-20-DEFAULT-10A,little fuse,52000001009,digikey,WK6242-ND,newark,63K6823,10,A,-
+J1,USB_2,,Molex,54819-0519 ,digikey,WM17115-ND,newark,59J0790,,
+P2,CONN_1,PINTST,,,,,,,,
+P3,CONN_1,PINTST,,,,,,,,
+P4,CONN_1,PINTST,,,,,,,,
+P5,CONN_1,PINTST,,,,,,,,
+P6,CONN_1,PINTST,,,,,,,,
+P7,CONN_1,PINTST,,,,,,,,
+P8,CONN_1,PINTST,,,,,,,,
+P9,CONN_1,PINTST,,,,,,,,
+P10,CONN_1,PINTST,,,,,,,,
+P11,CONN_1,PINTST,,,,,,,,
+P12,CONN_1,PINTST,,,,,,,,
+P13,CONN_1,PINTST,,,,,,,,
+P20,CONN_1,PINTST,,,,,,,,
+P21,CONN_1,PINTST,,,,,,,,
+P22,CONN_1,PINTST,,,,,,,,
+P23,CONN_1,PINTST,,,,,,,,
+P24,CONN_1,PINTST,,,,,,,,
+P25,CONN_1,PINTST,,,,,,,,
+P71,COMMS,PIN_ARRAY-6X1,,,,,,,,
+P74,BDM,pin_array_3x2,,,,,,,,
+P75,CONN_1,PINTST,,,,,,,,
+P76,CONN_1,PINTST,,,,,,,,
+P77,CONN_1,PINTST,,,,,,,,
+P78,CONN_1,PINTST,,,,,,,,
+P79,CONN_1,PINTST,,,,,,,,
+P80,CONN_1,PINTST,,,,,,,,
+P81,CONN_1,PINTST,,,,,,,,
+P82,CONN_1,PINTST,,,,,,,,
+P83,CONN_1,PINTST,,,,,,,,
+P84,CONN_1,PINTST,,,,,,,,
+P85,CONN_1,PINTST,,,,,,,,
+P86,CONN_1,PINTST,,,,,,,,
+P87,CONN_1,PINTST,,,,,,,,
+P88,CONN_1,PINTST,,,,,,,,
+P89,CONN_1,PINTST,,,,,,,,
+P90,CONN_1,PINTST,,,,,,,,
+P95,CONN_1,PINTST,,,,,,,,
+P96,CONN_1,PINTST,,,,,,,,
+P97,CONN_1,PINTST,,,,,,,,
+P98,CONN_1,PINTST,,,,,,,,
+P99,CONN_20X2,PIN_ARRAY_20X2,,,,,,,,
+P100,CONN_1,PINTST,,,,,,,,
+P103,CONN_1,PINTST,,,,,,,,
+P104,CONN_1,PINTST,,,,,,,,
+P105,CONN_1,PINTST,,,,,,,,
+P106,CONN_2,PIN_ARRAY_2X1,,,,,,,,
+Q1,RFP30N06,TO220_VERT,Fairchild Semi,RFP30N06LE,digikey,RFP30N06LE-ND,30a,60VDS,MOSFET-N,other,more,stuff
+Q2,RFP30N06,TO220_VERT,Fairchild Semi,RFP30N06LE,digikey,RFP30N06LE-ND,30a,60VDS,MOSFET-N,other,more,stuff
+Q3,RFP30N06,TO220_VERT,Fairchild Semi,RFP30N06LE,digikey,RFP30N06LE-ND,30a,60VDS,MOSFET-N,other,more,stuff
+Q4,RFP30N06,TO220_VERT,Fairchild Semi,RFP30N06LE,digikey,RFP30N06LE-ND,30a,60VDS,MOSFET-N,other,more,stuff
+Q7,RFP30N06,TO220_VERT,Fairchild Semi,RFP30N06LE,digikey,RFP30N06LE-ND,30a,60VDS,MOSFET-N,other,more,stuff
+Q8,RFP30N06,TO220_VERT,Fairchild Semi,RFP30N06LE,digikey,RFP30N06LE-ND,30a,60VDS,MOSFET-N,other,more,stuff
+Q9,RFP30N06,TO220_VERT,Fairchild Semi,RFP30N06LE,digikey,RFP30N06LE-ND,30a,60VDS,MOSFET-N,other,more,stuff
+Q10,2N6044,TO220_VERT,On-Semi,2N6045G,digikey,2N6045GOS-ND,8a,75w,npn,other,more,stuff
+Q11,2N6044,TO220_VERT,On-Semi,2N6045G,digikey,2N6045GOS-ND,8a,75w,npn,other,more,stuff
+Q12,2N6044,TO220_VERT,On-Semi,2N6045G,digikey,2N6045GOS-ND,8a,75w,npn,other,more,stuff
+Q13,2N6044,TO220_VERT,On-Semi,2N6045G,digikey,2N6045GOS-ND,8a,75w,npn,other,more,stuff
+Q14,2N6044,TO220_VERT,On-Semi,2N6045G,digikey,2N6045GOS-ND,8a,75w,npn,other,more,stuff
+Q15,2N6044,TO220_VERT,On-Semi,2N6045G,digikey,2N6045GOS-ND,8a,75w,npn,other,more,stuff
+Q16,2N6044,TO220_VERT,On-Semi,2N6045G,digikey,2N6045GOS-ND,8a,75w,npn,other,more,stuff
+Q17,2N6044,TO220_VERT,On-Semi,2N6045G,digikey,2N6045GOS-ND,8a,75w,npn,other,more,stuff
+Q18,BC547,TO92,,,,,,,,
+Q19,PNP,TO92,,,,,,,,
+R2,1R,R4,Yegeo,RSF200JB-1R0,digikey,1.0W-2-ND,2w,5%,metal oxide,other,more,stuff
+R7,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R9,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R11,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R13,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R15,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R17,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R18,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R19,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R21,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R22,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R23,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R25,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R26,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R27,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R29,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R30,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R39,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R40,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R41,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R42,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R47,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R48,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R49,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R50,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R51,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R52,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R61,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R62,100k,SM0805,Stackpole Electronics Inc,RMCF0805JT100KCT,digikey,RMCF0805JT100KCT-ND,.250mW,5%,Thick Film,other,more,stuff
+R63,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R64,2.2k,SM0805,Stackpole Electronics Inc,RMCF0805JT2K20CT,digikey,RMCF0805JT2K20CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R65,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R66,100k,SM0805,Stackpole Electronics Inc,RMCF0805JT100KCT,digikey,RMCF0805JT100KCT-ND,.250mW,5%,Thick Film,other,more,stuff
+R67,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R68,2.2k,SM0805,Stackpole Electronics Inc,RMCF0805JT2K20CT,digikey,RMCF0805JT2K20CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R71,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R72,100k,SM0805,Stackpole Electronics Inc,RMCF0805JT100KCT,digikey,RMCF0805JT100KCT-ND,.250mW,5%,Thick Film,other,more,stuff
+R73,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R74,2.2k,SM0805,Stackpole Electronics Inc,RMCF0805JT2K20CT,digikey,RMCF0805JT2K20CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R105,39k,SM0805,Stackpole Electronics Inc,RMCF0805JT39K0CT,digikey,RMCF0805JT39K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R106,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R134,68k,SM0805,Panasonic-ECG,ERJ-6GEYJ684V,digikey,P680KACT-ND,.125w,5%,metal oxide,other,more,stuff
+R135,680k,SM0805,Panasonic-ECG,ERJ-6GEYJ684V,digikey,P680KACT-ND,.125w,5%,metal oxide,other,more,stuff
+R136,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R137,680k,SM0805,Panasonic-ECG,ERJ-6GEYJ684V,digikey,P680KACT-ND,.125w,5%,metal oxide,other,more,stuff
+R138,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R147,2.2k,SM0805,Stackpole Electronics Inc,RMCF0805JT2K20CT,digikey,RMCF0805JT2K20CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R148,39k,SM0805,Stackpole Electronics Inc,RMCF0805JT39K0CT,digikey,RMCF0805JT39K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R149,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R150,2.2k,SM0805,Stackpole Electronics Inc,RMCF0805JT2K20CT,digikey,RMCF0805JT2K20CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R151,39k,SM0805,Stackpole Electronics Inc,RMCF0805JT39K0CT,digikey,RMCF0805JT39K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R152,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R153,2.2k,SM0805,Stackpole Electronics Inc,RMCF0805JT2K20CT,digikey,RMCF0805JT2K20CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R154,39k,SM0805,Stackpole Electronics Inc,RMCF0805JT39K0CT,digikey,RMCF0805JT39K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R155,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R156,2.2k,SM0805,Stackpole Electronics Inc,RMCF0805JT2K20CT,digikey,RMCF0805JT2K20CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R157,39k,SM0805,Stackpole Electronics Inc,RMCF0805JT39K0CT,digikey,RMCF0805JT39K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R158,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R159,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R160,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R161,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R162,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R163,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R164,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R165,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R166,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R167,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R168,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R169,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R170,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R171,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R172,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R173,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R174,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R175,3.9k,SM0805,Stackpole Electronics Inc,RMCF0805JT10M0CT,digikey,RMCF0805JT10M0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R177,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R178,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R179,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R180,4.7K,SM0805,Murata,GRM21BR71H104KA01L,digikey,490-1666-2-ND,50v,10%,ceramic,other,more,stuff
+R181,100k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R182,270R,SM0805,Stackpole,RMCF0805JT270RCT,digikey,RMCF0805JT270RCT-ND,.125w,5%,thick film,other,more,stuff
+R183,270R,SM0805,Stackpole,RMCF0805JT270RCT,digikey,RMCF0805JT270RCT-ND,.125w,5%,thick film,other,more,stuff
+R184,4.7k,SM0805,Stackpole,P680KACT,digikey,P680KACT-ND,.125w,5%,Thick film,other,more,stuff
+R185,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R186,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R187,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R188,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R189,0.1 2W,R5,Ohmite,WHCR10FEC,digikey,WHCR10FECT-ND,2w,1%,wire wound,other,more,stuff
+R190,39k,SM0805,Stackpole Electronics Inc,RMCF0805JT39K0CT,digikey,RMCF0805JT39K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R191,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R192,0.1 2W,R5,Ohmite,WHCR10FEC,digikey,WHCR10FECT-ND,2w,1%,wire wound,other,more,stuff
+R193,39k,SM0805,Stackpole Electronics Inc,RMCF0805JT39K0CT,digikey,RMCF0805JT39K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R194,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R195,0.1 2W,R5,Ohmite,WHCR10FEC,digikey,WHCR10FECT-ND,2w,1%,wire wound,other,more,stuff
+R196,39k,SM0805,Stackpole Electronics Inc,RMCF0805JT39K0CT,digikey,RMCF0805JT39K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R197,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R198,0.1 2W,R5,Ohmite,WHCR10FEC,digikey,WHCR10FECT-ND,2w,1%,wire wound,other,more,stuff
+R199,39k,SM0805,Stackpole Electronics Inc,RMCF0805JT39K0CT,digikey,RMCF0805JT39K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R200,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R201,0.1 2W,R5,Ohmite,WHCR10FEC,digikey,WHCR10FECT-ND,2w,1%,wire wound,other,more,stuff
+R202,39k,SM0805,Stackpole Electronics Inc,RMCF0805JT39K0CT,digikey,RMCF0805JT39K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R203,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R204,0.1 2W,R5,Ohmite,WHCR10FEC,digikey,WHCR10FECT-ND,2w,1%,wire wound,other,more,stuff
+R205,39k,SM0805,Stackpole Electronics Inc,RMCF0805JT39K0CT,digikey,RMCF0805JT39K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R206,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R207,0.1 2W,R5,Ohmite,WHCR10FEC,digikey,WHCR10FECT-ND,2w,1%,wire wound,other,more,stuff
+R208,39k,SM0805,Stackpole Electronics Inc,RMCF0805JT39K0CT,digikey,RMCF0805JT39K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R209,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R210,0.1 2W,R5,Ohmite,WHCR10FEC,digikey,WHCR10FECT-ND,2w,1%,wire wound,other,more,stuff
+R211,39k,SM0805,Stackpole Electronics Inc,RMCF0805JT39K0CT,digikey,RMCF0805JT39K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R212,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R213,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R214,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R215,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R216,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R217,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R218,1R 1W,SM1210,Vishay,CRCW12101R00JNEA,digikey,541-1.0VCT-ND,.5w,5%,Thick Film,other,more,stuff
+R219,22k,SM0805,Stackpole Electronics Inc,RMCF0805JT22K0CT,digikey,RMCF0805JT22K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R220,1R 1W,SM1210,Vishay,CRCW12101R00JNEA,digikey,541-1.0VCT-ND,.5w,5%,Thick Film,other,more,stuff
+R221,22k,SM0805,Stackpole Electronics Inc,RMCF0805JT22K0CT,digikey,RMCF0805JT22K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R222,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R223,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R224,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R225,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R226,22k,SM0805,Stackpole Electronics Inc,RMCF0805JT22K0CT,digikey,RMCF0805JT22K0CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R227,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R228,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R229,10k,SM0805,Stackpole,RMCF0805JT10K0CT,digikey,RMCF0805JT10K0CT-ND,.125w,5%,thick film,other,more,stuff
+R230,1.6k,SM0805,Stackpole Electronics Inc,RMCF0805JT1K00CT,digikey,RMCF0805JT1K00CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R231,1.6k,SM0805,Stackpole Electronics Inc,RMCF0805JT1K00CT,digikey,RMCF0805JT1K00CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R232,1.6k,SM0805,Stackpole Electronics Inc,RMCF0805JT1K00CT,digikey,RMCF0805JT1K00CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R233,1.6k,SM0805,Stackpole Electronics Inc,RMCF0805JT1K00CT,digikey,RMCF0805JT1K00CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R234,1.6k,SM0805,Stackpole Electronics Inc,RMCF0805JT1K00CT,digikey,RMCF0805JT1K00CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R235,1.6k,SM0805,Stackpole Electronics Inc,RMCF0805JT1K00CT,digikey,RMCF0805JT1K00CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R236,1.6k,SM0805,Stackpole Electronics Inc,RMCF0805JT1K00CT,digikey,RMCF0805JT1K00CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R237,1.6k,SM0805,Stackpole Electronics Inc,RMCF0805JT1K00CT,digikey,RMCF0805JT1K00CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R238,1.6k,SM0805,Stackpole Electronics Inc,RMCF0805JT1K00CT,digikey,RMCF0805JT1K00CT-ND,.250mW,5%,Thick Film,other,more,stuff
+R239,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R240,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R241,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R242,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R243,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R244,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R245,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R246,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R247,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R248,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R249,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R250,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R251,1k,SM0805,Stackpole,RMCF0805JT1K00,digikey,RMCF0805JT1K00TR-ND,.125w,5%,Thick Film,other,more,stuff
+R252,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R253,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R254,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R255,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R256,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R257,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R258,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R259,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R260,3.3k,SM0805,Stackpole,RMCF0805JT3K30CT,digikey,RMCF0805JT3K30CT-ND,.125w,5%,Thick Film,other,more,stuff
+R261,4.7k,SM0805,OSRAM,LH R974-LP-1-0-20-R18,digikey,475-1415-1-ND,.02a,-%,RED,other,more,stuff
+U2,LM2937,SOT223,national semi,LM2937IMP-5.0/NOPB,digikey,LM2937IMP-5.0CT-ND,,,,
+U4,LM2937,TO220_VERT,national semi,LM2937ET-5.0/NOPB,digikey,LM2937ET-5.0-ND,,,,
+U5,MPX4100A,SIL-6,freescale,MPX4100A,digikey, MPX4100A-ND,x,x,x,x,x,other,more,stuff
+U6,MPX4250A,SIL-6,freescale,MPX4250AP,digikey,MPX4250AP-ND,x,x,x,x,x,other,more,stuff
+U17,MC9S12XDP512,PQFP112,freescale,MC9S12XDP512MAL,digikey,MC9S12XDP512MAL-ND,,,,
+U18,AD597,SO8E,Analog Devices Inc,AD8497ARMZ,digikey,AD8497ARMZ-ND,,,,
+U20,FT232RL,SSOP28,FTDI,FT232RL,digikey,768-1007-1-ND,,,,
+U21,LM1949,DIP-8__300,OSRAM,LM1949N/NOPB,digikey,LM1949N-ND,8v,-%,op-amp,other,more,stuff
+U22,LM1949,DIP-8__300,OSRAM,LM1949N/NOPB,digikey,LM1949N-ND,8v,-%,op-amp,other,more,stuff
+U23,LM1949,DIP-8__300,OSRAM,LM1949N/NOPB,digikey,LM1949N-ND,8v,-%,op-amp,other,more,stuff
+U24,LM1949,DIP-8__300,OSRAM,LM1949N/NOPB,digikey,LM1949N-ND,8v,-%,op-amp,other,more,stuff
+U25,LM1949,DIP-8__300,OSRAM,LM1949N/NOPB,digikey,LM1949N-ND,8v,-%,op-amp,other,more,stuff
+U26,LM1949,DIP-8__300,OSRAM,LM1949N/NOPB,digikey,LM1949N-ND,8v,-%,op-amp,other,more,stuff
+U27,LM1949,DIP-8__300,OSRAM,LM1949N/NOPB,digikey,LM1949N-ND,8v,-%,op-amp,other,more,stuff
+U28,LM1949,DIP-8__300,OSRAM,LM1949N/NOPB,digikey,LM1949N-ND,8v,-%,op-amp,other,more,stuff
+U29,MAX9924,uMAX-uSOP_10,max-ic,MAX9924UAUB+,digikey,MAX9924UAUB+-ND,,,,
+U30,MAX9924,uMAX-uSOP_10,max-ic,MAX9924UAUB+,digikey,MAX9924UAUB+,,,,
+U31,2916,SOIC24,Allegro ,UDQ2916LBTR-T,digikey,620-1158-1-ND ,,,,
+U33,74LS86,SO14E,on semi,74HC86DR2G,digikey,74HC86DR2GOSCT-ND,,,,
+X3,16MHZ,SMD_XTAL,NDK,NX3225SA 16MHZ AT-W,digikey,644-1129-1-ND,,,,

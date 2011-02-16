@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/16/2011 5:39:16 AM
+EESchema Schematic File Version 2  date 2/16/2011 8:44:20 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -72,7 +72,7 @@ U 1 1 4C2F52C4
 P 2400 1750
 F 0 "R13" V 2480 1750 50  0000 C CNN
 F 1 "1k" V 2400 1750 50  0000 C CNN
-F 2 "R4-SM0805" V 2580 1850 60  0001 C CNN
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "RMCF0805JT1K00" V 1130 2600 60  0001 C CNN "mfg#"
 F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"

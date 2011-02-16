@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/16/2011 5:39:14 AM
+EESchema Schematic File Version 2  date 2/16/2011 8:44:19 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -61,7 +61,7 @@ AR Path="/4CD74766/4CD742CA" Ref="#PWR018"  Part="1"
 AR Path="/4CD743EF/4CD742CA" Ref="#PWR019"  Part="1" 
 AR Path="/4CD743EC/4CD742CA" Ref="#PWR020"  Part="1" 
 AR Path="/4CD743DA/4CD742CA" Ref="#PWR021"  Part="1" 
-F 0 "#PWR011" H 4600 3450 30  0001 C CNN
+F 0 "#PWR022" H 4600 3450 30  0001 C CNN
 F 1 "GND" H 4600 3380 30  0001 C CNN
 	1    4600 3450
 	1    0    0    -1  
@@ -121,6 +121,7 @@ AR Path="/4CD743EC/4CD742AE" Ref="R241"  Part="1"
 AR Path="/4CD743DA/4CD742AE" Ref="R240"  Part="1" 
 F 0 "R250" V 4230 2950 50  0000 C CNN
 F 1 "1k" V 4150 2950 50  0000 C CNN
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "RMCF0805JT1K00" V 1130 2600 60  0001 C CNN "mfg#"
 F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"

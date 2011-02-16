@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/16/2011 5:39:17 AM
+EESchema Schematic File Version 2  date 2/16/2011 8:44:20 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -97,11 +97,11 @@ U 1 1 4C2F532E
 P 6200 1700
 F 0 "U6" H 5950 2250 70  0000 C CNN
 F 1 "MPX4250A" H 6150 1150 70  0000 C CNN
-F 2 "SOP_case_482" V 2230 2800 60  0001 C CNN
-F 4 "newark,75C3857" V 2230 2800 60  0001 C CNN "Field1"
-F 5 "MPX4250AP-ND" V 2230 2800 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 2230 2800 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 2230 2800 60  0001 C CNN "Field4"
+F 2 "SIL-6" V 2230 2800 60  0001 C CNN
+F 4 "freescale" V 2230 2800 60  0001 C CNN "mfg"
+F 5 "MPX4250AP" V 2230 2800 60  0001 C CNN "mfg#"
+F 6 "digikey" V 2230 2800 60  0001 C CNN "vend1"
+F 7 "MPX4250AP-ND" V 2230 2800 60  0001 C CNN "vend1#"
 F 8 "x,x" V 2230 2800 60  0001 C CNN "Field5"
 F 9 "x,x" V 2230 2800 60  0001 C CNN "Field6"
 F 10 "x" V 2230 2800 60  0001 C CNN "Field7"
@@ -138,21 +138,10 @@ $EndComp
 $Comp
 L R R134
 U 1 1 4C4AEFA3
-P 3550 2000
+P 4150 1750
 F 0 "R134" V 3630 2000 50  0000 C CNN
 F 1 "68k" V 3550 2000 50  0000 C CNN
-F 5 "RMCF0805JT68K0CT-ND" H 3550 2000 60  0001 C CNN "Field2"
-	1    3550 2000
-	0    1    1    0   
-$EndComp
-Text Notes 1550 2800 0    60   ~ 0
-The 680k pull up ressistor is for diagnostics
-$Comp
-L R R133
-U 1 1 4C4AEDC5
-P 4150 1750
-F 0 "R133" V 4230 1750 50  0000 C CNN
-F 1 "680k" V 4150 1750 50  0000 C CNN
+F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "Panasonic-ECG" V 2380 2650 60  0001 C CNN "mfg"
 F 5 "ERJ-6GEYJ684V" V 2380 2650 60  0001 C CNN "mfg#"
 F 6 "digikey" V 2380 2650 60  0001 C CNN "vend1"

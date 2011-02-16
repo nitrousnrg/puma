@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/16/2011 5:39:17 AM
+EESchema Schematic File Version 2  date 2/16/2011 8:44:20 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -71,11 +71,11 @@ U 1 1 48B144B7
 P 5250 1700
 F 0 "U5" H 5250 2150 70  0000 C CNN
 F 1 "MPX4100A" H 5250 1450 70  0000 C CNN
-F 2 "SOP_case_482" V 1280 2800 60  0001 C CNN
-F 4 "newark,75C3857" V 1280 2800 60  0001 C CNN "Field1"
-F 5 "MPX4100A-ND" V 1280 2800 60  0001 C CNN "Field2"
-F 6 "vendor2, thru w hem" V 1280 2800 60  0001 C CNN "Field3"
-F 7 "vendor2, smd w hem" V 1280 2800 60  0001 C CNN "Field4"
+F 2 "SIL-6" V 1280 2800 60  0001 C CNN
+F 4 "freescale" V 1280 2800 60  0001 C CNN "mfg"
+F 5 "MPX4100A" V 1280 2800 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1280 2800 60  0001 C CNN "vend1"
+F 7 " MPX4100A-ND" V 1280 2800 60  0001 C CNN "vend1#"
 F 8 "x,x" V 1280 2800 60  0001 C CNN "Field5"
 F 9 "x,x" V 1280 2800 60  0001 C CNN "Field6"
 F 10 "x" V 1280 2800 60  0001 C CNN "Field7"

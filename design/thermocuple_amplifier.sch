@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/16/2011 5:39:15 AM
+EESchema Schematic File Version 2  date 2/16/2011 8:44:19 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -50,10 +50,10 @@ connector_17
 Text GLabel 6550 3550 2    60   Input ~ 0
 connector_19
 $Comp
-L GND #PWR051
+L GND #PWR049
 U 1 1 4C599401
 P 6400 4250
-F 0 "#PWR051" H 6400 4250 30  0001 C CNN
+F 0 "#PWR049" H 6400 4250 30  0001 C CNN
 F 1 "GND" H 6400 4180 30  0001 C CNN
 	1    6400 4250
 	1    0    0    -1  
@@ -104,10 +104,10 @@ temp_output
 Text HLabel 6500 3650 2    60   Input ~ 0
 5V_reg
 $Comp
-L GND #PWR052
+L GND #PWR050
 U 1 1 4C59878A
 P 5000 3950
-F 0 "#PWR052" H 5000 3950 30  0001 C CNN
+F 0 "#PWR050" H 5000 3950 30  0001 C CNN
 F 1 "GND" H 5000 3880 30  0001 C CNN
 	1    5000 3950
 	1    0    0    -1  
@@ -118,7 +118,11 @@ U 1 1 4C5985F6
 P 5700 3700
 F 0 "U18" H 5700 3450 60  0000 C CNN
 F 1 "AD597" H 5700 3950 60  0000 C CNN
-F 5 "AD8497ARMZ-ND" H 5700 3700 60  0001 C CNN "Field2"
+F 2 "SO8E" H 5700 3700 60  0001 C CNN
+F 4 "Analog Devices Inc" H 5700 3700 60  0001 C CNN "mfg"
+F 5 "AD8497ARMZ" H 5700 3700 60  0001 C CNN "mfg#"
+F 6 "digikey" H 5700 3700 60  0001 C CNN "vend1"
+F 7 "AD8497ARMZ-ND" H 5700 3700 60  0001 C CNN "vend1#"
 	1    5700 3700
 	1    0    0    -1  
 $EndComp
