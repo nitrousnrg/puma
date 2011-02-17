@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/16/2011 8:44:19 AM
+EESchema Schematic File Version 2  date 2/17/2011 8:28:48 AM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 15 56
 Title "Puma board"
-Date "16 feb 2011"
+Date "17 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -328,6 +328,7 @@ U 1 1 4BC535D5
 P 3600 3050
 F 0 "J1" H 3525 3300 60  0000 C CNN
 F 1 "USB_2" H 3650 2750 60  0001 C CNN
+F 2 "USB-MINI-B_SMT-THRU" H 3600 3050 60  0001 C CNN
 F 4 "Molex" H 3925 3200 50  0001 C CNN "mfg"
 F 5 "54819-0519 " H 3600 3050 60  0001 C CNN "mfg#"
 F 6 "digikey" H 3900 3100 50  0001 C CNN "vend1"
