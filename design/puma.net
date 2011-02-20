@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  2/17/2011 8:28:57 AM
+# EESchema Netlist Version 1.1 created  2/20/2011 12:19:40 PM
 (
  ( /4D5B9F59 FUSE5-20-DEFAULT-10A  F3 10A {Lib=FUSE}
   (    1 /bat_pwr )
@@ -1492,7 +1492,7 @@
   (    1 N-000174 )
   (    2 /digi_protect__I3/digi_device )
  )
- ( /4C2E1E6F/48B144B7 SIL-6  U5 MPX4100A {Lib=MPX4100A}
+ ( /4C2E1E6F/48B144B7 MPX4---A  U5 MPX4100A {Lib=MPX4100A}
   (    1 /AAP_IN )
   (    2 GND )
   (    3 /injector_drive_3/5v_reg )
@@ -1512,7 +1512,7 @@
   (    1 /injector_drive_3/5v_reg )
   (    2 GND )
  )
- ( /4C2E1E71/4C2F532E SIL-6  U6 MPX4250A {Lib=MPX4100A}
+ ( /4C2E1E71/4C2F532E MPX4---AP  U6 MPX4250A {Lib=MPX4100A}
   (    1 /MAP_input/map )
   (    2 GND )
   (    3 /injector_drive_3/5v_reg )

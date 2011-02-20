@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  2/20/2011 6:33:04 AM
+PCBNEW-LibDoc----V1  2/20/2011 12:32:57 PM
 #
 $MODULE SOP_case_482
 Li SOP_case_482
@@ -61,6 +61,48 @@ $EndMODULE
 #
 $MODULE SIL-6
 Li SIL-6
+Cd Connecteur 6 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE MPX4---P
+Li MPX4---P
+Cd Connecteur 6 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE MPX4--P
+Li MPX4--P
+Cd Connecteur 6 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE MPX4--AP
+Li MPX4--AP
+Cd Connecteur 6 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE U?
+Li U?
+Cd Connecteur 6 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE MPX4--A
+Li MPX4--A
+Cd Connecteur 6 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE MPX4---AP
+Li MPX4---AP
+Cd Connecteur 6 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE MPX4---A
+Li MPX4---A
 Cd Connecteur 6 pins
 Kw CONN DEV
 $EndMODULE

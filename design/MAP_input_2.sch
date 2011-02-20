@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/17/2011 8:28:50 AM
+EESchema Schematic File Version 2  date 2/20/2011 12:36:48 PM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 43 56
 Title "Puma board"
-Date "17 feb 2011"
+Date "20 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "MAP_input.sch"
@@ -71,7 +71,7 @@ U 1 1 48B144B7
 P 5250 1700
 F 0 "U5" H 5250 2150 70  0000 C CNN
 F 1 "MPX4100A" H 5250 1450 70  0000 C CNN
-F 2 "SIL-6" V 1280 2800 60  0001 C CNN
+F 2 "MPX4---A" V 1280 2800 60  0001 C CNN
 F 4 "freescale" V 1280 2800 60  0001 C CNN "mfg"
 F 5 "MPX4100A" V 1280 2800 60  0001 C CNN "mfg#"
 F 6 "digikey" V 1280 2800 60  0001 C CNN "vend1"

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/17/2011 8:28:49 AM
+EESchema Schematic File Version 2  date 2/20/2011 12:36:47 PM
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 34 56
 Title "Puma board"
-Date "17 feb 2011"
+Date "20 feb 2011"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
