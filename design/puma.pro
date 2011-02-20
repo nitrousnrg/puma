@@ -107,4 +107,3 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=../PCB-modules/free_EMS
 LibName12=../PCB-modules/LOGO
-LibName13=Y:\\programs\\kicad\\modules\\converted\\m-pad-2.1

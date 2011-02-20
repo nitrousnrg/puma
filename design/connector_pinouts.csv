@@ -1,0 +1,49 @@
+connector pin outs (for spin 1 of puma),,,,,,
+
+P99,,,,,,
+pin,MCU/destination,nick name,DIGI PROTECT,AN PROTECT,PG (1 AND …),bried descrition
+1,,MAT,,,26,MAS AIR TEMP THERMISTOR INPUT PG 26
+2,,AGND,,,26,
+3,,AUX IN,,,10,
+4,,GP_NTC,,,10 23 25,THERMISTOR INPUT PG25
+5,,AGND,,,25,THERMISTOR INPUT PG25
+6,,5,,,44,
+7,,MAP,,,44,NOT AAP
+8,,AGND?,,,44,
+9,,O2+,,Y,49,O2+
+10,,O2GND,,,49,O2 AGND
+11,,,,,,NC
+12,,,,,,NC
+13,,,,,,NC
+14,,,,,,NC
+15,,MAF,,,23,
+16,PM2,DGP,,,1,Digital General Purpose include digi_protect sub circuit
+17,,K+,,,21,EGT +
+18,PM3,DGP,,,1,Digital General Purpose include digi_protect sub circuit
+19,,K-,,,21,EGT -
+20,,5,,,54,TPS +5
+21,,TPS,,,54,THROTTLE POSITION SENSOR 
+22,,AGND,,,54,TPS AGND
+23,,CHT,,,55,THERMISTER INPUT
+24,,AGND,,,55,
+25,,IAT,,,56,INTAKE AIR TEMP THERMISTER INPUT
+26,,AGND,,,56,
+27,PJ0,DGP,,,1,Digital General Purpose include digi_protect sub circuit
+28,PJ1,DGP,,,1,Digital General Purpose include digi_protect sub circuit
+29,PJ6,DGP,,,1,Digital General Purpose include digi_protect sub circuit
+30,PJ7,DGP,,,1,Digital General Purpose include digi_protect sub circuit
+31,PM0,DGP,,,1,Digital General Purpose include digi_protect sub circuit
+32,PM1,DGP,,,1,Digital General Purpose include digi_protect sub circuit
+33,PP6,DGP,,,1,Digital General Purpose include digi_protect sub circuit
+34,PP7,DGP,,,1,Digital General Purpose include digi_protect sub circuit
+35,PT6,DGP,,,1,Digital General Purpose include digi_protect sub circuit
+36,PT7,DGP,,,1,Digital General Purpose include digi_protect sub circuit
+37,,VR1-,,,18,
+38,,VR1+,,,18,
+39,,VR2-,,,5,
+40,,VR2+,,,5,
+
+
+misc pins,,,,,,
+p103,PH0,,,,1,"direct to MCU, not protection, placed where ever it fit/near MCU"
+p104,PS3,,,,1,"direct to MCU, not protection, placed where ever it fit/near MCU"
