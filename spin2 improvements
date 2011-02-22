@@ -33,3 +33,5 @@
 33. RPM LED
 34. Text searchable PDF
 35. finish and check the connection .xls sheet
+36. connector under s12X for expantion options on the connector card.
+37. make 2 of the primary 232 via's plated such that wires can be attached. These vias already exist, change them to be plated
