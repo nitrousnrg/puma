@@ -35,3 +35,9 @@
 35. finish and check the connection .xls sheet
 36. connector under s12X for expantion options on the connector card.
 37. make 2 of the primary 232 via's plated such that wires can be attached. These vias already exist, change them to be plated
+38. The to220 packages on one side are closer to the edge than on the other
+39. BRV from the nice 12v
+40. D1 is a Schottky
+41. change 3D model for SOD-123 (smd/chip_cms, scale=0.14)
+42. 33ohm for xor
+43. remove MAX protecion circuit, replace by 1.6k

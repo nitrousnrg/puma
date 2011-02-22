@@ -1,0 +1,81 @@
+﻿
+
+
+Puma is an automotive-grade board designed to run FreeEMS vanilla code, an Open Source Engine Management System destined to liberate engines all around the globe. This piece of hardware was meant to meet the highest reliability standards, and to provide most of the functions needed by engine tuners. It has the potential to sequentially drive up to 8 cylinder engines, controlling both fuel and ignition (wasted spark), or dual rail 4 cylinders setups, 6cyl, etc. With the appropiate firmware, almost anything can be done.
+These boards come with military temperature specs, and plenty of heavy duty components.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Capabilities
+
+Every board is equipped with the following items:
+USB connection for engine tuning, datalogging, and firmware updates.
+Compact SMD assembly.
+8 outputs for low impedance injectors.
+4 ignition outputs.
+2 general purpose power outputs.
+12 analog inputs
+12 digital general purpose I/O
+Stepper driver
+Fuel pump relay control
+CAN and SPI communications
+Connector board to suit different setups, allow extra features, and provide different connectors or prototyping areas.
+
+
+Inputs
+MAP (Manifold Absolute Pressure)
+MAF (Mass Air Flow sensor)
+CHT (Coolant temperature)
+AAP (Atmospheric Absolute Pressure)
+IAT (Intake Air Temperature)
+EGO (Exhaust Gas Oxygen)
+BVR (Battery Voltage Reference)
+MAT (Manifold Air Temperature)
+EGT (Exhaust Gas Temperature)
+Aux NTC sensor
+General purpose analog input
+2 VR inputs
+
+
+
+
+
+
+Outputs
+
+8 Peak & Hold injector drivers supplying up to 4 Amps each.
+4 ignition outputs, intended to drive external ignition modules, although ignition drivers can be installed.
+2 PWM outputs, capable of delivering many amps to solenoid valves, switches, servos, etc.
+1 output for controlling the fuel pump relay
+Extra CPU pins can be used through specific connector boards (not designed yet!), for example
+2 extra ignition outputs can be used for 6 cylinders COP setups
+Up to 10 general purpose power outputs (pumps, nitrous triggers, extra solenoids, etc)
+
+Specs
+Input voltage: 6.5v-32v (to be tested)
+Operating temperature: -40°C to 125°C (its the target, still not reached)
+Reverse battery protection
+All inputs protected from overvoltages.
+Power outputs clamped to 33v (can change soon)
+
+Connector board
+
+
+
+The first draft is still subject to change, until we find a better way to connect the high power parts.

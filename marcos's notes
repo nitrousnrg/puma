@@ -65,4 +65,14 @@ L9925 -40 to 125°C, bigger SO28.
 * Space to stack the main board (2.5cm tall), connector board, and connector.
 * what should I do with the USB connector? (type A or B, inside or ouside the case, waterproof or not)
 
+/************ P&H **************/
+A PLD like the "ATF16V8C-7JU" (20pin), working together with a 4-channel OpAmp (14pin), plus 4 sense resistors can be used as a low Z driver for 4 injectors.
+
+It would allow a nanoseconds-response (pure logic inside, no code running) and current measuring in the high side (differentially with the opamp). A PLD is under $1.5, and the 4 channel OpAmp is $0.5.
+It would drive high its output with a logic '1' from the MCU, and generate a PWM (30% duty cycle) after the treshold current is exceeded. The output goes back to '0' when it gets a '0' from the MCU.
+
+A quite big drawback is the code loading, but for 8 outputs its like $7 (this) against $40 (LM1949).
+
+A better one: quad current sensing IC (MAX4378TAUD+-ND) with 296-6606-1-ND voltage comparator, plus a quad open collector NAND gate (568-4551-5-ND) plus, a 1khz oscillator.
+
 
