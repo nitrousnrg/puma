@@ -1,6 +1,6 @@
 1. VCC PLL thing 100% Done
 2. 5V cap thing 100% Done
-3. change RPM resistors ?% Done
+3. change RPM resistors 100% Done
 4. change USB connector ?% done
 5. populate other component properties ?% done
 6. reset cap ?% done
@@ -38,6 +38,6 @@
 38. The to220 packages on one side are closer to the edge than on the other
 39. BRV from the nice 12v
 40. D1 is a Schottky
-41. change 3D model for SOD-123 (smd/chip_cms, scale=0.14)
+41. change 3D model for SOD-123 (smd/chip_cms, scale=0.14) 100% done
 42. 330ohm for xor
 43. remove MAX protecion circuit, replace by 1.6k
