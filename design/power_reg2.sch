@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 23 Feb 2011 05:11:09 AM ART
+EESchema Schematic File Version 2  date Wed 23 Feb 2011 05:34:01 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -192,7 +192,7 @@ L DIODE D1
 U 1 1 486ECB4E
 P 2850 3300
 F 0 "D1" H 2850 3400 40  0000 C CNN
-F 1 "1N4448" H 2850 3200 40  0000 C CNN
+F 1 "Schottky" H 2850 3200 40  0000 C CNN
 F 2 "SOD-123" H 2950 3500 60  0001 C CNN
 F 4 "Diodes Inc" H 2950 3500 60  0001 C CNN "mfg"
 F 5 "1N4448W-7-F" H 2950 3500 60  0001 C CNN "mfg#"
