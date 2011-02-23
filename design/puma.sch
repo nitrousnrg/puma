@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 23 Feb 2011 05:34:01 AM ART
+EESchema Schematic File Version 2  date Wed 23 Feb 2011 05:38:40 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -41,6 +41,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	3700 1300 5450 1300
 Wire Wire Line
 	19000 14200 19000 1200
 Wire Wire Line
@@ -187,7 +189,7 @@ Wire Bus Line
 	4250 6050 4250 12500
 Connection ~ 5450 2750
 Wire Wire Line
-	5450 3400 5450 1300
+	5450 1300 5450 3400
 Wire Wire Line
 	5450 3400 5300 3400
 Wire Wire Line
@@ -273,8 +275,6 @@ Wire Wire Line
 Connection ~ 18200 9400
 Wire Wire Line
 	18850 8650 18000 8650
-Wire Wire Line
-	3700 1300 4900 1300
 Connection ~ 8650 5400
 Wire Bus Line
 	14250 6600 13550 6600
@@ -464,11 +464,7 @@ Wire Wire Line
 Connection ~ 10850 11150
 Connection ~ 5350 3600
 Wire Wire Line
-	5450 1300 5400 1300
-Wire Wire Line
 	5350 1500 3700 1500
-Wire Wire Line
-	3700 1200 5750 1200
 Wire Wire Line
 	14850 2750 15050 2750
 Wire Wire Line
@@ -526,8 +522,6 @@ Wire Wire Line
 Connection ~ 18150 2650
 Wire Wire Line
 	18000 1650 18150 1650
-Wire Wire Line
-	19000 1200 6250 1200
 Wire Wire Line
 	15050 1650 14350 1650
 Wire Wire Line
@@ -716,24 +710,8 @@ Wire Wire Line
 Connection ~ 19000 4800
 Wire Wire Line
 	15000 11400 12200 11400
-$Comp
-L FUSE F3
-U 1 1 4D5B9F59
-P 6000 1200
-F 0 "F3" H 6100 1250 40  0000 C CNN
-F 1 "10A" H 5900 1150 40  0000 C CNN
-F 2 "FUSE5-20-DEFAULT-10A" V 5830 6000 60  0001 C CNN
-F 4 "little fuse" V 4580 3050 60  0001 C CNN "mfg"
-F 5 "52000001009" V 4580 3050 60  0001 C CNN "mfg#"
-F 6 "digikey" V 4580 3050 60  0001 C CNN "vend1"
-F 7 "WK6242-ND" V 4580 3050 60  0001 C CNN "vend1#"
-F 8 "newark" V 4580 3050 60  0001 C CNN "vend2"
-F 9 "63K6823" V 4580 3050 60  0001 C CNN "vend2#"
-F 10 "10,A" V 4580 3050 60  0001 C CNN "Field7"
-F 11 "-" V 4580 3050 60  0001 C CNN "Field8"
-	1    6000 1200
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	19000 1200 3700 1200
 Text Label 3750 1200 0    60   ~ 0
 bat_pwr
 Text Label 3750 1300 0    60   ~ 0
@@ -1758,24 +1736,6 @@ F 1 "CONN_1" H 3550 1255 30  0001 C CNN
 F 2 "PINTST" V 3730 3150 60  0001 C CNN
 	1    3550 1200
 	-1   0    0    1   
-$EndComp
-$Comp
-L FUSE F1
-U 1 1 48A00EF5
-P 5150 1300
-F 0 "F1" H 5250 1350 40  0000 C CNN
-F 1 "2A" H 5050 1250 40  0000 C CNN
-F 2 "FUSE5-20-DEFAULT-2A" V 4980 6100 60  0001 C CNN
-F 4 "little fuse" V 3730 3150 60  0001 C CNN "mfg"
-F 5 "52000001009" V 3730 3150 60  0001 C CNN "mfg#"
-F 6 "digikey" V 3730 3150 60  0001 C CNN "vend1"
-F 7 "WK6242-ND" V 3730 3150 60  0001 C CNN "vend1#"
-F 8 "newark" V 3730 3150 60  0001 C CNN "vend2"
-F 9 "63K6823" V 3730 3150 60  0001 C CNN "vend2#"
-F 10 "2,A" V 3730 3150 60  0001 C CNN "Field7"
-F 11 "-" V 3730 3150 60  0001 C CNN "Field8"
-	1    5150 1300
-	1    0    0    -1  
 $EndComp
 Text Label 14400 6400 0    60   ~ 0
 CHT_IN

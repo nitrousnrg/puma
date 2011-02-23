@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 23 Feb 2011 12:05:42 AM ART
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 23 Feb 2011 05:39:46 AM ART
 
 BeginCmp
 TimeStamp = /4C2E1E53/4C2F529E;
@@ -570,7 +570,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4C2E1E53/486ECB4E;
 Reference = D1;
-ValeurCmp = 1N4448;
+ValeurCmp = Schottky;
 IdModule  = SOD-123;
 EndCmp
 
@@ -1083,20 +1083,6 @@ TimeStamp = /4C2E1E55/4D197A99;
 Reference = D113;
 ValeurCmp = LED;
 IdModule  = LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /48A00EF5;
-Reference = F1;
-ValeurCmp = 2A;
-IdModule  = FUSE5-20-DEFAULT-2A;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D5B9F59;
-Reference = F3;
-ValeurCmp = 10A;
-IdModule  = FUSE5-20-DEFAULT-10A;
 EndCmp
 
 BeginCmp
@@ -1940,7 +1926,7 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C2E1EA1/4C56E29C;
+TimeStamp = /4C2E1EA1/4D64C03C;
 Reference = R175;
 ValeurCmp = 3.9k;
 IdModule  = SM0805;
@@ -2194,14 +2180,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4C94FDB6/4C94FEDF;
 Reference = R212;
-ValeurCmp = 10k;
+ValeurCmp = 10k_1/2W;
 IdModule  = SM1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C94FDB6/4CCADF73;
 Reference = R213;
-ValeurCmp = 10k;
+ValeurCmp = 10k_1/2W;
 IdModule  = SM1210;
 EndCmp
 
@@ -2215,14 +2201,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4CAB878F/4CCADF74;
 Reference = R215;
-ValeurCmp = 10k;
+ValeurCmp = 10k_1/2W;
 IdModule  = SM1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CAB878F/4C94FED6;
 Reference = R216;
-ValeurCmp = 10k;
+ValeurCmp = 10k_1/2W;
 IdModule  = SM1210;
 EndCmp
 
@@ -2545,6 +2531,20 @@ BeginCmp
 TimeStamp = /4CAB878F/4D6402A6;
 Reference = R262;
 ValeurCmp = 1.6k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C2E1EA1/4D64C03B;
+Reference = R263;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C2E1EA1/4D64C0B2;
+Reference = R264;
+ValeurCmp = 10M;
 IdModule  = SM0805;
 EndCmp
 
