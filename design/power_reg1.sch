@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/20/2011 12:36:47 PM
+EESchema Schematic File Version 2  date Wed 23 Feb 2011 05:11:09 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 34 56
+Sheet 34 54
 Title "Puma board"
-Date "20 feb 2011"
+Date "23 feb 2011"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -94,10 +94,10 @@ Wire Wire Line
 	7850 3300 6200 3300
 Connection ~ 6250 3300
 $Comp
-L GND #PWR069
+L GND #PWR070
 U 1 1 4D197A9B
 P 4600 4750
-F 0 "#PWR069" H 4600 4750 30  0001 C CNN
+F 0 "#PWR070" H 4600 4750 30  0001 C CNN
 F 1 "GND" H 4600 4680 30  0001 C CNN
 	1    4600 4750
 	1    0    0    -1  
@@ -177,10 +177,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR070
+L GND #PWR071
 U 1 1 4CC4C238
 P 4200 4950
-F 0 "#PWR070" H 4200 4950 30  0001 C CNN
+F 0 "#PWR071" H 4200 4950 30  0001 C CNN
 F 1 "GND" H 4200 4880 30  0001 C CNN
 	1    4200 4950
 	1    0    0    -1  
@@ -328,10 +328,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VSS #PWR071
+L VSS #PWR072
 U 1 1 486CA95E
 P 7850 3750
-F 0 "#PWR071" H 7850 3750 30  0001 C CNN
+F 0 "#PWR072" H 7850 3750 30  0001 C CNN
 F 1 "VSS" H 7850 3680 30  0000 C CNN
 	1    7850 3750
 	-1   0    0    -1  
@@ -409,10 +409,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR072
+L GND #PWR073
 U 1 1 4C2F529B
 P 2600 3750
-F 0 "#PWR072" H 2600 3750 30  0001 C CNN
+F 0 "#PWR073" H 2600 3750 30  0001 C CNN
 F 1 "GND" H 2600 3680 30  0001 C CNN
 	1    2600 3750
 	-1   0    0    -1  

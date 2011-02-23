@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/20/2011 12:36:48 PM
+EESchema Schematic File Version 2  date Wed 23 Feb 2011 05:11:09 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 51 56
+Sheet 49 54
 Title "Puma board"
-Date "20 feb 2011"
+Date "23 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "general_drive.sch"
@@ -47,16 +47,15 @@ Wire Notes Line
 	4050 3050 3950 3050
 Wire Notes Line
 	3950 3050 3950 2900
-Connection ~ 3700 1050
 Wire Wire Line
 	3700 1100 3700 1050
 Wire Wire Line
-	3700 2050 3700 2100
+	3700 2100 3700 2050
 Connection ~ 4200 2100
 Wire Wire Line
 	4200 2100 4200 2250
 Wire Wire Line
-	3700 2100 4700 2100
+	4700 2100 3700 2100
 Wire Wire Line
 	2250 2850 4200 2850
 Connection ~ 3950 2850
@@ -75,7 +74,7 @@ Wire Wire Line
 	3950 2100 3950 2150
 Connection ~ 3950 2100
 Wire Wire Line
-	4700 1050 2250 1050
+	3700 1050 2250 1050
 Wire Wire Line
 	3700 1500 3700 1550
 Connection ~ 2900 2300
@@ -144,16 +143,6 @@ F 0 "P23" H 4930 2100 40  0000 L CNN
 F 1 "CONN_1" H 4850 2155 30  0001 C CNN
 F 2 "PINTST" V 1130 3400 60  0001 C CNN
 	1    4850 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P22
-U 1 1 48AA1A13
-P 4850 1050
-F 0 "P22" H 4930 1050 40  0000 L CNN
-F 1 "CONN_1" H 4850 1105 30  0001 C CNN
-F 2 "PINTST" V 1130 2550 60  0001 C CNN
-	1    4850 1050
 	1    0    0    -1  
 $EndComp
 $Comp

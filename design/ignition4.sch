@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/20/2011 12:36:47 PM
+EESchema Schematic File Version 2  date Wed 23 Feb 2011 05:11:09 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 41 56
+Sheet 41 54
 Title "Puma board"
-Date "20 feb 2011"
+Date "23 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "ignition.sch"
@@ -45,9 +45,8 @@ Text Label 4100 1650 0    60   ~ 0
 ing4
 Wire Wire Line
 	4300 2250 4100 2250
-Connection ~ 3050 1450
 Wire Wire Line
-	4200 1450 2950 1450
+	2950 1450 3050 1450
 Wire Wire Line
 	4100 1650 4100 1850
 Connection ~ 3400 2050
@@ -174,21 +173,11 @@ F 2 "PINTST" V 780 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P10
-U 1 1 4C2F5310
-P 4350 1450
-F 0 "P10" H 4430 1450 40  0000 L CNN
-F 1 "CONN_1" H 4350 1505 30  0001 C CNN
-F 2 "PINTST" V 780 1850 60  0001 C CNN
-	1    4350 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R23
 U 1 1 489395E6
 P 3100 2050
 F 0 "R23" V 3180 2050 50  0000 C CNN
-F 1 "1k" V 3100 2050 50  0000 C CNN
+F 1 "330" V 3100 2050 50  0000 C CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "RMCF0805JT1K00" V 1130 2600 60  0001 C CNN "mfg#"

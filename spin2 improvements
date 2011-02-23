@@ -13,15 +13,15 @@
 13. mcu vcc 100% Done
 14. resize silkscreens 100% Done
 15. rotate silkscreens ?% done
-16. break the analog 5v for a better gnd plane ?% done
+16. break the analog 5v for a better gnd plane 100% done
 17. remove some mask for a better heat transfer from the mcu and stepper ?% done
 18. Change 33v zener diode footprint ?% done
-19. Move U31 silkscreen ?% done
+19. Move U31 silkscreen 100% done
 20. FT232, new pullup or new config. ?% done
 21. mcu reg rotates while reflow because of the incomplete gnd plane under it (try less paste) ?%done
 22. maybe choose a better power connector for ign, 12v and injectors ?% done
 23. 5.00v voltage reference for Vref ?% done
-24. ground ring vias like propendous ?% done
+24. ground ring vias like propendous 100% done
 25. MAP and AAP mounting ?% done
 26. change D92 (vreg reverse diode) to a schottky. ?% done
 27. to220 board edge set back consistency. ?% done
@@ -39,5 +39,5 @@
 39. BRV from the nice 12v
 40. D1 is a Schottky
 41. change 3D model for SOD-123 (smd/chip_cms, scale=0.14)
-42. 33ohm for xor
+42. 330ohm for xor
 43. remove MAX protecion circuit, replace by 1.6k

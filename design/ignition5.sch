@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/20/2011 12:36:47 PM
+EESchema Schematic File Version 2  date Wed 23 Feb 2011 05:11:09 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 40 56
+Sheet 40 54
 Title "Puma board"
-Date "20 feb 2011"
+Date "23 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "ignition.sch"
@@ -188,7 +188,7 @@ L R R19
 U 1 1 4C2F52E9
 P 3100 2050
 F 0 "R19" V 3180 2050 50  0000 C CNN
-F 1 "1k" V 3100 2050 50  0000 C CNN
+F 1 "330" V 3100 2050 50  0000 C CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "RMCF0805JT1K00" V 1130 2600 60  0001 C CNN "mfg#"

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/20/2011 12:36:46 PM
+EESchema Schematic File Version 2  date Wed 23 Feb 2011 05:11:09 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 18 56
+Sheet 18 54
 Title "Puma board"
-Date "20 feb 2011"
+Date "23 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,6 +41,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L R R261
+U 1 1 4D6402A4
+P 6900 3350
+F 0 "R261" V 6980 3350 50  0000 C CNN
+F 1 "1.6k" V 6900 3350 50  0000 C CNN
+	1    6900 3350
+	0    1    1    0   
+$EndComp
 Text Label 2850 3200 0    60   ~ 0
 vr1-
 Text Label 2850 2800 0    60   ~ 0
@@ -101,7 +110,7 @@ Wire Wire Line
 	4000 3350 4000 3600
 Wire Wire Line
 	6050 3600 6050 3000
-Text HLabel 6650 3350 2    60   Input ~ 0
+Text HLabel 7150 3350 2    60   Input ~ 0
 RPM_out
 Text HLabel 5750 2600 0    60   Input ~ 0
 5v_digi
@@ -112,7 +121,7 @@ P 3300 2800
 AR Path="/4CAB878F/4C94FEDF" Ref="R215"  Part="1" 
 AR Path="/4C94FDB6/4C94FEDF" Ref="R212"  Part="1" 
 F 0 "R212" V 3380 2800 50  0000 C CNN
-F 1 "10k" V 3300 2800 50  0000 C CNN
+F 1 "10k 1/2W" V 3300 2800 50  0000 C CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"
@@ -132,7 +141,7 @@ P 3300 3200
 AR Path="/4CAB878F/4CCADF73" Ref="R216"  Part="1" 
 AR Path="/4C94FDB6/4CCADF73" Ref="R213"  Part="1" 
 F 0 "R213" V 3380 3200 50  0000 C CNN
-F 1 "10k" V 3300 3200 50  0000 C CNN
+F 1 "10k 1/2W" V 3300 3200 50  0000 C CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"

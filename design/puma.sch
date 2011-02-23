@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/20/2011 12:36:46 PM
+EESchema Schematic File Version 2  date Wed 23 Feb 2011 05:11:09 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A2 23400 16535
-Sheet 1 56
+Sheet 1 54
 Title "Puma board"
-Date "20 feb 2011"
+Date "23 feb 2011"
 Rev "v0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,6 +41,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	19000 14200 19000 1200
+Wire Wire Line
+	12200 11900 15000 11900
 Wire Wire Line
 	3700 1400 4600 1400
 Connection ~ 19000 5300
@@ -55,46 +59,18 @@ Wire Wire Line
 Connection ~ 19000 2350
 Wire Wire Line
 	19000 2350 18000 2350
-Connection ~ 19000 1750
-Connection ~ 19000 1750
-Connection ~ 19000 1750
-Connection ~ 19000 1750
 Wire Wire Line
 	18000 1750 18450 1750
-Connection ~ 19000 1750
-Connection ~ 19000 1750
-Connection ~ 19000 1750
-Connection ~ 19000 2250
-Connection ~ 19000 2250
-Connection ~ 19000 2250
 Wire Wire Line
 	18000 2250 18450 2250
-Connection ~ 19000 2250
-Connection ~ 19000 2250
-Connection ~ 19000 2250
-Connection ~ 19000 2750
-Connection ~ 19000 2750
-Connection ~ 19000 2750
 Wire Wire Line
 	18000 2750 18450 2750
-Connection ~ 19000 2750
-Connection ~ 19000 2750
-Connection ~ 19000 3250
-Connection ~ 19000 3250
 Wire Wire Line
 	18000 3250 18450 3250
-Connection ~ 19000 3250
-Connection ~ 19000 3250
-Connection ~ 19000 3750
-Connection ~ 19000 3750
 Wire Wire Line
 	18000 3750 18450 3750
-Connection ~ 19000 3750
-Connection ~ 19000 4200
 Wire Wire Line
 	18000 4200 18450 4200
-Connection ~ 19000 4200
-Connection ~ 19000 4700
 Wire Wire Line
 	18000 4700 18450 4700
 Wire Wire Line
@@ -163,7 +139,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 6950 6200 6950
 Wire Bus Line
-	12100 13200 12100 9650
+	12100 9650 12100 13200
 Wire Wire Line
 	6750 4650 7150 4650
 Wire Wire Line
@@ -218,9 +194,6 @@ Wire Wire Line
 	7400 2950 7400 3050
 Wire Wire Line
 	12200 12850 15000 12850
-Connection ~ 14850 12000
-Wire Wire Line
-	14850 12050 14850 11500
 Wire Wire Line
 	7000 12500 4350 12500
 Wire Wire Line
@@ -239,7 +212,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 3650 10100 3650
 Wire Bus Line
-	14250 10700 14250 1750
+	14250 1750 14250 10700
 Wire Wire Line
 	15050 2150 14350 2150
 Wire Wire Line
@@ -295,7 +268,6 @@ Wire Wire Line
 	15050 4700 14850 4700
 Wire Wire Line
 	14850 3250 15050 3250
-Connection ~ 19000 2750
 Wire Wire Line
 	5350 3600 5300 3600
 Connection ~ 18200 9400
@@ -340,9 +312,9 @@ Wire Wire Line
 	5050 11050 4350 11050
 Connection ~ 6850 11150
 Wire Wire Line
-	6850 10350 6750 10350
+	6750 10350 6850 10350
 Wire Wire Line
-	6750 11150 6850 11150
+	6850 11150 6750 11150
 Wire Wire Line
 	6850 9950 6750 9950
 Connection ~ 6850 10350
@@ -355,14 +327,6 @@ Wire Wire Line
 	18200 8150 18000 8150
 Connection ~ 18200 13300
 Connection ~ 18200 12850
-Wire Wire Line
-	12900 11400 12200 11400
-Wire Wire Line
-	12900 11900 12200 11900
-Wire Wire Line
-	14550 12000 14850 12000
-Wire Wire Line
-	14550 11400 15000 11400
 Wire Wire Line
 	9150 5800 9600 5800
 Wire Wire Line
@@ -394,9 +358,6 @@ Wire Wire Line
 Connection ~ 18850 6500
 Wire Wire Line
 	18850 6500 18000 6500
-Connection ~ 19000 5200
-Connection ~ 19000 4200
-Connection ~ 19000 3250
 Wire Wire Line
 	19000 9100 18000 9100
 Wire Wire Line
@@ -450,8 +411,6 @@ Wire Wire Line
 Connection ~ 18200 7750
 Wire Wire Line
 	5300 2750 5450 2750
-Connection ~ 19000 3750
-Connection ~ 19000 4700
 Connection ~ 18850 6050
 Wire Wire Line
 	18200 7750 18000 7750
@@ -491,10 +450,6 @@ Wire Wire Line
 Wire Wire Line
 	9150 5700 9600 5700
 Wire Wire Line
-	14550 11900 15000 11900
-Wire Wire Line
-	14850 11500 14550 11500
-Wire Wire Line
 	14350 6400 15000 6400
 Wire Wire Line
 	9550 5500 9600 5500
@@ -526,7 +481,7 @@ Wire Wire Line
 	9150 3850 10100 3850
 Connection ~ 6850 10750
 Wire Wire Line
-	10850 14200 19000 14200
+	19000 14200 10850 14200
 Wire Wire Line
 	10850 14200 10850 9950
 Connection ~ 19000 12950
@@ -568,15 +523,11 @@ Wire Wire Line
 	9150 5900 9600 5900
 Wire Wire Line
 	14850 2250 15050 2250
-Connection ~ 19000 2250
 Connection ~ 18150 2650
 Wire Wire Line
 	18000 1650 18150 1650
 Wire Wire Line
-	6250 1200 19000 1200
-Wire Wire Line
-	19000 1200 19000 14200
-Connection ~ 19000 1750
+	19000 1200 6250 1200
 Wire Wire Line
 	15050 1650 14350 1650
 Wire Wire Line
@@ -596,7 +547,7 @@ Connection ~ 18150 2150
 Wire Wire Line
 	7200 1400 18850 1400
 Wire Wire Line
-	10550 12300 10850 12300
+	10850 12300 10550 12300
 Connection ~ 10850 12300
 Wire Wire Line
 	7000 12300 4350 12300
@@ -660,7 +611,7 @@ Wire Wire Line
 Connection ~ 14850 1400
 Connection ~ 14850 1750
 Wire Wire Line
-	5300 2850 7800 2850
+	7800 2850 5300 2850
 Connection ~ 7200 2850
 Wire Wire Line
 	8650 1400 8650 5400
@@ -714,10 +665,10 @@ Wire Wire Line
 Wire Wire Line
 	6550 9050 6750 9050
 Wire Wire Line
-	6050 8100 6550 8100
+	6550 8100 6050 8100
 Connection ~ 6550 8100
 Wire Wire Line
-	6550 9000 6050 9000
+	6050 9000 6550 9000
 Connection ~ 6550 9000
 Wire Wire Line
 	9150 2850 9350 2850
@@ -755,14 +706,16 @@ Wire Wire Line
 	18000 1850 19000 1850
 Connection ~ 19000 1850
 Wire Wire Line
-	18000 2850 19000 2850
+	19000 2850 18000 2850
 Connection ~ 19000 2850
 Wire Wire Line
-	18000 3850 19000 3850
+	19000 3850 18000 3850
 Connection ~ 19000 3850
 Wire Wire Line
-	18000 4800 19000 4800
+	19000 4800 18000 4800
 Connection ~ 19000 4800
+Wire Wire Line
+	15000 11400 12200 11400
 $Comp
 L FUSE F3
 U 1 1 4D5B9F59
@@ -795,30 +748,10 @@ F 2 "PINTST" H 18600 1750 60  0001 C CNN
 	1    18600 1750
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_1 P89
-U 1 1 4D187542
-P 19150 1750
-F 0 "P89" H 19230 1750 40  0000 L CNN
-F 1 "CONN_1" H 19150 1805 30  0001 C CNN
-F 2 "PINTST" H 19150 1750 60  0001 C CNN
-	1    19150 1750
-	1    0    0    -1  
-$EndComp
 Text Label 18250 1750 0    60   ~ 0
 inj8
 Text Label 18250 2250 0    60   ~ 0
 inj7
-$Comp
-L CONN_1 P87
-U 1 1 4D18753E
-P 19150 2250
-F 0 "P87" H 19230 2250 40  0000 L CNN
-F 1 "CONN_1" H 19150 2305 30  0001 C CNN
-F 2 "PINTST" H 19150 2250 60  0001 C CNN
-	1    19150 2250
-	1    0    0    -1  
-$EndComp
 $Comp
 L CONN_1 P88
 U 1 1 4D18753D
@@ -839,30 +772,10 @@ F 2 "PINTST" H 18600 2750 60  0001 C CNN
 	1    18600 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_1 P75
-U 1 1 4D187534
-P 19150 2750
-F 0 "P75" H 19230 2750 40  0000 L CNN
-F 1 "CONN_1" H 19150 2805 30  0001 C CNN
-F 2 "PINTST" H 19150 2750 60  0001 C CNN
-	1    19150 2750
-	1    0    0    -1  
-$EndComp
 Text Label 18250 2750 0    60   ~ 0
 inj6
 Text Label 18250 3250 0    60   ~ 0
 inj5
-$Comp
-L CONN_1 P77
-U 1 1 4D187531
-P 19150 3250
-F 0 "P77" H 19230 3250 40  0000 L CNN
-F 1 "CONN_1" H 19150 3305 30  0001 C CNN
-F 2 "PINTST" H 19150 3250 60  0001 C CNN
-	1    19150 3250
-	1    0    0    -1  
-$EndComp
 $Comp
 L CONN_1 P78
 U 1 1 4D187530
@@ -883,30 +796,10 @@ F 2 "PINTST" H 18600 3750 60  0001 C CNN
 	1    18600 3750
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_1 P79
-U 1 1 4D18752C
-P 19150 3750
-F 0 "P79" H 19230 3750 40  0000 L CNN
-F 1 "CONN_1" H 19150 3805 30  0001 C CNN
-F 2 "PINTST" H 19150 3750 60  0001 C CNN
-	1    19150 3750
-	1    0    0    -1  
-$EndComp
 Text Label 18250 3750 0    60   ~ 0
 inj4
 Text Label 18250 4200 0    60   ~ 0
 inj3
-$Comp
-L CONN_1 P81
-U 1 1 4D187529
-P 19150 4200
-F 0 "P81" H 19230 4200 40  0000 L CNN
-F 1 "CONN_1" H 19150 4255 30  0001 C CNN
-F 2 "PINTST" H 19150 4200 60  0001 C CNN
-	1    19150 4200
-	1    0    0    -1  
-$EndComp
 $Comp
 L CONN_1 P82
 U 1 1 4D187528
@@ -927,30 +820,10 @@ F 2 "PINTST" H 18600 4700 60  0001 C CNN
 	1    18600 4700
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_1 P83
-U 1 1 4D187522
-P 19150 4700
-F 0 "P83" H 19230 4700 40  0000 L CNN
-F 1 "CONN_1" H 19150 4755 30  0001 C CNN
-F 2 "PINTST" H 19150 4700 60  0001 C CNN
-	1    19150 4700
-	1    0    0    -1  
-$EndComp
 Text Label 18250 4700 0    60   ~ 0
 inj2
 Text Label 18250 5200 0    60   ~ 0
 inj1
-$Comp
-L CONN_1 P85
-U 1 1 4D1873A5
-P 19150 5200
-F 0 "P85" H 19230 5200 40  0000 L CNN
-F 1 "CONN_1" H 19150 5255 30  0001 C CNN
-F 2 "PINTST" H 19150 5200 60  0001 C CNN
-	1    19150 5200
-	1    0    0    -1  
-$EndComp
 $Comp
 L CONN_1 P86
 U 1 1 4D18739F
@@ -1510,15 +1383,6 @@ F81 "AN03" B L 7800 5500 60
 F82 "5v_switched" I L 7800 2850 60 
 F83 "5v_microcontroller" I L 7800 2950 60 
 $EndSheet
-$Comp
-L GND #PWR03
-U 1 1 4CB3CDC4
-P 14850 12050
-F 0 "#PWR03" H 14850 12050 30  0001 C CNN
-F 1 "GND" H 14850 11980 30  0001 C CNN
-	1    14850 12050
-	1    0    0    -1  
-$EndComp
 NoConn ~ 7800 4550
 NoConn ~ 7800 4650
 NoConn ~ 7800 4750
@@ -1581,19 +1445,19 @@ F3 "RPM_out" I L 15000 11400 60
 F4 "5v_digi" I R 18000 11600 60 
 $EndSheet
 $Comp
-L PWR_FLAG #FLG04
+L PWR_FLAG #FLG03
 U 1 1 4C8266A6
 P 4600 1400
-F 0 "#FLG04" H 4600 1670 30  0001 C CNN
+F 0 "#FLG03" H 4600 1670 30  0001 C CNN
 F 1 "PWR_FLAG" H 4600 1630 30  0000 C CNN
 	1    4600 1400
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR05
+L GND #PWR04
 U 1 1 4C826576
 P 5850 9550
-F 0 "#PWR05" H 5850 9550 30  0001 C CNN
+F 0 "#PWR04" H 5850 9550 30  0001 C CNN
 F 1 "GND" H 5850 9480 30  0001 C CNN
 	1    5850 9550
 	1    0    0    -1  
@@ -1934,19 +1798,19 @@ Entry Wire Line
 Entry Wire Line
 	4250 9750 4350 9850
 $Comp
-L GND #PWR06
+L GND #PWR05
 U 1 1 489663FC
 P 12650 4900
-F 0 "#PWR06" H 12650 4900 30  0001 C CNN
+F 0 "#PWR05" H 12650 4900 30  0001 C CNN
 F 1 "GND" H 12650 4830 30  0001 C CNN
 	1    12650 4900
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L GND #PWR06
 U 1 1 489663D4
 P 4550 5400
-F 0 "#PWR07" H 4550 5400 30  0001 C CNN
+F 0 "#PWR06" H 4550 5400 30  0001 C CNN
 F 1 "GND" H 4550 5330 30  0001 C CNN
 	1    4550 5400
 	1    0    0    -1  
@@ -1963,10 +1827,10 @@ NoConn ~ 9150 2950
 NoConn ~ 9150 4750
 NoConn ~ 9150 4450
 $Comp
-L GND #PWR08
+L GND #PWR07
 U 1 1 489662CC
 P 18200 11000
-F 0 "#PWR08" H 18200 11000 30  0001 C CNN
+F 0 "#PWR07" H 18200 11000 30  0001 C CNN
 F 1 "GND" H 18200 10930 30  0001 C CNN
 	1    18200 11000
 	1    0    0    -1  
@@ -2134,24 +1998,6 @@ F2 "analog_sensor_gnd" B R 18000 7750 60
 F3 "analog_sensor_MAP" O L 15000 7750 60 
 F4 "5v reg" I R 18000 7850 60 
 $EndSheet
-$Sheet
-S 12900 11350 1650 200 
-U 4C2E1E73
-F0 "digi_protect_rpm1" 60
-F1 "digi_protect_rpm1.sch" 60
-F2 "digi_CPU" B L 12900 11400 60 
-F3 "digi_device" B R 14550 11400 60 
-F4 "digi_gnd" B R 14550 11500 60 
-$EndSheet
-$Sheet
-S 12900 11850 1650 200 
-U 4C2E1E75
-F0 "digi_protect_rpm2" 60
-F1 "digi_protect_rpm2.sch" 60
-F2 "digi_CPU" B L 12900 11900 60 
-F3 "digi_device" B R 14550 11900 60 
-F4 "digi_gnd" B R 14550 12000 60 
-$EndSheet
 Text Label 12750 5700 0    60   ~ 0
 AAP_IN
 Text Label 12750 5800 0    60   ~ 0
@@ -2305,19 +2151,19 @@ Entry Wire Line
 Entry Wire Line
 	14250 2750 14350 2650
 $Comp
-L GND #PWR09
+L GND #PWR08
 U 1 1 486F7889
 P 18200 11950
-F 0 "#PWR09" H 18200 11950 30  0001 C CNN
+F 0 "#PWR08" H 18200 11950 30  0001 C CNN
 F 1 "GND" H 18200 11880 30  0001 C CNN
 	1    18200 11950
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L GND #PWR09
 U 1 1 486F7315
 P 5350 3750
-F 0 "#PWR010" H 5350 3750 30  0001 C CNN
+F 0 "#PWR09" H 5350 3750 30  0001 C CNN
 F 1 "GND" H 5350 3680 30  0001 C CNN
 	1    5350 3750
 	1    0    0    -1  
