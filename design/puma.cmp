@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 23 Feb 2011 05:39:46 AM ART
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Thu 24 Feb 2011 06:22:32 PM ART
 
 BeginCmp
 TimeStamp = /4C2E1E53/4C2F529E;
@@ -354,6 +354,13 @@ BeginCmp
 TimeStamp = /4C2E1EA1/4C576232;
 Reference = C100;
 ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C2E1EA1/4D66CBA7;
+Reference = C101;
+ValeurCmp = 0.1uf;
 IdModule  = SM0805;
 EndCmp
 
@@ -1128,13 +1135,6 @@ IdModule  = PINTST;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C2E1E65/4C2F530F;
-Reference = P8;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
 TimeStamp = /4C2E1E65/4C2F5313;
 Reference = P9;
 ValeurCmp = CONN_1;
@@ -1366,58 +1366,58 @@ IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C2F3BE4/4C2ECF62;
+TimeStamp = /4C2F3BE4/4D66C965;
 Reference = Q10;
-ValeurCmp = 2N6044;
+ValeurCmp = 2N6045;
 IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C2F3DD9/4C2ECF62;
+TimeStamp = /4C2F3DD9/4D66C965;
 Reference = Q11;
-ValeurCmp = 2N6044;
+ValeurCmp = 2N6045;
 IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C2F3E07/4C2ECF62;
+TimeStamp = /4C2F3E07/4D66C965;
 Reference = Q12;
-ValeurCmp = 2N6044;
+ValeurCmp = 2N6045;
 IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C2F3E27/4C2ECF62;
+TimeStamp = /4C2F3E27/4D66C965;
 Reference = Q13;
-ValeurCmp = 2N6044;
+ValeurCmp = 2N6045;
 IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C2F3E39/4C2ECF62;
+TimeStamp = /4C2F3E39/4D66C965;
 Reference = Q14;
-ValeurCmp = 2N6044;
+ValeurCmp = 2N6045;
 IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C2F3E4C/4C2ECF62;
+TimeStamp = /4C2F3E4C/4D66C965;
 Reference = Q15;
-ValeurCmp = 2N6044;
+ValeurCmp = 2N6045;
 IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C77BC96/4C2ECF62;
+TimeStamp = /4C77BC96/4D66C965;
 Reference = Q16;
-ValeurCmp = 2N6044;
+ValeurCmp = 2N6045;
 IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C77BCB7/4C2ECF62;
+TimeStamp = /4C77BCB7/4D66C965;
 Reference = Q17;
-ValeurCmp = 2N6044;
+ValeurCmp = 2N6045;
 IdModule  = TO220_VERT;
 EndCmp
 
@@ -2531,13 +2531,6 @@ BeginCmp
 TimeStamp = /4CAB878F/4D6402A6;
 Reference = R262;
 ValeurCmp = 1.6k;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4C2E1EA1/4D64C03B;
-Reference = R263;
-ValeurCmp = 10k;
 IdModule  = SM0805;
 EndCmp
 

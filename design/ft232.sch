@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 23 Feb 2011 05:38:40 AM ART
+EESchema Schematic File Version 2  date Thu 24 Feb 2011 06:52:52 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 15 54
 Title "Puma board"
-Date "23 feb 2011"
+Date "24 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -65,13 +65,13 @@ F 1 "GND" H 8200 3830 30  0001 C CNN
 $EndComp
 Connection ~ 4000 2900
 Wire Wire Line
-	4000 2450 4000 2900
+	4000 2900 4000 2450
 Wire Wire Line
 	4200 3700 4450 3700
 Wire Wire Line
-	4200 2900 4200 3150
+	4200 3150 4200 2900
 Wire Wire Line
-	3800 2900 4200 2900
+	4200 2900 3800 2900
 Wire Wire Line
 	4900 3000 3800 3000
 Wire Wire Line
@@ -83,16 +83,16 @@ Wire Wire Line
 Wire Wire Line
 	8100 3800 8200 3800
 Wire Wire Line
-	8200 3500 8100 3500
+	8100 3500 8200 3500
 Wire Wire Line
 	7600 3800 7500 3800
 Wire Wire Line
-	4800 2450 4800 2750
+	4800 2750 4800 2450
 Wire Wire Line
 	4800 2750 4900 2750
 Connection ~ 5850 4700
 Wire Wire Line
-	6150 4700 6150 4600
+	6150 4600 6150 4700
 Wire Wire Line
 	6150 4700 5550 4700
 Wire Wire Line
@@ -113,7 +113,7 @@ Connection ~ 4800 2650
 Wire Wire Line
 	7600 3500 7500 3500
 Wire Wire Line
-	8200 3900 8200 3500
+	8200 3500 8200 3900
 Connection ~ 8200 3800
 Wire Wire Line
 	7100 3800 7000 3800
@@ -141,7 +141,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 4250 4200 4350
 Wire Wire Line
-	4000 2450 4800 2450
+	4800 2450 4000 2450
 Connection ~ 4450 2450
 $Comp
 L LED D83

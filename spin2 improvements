@@ -17,7 +17,7 @@
 17. remove some mask for a better heat transfer from the mcu and stepper ?% done
 18. Change 33v zener diode footprint ?% done
 19. Move U31 silkscreen 100% done
-20. FT232, new pullup or new config. ?% done
+20. FT232, new pullup or new config. 100% done
 21. mcu reg rotates while reflow because of the incomplete gnd plane under it (try less paste) ?%done
 22. maybe choose a better power connector for ign, 12v and injectors ?% done
 23. 5.00v voltage reference for Vref ?% done
@@ -27,8 +27,8 @@
 27. to220 board edge set back consistency. ?% done
 28. fuel pump + and - pins silk screen should note gnd ?% done
 29. Clarify silk screen DGP AGP and GP NTC? ?% done
-30. fuse holders? remove/keep/other? ?% done
-31. P&H FET pinout.
+30. fuse holders? removed 100% done
+31. P&H FET pinout. 100% done
 32. more test pins to verify components are correct
 33. RPM LED
 34. Text searchable PDF

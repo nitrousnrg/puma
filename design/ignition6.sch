@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 23 Feb 2011 05:38:40 AM ART
+EESchema Schematic File Version 2  date Thu 24 Feb 2011 06:52:52 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 39 54
 Title "Puma board"
-Date "23 feb 2011"
+Date "24 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "ignition.sch"
@@ -56,13 +56,13 @@ Wire Wire Line
 Wire Wire Line
 	4100 1650 4100 1850
 Wire Wire Line
-	4100 2650 4100 2250
+	4100 2250 4100 2650
 Wire Wire Line
 	2800 2050 2850 2050
 Wire Wire Line
 	3350 2050 3800 2050
 Wire Wire Line
-	2750 2650 4100 2650
+	4100 2650 2750 2650
 Wire Wire Line
 	4100 1650 4050 1650
 Wire Wire Line

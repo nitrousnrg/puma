@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 23 Feb 2011 05:38:40 AM ART
+EESchema Schematic File Version 2  date Thu 24 Feb 2011 06:52:52 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 40 54
 Title "Puma board"
-Date "23 feb 2011"
+Date "24 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "ignition.sch"
@@ -42,7 +42,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Label 4100 1650 0    60   ~ 0
-ing5
+ign5
 Wire Wire Line
 	4300 2250 4100 2250
 Connection ~ 4100 1750
@@ -52,25 +52,24 @@ Connection ~ 3400 2650
 Wire Wire Line
 	3400 2550 3400 2650
 Wire Wire Line
-	3050 1450 3050 1650
+	3050 1650 3050 1450
 Wire Wire Line
 	4100 1650 4100 1850
 Wire Wire Line
-	4100 2250 4100 2650
+	4100 2650 4100 2250
 Wire Wire Line
 	2800 2050 2850 2050
 Wire Wire Line
 	3350 2050 3800 2050
 Wire Wire Line
-	4100 2650 2750 2650
+	2750 2650 4100 2650
 Wire Wire Line
 	4100 1650 4050 1650
 Wire Wire Line
 	3550 1650 3650 1650
 Connection ~ 3400 2050
 Wire Wire Line
-	4200 1450 2950 1450
-Connection ~ 3050 1450
+	3050 1450 2950 1450
 Wire Wire Line
 	4100 1850 4300 1850
 $Comp
@@ -171,16 +170,6 @@ F 0 "P9" H 4430 1750 40  0000 L CNN
 F 1 "CONN_1" H 4350 1805 30  0001 C CNN
 F 2 "PINTST" V 780 1950 60  0001 C CNN
 	1    4350 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P8
-U 1 1 4C2F530F
-P 4350 1450
-F 0 "P8" H 4430 1450 40  0000 L CNN
-F 1 "CONN_1" H 4350 1505 30  0001 C CNN
-F 2 "PINTST" V 780 1850 60  0001 C CNN
-	1    4350 1450
 	1    0    0    -1  
 $EndComp
 $Comp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 23 Feb 2011 05:38:40 AM ART
+EESchema Schematic File Version 2  date Thu 24 Feb 2011 06:52:52 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A3 16535 11700
 Sheet 14 54
 Title "Puma board"
-Date "23 feb 2011"
+Date "24 feb 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -42,10 +42,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R?
+L C C101
+U 1 1 4D66CBA7
+P 10450 3050
+F 0 "C101" H 10500 3150 50  0000 L CNN
+F 1 "0.1uf" H 10500 2950 50  0000 L CNN
+	1    10450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R264
 U 1 1 4D64C0B2
 P 3500 3300
-F 0 "R?" V 3580 3300 50  0000 C CNN
+F 0 "R264" V 3580 3300 50  0000 C CNN
 F 1 "10M" V 3500 3300 50  0000 C CNN
 	1    3500 3300
 	1    0    0    -1  
@@ -58,15 +67,6 @@ F 0 "R175" V 1530 3250 50  0000 C CNN
 F 1 "3.9k" V 1450 3250 50  0000 C CNN
 	1    1450 3250
 	0    1    1    0   
-$EndComp
-$Comp
-L R R?
-U 1 1 4D64C03B
-P 2850 4950
-F 0 "R?" V 2930 4950 50  0000 C CNN
-F 1 "10k" V 2850 4950 50  0000 C CNN
-	1    2850 4950
-	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	2450 6000 2450 4450
@@ -656,19 +656,19 @@ $EndComp
 $Comp
 L R R180
 U 1 1 4C58B0FD
-P 10450 3050
-F 0 "R180" V 2930 4950 50  0000 C CNN
-F 1 "4.7K" V 2850 4950 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "Murata" V 1130 2600 60  0001 C CNN "mfg"
-F 5 "GRM21BR71H104KA01L" V 1130 2600 60  0001 C CNN "mfg#"
-F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
-F 7 "490-1666-2-ND" V 1130 2600 60  0001 C CNN "vend1#"
-F 8 "50v" V 1130 2600 60  0001 C CNN "Voltage"
-F 9 "10%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    10450 3050
+P 2850 4950
+F 0 "R180" V -4670 6850 50  0000 C CNN
+F 1 "4.7K" V -4750 6850 50  0000 C CNN
+F 2 "SM0805" V -6470 4500 60  0001 C CNN
+F 4 "Murata" V -6470 4500 60  0001 C CNN "mfg"
+F 5 "GRM21BR71H104KA01L" V -6470 4500 60  0001 C CNN "mfg#"
+F 6 "digikey" V -6470 4500 60  0001 C CNN "vend1"
+F 7 "490-1666-2-ND" V -6470 4500 60  0001 C CNN "vend1#"
+F 8 "50v" V -6470 4500 60  0001 C CNN "Voltage"
+F 9 "10%" V -6470 4500 60  0001 C CNN "tolerance"
+F 10 "ceramic" V -6470 4500 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V -6470 4500 60  0001 C CNN "misc"
+	1    2850 4950
 	-1   0    0    1   
 $EndComp
 $Comp
