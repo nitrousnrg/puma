@@ -65,4 +65,16 @@ L9925 -40 to 125°C, bigger SO28.
 * Space to stack the main board (2.5cm tall), connector board, and connector.
 * what should I do with the USB connector? (type A or B, inside or ouside the case, waterproof or not)
 
+/*********** certification *******/
 
+These are the test I hope to perform in the Universidad Nacional de La Plata:
+
+MIL-STD 810F Method 500.4 Low Pressure (aka Altitude testing)
+MIL-STD 810F Method 501.4 High Temperature (Both storage and operating)
+MIL-STD 810F Method 502.4 Low Temperature (Both storage and operating)
+MIL-STD 810F Method 503.4 Temperature Shock (How well does the device handle going from high to low temps, and back)
+MIL-STD 810F Method 506.4 Rain (How does the device do in wind blown rain)   //not really necessary
+MIL-STD 810F Method 507.4 Humidity (Can the device handle high Humidity)
+MIL-STD 810F Method 509.4 Salt Fog (does the device rust/fail when exposed to salt fog)
+MIL-STD 810F Method 514.5 Vibration (constant acceleration)
+MIL-STD 810F Method 516.5 Shock (either Shock Response Spectrums, or triangle / sine / square wave shocks) — also transport shock
