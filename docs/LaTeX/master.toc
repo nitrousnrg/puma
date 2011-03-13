@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Overview}{2}
+\contentsline {section}{\numberline {2}Getting the hardware}{3}
+\contentsline {section}{\numberline {3}So you have a bare board, now what?}{4}
+\contentsline {section}{\numberline {4}Connecting the board to a vehicle}{5}
+\contentsline {section}{\numberline {5}Uploading firmware via USB and boot loader}{6}
+\contentsline {section}{\numberline {6}Trying out the board with a Tuning Software}{7}
+\contentsline {section}{\numberline {7}Spin1 specific notes}{8}
