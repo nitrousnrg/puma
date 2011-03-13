@@ -15,5 +15,6 @@ $savepcb*
 screenshots/
 website/
 docs/LaTeX/*.aux
-docs/LaTex/*.log
-docs/LaTex/*.toc
+docs/LaTeX/*.log
+docs/LaTeX/*.toc
+docs/LaTeX/*.pdf
