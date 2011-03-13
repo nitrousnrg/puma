@@ -18,3 +18,5 @@ docs/LaTeX/*.aux
 docs/LaTeX/*.log
 docs/LaTeX/*.toc
 docs/LaTeX/*.pdf
+docs/LaTeX/*.out
+.~lock.*

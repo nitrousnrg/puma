@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section.1}{Overview}{}
+\BOOKMARK [1][-]{section.2}{Getting the hardware}{}
+\BOOKMARK [1][-]{section.3}{So you have a bare board, now what?}{}
+\BOOKMARK [2][-]{subsection.3.1}{You now have a PUMA board with components, now what?}{section.3}
+\BOOKMARK [2][-]{subsection.3.2}{Testing your board with Jim Stim.}{section.3}
+\BOOKMARK [2][-]{subsection.3.3}{Uploading the initial firmware.}{section.3}
+\BOOKMARK [1][-]{section.4}{Connecting the board to a vehicle}{}
+\BOOKMARK [1][-]{section.5}{Uploading firmware via USB and boot loader}{}
+\BOOKMARK [1][-]{section.6}{Trying out the board with a Tuning Software}{}
+\BOOKMARK [1][-]{section.7}{Spin1 specific notes}{}
