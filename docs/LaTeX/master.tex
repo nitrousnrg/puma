@@ -10,6 +10,7 @@
 \usepackage{url}
 \usepackage{hyperref}
 \usepackage{gensymb}
+\usepackage{subfigure}
 
 \author{}
 \title{Puma for FreeEMS\newline Assembly, configuration, modification and installation manual}
@@ -117,40 +118,26 @@ If you have engine setup blah2, this is the way you tune your engine.
 \begin{enumerate}
 \item This spin has several modifications. Start these modifications by cut the wrong traces, and adding jumpers as shown below.
 
-\begin{center}
-%\begin{figure}[htb]
-%\begin{center}
-\includegraphics[width = 0.45\textwidth]{images/MCU_VDD_traces.png}
-%$\caption{Cut wrong VDD traces}
-%\label{fig:mcu_traces}
-%\end{center}
-%\end{figure}
-%
-%\begin{figure}
-%\begin{center}
-\includegraphics[width = 0.45\textwidth]{images/BRV_hack.png}
-%\caption{Correct BRV source}
-%\label{fig:brv_hack}
-%\end{center}
-%\end{figure}
-
-%\begin{figure}[htb]
-%\begin{center}
-\includegraphics[width = 0.45\textwidth]{images/USB_power_hack.png}
-%\caption{Correct FT232 circuit}
-% \label{fig:usb_hack}
-% \end{center}
-% \end{figure}
-% 
-% \begin{figure}[htb]
-% \begin{center}
- \includegraphics[width = 0.45\textwidth]{images/P&H_hack.png}
-% \caption{Cut wrong VDD traces}
-% \label{fig:p&h_hack}
-% \end{center}
-% \end{figure}
-\end{center}
-
+\begin{figure}[htb]
+  \centering
+  \subfigure[Cut wrong VDD traces]{
+  \includegraphics[width=0.45\textwidth]{images/MCU_VDD_traces.png} 
+  \label{fig:mcu_traces}
+  }
+  \subfigure[Correct BRV source]{
+  \includegraphics[width=0.45\textwidth]{images/BRV_hack.png} 
+  \label{fig:brv_hack}
+  }
+  \subfigure[Correct FT232 circuit]{
+  \includegraphics[width=0.45\textwidth]{images/USB_power_hack.png} 
+  \label{fig:usb_hack}
+  }
+  \subfigure[Correct transisitors connection]{
+  \includegraphics[width=0.45\textwidth]{images/P&H_hack.png} 
+  \label{fig:p&h_hack}
+  }
+  \caption{Spin1 mods}
+\end{figure}
 
 \item You have the PCB + components, so get KICAD and the files, or the pdf files from puma.freeems.org. PDFs aren't search-able so you may want to choose to install KICAD until we workout that.
 
