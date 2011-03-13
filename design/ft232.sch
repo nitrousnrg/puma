@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 24 Feb 2011 06:52:52 PM ART
+EESchema Schematic File Version 2  date Sun 13 Mar 2011 07:05:15 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 15 54
 Title "Puma board"
-Date "24 feb 2011"
+Date "13 mar 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,31 +41,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 4900 3500
-NoConn ~ 6750 3700
-NoConn ~ 6750 3800
-NoConn ~ 6750 3900
-$Comp
-L GND #PWR035
-U 1 1 4D6472B8
-P 4200 4350
-F 0 "#PWR035" H 4200 4350 30  0001 C CNN
-F 1 "GND" H 4200 4280 30  0001 C CNN
-	1    4200 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR036
-U 1 1 4D6472B2
-P 8200 3900
-F 0 "#PWR036" H 8200 3900 30  0001 C CNN
-F 1 "GND" H 8200 3830 30  0001 C CNN
-	1    8200 3900
-	1    0    0    -1  
-$EndComp
-Connection ~ 4000 2900
+Connection ~ 8200 3500
+Connection ~ 4000 2450
 Wire Wire Line
-	4000 2900 4000 2450
+	4000 2900 4000 2300
+Wire Wire Line
+	8200 2300 4000 2300
+Wire Wire Line
+	8200 2300 8200 3800
+Connection ~ 4000 2900
 Wire Wire Line
 	4200 3700 4450 3700
 Wire Wire Line
@@ -81,9 +65,9 @@ Wire Wire Line
 Wire Wire Line
 	7100 3500 6750 3500
 Wire Wire Line
-	8100 3800 8200 3800
+	8200 3800 8100 3800
 Wire Wire Line
-	8100 3500 8200 3500
+	8200 3500 8100 3500
 Wire Wire Line
 	7600 3800 7500 3800
 Wire Wire Line
@@ -113,9 +97,6 @@ Connection ~ 4800 2650
 Wire Wire Line
 	7600 3500 7500 3500
 Wire Wire Line
-	8200 3500 8200 3900
-Connection ~ 8200 3800
-Wire Wire Line
 	7100 3800 7000 3800
 Wire Wire Line
 	7000 3800 7000 3600
@@ -143,6 +124,19 @@ Wire Wire Line
 Wire Wire Line
 	4800 2450 4000 2450
 Connection ~ 4450 2450
+NoConn ~ 4900 3500
+NoConn ~ 6750 3700
+NoConn ~ 6750 3800
+NoConn ~ 6750 3900
+$Comp
+L GND #PWR035
+U 1 1 4D6472B8
+P 4200 4350
+F 0 "#PWR035" H 4200 4350 30  0001 C CNN
+F 1 "GND" H 4200 4280 30  0001 C CNN
+	1    4200 4350
+	1    0    0    -1  
+$EndComp
 $Comp
 L LED D83
 U 1 1 4D64721C
@@ -150,7 +144,7 @@ P 7300 3800
 F 0 "D83" H 7300 3900 50  0000 C CNN
 F 1 "LED" H 7300 3700 50  0000 C CNN
 	1    7300 3800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L LED D82
@@ -168,7 +162,7 @@ F 9 "-%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "RED" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7300 3500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 4900 3300
 NoConn ~ 4900 3600
