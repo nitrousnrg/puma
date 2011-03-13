@@ -9,6 +9,7 @@
 \usepackage{datetime}
 \usepackage{url}
 \usepackage{hyperref}
+\usepackage{gensymb}
 
 \author{}
 \title{Puma with FreeEMS vanilla firmware assembly and  installation Manual}
@@ -16,8 +17,6 @@
 \begin{document}
 \maketitle
 \pagebreak
-
-%\addcontentsline{toc}{section}{Table of Contents}
 
 \tableofcontents
 \thispagestyle{empty}
@@ -132,7 +131,7 @@ Components that shouldn't be populated:
 \item R226, R227, Q18, Q19, bridge pin 1 and 3 of Q19 (this is the shutdown circuit)
 \item R133 (bad pullup)
 \item R228 OR R229, using one of them defines whether the XOR negates or not its outputs.
-\item If you use VR inputs, R212, R213, R215, and R216 should be bigger, like ¼ or ½W. 10Kohm to 20 kohm will be fine.
+\item If you use VR inputs, R212, R213, R215, and R216 should be bigger, like $\frac{1}{4}$ or $\frac{1}{2}$W. 10k\ohm to 20k\ohm will be fine.
 \item U18, R186, R187, C107, D74, D75, C106 (thermocouple driver)
 \end{itemize}
 
