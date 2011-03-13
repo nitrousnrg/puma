@@ -41,4 +41,5 @@
 41. change 3D model for SOD-123 (smd/chip_cms, scale=0.14) 100% done
 42. 330ohm for xor 100% done
 43. remove MAX protecion circuit, replace by 1.6k 100% done
-44. Add a pullup on RxD0
+44. Add a pullup on RxD0, maybe with a pnp transistor
+45. pullup FT232 LEDs

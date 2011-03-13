@@ -1,0 +1,68 @@
+*****************************************************************
+      SolidWorks Corporation - IGES Processor Status Report
+*****************************************************************
+=================================================================
+General Information
+=================================================================
+Sending System Product I.D.  : MICRO-USB-SCOKET-ASSY_ASM
+Receiving System Product I.D.: MICRO-USB-SCOKET-ASSY_ASM
+File Name                    : HSMU-5SB-24D2.igs
+Sending System               : Pro/ENGINEER by Parametric Technology Corporation
+Preprocessor Version         : 2007160
+File Creation Date           : 20090407.154642
+Model Creation Date          : 20090407.154642
+Units                        : MM
+Model Space Scale            : 1
+Author                       : Owner
+Organization                 : Unknown
+
+
+=================================================================
+Entity Processing Information
+=================================================================
+
+
+=================================================================
+Precision analysis of IGES file:
+=================================================================
+  Most prevalent number of significant digits:              13
+  Highest number of significant digits:                     13
+  Average number of significant digits:                5.93653
+  Maximum distance to origin:                          7.65945
+  Minimum distance to origin:                                0
+  Effective number of significant digits:                   13
+
+
+=================================================================
+Entity Summary
+=================================================================
+-----------------------------------------------------------------
+Type Name                                         Count Converted
+---- ----                                         ----- ---------
+100  Arc                                            857       857
+102  Composite curve                               2136      2136
+110  Line                                          8874      8874
+120  Surface of revolution                          269       269
+124  Transformation matrix                          857       857
+126  Rational B-spline curve                        594       594
+128  Rational B-spline surface                      770       770
+142  Curve on a parametric surface                 1068      1068
+144  Trimmed parametric surface                    1039      1039
+314  Color definition                                11        11
+402  Associativity instance                           4         4
+406  Property                                         4         4
+_________________________________________________________________
+
+
+=================================================================
+Result Summary
+=================================================================
+SolidWorks Feature Type                Count
+-----------------------                -----
+Solid feature(s)                       8
+Surface feature(s)                     0
+Curve/Sketch feature(s)                0
+--------------------------------------------
+Start time: Thursday, March 03, 2011 06:13:18
+Finish time: Thursday, March 03, 2011 06:14:01
+Processing time: 0 days, 00 hours, 00 mins, 43 secs
