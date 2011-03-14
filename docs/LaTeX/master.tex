@@ -8,7 +8,7 @@
 \usepackage{listings}
 \usepackage{datetime}
 \usepackage{url}
-\usepackage{hyperref}
+%\usepackage{hyperref}
 \usepackage{gensymb}
 \usepackage{subfigure}
 
@@ -45,13 +45,14 @@ Ok, you have the bare PCB, and it's going to need components installed on it to 
 \begin{itemize}
 \item Get the BOM from site, its in csv format, so you can select what modules you want populated.
 A few things to note:
-EGT circuit won't work, it has a 500$^{\circ}$C limit.
-The usb connector is plain wrong. In the BOM you can choose to buy a cable to use this wrong (female-A) connector, or buy another usb connector and hack things to install it.
-You don't want the shutdown circuit, so its FETs aren't in the BOM. Don't worry about that.
+\item EGT circuit won't work, it has a 500$^{\circ}$C limit.
+\item The usb connector is plain wrong. In the BOM you can choose to buy a cable to use this wrong (female-A) connector, or buy another usb connector and hack things to install it.
+\item You don't want the shutdown circuit, so its FETs aren't in the BOM. Don't worry about that.
+\end{itemize}
 
 Once you are decided about the BOM, go to to digikey and place the order.
 
-\item Modify the board as shown in ``Spin 1 specific notes"
+Modify the board as shown in ``Spin 1 specific notes"
 
 We recommend doing these steps sequentially.
 
@@ -64,7 +65,6 @@ We recommend doing these steps sequentially.
 \item Install ignitions circuits
 \end{enumerate}
 
-\end{itemize}
 
 \subsection{You now have a PUMA board with components, now what?}
 
@@ -76,14 +76,50 @@ Blah blah blah, fill in this stuff.
 
 \subsection{Uploading the initial firmware.}
 
-BDM loader notes and more blah blah blah. 
+You need:
+\begin{itemize}
+\item A BDM programmer like TBDML, PE micros, etc.
+\item CodeWarrior IDE
+\item A Serial Monitor binary
+\end{itemize}
+
+You can get the Serial monitor binary from the folowing url:
+
+https://github.com/fredcooke/freeems-vanilla/raw/master/lib/freeems.serial.monitor.s19
+
+Get the CodeWarrior IDE from (???)
+
+Buy, borrow or build a BDM pod compatible with Freescale S12
+
+Now proceed to the programming, the order is important:
+\begin{enumerate}
+\item Connect the BDM to the board
+\item Connect the USB cable of the BDM to your PC
+\item Supply Puma with 12v
+\item Open Codewarrior's debugger, the BDM pod should perform some recognition tasks
+\item In the debugger, go to File->Load Application and select the .s19 binary.
+\item Program the device. Verification should be successful.
+\item Poweroff the board, disconnect the USB, disconnect the pod
+\end{enumerate}
+
+Now you can load the latest FreeEMS firmare!
+
+Install SeanK's loader from https://github.com/seank/freeems-loader
+
+Its an easy to use application. Just connect to the USB and power up Puma (jumpering the load/run header), select the device /dev/ttyUSB0 in *nixes (COM?? in windows?), and push the load button. In the file dialog, select the .s19 firmware you want. Wait until it erases and program the device.
+Close the communications.
+
+Remove the load/run jumper in the header and reset de board.
+
+Congratulations! FreeEMS code is running in your board.
 
 
 \section{Connecting the board to a vehicle}
 
 Figure~\ref{fig:wiring} shows how the PUMA board should be connected to the engine.
 
-\begin{figure}[htb]
+%I want this image here!
+\begin{figure}[h!]
 \begin{center}
 \includegraphics[width=1\textwidth]{images/freeems-power-wiring5.png}
 \caption{Wiring diagram}
@@ -117,6 +153,10 @@ If you have engine setup blah2, this is the way you tune your engine.
 
 \begin{enumerate}
 \item This spin has several modifications. Start these modifications by cut the wrong traces, and adding jumpers as shown below.
+
+The FT232 IC needs also a transisitor or it will make the mcu start always in SM mode (add picture of fred's board)
+
+If you want blinking leds for the usb, there is a pulldown that should be a pullup (add another  fred's pic)
 
 \begin{figure}[htb]
   \centering
