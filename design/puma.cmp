@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 15 Mar 2011 12:22:06 PM ART
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 15 Mar 2011 04:22:20 PM ART
 
 BeginCmp
 TimeStamp = /4C2E1E53/4C2F529E;
@@ -568,13 +568,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C2E1EA1/4D3B2F44;
-Reference = C132;
-ValeurCmp = 0.1uF;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /4C2E1E53/486ECB4E;
 Reference = D1;
 ValeurCmp = Schottky;
@@ -584,7 +577,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4C2E1E55/4C2F52A2;
 Reference = D3;
-ValeurCmp = 1N4007;
+ValeurCmp = Schottky;
 IdModule  = SOD-123;
 EndCmp
 
@@ -1093,6 +1086,55 @@ IdModule  = LED-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /4D7FBB76;
+Reference = H1;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7FBB81;
+Reference = H2;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7FBB85;
+Reference = H3;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7FBB88;
+Reference = H4;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7FBB8D;
+Reference = H5;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7FBB90;
+Reference = H6;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7FBB94;
+Reference = H7;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
 TimeStamp = /4C2E1EA1/4C54D9C1/4BC535D5;
 Reference = J1;
 ValeurCmp = USB_2;
@@ -1354,7 +1396,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4C2E1E83/4C2F5334;
 Reference = Q8;
-ValeurCmp = RFP30N06;
+ValeurCmp = NUD3124;
 IdModule  = SOT23EBC;
 EndCmp
 
@@ -1957,13 +1999,6 @@ BeginCmp
 TimeStamp = /4C2E1EA1/4C58B0FD;
 Reference = R180;
 ValeurCmp = 4.7K;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4C2E1EA1/4C56FDC6;
-Reference = R181;
-ValeurCmp = 100k;
 IdModule  = SM0805;
 EndCmp
 
@@ -2672,6 +2707,13 @@ TimeStamp = /4CD60C08;
 Reference = U33;
 ValeurCmp = 74LS86;
 IdModule  = SO14E;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C2E1EA1/4D7DC186;
+Reference = U34;
+ValeurCmp = VOLTAGE_MONITOR;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp

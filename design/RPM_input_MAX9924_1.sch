@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 15 Mar 2011 12:21:06 PM ART
+EESchema Schematic File Version 2  date Tue 15 Mar 2011 04:33:45 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -41,6 +41,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 6550 2750 0    60   ~ 0
+TODO: LED
 $Comp
 L R R261
 U 1 1 4D6402A4

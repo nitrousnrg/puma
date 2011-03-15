@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 15 Mar 2011 12:21:06 PM ART
+EESchema Schematic File Version 2  date Tue 15 Mar 2011 04:33:45 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -56,13 +56,13 @@ Wire Wire Line
 Wire Wire Line
 	4100 1650 4100 1850
 Wire Wire Line
-	4100 2650 4100 2250
+	4100 2250 4100 2650
 Wire Wire Line
 	2800 2050 2850 2050
 Wire Wire Line
 	3350 2050 3800 2050
 Wire Wire Line
-	2750 2650 4100 2650
+	4100 2650 2750 2650
 Wire Wire Line
 	4100 1650 4050 1650
 Wire Wire Line
