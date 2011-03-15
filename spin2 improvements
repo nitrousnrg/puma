@@ -18,14 +18,14 @@
 18. Change 33v zener diode footprint ?% done
 19. Move U31 silkscreen 100% done
 20. FT232, new pullup or new config. 100% done
-21. mcu reg rotates while reflow because of the incomplete gnd plane under it (try less paste) ?%done
+21. mcu reg rotates while reflow because of the incomplete gnd plane under it (try less paste (it works)) 100%done
 22. maybe choose a better power connector for ign, 12v and injectors ?% done
 23. 5.00v voltage reference for Vref ?% done
 24. ground ring vias like propendous 100% done
 25. MAP and AAP mounting ?% done
 26. change D92 (vreg reverse diode) to a schottky. ?% done
 27. to220 board edge set back consistency. ?% done
-28. fuel pump + and - pins silk screen should note gnd ?% done
+28. fuel pump + and - pins silk screen should note gnd 100% done
 29. Clarify silk screen DGP AGP and GP NTC? 100% done
 30. fuse holders? removed 100% done
 31. P&H FET pinout. 100% done
@@ -39,7 +39,7 @@
 39. BRV from the nice 12v
 40. D1 is a Schottky 100% done
 41. change 3D model for SOD-123 (smd/chip_cms, scale=0.14) 100% done
-42. 330ohm for xor 100% done
+42. 330ohm for xor 100%  done
 43. remove MAX protecion circuit, replace by 1.6k 100% done
 44. Add a pullup on RxD0, maybe with a pnp transistor
 45. pullup FT232 LEDs
