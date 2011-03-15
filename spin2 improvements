@@ -26,14 +26,14 @@
 26. change D92 (vreg reverse diode) to a schottky. ?% done
 27. to220 board edge set back consistency. ?% done
 28. fuel pump + and - pins silk screen should note gnd ?% done
-29. Clarify silk screen DGP AGP and GP NTC? ?% done
+29. Clarify silk screen DGP AGP and GP NTC? 100% done
 30. fuse holders? removed 100% done
 31. P&H FET pinout. 100% done
 32. more test pins to verify components are correct
 33. RPM LED
 34. Text searchable PDF
 35. finish and check the connection .xls sheet
-36. connector under s12X for expantion options on the connector card.
+36. connector under s12X for expansion options on the connector card.
 37. make 2 of the primary 232 via's plated such that wires can be attached. These vias already exist, change them to be plated
 38. The to220 packages on one side are closer to the edge than on the other
 39. BRV from the nice 12v

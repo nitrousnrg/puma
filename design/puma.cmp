@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Thu 24 Feb 2011 06:22:32 PM ART
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Tue 15 Mar 2011 01:36:52 AM ART
 
 BeginCmp
 TimeStamp = /4C2E1E53/4C2F529E;
@@ -2545,14 +2545,14 @@ BeginCmp
 TimeStamp = /4C2E1E53/4CD715D6;
 Reference = U2;
 ValeurCmp = LM2937;
-IdModule  = SOT223;
+IdModule  = DPAK2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C2E1E55/48B14C8F;
 Reference = U4;
 ValeurCmp = LM2937;
-IdModule  = TO220_VERT;
+IdModule  = DPAK5;
 EndCmp
 
 BeginCmp

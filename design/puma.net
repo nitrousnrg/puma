@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Thu 24 Feb 2011 06:22:32 PM ART
+# EESchema Netlist Version 1.1 created  Tue 15 Mar 2011 01:36:53 AM ART
 (
  ( /4C2E1E53/4C2F529E C1V7 C2 10uF
   ( 1 N-000153 )
@@ -1490,12 +1490,12 @@
   ( 1 N-000223 )
   ( 2 N-000211 )
  )
- ( /4C2E1E53/4CD715D6 SOT223 U2 LM2937
+ ( /4C2E1E53/4CD715D6 DPAK2 U2 LM2937
   ( GND GND )
   ( VI N-000153 )
   ( VO /CPU/5v_1 )
  )
- ( /4C2E1E55/48B14C8F TO220_VERT U4 LM2937
+ ( /4C2E1E55/48B14C8F DPAK5 U4 LM2937
   ( 1 N-000157 )
   ( 2 GND )
   ( 3 /stepper2 )

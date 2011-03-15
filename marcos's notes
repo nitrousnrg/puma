@@ -76,3 +76,8 @@ A quite big drawback is the code loading, but for 8 outputs its like $7 (this) a
 A better one: quad current sensing IC (MAX4378TAUD+-ND) with 296-6606-1-ND voltage comparator, plus a quad open collector NAND gate (568-4551-5-ND) plus, a 1khz oscillator.
 
 
+/******* Power supplies ********/
+
+MIC29151-5.0WU has an ENABLE
+LP38692SD-5.0/NOPB too
+
