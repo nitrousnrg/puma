@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 14 Mar 2011 04:23:59 AM ART
+EESchema Schematic File Version 2  date Tue 15 Mar 2011 12:21:06 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 49 54
 Title "Puma board"
-Date "14 mar 2011"
+Date "15 mar 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "general_drive.sch"
@@ -86,7 +86,7 @@ L PIP-3104 Q8
 U 1 1 4C2F5334
 P 3600 2300
 F 0 "Q8" H 3610 2470 60  0000 R CNN
-F 1 "RFP30N06" H 3610 2150 60  0000 R CNN
+F 1 "NUD3124" H 3610 2150 60  0000 R CNN
 F 2 "TO220_VERT" V 3530 3050 60  0001 C CNN
 F 4 "Fairchild Semi" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "RFP30N06LE" V 1130 2600 60  0001 C CNN "mfg#"

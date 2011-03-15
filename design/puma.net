@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 15 Mar 2011 01:36:53 AM ART
+# EESchema Netlist Version 1.1 created  Tue 15 Mar 2011 12:22:06 PM ART
 (
  ( /4C2E1E53/4C2F529E C1V7 C2 10uF
   ( 1 N-000153 )
@@ -332,11 +332,11 @@
   ( 1 /bat_mcu )
   ( 2 N-000153 )
  )
- ( /4C2E1E55/4C2F52A2 D3 D3 1N4007
+ ( /4C2E1E55/4C2F52A2 SOD-123 D3 1N4007
   ( 1 /bat_mcu )
   ( 2 N-000159 )
  )
- ( /4C2E1E55/4C2F52A1 D3 D4 1N4148
+ ( /4C2E1E55/4C2F52A1 SOD-123 D4 1N4148
   ( 1 /stepper2 )
   ( 2 N-000157 )
  )
@@ -793,17 +793,17 @@
   ( 2 /igniter_3/ign3 )
   ( 3 /stepper4 )
  )
- ( /4C2E1E81/48B16ED5 TO220_VERT Q7 RFP30N06
+ ( /4C2E1E81/48B16ED5 DPAK2 Q7 RFP30N06
   ( 1 N-000188 )
   ( 2 /Fuel_Pu3 )
   ( 3 /stepper4 )
  )
- ( /4C2E1E83/4C2F5334 TO220_VERT Q8 RFP30N06
+ ( /4C2E1E83/4C2F5334 SOT23EBC Q8 RFP30N06
   ( 1 N-000191 )
   ( 2 N-000192 )
   ( 3 /stepper4 )
  )
- ( /4C2E1E87/4C2F5330 TO220_VERT Q9 RFP30N06
+ ( /4C2E1E87/4C2F5330 DPAK2 Q9 RFP30N06
   ( 1 N-000193 )
   ( 2 /misc_ou5 )
   ( 3 /stepper4 )

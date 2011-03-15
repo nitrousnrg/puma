@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 14 Mar 2011 04:23:59 AM ART
+EESchema Schematic File Version 2  date Tue 15 Mar 2011 12:21:06 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 34 54
 Title "Puma board"
-Date "14 mar 2011"
+Date "15 mar 2011"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -296,7 +296,7 @@ L DIODE D3
 U 1 1 4C2F52A2
 P 2850 3300
 F 0 "D3" H 2850 3400 40  0000 C CNN
-F 1 "1N4007" H 2850 3200 40  0000 C CNN
+F 1 "Schottky" H 2850 3200 40  0000 C CNN
 F 2 "D3" H 2950 3500 60  0001 C CNN
 F 4 "ON semi" H 2950 3500 60  0001 C CNN "mfg"
 F 5 "1N4007RL" H 2950 3500 60  0001 C CNN "mfg#"

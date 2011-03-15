@@ -43,12 +43,12 @@ LM2940 recommends to use one aluminum cap to provide big farads, and one tantalu
 RMCF0805: 0805 stands 155°C max (with power dissipation = 0). At 125°C they dissipate up to 80mWatts. At 70°c they dissipate 125mW.
 
 /************* outputs ***********/
-* All capable of driving a small fuel pump. So, the power required to drive a solenoid, stepper, etc can't be a problem.
-
 * ignition
 Ignition polarity: done with a XOR gate, which can be set to invert or not. Also, the gate protects the MCU from nasty ignition pikes.
 
 Check if ignition drivers are pin-compatible with FETs, to choose between driving a coil directly and using an external module.
+
+DPAK Low side drivers: NID9N05CLT4G, IPS1041RTRLPBF
 
 * IAC
 Solenoids are controlled with a PWM pin.
