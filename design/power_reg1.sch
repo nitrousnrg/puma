@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 16 Mar 2011 01:59:14 AM ART
+EESchema Schematic File Version 2  date Wed 16 Mar 2011 02:24:07 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -99,28 +99,28 @@ Connection ~ 8350 3900
 Text Notes 7250 4650 0    60   ~ 0
 regulator pin compatible with:\nLP3852 or\nMIC29150 (26v-input capable)
 $Comp
-L R R?
+L R R265
 U 1 1 4D803D42
 P 7250 3550
-F 0 "R?" V 7330 3550 50  0000 C CNN
+F 0 "R265" V 7330 3550 50  0000 C CNN
 F 1 "100k" V 7250 3550 50  0000 C CNN
 	1    7250 3550
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR069
 U 1 1 4D803D00
 P 5550 5550
-F 0 "#PWR?" H 5550 5550 30  0001 C CNN
+F 0 "#PWR069" H 5550 5550 30  0001 C CNN
 F 1 "GND" H 5550 5480 30  0001 C CNN
 	1    5550 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L ZENER D?
+L ZENER D114
 U 1 1 4D803C1B
 P 5550 5350
-F 0 "D?" H 5550 5450 50  0000 C CNN
+F 0 "D114" H 5550 5450 50  0000 C CNN
 F 1 "5v1" H 5550 5250 40  0000 C CNN
 	1    5550 5350
 	0    -1   -1   0   
@@ -135,10 +135,10 @@ F 1 "MCP1826" H 6400 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR069
+L GND #PWR070
 U 1 1 4D197A9B
 P 4600 4750
-F 0 "#PWR069" H 4600 4750 30  0001 C CNN
+F 0 "#PWR070" H 4600 4750 30  0001 C CNN
 F 1 "GND" H 4600 4680 30  0001 C CNN
 	1    4600 4750
 	1    0    0    -1  
