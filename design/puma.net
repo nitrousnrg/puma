@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 15 Mar 2011 04:22:20 PM ART
+# EESchema Netlist Version 1.1 created  Tue 15 Mar 2011 09:30:26 PM ART
 (
  ( /4C2E1E53/4C2F529E C1V7 C2 10uF
   ( 1 N-000160 )
@@ -815,7 +815,7 @@
   ( 2 /Fuel_Pu5 )
   ( 3 /injecto6 )
  )
- ( /4C2E1E83/4C2F5334 SOT23EBC Q8 NUD3124
+ ( /4C2E1E83/4C2F5334 DPAK2 Q8 NUD3124
   ( 1 N-000198 )
   ( 2 N-000199 )
   ( 3 /injecto6 )

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 15 Mar 2011 04:33:45 PM ART
+EESchema Schematic File Version 2  date Wed 16 Mar 2011 01:49:52 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A3 16535 11700
 Sheet 14 54
 Title "Puma board"
-Date "15 mar 2011"
+Date "16 mar 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -312,7 +312,7 @@ L VOLTAGE_MONITOR U34
 U 1 1 4D7DC186
 P 4350 5500
 F 0 "U34" H 4450 5100 60  0000 C CNN
-F 1 "VOLTAGE_MONITOR" H 4650 5850 60  0000 C CNN
+F 1 "TCM809" H 4650 5850 60  0000 C CNN
 F 4 "TCM809LVNB713CT-ND" H 4350 5500 60  0001 C CNN "Field1"
 	1    4350 5500
 	-1   0    0    -1  

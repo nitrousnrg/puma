@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 15 Mar 2011 04:33:45 PM ART
+EESchema Schematic File Version 2  date Wed 16 Mar 2011 01:49:52 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 33 54
 Title "Puma board"
-Date "15 mar 2011"
+Date "16 mar 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -42,38 +42,36 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	7850 3750 7850 3700
-Connection ~ 5500 3300
-Wire Wire Line
-	5500 3300 5500 2850
-Wire Wire Line
-	5500 2850 5850 2850
-Wire Wire Line
-	7850 3700 2600 3700
-Connection ~ 5250 3300
-Connection ~ 5250 3700
-Connection ~ 7450 3700
-Connection ~ 7450 3300
-Connection ~ 7000 3700
-Wire Wire Line
-	2600 3700 2600 3750
-Connection ~ 4850 3300
-Connection ~ 4850 3700
-Wire Wire Line
-	2500 3300 2650 3300
-Connection ~ 7000 3300
-Wire Wire Line
-	5650 3300 3050 3300
-Wire Wire Line
-	6050 3600 6050 3700
-Connection ~ 6050 3700
-Wire Wire Line
-	6250 2850 6600 2850
-Wire Wire Line
-	6600 2850 6600 3300
+	5650 3300 2500 3300
+Connection ~ 6600 3300
 Wire Wire Line
 	6450 3300 7850 3300
-Connection ~ 6600 3300
+Wire Wire Line
+	6600 3300 6600 2850
+Wire Wire Line
+	6600 2850 6250 2850
+Connection ~ 6050 3700
+Wire Wire Line
+	6050 3600 6050 3700
+Connection ~ 7000 3300
+Connection ~ 4850 3700
+Connection ~ 4850 3300
+Wire Wire Line
+	2600 3750 2600 3700
+Connection ~ 7000 3700
+Connection ~ 7450 3300
+Connection ~ 7450 3700
+Connection ~ 5250 3700
+Connection ~ 5250 3300
+Wire Wire Line
+	2600 3700 7850 3700
+Wire Wire Line
+	5850 2850 5500 2850
+Wire Wire Line
+	5500 2850 5500 3300
+Connection ~ 5500 3300
+Wire Wire Line
+	7850 3700 7850 3750
 $Comp
 L 7805 U2
 U 1 1 4CD715D6
@@ -186,24 +184,6 @@ F 10 "ceramic" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    7450 3500
 	-1   0    0    -1  
-$EndComp
-$Comp
-L DIODE D1
-U 1 1 486ECB4E
-P 2850 3300
-F 0 "D1" H 2850 3400 40  0000 C CNN
-F 1 "Schottky" H 2850 3200 40  0000 C CNN
-F 2 "SOD-123" H 2950 3500 60  0001 C CNN
-F 4 "Diodes Inc" H 2950 3500 60  0001 C CNN "mfg"
-F 5 "1N4448W-7-F" H 2950 3500 60  0001 C CNN "mfg#"
-F 6 "digikey" H -3270 2600 60  0001 C CNN "vend1"
-F 7 "1N4448W-FDICT-ND" H -3270 2600 60  0001 C CNN "vend1#"
-F 8 "-" H -3270 2600 60  0001 C CNN "vend2"
-F 9 "-" H -3270 2600 60  0001 C CNN "vend2#"
-F 10 "-" H -3270 2600 60  0001 C CNN "Field7"
-F 11 "-" H -3270 2600 60  0001 C CNN "Field8"
-	1    2850 3300
-	1    0    0    1   
 $EndComp
 $Comp
 L CAPAPOL C2

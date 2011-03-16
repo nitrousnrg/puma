@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 15 Mar 2011 04:33:45 PM ART
+EESchema Schematic File Version 2  date Wed 16 Mar 2011 01:49:52 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A2 23400 16535
 Sheet 1 54
 Title "Puma board"
-Date "15 mar 2011"
+Date "16 mar 2011"
 Rev "v0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,6 +41,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 21550 1700
+NoConn ~ 21550 1550
+NoConn ~ 21550 1400
+NoConn ~ 21550 1250
+NoConn ~ 21550 1100
+NoConn ~ 21550 950 
+NoConn ~ 21550 800 
 Wire Notes Line
 	21450 700  22500 700 
 Wire Notes Line
