@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 16 Mar 2011 03:00:10 AM ART
+EESchema Schematic File Version 2  date Wed 16 Mar 2011 03:17:16 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -118,7 +118,7 @@ L DIODE D92
 U 1 1 4CAB8DFA
 P 6050 2850
 F 0 "D92" H 6050 2950 40  0000 C CNN
-F 1 "1N4148" H 6050 2750 40  0000 C CNN
+F 1 "Schottky" H 6050 2750 40  0000 C CNN
 F 2 "SOD-123" H 6050 2850 60  0001 C CNN
 F 4 "Micro Commercial Co" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "1N4148W-TP" V 1130 2600 60  0001 C CNN "mfg#"

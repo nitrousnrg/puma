@@ -1,46 +1,25 @@
-1. VCC PLL thing 100% Done
-2. 5V cap thing 100% Done
 3. change RPM resistors 100% Done
 4. change USB connector ?% done
 5. populate other component properties ?% done
-6. reset cap ?% done
+6. reset delay 100% done
 7. update VReg for non linear reg ?% done
 8. EGT mods ?% done
-9. usb connector [netlist ok] ?% done
 10. change map circuit (R133, R134) 100% done
 11. bigger hole in signal connector 100% Done
-12. MCU reset delay ?% done
-13. mcu vcc 100% Done
-14. resize silkscreens 100% Done
 15. rotate silkscreens ?% done
-16. break the analog 5v for a better gnd plane 100% done
 17. remove some mask for a better heat transfer from the mcu and stepper ?% done
 18. Change 33v zener diode footprint ?% done
-19. Move U31 silkscreen 100% done
 20. FT232, new pullup or new config. 100% done
-21. mcu reg rotates while reflow because of the incomplete gnd plane under it (try less paste (it works)) 100%done
 22. maybe choose a better power connector for ign, 12v and injectors ?% done
 23. 5.00v voltage reference for Vref ?% done
-24. ground ring vias like propendous 100% done
 25. MAP and AAP mounting ?% done
-26. change D92 (vreg reverse diode) to a schottky. ?% done
-27. to220 board edge set back consistency. ?% done
-28. fuel pump + and - pins silk screen should note gnd 100% done
-29. Clarify silk screen DGP AGP and GP NTC? 100% done
-30. fuse holders? removed 100% done
-31. P&H FET pinout. 100% done
 32. more test pins to verify components are correct
 33. RPM LED
 34. Text searchable PDF
 35. finish and check the connection .xls sheet
 36. connector under s12X for expansion options on the connector card.
 37. make 2 of the primary 232 via's plated such that wires can be attached. These vias already exist, change them to be plated
-38. The to220 packages on one side are closer to the edge than on the other
 39. BRV from the nice 12v
-40. D1 is a Schottky 100% done
-41. change 3D model for SOD-123 (smd/chip_cms, scale=0.14) 100% done
-42. 330ohm for xor 100%  done
-43. remove MAX protecion circuit, replace by 1.6k 100% done
 44. Add a pullup on RxD0, maybe with a pnp transistor
 45. pullup FT232 LEDs
 46. more screws to attach the connector board
