@@ -1,6 +1,6 @@
-# EESchema Netlist Version 1.1 created  Wed 16 Mar 2011 02:57:47 AM ART
+# EESchema Netlist Version 1.1 created  Wed 16 Mar 2011 03:10:29 AM ART
 (
- ( /4C2E1E53/4C2F529E C1V7 C2 10uF
+ ( /4C2E1E53/4C2F529E SM1210 C2 10uF
   ( 1 /voltage1 )
   ( 2 GND )
  )
@@ -16,7 +16,7 @@
   ( 1 /CPU/5v_2 )
   ( 2 GND )
  )
- ( /4C2E1E55/486CA8EA C1V7 C8 10uF
+ ( /4C2E1E55/486CA8EA SM1210 C8 10uF
   ( 1 /voltage1 )
   ( 2 GND )
  )
