@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 17 Mar 2011 02:57:02 AM ART
+EESchema Schematic File Version 2  date Thu 17 Mar 2011 12:20:05 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -132,6 +132,7 @@ U 1 1 4D804F39
 P 7350 2800
 F 0 "Q18" H 7350 2650 60  0000 R CNN
 F 1 "PNP" H 7350 2950 60  0000 R CNN
+F 2 "SOT23EBC" H 7350 2800 60  0001 C CNN
 	1    7350 2800
 	0    1    -1   0   
 $EndComp
@@ -154,6 +155,7 @@ U 1 1 4D64721C
 P 7300 3800
 F 0 "D83" H 7300 3900 50  0000 C CNN
 F 1 "LED" H 7300 3700 50  0000 C CNN
+F 2 "LED-0805" H 7300 3800 60  0001 C CNN
 	1    7300 3800
 	-1   0    0    1   
 $EndComp

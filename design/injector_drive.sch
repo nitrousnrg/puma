@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 17 Mar 2011 02:57:02 AM ART
+EESchema Schematic File Version 2  date Thu 17 Mar 2011 12:20:05 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -55,6 +55,7 @@ AR Path="/4C2F3DD9/4D66C965" Ref="Q11"  Part="1"
 AR Path="/4C2F3BE4/4D66C965" Ref="Q10"  Part="1" 
 F 0 "Q17" H 3600 3450 50  0000 C CNN
 F 1 "2N6045" H 3400 3100 50  0000 C CNN
+F 2 "TO220_VERT" H 3600 3200 60  0001 C CNN
 	1    3600 3200
 	-1   0    0    -1  
 $EndComp

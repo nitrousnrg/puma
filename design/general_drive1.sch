@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 17 Mar 2011 02:57:02 AM ART
+EESchema Schematic File Version 2  date Thu 17 Mar 2011 12:20:05 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -87,7 +87,7 @@ U 1 1 4C2F5334
 P 3600 2300
 F 0 "Q8" H 3610 2470 60  0000 R CNN
 F 1 "NUD3124" H 3610 2150 60  0000 R CNN
-F 2 "TO220_VERT" V 3530 3050 60  0001 C CNN
+F 2 "DPAK2" V 3530 3050 60  0001 C CNN
 F 4 "Fairchild Semi" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "RFP30N06LE" V 1130 2600 60  0001 C CNN "mfg#"
 F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
