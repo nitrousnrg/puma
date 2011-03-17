@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 16 Mar 2011 03:17:16 AM ART
+EESchema Schematic File Version 2  date Thu 17 Mar 2011 02:57:02 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A2 23400 16535
-Sheet 1 54
+Sheet 1 55
 Title "Puma board"
-Date "16 mar 2011"
+Date "17 mar 2011"
 Rev "v0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,6 +41,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 1750 2700 1200 750 
+U 4D80F957
+F0 "Switching 6v regulator" 60
+F1 "power_reg_s1.sch" 60
+F2 "12v batt sw" I R 2950 2800 60 
+F3 "5v reg (constant)" O R 2950 3050 60 
+$EndSheet
 Connection ~ 5350 2150
 Wire Wire Line
 	5350 2150 3700 2150
@@ -61,9 +69,9 @@ Wire Wire Line
 Wire Wire Line
 	5500 3400 5300 3400
 Wire Notes Line
-	22500 1800 22500 700 
+	21550 2650 21550 1550
 Wire Notes Line
-	22500 1800 21450 1800
+	21550 2650 20500 2650
 Wire Wire Line
 	19000 14200 19000 1200
 Wire Wire Line
@@ -720,9 +728,9 @@ Wire Wire Line
 Wire Wire Line
 	19000 1200 3700 1200
 Wire Notes Line
-	21450 1800 21450 700 
+	20500 2650 20500 1550
 Wire Notes Line
-	21450 700  22500 700 
+	20500 1550 21550 1550
 Wire Wire Line
 	5500 2750 5300 2750
 Connection ~ 5500 2750
@@ -779,76 +787,76 @@ F 1 "Schottky" H 5500 1950 40  0000 C CNN
 	1    5500 2050
 	0    1    1    0   
 $EndComp
-NoConn ~ 21550 1700
-NoConn ~ 21550 1550
-NoConn ~ 21550 1400
-NoConn ~ 21550 1250
-NoConn ~ 21550 1100
-NoConn ~ 21550 950 
-NoConn ~ 21550 800 
-Text Notes 21950 1250 0    60   ~ 0
+NoConn ~ 20600 2550
+NoConn ~ 20600 2400
+NoConn ~ 20600 2250
+NoConn ~ 20600 2100
+NoConn ~ 20600 1950
+NoConn ~ 20600 1800
+NoConn ~ 20600 1650
+Text Notes 21000 2100 0    60   ~ 0
 MOUNTING\nHOLES
 $Comp
 L CONN_1 H7
 U 1 1 4D7FBB94
-P 21700 1700
-F 0 "H7" H 21780 1700 40  0000 L CNN
-F 1 "CONN_1" H 21700 1755 30  0001 C CNN
-	1    21700 1700
+P 20750 2550
+F 0 "H7" H 20830 2550 40  0000 L CNN
+F 1 "CONN_1" H 20750 2605 30  0001 C CNN
+	1    20750 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 H6
 U 1 1 4D7FBB90
-P 21700 1550
-F 0 "H6" H 21780 1550 40  0000 L CNN
-F 1 "CONN_1" H 21700 1605 30  0001 C CNN
-	1    21700 1550
+P 20750 2400
+F 0 "H6" H 20830 2400 40  0000 L CNN
+F 1 "CONN_1" H 20750 2455 30  0001 C CNN
+	1    20750 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 H5
 U 1 1 4D7FBB8D
-P 21700 1400
-F 0 "H5" H 21780 1400 40  0000 L CNN
-F 1 "CONN_1" H 21700 1455 30  0001 C CNN
-	1    21700 1400
+P 20750 2250
+F 0 "H5" H 20830 2250 40  0000 L CNN
+F 1 "CONN_1" H 20750 2305 30  0001 C CNN
+	1    20750 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 H4
 U 1 1 4D7FBB88
-P 21700 1250
-F 0 "H4" H 21780 1250 40  0000 L CNN
-F 1 "CONN_1" H 21700 1305 30  0001 C CNN
-	1    21700 1250
+P 20750 2100
+F 0 "H4" H 20830 2100 40  0000 L CNN
+F 1 "CONN_1" H 20750 2155 30  0001 C CNN
+	1    20750 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 H3
 U 1 1 4D7FBB85
-P 21700 1100
-F 0 "H3" H 21780 1100 40  0000 L CNN
-F 1 "CONN_1" H 21700 1155 30  0001 C CNN
-	1    21700 1100
+P 20750 1950
+F 0 "H3" H 20830 1950 40  0000 L CNN
+F 1 "CONN_1" H 20750 2005 30  0001 C CNN
+	1    20750 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 H2
 U 1 1 4D7FBB81
-P 21700 950
-F 0 "H2" H 21780 950 40  0000 L CNN
-F 1 "CONN_1" H 21700 1005 30  0001 C CNN
-	1    21700 950 
+P 20750 1800
+F 0 "H2" H 20830 1800 40  0000 L CNN
+F 1 "CONN_1" H 20750 1855 30  0001 C CNN
+	1    20750 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 H1
 U 1 1 4D7FBB76
-P 21700 800
-F 0 "H1" H 21780 800 40  0000 L CNN
-F 1 "CONN_1" H 21700 855 30  0001 C CNN
-	1    21700 800 
+P 20750 1650
+F 0 "H1" H 20830 1650 40  0000 L CNN
+F 1 "CONN_1" H 20750 1705 30  0001 C CNN
+	1    20750 1650
 	1    0    0    -1  
 $EndComp
 Text Label 3750 1200 0    60   ~ 0
@@ -1987,7 +1995,7 @@ Entry Wire Line
 $Sheet
 S 3250 3300 2050 400 
 U 4C2E1E53
-F0 "voltage regulator (cpu)" 60
+F0 "voltage regulator (mcu)" 60
 F1 "power_reg2.sch" 60
 F2 "5v reg" O R 5300 3500 60 
 F3 "12v batt" I R 5300 3400 60 
@@ -1996,7 +2004,7 @@ $EndSheet
 $Sheet
 S 3250 2550 2050 450 
 U 4C2E1E55
-F0 "voltage regulator (switched)" 60
+F0 "voltage regulator (shutdownable)" 60
 F1 "power_reg1.sch" 60
 F2 "5v reg" O R 5300 2850 60 
 F3 "12v batt" I R 5300 2750 60 

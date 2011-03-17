@@ -23,3 +23,5 @@
 44. Add a pullup on RxD0, maybe with a pnp transistor
 45. pullup FT232 LEDs
 46. more screws to attach the connector board
+47. flip MAP
+48. change thermistor circuits?
