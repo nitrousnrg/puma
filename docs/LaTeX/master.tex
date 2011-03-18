@@ -8,9 +8,11 @@
 \usepackage{listings}
 \usepackage{datetime}
 \usepackage{url}
-%\usepackage{hyperref}
+\usepackage[colorlinks=false]{hyperref}
 \usepackage{gensymb}
 \usepackage{subfigure}
+
+\hypersetup{pdfborder = {0 0 0}}
 
 \author{}
 \title{Puma for FreeEMS\newline Assembly, configuration, modification and installation manual}
@@ -79,27 +81,41 @@ Blah blah blah, fill in this stuff.
 You need:
 \begin{itemize}
 \item A BDM programmer like TBDML, PE micros, etc.
+
+Buy, borrow or build a BDM pod compatible with Freescale S12
+
 \item CodeWarrior IDE
-\item A Serial Monitor binary
-\end{itemize}
-
-You can get the Serial monitor binary from the folowing url:
-
-https://github.com/fredcooke/freeems-vanilla/raw/master/lib/freeems.serial.monitor.s19
 
 Get the CodeWarrior IDE from (???)
 
-Buy, borrow or build a BDM pod compatible with Freescale S12
+\item A Serial Monitor binary
+
+You can get the Serial monitor binary from the folowing url:
+\newline
+
+https://github.com/fredcooke/freeems-vanilla/raw/master/lib/freeems.serial.monitor.s19
+\newline
+
+
+\end{itemize}
 
 Now proceed to the programming, the order is important:
 \begin{enumerate}
 \item Connect the BDM to the board
 \item Connect the USB cable of the BDM to your PC
 \item Supply Puma with 12v
-\item Open Codewarrior's debugger, the BDM pod should perform some recognition tasks
-\item In the debugger, go to File->Load Application and select the .s19 binary.
+\item Open Codewarrior's debugger, or execute directly
+
+C:\textbackslash Archivos de programa\textbackslash Freescale\textbackslash CodeWarrior for HCS12 V4.7\textbackslash hiwave
+\newline
+
+The BDM pod should perform some recognition tasks
+\item In the debugger, go to File-\textgreater Load Application and select the .s19 binary.
+
+\includegraphics[width=0.9\textwidth]{images/CW_debugger_load.png}
+
 \item Program the device. Verification should be successful.
-\item Poweroff the board, disconnect the USB, disconnect the pod
+\item Poweroff the board, then disconnect the USB, then disconnect the pod
 \end{enumerate}
 
 Now you can load the latest FreeEMS firmare!
@@ -112,20 +128,6 @@ Close the communications.
 Remove the load/run jumper in the header and reset de board.
 
 Congratulations! FreeEMS code is running in your board.
-
-
-\section{Connecting the board to a vehicle}
-
-Figure~\ref{fig:wiring} shows how the PUMA board should be connected to the engine.
-
-%I want this image here!
-\begin{figure}[h!]
-\begin{center}
-\includegraphics[width=1\textwidth]{images/freeems-power-wiring5.png}
-\caption{Wiring diagram}
-\label{fig:wiring}
-\end{center}
-\end{figure}
 
 \section{Uploading firmware via USB and boot loader}
 
@@ -146,8 +148,76 @@ This is how to upload a new firmware file to that board.
 
 \section{Trying out the board with a Tuning Software}
 
-If you have engine setup blah, this is the basic way to tune your engine.
-If you have engine setup blah2, this is the way you tune your engine.
+Install and open Megatunix (from github link?). Select FreeEMS as the ECU system, and hit ''Find my ECU``.
+
+
+
+\section{Connecting the board to a vehicle}
+
+\subsection{The basics}
+Figure~\ref{fig:wiring} shows how the PUMA board should be connected to the engine.
+
+%I want this image here!
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=1\textwidth]{images/freeems-power-wiring5.png}
+\caption{Wiring diagram}
+\label{fig:wiring}
+\end{center}
+\end{figure}
+
+\subsection{Connector boards}
+Puma is intended to have another board as an interface to the engine. This allows to have specific connectors and circuitry for some types of engines.
+
+A connector boar template for Spin1 would look like this one:
+\begin{center}
+\includegraphics[width=0.8\textwidth]{images/connector_board3D.png}
+\end{center}
+
+If you don't have a Connector Board, you can design/make/buy your own, or just skip it and connect Puma directly to the engine.
+
+\subsection{Puma's connections} %what a lame name
+
+In case you want to connect the engine directly, or want to design a connector board, these are the connection layout of a Spin1 board:
+
+\includegraphics[width=\textwidth]{images/Spin1_front.png}
+\begin{center}
+\includegraphics[width=0.4\textwidth]{images/PumaSpin1HeaderPinOut.png}
+\end{center}
+
+For digital crank/cam inputs, leave VR(-) floating and connect the signal wire to VR(+). It will set the treshold to 2.5v.
+
+\subsection{Grounding}
+
+Connect power grounds here, there, etc
+%insist on the grounding
+
+\section{Troubleshooting}
+
+You followed exactly what this document said, but things didn't worked well. Ok, fear not, lets do some basic checking:
+
+\begin{itemize}
+ \item FreeEMS code is loaded but it doesn't run.
+
+Verify the firmware you loaded:
+Open Loader-\textgreater Rip, and diff the .s19 file with the original. The only differences should be in the last part (that is the SM itself)
+
+If it seems right, you are probably in Serial Monitor mode.
+
+The LOAD/RUN header should be left open to allow for FreeEMS code to run. While in SM mode, the header pin is at 0v, and while running FreeEMS, the same pin has a ~50hz square wave (with a multimeter you'll measure 2.5v). %%Fred, is this normal or that was just noise triggering the tacho output?
+
+The FT232 output (pin 1) must have a strong pullup so the MCU can leave the SM mode (point to USB hack), check it is working.
+
+ \item Nothing works:
+
+Check PLL and oscillator by measuring the voltage in the MCU-side of R175. It should be around 1.5v. If it is 2.5v (totally pulled up), you have a problem with the crystal or the PLL circuits. Check the solderings or continuity.
+ \item BDM pod throws an error:
+
+Check you have 5v or 2.5v in all the required VDD pins. Check continuity in the BKDM line. Check PLL and crystal.
+
+
+\end{itemize}
+
 
 \section{Spin1 specific notes}
 
