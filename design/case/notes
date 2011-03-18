@@ -1,0 +1,21 @@
+Thoughts about the case:
+
+1.  Preferently extruded (cost effective).
+2. Aluminum is a good option, although if it has some ferrum the penetration depth would be better, improving EMI shielding.
+3. The case must allow to change between different connectors. The less expensive part is the one that should change in case of a connector redesign. Beware, there are really big connectors out there.
+4. Rail mounting I guess. Have to check about vibration performance
+5. It must provide good heatsinking for SMD stuff.
+6. Splash-proof? What about the USB connector?
+7. A 3-board stack should be fine. Check rigidity of a 4 board stack.
+
+So far, I've this in my mind:
+--- <-case
+Super fancy board
+|||
+Puma
+|||
+Connector Board
+--- <-case
+
+8. Needs holes somewhere to screw to the car.
+

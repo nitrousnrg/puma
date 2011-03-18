@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 17 Mar 2011 12:20:05 PM ART
+EESchema Schematic File Version 2  date Thu 17 Mar 2011 01:43:20 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -41,6 +41,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 4650 4750 0    60   ~ 0
+MBRA210LT3G
 Text Notes 2750 5000 0    60   ~ 0
 * That capacitor shouldn't be there\n* Its a 2A IC, plenty of horsepower for both regs\n* chack availabily of diode, cap and inductor
 Connection ~ 5500 2600
@@ -287,7 +289,7 @@ AR Path="/4D57EDA9/4BF8F93D" Ref="D?"  Part="1"
 AR Path="/4C2E1E55/4BF8F93D" Ref="D?"  Part="1" 
 AR Path="/4D80F957/4BF8F93D" Ref="D?"  Part="1" 
 F 0 "D?" H 4950 4500 40  0000 C CNN
-F 1 "STPS2L25U" H 4950 4300 40  0000 C CNN
+F 1 "STPS5L25" H 4950 4300 40  0000 C CNN
 F 2 "D4-SMB" H 8000 5000 60  0001 C CNN
 F 4 "st,511-STPS2L25U" H 8000 5000 60  0001 C CNN "mfg,#"
 F 5 "mouser,511-STPS2L25U" H 8000 5000 60  0001 C CNN "vend,#"
@@ -329,8 +331,9 @@ AR Path="/4D57EDA9/4BF8F93B" Ref="C?"  Part="1"
 AR Path="/4C2E1E55/4BF8F93B" Ref="C?"  Part="1" 
 AR Path="/4D80F957/4BF8F93B" Ref="C?"  Part="1" 
 F 0 "C?" H 5980 4500 50  0000 L CNN
-F 1 "330uF" H 5900 4300 50  0000 L CNN
+F 1 "470uf" H 5900 4300 50  0000 L CNN
 F 2 "SM0805-C1" V 1730 3500 60  0001 C CNN
+F 3 "TPSE477M010R0050" H 5850 4400 60  0001 C CNN
 F 4 "ill cap,337CKE025M" V 1730 3500 60  0001 C CNN "mfg,#"
 F 5 "newark,69K7939" V 1730 3500 60  0001 C CNN "vend,#"
 F 6 "-,-" V 1730 3500 60  0001 C CNN "Field3"

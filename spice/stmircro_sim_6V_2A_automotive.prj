@@ -8,10 +8,10 @@
     <DesignSpecs type="DesignSpecs" ver="7" VinMin="6" VinMax="16" Vout="5.75" VoutRipplePer="0.005" IoutMax="2" LIR="0.3" SwitchFreq="250000" bandwidth="NaN" phaseMargin="45" synchPinConnected="false" useICMaxLimCurr="true" IoutOvershootMin="0" useDCBiasCapChange="true"/>
     <Capacitor ver="4" refName="Cin" PartNumber="20SS100M" Manufacturer="Sanyo" Value="0.0001" Type="Organic" SubType="OS-CON" VoltageRating="20" ACCurrentRating="2.74" ESR_min="0.015" ESR_max="0.03" Tolerance="20" Package="" MountType="Through Hole" maxValueChangeRatio="0.5" Locked="false" ByUser="false" Generic="false" numParCap="1"/>
     <Capacitor ver="4" refName="Cout" PartNumber="TPSE4770100050" Manufacturer="AVX" Value="0.00047" Type="Tantalum" SubType="Tantalum" VoltageRating="10" ACCurrentRating="1.76" ESR_min="0.025" ESR_max="0.05" Tolerance="20" Package="" MountType="Surface Mount" maxValueChangeRatio="0.5" Locked="false" ByUser="true" Generic="false" numParCap="1"/>
-    <Inductor ver="3" refName="L" PartNumber="UP4B-330" Manufacturer="Coiltronics" Value="0.000033" DCR="0.052" Isat="6.1" Irms="3.7" MountType="Surface Mount" Locked="false" ByUser="true" Generic="false"/>
+    <Inductor ver="3" refName="L" PartNumber="PF0504.473NL" Manufacturer="Pulse Eng" Value="0.000047" DCR="0.055" Isat="7" Irms="3.5" MountType="Surface Mount" Locked="false" ByUser="true" Generic="false"/>
     <Diode ver="2" refName="D" PartNumber="STPS5L25" Manufacturer="STMicroelectronics" Type="Schottky" VoltageForward="0.35" CurrentForward="5" LeakageCurrent="0" BreakdownVoltage="25" TimeSwitching="0" RRCharge="0" RJA="0" PowDissMax="1.75" MountType="" Package="" numDiodes="1" Vf0="0.34" Rf0="0.028" Locked="false" ByUser="false" Generic="false"/>
     <OutputDivider ver="1" R1="13000" R2="3600"/>
-    <CompensationNet type="Type1CompensationNet" ver="1" Rc="56000" Cc="4.7e-9" Cp="2.2e-11"/>
+    <CompensationNet type="Type1CompensationNet" ver="1" Rc="91000" Cc="3.3e-9" Cp="2.2e-11"/>
   </design>
   <schematic><![CDATA[assets/schematics/buck/x597x_schema.swf?showDivider=true&IC=L5973D]]></schematic>
 </eDesignStudio>
