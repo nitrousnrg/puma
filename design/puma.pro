@@ -1,4 +1,4 @@
-update=Thu 23 Dec 2010 02:37:44 AM ART
+update=Fri 18 Mar 2011 11:47:15 AM ART
 last_client=pcbnew
 [eeschema]
 version=1
@@ -75,10 +75,6 @@ PadDrlX=0
 PadDimH=1440
 PadDimV=800
 BoardThickness=630
-RouteTo=15
-RouteBo=0
-Segm45=1
-Racc45=1
 SgPcb45=1
 TxtPcbV=800
 TxtPcbH=600
@@ -90,7 +86,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=50
-WpenSer=20
+LastNetListRead=
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
