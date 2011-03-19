@@ -39,22 +39,24 @@ Note these sections are written as modules, such that sections are useful on the
 
 The design and software is OpenSource and while you can technically build it by yourself, we recommend you purchase PUMA assembled. This is how you get the hardware, blah blah blah.
 
-Spin 1 offered just the bare board, so there are notes about how to do some low level assembly, but future spins will likely remove these assembly notes. 
+Spin 1 was offered as a bare board, semi-assembled board, and a couple were fully assembled, so there are notes about how to do some low level assembly, but future spins will likely remove these assembly notes. 
 
 \section{So you have a bare board, now what?}
 
 Ok, you have the bare PCB, and it's going to need components installed on it to function as a EMS. This is what you need to do, in no particular order:
 \begin{itemize}
-\item Get the BOM from site, its in csv format, so you can select what modules you want populated.
+\item Get the BOM from *site*, select which modules you need to have populated and get the components
 A few things to note:
 \item EGT circuit won't work, it has a 500$^{\circ}$C limit.
 \item The usb connector is plain wrong. In the BOM you can choose to buy a cable to use this wrong (female-A) connector, or buy another usb connector and hack things to install it.
 \item You don't want the shutdown circuit, so its FETs aren't in the BOM. Don't worry about that.
 \end{itemize}
 
-Once you are decided about the BOM, go to to digikey and place the order.
+Once you are decided about the BOM, go to to digikey, mouser, newark or your favourite distributor and place the order.
+\newline
 
-Modify the board as shown in ``Spin 1 specific notes"
+\textbf{IMPORTANT:} If needed, modify the PCB as shown in ``Spin 1 specific notes''
+\newline
 
 We recommend doing these steps sequentially.
 
@@ -119,8 +121,10 @@ The BDM pod should perform some recognition tasks
 \end{enumerate}
 
 Now you can load the latest FreeEMS firmare!
+\newline
 
 Install SeanK's loader from https://github.com/seank/freeems-loader
+\newline
 
 Its an easy to use application. Just connect to the USB and power up Puma (jumpering the load/run header), select the device /dev/ttyUSB0 in *nixes (COM?? in windows?), and push the load button. In the file dialog, select the .s19 firmware you want. Wait until it erases and program the device.
 Close the communications.
@@ -180,7 +184,14 @@ If you don't have a Connector Board, you can design/make/buy your own, or just s
 
 In case you want to connect the engine directly, or want to design a connector board, these are the connection layout of a Spin1 board:
 
-\includegraphics[width=\textwidth]{images/Spin1_front.png}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=1\textwidth]{images/Spin1_front.png}
+\label{fig:Spin1_front}
+\end{center}
+\end{figure}
+
 \begin{center}
 \includegraphics[width=0.4\textwidth]{images/PumaSpin1HeaderPinOut.png}
 \end{center}
@@ -189,7 +200,10 @@ For digital crank/cam inputs, leave VR(-) floating and connect the signal wire t
 
 \subsection{Grounding}
 
-Connect power grounds here, there, etc
+Connect power grounds as noted in \ref{fig:Spin1_front}. This is the single most important part of the assembly
+
+
+
 %insist on the grounding
 
 \section{Troubleshooting}
