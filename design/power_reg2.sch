@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 28 Dec 2010 02:51:21 AM ART
+EESchema Schematic File Version 2  date Sat 19 Mar 2011 03:13:17 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 27 56
+Sheet 33 56
 Title "Puma board"
-Date "28 dec 2010"
+Date "19 mar 2011"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -79,7 +79,7 @@ L 7805 U2
 U 1 1 4CD715D6
 P 6050 3350
 F 0 "U2" H 6200 3154 60  0000 C CNN
-F 1 "MIC2954" H 6050 3550 60  0000 C CNN
+F 1 "LM2937" H 6050 3550 60  0000 C CNN
 	1    6050 3350
 	1    0    0    -1  
 $EndComp
@@ -106,7 +106,7 @@ L DIODE D92
 U 1 1 4CAB8DFA
 P 6050 2850
 F 0 "D92" H 6050 2950 40  0000 C CNN
-F 1 "1N4148" H 6050 2750 40  0000 C CNN
+F 1 "Schottky" H 6050 2750 40  0000 C CNN
 	1    6050 2850
 	-1   0    0    1   
 $EndComp
@@ -169,7 +169,7 @@ L DIODE D1
 U 1 1 486ECB4E
 P 2850 3300
 F 0 "D1" H 2850 3400 40  0000 C CNN
-F 1 "1N4007" H 2850 3200 40  0000 C CNN
+F 1 "Schottky" H 2850 3200 40  0000 C CNN
 F 2 "D4-SMB" H 2950 3500 60  0001 C CNN
 F 4 "newark,18C8923" H 2950 3500 60  0001 C CNN "Field1"
 F 5 "DIGI,S1MBDIDKR-ND" H 2950 3500 60  0001 C CNN "Field2"

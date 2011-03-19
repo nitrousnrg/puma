@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 28 Dec 2010 02:51:21 AM ART
+EESchema Schematic File Version 2  date Sat 19 Mar 2011 03:13:17 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 43 56
 Title "Puma board"
-Date "28 dec 2010"
+Date "19 mar 2011"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "thermistor_resistor_input.sch"
