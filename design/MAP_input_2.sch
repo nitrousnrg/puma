@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 17 Mar 2011 01:43:20 PM ART
+EESchema Schematic File Version 2  date Sat 19 Mar 2011 03:00:14 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 43 55
 Title "Puma board"
-Date "17 mar 2011"
+Date "19 mar 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "MAP_input.sch"
@@ -108,7 +108,7 @@ L C C21
 U 1 1 488D2153
 P 3800 1800
 F 0 "C21" H 3850 1900 50  0000 L CNN
-F 1 "33nF" H 3850 1700 50  0000 L CNN
+F 1 "330pF" H 3850 1700 50  0000 L CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "AVX" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "08055C333KAZ2A" V 1130 2600 60  0001 C CNN "mfg#"
