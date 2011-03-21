@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 19 Mar 2011 03:00:13 PM ART
+EESchema Schematic File Version 2  date Mon 21 Mar 2011 04:08:08 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 18 55
+Sheet 19 55
 Title "Puma board"
-Date "19 mar 2011"
+Date "21 mar 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,16 +41,88 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 6550 2750 0    60   ~ 0
-TODO: LED
+Connection ~ 6850 3350
+Wire Wire Line
+	7050 3350 5650 3350
+Connection ~ 6500 2600
+Wire Wire Line
+	6650 2600 5750 2600
+Wire Wire Line
+	6650 2600 6650 2450
+Wire Wire Line
+	6650 2450 6850 2450
+Wire Wire Line
+	6050 3600 6050 3000
+Wire Wire Line
+	4000 3350 4000 3600
+Wire Wire Line
+	2800 3200 3050 3200
+Wire Wire Line
+	4000 3050 4000 2800
+Wire Wire Line
+	4000 3050 4150 3050
+Wire Wire Line
+	4000 3150 4000 3200
+Wire Wire Line
+	4000 3150 4150 3150
+Connection ~ 6500 3350
+Wire Wire Line
+	6500 3250 6500 3350
+Connection ~ 6050 3450
+Wire Wire Line
+	6050 3150 5650 3150
+Wire Wire Line
+	4000 3450 4150 3450
+Wire Wire Line
+	5650 3050 5750 3050
+Wire Wire Line
+	5750 3050 5750 2600
+Wire Wire Line
+	4000 3350 4150 3350
+Connection ~ 4000 3450
+Wire Wire Line
+	6050 3450 5650 3450
+Connection ~ 6050 3150
+Wire Wire Line
+	6500 2600 6500 2750
+Connection ~ 6050 2600
+Wire Wire Line
+	4000 3200 3550 3200
+Connection ~ 3650 3200
+Wire Wire Line
+	4000 2800 3550 2800
+Connection ~ 3650 2800
+Wire Wire Line
+	3050 2800 2800 2800
+Wire Wire Line
+	4000 3600 6200 3600
+Connection ~ 6050 3600
+$Comp
+L LED D?
+U 1 1 4D86F760
+P 6850 3150
+F 0 "D?" H 6850 3250 50  0000 C CNN
+F 1 "LED" H 6850 3050 50  0000 C CNN
+	1    6850 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4D86F74F
+P 6850 2700
+F 0 "R?" V 6930 2700 50  0000 C CNN
+F 1 "1k" V 6850 2700 50  0000 C CNN
+	1    6850 2700
+	1    0    0    -1  
+$EndComp
 $Comp
 L R R261
 U 1 1 4D6402A4
-P 6900 3350
-F 0 "R261" V 6980 3350 50  0000 C CNN
-F 1 "1.6k" V 6900 3350 50  0000 C CNN
-F 2 "SM0805" H 6900 3350 60  0001 C CNN
-	1    6900 3350
+P 7300 3350
+F 0 "R261" V 7380 3350 50  0000 C CNN
+F 1 "1.6k" V 7300 3350 50  0000 C CNN
+F 2 "SM0805" H 7300 3350 60  0001 C CNN
+	1    7300 3350
 	0    1    1    0   
 $EndComp
 Text Label 2850 3200 0    60   ~ 0
@@ -63,57 +135,7 @@ Text GLabel 2800 3200 0    60   Input ~ 0
 connector_37
 Text HLabel 6200 3600 2    60   Input ~ 0
 GND_digi
-Connection ~ 6050 3600
-Wire Wire Line
-	6200 3600 4000 3600
-Wire Wire Line
-	3050 2800 2800 2800
-Connection ~ 3650 2800
-Wire Wire Line
-	3550 2800 4000 2800
-Connection ~ 3650 3200
-Wire Wire Line
-	3550 3200 4000 3200
-Connection ~ 6050 2600
-Wire Wire Line
-	6500 2750 6500 2600
-Wire Wire Line
-	6500 2600 5750 2600
-Wire Wire Line
-	5650 3350 6650 3350
-Connection ~ 6050 3150
-Wire Wire Line
-	6050 3450 5650 3450
-Connection ~ 4000 3450
-Wire Wire Line
-	4150 3350 4000 3350
-Wire Wire Line
-	5750 2600 5750 3050
-Wire Wire Line
-	5750 3050 5650 3050
-Wire Wire Line
-	4000 3450 4150 3450
-Wire Wire Line
-	6050 3150 5650 3150
-Connection ~ 6050 3450
-Wire Wire Line
-	6500 3250 6500 3350
-Connection ~ 6500 3350
-Wire Wire Line
-	4150 3150 4000 3150
-Wire Wire Line
-	4000 3150 4000 3200
-Wire Wire Line
-	4150 3050 4000 3050
-Wire Wire Line
-	4000 3050 4000 2800
-Wire Wire Line
-	2800 3200 3050 3200
-Wire Wire Line
-	4000 3350 4000 3600
-Wire Wire Line
-	6050 3600 6050 3000
-Text HLabel 7150 3350 2    60   Input ~ 0
+Text HLabel 7550 3350 2    60   Input ~ 0
 RPM_out
 Text HLabel 5750 2600 0    60   Input ~ 0
 5v_digi
