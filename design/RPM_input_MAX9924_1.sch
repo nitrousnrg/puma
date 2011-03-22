@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 21 Mar 2011 04:08:08 AM ART
+EESchema Schematic File Version 2  date Tue 22 Mar 2011 12:18:09 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 19 55
 Title "Puma board"
-Date "21 mar 2011"
+Date "22 mar 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,6 +41,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 2700 3200
+Wire Wire Line
+	2150 2800 3050 2800
 Connection ~ 6850 3350
 Wire Wire Line
 	7050 3350 5650 3350
@@ -55,8 +58,6 @@ Wire Wire Line
 	6050 3600 6050 3000
 Wire Wire Line
 	4000 3350 4000 3600
-Wire Wire Line
-	2800 3200 3050 3200
 Wire Wire Line
 	4000 3050 4000 2800
 Wire Wire Line
@@ -93,10 +94,20 @@ Wire Wire Line
 	4000 2800 3550 2800
 Connection ~ 3650 2800
 Wire Wire Line
-	3050 2800 2800 2800
-Wire Wire Line
 	4000 3600 6200 3600
 Connection ~ 6050 3600
+Wire Wire Line
+	2150 3200 3050 3200
+Connection ~ 2700 2800
+$Comp
+L C C?
+U 1 1 4D881199
+P 2700 3000
+F 0 "C?" H 2750 3100 50  0000 L CNN
+F 1 "optional" H 2750 2900 50  0000 L CNN
+	1    2700 3000
+	1    0    0    -1  
+$EndComp
 $Comp
 L LED D?
 U 1 1 4D86F760
@@ -125,13 +136,13 @@ F 2 "SM0805" H 7300 3350 60  0001 C CNN
 	1    7300 3350
 	0    1    1    0   
 $EndComp
-Text Label 2850 3200 0    60   ~ 0
+Text Label 2250 3200 0    60   ~ 0
 vr1-
-Text Label 2850 2800 0    60   ~ 0
+Text Label 2200 2800 0    60   ~ 0
 vr1+
-Text GLabel 2800 2800 0    60   Input ~ 0
+Text GLabel 2150 2800 0    60   Input ~ 0
 connector_38
-Text GLabel 2800 3200 0    60   Input ~ 0
+Text GLabel 2150 3200 0    60   Input ~ 0
 connector_37
 Text HLabel 6200 3600 2    60   Input ~ 0
 GND_digi

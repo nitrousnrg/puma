@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 21 Mar 2011 04:08:08 AM ART
+EESchema Schematic File Version 2  date Tue 22 Mar 2011 12:18:09 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 37 55
 Title "Puma board"
-Date "21 mar 2011"
+Date "22 mar 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "digi_protect.sch"
