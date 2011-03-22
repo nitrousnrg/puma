@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 22 Mar 2011 12:18:09 AM ART
+EESchema Schematic File Version 2  date Tue 22 Mar 2011 12:22:23 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -41,6 +41,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 2900 3200
+Wire Wire Line
+	2900 3200 2900 3400
+Wire Wire Line
+	2900 3400 3050 3400
+Connection ~ 2900 2800
+Wire Wire Line
+	2900 2800 2900 2600
+Wire Wire Line
+	2900 2600 3050 2600
 Connection ~ 2700 2800
 Wire Wire Line
 	2150 2800 3050 2800
@@ -99,6 +109,32 @@ Connection ~ 6050 3600
 Wire Wire Line
 	2150 3200 3050 3200
 Connection ~ 2700 3200
+Wire Wire Line
+	3550 2600 3650 2600
+Wire Wire Line
+	3650 2600 3650 2800
+Wire Wire Line
+	3550 3400 3650 3400
+Wire Wire Line
+	3650 3400 3650 3200
+$Comp
+L R R?
+U 1 1 4D8815B6
+P 3300 3400
+F 0 "R?" V 3380 3400 50  0000 C CNN
+F 1 "22k 1/4W" V 3300 3400 50  0000 C CNN
+	1    3300 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4D8815A6
+P 3300 2600
+F 0 "R?" V 3380 2600 50  0000 C CNN
+F 1 "22k 1/4W" V 3300 2600 50  0000 C CNN
+	1    3300 2600
+	0    1    1    0   
+$EndComp
 $Comp
 L C C?
 U 1 1 4D88120B
@@ -157,7 +193,7 @@ P 3300 2800
 AR Path="/4CAB878F/4CCADF74" Ref="R215"  Part="1" 
 AR Path="/4C94FDB6/4CCADF74" Ref="R212"  Part="1" 
 F 0 "R215" V 3380 2800 50  0000 C CNN
-F 1 "10k 1/2W" V 3300 2800 50  0000 C CNN
+F 1 "22k 1/4W" V 3300 2800 50  0000 C CNN
 F 2 "SM1210" V 1130 2600 60  0001 C CNN
 F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"
@@ -177,7 +213,7 @@ P 3300 3200
 AR Path="/4CAB878F/4C94FED6" Ref="R216"  Part="1" 
 AR Path="/4C94FDB6/4C94FED6" Ref="R213"  Part="1" 
 F 0 "R216" V 3380 3200 50  0000 C CNN
-F 1 "10k 1/2W" V 3300 3200 50  0000 C CNN
+F 1 "22k 1/4W" V 3300 3200 50  0000 C CNN
 F 2 "SM1210" V 1130 2600 60  0001 C CNN
 F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"
