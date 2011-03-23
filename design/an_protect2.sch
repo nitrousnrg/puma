@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 22 Mar 2011 12:22:23 AM ART
+EESchema Schematic File Version 2  date Wed 23 Mar 2011 04:02:19 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 47 55
 Title "Puma board"
-Date "22 mar 2011"
+Date "23 mar 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "an_protect.sch"
@@ -167,10 +167,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR073
+L GND #PWR074
 U 1 1 4C5989C2
 P 2000 5900
-F 0 "#PWR073" H 2000 5900 30  0001 C CNN
+F 0 "#PWR074" H 2000 5900 30  0001 C CNN
 F 1 "GND" H 2000 5830 30  0001 C CNN
 	1    2000 5900
 	1    0    0    -1  
@@ -296,8 +296,8 @@ L GND #PWR056
 U 1 1 4C2F52F6
 P 2000 4500
 AR Path="/4C4C6618/4C2F52F6" Ref="#PWR056"  Part="1" 
-AR Path="/4C2E1E7B/4C2F52F6" Ref="#PWR074"  Part="1" 
-F 0 "#PWR074" H 2000 4500 30  0001 C CNN
+AR Path="/4C2E1E7B/4C2F52F6" Ref="#PWR075"  Part="1" 
+F 0 "#PWR075" H 2000 4500 30  0001 C CNN
 F 1 "GND" H 2000 4430 30  0001 C CNN
 	1    2000 4500
 	1    0    0    -1  
@@ -391,8 +391,8 @@ L GND #PWR057
 U 1 1 489597B8
 P 2050 3200
 AR Path="/4C4C6618/489597B8" Ref="#PWR057"  Part="1" 
-AR Path="/4C2E1E7B/489597B8" Ref="#PWR075"  Part="1" 
-F 0 "#PWR075" H 2050 3200 30  0001 C CNN
+AR Path="/4C2E1E7B/489597B8" Ref="#PWR076"  Part="1" 
+F 0 "#PWR076" H 2050 3200 30  0001 C CNN
 F 1 "GND" H 2050 3130 30  0001 C CNN
 	1    2050 3200
 	1    0    0    -1  
@@ -486,8 +486,8 @@ L GND #PWR058
 U 1 1 4C2F52A8
 P 2100 1850
 AR Path="/4C4C6618/4C2F52A8" Ref="#PWR058"  Part="1" 
-AR Path="/4C2E1E7B/4C2F52A8" Ref="#PWR076"  Part="1" 
-F 0 "#PWR076" H 2100 1850 30  0001 C CNN
+AR Path="/4C2E1E7B/4C2F52A8" Ref="#PWR077"  Part="1" 
+F 0 "#PWR077" H 2100 1850 30  0001 C CNN
 F 1 "GND" H 2100 1780 30  0001 C CNN
 	1    2100 1850
 	1    0    0    -1  

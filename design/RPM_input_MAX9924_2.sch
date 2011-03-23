@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 22 Mar 2011 12:22:23 AM ART
+EESchema Schematic File Version 2  date Wed 23 Mar 2011 04:02:19 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 18 55
 Title "Puma board"
-Date "22 mar 2011"
+Date "23 mar 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -118,46 +118,46 @@ Wire Wire Line
 Wire Wire Line
 	3650 3400 3650 3200
 $Comp
-L R R?
+L R R270
 U 1 1 4D8815B6
 P 3300 3400
-F 0 "R?" V 3380 3400 50  0000 C CNN
+F 0 "R270" V 3380 3400 50  0000 C CNN
 F 1 "22k 1/4W" V 3300 3400 50  0000 C CNN
 	1    3300 3400
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R269
 U 1 1 4D8815A6
 P 3300 2600
-F 0 "R?" V 3380 2600 50  0000 C CNN
+F 0 "R269" V 3380 2600 50  0000 C CNN
 F 1 "22k 1/4W" V 3300 2600 50  0000 C CNN
 	1    3300 2600
 	0    1    1    0   
 $EndComp
 $Comp
-L C C?
+L C C133
 U 1 1 4D88120B
 P 2700 3000
-F 0 "C?" H 2750 3100 50  0000 L CNN
+F 0 "C133" H 2750 3100 50  0000 L CNN
 F 1 "optional" H 2750 2900 50  0000 L CNN
 	1    2700 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R271
 U 1 1 4D86F7AC
 P 6850 2700
-F 0 "R?" V 6930 2700 50  0000 C CNN
+F 0 "R271" V 6930 2700 50  0000 C CNN
 F 1 "1k" V 6850 2700 50  0000 C CNN
 	1    6850 2700
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D?
+L LED D116
 U 1 1 4D86F7A4
 P 6850 3150
-F 0 "D?" H 6850 3250 50  0000 C CNN
+F 0 "D116" H 6850 3250 50  0000 C CNN
 F 1 "LED" H 6850 3050 50  0000 C CNN
 	1    6850 3150
 	0    1    1    0   

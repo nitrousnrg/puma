@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 22 Mar 2011 12:22:23 AM ART
+EESchema Schematic File Version 2  date Wed 23 Mar 2011 04:02:19 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 13 55
 Title "Puma board"
-Date "22 mar 2011"
+Date "23 mar 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -46,22 +46,22 @@ output
 Text HLabel 3750 2950 0    60   Input ~ 0
 cpu_pin
 $Comp
-L GND #PWR015
+L GND #PWR016
 U 1 1 4CD742CA
 P 4600 3450
-AR Path="/4D0D1CCE/4CD742CA" Ref="#PWR015"  Part="1" 
-AR Path="/4D0D1D47/4CD742CA" Ref="#PWR014"  Part="1" 
-AR Path="/4CD7427F/4CD742CA" Ref="#PWR021"  Part="1" 
-AR Path="/4D0D1E3E/4CD742CA" Ref="#PWR010"  Part="1" 
-AR Path="/4D0D1E3B/4CD742CA" Ref="#PWR011"  Part="1" 
-AR Path="/4D0D1DAF/4CD742CA" Ref="#PWR012"  Part="1" 
-AR Path="/4D0D1D54/4CD742CA" Ref="#PWR013"  Part="1" 
-AR Path="/4CD74769/4CD742CA" Ref="#PWR016"  Part="1" 
-AR Path="/4CD74766/4CD742CA" Ref="#PWR017"  Part="1" 
-AR Path="/4CD743EF/4CD742CA" Ref="#PWR018"  Part="1" 
-AR Path="/4CD743EC/4CD742CA" Ref="#PWR019"  Part="1" 
-AR Path="/4CD743DA/4CD742CA" Ref="#PWR020"  Part="1" 
-F 0 "#PWR021" H 4600 3450 30  0001 C CNN
+AR Path="/4D0D1CCE/4CD742CA" Ref="#PWR016"  Part="1" 
+AR Path="/4D0D1D47/4CD742CA" Ref="#PWR015"  Part="1" 
+AR Path="/4CD7427F/4CD742CA" Ref="#PWR022"  Part="1" 
+AR Path="/4D0D1E3E/4CD742CA" Ref="#PWR011"  Part="1" 
+AR Path="/4D0D1E3B/4CD742CA" Ref="#PWR012"  Part="1" 
+AR Path="/4D0D1DAF/4CD742CA" Ref="#PWR013"  Part="1" 
+AR Path="/4D0D1D54/4CD742CA" Ref="#PWR014"  Part="1" 
+AR Path="/4CD74769/4CD742CA" Ref="#PWR017"  Part="1" 
+AR Path="/4CD74766/4CD742CA" Ref="#PWR018"  Part="1" 
+AR Path="/4CD743EF/4CD742CA" Ref="#PWR019"  Part="1" 
+AR Path="/4CD743EC/4CD742CA" Ref="#PWR020"  Part="1" 
+AR Path="/4CD743DA/4CD742CA" Ref="#PWR021"  Part="1" 
+F 0 "#PWR022" H 4600 3450 30  0001 C CNN
 F 1 "GND" H 4600 3380 30  0001 C CNN
 	1    4600 3450
 	1    0    0    -1  

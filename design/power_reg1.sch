@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 22 Mar 2011 12:22:23 AM ART
+EESchema Schematic File Version 2  date Wed 23 Mar 2011 04:02:19 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 35 55
 Title "Puma board"
-Date "22 mar 2011"
+Date "23 mar 2011"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -109,10 +109,10 @@ F 2 "SM0805" H 7250 3550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR069
+L GND #PWR070
 U 1 1 4D803D00
 P 5550 5550
-F 0 "#PWR069" H 5550 5550 30  0001 C CNN
+F 0 "#PWR070" H 5550 5550 30  0001 C CNN
 F 1 "GND" H 5550 5480 30  0001 C CNN
 	1    5550 5550
 	1    0    0    -1  
@@ -138,10 +138,10 @@ F 2 "DPAK5" H 6400 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR070
+L GND #PWR071
 U 1 1 4D197A9B
 P 4600 4750
-F 0 "#PWR070" H 4600 4750 30  0001 C CNN
+F 0 "#PWR071" H 4600 4750 30  0001 C CNN
 F 1 "GND" H 4600 4680 30  0001 C CNN
 	1    4600 4750
 	1    0    0    -1  
@@ -293,17 +293,17 @@ F 11 "other,more,stuff" V 1680 2600 60  0001 C CNN "misc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VSS #PWR071
+L VSS #PWR072
 U 1 1 486CA95E
 P 8000 4000
-F 0 "#PWR071" H 8000 4000 30  0001 C CNN
+F 0 "#PWR072" H 8000 4000 30  0001 C CNN
 F 1 "VSS" H 8000 3930 30  0000 C CNN
 	1    8000 4000
 	-1   0    0    -1  
 $EndComp
 $Comp
 L CAPAPOL C8
-U 1 1 486CA8EA
+U 1 1 4D893032
 P 4850 3500
 F 0 "C8" H 4900 3600 50  0000 L CNN
 F 1 "10uF" H 4900 3400 50  0000 L CNN
@@ -321,7 +321,7 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 $EndComp
 $Comp
 L CAPAPOL C11
-U 1 1 486CA8E4
+U 1 1 4D893031
 P 8350 3500
 F 0 "C11" H 8400 3600 50  0000 L CNN
 F 1 "2200uF" H 8400 3400 50  0000 L CNN
@@ -356,10 +356,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR072
+L GND #PWR073
 U 1 1 4C2F529B
 P 6400 4050
-F 0 "#PWR072" H 6400 4050 30  0001 C CNN
+F 0 "#PWR073" H 6400 4050 30  0001 C CNN
 F 1 "GND" H 6400 3980 30  0001 C CNN
 	1    6400 4050
 	-1   0    0    -1  

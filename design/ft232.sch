@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 22 Mar 2011 12:22:23 AM ART
+EESchema Schematic File Version 2  date Wed 23 Mar 2011 04:02:19 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 15 55
+Sheet 16 55
 Title "Puma board"
-Date "22 mar 2011"
+Date "23 mar 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,91 +41,104 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 4900 3400
 Wire Wire Line
-	7150 2700 6750 2700
-Connection ~ 4450 2450
+	7450 3100 7350 3100
 Wire Wire Line
-	4000 2450 4800 2450
+	7350 3100 7350 3000
+Connection ~ 8200 3500
+Connection ~ 4000 2450
 Wire Wire Line
-	4200 4250 4200 4350
+	4000 2900 4000 2450
 Wire Wire Line
-	4900 3400 4450 3400
+	4000 2450 4000 2300
 Wire Wire Line
-	4450 3400 4450 3700
-Connection ~ 4200 3700
+	4000 2300 8200 2300
 Wire Wire Line
-	4200 3650 4200 3750
+	8200 2300 8200 3500
 Wire Wire Line
-	3800 3100 4900 3100
+	8200 3500 8200 3800
 Wire Wire Line
-	3800 3200 3850 3200
-Wire Wire Line
-	3850 3200 3850 3300
-Wire Wire Line
-	4900 3900 4700 3900
-Wire Wire Line
-	4700 3900 4700 3950
-Wire Wire Line
-	6750 3600 7000 3600
-Wire Wire Line
-	7000 3600 7000 3800
-Wire Wire Line
-	7000 3800 7100 3800
-Wire Wire Line
-	7600 3500 7500 3500
-Connection ~ 4800 2650
-Wire Wire Line
-	4900 2650 4800 2650
-Connection ~ 5700 4700
-Wire Wire Line
-	5700 4600 5700 4700
-Connection ~ 6000 4700
-Wire Wire Line
-	6000 4700 6000 4600
-Wire Wire Line
-	4450 2500 4450 2450
-Wire Wire Line
-	4450 2900 4450 2950
-Wire Wire Line
-	5550 4600 5550 4700
-Wire Wire Line
-	5550 4700 6150 4700
-Wire Wire Line
-	6150 4700 6150 4600
-Connection ~ 5850 4700
-Wire Wire Line
-	4900 2750 4800 2750
-Wire Wire Line
-	4800 2750 4800 2450
-Wire Wire Line
-	7600 3800 7500 3800
-Wire Wire Line
-	8200 3500 8100 3500
-Wire Wire Line
-	8100 3800 8200 3800
-Wire Wire Line
-	7100 3500 6750 3500
-Wire Wire Line
-	4700 4450 4700 4350
-Wire Wire Line
-	5850 4800 5850 4600
+	4000 2900 3800 2900
 Wire Wire Line
 	4900 3000 3800 3000
 Wire Wire Line
-	3800 2900 4200 2900
+	5850 4800 5850 4700
 Wire Wire Line
-	4200 2900 4200 3150
+	5850 4700 5850 4600
 Wire Wire Line
-	4450 3700 4200 3700
-Connection ~ 4000 2900
+	4700 4450 4700 4350
 Wire Wire Line
-	8200 3800 8200 2300
+	7100 3500 6750 3500
 Wire Wire Line
-	8200 2300 4000 2300
+	8200 3800 8100 3800
 Wire Wire Line
-	4000 2300 4000 2900
-Connection ~ 4000 2450
-Connection ~ 8200 3500
+	8200 3500 8100 3500
+Wire Wire Line
+	7600 3800 7500 3800
+Wire Wire Line
+	4800 2750 4800 2650
+Wire Wire Line
+	4800 2650 4800 2450
+Wire Wire Line
+	4800 2750 4900 2750
+Connection ~ 5850 4700
+Wire Wire Line
+	6150 4600 6150 4700
+Wire Wire Line
+	6150 4700 6000 4700
+Wire Wire Line
+	6000 4700 5850 4700
+Wire Wire Line
+	5850 4700 5700 4700
+Wire Wire Line
+	5700 4700 5550 4700
+Wire Wire Line
+	5550 4700 5550 4600
+Wire Wire Line
+	4450 2900 4450 2950
+Wire Wire Line
+	4450 2500 4450 2450
+Wire Wire Line
+	6000 4700 6000 4600
+Connection ~ 6000 4700
+Wire Wire Line
+	5700 4600 5700 4700
+Connection ~ 5700 4700
+Wire Wire Line
+	4900 2650 4800 2650
+Connection ~ 4800 2650
+Wire Wire Line
+	7600 3500 7500 3500
+Wire Wire Line
+	7100 3800 7000 3800
+Wire Wire Line
+	7000 3800 7000 3600
+Wire Wire Line
+	7000 3600 6750 3600
+Wire Wire Line
+	4700 3950 4700 3900
+Wire Wire Line
+	4700 3900 4900 3900
+Wire Wire Line
+	3850 3300 3850 3200
+Wire Wire Line
+	3850 3200 3800 3200
+Wire Wire Line
+	3800 3100 4900 3100
+Wire Wire Line
+	4800 2450 4450 2450
+Wire Wire Line
+	4450 2450 4000 2450
+Connection ~ 4450 2450
+Wire Wire Line
+	7150 2700 6750 2700
+Wire Wire Line
+	7700 2700 7550 2700
+Text HLabel 7450 3100 2    60   Input ~ 0
+VCC-IO
+Text Label 4000 2300 0    60   ~ 0
+5v_USB
 $Comp
 L PNP Q18
 U 1 1 4D804F39
@@ -140,15 +153,6 @@ NoConn ~ 4900 3500
 NoConn ~ 6750 3700
 NoConn ~ 6750 3800
 NoConn ~ 6750 3900
-$Comp
-L GND #PWR035
-U 1 1 4D6472B8
-P 4200 4350
-F 0 "#PWR035" H 4200 4350 30  0001 C CNN
-F 1 "GND" H 4200 4280 30  0001 C CNN
-	1    4200 4350
-	1    0    0    -1  
-$EndComp
 $Comp
 L LED D83
 U 1 1 4D64721C
@@ -201,36 +205,18 @@ F 7 "768-1007-1-ND" H 5850 3400 60  0001 C CNN "vend1#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L GND #PWR037
 U 1 1 4BC539AF
 P 4700 4450
-F 0 "#PWR036" H 4700 4450 30  0001 C CNN
+F 0 "#PWR037" H 4700 4450 30  0001 C CNN
 F 1 "GND" H 4700 4380 30  0001 C CNN
 	1    4700 4450
 	1    0    0    -1  
 $EndComp
-Text HLabel 7550 2700 2    60   Input ~ 0
+Text HLabel 7700 2700 2    60   Input ~ 0
 TX
 Text HLabel 6750 2800 2    60   Input ~ 0
 RX
-$Comp
-L R R185
-U 1 1 4BC53763
-P 4200 4000
-F 0 "R185" V 4280 4000 50  0000 C CNN
-F 1 "10k" V 4200 4000 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
-F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"
-F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
-F 7 "RMCF0805JT10K0CT-ND" V 1130 2600 60  0001 C CNN "vend1#"
-F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
-F 9 "5%" V 1130 2600 60  0001 C CNN "tol"
-F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    4200 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C105
 U 1 1 4BC53747
@@ -250,10 +236,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR037
+L GND #PWR038
 U 1 1 4BC53726
 P 4450 2950
-F 0 "#PWR037" H 4450 2950 30  0001 C CNN
+F 0 "#PWR038" H 4450 2950 30  0001 C CNN
 F 1 "GND" H 4450 2880 30  0001 C CNN
 	1    4450 2950
 	1    0    0    -1  
@@ -263,7 +249,7 @@ L C C104
 U 1 1 4BC5371D
 P 4700 4150
 F 0 "C104" H 4750 4250 50  0000 L CNN
-F 1 "33nF" H 4750 4050 50  0000 L CNN
+F 1 "0.1uF" H 4750 4050 50  0000 L CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "AVX" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "08055C333KAZ2A" V 1130 2600 60  0001 C CNN "mfg#"
@@ -277,10 +263,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR038
+L GND #PWR039
 U 1 1 4BC536D5
 P 3850 3300
-F 0 "#PWR038" H 3850 3300 30  0001 C CNN
+F 0 "#PWR039" H 3850 3300 30  0001 C CNN
 F 1 "GND" H 3850 3230 30  0001 C CNN
 	1    3850 3300
 	1    0    0    -1  
@@ -322,24 +308,6 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R184
-U 1 1 4BC5363C
-P 4200 3400
-F 0 "R184" V 4280 3400 50  0000 C CNN
-F 1 "4.7k" V 4200 3400 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
-F 5 "P680KACT" V 1130 2600 60  0001 C CNN "mfg#"
-F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
-F 7 "P680KACT-ND" V 1130 2600 60  0001 C CNN "vend1#"
-F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
-F 9 "5%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "Thick film" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    4200 3400
-	-1   0    0    1   
-$EndComp
-$Comp
 L USB_2 J1
 U 1 1 4BC535D5
 P 3600 3050
@@ -356,10 +324,10 @@ F 9 "59J0790" H 3600 3050 60  0001 C CNN "vend2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L GND #PWR040
 U 1 1 4BC5356A
 P 5850 4800
-F 0 "#PWR039" H 5850 4800 30  0001 C CNN
+F 0 "#PWR040" H 5850 4800 30  0001 C CNN
 F 1 "GND" H 5850 4730 30  0001 C CNN
 	1    5850 4800
 	1    0    0    -1  

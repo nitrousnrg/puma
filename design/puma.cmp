@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-00-09 BZR 23xx)-stable date = Tue 22 Mar 2011 12:24:22 AM ART
+Cmp-Mod V01 Created by CvPCB (2010-00-09 BZR 23xx)-stable date = Tue 22 Mar 2011 08:22:04 PM ART
 
 BeginCmp
 TimeStamp = /4C2E1E53/4C2F529E;
@@ -571,91 +571,91 @@ BeginCmp
 TimeStamp = /4C94FDB6/4D881199;
 Reference = C132;
 ValeurCmp = optional;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CAB878F/4D88120B;
 Reference = C133;
 ValeurCmp = optional;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D80F957/4895133C;
 Reference = C134;
 ValeurCmp = 100nF;
-IdModule  = SM0805-C1;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D80F957/486CA8EA;
 Reference = C135;
 ValeurCmp = 100uF;
-IdModule  = SM0805-C1;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D80F957/4BF8F944;
 Reference = C136;
 ValeurCmp = 22uF;
-IdModule  = SM0805-C1;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D80F957/4BF8F941;
 Reference = C137;
 ValeurCmp = 220pF;
-IdModule  = SM0805-C1;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D80F957/4D8815FA;
 Reference = C138;
 ValeurCmp = 100nF;
-IdModule  = SM0805-C1;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D80F957/486CA8E4;
 Reference = C139;
 ValeurCmp = 100uF;
-IdModule  = SM0805-C1;
+IdModule  = SM1210L;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D80F957/4BF8F93B;
 Reference = C140;
 ValeurCmp = 470uf;
-IdModule  = SM0805-C1;
+IdModule  = SM2112L;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D80F957/489512E0;
 Reference = C141;
 ValeurCmp = 100nF;
-IdModule  = SM0805-C1;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D80F957/4BF8F93E;
 Reference = C142;
 ValeurCmp = 10nF;
-IdModule  = SM0805-C1;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D80F957/4BF8F93C;
 Reference = C143;
 ValeurCmp = 10uF;
-IdModule  = SM0805-C1;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D80F957/4BF8F93A;
 Reference = C144;
 ValeurCmp = 10nF;
-IdModule  = SM0805-C1;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -1180,14 +1180,14 @@ BeginCmp
 TimeStamp = /4C94FDB6/4D86F760;
 Reference = D115;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CAB878F/4D86F7A4;
 Reference = D116;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = LED-0805;
 EndCmp
 
 BeginCmp
@@ -2748,7 +2748,7 @@ BeginCmp
 TimeStamp = /4C94FDB6/4D86F74F;
 Reference = R268;
 ValeurCmp = 1k;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -2769,7 +2769,7 @@ BeginCmp
 TimeStamp = /4CAB878F/4D86F7AC;
 Reference = R271;
 ValeurCmp = 1k;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp

@@ -1,11 +1,6 @@
-3. change RPM resistors 100% Done
-4. change USB connector ?% done
 5. populate other component properties ?% done
-6. reset delay 100% done
 7. update VReg for non linear reg ?% done
 8. EGT mods ?% done
-10. change map circuit (R133, R134) 100% done
-11. bigger hole in signal connector 100% Done
 15. rotate silkscreens ?% done
 17. remove some mask for a better heat transfer from the mcu and stepper ?% done
 18. Change 33v zener diode footprint ?% done
@@ -14,7 +9,6 @@
 23. 5.00v voltage reference for Vref ?% done
 25. MAP and AAP mounting ?% done
 32. more test pins to verify components are correct
-33. RPM LED
 34. Text searchable PDF
 35. finish and check the connection .xls sheet
 36. connector under s12X for expansion options on the connector card.

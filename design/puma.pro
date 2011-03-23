@@ -1,4 +1,4 @@
-update=2/17/2011 8:25:10 AM
+update=Tue 22 Mar 2011 08:58:13 PM ART
 last_client=pcbnew
 [cvpcb]
 version=1
@@ -77,10 +77,6 @@ PadDrlX=400
 PadDimH=600
 PadDimV=600
 BoardThickness=630
-RouteTo=15
-RouteBo=0
-Segm45=1
-Racc45=1
 SgPcb45=1
 TxtPcbV=200
 TxtPcbH=170
@@ -92,7 +88,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=50
-WpenSer=20
+LastNetListRead=puma.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
