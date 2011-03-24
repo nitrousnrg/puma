@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 23 Mar 2011 04:02:19 PM ART
+EESchema Schematic File Version 2  date Thu 24 Mar 2011 02:16:15 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 16 55
 Title "Puma board"
-Date "23 mar 2011"
+Date "24 mar 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,31 +41,25 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 4900 3400
+Connection ~ 6850 2700
 Wire Wire Line
-	7450 3100 7350 3100
+	6850 2700 6850 2600
 Wire Wire Line
-	7350 3100 7350 3000
+	6850 2600 6900 2600
 Connection ~ 8200 3500
 Connection ~ 4000 2450
 Wire Wire Line
-	4000 2900 4000 2450
-Wire Wire Line
-	4000 2450 4000 2300
+	4000 2300 4000 2900
 Wire Wire Line
 	4000 2300 8200 2300
 Wire Wire Line
-	8200 2300 8200 3500
-Wire Wire Line
-	8200 3500 8200 3800
+	8200 2300 8200 3800
 Wire Wire Line
 	4000 2900 3800 2900
 Wire Wire Line
 	4900 3000 3800 3000
 Wire Wire Line
-	5850 4800 5850 4700
-Wire Wire Line
-	5850 4700 5850 4600
+	5850 4600 5850 4800
 Wire Wire Line
 	4700 4450 4700 4350
 Wire Wire Line
@@ -73,26 +67,18 @@ Wire Wire Line
 Wire Wire Line
 	8200 3800 8100 3800
 Wire Wire Line
-	8200 3500 8100 3500
+	8100 3500 8200 3500
 Wire Wire Line
 	7600 3800 7500 3800
 Wire Wire Line
-	4800 2750 4800 2650
-Wire Wire Line
-	4800 2650 4800 2450
+	4800 2750 4800 2450
 Wire Wire Line
 	4800 2750 4900 2750
 Connection ~ 5850 4700
 Wire Wire Line
 	6150 4600 6150 4700
 Wire Wire Line
-	6150 4700 6000 4700
-Wire Wire Line
-	6000 4700 5850 4700
-Wire Wire Line
-	5850 4700 5700 4700
-Wire Wire Line
-	5700 4700 5550 4700
+	6150 4700 5550 4700
 Wire Wire Line
 	5550 4700 5550 4600
 Wire Wire Line
@@ -127,27 +113,27 @@ Wire Wire Line
 Wire Wire Line
 	3800 3100 4900 3100
 Wire Wire Line
-	4800 2450 4450 2450
-Wire Wire Line
-	4450 2450 4000 2450
+	4800 2450 4000 2450
 Connection ~ 4450 2450
 Wire Wire Line
 	7150 2700 6750 2700
 Wire Wire Line
-	7700 2700 7550 2700
-Text HLabel 7450 3100 2    60   Input ~ 0
+	7350 2400 7350 2300
+Connection ~ 7350 2300
+NoConn ~ 4900 3400
+Text HLabel 7550 2700 2    60   Input ~ 0
 VCC-IO
 Text Label 4000 2300 0    60   ~ 0
 5v_USB
 $Comp
 L PNP Q18
 U 1 1 4D804F39
-P 7350 2800
-F 0 "Q18" H 7350 2650 60  0000 R CNN
-F 1 "PNP" H 7350 2950 60  0000 R CNN
-F 2 "SOT23EBC" H 7350 2800 60  0001 C CNN
-	1    7350 2800
-	0    1    -1   0   
+P 7350 2600
+F 0 "Q18" H 7350 2450 60  0000 R CNN
+F 1 "PNP" H 7350 2750 60  0000 R CNN
+F 2 "SOT23EBC" H 7350 2600 60  0001 C CNN
+	1    7350 2600
+	0    -1   1    0   
 $EndComp
 NoConn ~ 4900 3500
 NoConn ~ 6750 3700
@@ -213,7 +199,7 @@ F 1 "GND" H 4700 4380 30  0001 C CNN
 	1    4700 4450
 	1    0    0    -1  
 $EndComp
-Text HLabel 7700 2700 2    60   Input ~ 0
+Text HLabel 6900 2600 2    60   Input ~ 0
 TX
 Text HLabel 6750 2800 2    60   Input ~ 0
 RX
