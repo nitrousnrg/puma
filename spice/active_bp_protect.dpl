@@ -1,0 +1,49 @@
+<Qucs Schematic 0.0.16>
+<Properties>
+  <View=-15,-68,1050,802,0.8,0,0>
+  <Grid=10,10,0>
+  <DataSet=active_bp_protect.dat>
+  <DataDisplay=active_bp_protect.sch>
+  <OpenDisplay=1>
+  <Script=active_bp_protect.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+  <.ID -20 -16 SUB>
+  <Line -20 20 40 0 #000080 2 1>
+  <Line 20 20 0 -40 #000080 2 1>
+  <Line -20 -20 40 0 #000080 2 1>
+  <Line -20 20 0 -40 #000080 2 1>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 110 630 553 235 3 #c0c0c0 1 00 1 0 0.2 2 1 -1 0.5 1 1 -1 0.5 1 315 0 225 "" "" "">
+	<"Output.V" #0000ff 0 3 0 0 0>
+	<"V1.I" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 100 320 561 288 3 #c0c0c0 1 00 1 -1 0.2 1 1 -1 0.5 1 1 -1 0.5 1 315 0 225 "" "" "">
+	<"Output.v" #0000ff 0 3 0 0 0>
+	<"V1.i" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Tab 710 620 300 200 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 3000 315 0 225 "" "" "">
+	<"Input.v" #0000ff 0 3 1 0 0>
+	<"Output.v" #0000ff 0 3 1 0 0>
+  </Tab>
+  <Rect 757 175 240 160 3 #c0c0c0 1 00 1 0 0.02 0.1 1 -1 1 1 1 -1 1 1 315 0 225 "" "" "">
+	<"Output.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 757 375 240 160 3 #c0c0c0 1 00 0 0.001 0.0002 0.003 1 -1 1 1 1 -1 1 1 315 0 225 "" "" "">
+	<"OutV.Vt" #0000ff 0 3 0 0 0>
+	<"Input.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
