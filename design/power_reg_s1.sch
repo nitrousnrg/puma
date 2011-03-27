@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 27 Mar 2011 12:21:06 AM ART
+EESchema Schematic File Version 2  date Sun 27 Mar 2011 01:40:50 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -41,10 +41,27 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 4650 4750 0    60   ~ 0
-MBRA210LT3G
-Text Notes 2750 5000 0    60   ~ 0
-* That capacitor shouldn't be there\n* Its a 2A IC, plenty of horsepower for both regs\n* chack availability of diode, cap and inductor
+$Comp
+L C C?
+U 1 1 4BF8F93E
+P 6300 4000
+AR Path="/4D57EDA9/4BF8F93E" Ref="C?"  Part="1" 
+AR Path="/4C2E1E55/4BF8F93E" Ref="C?"  Part="1" 
+AR Path="/4D80F957/4BF8F93E" Ref="C142"  Part="1" 
+F 0 "C142" H 6420 4090 50  0000 L CNN
+F 1 "10nF" H 6350 3900 50  0000 L CNN
+F 2 "SM0805-C1" V 2580 3100 60  0001 C CNN
+F 4 "murata,GRM216R71H103JA01D" V 2580 3100 60  0001 C CNN "mfg,#"
+F 5 "newark,38K1697" V 2580 3100 60  0001 C CNN "vend,#"
+F 6 "-,-" V 2580 3100 60  0001 C CNN "Field3"
+F 7 "-,-" V 2580 3100 60  0001 C CNN "Field4"
+F 8 "50,V" V 2580 3100 60  0001 C CNN "Field5"
+F 9 "5,%" V 2580 3100 60  0001 C CNN "Field6"
+F 10 "ceramic" V 2580 3100 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 2580 3100 60  0001 C CNN "Field8"
+	1    6300 4000
+	-1   0    0    -1  
+$EndComp
 Connection ~ 5500 2600
 Connection ~ 4600 2600
 Wire Wire Line
@@ -111,6 +128,10 @@ Wire Wire Line
 Wire Wire Line
 	7150 4200 5650 4200
 Connection ~ 6800 4200
+Text Notes 4650 4750 0    60   ~ 0
+MBRA210LT3G
+Text Notes 2750 5000 0    60   ~ 0
+* That capacitor shouldn't be there\n* Its a 2A IC, plenty of horsepower for both regs\n* chack availability of diode, cap and inductor
 $Comp
 L R R?
 U 1 1 4BF8F945
@@ -119,7 +140,7 @@ AR Path="/4D57EDA9/4BF8F945" Ref="R?"  Part="1"
 AR Path="/4C2E1E55/4BF8F945" Ref="R?"  Part="1" 
 AR Path="/4D80F957/4BF8F945" Ref="R272"  Part="1" 
 F 0 "R272" V 3180 3900 50  0000 C CNN
-F 1 "2.7k 1%" V 3000 3900 50  0000 C CNN
+F 1 "3.6K 1%" V 3000 3900 50  0000 C CNN
 F 2 "SM0805" V 2380 1450 60  0001 C CNN
 F 4 "Vishay,CRCW08052K70FKEA" V -2520 3200 60  0001 C CNN "mfg,#"
 F 5 "newark,52K9964" V -2520 3200 60  0001 C CNN "vend,#"
@@ -140,7 +161,7 @@ AR Path="/4D57EDA9/4BF8F944" Ref="C?"  Part="1"
 AR Path="/4C2E1E55/4BF8F944" Ref="C?"  Part="1" 
 AR Path="/4D80F957/4BF8F944" Ref="C136"  Part="1" 
 F 0 "C136" V 4560 3830 50  0000 L CNN
-F 1 "22uF" V 4550 3450 50  0000 L CNN
+F 1 "3.3nF" V 4550 3450 50  0000 L CNN
 F 2 "SM0805-C1" V 2980 2750 60  0001 C CNN
 F 4 "ill cap,226CKH050M" V 2980 2750 60  0001 C CNN "mfg,#"
 F 5 "newark,69K7919" V 2980 2750 60  0001 C CNN "vend,#"
@@ -184,8 +205,9 @@ AR Path="/4D57EDA9/4BF8F942" Ref="L?"  Part="1"
 AR Path="/4C2E1E55/4BF8F942" Ref="L?"  Part="1" 
 AR Path="/4D80F957/4BF8F942" Ref="L2"  Part="1" 
 F 0 "L2" V 5300 4200 40  0000 C CNN
-F 1 "150uH" V 5450 4200 40  0000 C CNN
+F 1 "47uH" V 5450 4200 40  0000 C CNN
 F 2 "SM100uH" H 5350 4200 60  0001 C CNN
+F 3 "PF0504.473NL Pulse Eng" H 5350 4200 60  0001 C CNN
 F 4 "bourns,PM3316-151M-RC" H 5350 4200 60  0001 C CNN "mfg,#"
 F 5 "newark,63K3559" H 5350 4200 60  0001 C CNN "vend,#"
 F 6 "-,-" V 2980 2750 60  0001 C CNN "Field3"
@@ -205,7 +227,7 @@ AR Path="/4D57EDA9/4BF8F941" Ref="C?"  Part="1"
 AR Path="/4C2E1E55/4BF8F941" Ref="C?"  Part="1" 
 AR Path="/4D80F957/4BF8F941" Ref="C137"  Part="1" 
 F 0 "C137" V 4540 4090 50  0000 L CNN
-F 1 "220pF" V 4400 3700 50  0000 L CNN
+F 1 "22pF" V 4400 3750 50  0000 L CNN
 F 2 "SM0805-C1" V 2980 3000 60  0001 C CNN
 F 4 "avx,08051A221JAT2A" V 2980 3000 60  0001 C CNN "mfg,#"
 F 5 "newark,96K4770" V 2980 3000 60  0001 C CNN "vend,#"
@@ -226,7 +248,7 @@ AR Path="/4D57EDA9/4BF8F940" Ref="R?"  Part="1"
 AR Path="/4C2E1E55/4BF8F940" Ref="R?"  Part="1" 
 AR Path="/4D80F957/4BF8F940" Ref="R273"  Part="1" 
 F 0 "R273" V 5130 3650 50  0000 C CNN
-F 1 "4.7k 1%" V 4950 3650 50  0000 C CNN
+F 1 "91k 1%" V 4950 3650 50  0000 C CNN
 F 2 "SM0805" V 2380 1450 60  0001 C CNN
 F 4 "panasonic,ERA6AEB472V" V -570 2950 60  0001 C CNN "mfg,#"
 F 5 "newark,08N2175" V -570 2950 60  0001 C CNN "vend,#"
@@ -247,7 +269,7 @@ AR Path="/4D57EDA9/4BF8F93F" Ref="R?"  Part="1"
 AR Path="/4C2E1E55/4BF8F93F" Ref="R?"  Part="1" 
 AR Path="/4D80F957/4BF8F93F" Ref="R274"  Part="1" 
 F 0 "R274" V 5930 3950 50  0000 C CNN
-F 1 "8.2K 1%" V 5750 3950 50  0000 C CNN
+F 1 "13K 1%" V 5750 3950 50  0000 C CNN
 F 2 "SM0805" V 2380 1450 60  0001 C CNN
 F 4 "Vishay,CRCW08058K20FKEA" V 230 3250 60  0001 C CNN "mfg,#"
 F 5 "newark,53K0479" V 230 3250 60  0001 C CNN "vend,#"
@@ -259,27 +281,6 @@ F 10 "thick film" V 230 3250 60  0001 C CNN "Field7"
 F 11 "other,more,stuff" V 230 3250 60  0001 C CNN "Field8"
 	1    5850 3950
 	1    0    0    1   
-$EndComp
-$Comp
-L C C?
-U 1 1 4BF8F93E
-P 6300 4000
-AR Path="/4D57EDA9/4BF8F93E" Ref="C?"  Part="1" 
-AR Path="/4C2E1E55/4BF8F93E" Ref="C?"  Part="1" 
-AR Path="/4D80F957/4BF8F93E" Ref="C142"  Part="1" 
-F 0 "C142" H 6420 4090 50  0000 L CNN
-F 1 "10nF" H 6350 3900 50  0000 L CNN
-F 2 "SM0805-C1" V 2580 3100 60  0001 C CNN
-F 4 "murata,GRM216R71H103JA01D" V 2580 3100 60  0001 C CNN "mfg,#"
-F 5 "newark,38K1697" V 2580 3100 60  0001 C CNN "vend,#"
-F 6 "-,-" V 2580 3100 60  0001 C CNN "Field3"
-F 7 "-,-" V 2580 3100 60  0001 C CNN "Field4"
-F 8 "50,V" V 2580 3100 60  0001 C CNN "Field5"
-F 9 "5,%" V 2580 3100 60  0001 C CNN "Field6"
-F 10 "ceramic" V 2580 3100 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 2580 3100 60  0001 C CNN "Field8"
-	1    6300 4000
-	-1   0    0    -1  
 $EndComp
 $Comp
 L DIODE D?

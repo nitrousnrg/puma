@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 27 Mar 2011 12:21:06 AM ART
+EESchema Schematic File Version 2  date Sun 27 Mar 2011 01:40:50 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
