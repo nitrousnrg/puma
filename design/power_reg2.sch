@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 24 Mar 2011 02:16:15 AM ART
+EESchema Schematic File Version 2  date Sun 27 Mar 2011 12:21:06 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 33 55
+Sheet 34 55
 Title "Puma board"
-Date "24 mar 2011"
+Date "27 mar 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -164,7 +164,7 @@ Text Notes 650  7250 0    60   ~ 0
 Text HLabel 7850 3300 2    60   Output ~ 0
 5v reg
 Text HLabel 2500 3300 0    60   Input ~ 0
-12v batt
+Vin
 Text HLabel 7850 3700 2    60   BiDi ~ 0
 gnd
 $Comp
