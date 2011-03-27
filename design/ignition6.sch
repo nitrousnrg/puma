@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 27 Mar 2011 01:40:50 PM ART
+EESchema Schematic File Version 2  date Sun 27 Mar 2011 02:28:35 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,7 +31,7 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 39 55
+Sheet 37 51
 Title "Puma board"
 Date "27 mar 2011"
 Rev "v0.02"
@@ -41,8 +41,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 4100 1650 0    60   ~ 0
-ing6
+Connection ~ 3650 2650
+Wire Wire Line
+	3650 2550 3650 2650
 Wire Wire Line
 	4300 2250 4100 2250
 Connection ~ 4100 1750
@@ -72,6 +73,20 @@ Wire Wire Line
 	3050 1450 2950 1450
 Wire Wire Line
 	4100 1850 4300 1850
+Wire Wire Line
+	3650 2150 3650 2050
+Connection ~ 3650 2050
+$Comp
+L ZENER D16
+U 1 1 4D8F70D0
+P 3650 2350
+F 0 "D16" H 3650 2450 50  0000 C CNN
+F 1 "5V1" H 3650 2250 40  0000 C CNN
+	1    3650 2350
+	0    -1   -1   0   
+$EndComp
+Text Label 4100 1650 0    60   ~ 0
+ing6
 $Comp
 L DIODE D76
 U 1 1 4C66EECE
@@ -95,7 +110,7 @@ L PIP-3104 Q1
 U 1 1 4C2F5337
 P 4000 2050
 F 0 "Q1" H 4010 2220 60  0000 R CNN
-F 1 "RFP30N06" H 4010 1900 60  0000 R CNN
+F 1 "RFP30N06" H 3850 2150 60  0000 R CNN
 F 2 "TO220_VERT" V 3930 2800 60  0001 C CNN
 F 4 "Fairchild Semi" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "RFP30N06LE" V 1130 2600 60  0001 C CNN "mfg#"

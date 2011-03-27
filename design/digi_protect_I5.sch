@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 27 Mar 2011 01:40:50 PM ART
+EESchema Schematic File Version 2  date Sun 27 Mar 2011 02:15:03 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,7 +31,7 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 37 55
+Sheet 36 53
 Title "Puma board"
 Date "27 mar 2011"
 Rev "v0.02"
