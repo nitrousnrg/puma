@@ -37,7 +37,9 @@ Note these sections are written as modules, such that sections are useful on the
 
 \section{Getting the hardware}
 
-The design and software is OpenSource and while you can technically build it by yourself, we recommend you purchase PUMA assembled. This is how you get the hardware, blah blah blah.
+The design and software is OpenSource and while you can technically build it by yourself, we recommend you purchase PUMA assembled.
+
+There are two ways to get an assembled board: sign up on forum.diyefi.org and ask for one, or go to \url{puma.freeems.org} and place an order.
 
 Spin 1 was offered as a bare board, semi-assembled board, and a couple were fully assembled, so there are notes about how to do some low level assembly, but future spins will likely remove these assembly notes.
 
@@ -220,7 +222,7 @@ For digital crank/cam inputs, leave VR(-) floating and connect the signal wire t
 
 Connect power grounds as noted in \ref{fig:Spin1_front}. This is the single most important part of the assembly
 
-
+Don't make high currents go trough sensors ground, use at least 5(?) ground wires to the battery in your installation.
 
 %insist on the grounding
 
@@ -254,7 +256,7 @@ Check you have 5v or 2.5v in all the required VDD pins. Check continuity in the 
 \section{Spin1 specific notes}
 
 \begin{enumerate}
-\item This spin has several modifications. Start these modifications by cut the wrong traces, and adding jumpers as shown below.
+\item This spin has several modifications. Start these modifications by cutting the wrong traces, and adding jumpers as shown below.
 
 The FT232 IC needs also a transisitor or it will make the mcu start always in SM mode.
 
@@ -310,7 +312,7 @@ It should get connected, program it, verify, and never complain.
 
 \item Load FreeEMS firmware, using seank's loader.
 
-\item Install  MTX and connect to the board to the PC to check that freeems is running.
+\item Install MTX and connect to the board to the PC to check that freeems is running.
 
 \end{enumerate}
 
