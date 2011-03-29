@@ -21,3 +21,4 @@ docs/LaTeX/*.pdf
 docs/LaTeX/*.out
 .~lock.*
 *.backup
+.*
