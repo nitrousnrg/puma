@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 27 Mar 2011 04:57:49 PM ART
+EESchema Schematic File Version 2  date Wed 30 Mar 2011 02:28:57 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 30 51
+Sheet 20 51
 Title "Puma board"
-Date "27 mar 2011"
+Date "30 mar 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "injector_drive.sch"
@@ -41,6 +41,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 3000 4050 0    60   ~ 0
+FJB102: D2PAK darlington
 $Comp
 L 2N6045 Q17
 U 1 1 4D66C965
@@ -252,7 +254,7 @@ AR Path="/4C2F3E27/4C2ED38A" Ref="#PWR060"  Part="1"
 AR Path="/4C2F3E07/4C2ED38A" Ref="#PWR062"  Part="1" 
 AR Path="/4C2F3DD9/4C2ED38A" Ref="#PWR064"  Part="1" 
 AR Path="/4C2F3BE4/4C2ED38A" Ref="#PWR066"  Part="1" 
-F 0 "#PWR066" H 6600 2750 30  0001 C CNN
+F 0 "#PWR046" H 6600 2750 30  0001 C CNN
 F 1 "GND" H 6600 2680 30  0001 C CNN
 	1    6600 2750
 	1    0    0    -1  
@@ -269,7 +271,7 @@ AR Path="/4C2F3E27/4C2ED354" Ref="#PWR061"  Part="1"
 AR Path="/4C2F3E07/4C2ED354" Ref="#PWR063"  Part="1" 
 AR Path="/4C2F3DD9/4C2ED354" Ref="#PWR065"  Part="1" 
 AR Path="/4C2F3BE4/4C2ED354" Ref="#PWR067"  Part="1" 
-F 0 "#PWR067" H 6100 3000 30  0001 C CNN
+F 0 "#PWR047" H 6100 3000 30  0001 C CNN
 F 1 "GND" H 6100 2930 30  0001 C CNN
 	1    6100 3000
 	1    0    0    -1  

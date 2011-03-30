@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-00-09 BZR 23xx)-stable date = Tue 22 Mar 2011 08:22:04 PM ART
+Cmp-Mod V01 Created by CvPCB (2010-00-09 BZR 23xx)-stable date = Wed 30 Mar 2011 03:19:15 PM ART
 
 BeginCmp
 TimeStamp = /4C2E1E53/4C2F529E;
@@ -29,7 +29,7 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C2E1E55/4D8815FC;
+TimeStamp = /4C2E1E55/4D893032;
 Reference = C8;
 ValeurCmp = 10uF;
 IdModule  = SM1210;
@@ -50,7 +50,7 @@ IdModule  = SM2512;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C2E1E55/4D8815FB;
+TimeStamp = /4C2E1E55/4D893031;
 Reference = C11;
 ValeurCmp = 2200uF;
 IdModule  = C1V8;
@@ -610,7 +610,7 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D80F957/4D8815FA;
+TimeStamp = /4D80F957/4D893030;
 Reference = C138;
 ValeurCmp = 100nF;
 IdModule  = SM0805;
@@ -1579,56 +1579,56 @@ BeginCmp
 TimeStamp = /4C2F3BE4/4D66C965;
 Reference = Q10;
 ValeurCmp = 2N6045;
-IdModule  = TO220_VERT;
+IdModule  = DPAK3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C2F3DD9/4D66C965;
 Reference = Q11;
 ValeurCmp = 2N6045;
-IdModule  = TO220_VERT;
+IdModule  = DPAK3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C2F3E07/4D66C965;
 Reference = Q12;
 ValeurCmp = 2N6045;
-IdModule  = TO220_VERT;
+IdModule  = DPAK3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C2F3E27/4D66C965;
 Reference = Q13;
 ValeurCmp = 2N6045;
-IdModule  = TO220_VERT;
+IdModule  = DPAK3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C2F3E39/4D66C965;
 Reference = Q14;
 ValeurCmp = 2N6045;
-IdModule  = TO220_VERT;
+IdModule  = DPAK3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C2F3E4C/4D66C965;
 Reference = Q15;
 ValeurCmp = 2N6045;
-IdModule  = TO220_VERT;
+IdModule  = DPAK3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C77BC96/4D66C965;
 Reference = Q16;
 ValeurCmp = 2N6045;
-IdModule  = TO220_VERT;
+IdModule  = DPAK3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C77BCB7/4D66C965;
 Reference = Q17;
 ValeurCmp = 2N6045;
-IdModule  = TO220_VERT;
+IdModule  = DPAK3;
 EndCmp
 
 BeginCmp
@@ -2335,7 +2335,7 @@ BeginCmp
 TimeStamp = /4C77BC96/4C2ED077;
 Reference = R207;
 ValeurCmp = 0.1_2W;
-IdModule  = R5;
+IdModule  = SM1812;
 EndCmp
 
 BeginCmp
