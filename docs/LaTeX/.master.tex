@@ -1,5 +1,5 @@
 \documentclass[12pt,a4paper,titlepage]{article}
-%\usepackage[hmargin=3cm,vmargin=3.5cm]{geometry}
+\usepackage[hmargin=2cm,vmargin=2.5cm]{geometry}
 \usepackage[latin1]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -37,7 +37,9 @@ Note these sections are written as modules, such that sections are useful on the
 
 \section{Getting the hardware}
 
-The design and software is OpenSource and while you can technically build it by yourself, we recommend you purchase PUMA assembled. This is how you get the hardware, blah blah blah.
+The design and software is OpenSource and while you can technically build it by yourself, we recommend you purchase PUMA assembled.
+
+There are two ways to get an assembled board: sign up on forum.diyefi.org and ask for one, or go to \url{puma.freeems.org} and place an order.
 
 Spin 1 was offered as a bare board, semi-assembled board, and a couple were fully assembled, so there are notes about how to do some low level assembly, but future spins will likely remove these assembly notes.
 
@@ -45,19 +47,19 @@ Spin 1 was offered as a bare board, semi-assembled board, and a couple were full
 
 Ok, you have the bare PCB, and it's going to need components installed on it to function as a EMS. This is what you need to do, in no particular order:
 \begin{itemize}
-\item Get the BOM from https://github.com/nitrousnrg/puma/blob/master/BOMs/order_BOM.xls, select which modules you need to have populated and get the components.
+\item Get the BOM from \url{https://github.com/nitrousnrg/puma/blob/master/BOMs/order_BOM.xls}, select which modules you need to have populated and the get the components.
 
 For digikey customers:
 
-The third page is a digikey formatted file, ready to saved as .csv to place the order_BOM.
+The third page is a digikey formatted file, ready to saved as .csv to place the order.
 
 For newark costumers:
 
-?
+
 
 For mouser costumers:
 
-?
+
 
 
 A few things to note:
@@ -100,9 +102,13 @@ You need:
 
 Buy, borrow or build a BDM pod compatible with Freescale S12
 
-\item CodeWarrior IDE
+This is an interesting one \url{http://www.flashgenie.net/USBDM.html}
 
-Get the CodeWarrior IDE from (???)
+\item CodeWarrior IDE or standalone app for code programming
+
+Get the CodeWarrior IDE from (???), or download a small app from
+
+\url{http://sourceforge.net/projects/usbdm/files/Version%204.5/1.%20Installation_4_5/USBDM_Win32_4_5.zip/download, check "HCS12_FlashProgrammer".}
 
 \item A Serial Monitor binary
 
@@ -216,7 +222,7 @@ For digital crank/cam inputs, leave VR(-) floating and connect the signal wire t
 
 Connect power grounds as noted in \ref{fig:Spin1_front}. This is the single most important part of the assembly
 
-
+Don't make high currents go trough sensors ground, use at least 5(?) ground wires to the battery in your installation.
 
 %insist on the grounding
 
@@ -250,11 +256,13 @@ Check you have 5v or 2.5v in all the required VDD pins. Check continuity in the 
 \section{Spin1 specific notes}
 
 \begin{enumerate}
-\item This spin has several modifications. Start these modifications by cut the wrong traces, and adding jumpers as shown below.
+\item This spin has several modifications. Start these modifications by cutting the wrong traces, and adding jumpers as shown below.
 
-The FT232 IC needs also a transisitor or it will make the mcu start always in SM mode (add picture of fred's board)
+The FT232 IC needs also a transisitor or it will make the mcu start always in SM mode.
 
-If you want blinking leds for the usb, there is a pulldown that should be a pullup (add another  fred's pic)
+If you want blinking leds for the usb, there is a pulldown that should be a pullup.
+
+\includegraphics[width=0.95\textwidth]{images/FT232_sch.png}
 
 \begin{figure}[htb]
   \centering
@@ -304,7 +312,7 @@ It should get connected, program it, verify, and never complain.
 
 \item Load FreeEMS firmware, using seank's loader.
 
-\item Install  MTX and connect to the board to the PC to check that freeems is running.
+\item Install MTX and connect to the board to the PC to check that freeems is running.
 
 \end{enumerate}
 
