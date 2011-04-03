@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sun 03 Apr 2011 02:15:33 PM ART
+# EESchema Netlist Version 1.1 created  Sun 03 Apr 2011 03:39:18 PM ART
 (
  ( /4C2E1E53/4C2F529E SM1210 C2 10uF
   ( 1 /voltage1 )
@@ -572,11 +572,11 @@
   ( 1 N-000257 )
   ( 2 /injecto23 )
  )
- ( /4C77BC96/4C2ED0C2 D3 D90 33v_5w
+ ( /4C77BC96/4C2ED0C2 SM2512 D90 33v_5w
   ( 1 N-000268 )
   ( 2 /inj7 )
  )
- ( /4C77BCB7/4C2ED0C2 D3 D91 33v_5w
+ ( /4C77BCB7/4C2ED0C2 SM2512 D91 33v_5w
   ( 1 N-000274 )
   ( 2 /injecto24 )
  )
@@ -1348,7 +1348,7 @@
   ( 1 N-000275 )
   ( 2 /injecto50 )
  )
- ( /4C77BCB7/4C2ED077 R5 R210 0.1_2W
+ ( /4C77BCB7/4C2ED077 SM1812 R210 0.1_2W
   ( 1 /injecto5 )
   ( 2 N-000274 )
  )
