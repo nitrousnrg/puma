@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 30 Mar 2011 02:28:56 PM ART
+EESchema Schematic File Version 2  date Sun 03 Apr 2011 02:26:24 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A3 16535 11700
 Sheet 15 51
 Title "Puma board"
-Date "30 mar 2011"
+Date "3 apr 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,6 +41,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	10000 7150 9650 7150
+Wire Wire Line
+	9650 7150 9650 6550
+Wire Wire Line
+	9650 6550 9150 6550
 Wire Wire Line
 	3950 6050 3950 5900
 Wire Wire Line
@@ -315,36 +321,46 @@ Wire Wire Line
 	10650 6450 10650 6550
 Wire Wire Line
 	3950 4700 3950 4850
+Wire Wire Line
+	10500 7150 10650 7150
 $Comp
-L C C?
+L R R276
+U 1 1 4D97835F
+P 10250 7150
+F 0 "R276" V 10200 7350 50  0000 C CNN
+F 1 "1.6k" V 10250 7150 50  0000 C CNN
+	1    10250 7150
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_8 P71
+U 1 1 4D97835E
+P 11000 6900
+F 0 "P71" V 10950 6900 60  0000 C CNN
+F 1 "COMMS" V 11050 6900 60  0000 C CNN
+	1    11000 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C145
 U 1 1 4D8A43A0
 P 3950 5700
-F 0 "C?" H 4000 5800 50  0000 L CNN
+F 0 "C145" H 4000 5800 50  0000 L CNN
 F 1 "0.1uF" H 4000 5600 50  0000 L CNN
 	1    3950 5700
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R275
 U 1 1 4D8A438D
 P 3950 5100
-F 0 "R?" V 4030 5100 50  0000 C CNN
-F 1 "R" V 3950 5100 50  0000 C CNN
+F 0 "R275" V 4030 5100 50  0000 C CNN
+F 1 "10k" V 3950 5100 50  0000 C CNN
 	1    3950 5100
 	1    0    0    -1  
 $EndComp
 Text HLabel 10500 6450 0    60   Input ~ 0
 5v_switched
-$Comp
-L CONN_7 P71
-U 1 1 4D80491E
-P 11000 6850
-F 0 "P71" V 10970 6850 60  0000 C CNN
-F 1 "COMMS" V 11070 6850 60  0000 C CNN
-F 2 "PIN_ARRAY-6X1" H 11000 6850 60  0001 C CNN
-	1    11000 6850
-	1    0    0    1   
-$EndComp
 $Comp
 L C C101
 U 1 1 4D66CBA7
@@ -427,14 +443,13 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    6250 7850
 	0    1    1    0   
 $EndComp
-NoConn ~ 9150 6550
 $Comp
 L GND #PWR025
 U 1 1 4CD72254
-P 10650 7150
-F 0 "#PWR025" H 10650 7150 30  0001 C CNN
-F 1 "GND" H 10650 7080 30  0001 C CNN
-	1    10650 7150
+P 10650 7250
+F 0 "#PWR025" H 10650 7250 30  0001 C CNN
+F 1 "GND" H 10650 7180 30  0001 C CNN
+	1    10650 7250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -676,8 +691,8 @@ $Comp
 L R R180
 U 1 1 4C58B0FD
 P 2300 5050
-F 0 "R180" V -5220 6950 50  0000 C CNN
-F 1 "4.7K" V -5300 6950 50  0000 C CNN
+F 0 "R180" V 2200 5050 50  0000 C CNN
+F 1 "10k" V 2300 5050 50  0000 C CNN
 F 2 "SM0805" V -7020 4600 60  0001 C CNN
 F 4 "Murata" V -7020 4600 60  0001 C CNN "mfg"
 F 5 "GRM21BR71H104KA01L" V -7020 4600 60  0001 C CNN "mfg#"

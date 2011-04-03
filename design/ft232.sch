@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 30 Mar 2011 02:28:57 PM ART
+EESchema Schematic File Version 2  date Sun 03 Apr 2011 02:26:24 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 16 51
 Title "Puma board"
-Date "30 mar 2011"
+Date "3 apr 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -191,10 +191,10 @@ F 7 "768-1007-1-ND" H 5850 3400 60  0001 C CNN "vend1#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR037
+L GND #PWR036
 U 1 1 4BC539AF
 P 4700 4450
-F 0 "#PWR037" H 4700 4450 30  0001 C CNN
+F 0 "#PWR036" H 4700 4450 30  0001 C CNN
 F 1 "GND" H 4700 4380 30  0001 C CNN
 	1    4700 4450
 	1    0    0    -1  
@@ -222,10 +222,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR038
+L GND #PWR037
 U 1 1 4BC53726
 P 4450 2950
-F 0 "#PWR038" H 4450 2950 30  0001 C CNN
+F 0 "#PWR037" H 4450 2950 30  0001 C CNN
 F 1 "GND" H 4450 2880 30  0001 C CNN
 	1    4450 2950
 	1    0    0    -1  
@@ -249,10 +249,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L GND #PWR038
 U 1 1 4BC536D5
 P 3850 3300
-F 0 "#PWR039" H 3850 3300 30  0001 C CNN
+F 0 "#PWR038" H 3850 3300 30  0001 C CNN
 F 1 "GND" H 3850 3230 30  0001 C CNN
 	1    3850 3300
 	1    0    0    -1  
@@ -310,10 +310,10 @@ F 9 "59J0790" H 3600 3050 60  0001 C CNN "vend2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
+L GND #PWR039
 U 1 1 4BC5356A
 P 5850 4800
-F 0 "#PWR040" H 5850 4800 30  0001 C CNN
+F 0 "#PWR039" H 5850 4800 30  0001 C CNN
 F 1 "GND" H 5850 4730 30  0001 C CNN
 	1    5850 4800
 	1    0    0    -1  

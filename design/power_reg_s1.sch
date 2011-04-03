@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 30 Mar 2011 02:28:56 PM ART
+EESchema Schematic File Version 2  date Sun 03 Apr 2011 02:26:24 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 2 51
 Title "Puma board"
-Date "30 mar 2011"
+Date "3 apr 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "power regulator"
@@ -41,31 +41,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L C C?
-U 1 1 4BF8F93E
-P 6300 4000
-AR Path="/4D57EDA9/4BF8F93E" Ref="C?"  Part="1" 
-AR Path="/4C2E1E55/4BF8F93E" Ref="C?"  Part="1" 
-AR Path="/4D80F957/4BF8F93E" Ref="C142"  Part="1" 
-F 0 "C142" H 6420 4090 50  0000 L CNN
-F 1 "10nF" H 6350 3900 50  0000 L CNN
-F 2 "SM0805-C1" V 2580 3100 60  0001 C CNN
-F 4 "murata,GRM216R71H103JA01D" V 2580 3100 60  0001 C CNN "mfg,#"
-F 5 "newark,38K1697" V 2580 3100 60  0001 C CNN "vend,#"
-F 6 "-,-" V 2580 3100 60  0001 C CNN "Field3"
-F 7 "-,-" V 2580 3100 60  0001 C CNN "Field4"
-F 8 "50,V" V 2580 3100 60  0001 C CNN "Field5"
-F 9 "5,%" V 2580 3100 60  0001 C CNN "Field6"
-F 10 "ceramic" V 2580 3100 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 2580 3100 60  0001 C CNN "Field8"
-	1    6300 4000
-	-1   0    0    -1  
-$EndComp
 Connection ~ 5500 2600
 Connection ~ 4600 2600
 Wire Wire Line
-	4750 2600 3750 2600
+	4750 2600 4600 2600
+Wire Wire Line
+	4600 2600 4250 2600
+Wire Wire Line
+	4250 2600 3800 2600
+Wire Wire Line
+	3800 2600 3750 2600
 Connection ~ 3800 2600
 Connection ~ 4600 3000
 Connection ~ 6000 3000
@@ -74,40 +59,65 @@ Wire Wire Line
 Connection ~ 5500 3000
 Connection ~ 4250 3000
 Wire Wire Line
-	6250 3000 3300 3000
+	6250 3000 6000 3000
+Wire Wire Line
+	6000 3000 5500 3000
+Wire Wire Line
+	5500 3000 4600 3000
+Wire Wire Line
+	4600 3000 4250 3000
+Wire Wire Line
+	4250 3000 3800 3000
+Wire Wire Line
+	3800 3000 3300 3000
 Connection ~ 3800 3000
 Connection ~ 4250 2600
 Wire Wire Line
-	5350 2600 6250 2600
+	5350 2600 5500 2600
+Wire Wire Line
+	5500 2600 6000 2600
+Wire Wire Line
+	6000 2600 6250 2600
 Connection ~ 6000 2600
 Wire Wire Line
-	3200 2600 3350 2600
+	3200 2600 3300 2600
+Wire Wire Line
+	3300 2600 3350 2600
 Connection ~ 3300 2600
 Connection ~ 6300 4600
 Wire Wire Line
-	6800 4600 2850 4600
+	6800 4600 6300 4600
 Wire Wire Line
-	3350 3450 6300 3450
+	6300 4600 5850 4600
+Wire Wire Line
+	5850 4600 4950 4600
+Wire Wire Line
+	4950 4600 2850 4600
+Wire Wire Line
+	3350 3450 5850 3450
 Connection ~ 4700 4100
 Wire Wire Line
 	5300 3650 5300 4100
 Wire Wire Line
-	5300 4100 4100 4100
+	5300 4100 4700 4100
+Wire Wire Line
+	4700 4100 4100 4100
 Wire Wire Line
 	4700 4100 4700 3900
 Wire Wire Line
 	4300 3650 4300 3900
-Connection ~ 6300 3700
 Wire Wire Line
 	3350 3450 3350 3900
 Wire Wire Line
-	6300 3450 6300 3800
+	5850 3450 5850 3700
 Connection ~ 6300 4200
 Connection ~ 5850 4200
 Connection ~ 5850 4600
 Connection ~ 2850 4100
 Wire Wire Line
-	2850 4600 2850 3900
+	2850 4600 2850 4100
+Wire Wire Line
+	2850 4100 2850 3900
 Wire Wire Line
 	3350 3900 3500 3900
 Wire Wire Line
@@ -116,9 +126,11 @@ Wire Wire Line
 	2850 4100 3500 4100
 Connection ~ 4950 4600
 Wire Wire Line
-	6300 3700 5850 3700
+	5850 3700 5850 3700
 Wire Wire Line
-	4100 4200 5050 4200
+	4100 4200 4950 4200
+Wire Wire Line
+	4950 4200 5050 4200
 Connection ~ 4950 4200
 Wire Wire Line
 	4800 3650 4700 3650
@@ -126,12 +138,18 @@ Connection ~ 4300 3900
 Wire Wire Line
 	4300 3900 4100 3900
 Wire Wire Line
-	7150 4200 5650 4200
+	7150 4200 6800 4200
+Wire Wire Line
+	6800 4200 6300 4200
+Wire Wire Line
+	6300 4200 5850 4200
+Wire Wire Line
+	5850 4200 5650 4200
 Connection ~ 6800 4200
 Text Notes 4650 4750 0    60   ~ 0
 MBRA210LT3G
 Text Notes 2750 5000 0    60   ~ 0
-* That capacitor shouldn't be there\n* Its a 2A IC, plenty of horsepower for both regs\n* chack availability of diode, cap and inductor
+* Its a 2A IC, plenty of horsepower for both regs\n* chack availability of diode, cap and inductor
 $Comp
 L R R?
 U 1 1 4BF8F945
@@ -161,7 +179,7 @@ AR Path="/4D57EDA9/4BF8F944" Ref="C?"  Part="1"
 AR Path="/4C2E1E55/4BF8F944" Ref="C?"  Part="1" 
 AR Path="/4D80F957/4BF8F944" Ref="C136"  Part="1" 
 F 0 "C136" V 4560 3830 50  0000 L CNN
-F 1 "3.3nF" V 4550 3450 50  0000 L CNN
+F 1 "5.6nF" V 4550 3450 50  0000 L CNN
 F 2 "SM0805-C1" V 2980 2750 60  0001 C CNN
 F 4 "ill cap,226CKH050M" V 2980 2750 60  0001 C CNN "mfg,#"
 F 5 "newark,69K7919" V 2980 2750 60  0001 C CNN "vend,#"
@@ -205,10 +223,10 @@ AR Path="/4D57EDA9/4BF8F942" Ref="L?"  Part="1"
 AR Path="/4C2E1E55/4BF8F942" Ref="L?"  Part="1" 
 AR Path="/4D80F957/4BF8F942" Ref="L2"  Part="1" 
 F 0 "L2" V 5300 4200 40  0000 C CNN
-F 1 "47uH" V 5450 4200 40  0000 C CNN
+F 1 "DR125-330-R" V 5450 4200 40  0000 C CNN
 F 2 "SM100uH" H 5350 4200 60  0001 C CNN
 F 3 "PF0504.473NL Pulse Eng" H 5350 4200 60  0001 C CNN
-F 4 "bourns,PM3316-151M-RC" H 5350 4200 60  0001 C CNN "mfg,#"
+F 4 "DR125-330-R" H 5350 4200 60  0001 C CNN "mfg,#"
 F 5 "newark,63K3559" H 5350 4200 60  0001 C CNN "vend,#"
 F 6 "-,-" V 2980 2750 60  0001 C CNN "Field3"
 F 7 "-,-" V 2980 2750 60  0001 C CNN "Field4"
@@ -227,7 +245,7 @@ AR Path="/4D57EDA9/4BF8F941" Ref="C?"  Part="1"
 AR Path="/4C2E1E55/4BF8F941" Ref="C?"  Part="1" 
 AR Path="/4D80F957/4BF8F941" Ref="C137"  Part="1" 
 F 0 "C137" V 4540 4090 50  0000 L CNN
-F 1 "22pF" V 4400 3750 50  0000 L CNN
+F 1 "27pF" V 4400 3750 50  0000 L CNN
 F 2 "SM0805-C1" V 2980 3000 60  0001 C CNN
 F 4 "avx,08051A221JAT2A" V 2980 3000 60  0001 C CNN "mfg,#"
 F 5 "newark,96K4770" V 2980 3000 60  0001 C CNN "vend,#"
@@ -248,7 +266,7 @@ AR Path="/4D57EDA9/4BF8F940" Ref="R?"  Part="1"
 AR Path="/4C2E1E55/4BF8F940" Ref="R?"  Part="1" 
 AR Path="/4D80F957/4BF8F940" Ref="R273"  Part="1" 
 F 0 "R273" V 5130 3650 50  0000 C CNN
-F 1 "91k 1%" V 4950 3650 50  0000 C CNN
+F 1 "39k 1%" V 4950 3650 50  0000 C CNN
 F 2 "SM0805" V 2380 1450 60  0001 C CNN
 F 4 "panasonic,ERA6AEB472V" V -570 2950 60  0001 C CNN "mfg,#"
 F 5 "newark,08N2175" V -570 2950 60  0001 C CNN "vend,#"
@@ -310,8 +328,8 @@ P 6300 4400
 AR Path="/4D57EDA9/4BF8F93C" Ref="C?"  Part="1" 
 AR Path="/4C2E1E55/4BF8F93C" Ref="C?"  Part="1" 
 AR Path="/4D80F957/4BF8F93C" Ref="C143"  Part="1" 
-F 0 "C143" H 6420 4500 50  0000 L CNN
-F 1 "10uF" H 6350 4300 50  0000 L CNN
+F 0 "C143" H 6100 4500 50  0000 L CNN
+F 1 "10uF" H 6100 4300 50  0000 L CNN
 F 2 "SM0805-C1" V 2580 3500 60  0001 C CNN
 F 4 "ill cap,106CKE200M" V 2580 3500 60  0001 C CNN "mfg,#"
 F 5 "newark,69K7896" V 2580 3500 60  0001 C CNN "vend,#"
@@ -331,11 +349,11 @@ P 5850 4400
 AR Path="/4D57EDA9/4BF8F93B" Ref="C?"  Part="1" 
 AR Path="/4C2E1E55/4BF8F93B" Ref="C?"  Part="1" 
 AR Path="/4D80F957/4BF8F93B" Ref="C140"  Part="1" 
-F 0 "C140" H 5980 4500 50  0000 L CNN
-F 1 "470uf" H 5900 4300 50  0000 L CNN
+F 0 "C140" H 5650 4500 50  0000 L CNN
+F 1 "T495X337K010ATE035" H 5650 4300 50  0000 L CNN
 F 2 "SM0805-C1" V 1730 3500 60  0001 C CNN
-F 3 "TPSE477M010R0050" H 5850 4400 60  0001 C CNN
-F 4 "ill cap,337CKE025M" V 1730 3500 60  0001 C CNN "mfg,#"
+F 3 "T495X337K010ATE035" H 5850 4400 60  0001 C CNN
+F 4 "T495X337K010ATE035" V 1730 3500 60  0001 C CNN "mfg,#"
 F 5 "newark,69K7939" V 1730 3500 60  0001 C CNN "vend,#"
 F 6 "-,-" V 1730 3500 60  0001 C CNN "Field3"
 F 7 "-,-" V 1730 3500 60  0001 C CNN "Field4"
@@ -361,8 +379,8 @@ P 6800 4400
 AR Path="/4D57EDA9/4BF8F93A" Ref="C?"  Part="1" 
 AR Path="/4C2E1E55/4BF8F93A" Ref="C?"  Part="1" 
 AR Path="/4D80F957/4BF8F93A" Ref="C144"  Part="1" 
-F 0 "C144" H 6900 4500 50  0000 L CNN
-F 1 "10nF" H 6850 4300 50  0000 L CNN
+F 0 "C144" H 6600 4500 50  0000 L CNN
+F 1 "10nF" H 6600 4300 50  0000 L CNN
 F 2 "SM0805-C1" V 3080 3500 60  0001 C CNN
 F 4 "murata,GRM216R71H103JA01D" V 2580 3100 60  0001 C CNN "mfg,#"
 F 5 "newark,38K1697" V 2580 3100 60  0001 C CNN "vend,#"

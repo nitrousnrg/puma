@@ -1,4 +1,4 @@
-update=Wed 30 Mar 2011 03:29:04 PM ART
+update=Sun 03 Apr 2011 02:34:47 PM ART
 last_client=pcbnew
 [cvpcb]
 version=1
@@ -73,13 +73,13 @@ LibName27=contrib
 LibName28=valves
 [pcbnew]
 version=1
-PadDrlX=400
-PadDimH=600
-PadDimV=600
+PadDrlX=0
+PadDimH=1516
+PadDimV=2165
 BoardThickness=630
 SgPcb45=1
-TxtPcbV=200
-TxtPcbH=170
+TxtPcbV=800
+TxtPcbH=600
 TxtModV=600
 TxtModH=600
 TxtModW=120
@@ -101,5 +101,6 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=../PCB-modules/free_EMS
-LibName12=../PCB-modules/LOGO
+LibName11=/home/marcos/electronica/puma/PCB-modules/free_EMS
+LibName12=/home/marcos/electronica/puma/screenshots/img2mod_v1.01/LOGO2
+LibName13=/home/marcos/electronica/puma/PCB-modules/LOGO
