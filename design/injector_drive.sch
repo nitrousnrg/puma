@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Apr 2011 05:08:53 PM ART
+EESchema Schematic File Version 2  date Mon 04 Apr 2011 08:42:54 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 20 51
 Title "Puma board"
-Date "3 apr 2011"
+Date "4 apr 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "injector_drive.sch"
@@ -254,7 +254,7 @@ AR Path="/4C2F3E27/4C2ED38A" Ref="#PWR059"  Part="1"
 AR Path="/4C2F3E07/4C2ED38A" Ref="#PWR061"  Part="1" 
 AR Path="/4C2F3DD9/4C2ED38A" Ref="#PWR063"  Part="1" 
 AR Path="/4C2F3BE4/4C2ED38A" Ref="#PWR065"  Part="1" 
-F 0 "#PWR045" H 6600 2750 30  0001 C CNN
+F 0 "#PWR065" H 6600 2750 30  0001 C CNN
 F 1 "GND" H 6600 2680 30  0001 C CNN
 	1    6600 2750
 	1    0    0    -1  
@@ -271,7 +271,7 @@ AR Path="/4C2F3E27/4C2ED354" Ref="#PWR060"  Part="1"
 AR Path="/4C2F3E07/4C2ED354" Ref="#PWR062"  Part="1" 
 AR Path="/4C2F3DD9/4C2ED354" Ref="#PWR064"  Part="1" 
 AR Path="/4C2F3BE4/4C2ED354" Ref="#PWR066"  Part="1" 
-F 0 "#PWR046" H 6100 3000 30  0001 C CNN
+F 0 "#PWR066" H 6100 3000 30  0001 C CNN
 F 1 "GND" H 6100 2930 30  0001 C CNN
 	1    6100 3000
 	1    0    0    -1  

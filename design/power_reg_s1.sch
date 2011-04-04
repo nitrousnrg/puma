@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Apr 2011 05:08:53 PM ART
+EESchema Schematic File Version 2  date Mon 04 Apr 2011 08:42:54 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 2 51
 Title "Puma board"
-Date "3 apr 2011"
+Date "4 apr 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "power regulator"
@@ -44,64 +44,34 @@ $EndDescr
 Connection ~ 5500 2600
 Connection ~ 4600 2600
 Wire Wire Line
-	4750 2600 4600 2600
-Wire Wire Line
-	4600 2600 4250 2600
-Wire Wire Line
-	4250 2600 3800 2600
-Wire Wire Line
-	3800 2600 3750 2600
+	4750 2600 3750 2600
 Connection ~ 3800 2600
 Connection ~ 4600 3000
 Connection ~ 6000 3000
 Wire Wire Line
-	6250 3050 6250 3000
+	6250 3000 6250 3050
 Connection ~ 5500 3000
 Connection ~ 4250 3000
 Wire Wire Line
-	6250 3000 6000 3000
-Wire Wire Line
-	6000 3000 5500 3000
-Wire Wire Line
-	5500 3000 4600 3000
-Wire Wire Line
-	4600 3000 4250 3000
-Wire Wire Line
-	4250 3000 3800 3000
-Wire Wire Line
-	3800 3000 3300 3000
+	3300 3000 6250 3000
 Connection ~ 3800 3000
 Connection ~ 4250 2600
 Wire Wire Line
-	5350 2600 5500 2600
-Wire Wire Line
-	5500 2600 6000 2600
-Wire Wire Line
-	6000 2600 6250 2600
+	5350 2600 6250 2600
 Connection ~ 6000 2600
 Wire Wire Line
-	3200 2600 3300 2600
-Wire Wire Line
-	3300 2600 3350 2600
+	3200 2600 3350 2600
 Connection ~ 3300 2600
 Connection ~ 6300 4600
 Wire Wire Line
-	6800 4600 6300 4600
+	2850 4600 6800 4600
 Wire Wire Line
-	6300 4600 5850 4600
-Wire Wire Line
-	5850 4600 4950 4600
-Wire Wire Line
-	4950 4600 2850 4600
-Wire Wire Line
-	3350 3450 5850 3450
+	5850 3450 3350 3450
 Connection ~ 4700 4100
 Wire Wire Line
-	5300 3650 5300 4100
+	5300 4100 5300 3650
 Wire Wire Line
-	5300 4100 4700 4100
-Wire Wire Line
-	4700 4100 4100 4100
+	4100 4100 5300 4100
 Wire Wire Line
 	4700 4100 4700 3900
 Wire Wire Line
@@ -109,15 +79,13 @@ Wire Wire Line
 Wire Wire Line
 	3350 3450 3350 3900
 Wire Wire Line
-	5850 3450 5850 3700
+	5850 3700 5850 3450
 Connection ~ 6300 4200
 Connection ~ 5850 4200
 Connection ~ 5850 4600
 Connection ~ 2850 4100
 Wire Wire Line
-	2850 4600 2850 4100
-Wire Wire Line
-	2850 4100 2850 3900
+	2850 3900 2850 4600
 Wire Wire Line
 	3350 3900 3500 3900
 Wire Wire Line
@@ -126,11 +94,7 @@ Wire Wire Line
 	2850 4100 3500 4100
 Connection ~ 4950 4600
 Wire Wire Line
-	5850 3700 5850 3700
-Wire Wire Line
-	4100 4200 4950 4200
-Wire Wire Line
-	4950 4200 5050 4200
+	4100 4200 5050 4200
 Connection ~ 4950 4200
 Wire Wire Line
 	4800 3650 4700 3650
@@ -138,13 +102,7 @@ Connection ~ 4300 3900
 Wire Wire Line
 	4300 3900 4100 3900
 Wire Wire Line
-	7150 4200 6800 4200
-Wire Wire Line
-	6800 4200 6300 4200
-Wire Wire Line
-	6300 4200 5850 4200
-Wire Wire Line
-	5850 4200 5650 4200
+	7150 4200 5650 4200
 Connection ~ 6800 4200
 Text Notes 4650 4750 0    60   ~ 0
 MBRA210LT3G

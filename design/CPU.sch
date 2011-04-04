@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Apr 2011 05:08:53 PM ART
+EESchema Schematic File Version 2  date Mon 04 Apr 2011 08:42:54 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A3 16535 11700
 Sheet 15 51
 Title "Puma board"
-Date "3 apr 2011"
+Date "4 apr 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -41,6 +41,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 11000 4850
+Text HLabel 11000 5050 0    60   Input ~ 0
+5v_switched
+Wire Wire Line
+	10500 7350 10650 7350
+Wire Wire Line
+	9900 7250 10000 7250
+Wire Wire Line
+	6850 4850 7100 4850
+Wire Wire Line
+	5800 4600 6150 4600
 Wire Wire Line
 	10000 7150 9650 7150
 Wire Wire Line
@@ -87,7 +98,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 2250 5900 2700
 Wire Wire Line
-	6250 2250 6250 2300
+	6250 2300 6250 2250
 Wire Wire Line
 	10450 2850 9150 2850
 Connection ~ 4350 3300
@@ -259,9 +270,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 4450 6750 4450
 Wire Wire Line
-	6750 4450 6750 4750
-Wire Wire Line
-	6750 4750 6650 4750
+	6750 4450 6750 4600
 Wire Wire Line
 	6650 4350 7100 4350
 Wire Wire Line
@@ -323,23 +332,79 @@ Wire Wire Line
 	3950 4700 3950 4850
 Wire Wire Line
 	10500 7150 10650 7150
+Wire Wire Line
+	6750 4600 6650 4600
+Wire Wire Line
+	6850 4750 7100 4750
+Wire Wire Line
+	10500 7250 10650 7250
+Wire Wire Line
+	9900 7350 10000 7350
+$Comp
+L GND #PWR?
+U 1 1 4D9A5693
+P 11000 4950
+F 0 "#PWR?" H 11000 4950 30  0001 C CNN
+F 1 "GND" H 11000 4880 30  0001 C CNN
+	1    11000 4950
+	1    0    0    -1  
+$EndComp
+Text Label 11700 5050 0    60   ~ 0
+SDA
+Text Label 11700 4850 0    60   ~ 0
+SCLK
+$Comp
+L TC74 U?
+U 1 1 4D9A5572
+P 11350 4950
+F 0 "U?" H 11350 4750 60  0000 C CNN
+F 1 "TC74" H 11350 5150 60  0000 C CNN
+	1    11350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R278
+U 1 1 4D9A4E3F
+P 10250 7350
+F 0 "R278" V 10200 7600 50  0000 C CNN
+F 1 "1.6k" V 10250 7350 50  0000 C CNN
+	1    10250 7350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R277
+U 1 1 4D9A4E39
+P 10250 7250
+F 0 "R277" V 10200 7500 50  0000 C CNN
+F 1 "1.6k" V 10250 7250 50  0000 C CNN
+	1    10250 7250
+	0    1    1    0   
+$EndComp
+Text Label 9900 7350 2    60   ~ 0
+SCLK
+Text Label 9900 7250 2    60   ~ 0
+SDA
+$Comp
+L CONN_10 P71
+U 1 1 4D9A4DD9
+P 11000 7000
+F 0 "P71" V 10950 7000 60  0000 C CNN
+F 1 "COMMS" V 11050 7000 60  0000 C CNN
+	1    11000 7000
+	1    0    0    -1  
+$EndComp
+Text Label 6850 4850 2    60   ~ 0
+SCLK
+Text Label 6850 4750 2    60   ~ 0
+SDA
 $Comp
 L R R276
 U 1 1 4D97835F
 P 10250 7150
-F 0 "R276" V 10200 7350 50  0000 C CNN
+F 0 "R276" V 10200 7400 50  0000 C CNN
 F 1 "1.6k" V 10250 7150 50  0000 C CNN
 	1    10250 7150
 	0    1    1    0   
-$EndComp
-$Comp
-L CONN_8 P71
-U 1 1 4D97835E
-P 11000 6900
-F 0 "P71" V 10950 6900 60  0000 C CNN
-F 1 "COMMS" V 11050 6900 60  0000 C CNN
-	1    11000 6900
-	1    0    0    -1  
 $EndComp
 $Comp
 L C C145
@@ -446,10 +511,10 @@ $EndComp
 $Comp
 L GND #PWR025
 U 1 1 4CD72254
-P 10650 7250
-F 0 "#PWR025" H 10650 7250 30  0001 C CNN
-F 1 "GND" H 10650 7180 30  0001 C CNN
-	1    10650 7250
+P 10650 7450
+F 0 "#PWR025" H 10650 7450 30  0001 C CNN
+F 1 "GND" H 10650 7380 30  0001 C CNN
+	1    10650 7450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -544,7 +609,7 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 $EndComp
 Text Label 3450 4700 2    60   ~ 0
 5v_microcontroller
-Text Label 6150 4750 2    60   ~ 0
+Text Label 5800 4600 2    60   ~ 0
 5v_microcontroller
 $Comp
 L GND #PWR026
@@ -771,19 +836,19 @@ $EndComp
 $Comp
 L R R179
 U 1 1 4C570957
-P 6400 4750
-F 0 "R179" V 6480 4750 50  0000 C CNN
-F 1 "10k" V 6400 4750 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"
-F 5 "RMCF0805JT10K0CT" V 1130 2600 60  0001 C CNN "mfg#"
-F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
-F 7 "RMCF0805JT10K0CT-ND" V 1130 2600 60  0001 C CNN "vend1#"
-F 8 ".125w" V 1130 2600 60  0001 C CNN "power"
-F 9 "5%" V 1130 2600 60  0001 C CNN "tol"
-F 10 "thick film" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
-	1    6400 4750
+P 6400 4600
+F 0 "R179" V 6480 4600 50  0000 C CNN
+F 1 "10k" V 6400 4600 50  0000 C CNN
+F 2 "SM0805" V 1130 2450 60  0001 C CNN
+F 4 "Stackpole" V 1130 2450 60  0001 C CNN "mfg"
+F 5 "RMCF0805JT10K0CT" V 1130 2450 60  0001 C CNN "mfg#"
+F 6 "digikey" V 1130 2450 60  0001 C CNN "vend1"
+F 7 "RMCF0805JT10K0CT-ND" V 1130 2450 60  0001 C CNN "vend1#"
+F 8 ".125w" V 1130 2450 60  0001 C CNN "power"
+F 9 "5%" V 1130 2450 60  0001 C CNN "tol"
+F 10 "thick film" V 1130 2450 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 1130 2450 60  0001 C CNN "misc"
+	1    6400 4600
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1031,10 +1096,6 @@ Text HLabel 9150 7850 2    60   BiDi ~ 0
 PM4
 Text HLabel 9150 7950 2    60   BiDi ~ 0
 PM5
-Text HLabel 7100 4750 0    60   BiDi ~ 0
-PJ6
-Text HLabel 7100 4850 0    60   BiDi ~ 0
-PJ7
 Text HLabel 7100 4550 0    60   BiDi ~ 0
 PJ0
 Text HLabel 7100 5750 0    60   BiDi ~ 0
