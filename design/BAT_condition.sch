@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 04 Apr 2011 08:42:54 PM ART
+EESchema Schematic File Version 2  date Mon 04 Apr 2011 11:43:54 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -31,9 +31,9 @@ LIBS:puma-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 53 51
+Sheet 48 51
 Title "Puma board"
-Date "4 apr 2011"
+Date "5 apr 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "BAT_condition"
@@ -41,14 +41,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 2250 1800 0    60   Input ~ 0
+connector_2
 Wire Wire Line
 	2250 2800 2500 2800
 Wire Wire Line
 	2250 1800 2500 1800
 Wire Wire Line
 	2250 2300 2500 2300
-Text HLabel 2250 1800 0    60   Output ~ 0
-12v_power
 $Comp
 L R R106
 U 1 1 4890FC9B
