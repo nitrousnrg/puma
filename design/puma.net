@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Mon 04 Apr 2011 08:52:04 PM ART
+# EESchema Netlist Version 1.1 created  Mon 04 Apr 2011 11:50:53 PM ART
 (
  ( /4C2E1E53/4C2F529E SM1210 C2 10uF
   ( 1 /voltage1 )
@@ -756,7 +756,7 @@
  ( /4C2E1E87/48AA1A36 PINTST P25 CONN_1
   ( 1 /misc_ou6 )
  )
- ( /4C2E1EA1/4D9A4DD9 PIN_ARRAY-6X1 P71 COMMS
+ ( /4C2E1EA1/4D9A4DD9 PIN_ARRAY_5x2 P71 COMMS
   ( 1 /injecto3 )
   ( 2 N-000210 )
   ( 3 N-000217 )
@@ -776,35 +776,35 @@
   ( 5 ? )
   ( 6 /voltage2 )
  )
- ( /4D98D2BD PINTST P76 inj6
+ ( /4D98D2BD PIN_ARRAY_2X1 P76 inj6
   ( 1 /inj6 )
   ( 2 /inj6 )
  )
- ( /4D98D2C6 PINTST P78 inj5
+ ( /4D98D2C6 PIN_ARRAY_2X1 P78 inj5
   ( 1 /injecto22 )
   ( 2 /injecto22 )
  )
- ( /4D98D2CD PINTST P80 inj4
+ ( /4D98D2CD PIN_ARRAY_2X1 P80 inj4
   ( 1 /inj4 )
   ( 2 /inj4 )
  )
- ( /4D98D2D1 PINTST P82 inj3
+ ( /4D98D2D1 PIN_ARRAY_2X1 P82 inj3
   ( 1 /injecto23 )
   ( 2 /injecto23 )
  )
- ( /4D98D2D4 PINTST P84 inj2
+ ( /4D98D2D4 PIN_ARRAY_2X1 P84 inj2
   ( 1 /inj2 )
   ( 2 /inj2 )
  )
- ( /4D98D2D8 PINTST P86 inj1
+ ( /4D98D2D8 PIN_ARRAY_2X1 P86 inj1
   ( 1 /inj1 )
   ( 2 /inj1 )
  )
- ( /4D98D268 PINTST P88 inj7
+ ( /4D98D268 PIN_ARRAY_2X1 P88 inj7
   ( 1 /inj7 )
   ( 2 /inj7 )
  )
- ( /4D98D269 PINTST P90 inj8
+ ( /4D98D269 PIN_ARRAY_2X1 P90 inj8
   ( 1 /injecto24 )
   ( 2 /injecto24 )
  )

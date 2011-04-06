@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-00-09 BZR 23xx)-stable date = Mon 04 Apr 2011 08:52:04 PM ART
+Cmp-Mod V01 Created by CvPCB (2010-00-09 BZR 23xx)-stable date = Mon 04 Apr 2011 11:50:53 PM ART
 
 BeginCmp
 TimeStamp = /4C2E1E53/4C2F529E;
@@ -1355,7 +1355,7 @@ BeginCmp
 TimeStamp = /4C2E1EA1/4D9A4DD9;
 Reference = P71;
 ValeurCmp = COMMS;
-IdModule  = PIN_ARRAY-6X1;
+IdModule  = PIN_ARRAY_5x2;
 EndCmp
 
 BeginCmp
@@ -1369,56 +1369,56 @@ BeginCmp
 TimeStamp = /4D98D2BD;
 Reference = P76;
 ValeurCmp = inj6;
-IdModule  = PINTST;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D98D2C6;
 Reference = P78;
 ValeurCmp = inj5;
-IdModule  = PINTST;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D98D2CD;
 Reference = P80;
 ValeurCmp = inj4;
-IdModule  = PINTST;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D98D2D1;
 Reference = P82;
 ValeurCmp = inj3;
-IdModule  = PINTST;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D98D2D4;
 Reference = P84;
 ValeurCmp = inj2;
-IdModule  = PINTST;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D98D2D8;
 Reference = P86;
 ValeurCmp = inj1;
-IdModule  = PINTST;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D98D268;
 Reference = P88;
 ValeurCmp = inj7;
-IdModule  = PINTST;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D98D269;
 Reference = P90;
 ValeurCmp = inj8;
-IdModule  = PINTST;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp

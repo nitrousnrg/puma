@@ -1,5 +1,5 @@
-5. populate other component properties ?% done
-8. EGT mods ?% done
+5.  populate other component properties ?% done
+8.  EGT mods ?% done
 15. rotate silkscreens ?% done
 17. remove some mask for a better heat transfer from the mcu and stepper ?% done
 18. Change 33v zener diode footprint ?% done
@@ -13,3 +13,5 @@
 46. more screws to attach the connector board
 47. flip MAP
 48. change thermistor circuits?
+49. tiny bdm header
+50. bit-bang BDM with FTDI?
