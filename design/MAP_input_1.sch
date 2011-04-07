@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 04 Apr 2011 11:46:26 PM ART
+EESchema Schematic File Version 2  date Thu 07 Apr 2011 02:22:20 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -33,7 +33,7 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 44 51
 Title "Puma board"
-Date "5 apr 2011"
+Date "7 apr 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "MAP_input.sch"
@@ -42,50 +42,48 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	4150 1500 5350 1500
-Wire Wire Line
-	4150 1500 4150 1200
-Wire Wire Line
-	5350 1500 5350 1800
-Wire Wire Line
-	2400 1600 5550 1600
-Connection ~ 4800 1600
-Wire Wire Line
-	4800 1600 4800 2450
-Wire Wire Line
-	4800 2450 4950 2450
-Connection ~ 3300 2000
-Wire Wire Line
-	5250 1800 4550 1800
-Wire Wire Line
-	4150 1200 2400 1200
-Connection ~ 3800 1200
-Connection ~ 3300 1600
-Connection ~ 3800 1600
-Connection ~ 3800 2000
-Wire Wire Line
-	3300 2000 2400 2000
-Wire Wire Line
-	4950 2300 4900 2300
-Wire Wire Line
-	4900 2300 4900 1500
-Wire Wire Line
-	4950 2600 4700 2600
-Wire Wire Line
-	4700 2600 4700 1800
-Connection ~ 4700 1800
-Wire Wire Line
-	5350 1800 5550 1800
-Connection ~ 4900 1500
-Wire Wire Line
-	5250 1800 5250 1400
-Wire Wire Line
-	5250 1400 5550 1400
-Wire Wire Line
-	3800 2000 4550 2000
+	2400 2000 4550 2000
+Connection ~ 4150 2000
 Wire Wire Line
 	4550 2000 4550 1800
-Connection ~ 4150 2000
+Wire Wire Line
+	5550 1400 5250 1400
+Wire Wire Line
+	5250 1400 5250 1800
+Connection ~ 4900 1500
+Wire Wire Line
+	5550 1800 5350 1800
+Connection ~ 4700 1800
+Wire Wire Line
+	4700 1800 4700 2600
+Wire Wire Line
+	4700 2600 4950 2600
+Wire Wire Line
+	4900 1500 4900 2300
+Wire Wire Line
+	4900 2300 4950 2300
+Connection ~ 3800 2000
+Connection ~ 3800 1600
+Connection ~ 3300 1600
+Connection ~ 3800 1200
+Wire Wire Line
+	2400 1200 4150 1200
+Wire Wire Line
+	5250 1800 4550 1800
+Connection ~ 3300 2000
+Wire Wire Line
+	4950 2450 4800 2450
+Wire Wire Line
+	4800 2450 4800 1600
+Connection ~ 4800 1600
+Wire Wire Line
+	2400 1600 5550 1600
+Wire Wire Line
+	5350 1800 5350 1500
+Wire Wire Line
+	4150 1200 4150 1500
+Wire Wire Line
+	4150 1500 5350 1500
 Text Label 4550 1800 0    60   ~ 0
 map
 NoConn ~ 6850 1400
@@ -139,8 +137,8 @@ $Comp
 L R R134
 U 1 1 4C4AEFA3
 P 4150 1750
-F 0 "R134" V 3630 2000 50  0000 C CNN
-F 1 "68k" V 3550 2000 50  0000 C CNN
+F 0 "R134" V 4250 1750 50  0000 C CNN
+F 1 "68k" V 4150 1750 50  0000 C CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "Panasonic-ECG" V 2380 2650 60  0001 C CNN "mfg"
 F 5 "ERJ-6GEYJ684V" V 2380 2650 60  0001 C CNN "mfg#"
