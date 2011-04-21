@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Mon 04 Apr 2011 11:50:53 PM ART
+# EESchema Netlist Version 1.1 created  Wed 20 Apr 2011 11:27:51 PM ART
 (
  ( /4C2E1E53/4C2F529E SM1210 C2 10uF
   ( 1 /voltage1 )
@@ -684,7 +684,7 @@
   ( 1 GND )
   ( 2 N-000314 )
  )
- ( /4D80F957/4BF8F93D DPAK3 D119 STPS5L25
+ ( /4D80F957/4BF8F93D SM2917 D119 STPS5L25
   ( 1 GND )
   ( 2 N-000316 )
  )

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 07 Apr 2011 02:22:20 AM ART
+EESchema Schematic File Version 2  date Tue 12 Apr 2011 02:18:03 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -28,12 +28,13 @@ LIBS:siliconi
 LIBS:contrib
 LIBS:valves
 LIBS:puma-cache
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 20 51
 Title "Puma board"
-Date "7 apr 2011"
+Date "12 apr 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "injector_drive.sch"
@@ -41,8 +42,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 3000 4050 0    60   ~ 0
-FJB102: D2PAK darlington
+Text Notes 2000 4150 0    60   ~ 0
+FJB102: D2PAK darlington\nNID9N05CLT4G: MOSFET for HIGH Z injectors
 $Comp
 L 2N6045 Q17
 U 1 1 4D66C965
@@ -58,6 +59,7 @@ AR Path="/4C2F3BE4/4D66C965" Ref="Q10"  Part="1"
 F 0 "Q17" H 3600 3450 50  0000 C CNN
 F 1 "2N6045" H 3400 3100 50  0000 C CNN
 F 2 "TO220_VERT" H 3600 3200 60  0001 C CNN
+F 4 "FJB102TM" H 3600 3200 60  0001 C CNN "MFG#"
 	1    3600 3200
 	-1   0    0    -1  
 $EndComp
@@ -369,14 +371,15 @@ AR Path="/4C2F3BE4/4C2ED077" Ref="R189"  Part="1"
 F 0 "R210" V 5280 3450 50  0000 C CNN
 F 1 "0.1 2W" V 5200 3450 50  0000 C CNN
 F 2 "R5" V 1130 2600 60  0001 C CNN
-F 4 "Ohmite" V 1130 2600 60  0001 C CNN "mfg"
-F 5 "WHCR10FEC" V 1130 2600 60  0001 C CNN "mfg#"
-F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
-F 7 "WHCR10FECT-ND" V 1130 2600 60  0001 C CNN "vend1#"
-F 8 "2w" V 1130 2600 60  0001 C CNN "Power"
-F 9 "1%" V 1130 2600 60  0001 C CNN "tolerance"
-F 10 "wire wound" V 1130 2600 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
+F 4 "PRL1632-R100-F-T1" H 5200 3450 60  0001 C CNN "MFG#"
+F 5 "Ohmite" V 1130 2600 60  0001 C CNN "mfg"
+F 6 "WHCR10FEC" V 1130 2600 60  0001 C CNN "mfg#"
+F 7 "digikey" V 1130 2600 60  0001 C CNN "vend1"
+F 8 "WHCR10FECT-ND" V 1130 2600 60  0001 C CNN "vend1#"
+F 9 "2w" V 1130 2600 60  0001 C CNN "Power"
+F 10 "1%" V 1130 2600 60  0001 C CNN "tolerance"
+F 11 "wire wound" V 1130 2600 60  0001 C CNN "construct"
+F 12 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    5200 3450
 	0    1    1    0   
 $EndComp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 07 Apr 2011 02:22:20 AM ART
+EESchema Schematic File Version 2  date Tue 12 Apr 2011 02:18:03 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -28,12 +28,13 @@ LIBS:siliconi
 LIBS:contrib
 LIBS:valves
 LIBS:puma-cache
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
 $Descr A 11000 8500
+encoding utf-8
 Sheet 2 51
 Title "Puma board"
-Date "7 apr 2011"
+Date "12 apr 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "power regulator"
@@ -160,14 +161,15 @@ AR Path="/4D80F957/4BF8F943" Ref="U35"  Part="1"
 F 0 "U35" H 3850 4300 40  0000 C CNN
 F 1 "L5973D" H 3850 3800 40  0000 C CNN
 F 2 "SO8E" H 3800 4050 60  0001 C CNN
-F 4 "st,E-L5970D" V 2980 2550 60  0001 C CNN "mfg,#"
-F 5 "newark,25M9045" V 2980 2550 60  0001 C CNN "vend,#"
-F 6 "-,-" V 2980 2550 60  0001 C CNN "Field3"
-F 7 "-,-" V 2980 2550 60  0001 C CNN "Field4"
-F 8 "-,-" V 2980 2550 60  0001 C CNN "Field5"
-F 9 "-,-" V 2980 2550 60  0001 C CNN "Field6"
-F 10 "buck reg" V 2980 2550 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 2980 2550 60  0001 C CNN "Field8"
+F 4 "L5973D013TR" H 3800 4050 60  0001 C CNN "MFG#"
+F 5 "st,E-L5970D" V 2980 2550 60  0001 C CNN "mfg,#"
+F 6 "newark,25M9045" V 2980 2550 60  0001 C CNN "vend,#"
+F 7 "-,-" V 2980 2550 60  0001 C CNN "Field3"
+F 8 "-,-" V 2980 2550 60  0001 C CNN "Field4"
+F 9 "-,-" V 2980 2550 60  0001 C CNN "Field5"
+F 10 "-,-" V 2980 2550 60  0001 C CNN "Field6"
+F 11 "buck reg" V 2980 2550 60  0001 C CNN "Field7"
+F 12 "other,more,stuff" V 2980 2550 60  0001 C CNN "Field8"
 	1    3800 4050
 	-1   0    0    1   
 $EndComp
@@ -268,14 +270,15 @@ AR Path="/4D80F957/4BF8F93D" Ref="D119"  Part="1"
 F 0 "D119" H 4950 4500 40  0000 C CNN
 F 1 "STPS5L25" H 4950 4300 40  0000 C CNN
 F 2 "D4-SMB" H 8000 5000 60  0001 C CNN
-F 4 "st,511-STPS2L25U" H 8000 5000 60  0001 C CNN "mfg,#"
-F 5 "mouser,511-STPS2L25U" H 8000 5000 60  0001 C CNN "vend,#"
-F 6 "-,-" H 1780 4100 60  0001 C CNN "Field3"
-F 7 "-,-" H 1780 4100 60  0001 C CNN "Field4"
-F 8 "25,V" H 1780 4100 60  0001 C CNN "Field5"
-F 9 "2,a" H 1780 4100 60  0001 C CNN "Field6"
-F 10 "construct" H 1780 4100 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" H 1780 4100 60  0001 C CNN "Field8"
+F 4 "STPS5L25B-TR" H 4950 4400 60  0001 C CNN "MFG#"
+F 5 "st,511-STPS2L25U" H 8000 5000 60  0001 C CNN "mfg,#"
+F 6 "mouser,511-STPS2L25U" H 8000 5000 60  0001 C CNN "vend,#"
+F 7 "-,-" H 1780 4100 60  0001 C CNN "Field3"
+F 8 "-,-" H 1780 4100 60  0001 C CNN "Field4"
+F 9 "25,V" H 1780 4100 60  0001 C CNN "Field5"
+F 10 "2,a" H 1780 4100 60  0001 C CNN "Field6"
+F 11 "construct" H 1780 4100 60  0001 C CNN "Field7"
+F 12 "other,more,stuff" H 1780 4100 60  0001 C CNN "Field8"
 	1    4950 4400
 	0    1    -1   0   
 $EndComp
