@@ -46,23 +46,24 @@ Spin 1 was offered as a bare board, semi-assembled board, and a couple were full
 \section{So you have a bare board, now what?}
 
 Ok, you have the bare PCB, and it's going to need components installed on it to function as a EMS. This is what you need to do, in no particular order:
-\begin{itemize}
-\item Get the BOM from \url{https://github.com/nitrousnrg/puma/blob/master/BOMs/order_BOM.xls}, select which modules you need to have populated and the get the components.
+\newline
+
+Get the BOM from \url{https://github.com/nitrousnrg/puma/blob/master/BOMs/order_BOM.xls}, select which modules you need to have populated and the get the components.
+\newline
 
 For digikey customers:
 
-The third page is a digikey formatted file, ready to saved as .csv to place the order.
+The third page is a digikey formatted file, ready to be saved as .csv to place the order.
+\newline
 
-For newark costumers:
+For newark/mouser/farnell costumers:
 
-
-
-For mouser costumers:
-
+Use the MFG number to place your order, available in the second sheet, named ``MFG BOM''.
 
 
 
 A few things to note:
+\begin{itemize}
 \item EGT circuit won't work, it has a 500$^{\circ}$C limit.
 \item The usb connector is plain wrong. In the BOM you can choose to buy a cable to use this wrong (female-A) connector, or buy another usb connector and hack things to install it.
 \item You don't want the shutdown circuit, so its FETs aren't in the BOM. Don't worry about that.
@@ -258,9 +259,34 @@ Check you have 5v or 2.5v in all the required VDD pins. Check continuity in the 
 \begin{enumerate}
 \item This spin has several modifications. Start these modifications by cutting the wrong traces, and adding jumpers as shown below.
 
-The FT232 IC needs also a transisitor or it will make the mcu start always in SM mode.
+The FT232 IC needs also a pnp transisitor or it will make the mcu start always in SM mode.
 
 If you want blinking leds for the usb, there is a pulldown that should be a pullup.
+
+To begin your USB modifications, take reference from the following pictures:
+
+\includegraphics[width = 0.4\textwidth]{images/step1.jpg}
+\includegraphics[width = 0.4\textwidth]{images/step2.jpg}
+
+\includegraphics[width = 0.4\textwidth]{images/step4.png}
+\includegraphics[width = 0.4\textwidth]{images/step5.png}
+
+\includegraphics[width = 0.4\textwidth]{images/step6.png}
+\includegraphics[width = 0.4\textwidth]{images/step7.jpg}
+
+\includegraphics[width = 0.4\textwidth]{images/step8.jpg}
+\includegraphics[width = 0.4\textwidth]{images/step9.jpg}
+
+\includegraphics[width = 0.4\textwidth]{images/step10.jpg}
+\includegraphics[width = 0.4\textwidth]{images/step11.jpg}
+
+\includegraphics[width = 0.4\textwidth]{images/step12.jpg}
+\includegraphics[width = 0.4\textwidth]{images/step13.png}
+
+\includegraphics[width = 0.4\textwidth]{images/step14.png}
+\includegraphics[width = 0.4\textwidth]{images/step15.png}
+
+
 
 \includegraphics[width=0.95\textwidth]{images/FT232_sch.png}
 
