@@ -286,9 +286,20 @@ To begin your USB modifications, take reference from the following pictures:
 \includegraphics[width = 0.4\textwidth]{images/step14.png}
 \includegraphics[width = 0.4\textwidth]{images/step15.png}
 
-
-
 \includegraphics[width=0.95\textwidth]{images/FT232_sch.png}
+\newline
+
+If you're going to drive a high impedance injector, we suggest a VNP35N07, and here you can see how it is connected.
+
+\includegraphics[width = 0.4\textwidth]{images/injector_hack_front.jpeg}
+\includegraphics[width = 0.4\textwidth]{images/injector_hack_back.png}
+
+Repeat as necessary if you need more than one injector output. The eight injector circuits are identical, the only moving target is the resistor between MCU and transistor gate, but you'll figure it out, they're in a similar position. Use a multimer if you have doubts, or just ask.
+
+In this particular logic input fet, pin 1 is the input, pin 2 the drain, and pin 3 the source. If you have other pinout, ask for a suggestion and please share pictures of it. Also, you can check directly the kicad files to decide where to put bridges (sharing pictures would be cool too).
+\newline
+
+
 
 \begin{figure}[htb]
   \centering
@@ -296,17 +307,13 @@ To begin your USB modifications, take reference from the following pictures:
   \includegraphics[width=0.45\textwidth]{images/MCU_VDD_traces.png}
   \label{fig:mcu_traces}
   }
-  \subfigure[Correct BRV source]{
+  \subfigure[Correct the BRV source, it shoud come directly from the battery to the via next to R105]{
   \includegraphics[width=0.45\textwidth]{images/BRV_hack.png}
   \label{fig:brv_hack}
   }
   \subfigure[FT232 circuit -lacks PNP-!!]{
   \includegraphics[width=0.45\textwidth]{images/USB_power_hack.png}
   \label{fig:usb_hack}
-  }
-  \subfigure[Correct transisitors connection]{
-  \includegraphics[width=0.45\textwidth]{images/P&H_hack.png}
-  \label{fig:p&h_hack}
   }
   \caption{Spin1 mods}
 \end{figure}
