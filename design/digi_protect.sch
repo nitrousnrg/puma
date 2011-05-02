@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 12 Apr 2011 02:18:03 AM ART
+EESchema Schematic File Version 2  date Tue 26 Apr 2011 03:22:54 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 13 51
 Title "Puma board"
-Date "12 apr 2011"
+Date "26 apr 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -90,7 +90,7 @@ AR Path="/4CD74766/4CD742B5" Ref="D97"  Part="1"
 AR Path="/4CD743EF/4CD742B5" Ref="D96"  Part="1" 
 AR Path="/4CD743EC/4CD742B5" Ref="D95"  Part="1" 
 AR Path="/4CD743DA/4CD742B5" Ref="D94"  Part="1" 
-F 0 "D104" H 4600 3350 50  0000 C CNN
+F 0 "D93" H 4600 3350 50  0000 C CNN
 F 1 "5V1" H 4600 3150 40  0000 C CNN
 F 2 "SOD-123" H 4600 3250 60  0001 C CNN
 F 4 "Diodes Inc" V 1130 2600 60  0001 C CNN "mfg"
@@ -120,7 +120,7 @@ AR Path="/4CD74766/4CD742AE" Ref="R243"  Part="1"
 AR Path="/4CD743EF/4CD742AE" Ref="R242"  Part="1" 
 AR Path="/4CD743EC/4CD742AE" Ref="R241"  Part="1" 
 AR Path="/4CD743DA/4CD742AE" Ref="R240"  Part="1" 
-F 0 "R250" V 4230 2950 50  0000 C CNN
+F 0 "R239" V 4230 2950 50  0000 C CNN
 F 1 "1k" V 4150 2950 50  0000 C CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"

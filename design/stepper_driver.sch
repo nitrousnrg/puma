@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 12 Apr 2011 02:18:03 AM ART
+EESchema Schematic File Version 2  date Tue 26 Apr 2011 03:22:54 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 16 51
 Title "Puma board"
-Date "12 apr 2011"
+Date "26 apr 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -270,10 +270,10 @@ Text HLabel 4250 4050 0    60   Input ~ 0
 Text Notes 4000 5400 0    60   ~ 0
 * RC = 2msec\n* I = Vreg/(10*Rsense) = 500mA
 $Comp
-L GND #PWR040
+L GND #PWR041
 U 1 1 4CB36B99
 P 6850 5100
-F 0 "#PWR040" H 6850 5100 30  0001 C CNN
+F 0 "#PWR041" H 6850 5100 30  0001 C CNN
 F 1 "GND" H 6850 5030 30  0001 C CNN
 	1    6850 5100
 	1    0    0    -1  
@@ -345,10 +345,10 @@ F 2 "PINTST" H 4550 2800 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR041
+L GND #PWR042
 U 1 1 4CB2FFC6
 P 7550 5150
-F 0 "#PWR041" H 7550 5150 30  0001 C CNN
+F 0 "#PWR042" H 7550 5150 30  0001 C CNN
 F 1 "GND" H 7550 5080 30  0001 C CNN
 	1    7550 5150
 	1    0    0    -1  
@@ -390,10 +390,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR042
+L GND #PWR043
 U 1 1 4CB2FF16
 P 4750 5150
-F 0 "#PWR042" H 4750 5150 30  0001 C CNN
+F 0 "#PWR043" H 4750 5150 30  0001 C CNN
 F 1 "GND" H 4750 5080 30  0001 C CNN
 	1    4750 5150
 	1    0    0    -1  
@@ -435,19 +435,19 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR043
+L GND #PWR044
 U 1 1 4CB2FD74
 P 6850 3900
-F 0 "#PWR043" H 6850 3900 30  0001 C CNN
+F 0 "#PWR044" H 6850 3900 30  0001 C CNN
 F 1 "GND" H 6850 3830 30  0001 C CNN
 	1    6850 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR044
+L GND #PWR045
 U 1 1 4CB2FD6F
 P 5050 3900
-F 0 "#PWR044" H 5050 3900 30  0001 C CNN
+F 0 "#PWR045" H 5050 3900 30  0001 C CNN
 F 1 "GND" H 5050 3830 30  0001 C CNN
 	1    5050 3900
 	1    0    0    -1  

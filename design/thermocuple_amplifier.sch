@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 12 Apr 2011 02:18:03 AM ART
+EESchema Schematic File Version 2  date Tue 26 Apr 2011 03:22:54 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 21 51
 Title "Puma board"
-Date "12 apr 2011"
+Date "26 apr 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -51,10 +51,10 @@ connector_17
 Text GLabel 6550 3550 2    60   Input ~ 0
 connector_19
 $Comp
-L GND #PWR049
+L GND #PWR050
 U 1 1 4C599401
 P 6400 4250
-F 0 "#PWR049" H 6400 4250 30  0001 C CNN
+F 0 "#PWR050" H 6400 4250 30  0001 C CNN
 F 1 "GND" H 6400 4180 30  0001 C CNN
 	1    6400 4250
 	1    0    0    -1  
@@ -105,10 +105,10 @@ temp_output
 Text HLabel 6500 3650 2    60   Input ~ 0
 5V_reg
 $Comp
-L GND #PWR050
+L GND #PWR051
 U 1 1 4C59878A
 P 5000 3950
-F 0 "#PWR050" H 5000 3950 30  0001 C CNN
+F 0 "#PWR051" H 5000 3950 30  0001 C CNN
 F 1 "GND" H 5000 3880 30  0001 C CNN
 	1    5000 3950
 	1    0    0    -1  

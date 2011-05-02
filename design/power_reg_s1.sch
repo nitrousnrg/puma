@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 12 Apr 2011 02:18:03 AM ART
+EESchema Schematic File Version 2  date Tue 26 Apr 2011 03:22:54 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 2 51
 Title "Puma board"
-Date "12 apr 2011"
+Date "26 apr 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "power regulator"
@@ -50,11 +50,11 @@ Connection ~ 3800 2600
 Connection ~ 4600 3000
 Connection ~ 6000 3000
 Wire Wire Line
-	6250 3000 6250 3050
+	6250 3050 6250 3000
 Connection ~ 5500 3000
 Connection ~ 4250 3000
 Wire Wire Line
-	3300 3000 6250 3000
+	6250 3000 3300 3000
 Connection ~ 3800 3000
 Connection ~ 4250 2600
 Wire Wire Line
@@ -65,14 +65,14 @@ Wire Wire Line
 Connection ~ 3300 2600
 Connection ~ 6300 4600
 Wire Wire Line
-	2850 4600 6800 4600
+	6800 4600 2850 4600
 Wire Wire Line
-	5850 3450 3350 3450
+	3350 3450 5850 3450
 Connection ~ 4700 4100
 Wire Wire Line
-	5300 4100 5300 3650
+	5300 3650 5300 4100
 Wire Wire Line
-	4100 4100 5300 4100
+	5300 4100 4100 4100
 Wire Wire Line
 	4700 4100 4700 3900
 Wire Wire Line
@@ -80,13 +80,13 @@ Wire Wire Line
 Wire Wire Line
 	3350 3450 3350 3900
 Wire Wire Line
-	5850 3700 5850 3450
+	5850 3450 5850 3700
 Connection ~ 6300 4200
 Connection ~ 5850 4200
 Connection ~ 5850 4600
 Connection ~ 2850 4100
 Wire Wire Line
-	2850 3900 2850 4600
+	2850 4600 2850 3900
 Wire Wire Line
 	3350 3900 3500 3900
 Wire Wire Line

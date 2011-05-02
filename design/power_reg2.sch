@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 12 Apr 2011 02:18:03 AM ART
+EESchema Schematic File Version 2  date Tue 26 Apr 2011 03:22:54 AM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 34 51
 Title "Puma board"
-Date "12 apr 2011"
+Date "26 apr 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -88,10 +88,10 @@ F 7 "LM2937IMP-5.0CT-ND" H 6050 3350 60  0001 C CNN "vend1#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VSS #PWR067
+L VSS #PWR068
 U 1 1 4C2F52A0
 P 7850 3750
-F 0 "#PWR067" H 7850 3750 30  0001 C CNN
+F 0 "#PWR068" H 7850 3750 30  0001 C CNN
 F 1 "VSS" H 7850 3680 30  0000 C CNN
 	1    7850 3750
 	-1   0    0    -1  
@@ -223,10 +223,10 @@ F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR068
+L GND #PWR069
 U 1 1 486CA86E
 P 2600 3750
-F 0 "#PWR068" H 2600 3750 30  0001 C CNN
+F 0 "#PWR069" H 2600 3750 30  0001 C CNN
 F 1 "GND" H 2600 3680 30  0001 C CNN
 	1    2600 3750
 	-1   0    0    -1  
