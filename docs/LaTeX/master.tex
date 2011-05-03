@@ -48,7 +48,7 @@ Spin 1 was offered as a bare board, semi-assembled board, and a couple were full
 Ok, you have the bare PCB, and it's going to need components installed on it to function as a EMS. This is what you need to do, in no particular order:
 \newline
 
-Get the BOM from \url{https://github.com/nitrousnrg/puma/blob/master/BOMs/order_BOM.xls}, select which modules you need to have populated and the get the components.
+Get the BOM spreadsheet from \url{http://puma.freeems.org/docs/order_BOM.ods}, select which modules you need to have populated and the get the components.
 \newline
 
 For digikey custumers:
@@ -257,68 +257,81 @@ Check you have 5v or 2.5v in all the required VDD pins. Check continuity in the 
 \section{Spin1 specific notes}
 
 \begin{enumerate}
+
+\item You have the PCB + components, so get KICAD and the files, or the pdf files from puma.freeems.org. PDFs aren't search-able so you may want to choose to install KICAD until we workout that.
+
 \item This spin has several modifications. Start these modifications by cutting the wrong traces, and adding jumpers as shown below.
 
 The FT232 IC needs also a pnp transisitor or it will make the mcu start always in SM mode.
 
 If you want blinking leds for the usb, there is a pulldown that should be a pullup.
 
-To begin your USB modifications, take reference from the following pictures:
+To begin your USB modifications, take reference from the pictures at the end of the document:
 
-\includegraphics[width = 0.4\textwidth]{images/step1.jpg}
-\includegraphics[width = 0.4\textwidth]{images/step2.jpg}
-
-\includegraphics[width = 0.4\textwidth]{images/step4.png}
-\includegraphics[width = 0.4\textwidth]{images/step5.png}
-
-\includegraphics[width = 0.4\textwidth]{images/step6.png}
-\includegraphics[width = 0.4\textwidth]{images/step7.jpg}
-
-\includegraphics[width = 0.4\textwidth]{images/step8.jpg}
-\includegraphics[width = 0.4\textwidth]{images/step9.jpg}
-
-\includegraphics[width = 0.4\textwidth]{images/step10.jpg}
-\includegraphics[width = 0.4\textwidth]{images/step11.jpg}
-
-\includegraphics[width = 0.4\textwidth]{images/step12.jpg}
-\includegraphics[width = 0.4\textwidth]{images/step13.png}
-
-\includegraphics[width = 0.4\textwidth]{images/step14.png}
-\includegraphics[width = 0.4\textwidth]{images/step15.png}
-
-\includegraphics[width=0.95\textwidth]{images/FT232_sch.png}
-\newline
-
-If you're going to drive a high impedance injector, we suggest a VNP35N07, and here you can see how it is connected.
-
-\includegraphics[width = 0.4\textwidth]{images/injector_hack_front.jpeg}
-\includegraphics[width = 0.4\textwidth]{images/injector_hack_back.png}
-
-Repeat as necessary if you need more than one injector output. The eight injector circuits are identical, the only moving target is the resistor between MCU and transistor gate, but you'll figure it out, they're in a similar position. Use a multimer if you have doubts, or just ask.
-
-In this particular logic input fet, pin 1 is the input, pin 2 the drain, and pin 3 the source. If you have other pinout, ask for a suggestion and please share pictures of it. Also, you can check directly the kicad files to decide where to put bridges (sharing pictures would be cool too).
-\newline
-
-
-
-\begin{figure}[htb]
+\begin{figure}[H]
   \centering
-  \subfigure[Cut wrong VDD traces]{
-  \includegraphics[width=0.45\textwidth]{images/MCU_VDD_traces.png}
-  \label{fig:mcu_traces}
+  \subfigure[Start with a blank board]{
+  \includegraphics[width=0.45\textwidth]{images/step1.jpg}
   }
-  \subfigure[Correct the BRV source, it shoud come directly from the battery to the via next to R105]{
-  \includegraphics[width=0.45\textwidth]{images/BRV_hack.png}
-  \label{fig:brv_hack}
+  \subfigure[Get a regular PNP transistor, see suggestions above]{
+  \includegraphics[width=0.45\textwidth]{images/step2.jpg}
   }
-  \subfigure[FT232 circuit -lacks PNP-!!]{
-  \includegraphics[width=0.45\textwidth]{images/USB_power_hack.png}
-  \label{fig:usb_hack}
+  \subfigure[Cut a VDD trace to supply the FT232 from USB power]{
+  \includegraphics[width=0.45\textwidth]{images/step4.png}
   }
-  \caption{Spin1 mods}
+  \subfigure[Cut another VDD track]{
+  \includegraphics[width=0.45\textwidth]{images/step5.png}
+  }
+  \caption{USB modifications}
 \end{figure}
 
-\item You have the PCB + components, so get KICAD and the files, or the pdf files from puma.freeems.org. PDFs aren't search-able so you may want to choose to install KICAD until we workout that.
+\begin{figure}[H]
+  \centering
+  \subfigure[Separate this via from the ground plane to enable the LEDs]{
+  \includegraphics[width=0.45\textwidth]{images/step6.png}
+  }
+  \subfigure[Prepare components for assembly]{
+  \includegraphics[width=0.45\textwidth]{images/step7.jpg}
+  }
+  \subfigure[Assemble them (oven, rework station, iron, etc)]{
+  \includegraphics[width=0.45\textwidth]{images/step8.jpg}
+  }
+  \subfigure[SMD components assembled]{
+  \includegraphics[width=0.45\textwidth]{images/step9.jpg}
+  }
+
+  \caption{USB modifications}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \subfigure[Transistor soldered using 2 convenient vias]{
+  \includegraphics[width=0.45\textwidth]{images/step10.jpg}
+  }
+  \subfigure[Join 5v from the USB to: the right of the .1uF cap.]{
+  \includegraphics[width=0.45\textwidth]{images/step11.jpg}
+  }
+  \subfigure[See the text to know the transistor connections]{
+  \includegraphics[width=0.45\textwidth]{images/step12.jpg}
+  }
+  \subfigure[Route another 5v wire to the via previously detached from the ground plane, in orden to activate the LEDs ]{
+  \includegraphics[width=0.45\textwidth]{images/step13.png}
+  }
+
+  \caption{USB modifications}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \subfigure[Modification finished]{
+  \includegraphics[width=0.45\textwidth]{images/step14.png}
+  }
+  \subfigure[Modification finished]{
+  \includegraphics[width=0.45\textwidth]{images/step15.png}
+  }
+  \subfigure[Schematic reference]{
+  \includegraphics[width=0.85\textwidth]{images/FT232_sch.png}
+  }
+  \caption{USB modifications}
+\end{figure}
 
 \item Start the assembly!
 
@@ -346,6 +359,47 @@ It should get connected, program it, verify, and never complain.
 \item Load FreeEMS firmware, using seank's loader.
 
 \item Install MTX and connect to the board to the PC to check that freeems is running.
+
+\item If you're going to drive a high impedance injector, we suggest a VNP35N07, and here you can see how it is connected.
+
+\begin{figure}[htb]
+  \centering
+  \subfigure[Injector driver mod top]{
+  \includegraphics[width=0.45\textwidth]{images/injector_hack_front.jpeg}
+  }
+  \subfigure[Injector driver mod bottom]{
+  \includegraphics[width=0.45\textwidth]{images/injector_hack_back.png}
+  }
+  \caption{High Z injector driver modifications}
+\end{figure}
+
+
+Repeat as necessary if you need more than one injector output. The eight injector circuits are identical, the only moving target is the resistor between MCU and transistor gate, but you'll figure it out, they're in a similar position. Use a multimer if you have doubts, or just ask.
+
+In this particular logic input fet, pin 1 is the input, pin 2 the drain, and pin 3 the source. If you have other pinout, ask for a suggestion and please share pictures of it. Also, you can check directly the kicad files to decide where to put bridges (sharing pictures would be cool too).
+
+
+
+\begin{figure}[htb]
+  \centering
+  \subfigure[Cut wrong VDD traces]{
+  \includegraphics[width=0.45\textwidth]{images/MCU_VDD_traces.png}
+  \label{fig:mcu_traces}
+  }
+  \subfigure[Correct the BRV source, it shoud come directly from the battery to the via next to R105]{
+  \includegraphics[width=0.45\textwidth]{images/BRV_hack.png}
+  \label{fig:brv_hack}
+  }
+  \subfigure[FT232 circuit -lacks PNP-!!]{
+  \includegraphics[width=0.45\textwidth]{images/USB_power_hack.png}
+  \label{fig:usb_hack}
+  }
+  \caption{Spin1 mods}
+\end{figure}
+
+
+
+
 
 \end{enumerate}
 
