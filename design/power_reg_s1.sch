@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 26 Apr 2011 03:22:54 AM ART
+EESchema Schematic File Version 2  date Wed 08 Jun 2011 05:45:27 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 2 51
 Title "Puma board"
-Date "26 apr 2011"
+Date "8 jun 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "power regulator"
@@ -42,73 +42,86 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 5500 2600
-Connection ~ 4600 2600
+Connection ~ 7550 4200
 Wire Wire Line
-	4750 2600 3750 2600
-Connection ~ 3800 2600
-Connection ~ 4600 3000
-Connection ~ 6000 3000
+	7750 4200 7250 4200
 Wire Wire Line
-	6250 3050 6250 3000
-Connection ~ 5500 3000
-Connection ~ 4250 3000
+	4100 3900 4300 3900
+Connection ~ 4300 3900
 Wire Wire Line
-	6250 3000 3300 3000
-Connection ~ 3800 3000
-Connection ~ 4250 2600
+	4800 3650 4700 3650
+Connection ~ 4950 4200
 Wire Wire Line
-	5350 2600 6250 2600
-Connection ~ 6000 2600
+	5050 4200 4100 4200
+Connection ~ 4950 4600
 Wire Wire Line
-	3200 2600 3350 2600
-Connection ~ 3300 2600
-Connection ~ 6300 4600
-Wire Wire Line
-	6800 4600 2850 4600
-Wire Wire Line
-	3350 3450 5850 3450
-Connection ~ 4700 4100
-Wire Wire Line
-	5300 3650 5300 4100
-Wire Wire Line
-	5300 4100 4100 4100
-Wire Wire Line
-	4700 4100 4700 3900
-Wire Wire Line
-	4300 3650 4300 3900
-Wire Wire Line
-	3350 3450 3350 3900
-Wire Wire Line
-	5850 3450 5850 3700
-Connection ~ 6300 4200
-Connection ~ 5850 4200
-Connection ~ 5850 4600
-Connection ~ 2850 4100
-Wire Wire Line
-	2850 4600 2850 3900
-Wire Wire Line
-	3350 3900 3500 3900
+	3500 4100 2850 4100
 Wire Wire Line
 	3300 4200 3500 4200
 Wire Wire Line
-	2850 4100 3500 4100
-Connection ~ 4950 4600
+	3500 3900 3350 3900
 Wire Wire Line
-	4100 4200 5050 4200
-Connection ~ 4950 4200
+	2850 3900 2850 4600
+Connection ~ 2850 4100
+Connection ~ 5850 4600
+Connection ~ 5850 4200
 Wire Wire Line
-	4800 3650 4700 3650
-Connection ~ 4300 3900
+	5850 3700 5850 3450
 Wire Wire Line
-	4300 3900 4100 3900
+	3350 3900 3350 3450
 Wire Wire Line
-	7150 4200 5650 4200
-Connection ~ 6800 4200
+	4300 3900 4300 3650
+Wire Wire Line
+	4700 3900 4700 4100
+Wire Wire Line
+	4100 4100 5300 4100
+Wire Wire Line
+	5300 4100 5300 3650
+Connection ~ 4700 4100
+Wire Wire Line
+	3350 3450 5850 3450
+Wire Wire Line
+	2850 4600 7550 4600
+Connection ~ 6300 4600
+Connection ~ 3300 2600
+Wire Wire Line
+	3350 2600 3200 2600
+Connection ~ 6000 2600
+Wire Wire Line
+	6250 2600 5350 2600
+Connection ~ 4250 2600
+Connection ~ 3800 3000
+Wire Wire Line
+	3300 3000 6250 3000
+Connection ~ 4250 3000
+Connection ~ 5500 3000
+Wire Wire Line
+	6250 3000 6250 3050
+Connection ~ 6000 3000
+Connection ~ 4600 3000
+Connection ~ 3800 2600
+Wire Wire Line
+	3750 2600 4750 2600
+Connection ~ 4600 2600
+Connection ~ 5500 2600
+Wire Wire Line
+	6650 4200 5650 4200
+Connection ~ 6300 4200
+$Comp
+L INDUCTOR L?
+U 1 1 4DEFDB30
+P 6950 4200
+F 0 "L?" V 6900 4200 40  0000 C CNN
+F 1 "1uHy" V 7050 4200 40  0000 C CNN
+	1    6950 4200
+	0    1    1    0   
+$EndComp
+Text HLabel 7750 4200 2    60   Output ~ 0
+6v reg
 Text Notes 4650 4750 0    60   ~ 0
 MBRA210LT3G
 Text Notes 2750 5000 0    60   ~ 0
-* Its a 2A IC, plenty of horsepower for both regs\n* chack availability of diode, cap and inductor
+* Its a 2A IC, plenty of horsepower for both regs\n* check availability of diode, cap and inductor
 $Comp
 L R R?
 U 1 1 4BF8F945
@@ -290,16 +303,17 @@ AR Path="/4D57EDA9/4BF8F93C" Ref="C?"  Part="1"
 AR Path="/4C2E1E55/4BF8F93C" Ref="C?"  Part="1" 
 AR Path="/4D80F957/4BF8F93C" Ref="C143"  Part="1" 
 F 0 "C143" H 6100 4500 50  0000 L CNN
-F 1 "10uF" H 6100 4300 50  0000 L CNN
+F 1 "10uF cer" H 6100 4300 50  0000 L CNN
 F 2 "SM0805-C1" V 2580 3500 60  0001 C CNN
-F 4 "ill cap,106CKE200M" V 2580 3500 60  0001 C CNN "mfg,#"
-F 5 "newark,69K7896" V 2580 3500 60  0001 C CNN "vend,#"
-F 6 "-,-" V 2580 3500 60  0001 C CNN "Field3"
-F 7 "-,-" V 2580 3500 60  0001 C CNN "Field4"
-F 8 "200,V" V 2580 3500 60  0001 C CNN "Field5"
-F 9 "20,%" V 2580 3500 60  0001 C CNN "Field6"
-F 10 "alum electro" V 2580 3500 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 2580 3500 60  0001 C CNN "Field8"
+F 4 "106CKE200M" H 6300 4400 60  0001 C CNN "Part#:"
+F 5 "ill cap,106CKE200M" V 2580 3500 60  0001 C CNN "mfg,#"
+F 6 "newark,69K7896" V 2580 3500 60  0001 C CNN "vend,#"
+F 7 "-,-" V 2580 3500 60  0001 C CNN "Field3"
+F 8 "-,-" V 2580 3500 60  0001 C CNN "Field4"
+F 9 "200,V" V 2580 3500 60  0001 C CNN "Field5"
+F 10 "20,%" V 2580 3500 60  0001 C CNN "Field6"
+F 11 "alum electro" V 2580 3500 60  0001 C CNN "Field7"
+F 12 "other,more,stuff" V 2580 3500 60  0001 C CNN "Field8"
 	1    6300 4400
 	-1   0    0    -1  
 $EndComp
@@ -330,28 +344,26 @@ Text Label 4850 4100 0    60   ~ 0
 GND
 Text Label 2900 4600 0    60   ~ 0
 GND
-Text HLabel 7150 4200 2    60   Output ~ 0
-6v reg
 NoConn ~ 4100 4000
 $Comp
 L C C?
 U 1 1 4BF8F93A
-P 6800 4400
+P 7550 4400
 AR Path="/4D57EDA9/4BF8F93A" Ref="C?"  Part="1" 
 AR Path="/4C2E1E55/4BF8F93A" Ref="C?"  Part="1" 
 AR Path="/4D80F957/4BF8F93A" Ref="C144"  Part="1" 
-F 0 "C144" H 6600 4500 50  0000 L CNN
-F 1 "10nF" H 6600 4300 50  0000 L CNN
-F 2 "SM0805-C1" V 3080 3500 60  0001 C CNN
-F 4 "murata,GRM216R71H103JA01D" V 2580 3100 60  0001 C CNN "mfg,#"
-F 5 "newark,38K1697" V 2580 3100 60  0001 C CNN "vend,#"
-F 6 "-,-" V 2580 3100 60  0001 C CNN "Field3"
-F 7 "-,-" V 2580 3100 60  0001 C CNN "Field4"
-F 8 "50,V" V 2580 3100 60  0001 C CNN "Field5"
-F 9 "5,%" V 2580 3100 60  0001 C CNN "Field6"
-F 10 "ceramic" V 2580 3100 60  0001 C CNN "Field7"
-F 11 "other,more,stuff" V 2580 3100 60  0001 C CNN "Field8"
-	1    6800 4400
+F 0 "C144" H 7350 4500 50  0000 L CNN
+F 1 "10nF" H 7350 4300 50  0000 L CNN
+F 2 "SM0805-C1" V 3830 3500 60  0001 C CNN
+F 4 "murata,GRM216R71H103JA01D" V 3330 3100 60  0001 C CNN "mfg,#"
+F 5 "newark,38K1697" V 3330 3100 60  0001 C CNN "vend,#"
+F 6 "-,-" V 3330 3100 60  0001 C CNN "Field3"
+F 7 "-,-" V 3330 3100 60  0001 C CNN "Field4"
+F 8 "50,V" V 3330 3100 60  0001 C CNN "Field5"
+F 9 "5,%" V 3330 3100 60  0001 C CNN "Field6"
+F 10 "ceramic" V 3330 3100 60  0001 C CNN "Field7"
+F 11 "other,more,stuff" V 3330 3100 60  0001 C CNN "Field8"
+	1    7550 4400
 	-1   0    0    -1  
 $EndComp
 $Comp

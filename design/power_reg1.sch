@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 26 Apr 2011 03:22:54 AM ART
+EESchema Schematic File Version 2  date Wed 08 Jun 2011 05:45:27 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 35 51
 Title "Puma board"
-Date "26 apr 2011"
+Date "8 jun 2011"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -43,15 +43,27 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	5750 3300 2100 3300
+	5750 3300 5350 3300
 Wire Wire Line
-	8000 4000 8000 3700
+	5350 3300 5250 3300
+Wire Wire Line
+	5250 3300 4850 3300
+Wire Wire Line
+	4850 3300 4600 3300
+Wire Wire Line
+	4600 3300 2100 3300
+Wire Wire Line
+	8000 4000 8000 3900
+Wire Wire Line
+	8000 3900 8000 3700
 Connection ~ 7600 3300
 Connection ~ 5550 5050
 Wire Wire Line
 	5750 3500 5550 3500
 Wire Wire Line
-	5550 3500 5550 5150
+	5550 3500 5550 5050
+Wire Wire Line
+	5550 5050 5550 5150
 Wire Wire Line
 	6400 4050 6400 3900
 Connection ~ 6400 3900
@@ -84,7 +96,15 @@ Wire Wire Line
 	5250 3700 5250 3900
 Connection ~ 5250 3900
 Wire Wire Line
-	8600 3300 7050 3300
+	8600 3300 8350 3300
+Wire Wire Line
+	8350 3300 8000 3300
+Wire Wire Line
+	8000 3300 7600 3300
+Wire Wire Line
+	7600 3300 7250 3300
+Wire Wire Line
+	7250 3300 7050 3300
 Connection ~ 8350 3300
 Connection ~ 8000 3900
 Wire Wire Line
@@ -95,7 +115,17 @@ Wire Wire Line
 	7600 3700 7600 3900
 Connection ~ 7600 3900
 Wire Wire Line
-	4850 3900 8600 3900
+	4850 3900 5250 3900
+Wire Wire Line
+	5250 3900 6400 3900
+Wire Wire Line
+	6400 3900 7600 3900
+Wire Wire Line
+	7600 3900 8000 3900
+Wire Wire Line
+	8000 3900 8350 3900
+Wire Wire Line
+	8350 3900 8600 3900
 Connection ~ 8350 3900
 Text Notes 7250 4650 0    60   ~ 0
 regulator pin compatible with:\nLP3852 or\nMIC29150 (26v-input capable)
@@ -135,6 +165,9 @@ P 6400 3500
 F 0 "U4" H 6550 3300 60  0000 C CNN
 F 1 "MCP1826" H 6400 3850 60  0000 C CNN
 F 2 "DPAK5" H 6400 3500 60  0001 C CNN
+F 4 "MCP1826" H 6400 3500 60  0001 C CNN "mfg#"
+F 5 "MIC29150" H 6400 3500 60  0001 C CNN "Replacement 1"
+F 6 "LP3852" H 6400 3500 60  0001 C CNN "Replacement 2"
 	1    6400 3500
 	1    0    0    -1  
 $EndComp
@@ -204,7 +237,7 @@ $EndComp
 Text HLabel 4150 5050 0    60   Input ~ 0
 ENABLE
 Text Notes 7250 4300 0    60   ~ 0
-*C10: aluminum\n*C11: tantalum, close to the regulator
+*C10: tantalum
 $Comp
 L C C12
 U 1 1 4C2F52A3
@@ -307,7 +340,7 @@ L CAPAPOL C8
 U 1 1 4D893032
 P 4850 3500
 F 0 "C8" H 4900 3600 50  0000 L CNN
-F 1 "10uF" H 4900 3400 50  0000 L CNN
+F 1 "10uF cer" H 4900 3400 50  0000 L CNN
 F 2 "SM1210" V 1130 2600 60  0001 C CNN
 F 4 "Nichicon" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "UVZ1C100MDD" V 1130 2600 60  0001 C CNN "mfg#"
@@ -345,8 +378,8 @@ P 5250 3500
 F 0 "C9" H 5300 3600 50  0000 L CNN
 F 1 "0.1uF" H 5300 3400 50  0000 L CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "Murata" V 1130 2600 60  0001 C CNN "mfg"
-F 5 "GRM21BR71H104KA01L" V 1130 2600 60  0001 C CNN "mfg#"
+F 4 "GRM21BR71H104KA01L" V 1130 2600 60  0001 C CNN "mfg#"
+F 5 "Murata" V 1130 2600 60  0001 C CNN "mfg"
 F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
 F 7 "490-1666-2-ND" V 1130 2600 60  0001 C CNN "vend1#"
 F 8 "50v" V 1130 2600 60  0001 C CNN "Voltage"

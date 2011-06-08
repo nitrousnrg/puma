@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 26 Apr 2011 03:22:54 AM ART
+EESchema Schematic File Version 2  date Wed 08 Jun 2011 05:45:27 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 34 51
 Title "Puma board"
-Date "26 apr 2011"
+Date "8 jun 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -191,13 +191,13 @@ L CAPAPOL C2
 U 1 1 4C2F529E
 P 4850 3500
 F 0 "C2" H 4900 3600 50  0000 L CNN
-F 1 "10uF" H 4900 3400 50  0000 L CNN
+F 1 "10uF cer" H 4900 3400 50  0000 L CNN
 F 2 "SM1210" V 1130 2600 60  0001 C CNN
 F 4 "Nichicon" V 1130 2600 60  0001 C CNN "mfg"
 F 5 "UVZ1C100MDD" V 1130 2600 60  0001 C CNN "mfg#"
 F 6 "digikey" V 1130 2600 60  0001 C CNN "vend1"
 F 7 "493-1279-ND" V 1130 2600 60  0001 C CNN "vend1#"
-F 8 "16v" V 1130 2600 60  0001 C CNN "Voltate"
+F 8 "16v" V 1130 2600 60  0001 C CNN "Voltage"
 F 9 "20%" V 1130 2600 60  0001 C CNN "tol"
 F 10 "aluminum" V 1130 2600 60  0001 C CNN "construct"
 F 11 "other,more,stuff" V 1130 2600 60  0001 C CNN "misc"
