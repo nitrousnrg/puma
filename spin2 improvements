@@ -16,3 +16,4 @@
 49. tiny bdm header
 50. bit-bang BDM with FTDI?
 51. change PWM pinout
+52. change vref source to the big reg

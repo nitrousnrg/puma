@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 08 Jun 2011 05:45:27 PM ART
+EESchema Schematic File Version 2  date Sun 19 Jun 2011 11:20:22 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 15 51
 Title "Puma board"
-Date "8 jun 2011"
+Date "20 jun 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -42,6 +42,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 9150 3250 2    60   Input ~ 0
+5v_switched
 NoConn ~ 11000 4850
 Text HLabel 11000 5050 0    60   Input ~ 0
 5v_switched
@@ -257,9 +259,6 @@ Wire Wire Line
 	9850 3150 9150 3150
 Wire Wire Line
 	7000 2550 7000 1800
-Wire Wire Line
-	9150 3250 9950 3250
-Connection ~ 9950 3250
 Wire Wire Line
 	10500 5950 9150 5950
 Wire Wire Line

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 08 Jun 2011 05:45:27 PM ART
+EESchema Schematic File Version 2  date Sun 19 Jun 2011 11:20:23 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 44 51
 Title "Puma board"
-Date "8 jun 2011"
+Date "20 jun 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "MAP_input.sch"
@@ -42,25 +42,25 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 4900 1800
 Wire Wire Line
-	2400 2000 4550 2000
+	4900 2300 4900 1200
+Connection ~ 4150 1200
+Wire Wire Line
+	4150 1350 4150 1200
 Connection ~ 4150 2000
-Wire Wire Line
-	4550 2000 4550 1800
 Wire Wire Line
 	5550 1400 5250 1400
 Wire Wire Line
-	5250 1400 5250 1800
-Connection ~ 4900 1500
+	5250 1400 5250 2000
+Connection ~ 4900 1200
 Wire Wire Line
-	5550 1800 5350 1800
-Connection ~ 4700 1800
+	4900 1800 5550 1800
+Connection ~ 4700 2000
 Wire Wire Line
-	4700 1800 4700 2600
+	4700 2000 4700 2600
 Wire Wire Line
 	4700 2600 4950 2600
-Wire Wire Line
-	4900 1500 4900 2300
 Wire Wire Line
 	4900 2300 4950 2300
 Connection ~ 3800 2000
@@ -68,9 +68,7 @@ Connection ~ 3800 1600
 Connection ~ 3300 1600
 Connection ~ 3800 1200
 Wire Wire Line
-	2400 1200 4150 1200
-Wire Wire Line
-	5250 1800 4550 1800
+	5250 2000 2400 2000
 Connection ~ 3300 2000
 Wire Wire Line
 	4950 2450 4800 2450
@@ -78,14 +76,12 @@ Wire Wire Line
 	4800 2450 4800 1600
 Connection ~ 4800 1600
 Wire Wire Line
-	2400 1600 5550 1600
+	5550 1600 2400 1600
 Wire Wire Line
-	5350 1800 5350 1500
+	4900 1200 2400 1200
 Wire Wire Line
-	4150 1200 4150 1500
-Wire Wire Line
-	4150 1500 5350 1500
-Text Label 4550 1800 0    60   ~ 0
+	4150 1850 4150 2000
+Text Label 4550 2000 0    60   ~ 0
 map
 NoConn ~ 6850 1400
 NoConn ~ 6850 1600
@@ -137,19 +133,19 @@ $EndComp
 $Comp
 L R R134
 U 1 1 4C4AEFA3
-P 4150 1750
-F 0 "R134" V 4250 1750 50  0000 C CNN
-F 1 "68k" V 4150 1750 50  0000 C CNN
-F 2 "SM0805" V 1130 2600 60  0001 C CNN
-F 4 "Panasonic-ECG" V 2380 2650 60  0001 C CNN "mfg"
-F 5 "ERJ-6GEYJ684V" V 2380 2650 60  0001 C CNN "mfg#"
-F 6 "digikey" V 2380 2650 60  0001 C CNN "vend1"
-F 7 "P680KACT-ND" V 2380 2650 60  0001 C CNN "vend1#"
-F 8 ".125w" V 2380 2650 60  0001 C CNN "Power"
-F 9 "5%" V 2380 2650 60  0001 C CNN "tolerance"
-F 10 "metal oxide" V 2380 2650 60  0001 C CNN "construct"
-F 11 "other,more,stuff" V 2380 2650 60  0001 C CNN "misc"
-	1    4150 1750
+P 4150 1600
+F 0 "R134" V 4250 1600 50  0000 C CNN
+F 1 "68k" V 4150 1600 50  0000 C CNN
+F 2 "SM0805" V 1130 2450 60  0001 C CNN
+F 4 "Panasonic-ECG" V 2380 2500 60  0001 C CNN "mfg"
+F 5 "ERJ-6GEYJ684V" V 2380 2500 60  0001 C CNN "mfg#"
+F 6 "digikey" V 2380 2500 60  0001 C CNN "vend1"
+F 7 "P680KACT-ND" V 2380 2500 60  0001 C CNN "vend1#"
+F 8 ".125w" V 2380 2500 60  0001 C CNN "Power"
+F 9 "5%" V 2380 2500 60  0001 C CNN "tolerance"
+F 10 "metal oxide" V 2380 2500 60  0001 C CNN "construct"
+F 11 "other,more,stuff" V 2380 2500 60  0001 C CNN "misc"
+	1    4150 1600
 	1    0    0    -1  
 $EndComp
 Text HLabel 2400 1600 0    60   BiDi ~ 0

@@ -1,9 +1,9 @@
-Cmp-Mod V01 Created by CvPCB (2011-04-01)-testing date = Tue 26 Apr 2011 03:22:49 AM ART
+Cmp-Mod V01 Created by CvPCB (2011-05-06)-stable date = Wed 08 Jun 2011 06:21:32 PM ART
 
 BeginCmp
 TimeStamp = /4C2E1E53/4C2F529E;
 Reference = C2;
-ValeurCmp = 10uF;
+ValeurCmp = 10uF_cer;
 IdModule  = SM1210;
 EndCmp
 
@@ -31,7 +31,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4C2E1E55/4D893032;
 Reference = C8;
-ValeurCmp = 10uF;
+ValeurCmp = 10uF_cer;
 IdModule  = SM1210;
 EndCmp
 
@@ -640,7 +640,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4D80F957/4BF8F93C;
 Reference = C143;
-ValeurCmp = 10uF;
+ValeurCmp = 10uF_cer;
 IdModule  = SM0805;
 EndCmp
 
@@ -1275,6 +1275,13 @@ IdModule  = INDUCTOR_DR125;
 EndCmp
 
 BeginCmp
+TimeStamp = /4D80F957/4DEFDB30;
+Reference = L3;
+ValeurCmp = 1uHy;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
 TimeStamp = /48AA1F79;
 Reference = P2;
 ValeurCmp = CONN_1;
@@ -1459,27 +1466,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4CD76096;
 Reference = P100;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D170A78;
-Reference = P103;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D170AC0;
-Reference = P104;
-ValeurCmp = CONN_1;
-IdModule  = PINTST;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D170A98;
-Reference = P105;
 ValeurCmp = CONN_1;
 IdModule  = PINTST;
 EndCmp

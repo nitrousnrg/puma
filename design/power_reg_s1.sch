@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 08 Jun 2011 05:45:27 PM ART
+EESchema Schematic File Version 2  date Sun 19 Jun 2011 11:20:22 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 2 51
 Title "Puma board"
-Date "8 jun 2011"
+Date "20 jun 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "power regulator"
@@ -42,6 +42,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 5800 2300 0    60   ~ 0
+The input node of the SMPS is very\nnoisy, its not a good idea to use it.
+Text HLabel 6250 3000 2    60   BiDi ~ 0
+gnd
 Connection ~ 7550 4200
 Wire Wire Line
 	7750 4200 7250 4200
@@ -86,17 +90,14 @@ Connection ~ 6300 4600
 Connection ~ 3300 2600
 Wire Wire Line
 	3350 2600 3200 2600
-Connection ~ 6000 2600
 Wire Wire Line
-	6250 2600 5350 2600
+	6000 2600 5350 2600
 Connection ~ 4250 2600
 Connection ~ 3800 3000
 Wire Wire Line
 	3300 3000 6250 3000
 Connection ~ 4250 3000
 Connection ~ 5500 3000
-Wire Wire Line
-	6250 3000 6250 3050
 Connection ~ 6000 3000
 Connection ~ 4600 3000
 Connection ~ 3800 2600
@@ -108,10 +109,10 @@ Wire Wire Line
 	6650 4200 5650 4200
 Connection ~ 6300 4200
 $Comp
-L INDUCTOR L?
+L INDUCTOR L3
 U 1 1 4DEFDB30
 P 6950 4200
-F 0 "L?" V 6900 4200 40  0000 C CNN
+F 0 "L3" V 6900 4200 40  0000 C CNN
 F 1 "1uHy" V 7050 4200 40  0000 C CNN
 	1    6950 4200
 	0    1    1    0   
@@ -366,21 +367,9 @@ F 11 "other,more,stuff" V 3330 3100 60  0001 C CNN "Field8"
 	1    7550 4400
 	-1   0    0    -1  
 $EndComp
-$Comp
-L GND #PWR?
-U 1 1 4BF26D5A
-P 6250 3050
-AR Path="/4D57EDA9/4BF26D5A" Ref="#PWR?"  Part="1" 
-AR Path="/4C2E1E55/4BF26D5A" Ref="#PWR?"  Part="1" 
-AR Path="/4D80F957/4BF26D5A" Ref="#PWR010"  Part="1" 
-F 0 "#PWR010" H 6250 3050 30  0001 C CNN
-F 1 "GND" H 6250 2980 30  0001 C CNN
-	1    6250 3050
-	1    0    0    -1  
-$EndComp
 Text Label 4900 3000 0    60   ~ 0
 GND
-Text Label 5700 2600 0    60   ~ 0
+Text Label 6000 2600 0    60   ~ 0
 12V
 $Comp
 L INDUCTOR L?
@@ -445,12 +434,8 @@ F 11 "other,more,stuff" V -1270 1900 60  0001 C CNN "Field8"
 	1    6000 2800
 	-1   0    0    -1  
 $EndComp
-Text HLabel 6250 2600 2    60   Output ~ 0
-+12V
 Text HLabel 3200 2600 0    60   Input ~ 0
 12v batt
-Text HLabel 6250 3000 2    60   BiDi ~ 0
-gnd
 $Comp
 L DIODE D?
 U 1 1 486ECB4E

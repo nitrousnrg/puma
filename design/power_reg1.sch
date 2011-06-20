@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 08 Jun 2011 05:45:27 PM ART
+EESchema Schematic File Version 2  date Sun 19 Jun 2011 11:20:23 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 35 51
 Title "Puma board"
-Date "8 jun 2011"
+Date "20 jun 2011"
 Rev "A.07"
 Comp "diyefi.org"
 Comment1 "power_reg.sch"
@@ -43,29 +43,17 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	5750 3300 5350 3300
+	5750 3300 2100 3300
 Wire Wire Line
-	5350 3300 5250 3300
-Wire Wire Line
-	5250 3300 4850 3300
-Wire Wire Line
-	4850 3300 4600 3300
-Wire Wire Line
-	4600 3300 2100 3300
-Wire Wire Line
-	8000 4000 8000 3900
-Wire Wire Line
-	8000 3900 8000 3700
+	8000 4000 8000 3700
 Connection ~ 7600 3300
 Connection ~ 5550 5050
 Wire Wire Line
 	5750 3500 5550 3500
 Wire Wire Line
-	5550 3500 5550 5050
+	5550 3500 5550 5150
 Wire Wire Line
-	5550 5050 5550 5150
-Wire Wire Line
-	6400 4050 6400 3900
+	6400 3900 6400 4050
 Connection ~ 6400 3900
 Wire Wire Line
 	8350 3900 8350 3700
@@ -96,15 +84,7 @@ Wire Wire Line
 	5250 3700 5250 3900
 Connection ~ 5250 3900
 Wire Wire Line
-	8600 3300 8350 3300
-Wire Wire Line
-	8350 3300 8000 3300
-Wire Wire Line
-	8000 3300 7600 3300
-Wire Wire Line
-	7600 3300 7250 3300
-Wire Wire Line
-	7250 3300 7050 3300
+	8600 3300 7050 3300
 Connection ~ 8350 3300
 Connection ~ 8000 3900
 Wire Wire Line
@@ -112,20 +92,10 @@ Wire Wire Line
 Wire Wire Line
 	7050 3800 7050 3500
 Wire Wire Line
-	7600 3700 7600 3900
+	7600 3900 7600 3700
 Connection ~ 7600 3900
 Wire Wire Line
-	4850 3900 5250 3900
-Wire Wire Line
-	5250 3900 6400 3900
-Wire Wire Line
-	6400 3900 7600 3900
-Wire Wire Line
-	7600 3900 8000 3900
-Wire Wire Line
-	8000 3900 8350 3900
-Wire Wire Line
-	8350 3900 8600 3900
+	4850 3900 8600 3900
 Connection ~ 8350 3900
 Text Notes 7250 4650 0    60   ~ 0
 regulator pin compatible with:\nLP3852 or\nMIC29150 (26v-input capable)

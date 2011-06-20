@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 08 Jun 2011 05:45:27 PM ART
+EESchema Schematic File Version 2  date Sun 19 Jun 2011 11:20:22 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -32,9 +32,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 13 51
+Sheet 10 51
 Title "Puma board"
-Date "8 jun 2011"
+Date "20 jun 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -62,7 +62,7 @@ AR Path="/4CD74766/4CD742CA" Ref="#PWR018"  Part="1"
 AR Path="/4CD743EF/4CD742CA" Ref="#PWR019"  Part="1" 
 AR Path="/4CD743EC/4CD742CA" Ref="#PWR020"  Part="1" 
 AR Path="/4CD743DA/4CD742CA" Ref="#PWR021"  Part="1" 
-F 0 "#PWR019" H 4600 3450 30  0001 C CNN
+F 0 "#PWR022" H 4600 3450 30  0001 C CNN
 F 1 "GND" H 4600 3380 30  0001 C CNN
 	1    4600 3450
 	1    0    0    -1  
@@ -90,7 +90,7 @@ AR Path="/4CD74766/4CD742B5" Ref="D97"  Part="1"
 AR Path="/4CD743EF/4CD742B5" Ref="D96"  Part="1" 
 AR Path="/4CD743EC/4CD742B5" Ref="D95"  Part="1" 
 AR Path="/4CD743DA/4CD742B5" Ref="D94"  Part="1" 
-F 0 "D96" H 4600 3350 50  0000 C CNN
+F 0 "D104" H 4600 3350 50  0000 C CNN
 F 1 "5V1" H 4600 3150 40  0000 C CNN
 F 2 "SOD-123" H 4600 3250 60  0001 C CNN
 F 4 "Diodes Inc" V 1130 2600 60  0001 C CNN "mfg"
@@ -120,7 +120,7 @@ AR Path="/4CD74766/4CD742AE" Ref="R243"  Part="1"
 AR Path="/4CD743EF/4CD742AE" Ref="R242"  Part="1" 
 AR Path="/4CD743EC/4CD742AE" Ref="R241"  Part="1" 
 AR Path="/4CD743DA/4CD742AE" Ref="R240"  Part="1" 
-F 0 "R242" V 4230 2950 50  0000 C CNN
+F 0 "R250" V 4230 2950 50  0000 C CNN
 F 1 "1k" V 4150 2950 50  0000 C CNN
 F 2 "SM0805" V 1130 2600 60  0001 C CNN
 F 4 "Stackpole" V 1130 2600 60  0001 C CNN "mfg"

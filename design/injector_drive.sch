@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 08 Jun 2011 05:45:27 PM ART
+EESchema Schematic File Version 2  date Sun 19 Jun 2011 11:20:23 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -32,9 +32,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 20 51
+Sheet 33 51
 Title "Puma board"
-Date "8 jun 2011"
+Date "20 jun 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 "injector_drive.sch"
