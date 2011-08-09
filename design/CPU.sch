@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 19 Jun 2011 11:20:22 PM ART
+EESchema Schematic File Version 2  date Wed 29 Jun 2011 05:09:47 PM ART
 LIBS:power
 LIBS:freeEMS_lib
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 15 51
 Title "Puma board"
-Date "20 jun 2011"
+Date "29 jun 2011"
 Rev "v0.02"
 Comp "diyefi.org"
 Comment1 ""
@@ -380,9 +380,9 @@ F 1 "1.6k" V 10250 7250 50  0000 C CNN
 	1    10250 7250
 	0    1    1    0   
 $EndComp
-Text Label 9900 7350 2    60   ~ 0
-SCLK
 Text Label 9900 7250 2    60   ~ 0
+SCLK
+Text Label 9900 7350 2    60   ~ 0
 SDA
 $Comp
 L CONN_10 P71
